@@ -1,0 +1,779 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>艾宾浩斯 单词抗遗忘</title>
+  <style>
+    :root {
+      --bg: #f4efe6;
+      --paper: #fffdf8;
+      --ink: #1f2933;
+      --muted: #6b7280;
+      --line: #e7dfd2;
+      --accent: #c05621;
+      --accent-2: #1e4e8c;
+      --ok: #2f855a;
+      --shadow: 0 10px 30px rgba(31, 41, 51, .08);
+      --radius: 16px;
+      --dock-h: 72px;
+      --font: "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif;
+    }
+    * { box-sizing: border-box; }
+    html, body { margin: 0; min-height: 100%; }
+    body {
+      font-family: var(--font);
+      background:
+        radial-gradient(1200px 500px at 10% -10%, #fde7d2 0%, transparent 55%),
+        radial-gradient(900px 400px at 100% 0%, #dbeafe 0%, transparent 50%),
+        var(--bg);
+      color: var(--ink);
+      padding-bottom: calc(var(--dock-h) + 20px);
+    }
+    header.app {
+      position: sticky; top: 0; z-index: 40;
+      backdrop-filter: blur(12px);
+      background: rgba(244, 239, 230, .88);
+      border-bottom: 1px solid var(--line);
+    }
+    .wrap { max-width: 1180px; margin: 0 auto; padding: 16px 20px; }
+    .title-row { display: flex; align-items: flex-end; justify-content: space-between; gap: 16px; flex-wrap: wrap; }
+    h1 { margin: 0; font-size: 26px; letter-spacing: .02em; }
+    h1 small { display: block; margin-top: 4px; font-size: 13px; font-weight: 500; color: var(--muted); }
+    .stats { font-size: 13px; color: var(--muted); }
+    .toolbar { display: flex; gap: 10px; flex-wrap: wrap; margin-top: 14px; align-items: center; }
+    .search {
+      flex: 1; min-width: 200px; height: 42px; border: 1px solid var(--line);
+      border-radius: 999px; padding: 0 16px 0 40px; background: var(--paper) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='18' height='18' fill='none' stroke='%236b7280' stroke-width='2' viewBox='0 0 24 24'%3E%3Ccircle cx='11' cy='11' r='7'/%3E%3Cpath d='M20 20l-3-3'/%3E%3C/svg%3E") 14px center no-repeat;
+      font-size: 14px; outline: none;
+    }
+    .search:focus { border-color: var(--accent-2); box-shadow: 0 0 0 3px rgba(30,78,140,.12); }
+    .dims { display: flex; background: #efe7da; border-radius: 999px; padding: 3px; }
+    .dims button {
+      border: 0; background: transparent; height: 36px; padding: 0 14px;
+      border-radius: 999px; font-size: 13px; cursor: pointer; color: var(--muted);
+    }
+    .dims button.on { background: #fff; color: var(--ink); font-weight: 600; box-shadow: var(--shadow); }
+    .libbar, .pepbar { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 12px; align-items: center; }
+    .libbar .lab, .pepbar .lab { font-size: 12px; color: var(--muted); margin-right: 2px; }
+    .hint { margin: 10px 0 0; font-size: 12px; color: var(--muted); }
+    .chips {
+      display: flex; gap: 8px; flex-wrap: wrap; padding: 12px 0 4px;
+    }
+    .chip {
+      flex: 0 0 auto; border: 1px solid var(--line); background: var(--paper);
+      border-radius: 999px; padding: 7px 12px; font-size: 13px; cursor: pointer;
+      display: flex; align-items: center; gap: 6px; color: var(--ink);
+    }
+    .chip .dot { width: 8px; height: 8px; border-radius: 50%; }
+    .chip .n { color: var(--muted); font-variant-numeric: tabular-nums; }
+    .chip.on { border-color: transparent; color: #fff; background: var(--accent-2); }
+    .chip.on .n { color: rgba(255,255,255,.85); }
+    .grid {
+      display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      gap: 12px; padding: 8px 0 24px;
+    }
+    .card {
+      background: var(--paper); border-radius: var(--radius); box-shadow: var(--shadow);
+      padding: 14px 14px 12px; display: grid; grid-template-columns: 28px 1fr auto;
+      gap: 10px; align-items: start; border: 1px solid transparent; cursor: pointer;
+      position: relative; overflow: hidden;
+    }
+    .card::before {
+      content: ""; position: absolute; left: 0; top: 0; bottom: 0; width: 4px;
+      background: var(--cat, #c05621);
+    }
+    .card.sel { border-color: #90cdf4; background: #eef6ff; }
+    .card.playing { outline: 2px solid #f6ad55; }
+    .chk {
+      width: 22px; height: 22px; border: 2px solid #cbd5e0; border-radius: 6px;
+      margin-top: 3px; display: grid; place-items: center; background: #fff;
+    }
+    .card.sel .chk { background: var(--accent-2); border-color: var(--accent-2); color: #fff; }
+    .head { font-size: 18px; font-weight: 700; line-height: 1.25; }
+    .meta { margin-top: 2px; font-size: 12px; color: #718096; }
+    .cn { margin-top: 6px; font-size: 14px; color: #374151; }
+    .play {
+      width: 36px; height: 36px; border: 0; border-radius: 50%;
+      background: #edf2f7; cursor: pointer; display: grid; place-items: center;
+    }
+    .play:hover, .play.on { background: #feebc8; }
+    .play svg { width: 16px; height: 16px; }
+    .empty { text-align: center; color: var(--muted); padding: 60px 20px; }
+    .dock {
+      position: fixed; left: 0; right: 0; bottom: 0; z-index: 50;
+      background: rgba(255,253,248,.96); border-top: 1px solid var(--line);
+      backdrop-filter: blur(10px);
+    }
+    .dock-inner {
+      max-width: 1180px; margin: 0 auto; min-height: var(--dock-h);
+      display: flex; align-items: center; justify-content: space-between;
+      gap: 12px; padding: 10px 20px; flex-wrap: wrap;
+    }
+    .sel-info b { color: var(--accent); }
+    .btns { display: flex; gap: 8px; flex-wrap: wrap; }
+    button.btn {
+      height: 40px; border: 0; border-radius: 999px; padding: 0 16px;
+      font-size: 14px; cursor: pointer; font-weight: 600;
+    }
+    .btn.primary { background: var(--accent-2); color: #fff; }
+    .btn.primary:disabled { background: #a0aec0; color: #fff; opacity: 1; }
+    .btn.ghost { background: #efe7da; color: var(--ink); }
+    .btn:disabled { opacity: .45; cursor: not-allowed; }
+    .modal {
+      position: fixed; inset: 0; background: rgba(17,24,39,.55); z-index: 80;
+      display: none; align-items: center; justify-content: center; padding: 20px;
+    }
+    .modal.show { display: flex; }
+    .panel {
+      background: #fff; border-radius: 20px; max-width: 1080px; width: 100%;
+      max-height: 92vh; overflow: auto; padding: 18px; box-shadow: var(--shadow);
+    }
+    .panel h2 { margin: 0 0 8px; font-size: 18px; }
+    .panel p { margin: 0 0 12px; color: var(--muted); font-size: 13px; }
+    #sheetPreview {
+      width: 100%; background: #f7f7f7; border: 1px solid var(--line); border-radius: 8px;
+    }
+    #sheetCanvas { display: none; }
+    @media print {
+      body * { visibility: hidden; }
+      #printImg, #printImg * { visibility: visible; }
+      #printImg { position: absolute; left: 0; top: 0; width: 100%; }
+      @page { size: A4 landscape; margin: 8mm; }
+    }
+  </style>
+</head>
+<body>
+  <header class="app">
+    <div class="wrap">
+      <div class="title-row">
+        <h1>艾宾浩斯 单词抗遗忘<small>KET / PET / 人教版PEP · 听读 · 默写纸</small></h1>
+        <div class="stats" id="stats"></div>
+      </div>
+      <div class="libbar" id="libbar"></div>
+      <div class="pepbar" id="pepbar" hidden></div>
+      <div class="toolbar">
+        <input class="search" id="q" placeholder="搜索：apple、a*、t_n、*的　*任意　_单字" />
+        <div class="dims" id="dims">
+          <button data-dim="topic" class="on" id="dimTopic">主题</button>
+          <button data-dim="pos">词性</button>
+          <button data-dim="letter">字母</button>
+        </div>
+        <div class="dims" id="accent">
+          <button data-accent="1" class="on">英音</button>
+          <button data-accent="2">美音</button>
+        </div>
+      </div>
+      <p class="hint">搜索支持 *（任意字符）和 _（单个字符）。KET / PET 按主题筛选，PEP 按 Unit 单元筛选。点喇叭听发音；勾选 1–10 个单词后生成默写纸。</p>
+      <div class="chips" id="chips"></div>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <div class="grid" id="grid"></div>
+    <div class="empty" id="empty" hidden>没有匹配的单词</div>
+  </main>
+
+  <div class="dock">
+    <div class="dock-inner">
+      <div class="sel-info">已选 <b id="selCount">0</b> / 10 <span id="selNames" style="color:#718096;font-size:12px"></span></div>
+      <div class="btns">
+        <button class="btn ghost" id="btnClear">清空</button>
+        <button class="btn ghost" id="btnBlank">空白模板</button>
+        <button class="btn primary" id="btnSheet" disabled>生成默写纸</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal" id="modal">
+    <div class="panel">
+      <h2>艾宾浩斯默写纸</h2>
+      <p>A4 横向 · 30 / 15 / 7 / 4 / 2 / 1 天复习格。可下载图片或直接打印。</p>
+      <div class="btns" style="margin-bottom:12px">
+        <button class="btn primary" id="btnDownload">下载图片</button>
+        <button class="btn ghost" id="btnPrint">打印</button>
+        <button class="btn ghost" id="btnClose">关闭</button>
+      </div>
+      <img id="sheetPreview" alt="默写纸预览" />
+    </div>
+  </div>
+  <canvas id="sheetCanvas" width="1754" height="1240"></canvas>
+  <img id="printImg" alt="" style="display:none" />
+
+  <script>
+    window.EBB = /*__EBB_DATA__*/;
+  </script>
+  <script>
+    const EBB = window.EBB;
+    const PRINT_MAX = 10;
+    const DAYS = [30, 15, 7, 4, 2, 1];
+    const LS = "ebbwords.v1";
+    const state = {
+      lib: "ket",
+      pepGrade: 3,
+      pepTerm: 1,
+      dim: "topic",
+      cat: "all",
+      q: "",
+      selected: new Map(),
+      playingId: null,
+      accent: "1"
+    };
+    let audioEl = null;
+    let DATA = EBB.libs.ket;
+
+    const $ = (id) => document.getElementById(id);
+    let groupMap = {};
+
+    function loadPref() {
+      try {
+        const raw = localStorage.getItem(LS);
+        if (!raw) return;
+        const p = JSON.parse(raw);
+        if (p.lib) state.lib = p.lib;
+        if (p.pepGrade) state.pepGrade = p.pepGrade;
+        if (p.pepTerm) state.pepTerm = p.pepTerm;
+        if (p.accent) state.accent = String(p.accent);
+        if (p.dim) state.dim = p.dim;
+      } catch (e) {}
+    }
+    function savePref() {
+      try {
+        localStorage.setItem(LS, JSON.stringify({
+          lib: state.lib, pepGrade: state.pepGrade, pepTerm: state.pepTerm,
+          accent: state.accent, dim: state.dim
+        }));
+      } catch (e) {}
+    }
+    function pepKey() {
+      return state.pepGrade + "-" + state.pepTerm;
+    }
+    function currentBook() {
+      if (state.lib === "pep") return EBB.pep[pepKey()] || EBB.pep["3-1"];
+      return EBB.libs[state.lib] || EBB.libs.ket;
+    }
+    function syncBook() {
+      DATA = currentBook();
+      groupMap = Object.fromEntries((DATA.groups || []).map((g) => [g.id, g]));
+      const want = DATA.kind === "unit" ? "topic" : (state.dim === "topic" || state.dim === "pos" || state.dim === "letter" ? state.dim : "topic");
+      if (DATA.kind === "unit" && state.dim !== "topic" && state.dim !== "pos" && state.dim !== "letter") state.dim = "topic";
+      $("dimTopic").textContent = DATA.kind === "unit" ? "单元" : "主题";
+    }
+
+    function topicName(id) {
+      return (groupMap[id] && groupMap[id].name) || id;
+    }
+    function topicColor(id) {
+      return (groupMap[id] && groupMap[id].color) || "#a0aec0";
+    }
+
+    function catsForDim() {
+      if (state.dim === "topic") {
+        return DATA.groups
+          .map((g) => ({ id: g.id, name: g.name, color: g.color, n: DATA.words.filter((w) => w.t === g.id).length }))
+          .filter((x) => x.n);
+      }
+      if (state.dim === "pos") {
+        const map = {};
+        DATA.words.forEach((w) => { map[w.g] = (map[w.g] || 0) + 1; });
+        return Object.keys(map).sort().map((k) => ({ id: k, name: k, color: "#2b6cb0", n: map[k] }));
+      }
+      const letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ#".split("");
+      return letters.map((k) => ({
+        id: k, name: k, color: "#805ad5",
+        n: DATA.words.filter((w) => w.l === k).length
+      })).filter((x) => x.n);
+    }
+
+    function escapeRegex(s) {
+      return String(s).replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+    }
+    function globToRegExp(pattern) {
+      if (!/[*_?]/.test(pattern)) return null;
+      let out = "";
+      for (const ch of pattern) {
+        if (ch === "*") out += ".*";
+        else if (ch === "_" || ch === "?") out += ".";
+        else out += escapeRegex(ch);
+      }
+      return new RegExp("^" + out + "$", "i");
+    }
+    function matchQ(w, q) {
+      if (!q) return true;
+      q = q.replace(/＊/g, "*").replace(/＿/g, "_").replace(/？/g, "?");
+      const fields = [w.w, w.p, w.i, w.c, w.a];
+      const blob = fields.join(" ").toLowerCase();
+      const re = globToRegExp(q);
+      if (!re) return blob.includes(q);
+      return fields.some((f) => re.test(String(f || "")));
+    }
+
+    function filtered() {
+      const q = state.q.trim().toLowerCase();
+      return DATA.words.filter((w) => {
+        if (!matchQ(w, q)) return false;
+        if (state.cat === "all") return true;
+        if (state.dim === "topic") return w.t === state.cat;
+        if (state.dim === "pos") return w.g === state.cat;
+        return w.l === state.cat;
+      });
+    }
+
+    function renderChips() {
+      const cats = catsForDim();
+      const total = DATA.words.length;
+      const allOn = state.cat === "all" ? " on" : "";
+      let html = `<button class="chip${allOn}" data-cat="all"><span>全部</span><span class="n">${total}</span></button>`;
+      cats.forEach((c) => {
+        const on = state.cat === c.id ? " on" : "";
+        html += `<button class="chip${on}" data-cat="${c.id}" style="${state.cat === c.id ? "background:" + c.color : ""}">
+          <span class="dot" style="background:${c.color}"></span>
+          <span>${c.name}</span><span class="n">${c.n}</span>
+        </button>`;
+      });
+      $("chips").innerHTML = html;
+    }
+
+    function iconPlay() {
+      return `<svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>`;
+    }
+
+    function renderGrid() {
+      const list = filtered();
+      const book = DATA.name || "";
+      $("stats").textContent = (book ? book + " · " : "") + `共 ${DATA.words.length} 词 · 当前 ${list.length} 词`;
+      $("empty").hidden = list.length > 0;
+      const box = $("grid");
+      box.innerHTML = list.map((w) => {
+        const sel = state.selected.has(w.id) ? " sel" : "";
+        const playing = state.playingId === w.id ? " playing" : "";
+        const meta = [w.p ? `(${w.p})` : "", w.i ? `[ ${w.i} ]` : ""].filter(Boolean).join(" ");
+        const tag = topicName(w.t);
+        const extra = [meta, tag].filter(Boolean).join(" · ");
+        return `<article class="card${sel}${playing}" data-id="${w.id}" style="--cat:${topicColor(w.t)}">
+          <div class="chk">${state.selected.has(w.id) ? "✓" : ""}</div>
+          <div>
+            <div class="head">${escapeHtml(w.w)}</div>
+            <div class="meta">${escapeHtml(extra)}</div>
+            <div class="cn">${escapeHtml(w.c || "（无释义）")}</div>
+          </div>
+          <button class="play${playing ? " on" : ""}" data-play="${w.id}" title="播放发音">${iconPlay()}</button>
+        </article>`;
+      }).join("");
+    }
+
+    function escapeHtml(s) {
+      return String(s || "").replace(/[&<>"']/g, (ch) => ({
+        "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;"
+      }[ch]));
+    }
+
+    function playWord(w) {
+      state.playingId = w.id;
+      renderGrid();
+      if (audioEl) {
+        audioEl.pause();
+        audioEl = null;
+      }
+      const url = "https://dict.youdao.com/dictvoice?type=" + state.accent + "&audio=" + encodeURIComponent(w.a || w.w);
+      const a = new Audio(url);
+      audioEl = a;
+      const fallback = () => {
+        try {
+          speechSynthesis.cancel();
+          const u = new SpeechSynthesisUtterance(w.a || w.w);
+          u.lang = "en-GB";
+          speechSynthesis.speak(u);
+        } catch (e) {}
+      };
+      a.onended = () => { if (state.playingId === w.id) { state.playingId = null; renderGrid(); } };
+      a.onerror = fallback;
+      a.play().catch(fallback);
+    }
+
+    function clearSelection() {
+      state.selected.clear();
+      $("selCount").textContent = "0";
+      $("selNames").textContent = "";
+      $("btnSheet").disabled = true;
+    }
+
+    function pepTermsForGrade(grade) {
+      const keys = Object.keys(EBB.pep || {}).filter((k) => k.startsWith(grade + "-"));
+      return keys.map((k) => {
+        const book = EBB.pep[k];
+        return { term: book.term, name: book.termName, key: k };
+      }).sort((a, b) => a.term - b.term);
+    }
+
+    function renderLibbar() {
+      const libs = [
+        { id: "ket", name: "KET" },
+        { id: "pet", name: "PET" },
+        { id: "pep", name: "PEP" }
+      ];
+      $("libbar").innerHTML = `<span class="lab">词库</span><div class="dims">` + libs.map((x) => {
+        const on = state.lib === x.id ? " on" : "";
+        return `<button data-lib="${x.id}" class="${on}">${x.name}</button>`;
+      }).join("") + `</div>`;
+    }
+
+    function renderPepbar() {
+      const bar = $("pepbar");
+      if (state.lib !== "pep") {
+        bar.hidden = true;
+        bar.innerHTML = "";
+        return;
+      }
+      bar.hidden = false;
+      const grades = [...new Set(Object.keys(EBB.pep).map((k) => Number(k.split("-")[0])))].sort((a, b) => a - b);
+      let html = `<span class="lab">年级</span><div class="dims">`;
+      grades.forEach((g) => {
+        html += `<button data-grade="${g}" class="${state.pepGrade === g ? "on" : ""}">${g}年级</button>`;
+      });
+      html += `</div>`;
+      const terms = pepTermsForGrade(state.pepGrade);
+      if (!terms.some((t) => t.term === state.pepTerm) && terms.length) state.pepTerm = terms[0].term;
+      html += `<span class="lab">册</span><div class="dims">`;
+      terms.forEach((t) => {
+        html += `<button data-term="${t.term}" class="${state.pepTerm === t.term ? "on" : ""}">${t.name}</button>`;
+      });
+      html += `</div>`;
+      bar.innerHTML = html;
+    }
+
+    function applyBook() {
+      if (state.lib === "pep") {
+        if (!EBB.pep[pepKey()]) {
+          const terms = pepTermsForGrade(state.pepGrade);
+          if (terms.length) state.pepTerm = terms[0].term;
+        }
+      }
+      syncBook();
+      state.cat = "all";
+      clearSelection();
+      [...$("dims").querySelectorAll("button")].forEach((b) => b.classList.toggle("on", b.dataset.dim === state.dim));
+      [...$("accent").querySelectorAll("button")].forEach((b) => b.classList.toggle("on", b.dataset.accent === state.accent));
+      renderLibbar();
+      renderPepbar();
+      renderChips();
+      renderGrid();
+      savePref();
+    }
+
+    $("libbar").addEventListener("click", (e) => {
+      const btn = e.target.closest("button[data-lib]");
+      if (!btn) return;
+      state.lib = btn.dataset.lib;
+      state.dim = "topic";
+      applyBook();
+    });
+    $("pepbar").addEventListener("click", (e) => {
+      const g = e.target.closest("button[data-grade]");
+      const t = e.target.closest("button[data-term]");
+      if (g) {
+        state.pepGrade = Number(g.dataset.grade);
+        applyBook();
+      } else if (t) {
+        state.pepTerm = Number(t.dataset.term);
+        applyBook();
+      }
+    });
+
+    function toggleSelect(id) {
+      if (state.selected.has(id)) state.selected.delete(id);
+      else {
+        if (state.selected.size >= PRINT_MAX) {
+          alert("最多选择 10 个单词");
+          return;
+        }
+        const w = DATA.words.find((x) => x.id === id);
+        if (w) state.selected.set(id, w);
+      }
+      $("selCount").textContent = String(state.selected.size);
+      $("selNames").textContent = [...state.selected.values()].map((w) => w.w).join("、");
+      $("btnSheet").disabled = state.selected.size < 1;
+      renderGrid();
+    }
+
+    $("chips").addEventListener("click", (e) => {
+      const btn = e.target.closest("[data-cat]");
+      if (!btn) return;
+      state.cat = btn.dataset.cat;
+      renderChips();
+      renderGrid();
+    });
+    $("dims").addEventListener("click", (e) => {
+      const btn = e.target.closest("button[data-dim]");
+      if (!btn) return;
+      state.dim = btn.dataset.dim;
+      state.cat = "all";
+      [...$("dims").querySelectorAll("button")].forEach((b) => b.classList.toggle("on", b === btn));
+      savePref();
+      renderChips();
+      renderGrid();
+    });
+    $("accent").addEventListener("click", (e) => {
+      const btn = e.target.closest("button[data-accent]");
+      if (!btn) return;
+      state.accent = btn.dataset.accent;
+      [...$("accent").querySelectorAll("button")].forEach((b) => b.classList.toggle("on", b === btn));
+      savePref();
+    });
+    $("q").addEventListener("input", (e) => {
+      state.q = e.target.value || "";
+      renderGrid();
+    });
+    $("grid").addEventListener("click", (e) => {
+      const play = e.target.closest("[data-play]");
+      if (play) {
+        const w = DATA.words.find((x) => x.id === Number(play.dataset.play));
+        if (w) playWord(w);
+        e.stopPropagation();
+        return;
+      }
+      const card = e.target.closest(".card");
+      if (card) toggleSelect(Number(card.dataset.id));
+    });
+    $("btnClear").onclick = () => {
+      clearSelection();
+      renderGrid();
+    };
+    $("btnSheet").onclick = () => generateSheet(false);
+    $("btnBlank").onclick = () => generateSheet(true);
+    $("btnClose").onclick = () => $("modal").classList.remove("show");
+    $("modal").addEventListener("click", (e) => {
+      if (e.target.id === "modal") $("modal").classList.remove("show");
+    });
+
+    /* ---- 艾宾浩斯默写纸（对齐 poemCloud dictSheetDraw） ---- */
+    const LINE_COLOR = "#4C4C4C";
+    const LINE_W = 1;
+    const VLINE_COLOR = "#d2d2d2";
+    const TITLE_FONT = 'bold 26px "Microsoft YaHei","PingFang SC",sans-serif';
+    const CN_FONT = '18px "Microsoft YaHei","PingFang SC",sans-serif';
+    const META_FONT = '13px "Segoe UI",Arial,sans-serif';
+
+    function addDays(base, n) {
+      const d = new Date(base.getFullYear(), base.getMonth(), base.getDate());
+      d.setDate(d.getDate() + n);
+      return d;
+    }
+    function fmtHeader(dayN, base) {
+      const d = addDays(base, dayN - 1);
+      return `${d.getMonth() + 1}月${d.getDate()}日（${dayN}天）`;
+    }
+    function fourLineMetrics(h) {
+      const innerGap = Math.min(h * 0.16, 18);
+      const setH = innerGap * 3;
+      const padY = (h - setH) / 2;
+      return { padY, innerGap, setH };
+    }
+    function fourLineYs(y, h) {
+      const m = fourLineMetrics(h);
+      const ys = [0, 1, 2, 3].map((i) => y + m.padY + m.innerGap * i);
+      return Object.assign({}, m, { ys });
+    }
+    function strokeHLine(ctx, x0, x1, y, color, dash) {
+      ctx.save();
+      ctx.strokeStyle = color;
+      ctx.lineWidth = LINE_W;
+      ctx.setLineDash(dash || []);
+      ctx.beginPath();
+      const yy = Math.round(y) + 0.5;
+      ctx.moveTo(x0, yy);
+      ctx.lineTo(x1, yy);
+      ctx.stroke();
+      ctx.restore();
+    }
+    function strokeVLine(ctx, x, y0, y1, color, dash) {
+      ctx.save();
+      ctx.strokeStyle = color;
+      ctx.lineWidth = LINE_W;
+      ctx.setLineDash(dash || []);
+      ctx.beginPath();
+      const xx = Math.round(x) + 0.5;
+      ctx.moveTo(xx, y0);
+      ctx.lineTo(xx, y1);
+      ctx.stroke();
+      ctx.restore();
+    }
+    function drawFourLineGrid(ctx, x, y, w, h) {
+      const { ys } = fourLineYs(y, h);
+      const xs = x + 8, xe = x + w - 8;
+      strokeHLine(ctx, xs, xe, ys[0], LINE_COLOR);
+      strokeHLine(ctx, xs, xe, ys[1], LINE_COLOR, [4, 3]);
+      strokeHLine(ctx, xs, xe, ys[2], LINE_COLOR, [4, 3]);
+      strokeHLine(ctx, xs, xe, ys[3], LINE_COLOR);
+    }
+    function fillCentered(ctx, text, cx, cy, font, color) {
+      ctx.save();
+      ctx.font = font;
+      ctx.fillStyle = color;
+      ctx.textAlign = "center";
+      ctx.textBaseline = "middle";
+      ctx.fillText(String(text || ""), cx, cy);
+      ctx.restore();
+    }
+    function wrapText(ctx, text, maxWidth, maxLines) {
+      const src = String(text || "");
+      if (!src) return [];
+      const chars = Array.from(src);
+      const lines = [];
+      let cur = "";
+      let truncated = false;
+      for (let i = 0; i < chars.length; i += 1) {
+        const ch = chars[i];
+        const test = cur + ch;
+        if (!cur || ctx.measureText(test).width <= maxWidth) { cur = test; continue; }
+        lines.push(cur);
+        cur = ch;
+        if (lines.length >= maxLines) { truncated = true; cur = ""; break; }
+      }
+      if (cur && lines.length < maxLines) lines.push(cur);
+      else if (cur) truncated = true;
+      if (truncated && lines.length) {
+        let s = lines[lines.length - 1];
+        while (s.length && ctx.measureText(s + "…").width > maxWidth) s = s.slice(0, -1);
+        lines[lines.length - 1] = s + "…";
+      }
+      return lines;
+    }
+    function fillWrappedCenter(ctx, text, cx, top, height, font, color, maxWidth, maxLines, lineHeight) {
+      ctx.save();
+      ctx.font = font;
+      ctx.fillStyle = color;
+      ctx.textAlign = "center";
+      ctx.textBaseline = "middle";
+      const lines = wrapText(ctx, text, maxWidth, maxLines);
+      const total = lines.length * lineHeight;
+      let y = top + Math.max(0, (height - total) / 2) + lineHeight / 2;
+      lines.forEach((ln) => { ctx.fillText(ln, cx, y); y += lineHeight; });
+      ctx.restore();
+    }
+    function formatCnMeta(word) {
+      if (!word) return "";
+      const parts = [];
+      if (word.p) parts.push("(" + word.p + ")");
+      if (word.i) parts.push("[ " + word.i + " ]");
+      return parts.join(" ");
+    }
+    function drawCnPrompt(ctx, word, x, y, cnW, ys3) {
+      strokeHLine(ctx, x + 8, x + cnW - 8, ys3, LINE_COLOR);
+      if (!word) return;
+      const maxW = cnW - 16;
+      const cx = x + cnW / 2;
+      const meaning = String(word.c || "").trim();
+      const meta = formatCnMeta(word);
+      const contentTop = y + 4;
+      const areaH = Math.max(18, ys3 - 6 - contentTop);
+      if (meta) {
+        const metaH = 28;
+        const meaningH = Math.max(18, areaH - metaH);
+        if (meaning) fillWrappedCenter(ctx, meaning, cx, contentTop, meaningH, CN_FONT, "#222222", maxW, 2, 20);
+        fillWrappedCenter(ctx, meta, cx, contentTop + meaningH, metaH, META_FONT, "#555555", maxW, 2, 15);
+      } else if (meaning) {
+        fillWrappedCenter(ctx, meaning, cx, contentTop, areaH, CN_FONT, "#222222", maxW, 3, 20);
+      }
+    }
+
+    function drawSheet(canvas, words, width, height, blank) {
+      canvas.width = width;
+      canvas.height = height;
+      const ctx = canvas.getContext("2d");
+      ctx.fillStyle = "#ffffff";
+      ctx.fillRect(0, 0, width, height);
+      const list = blank ? [] : (words || []).slice(0, 10);
+      const margin = 40, headerH = 52;
+      const startX = margin, startY = margin;
+      const tableW = width - margin * 2;
+      const cnW = Math.floor(tableW * 0.24);
+      const colW = (tableW - cnW) / 6;
+      const widths = [cnW].concat(Array(6).fill(colW));
+      const today = new Date();
+      const cy = startY + headerH / 2;
+      let x = startX;
+      for (let i = 0; i < 7; i += 1) {
+        if (i === 0) fillCentered(ctx, "中文", x + widths[i] / 2, cy, TITLE_FONT, "#111111");
+        else if (blank) {
+          const dayN = DAYS[i - 1];
+          const suffix = "（" + dayN + "日）";
+          ctx.font = TITLE_FONT;
+          const suffixW = ctx.measureText(suffix).width;
+          const ulineW = ctx.measureText("10月03日").width;
+          const gap = 6;
+          const total = ulineW + gap + suffixW;
+          const left = x + (widths[i] - total) / 2;
+          const baseline = cy + 8;
+          strokeHLine(ctx, left, left + ulineW, baseline, LINE_COLOR);
+          ctx.save();
+          ctx.font = TITLE_FONT;
+          ctx.fillStyle = "#111111";
+          ctx.textAlign = "left";
+          ctx.textBaseline = "alphabetic";
+          ctx.fillText(suffix, left + ulineW + gap, baseline);
+          ctx.restore();
+        } else {
+          fillCentered(ctx, fmtHeader(DAYS[i - 1], today), x + widths[i] / 2, cy, TITLE_FONT, "#111111");
+        }
+        x += widths[i];
+      }
+      const bodyTop = startY + headerH + 8;
+      const bodyH = height - margin - bodyTop;
+      const rowH = bodyH / 10;
+      for (let r = 0; r < 10; r += 1) {
+        const y = bodyTop + r * rowH;
+        x = startX;
+        const { padY, setH, ys } = fourLineYs(y, rowH);
+        if (blank) strokeHLine(ctx, x + 8, x + cnW - 8, ys[3], LINE_COLOR);
+        else drawCnPrompt(ctx, list[r], x, y, cnW, ys[3]);
+        x += cnW;
+        for (let c = 0; c < 6; c += 1) {
+          drawFourLineGrid(ctx, x, y, colW, rowH);
+          strokeVLine(ctx, x, y + padY, y + padY + setH, VLINE_COLOR, [1, 10]);
+          x += colW;
+        }
+      }
+    }
+
+    function sheetFileName() {
+      const d = new Date();
+      const mm = String(d.getMonth() + 1).padStart(2, "0");
+      const dd = String(d.getDate()).padStart(2, "0");
+      return "艾宾浩斯单词默写_" + (DATA.short || "word") + "_" + mm + dd + ".png";
+    }
+
+    let lastDataUrl = "";
+    function generateSheet(blank) {
+      const words = blank ? [] : [...state.selected.values()];
+      if (!blank && !words.length) return;
+      const canvas = $("sheetCanvas");
+      drawSheet(canvas, words, 1754, 1240, blank);
+      lastDataUrl = canvas.toDataURL("image/png");
+      $("sheetPreview").src = lastDataUrl;
+      $("printImg").src = lastDataUrl;
+      $("modal").classList.add("show");
+    }
+    $("btnDownload").onclick = () => {
+      if (!lastDataUrl) return;
+      const a = document.createElement("a");
+      a.href = lastDataUrl;
+      a.download = sheetFileName();
+      a.click();
+    };
+    $("btnPrint").onclick = () => {
+      if (!lastDataUrl) return;
+      const w = window.open("", "_blank");
+      if (!w) { window.print(); return; }
+      w.document.write(`<!DOCTYPE html><html><head><title>打印默写纸</title>
+        <style>@page{size:A4 landscape;margin:8mm}html,body{margin:0}img{width:100%;display:block}</style>
+        </head><body><img src="${lastDataUrl}" /></body></html>`);
+      w.document.close();
+      w.onload = () => { w.focus(); w.print(); };
+    };
+
+    loadPref();
+    applyBook();
+  </script>
+</body>
+</html>

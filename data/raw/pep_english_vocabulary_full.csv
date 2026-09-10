@@ -1,0 +1,902 @@
+edition,grade,term,unit id,unit name,sn,english,chinese,phonetic
+1,1,1,1,School,1,book,书,/bʊk/
+1,1,1,1,School,2,pencil,铅笔,/'pensl/
+1,1,1,1,School,3,ruler,尺子,/'ru:lə(r)/
+1,1,1,1,School,4,schoolbag,书包,/'sku:lbæg/
+1,1,1,1,School,5,teacher,教师,/'ti:tʃə(r)/
+1,1,1,1,School,6,I,我,/aɪ/
+1,1,1,1,School,7,a,一个,/eɪ; ə/
+1,1,1,1,School,8,an,一个（后跟元音）,/æn; ən/
+1,1,1,1,School,9,have,有,/hæv; həv/
+1,1,1,2,Face,1,ear,耳朵,/ɪə/, /ɪr/
+1,1,1,2,Face,2,eye,眼睛,/aɪ/
+1,1,1,2,Face,3,face,脸,/feɪs/
+1,1,1,2,Face,4,mouth,嘴,/maʊθ/
+1,1,1,2,Face,5,nose,鼻子,/nəʊz/
+1,1,1,2,Face,6,is,是（第三人称单数）,/ɪz/
+1,1,1,2,Face,7,my,我的,/maɪ/
+1,1,1,2,Face,8,this,这；这个,/ðɪs/
+1,1,1,3,Animals,1,bird,鸟,/bɜ:(r)d/
+1,1,1,3,Animals,2,cat,猫,/kæt/
+1,1,1,3,Animals,3,dog,狗,/dɒg/, /dɔ:g/
+1,1,1,3,Animals,4,it,它,/ɪt/
+1,1,1,3,Animals,5,monkey,猴子,/'mʌŋki/
+1,1,1,3,Animals,6,tiger,老虎,/'taɪgə(r)/
+1,1,1,3,Animals,7,what,什么,/wɒt/, /wɑ:t/
+1,1,1,4,Numbers,1,eight,八,/eɪt/
+1,1,1,4,Numbers,2,five,五,/faɪv/
+1,1,1,4,Numbers,3,four,四,/fɔ:(r)/
+1,1,1,4,Numbers,4,nine,九,/naɪn/
+1,1,1,4,Numbers,5,one,一,/wʌn/
+1,1,1,4,Numbers,6,seven,七,/'sevn/
+1,1,1,4,Numbers,7,six,六,/sɪks/
+1,1,1,4,Numbers,8,ten,十,/ten/
+1,1,1,4,Numbers,9,three,三,/θri:/
+1,1,1,4,Numbers,10,two,二,/tu:/
+1,1,1,4,Numbers,11,are,是（复数；第二人称单数）,/ɑ:(r); ə(r)/
+1,1,1,4,Numbers,12,how,多少,/haʊ/
+1,1,1,4,Numbers,13,many,许多,/'meni/
+1,1,1,4,Numbers,14,there,（表示存在或发生）,/ðeə(r)/, /ðer/
+1,1,1,5,Colours,1,black,黑色；黑色的,/blæk/
+1,1,1,5,Colours,2,blue,蓝色；蓝色的,/blu:/
+1,1,1,5,Colours,3,green,绿色；绿色的,/gri:n/
+1,1,1,5,Colours,4,red,红色；红色的,/red/
+1,1,1,5,Colours,5,yellow,黄色；黄色的,/'jeləʊ/
+1,1,1,5,Colours,6,colour,颜色,/'kʌlə/
+1,1,1,6,Fruit,1,apple,苹果,/'æpl/
+1,1,1,6,Fruit,2,banana,香蕉,/bə'nɑ:nə/, /bə'nænə/
+1,1,1,6,Fruit,3,orange,橙色；橙色的,/'ɒrɪndʒ/, /'ɔ:rɪndʒ/
+1,1,1,6,Fruit,4,pear,梨,/peə(r)/, /per/
+1,1,1,6,Fruit,5,do,做；干,/du:, də/
+1,1,1,6,Fruit,6,like,像……那样,/laɪk/
+1,1,1,6,Fruit,7,no,不,/nəʊ/
+1,1,1,6,Fruit,8,yes,是的,/jes/
+1,1,1,6,Fruit,9,you,你；你们,/ju:/
+1,1,2,1,Classroom,1,blackboard,黑板,/'blækbɔ:(r)d/
+1,1,2,1,Classroom,2,chair,椅子,/tʃeə(r)/, /tʃer/
+1,1,2,1,Classroom,3,desk,书桌,/desk/
+1,1,2,1,Classroom,4,in,在......里,/ɪn/
+1,1,2,1,Classroom,5,on,在......上,/ɒn/, /ɑ:n/
+1,1,2,1,Classroom,6,under,在......下面,/'ʌndə(r)/
+1,1,2,1,Classroom,7,the,放在名词前，特指人、事或物,/ði; ðə/
+1,1,2,1,Classroom,8,where,哪里,/weə(r)/, /wer/
+1,1,2,2,Room,1,bed,床,/bed/
+1,1,2,2,Room,2,behind,在（或向）……后面,/bɪ'haɪnd/
+1,1,2,2,Room,3,box,盒；箱,/bɒks/, /bɑ:ks/
+1,1,2,2,Room,4,door,门,/dɔ:(r)/
+1,1,2,2,Room,5,light,电灯,/laɪt/
+1,1,2,2,Room,6,near,距离近,/nɪə/, /nɪr/
+1,1,2,3,Toys,1,ball,球,/bɔ:l/
+1,1,2,3,Toys,2,bear,熊,/beə/, /ber/
+1,1,2,3,Toys,3,car,小汽车,/kɑ:(r)/
+1,1,2,3,Toys,4,doll,洋娃娃,/dɑ:l/; /dɒl/
+1,1,2,3,Toys,5,plane,飞机,/pleɪn/
+1,1,2,3,Toys,6,train,火车,/treɪn/
+1,1,2,3,Toys,7,can,能,/kæn; kən/
+1,1,2,3,Toys,8,sorry,对不起，抱歉,/'sɒri/
+1,1,2,3,Toys,9,sure,当然,/ʃʊə(r)/, /ʃʊr/
+1,1,2,4,Food,1,chicken,鸡肉,/'tʃɪkɪn/
+1,1,2,4,Food,2,egg,蛋,/eg/
+1,1,2,4,Food,3,fish,鱼,/fɪʃ/
+1,1,2,4,Food,4,noodles,面条,/'nu:dlz/
+1,1,2,4,Food,5,rice,米饭,/raɪs/
+1,1,2,4,Food,6,vegetable,蔬菜,/'vedʒtəbl/
+1,1,2,4,Food,7,and,和；与,/ænd; ənd/
+1,1,2,4,Food,8,hungry,饿的,/'hʌŋgri/
+1,1,2,4,Food,9,want,要；想要,/wɒnt/, /wɑ:nt/
+1,1,2,5,Drink,1,juice,果汁,/dʒu:s/
+1,1,2,5,Drink,2,milk,牛奶,/mɪlk/
+1,1,2,5,Drink,3,tea,茶；茶水,/ti:/
+1,1,2,5,Drink,4,water,水,/'wɔ:tə/, /'wɑ:tər/
+1,1,2,5,Drink,5,thanks,感谢,/θæŋks/
+1,1,2,5,Drink,6,thirsty,渴的；口渴的,/θɜ:(r)sti/
+1,1,2,6,Clothes,1,T-shirt,T恤,/'ti: ʃɜ:(r)t/
+1,1,2,6,Clothes,2,dress,连衣裙,/dres/
+1,1,2,6,Clothes,3,shirt,（尤指男士）衬衫,/ʃɜ:(r)t/
+1,1,2,6,Clothes,4,shorts,短裤,/ʃɔ:(r)ts/
+1,1,2,6,Clothes,5,skirt,女裙,/skɜ:(r)t/
+1,1,2,6,Clothes,6,socks,短袜（复数）,/sɒks/
+1,1,2,6,Clothes,7,your,你（们）的,/jɔ:(r)/
+1,2,1,1,My Family,1,brother,兄；弟,/'brʌðə(r)/
+1,2,1,1,My Family,2,father,父亲；爸爸,/'fɑ:ðə(r)/
+1,2,1,1,My Family,3,grandfather,（外）祖父,/'grænfɑ:ðə(r)/
+1,2,1,1,My Family,4,grandmother,（外）祖母,/'grænmʌðə(r)/
+1,2,1,1,My Family,5,mother,母亲；妈妈,/'mʌðə(r)/
+1,2,1,1,My Family,6,sister,姐；妹,/'sɪstə(r)/
+1,2,1,1,My Family,7,he,他,/hi:/
+1,2,1,1,My Family,8,she,她,/ʃi:/
+1,2,1,1,My Family,9,who,谁,/hu:/
+1,2,1,2,Boys and Girls,1,boy,男孩,/bɔɪ/
+1,2,1,2,Boys and Girls,2,classmate,同班同学,/'klɑ:smeɪt/, /'klæsmeɪt/
+1,2,1,2,Boys and Girls,3,friend,朋友,/frend/
+1,2,1,2,Boys and Girls,4,girl,女孩,/gɜ:(r)l/
+1,2,1,2,Boys and Girls,5,man,男人,/mæn/
+1,2,1,2,Boys and Girls,6,woman,女人,/'wʊmən/
+1,2,1,2,Boys and Girls,7,her,她的,/hɜ:(r)/
+1,2,1,2,Boys and Girls,8,his,他的,/hɪz/
+1,2,1,2,Boys and Girls,9,look,看；瞧,/lʊk/
+1,2,1,2,Boys and Girls,10,name,名字,/neɪm/
+1,2,1,2,Boys and Girls,11,or,或者,/ɔ:(r)/
+1,2,1,3,My Friends,1,big,大的,/bɪg/
+1,2,1,3,My Friends,2,handsome,英俊的,/'hænsəm/
+1,2,1,3,My Friends,3,pretty,美观的；精致的,/'prɪti/
+1,2,1,3,My Friends,4,short,矮的；短的,/ʃɔ:(r)t/
+1,2,1,3,My Friends,5,tall,高的,/tɔ:l/
+1,2,1,3,My Friends,6,thin,瘦的,/θɪn/
+1,2,1,3,My Friends,7,does,（助动词）,/dʌz/
+1,2,1,3,My Friends,8,new,新的,/nju:/
+1,2,1,4,In the Community,1,bookshop,书店,/'bʊk,ʃɒp/
+1,2,1,4,In the Community,2,hospital,医院,/'hɒspɪtl/, /'hɑ:spɪtl/
+1,2,1,4,In the Community,3,park,公园,/pɑ:(r)k/
+1,2,1,4,In the Community,4,school,学校,/sku:l/
+1,2,1,4,In the Community,5,supermarket,超市,/'su:pə(r),mɑ:(r)kət/
+1,2,1,4,In the Community,6,zoo,动物园,/zu:/
+1,2,1,4,In the Community,7,go,去,/gəʊ/
+1,2,1,4,In the Community,8,to,向，朝,/tu:; tə/
+1,2,1,5,In the Park,1,boat,小船,/bəʊt/
+1,2,1,5,In the Park,2,flower,花；花朵,/'flaʊə(r)/
+1,2,1,5,In the Park,3,grass,草坪,/grɑ:s/, /græs/
+1,2,1,5,In the Park,4,hill,山丘；小山,/hɪl/
+1,2,1,5,In the Park,5,lake,湖；湖泊,/leɪk/
+1,2,1,5,In the Park,6,tree,树；树木；乔木,/tri:/
+1,2,1,6,Happy Holidays,1,Christmas,圣诞节,/'krɪsməs/
+1,2,1,6,Happy Holidays,2,Christmas tree,圣诞树
+1,2,1,6,Happy Holidays,3,Father Christmas,圣诞老人
+1,2,1,6,Happy Holidays,4,New Year,新年
+1,2,1,6,Happy Holidays,5,card,贺卡；明信片,/kɑ:(r)d/
+1,2,1,6,Happy Holidays,6,present,礼物,/'preznt/
+1,2,1,6,Happy Holidays,7,for,表示接受某事物的人,/fɔ:(r); fə(r)/
+1,2,1,6,Happy Holidays,8,happy,高兴的,/'hæpi/
+1,2,1,6,Happy Holidays,9,here,这里；在这里,/hɪə(r)/, /hɪr/
+1,2,1,6,Happy Holidays,10,merry,高兴的；愉快的,/'meri/
+1,2,1,6,Happy Holidays,11,thank,谢谢；感谢,/θæŋk/
+1,2,1,6,Happy Holidays,12,too,太；过于,/tu:/
+1,2,2,1,Playtime,1,fly a kite,放风筝
+1,2,2,1,Playtime,2,make a model plane,做飞机模型
+1,2,2,1,Playtime,3,make a snowman,堆雪人
+1,2,2,1,Playtime,4,play football,踢足球
+1,2,2,1,Playtime,5,ride a bike,骑自行车
+1,2,2,1,Playtime,6,swim,游泳,/swɪm/
+1,2,2,1,Playtime,7,can't,不能，不会
+1,2,2,2,Weather,1,cloudy,阴天的；多云的,/'klaʊdi/
+1,2,2,2,Weather,2,rainy,阴雨的；多雨的,/'reɪni/
+1,2,2,2,Weather,3,snowy,下雪（多）的,/'snəʊi/
+1,2,2,2,Weather,4,sunny,阳光充足的,/'sʌni/
+1,2,2,2,Weather,5,umbrella,伞；雨伞,/ʌm'brelə/
+1,2,2,2,Weather,6,windy,多风的；风大的,/'wɪndi/
+1,2,2,2,Weather,7,let's,让我们……
+1,2,2,2,Weather,8,weather,天气,/'weðə(r)/
+1,2,2,2,Weather,9,wow,哇；呀,/waʊ/
+1,2,2,3,Seasons,1,autumn,秋天,/'ɔ:təm/
+1,2,2,3,Seasons,2,cold,寒冷的；冷的,/kəʊld/
+1,2,2,3,Seasons,3,cool,凉的；凉爽的,/ku:l/
+1,2,2,3,Seasons,4,hot,热的；烫的,/hɒt/, /hɑ:t/
+1,2,2,3,Seasons,5,spring,春天,/sprɪŋ/
+1,2,2,3,Seasons,6,summer,夏天,/'sʌmə(r)/
+1,2,2,3,Seasons,7,warm,温暖的；暖和的,/wɔ:(r)m/
+1,2,2,3,Seasons,8,winter,冬天,/'wɪntə(r)/
+1,2,2,3,Seasons,9,favourite,特别喜爱的,/'feɪvərət/
+1,2,2,3,Seasons,10,season,季节,/'si:zn/
+1,2,2,4,Time,1,eleven,十一,/ɪ'levən/
+1,2,2,4,Time,2,fifteen,十五,/,fɪf'ti:n/
+1,2,2,4,Time,3,fifty,五十,/'fɪfti/
+1,2,2,4,Time,4,forty,四十,/'fɔ:(r)ti/
+1,2,2,4,Time,5,fourteen,十四,/,fɔ:'ti:n/
+1,2,2,4,Time,6,thirteen,十三,/,θɜ:(r)'ti:n/
+1,2,2,4,Time,7,thirty,三十,/θɜ:(r)ti/
+1,2,2,4,Time,8,twelve,十二,/twelv/
+1,2,2,4,Time,9,twenty,二十,/'twenti/
+1,2,2,4,Time,10,playtime,游戏时间，课件休息时间,/'pleɪtaɪm/
+1,2,2,4,Time,11,time,时间,/taɪm/
+1,2,2,5,My Day,1,eat breakfast,吃早饭
+1,2,2,5,My Day,2,eat dinner,吃晚饭
+1,2,2,5,My Day,3,eat lunch,吃午饭
+1,2,2,5,My Day,4,get up,起床,/'get ʌp/
+1,2,2,5,My Day,5,go home,回家
+1,2,2,5,My Day,6,go to bed,上床睡觉
+1,2,2,5,My Day,7,go to school,去上学
+1,2,2,5,My Day,8,at,（后面接邮件地址）,/æt/
+1,2,2,5,My Day,9,every day,每天
+1,2,2,5,My Day,10,when,什么时候；何时,/wen/
+1,2,2,6,My Week,1,Friday,星期五,/'fraɪdeɪ/
+1,2,2,6,My Week,2,Monday,星期一,/'mʌndeɪ/
+1,2,2,6,My Week,3,Saturday,星期六,/'sætə(r)deɪ/
+1,2,2,6,My Week,4,Sunday,星期日,/'sʌndeɪ/
+1,2,2,6,My Week,5,Thursday,星期四,/'θɜ:(r)zdeɪ/
+1,2,2,6,My Week,6,Tuesday,星期二,/'tju:zdeɪ/, /'tu:zdeɪ/
+1,2,2,6,My Week,7,Wednesday,星期三,/'wenzdeɪ/
+1,2,2,6,My Week,8,today,今天,/tə'deɪ/
+1,3,1,1,Myself,1,my,我的,/maɪ/
+1,3,1,1,Myself,2,your,你（们）的,/jɔ:(r)/
+1,3,1,1,Myself,3,name,名字,/neɪm/
+1,3,1,1,Myself,4,new,新的,/nju:/
+1,3,1,1,Myself,5,old,老的；年纪大的,/əʊld/
+1,3,1,1,Myself,6,year,年,/jɪə/, /jɪr/
+1,3,1,1,Myself,7,age,年龄,/eɪdʒ/
+1,3,1,1,Myself,8,class,班；班级,/klɑ:s/, /klæs/
+1,3,1,1,Myself,9,Dear,（用于信函抬头前）亲爱的,/dɪə(r)/
+1,3,1,1,Myself,10,grade,年级,/greɪd/
+1,3,1,1,Myself,11,how old,多大年龄
+1,3,1,2,My Body,1,ear,耳朵,/ɪə/, /ɪr/
+1,3,1,2,My Body,2,eye,眼睛,/aɪ/
+1,3,1,2,My Body,3,face,脸,/feɪs/
+1,3,1,2,My Body,4,mouth,嘴,/maʊθ/
+1,3,1,2,My Body,5,nose,鼻子,/nəʊz/
+1,3,1,2,My Body,6,arm,胳膊,/ɑ:(r)m/
+1,3,1,2,My Body,7,body,身体,/'bɒdi/, /'bɑ:di/
+1,3,1,2,My Body,8,feet,脚（复数）,/fi:t/
+1,3,1,2,My Body,9,foot,脚,/fʊt/
+1,3,1,2,My Body,10,hair,头发,/heə/, /her/
+1,3,1,2,My Body,11,hand,手,/hænd/
+1,3,1,2,My Body,12,head,头,/hed/
+1,3,1,2,My Body,13,leg,腿,/leg/
+1,3,1,2,My Body,14,afternoon,下午,/,ɑ:ftə'nu:n/, /,æftər'nu:n/
+1,3,1,2,My Body,15,bad,邪恶的；坏的,/bæd/
+1,3,1,2,My Body,16,bite,咬,/baɪt/
+1,3,1,2,My Body,17,help,帮助,/help/
+1,3,1,2,My Body,18,hurt,（使）受伤,/hɜ:(r)t/
+1,3,1,2,My Body,19,kick,踢,/kɪk/
+1,3,1,2,My Body,20,morning,早晨,/'mɔ:(r)nɪŋ/
+1,3,1,2,My Body,21,summary,总结，摘要,/'sʌməri/
+1,3,1,2,My Body,22,the matter,麻烦事，困难；毛病
+1,3,1,2,My Body,23,tongue,舌头,/tʌŋ/
+1,3,1,3,Food,1,chicken,鸡肉,/'tʃɪkɪn/
+1,3,1,3,Food,2,egg,蛋,/eg/
+1,3,1,3,Food,3,fish,鱼,/fɪʃ/
+1,3,1,3,Food,4,noodles,面条,/'nu:dlz/
+1,3,1,3,Food,5,rice,米饭,/raɪs/
+1,3,1,3,Food,6,for,表示接受某事物的人,/fɔ:(r); fə(r)/
+1,3,1,3,Food,7,bread,面包,/bred/
+1,3,1,3,Food,8,cake,蛋糕,/keɪk/
+1,3,1,3,Food,9,fruit,水果,/fru:t/
+1,3,1,3,Food,10,ice-cream,冰淇淋,/,aɪs 'kri:m/
+1,3,1,3,Food,11,meat,肉,/mi:t/
+1,3,1,3,Food,12,potato,马铃薯；土豆,/pə'teɪtəʊ/
+1,3,1,3,Food,13,tomato,西红柿,/tə'mɑ:təʊ/, /tə'meɪtəʊ/
+1,3,1,3,Food,14,vegetables,蔬菜,/'vedʒtəblz/
+1,3,1,3,Food,15,buy,买,/baɪ/
+1,3,1,3,Food,16,cola,可乐,/'kəʊlə/
+1,3,1,3,Food,17,shopping list,购物单
+1,3,1,4,Pets,1,bird,鸟,/bɜ:(r)d/
+1,3,1,4,Pets,2,cat,猫,/kæt/
+1,3,1,4,Pets,3,dog,狗,/dɒg/, /dɔ:g/
+1,3,1,4,Pets,4,monkey,猴子,/'mʌŋki/
+1,3,1,4,Pets,5,tiger,老虎,/'taɪgə(r)/
+1,3,1,4,Pets,6,chicken,鸡肉,/'tʃɪkɪn/
+1,3,1,4,Pets,7,fish,鱼,/fɪʃ/
+1,3,1,4,Pets,8,big,大的,/bɪg/
+1,3,1,4,Pets,9,short,矮的；短的,/ʃɔ:(r)t/
+1,3,1,4,Pets,10,duck,鸭子,/dʌk/
+1,3,1,4,Pets,11,long,长的,/lɒŋ/, /lɔ:ŋ/
+1,3,1,4,Pets,12,pet,宠物,/pet/
+1,3,1,4,Pets,13,rabbit,兔子,/'ræbɪt/
+1,3,1,4,Pets,14,small,小的,/smɔ:l/
+1,3,1,4,Pets,15,snake,蛇,/sneɪk/
+1,3,1,4,Pets,16,turtle,乌龟,/'tɜ:tl/
+1,3,1,4,Pets,17,dance,跳舞,/dɑ:ns/, /dæns/
+1,3,1,4,Pets,18,look for,寻找
+1,3,1,4,Pets,19,tail,尾巴,/teɪl/
+1,3,1,5,Clothes,1,T-shirt,T恤,/'ti: ʃɜ:(r)t/
+1,3,1,5,Clothes,2,dress,连衣裙,/dres/
+1,3,1,5,Clothes,3,shirt,（尤指男士）衬衫,/ʃɜ:(r)t/
+1,3,1,5,Clothes,4,shorts,短裤,/ʃɔ:(r)ts/
+1,3,1,5,Clothes,5,skirt,女裙,/skɜ:(r)t/
+1,3,1,5,Clothes,6,socks,短袜（复数）,/sɒks/
+1,3,1,5,Clothes,7,cap,帽子,/kæp/
+1,3,1,5,Clothes,8,coat,外衣；大衣,/kəʊt/
+1,3,1,5,Clothes,9,gloves,手套,/glʌvz/
+1,3,1,5,Clothes,10,jacket,夹克衫,/'dʒækɪt/
+1,3,1,5,Clothes,11,shoes,鞋子（复数）,/'ʃu:z/
+1,3,1,5,Clothes,12,sweater,毛衣,/'swetə(r)/
+1,3,1,5,Clothes,13,trousers,裤子；长裤,/'traʊzə(r)z/
+1,3,1,5,Clothes,14,look forward to,盼望，期待
+1,3,1,5,Clothes,15,should,（常用于纠正别人）应该，应当,/ʃʊd; ʃəd/
+1,3,1,5,Clothes,16,soon,不久，很快,/su:n/
+1,3,1,5,Clothes,17,wear,戴,/weə/, /wer/
+1,3,1,5,Clothes,18,week,周,/wi:k/
+1,3,1,6,Birthdays,1,April,四月,/'eɪprəl/
+1,3,1,6,Birthdays,2,August,八月,/'ɔ:gəst/
+1,3,1,6,Birthdays,3,December,十二月,/dɪ'sembə(r)/
+1,3,1,6,Birthdays,4,February,二月,/'februəri/, /'febjueri/
+1,3,1,6,Birthdays,5,January,一月,/'dʒænjuəri/, /'dʒænjueri/
+1,3,1,6,Birthdays,6,July,七月,/dʒu'laɪ/
+1,3,1,6,Birthdays,7,June,六月,/dʒu:n/
+1,3,1,6,Birthdays,8,March,三月,/mɑ:(r)tʃ/
+1,3,1,6,Birthdays,9,May,五月,/meɪ/
+1,3,1,6,Birthdays,10,November,十一月,/nəʊ'vembə(r)/
+1,3,1,6,Birthdays,11,October,十月,/ɒk'təʊbə/, /ɑ:k'təʊbər/
+1,3,1,6,Birthdays,12,September,九月,/sep'tembə(r)/
+1,3,1,6,Birthdays,13,birthday,生日,/'bɜ:(r)θdeɪ/
+1,3,1,6,Birthdays,14,delicious,美味的；可口的,/dɪ'lɪʃəs/
+1,3,1,6,Birthdays,15,first,（1st）第一的,/fɜ:(r)st/
+1,3,1,6,Birthdays,16,party,聚会；派对,/'pɑ:(r)ti/
+1,3,2,1,School Subjects,1,Chinese,中文,/tʃaɪ'ni:z/
+1,3,2,1,School Subjects,2,English,英语,/'ɪŋglɪʃ/
+1,3,2,1,School Subjects,3,PE,体育,/,pi: 'i:/
+1,3,2,1,School Subjects,4,science,科学,/'saɪəns/
+1,3,2,1,School Subjects,5,art,美术,/ɑ:(r)t/
+1,3,2,1,School Subjects,6,computer class,计算机课
+1,3,2,1,School Subjects,7,maths,数学,/mæθs/
+1,3,2,1,School Subjects,8,music,音乐,/'mju:zɪk/
+1,3,2,1,School Subjects,9,that,那；那个,/ðæt/
+1,3,2,1,School Subjects,10,we,我们,/wi:/
+1,3,2,2,My School,1,blackboard,黑板,/'blækbɔ:(r)d/
+1,3,2,2,My School,2,chair,椅子,/tʃeə(r)/, /tʃer/
+1,3,2,2,My School,3,desk,书桌,/desk/
+1,3,2,2,My School,4,first,（1st）第一的,/fɜ:(r)st/
+1,3,2,2,My School,5,classroom,教室,/'klɑ:sru:m/, /'klæsru:m/
+1,3,2,2,My School,6,floor,地板,/flɔ:(r)/
+1,3,2,2,My School,7,library,图书馆,/'laɪbrəri/, /'laɪbreri/
+1,3,2,2,My School,8,playground,操场,/'pleɪ,graʊnd/
+1,3,2,2,My School,9,second,（2nd）第二的,/'sekənd/
+1,3,2,2,My School,10,third,（3rd）第三的,/θɜ:(r)d/
+1,3,2,2,My School,11,toilet,厕所，洗手间,/'tɔɪlət/
+1,3,2,2,My School,12,our,我们的,/ɑ:(r), 'aʊə(r)/
+1,3,2,2,My School,13,room,房间,/ru:m/
+1,3,2,2,My School,14,they,他们,/ðeɪ/
+1,3,2,3,After School Activities,1,fly a kite,放风筝
+1,3,2,3,After School Activities,2,make a model plane,做飞机模型
+1,3,2,3,After School Activities,3,make a snowman,堆雪人
+1,3,2,3,After School Activities,4,play football,踢足球
+1,3,2,3,After School Activities,5,ride a bike,骑自行车
+1,3,2,3,After School Activities,6,swim,游泳,/swɪm/
+1,3,2,3,After School Activities,7,dance,跳舞,/dɑ:ns/, /dæns/
+1,3,2,3,After School Activities,8,after school,放学后
+1,3,2,3,After School Activities,9,draw pictures,画画
+1,3,2,3,After School Activities,10,play chess,下棋
+1,3,2,3,After School Activities,11,play sports,做体育运动
+1,3,2,3,After School Activities,12,read books,看书
+1,3,2,3,After School Activities,13,sing songs,唱歌
+1,3,2,3,After School Activities,14,be back,回来
+1,3,2,3,After School Activities,15,really,（表示兴趣或惊讶）真的,/'ri:əli/
+1,3,2,3,After School Activities,16,tomorrow,明天,/tə'mɒrəʊ/, /tə'mɑ:rəʊ/
+1,3,2,3,After School Activities,17,wake up,叫醒
+1,3,2,4,My Family,1,brother,兄；弟,/'brʌðə(r)/
+1,3,2,4,My Family,2,father,父亲；爸爸,/'fɑ:ðə(r)/
+1,3,2,4,My Family,3,grandfather,（外）祖父,/'grænfɑ:ðə(r)/
+1,3,2,4,My Family,4,grandmother,（外）祖母,/'grænmʌðə(r)/
+1,3,2,4,My Family,5,mother,母亲；妈妈,/'mʌðə(r)/
+1,3,2,4,My Family,6,sister,姐；妹,/'sɪstə(r)/
+1,3,2,4,My Family,7,handsome,英俊的,/'hænsəm/
+1,3,2,4,My Family,8,aunt,姑母；姨母,/ɑ:nt/, /ænt/
+1,3,2,4,My Family,9,beautiful,美丽的,/'bju:tɪfl/
+1,3,2,4,My Family,10,cousin,同辈表亲（或堂亲）,/'kʌzn/
+1,3,2,4,My Family,11,family,家；家庭,/'fæməli/
+1,3,2,4,My Family,12,uncle,舅父；叔父；伯父；姑父；姨夫,/'ʌŋkl/
+1,3,2,4,My Family,13,OK,好；行,/əʊ'keɪ/
+1,3,2,4,My Family,14,know,知道；了解,/nəʊ/
+1,3,2,4,My Family,15,lost,丢失（的过去式）,/lɒst/, /lɑ:st/
+1,3,2,4,My Family,16,much,很多地；非常,/mʌtʃ/
+1,3,2,4,My Family,17,water bottle,水瓶
+1,3,2,4,My Family,18,welcome,欢迎,/'welkəm/
+1,3,2,5,Family Activities,1,cleaning the room,正在打扫房间
+1,3,2,5,Family Activities,2,cooking dinner,正在做饭
+1,3,2,5,Family Activities,3,feeding the fish,正在喂鱼
+1,3,2,5,Family Activities,4,listening to music,（正在）听音乐
+1,3,2,5,Family Activities,5,walking the dog,正在遛狗
+1,3,2,5,Family Activities,6,watching TV,正在看电视
+1,3,2,5,Family Activities,7,watering the plants,正在给植物浇水
+1,3,2,5,Family Activities,8,children,儿童（的复数）,/'tʃɪldrən/
+1,3,2,5,Family Activities,9,everyone,每人,/'evriwʌn/
+1,3,2,5,Family Activities,10,in one hour,一小时之后
+1,3,2,5,Family Activities,11,play with,与……玩耍
+1,3,2,5,Family Activities,12,run,跑；奔跑,/rʌn/
+1,3,2,6,My home,1,bed,床,/bed/
+1,3,2,6,My home,2,box,盒；箱,/bɒks/, /bɑ:ks/
+1,3,2,6,My home,3,door,门,/dɔ:(r)/
+1,3,2,6,My home,4,light,电灯,/laɪt/
+1,3,2,6,My home,5,bathroom,浴室；洗手间,/'bɑ:θru:m/, /'bæθru:m/
+1,3,2,6,My home,6,bedroom,卧室,/'bedru:m/
+1,3,2,6,My home,7,dining room,餐厅
+1,3,2,6,My home,8,home,家,/həʊm/
+1,3,2,6,My home,9,kitchen,厨房,/'kɪtʃɪn/
+1,3,2,6,My home,10,living room,客厅；起居室,/'lɪvɪŋ/
+1,3,2,6,My home,11,study,书房,/'stʌdi/
+1,3,2,6,My home,12,for rent,供出租
+1,3,2,6,My home,13,sofa,长沙发,/'səʊfə/
+1,4,1,1,Sports and Games,1,father,父亲；爸爸,/'fɑ:ðə(r)/
+1,4,1,1,Sports and Games,2,friend,朋友,/frend/
+1,4,1,1,Sports and Games,3,swim,游泳,/swɪm/
+1,4,1,1,Sports and Games,4,get up,起床,/'get ʌp/
+1,4,1,1,Sports and Games,5,What about...?,……怎么样？,
+1,4,1,1,Sports and Games,6,basketball,篮球,/'bɑ:skɪtbɔ:l/, /'bæskɪbɔ:l/
+1,4,1,1,Sports and Games,7,be good at,擅长,
+1,4,1,1,Sports and Games,8,interesting,有趣的,/'ɪntrəstɪŋ/
+1,4,1,1,Sports and Games,9,jumping rope,跳绳,
+1,4,1,1,Sports and Games,10,often,时常；常常,/'ɒfn/, /'ɔ:fn/
+1,4,1,1,Sports and Games,11,ping-pong,乒乓球,/'pɪŋ pɒŋ/
+1,4,1,1,Sports and Games,12,roller skating,滑旱冰,
+1,4,1,1,Sports and Games,13,running,跑步,/'rʌnɪŋ/
+1,4,1,1,Sports and Games,14,late,晚；迟,/leɪt/
+1,4,1,2,On the Weekend,1,near,距离近,/nɪə/, /nɪr/
+1,4,1,2,On the Weekend,2,Saturday,星期六,/'sætə(r)deɪ/
+1,4,1,2,On the Weekend,3,climb a hill,爬山,
+1,4,1,2,On the Weekend,4,day,一天；一日,/deɪ/
+1,4,1,2,On the Weekend,5,fun,有趣的,/fʌn/
+1,4,1,2,On the Weekend,6,go fishing,去钓鱼,
+1,4,1,2,On the Weekend,7,go to a drawing club,去绘画俱乐部,
+1,4,1,2,On the Weekend,8,go to the cinema,看电影,
+1,4,1,2,On the Weekend,9,on the weekend,在周末,
+1,4,1,2,On the Weekend,10,pick fruit,采摘水果,
+1,4,1,2,On the Weekend,11,play computer games,玩电脑游戏,
+1,4,1,2,On the Weekend,12,visit one's grandparents,看望（外）祖父母,
+1,4,1,2,On the Weekend,13,always,总是；一直,/'ɔ:lweɪz/
+1,4,1,2,On the Weekend,14,dirty,肮脏的,/'dɜ:(r)ti/
+1,4,1,2,On the Weekend,15,evening,晚上；傍晚,/'i:vnɪŋ/
+1,4,1,2,On the Weekend,16,hope,希望,/həʊp/
+1,4,1,2,On the Weekend,17,house,房屋；房子；住宅,/haʊs/
+1,4,1,2,On the Weekend,18,paint,用颜料绘画,/peɪnt/
+1,4,1,2,On the Weekend,19,poor,可怜的；贫穷的,/pɔ:(r), pʊə/, /pʊr/
+1,4,1,2,On the Weekend,20,so,这么；那么,/səʊ/
+1,4,1,2,On the Weekend,21,step,踏；踩,/step/
+1,4,1,2,On the Weekend,22,their,他们的；她们的；它们的,/ðeə(r)/, /ðer/
+1,4,1,3,Transportation,1,apple,苹果,/'æpl/
+1,4,1,3,Transportation,2,park,公园,/pɑ:(r)k/
+1,4,1,3,Transportation,3,by bike,骑自行车,
+1,4,1,3,Transportation,4,by boat,乘小船,
+1,4,1,3,Transportation,5,by bus,乘公交车,
+1,4,1,3,Transportation,6,by car,乘小汽车,
+1,4,1,3,Transportation,7,by plane,乘飞机,
+1,4,1,3,Transportation,8,by school bus,乘校车,
+1,4,1,3,Transportation,9,by ship,乘轮船,
+1,4,1,3,Transportation,10,by subway,乘地铁,
+1,4,1,3,Transportation,11,by taxi,乘出租车,
+1,4,1,3,Transportation,12,by train,乘火车,
+1,4,1,3,Transportation,13,on foot,步行,
+1,4,1,3,Transportation,14,usually,通常地；惯常地,/'ju:ʒuəli/
+1,4,1,3,Transportation,15,come,来,/kʌm/
+1,4,1,3,Transportation,16,earth,地球；世界,/ɜ:(r)θ/
+1,4,1,3,Transportation,17,enjoy,享受……乐趣；喜爱,/ɪn'dʒɔɪ/
+1,4,1,3,Transportation,18,film,电影,/fɪlm/
+1,4,1,3,Transportation,19,garden,花园；菜园,/'gɑ:(r)dn/
+1,4,1,3,Transportation,20,gate,大门,/geɪt/
+1,4,1,3,Transportation,21,meeting place,集合地点,
+1,4,1,3,Transportation,22,snow,雪,/snəʊ/
+1,4,1,3,Transportation,23,theatre,剧场,/'θɪətə/
+1,4,1,3,Transportation,24,transportation,交通/,trænspɔ:(r)'teɪʃn/
+1,4,1,4,Asking for Help,1,pencil,铅笔,/'pensl/
+1,4,1,4,Asking for Help,2,ruler,尺子,/'ru:lə(r)/
+1,4,1,4,Asking for Help,3,schoolbag,书包,/'sku:lbæg/
+1,4,1,4,Asking for Help,4,crayon,蜡笔,/'kreɪən/
+1,4,1,4,Asking for Help,5,eraser,橡皮,/ɪ'reɪzə(r)/, /ɪ'reɪsər/
+1,4,1,4,Asking for Help,6,glue stick,胶棒,
+1,4,1,4,Asking for Help,7,knife,刀,/naɪf/
+1,4,1,4,Asking for Help,8,paper,纸,/'peɪpə(r)/
+1,4,1,4,Asking for Help,9,pen,钢笔,/pen/
+1,4,1,4,Asking for Help,10,please,请,/pli:z/
+1,4,1,4,Asking for Help,11,scissors,剪刀,/'sɪzə(r)z/
+1,4,1,4,Asking for Help,12,shop,商店,/ʃɒp/, /ʃɑ:p/
+1,4,1,4,Asking for Help,13,use,使用,/ju:z/
+1,4,1,4,Asking for Help,14,Excuse me.,对不起，打扰一下。,
+1,4,1,4,Asking for Help,15,Information Centre,咨询中心,
+1,4,1,4,Asking for Help,16,dad,（口语）爸爸；爹爹,/dæd/
+1,4,1,4,Asking for Help,17,find,找到,/faɪnd/
+1,4,1,4,Asking for Help,18,hamburger,汉堡包,/'hæmbɜ:(r)gə(r)/
+1,4,1,4,Asking for Help,19,phone,电话,/fəʊn/
+1,4,1,5,Safety,1,green,绿色；绿色的,/gri:n/
+1,4,1,5,Safety,2,red,红色；红色的,/red/
+1,4,1,5,Safety,3,play football,踢足球,
+1,4,1,5,Safety,4,Be careful!,当心！,
+1,4,1,5,Safety,5,cl climb on the window ledge,爬窗台,
+1,4,1,5,Safety,6,dangerous,危险的,/'deɪndʒərəs/
+1,4,1,5,Safety,7,play with fire,玩火,
+1,4,1,5,Safety,8,run down the stairs,跑下楼梯,
+1,4,1,5,Safety,9,safe,安全的,/seɪf/
+1,4,1,5,Safety,10,sidewalk,人行道,/'saɪdwɔ:k/
+1,4,1,5,Safety,11,wait for,等待,
+1,4,1,5,Safety,12,safety rule,安全规则,
+1,4,1,5,Safety,13,stop,停下,/stɒp/, /stɑ:p/
+1,4,1,5,Safety,14,street,大街；街道,/stri:t/
+1,4,1,6,Jobs,1,teacher,教师,/'ti:tʃə(r)/
+1,4,1,6,Jobs,2,Friday,星期五,/'fraɪdeɪ/
+1,4,1,6,Jobs,3,Monday,星期一,/'mʌndeɪ/
+1,4,1,6,Jobs,4,Thursday,星期四,/'θɜ:(r)zdeɪ/
+1,4,1,6,Jobs,5,Tuesday,星期二,/'tju:zdeɪ/, /'tu:zdeɪ/
+1,4,1,6,Jobs,6,Wednesday,星期三,/'wenzdeɪ/
+1,4,1,6,Jobs,7,bus driver,公交司机,
+1,4,1,6,Jobs,8,cook,厨师,/kʊk/
+1,4,1,6,Jobs,9,doctor,医生,/'dɒktə(r)/
+1,4,1,6,Jobs,10,farmer,农民,/'fɑ:(r)mə(r)/
+1,4,1,6,Jobs,11,in the future,将来,
+1,4,1,6,Jobs,12,nurse,护士,/nɜ:(r)s/
+1,4,1,6,Jobs,13,police officer,警察,/pə'li:s 'ɒfɪsə(r)/
+1,4,1,6,Jobs,14,taxi driver,出租司机,
+1,4,1,6,Jobs,15,worker,工人,/'wɜ:(r)kə(r)/
+1,4,1,6,Jobs,16,great,好极了,/greɪt/
+1,4,1,6,Jobs,17,job,工作,/dʒɒb/, /dʒɑ:b/
+1,4,1,6,Jobs,18,just,正好；恰好,/dʒʌst/
+1,4,1,6,Jobs,19,myself,我自己,/maɪ'self/
+1,4,1,6,Jobs,20,people,人们,/'pi:pl/
+1,4,1,6,Jobs,21,sick,有病的,/sɪk/
+1,4,1,6,Jobs,22,sound,听起来好像,/saʊnd/
+1,4,1,6,Jobs,23,teach,教,/ti:tʃ/
+1,4,2,1,My Neighbourhood,1,ball,球,/bɔ:l/
+1,4,2,1,My Neighbourhood,2,bookshop,书店,/'bʊk,ʃɒp/
+1,4,2,1,My Neighbourhood,3,hospital,医院,/'hɒspɪtl/, /'hɑ:spɪtl/
+1,4,2,1,My Neighbourhood,4,school,学校,/sku:l/
+1,4,2,1,My Neighbourhood,5,supermarket,超市,/'su:pə(r),mɑ:(r)kət/
+1,4,2,1,My Neighbourhood,6,across from,对面,
+1,4,2,1,My Neighbourhood,7,bank,银行,/bæŋk/
+1,4,2,1,My Neighbourhood,8,between,在……中间,/bɪ'twi:n/
+1,4,2,1,My Neighbourhood,9,crossroads,十字路口,/'krɒsrəʊdz/
+1,4,2,1,My Neighbourhood,10,go straight,直行,
+1,4,2,1,My Neighbourhood,11,grocery,食品杂货店,/'grəʊsəri/
+1,4,2,1,My Neighbourhood,12,next to,紧邻；在……近旁,/'nekst tu; 'nekst tə/
+1,4,2,1,My Neighbourhood,13,post office,邮局,/'pəʊst,ɒfɪs/
+1,4,2,1,My Neighbourhood,14,restaurant,餐馆,/'restrɒnt/, /'restərɑ:nt/
+1,4,2,1,My Neighbourhood,15,turn left,左转,
+1,4,2,1,My Neighbourhood,16,turn right,右转,
+1,4,2,1,My Neighbourhood,17,before,在……之前,/bɪ'fɔ:(r)/
+1,4,2,1,My Neighbourhood,18,get,到达,/get/
+1,4,2,1,My Neighbourhood,19,get to,到达,
+1,4,2,1,My Neighbourhood,20,leave,离开,/li:v/
+1,4,2,1,My Neighbourhood,21,money,钱,/'mʌni/
+1,4,2,1,My Neighbourhood,22,neighbourhood,街坊；附近,/'neɪbəhʊd/
+1,4,2,1,My Neighbourhood,23,send,邮寄；发送,/send/
+1,4,2,1,My Neighbourhood,24,toy,玩具,/tɔɪ/
+1,4,2,2,Cities,1,street,大街；街道,/stri:t/
+1,4,2,2,Cities,2,buy toys,买玩具,
+1,4,2,2,Cities,3,city,城市,/'sɪti/
+1,4,2,2,Cities,4,go boating,去划船,
+1,4,2,2,Cities,5,hotel,旅馆,/həʊ'tel/
+1,4,2,2,Cities,6,see a film,看电影,
+1,4,2,2,Cities,7,sports centre,体育中心,
+1,4,2,2,Cities,8,square,广场,/skweə/, /skwer/
+1,4,2,2,Cities,9,busy,忙的,/'bɪzi/
+1,4,2,2,Cities,10,central,中心的,/'sentrəl/
+1,4,2,2,Cities,11,dream,梦,/dri:m/
+1,4,2,2,Cities,12,king,国王,/kɪŋ/
+1,4,2,2,Cities,13,museum,博物馆,/mju:'ziəm/
+1,4,2,2,Cities,14,place,位置；地点,/pleɪs/
+1,4,2,2,Cities,15,star,星,/stɑ:(r)/
+1,4,2,2,Cities,16,station,（车）站,/'steɪʃn/
+1,4,2,2,Cities,17,stay,保持,/steɪ/
+1,4,2,2,Cities,18,take photos,照相,
+1,4,2,2,Cities,19,thing,事情,/θɪŋ/
+1,4,2,3,Travel Plans,1,take photos,照相,
+1,4,2,3,Travel Plans,2,West Lake,西湖,
+1,4,2,3,Travel Plans,3,eat seafood,吃海鲜,
+1,4,2,3,Travel Plans,4,row a boat,划船,
+1,4,2,3,Travel Plans,5,sea,大海,/si:/
+1,4,2,3,Travel Plans,6,ski,滑雪,/ski:/
+1,4,2,3,Travel Plans,7,the Great Wall,长城,
+1,4,2,3,Travel Plans,8,visit the Mogao Caves,参观莫高窟,
+1,4,2,3,Travel Plans,9,summer vacation,暑假,
+1,4,2,3,Travel Plans,10,travel,（尤指长途）旅行,/'trævl/
+1,4,2,4,Hobbies,1,collecting erasers,收集橡皮,
+1,4,2,4,Hobbies,2,dancing,跳舞；舞蹈,/'dɑ:nsɪŋ/
+1,4,2,4,Hobbies,3,different,不同的,/'dɪfərənt/
+1,4,2,4,Hobbies,4,doing jigsaw puzzles,拼拼图,
+1,4,2,4,Hobbies,5,hobby,业余爱好,/'hɒbi/, /'hɑ:bi/
+1,4,2,4,Hobbies,6,making models,制作模型,
+1,4,2,4,Hobbies,7,reading,读书,/'ri:dɪŋ/
+1,4,2,4,Hobbies,8,singing,唱歌,/'sɪŋɪŋ/
+1,4,2,4,Hobbies,9,skateboarding,玩滑板,/'skeɪtbɔ:dɪŋ/
+1,4,2,4,Hobbies,10,catch,抓住,/kætʃ/
+1,4,2,4,Hobbies,11,stamp,邮票,/stæmp/
+1,4,2,5,Free Time,1,do the housework,做家务,
+1,4,2,5,Free Time,2,free,空闲的,/fri:/
+1,4,2,5,Free Time,3,go camping,去野营,
+1,4,2,5,Free Time,4,go for a picnic,去野餐,
+1,4,2,5,Free Time,5,go skating,去滑冰,
+1,4,2,5,Free Time,6,never,从不,/'nevə(r)/
+1,4,2,5,Free Time,7,once a week,一周一次,
+1,4,2,5,Free Time,8,play the violin,拉小提琴,
+1,4,2,5,Free Time,9,three times a week,一周三次,
+1,4,2,5,Free Time,10,twice a week,一周两次,
+1,4,2,6,Countries,1,pretty,美观的；精致的,/'prɪti/
+1,4,2,6,Countries,2,Australia,澳大利亚,/ɒ'streɪliə/
+1,4,2,6,Countries,3,Big Ben,大本钟,
+1,4,2,6,Countries,4,Canada,加拿大,/'kænədə/
+1,4,2,6,Countries,5,China,中国,/'tʃaɪnə/
+1,4,2,6,Countries,6,Disneyland,迪士尼乐园,/'dɪznilænd/
+1,4,2,6,Countries,7,koala,考拉,/kəʊ'ɑ:lə/
+1,4,2,6,Countries,8,maple leaves,枫叶,
+1,4,2,6,Countries,9,the UK,英国,
+1,4,2,6,Countries,10,the USA,美国,
+1,4,2,6,Countries,11,campfire,篝火,/'kæmpfaɪə/
+1,4,2,6,Countries,12,country,国家,/'kʌntri/
+1,4,2,6,Countries,13,cute,可爱的,/kju:t/
+1,5,1,1,Classmates,1,party,聚会；派对,/'pɑ:(r)ti/
+1,5,1,1,Classmates,2,cute,可爱的,/kju:t/
+1,5,1,1,Classmates,3,active,积极的；活跃的,/'æktɪv/
+1,5,1,1,Classmates,4,careless,粗心的,/'keələs/, /'kerləs/
+1,5,1,1,Classmates,5,clever,聪明的；聪颖的,/'klevə(r)/
+1,5,1,1,Classmates,6,friendly,友好的,/'frendli/
+1,5,1,1,Classmates,7,helpful,有用的；愿意帮忙的,/'helpfl/
+1,5,1,1,Classmates,8,polite,有礼貌的；客气的,/pə'laɪt/
+1,5,1,1,Classmates,9,popular,受欢迎的,/'pɒpjʊlə/, /'pɑ:pjʊlər/
+1,5,1,1,Classmates,10,quiet,安静的,/'kwaɪət/
+1,5,1,1,Classmates,11,all,全；完全,/ɔ:l/
+1,5,1,1,Classmates,12,bark,吠，叫,/bɑ:k/
+1,5,1,1,Classmates,13,but,但是,/bʌt; bət/
+1,5,1,1,Classmates,14,forget,忘记,/fə(r)'get/
+1,5,1,1,Classmates,15,sometimes,有时；间或,/'sʌmtaɪmz/
+1,5,1,1,Classmates,16,talk,说话,/tɔ:k/
+1,5,1,1,Classmates,17,with,和……一起,/wɪð, wɪθ/
+1,5,1,2,Teachers,1,teach,教,/ti:tʃ/
+1,5,1,2,Teachers,2,curly,卷曲的,/'kɜ:(r)li/
+1,5,1,2,Teachers,3,nice,好的,/naɪs/
+1,5,1,2,Teachers,4,slim,苗条的,/slɪm/
+1,5,1,2,Teachers,5,straight,笔直地,/streɪt/
+1,5,1,2,Teachers,6,wear glasses,戴眼镜,
+1,5,1,2,Teachers,7,young,年轻的；岁数不大的,/jʌŋ/
+1,5,1,2,Teachers,8,guess,猜,/ges/
+1,5,1,2,Teachers,9,has,有,/hæz; həz/
+1,5,1,3,Animals,1,animal,兽；动物,/'ænɪml/
+1,5,1,3,Animals,2,bee,蜜蜂,/bi:/
+1,5,1,3,Animals,3,cow,母牛；奶牛,/kaʊ/
+1,5,1,3,Animals,4,elephant,大象,/'elɪfənt/
+1,5,1,3,Animals,5,farm,农场,/fɑ:(r)m/
+1,5,1,3,Animals,6,fast,快的,/fɑ:st/, /fæst/
+1,5,1,3,Animals,7,horse,马,/hɔ:(r)s/
+1,5,1,3,Animals,8,panda,大熊猫,/'pændə/
+1,5,1,3,Animals,9,pig,猪,/pɪg/
+1,5,1,3,Animals,10,sheep,羊；绵羊,/ʃi:p/
+1,5,1,3,Animals,11,butterfly,蝴蝶,/'bʌtə(r)flaɪ/
+1,5,1,3,Animals,12,lovely,可爱的；美丽的,/'lʌvli/
+1,5,1,3,Animals,13,why,为什么,/waɪ/
+1,5,1,4,Shopping Day,1,please,请,/pli:z/
+1,5,1,4,Shopping Day,2,great,好极了,/greɪt/
+1,5,1,4,Shopping Day,3,a box of crayons,一盒蜡笔,
+1,5,1,4,Shopping Day,4,a pair of scissors,一把剪刀,
+1,5,1,4,Shopping Day,5,exercise book,练习册,
+1,5,1,4,Shopping Day,6,pencil box,铅笔盒,/'pensl ,bɒks/
+1,5,1,4,Shopping Day,7,pencil sharpener,铅笔刀,
+1,5,1,4,Shopping Day,8,a lot,很多,
+1,5,1,4,Shopping Day,9,also,还；也,/'ɔ:lsəʊ/
+1,5,1,4,Shopping Day,10,how much,多少钱,
+1,5,1,4,Shopping Day,11,love,（写信结尾的问候语）爱你的,/lʌv/
+1,5,1,4,Shopping Day,12,only,只，仅仅,/'əʊnli/
+1,5,1,4,Shopping Day,13,saleswoman,女售货员,/'seɪlzwʊmən/
+1,5,1,5,TV Shows,1,cool,凉的；凉爽的,/ku:l/
+1,5,1,5,TV Shows,2,cartoons,动画片,/kɑ:'tu:nz/
+1,5,1,5,TV Shows,3,fantastic,极好的,/fæn'tæstɪk/
+1,5,1,5,TV Shows,4,nature shows,自然节目,
+1,5,1,5,TV Shows,5,news shows,新闻节目,
+1,5,1,5,TV Shows,6,wonderful,极好的；了不起的,/'wʌndə(r)fl/
+1,5,1,6,Chores,1,chore,家务,/tʃɔ:(r)/
+1,5,1,6,Chores,2,clean the room,打扫房间,
+1,5,1,6,Chores,3,make the bed,整理床铺,
+1,5,1,6,Chores,4,sweep the floor,扫地,
+1,5,1,6,Chores,5,take out the rubbish,倒垃圾,
+1,5,1,6,Chores,6,tidy the desk,清理书桌,
+1,5,1,6,Chores,7,wash clothes,洗衣服,
+1,5,1,6,Chores,8,call,打电话给……,/kɔ:l/
+1,5,2,1,Keeping Healthy,1,go to bed,上床睡觉,
+1,5,2,1,Keeping Healthy,2,always,总是；一直,/'ɔ:lweɪz/
+1,5,2,1,Keeping Healthy,3,dirty,肮脏的,/'dɜ:(r)ti/
+1,5,2,1,Keeping Healthy,4,before,在……之前,/bɪ'fɔ:(r)/
+1,5,2,1,Keeping Healthy,5,candy,糖果,/'kændi/
+1,5,2,1,Keeping Healthy,6,drink,喝；饮,/drɪŋk/
+1,5,2,1,Keeping Healthy,7,early,早到的,/'ɜ:(r)li/
+1,5,2,1,Keeping Healthy,8,exercise,活动；运动,/'eksəsaɪz/
+1,5,2,1,Keeping Healthy,9,headache,头疼,/'hedeɪk/
+1,5,2,1,Keeping Healthy,10,stomachache,胃疼,/'stʌməkeɪk/
+1,5,2,1,Keeping Healthy,11,tired,疲倦的,/'taɪə(r)d/
+1,5,2,1,Keeping Healthy,12,too much,太多,
+1,5,2,1,Keeping Healthy,13,toothache,牙疼,/'tu:θeɪk/
+1,5,2,1,Keeping Healthy,14,a lot of,很多,
+1,5,2,1,Keeping Healthy,15,advice,建议,/əd'vaɪs/
+1,5,2,1,Keeping Healthy,16,mark,分数,/mɑ:k/
+1,5,2,1,Keeping Healthy,17,more,更多的,/mɔ:(r)/
+1,5,2,1,Keeping Healthy,18,sleepy,困的；欲睡的,/'sli:pi/
+1,5,2,1,Keeping Healthy,19,subject,科目；学科,/'sʌbdʒɪkt/
+1,5,2,2,Special Days,1,birthday,生日,/'bɜ:(r)θdeɪ/
+1,5,2,2,Special Days,2,Children's Day,儿童节,
+1,5,2,2,Special Days,3,Christmas Day,圣诞节,
+1,5,2,2,Special Days,4,Father's Day,父亲节,
+1,5,2,2,Special Days,5,Mother's Day,母亲节,
+1,5,2,2,Special Days,6,National Day,国庆日,
+1,5,2,2,Special Days,7,New Year's Day,元旦,
+1,5,2,2,Special Days,8,Teachers' Day,教师节,
+1,5,2,2,Special Days,9,Tree Planting Day,植树节,
+1,5,2,2,Special Days,10,celebrate,庆祝,/'selɪbreɪt/
+1,5,2,2,Special Days,11,fifth,（5th）第五的,/fɪfθ/
+1,5,2,2,Special Days,12,have a picnic,野餐,
+1,5,2,2,Special Days,13,make a poster,制作海报,
+1,5,2,2,Special Days,14,plant,植物,/plɑ:nt/, /plænt/
+1,5,2,2,Special Days,15,tenth,（10th）第十,/tenθ/
+1,5,2,2,Special Days,16,twelfth,（12th）第十二的,/twelfθ/
+1,5,2,2,Special Days,17,twenty-fifth,（25th）第二十五,
+1,5,2,2,Special Days,18,office,办公室,/'ɒfɪs/, /'ɑ:fɪs/
+1,5,2,2,Special Days,19,special,特殊的；特别的,/'speʃəl/
+1,5,2,2,Special Days,20,together,一起,/tə'geðə(r)/
+1,5,2,3,Making Contact,1,mail a present,邮寄礼物,
+1,5,2,3,Making Contact,2,make a card,制作卡片,
+1,5,2,3,Making Contact,3,make a phone call,打电话,
+1,5,2,3,Making Contact,4,make a video call,打视频电话,
+1,5,2,3,Making Contact,5,say,讲,/seɪ/
+1,5,2,3,Making Contact,6,send a short message,发送短消息,
+1,5,2,3,Making Contact,7,send an email,发送电子邮件,
+1,5,2,3,Making Contact,8,write a letter,写信,
+1,5,2,3,Making Contact,9,everywhere,处处；到处,/'evriweə(r)/, /'evriwer/
+1,5,2,3,Making Contact,10,flower show,花展,
+1,5,2,4,Last Weekend,1,boring,单调的；乏味的,/'bɔ:rɪŋ/
+1,5,2,4,Last Weekend,2,cleaned the window,（过去式）擦窗子,
+1,5,2,4,Last Weekend,3,climbed a hill,（过去式）爬山,
+1,5,2,4,Last Weekend,4,danced,（dance过去式）跳舞,/dɑ:nst/
+1,5,2,4,Last Weekend,5,jumped rope,（过去式）跳绳,
+1,5,2,4,Last Weekend,6,listened to music,（过去式）听音乐,
+1,5,2,4,Last Weekend,7,played chess,（过去式）下棋,
+1,5,2,4,Last Weekend,8,played computer games,（过去式）玩电子游戏,
+1,5,2,4,Last Weekend,9,played the piano,（过去式）弹钢琴,
+1,5,2,4,Last Weekend,10,rowed a boat,（过去式）划船,
+1,5,2,4,Last Weekend,11,stayed at home,（过去式）呆在家里,
+1,5,2,4,Last Weekend,12,visited grandparents,（过去式）看望祖父母,
+1,5,2,4,Last Weekend,13,washed clothes,（过去式）洗衣服,
+1,5,2,4,Last Weekend,14,watched TV,（过去式）看电视,
+1,5,2,4,Last Weekend,15,badminton,羽毛球运动,/'bædmɪntən/
+1,5,2,4,Last Weekend,16,won,（win过去式）赢；获胜,/wʌn/
+1,5,2,5,Have a Great Trip,1,delicious,美味的；可口的,/dɪ'lɪʃəs/
+1,5,2,5,Have a Great Trip,2,ate ice-cream,（过去式）吃冰激凌,
+1,5,2,5,Have a Great Trip,3,bought some gifts,（过去式）买礼物,
+1,5,2,5,Have a Great Trip,4,drank cold drinks,（过去式）喝冷饮,
+1,5,2,5,Have a Great Trip,5,felt happy,（过去式）觉得高兴,
+1,5,2,5,Have a Great Trip,6,saw flowers,（过去式）赏花,
+1,5,2,5,Have a Great Trip,7,slept,（sleep的过去式）睡觉,/slept/
+1,5,2,5,Have a Great Trip,8,swam,（swim的过去式）游泳,/swæm/
+1,5,2,5,Have a Great Trip,9,the Stone Forest,石林,
+1,5,2,5,Have a Great Trip,10,took photos,（过去式）拍照片,
+1,5,2,5,Have a Great Trip,11,went to the beach,（过去式）去海边,
+1,5,2,5,Have a Great Trip,12,French fries,法式炸薯条,
+1,5,2,5,Have a Great Trip,13,left,左,/left/
+1,5,2,5,Have a Great Trip,14,sad,难过的,/sæd/
+1,5,2,5,Have a Great Trip,15,were,（are的过去式）是,/wɜ:(r); wə(r)/
+1,5,2,6,Growing up,1,fifteenth,十五,/,fɪf'ti:nθ/
+1,5,2,6,Growing up,2,learned to ride a bike,（过去式）学骑自行车,
+1,5,2,6,Growing up,3,learned to swim,（过去式）学游泳,
+1,5,2,6,Growing up,4,learned to walk,（过去式）学走路,
+1,5,2,6,Growing up,5,started to buy things,（过去式）开始学买东西,
+1,5,2,6,Growing up,6,started to speak,（过去式）开始说话,
+1,5,2,6,Growing up,7,started to study English,（过去式）开始学英语,
+1,5,2,6,Growing up,8,started to use a computer,（过去式）开始使用电脑,
+1,5,2,6,Growing up,9,was born,（过去式）出生,
+1,5,2,6,Growing up,10,went to kindergarten,（过去式）上幼儿园,
+1,5,2,6,Growing up,11,went to school,（过去式）上学,
+1,5,2,6,Growing up,12,all over,到处；各处,
+1,5,2,6,Growing up,13,chopsticks,筷子,/'tʃɒpstɪks/
+1,5,2,6,Growing up,14,into,进入；到……里,/'ɪntu:/
+1,5,2,6,Growing up,15,out of,离开（某处）,
+1,5,2,6,Growing up,16,wet,湿的，潮湿的,/wet/
+1,6,1,1,In China,1,garden,花园；菜园,/'gɑ:(r)dn/
+1,6,1,1,In China,2,vacation,假期,/veɪ'keɪʃn/
+1,6,1,1,In China,3,east,东,/i:st/
+1,6,1,1,In China,4,famous,著名的,/'feɪməs/
+1,6,1,1,In China,5,map,地图,/mæp/
+1,6,1,1,In China,6,morning tea,早茶,
+1,6,1,1,In China,7,north,北,/nɔ:(r)θ/
+1,6,1,1,In China,8,soup,汤,/su:p/
+1,6,1,1,In China,9,south,南,/saʊθ/
+1,6,1,1,In China,10,taste,品尝,/teɪst/
+1,6,1,1,In China,11,temple,寺,/'templ/
+1,6,1,1,In China,12,the Potala Palace,布达拉宫,
+1,6,1,1,In China,13,the Summer Palace,颐和园,
+1,6,1,1,In China,14,the Terracotta Army,兵马俑,
+1,6,1,1,In China,15,west,西,/west/
+1,6,1,1,In China,16,around,遍及；围绕,/ə'raʊnd/
+1,6,1,1,In China,17,foggy,有雾的,/'fɑ:gɪ/; /'fɒgɪ/
+1,6,1,1,In China,18,forest,森林；林区,/'fɒrɪst/, /'fɔ:rɪst/
+1,6,1,1,In China,19,silk,丝绸,/sɪlk/
+1,6,1,1,In China,20,spicy,辣的,/'spaɪsi/
+1,6,1,1,In China,21,stone,石头,/stəʊn/
+1,6,1,1,In China,22,the Yangtze River,长江,
+1,6,1,2,Around the World,1,French,法语,/frentʃ/
+1,6,1,2,Around the World,2,London,伦敦,/'lʌndən/
+1,6,1,2,Around the World,3,Sydney,悉尼,/'sɪdni/
+1,6,1,2,Around the World,4,Toronto,多伦多,/tə'rɒntəʊ/
+1,6,1,2,Around the World,5,Washington D.C.,华盛顿,
+1,6,1,2,Around the World,6,clock,时钟；钟,/klɒk/, /klɑ:k/
+1,6,1,2,Around the World,7,kangaroo,袋鼠,/,kæŋgə'ru:/
+1,6,1,2,Around the World,8,speak,会讲某种语言；用某种语言说话,/spi:k/
+1,6,1,2,Around the World,9,the British Museum,大英博物馆,
+1,6,1,2,Around the World,10,the CN Tower,加拿大国家电视塔,
+1,6,1,2,Around the World,11,the Opera House,（悉尼）歌剧院,
+1,6,1,2,Around the World,12,the White House,白宫,
+1,6,1,2,Around the World,13,Tower Bridge,伦敦塔桥,
+1,6,1,2,Around the World,14,hiking,远足,/'haɪkɪŋ/
+1,6,1,2,Around the World,15,president,总统,/'prezɪdənt/
+1,6,1,2,Around the World,16,sunrise,日出,/'sʌnraɪz/
+1,6,1,2,Around the World,17,the London Eye,伦敦眼,
+1,6,1,3,Animal World,1,bird,鸟,/bɜ:(r)d/
+1,6,1,3,Animal World,2,fish,鱼,/fɪʃ/
+1,6,1,3,Animal World,3,insect,昆虫,/'ɪnsekt/
+1,6,1,3,Animal World,4,kind,体贴的；慈祥的；宽容的,/kaɪnd/
+1,6,1,3,Animal World,5,mammal,哺乳动物,/'mæml/
+1,6,1,3,Animal World,6,penguin,企鹅,/'peŋgwɪn/
+1,6,1,3,Animal World,7,reptile,爬行动物,/'reptaɪl/
+1,6,1,3,Animal World,8,shark,鲨鱼,/ʃɑ:(r)k/
+1,6,1,3,Animal World,9,whale,鲸,/weɪl/
+1,6,1,3,Animal World,10,Africa,非洲,/'æfrɪkə/
+1,6,1,3,Animal World,11,Asia,亚洲,/'eɪʒə/, /'eɪʃə/
+1,6,1,3,Animal World,12,fan,风扇,/fæn/
+1,6,1,3,Animal World,13,metre,米,/'mi:tə/
+1,6,1,3,Animal World,14,peanut,花生,/'pi:nʌt/
+1,6,1,3,Animal World,15,smart,聪明的,/smɑ:(r)t/
+1,6,1,3,Animal World,16,spend,花费,/spend/
+1,6,1,3,Animal World,17,trunk,象鼻,/trʌŋk/
+1,6,1,3,Animal World,18,tusk,（象、野猪等的）长牙,/tʌsk/
+1,6,1,4,Feelings,1,happy,高兴的,/'hæpi/
+1,6,1,4,Feelings,2,hurt,（使）受伤,/hɜ:(r)t/
+1,6,1,4,Feelings,3,find,找到,/faɪnd/
+1,6,1,4,Feelings,4,sad,难过的,/sæd/
+1,6,1,4,Feelings,5,angry,生气的,/'æŋgri/
+1,6,1,4,Feelings,6,because,因为,/bɪ'kɒz/, /bɪ'kɔ:z/
+1,6,1,4,Feelings,7,cry,哭,/kraɪ/
+1,6,1,4,Feelings,8,excited,兴奋的；激动的,/ɪk'saɪtɪd/
+1,6,1,4,Feelings,9,ill,有病；不舒服,/ɪl/
+1,6,1,4,Feelings,10,proud,自豪的；骄傲的,/praʊd/
+1,6,1,4,Feelings,11,race,赛跑,/reɪs/
+1,6,1,4,Feelings,12,scared,害怕的,/skeəd/, /skerd/
+1,6,1,4,Feelings,13,test,测验,/test/
+1,6,1,4,Feelings,14,win,获胜,/wɪn/
+1,6,1,4,Feelings,15,worried,担心的；发愁的,/'wɜ:rid/; /'wʌrid/
+1,6,1,4,Feelings,16,competition,竞赛,/,kɒmpə'tɪʃn/, /,kɑ:mpə'tɪʃn/
+1,6,1,5,Famous People,1,study,书房,/'stʌdi/
+1,6,1,5,Famous People,2,paint,用颜料绘画,/peɪnt/
+1,6,1,5,Famous People,3,French,法语,/frentʃ/
+1,6,1,5,Famous People,4,American,美国的,/ə'merɪkən/
+1,6,1,5,Famous People,5,Danish,丹麦人；丹麦的；丹麦语,/'deɪnɪʃ/
+1,6,1,5,Famous People,6,artist,画家；艺术家,/'ɑ:(r)tɪst/
+1,6,1,5,Famous People,7,invent,发明（动词）,/ɪn'vent/
+1,6,1,5,Famous People,8,invention,发明（名词）,/ɪn'venʃn/
+1,6,1,5,Famous People,9,inventor,发明家,/ɪn'ventə(r)/
+1,6,1,5,Famous People,10,poem,诗,/'pəʊm/
+1,6,1,5,Famous People,11,poet,诗人,/'pəʊɪt/
+1,6,1,5,Famous People,12,scientist,科学家,/'saɪəntɪst/
+1,6,1,5,Famous People,13,story,故事,/'stɔ:ri/
+1,6,1,5,Famous People,14,writer,作家,/'raɪtə(r)/
+1,6,1,5,Famous People,15,blind,失明的,/blaɪnd/
+1,6,1,5,Famous People,16,deaf,聋的,/def/
+1,6,1,5,Famous People,17,fall,落下；【美】秋天,/fɔ:l/
+1,6,1,5,Famous People,18,university,大学,/,ju:ni'vɜ:(r)səti/
+1,6,1,6,Winter Vacation,1,look forward to,盼望，期待,
+1,6,1,6,Winter Vacation,2,fan,风扇,/fæn/
+1,6,1,6,Winter Vacation,3,be afraid of,害怕,
+1,6,1,6,Winter Vacation,4,bring,带来,/brɪŋ/
+1,6,1,6,Winter Vacation,5,broken,破损的,/'brəʊkən/
+1,6,1,6,Winter Vacation,6,dumpling,饺子；汤团,/'dʌmplɪŋ/
+1,6,1,6,Winter Vacation,7,hear,听见,/hɪə/, /hɪr/
+1,6,1,6,Winter Vacation,8,ice lantern,冰灯,
+1,6,1,6,Winter Vacation,9,pen pal,笔友,/pen pæl/
+1,6,2,1,Visiting Canada,1,airport,机场,/'eəpɔ:(r)t/
+1,6,2,1,Visiting Canada,2,arrive,到达,/ə'raɪv/
+1,6,2,1,Visiting Canada,3,live,居住,/lɪv/
+1,6,2,1,Visiting Canada,4,meet,集会；开会,/mi:t/
+1,6,2,1,Visiting Canada,5,pupil,学生；（尤指）小学生,/'pju:pl/
+1,6,2,1,Visiting Canada,6,quite,有点,/kwaɪt/
+1,6,2,1,Visiting Canada,7,scarf,围巾；披巾,/skɑ:(r)f/
+1,6,2,1,Visiting Canada,8,wardrobe,衣柜,/'wɔ:drəʊb/
+1,6,2,2,All Around Me,1,Lake Ontario,安大略湖,
+1,6,2,2,All Around Me,2,Queen's Park,女王公园,
+1,6,2,2,All Around Me,3,art gallery,画廊；艺术馆,
+1,6,2,2,All Around Me,4,downtown,闹市区；市中心,/,daʊn'taʊn/
+1,6,2,2,All Around Me,5,public library,公共图书馆,
+1,6,2,2,All Around Me,6,show...around,带领……参观,
+1,6,2,2,All Around Me,7,stadium,（露天）体育场,/'steɪdiəm/
+1,6,2,3,Daily Life,1,at least,至少,
+1,6,2,3,Daily Life,2,habit,习惯,/'hæbɪt/
+1,6,2,3,Daily Life,3,idea,想法；主意,/aɪ'dɪə/, /aɪ'dɪr/
+1,6,2,3,Daily Life,4,less,更少,/les/
+1,6,2,3,Daily Life,5,sandwich,三明治,/'sænwɪtʃ, 'sænwɪdʒ/
+1,6,2,3,Daily Life,6,top,上边，上面,/tɒp/, /tɑ:p/
+1,6,2,3,Daily Life,7,volunteer,志愿者,/,vɒlən'tɪə/, /,vɑ:lən'tɪr/
+1,6,2,4,Free Time,1,special,特殊的；特别的,/'speʃəl/
+1,6,2,4,Free Time,2,together,一起,/tə'geðə(r)/
+1,6,2,4,Free Time,3,beaver,海（河）狸,/'bi:və(r)/
+1,6,2,4,Free Time,4,hockey,曲棍球；冰上曲棍球,/'hɒki/
+1,6,2,4,Free Time,5,moose,北美麋；驼鹿,/mu:s/
+1,6,2,4,Free Time,6,raccoon,浣熊,/rə'ku:n/
+1,6,2,4,Free Time,7,talk about,谈论……,
+1,6,2,5,Nature and Culture,1,Thanksgiving,感恩节,/,θæŋks'gɪvɪŋ/
+1,6,2,5,Nature and Culture,2,countryside,乡村,/'kʌntrisaɪd/
+1,6,2,5,Nature and Culture,3,frog,青蛙,/frɒg/
+1,6,2,5,Nature and Culture,4,roast turkey,烤火鸡,
+1,6,2,5,Nature and Culture,5,squirrel,松鼠,/'skwɪrәl/
+1,6,2,5,Nature and Culture,6,swan,天鹅,/swɒn/
+1,6,2,5,Nature and Culture,7,wild goose,大雁,
+1,6,2,6,Summer Vacation,1,English-Chinese dictionary,英汉词典,
+1,6,2,6,Summer Vacation,2,amazing,令人惊奇的,/ə'meɪzɪŋ/
+1,6,2,6,Summer Vacation,3,hot pot,火锅,
+1,6,2,6,Summer Vacation,4,shopping centre,购物中心,
+1,6,2,6,Summer Vacation,5,shopping mall,购物中心,

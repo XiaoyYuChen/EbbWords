@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
+data/raw/word_index.txt
+data/raw/check_units.py
+data/raw/extract_g3.py
