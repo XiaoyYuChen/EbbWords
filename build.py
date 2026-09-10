@@ -751,7 +751,15 @@ def load_g3_2024():
                 title = f'{u["name"]} · {u["zh"]}'
             unit_defs.append(("", uid, title, color))
             for w in u["words"]:
-                items.append({"w": w["w"], "c": w.get("c", ""), "p": "", "i": "", "t": uid})
+                items.append(
+                    {
+                        "w": w["w"],
+                        "c": w.get("c", ""),
+                        "p": "",
+                        "i": w.get("i") or "",
+                        "t": uid,
+                    }
+                )
         books.append(pack_pep_book(name, short, grade, term, term_name, unit_defs, items))
     return books
 

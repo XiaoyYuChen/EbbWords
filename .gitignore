@@ -5,3 +5,4 @@ Thumbs.db
 data/raw/word_index.txt
 data/raw/check_units.py
 data/raw/extract_g3.py
+data/raw/fill_g3_ipa.py
