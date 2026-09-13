@@ -16,7 +16,7 @@
       --ok: #2f855a;
       --shadow: 0 10px 30px rgba(31, 41, 51, .08);
       --radius: 16px;
-      --dock-h: 72px;
+      --dock-h: 108px;
       --font: "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif;
     }
     * { box-sizing: border-box; }
@@ -64,7 +64,7 @@
     .chips-wrap { min-width: 0; }
     .chips-toggle { display: none; }
     @media (max-width: 720px) {
-      :root { --dock-h: 58px; }
+      :root { --dock-h: 118px; }
       header.app { position: static; }
       header.app .wrap { padding: 8px 12px 6px; }
       .title-row { margin: 0; gap: 2px; flex-direction: column; align-items: stretch; }
@@ -109,9 +109,12 @@
       }
       .card { padding: 12px 10px 10px; border-radius: 12px; }
       .head { font-size: 17px; }
-      .dock-inner { padding: 8px 12px; min-height: var(--dock-h); gap: 8px; }
+      .dock-inner { padding: 8px 12px calc(8px + env(safe-area-inset-bottom, 0px)); min-height: var(--dock-h); gap: 6px; }
+      .pick-row { flex-wrap: nowrap; overflow-x: auto; -webkit-overflow-scrolling: touch; scrollbar-width: none; }
+      .pick-row::-webkit-scrollbar { display: none; }
       .sel-info { font-size: 13px; }
       .sel-info span { display: none; }
+      .seq-hint { display: none; }
       button.btn { height: 36px; padding: 0 12px; font-size: 13px; }
     }
     .chip {
@@ -161,8 +164,15 @@
     }
     .dock-inner {
       max-width: 1180px; margin: 0 auto; min-height: var(--dock-h);
+      display: flex; flex-direction: column; align-items: stretch; justify-content: center;
+      gap: 8px; padding: 10px 20px;
+    }
+    .pick-row { display: flex; align-items: center; gap: 8px; min-width: 0; }
+    .pick-lab { font-size: 12px; color: var(--muted); white-space: nowrap; }
+    .seq-hint { font-size: 12px; color: var(--muted); font-variant-numeric: tabular-nums; white-space: nowrap; }
+    .dock-actions {
       display: flex; align-items: center; justify-content: space-between;
-      gap: 12px; padding: 10px 20px; flex-wrap: wrap;
+      gap: 12px; flex-wrap: wrap;
     }
     .sel-info b { color: var(--accent); }
     .btns { display: flex; gap: 8px; flex-wrap: wrap; }
@@ -220,7 +230,7 @@
           </div>
         </div>
       </div>
-      <p class="hint">搜索支持 *（任意字符）和 _（单个字符）。KET / PET 按主题筛选，PEP 按 Unit 单元筛选。点喇叭听发音；勾选 1–10 个单词后生成默写纸。</p>
+      <p class="hint">搜索支持 *（任意字符）和 _（单个字符）。KET / PET 按主题筛选，PEP 按 Unit 单元筛选。点喇叭听发音；可在当前主题里顺序选或随机选 5–10 个单词后生成默写纸。</p>
       <div class="chips-wrap" id="chipsWrap">
         <button type="button" class="chips-toggle" id="chipsToggle" aria-expanded="false">
           <span class="lab" id="chipsToggleLab">主题</span>
@@ -240,11 +250,27 @@
 
   <div class="dock">
     <div class="dock-inner">
-      <div class="sel-info">已选 <b id="selCount">0</b> / 10 <span id="selNames" style="color:#718096;font-size:12px"></span></div>
-      <div class="btns">
-        <button class="btn ghost" id="btnClear">清空</button>
-        <button class="btn ghost" id="btnBlank">空白模板</button>
-        <button class="btn primary" id="btnSheet" disabled>生成默写纸</button>
+      <div class="pick-row">
+        <span class="pick-lab">数量</span>
+        <div class="dims" id="pickN">
+          <button type="button" data-n="5">5</button>
+          <button type="button" data-n="6">6</button>
+          <button type="button" data-n="7">7</button>
+          <button type="button" data-n="8">8</button>
+          <button type="button" data-n="9">9</button>
+          <button type="button" data-n="10" class="on">10</button>
+        </div>
+        <button class="btn ghost" id="btnSeq">顺序选</button>
+        <button class="btn ghost" id="btnRand">随机选</button>
+        <span class="seq-hint" id="seqHint"></span>
+      </div>
+      <div class="dock-actions">
+        <div class="sel-info">已选 <b id="selCount">0</b> / 10 <span id="selNames" style="color:#718096;font-size:12px"></span></div>
+        <div class="btns">
+          <button class="btn ghost" id="btnClear">清空</button>
+          <button class="btn ghost" id="btnBlank">空白模板</button>
+          <button class="btn primary" id="btnSheet" disabled>生成默写纸</button>
+        </div>
       </div>
     </div>
   </div>
@@ -281,7 +307,9 @@
       q: "",
       selected: new Map(),
       playingId: null,
-      accent: "1"
+      accent: "1",
+      pickN: 10,
+      seqOffset: 0
     };
     let audioEl = null;
     let DATA = EBB.libs.ket;
@@ -299,13 +327,14 @@
         if (p.pepTerm) state.pepTerm = p.pepTerm;
         if (p.accent) state.accent = String(p.accent);
         if (p.dim) state.dim = p.dim;
+        if (p.pickN >= 5 && p.pickN <= 10) state.pickN = Number(p.pickN);
       } catch (e) {}
     }
     function savePref() {
       try {
         localStorage.setItem(LS, JSON.stringify({
           lib: state.lib, pepGrade: state.pepGrade, pepTerm: state.pepTerm,
-          accent: state.accent, dim: state.dim
+          accent: state.accent, dim: state.dim, pickN: state.pickN
         }));
       } catch (e) {}
     }
@@ -432,11 +461,64 @@
       return `<svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>`;
     }
 
+    function renderPickN() {
+      [...$("pickN").querySelectorAll("button")].forEach((b) => {
+        b.classList.toggle("on", Number(b.dataset.n) === state.pickN);
+      });
+    }
+    function resetSeq() {
+      state.seqOffset = 0;
+      updateSeqHint();
+    }
+    function seqSlice(list, start, n) {
+      const len = list.length;
+      const take = Math.min(n, len);
+      const out = [];
+      for (let i = 0; i < take; i += 1) out.push(list[(start + i) % len]);
+      return out;
+    }
+    function updateSeqHint() {
+      const el = $("seqHint");
+      if (!el) return;
+      const list = filtered();
+      const n = state.pickN;
+      if (!list.length) {
+        el.textContent = "";
+        return;
+      }
+      const start = state.seqOffset % list.length;
+      const take = Math.min(n, list.length);
+      const a = start + 1;
+      const last = start + take;
+      if (last <= list.length) el.textContent = `下一批 ${a}–${last}`;
+      else el.textContent = `下一批 ${a}–${list.length}, 1–${last - list.length}`;
+    }
+    function applySelection(words) {
+      state.selected.clear();
+      words.forEach((w) => state.selected.set(w.id, w));
+      $("selCount").textContent = String(state.selected.size);
+      $("selNames").textContent = [...state.selected.values()].map((w) => w.w).join("、");
+      $("btnSheet").disabled = state.selected.size < 1;
+      renderGrid();
+      const first = document.querySelector(".card.sel");
+      if (first) first.scrollIntoView({ behavior: "smooth", block: "nearest" });
+    }
+    function shufflePick(list, n) {
+      const arr = list.slice();
+      for (let i = arr.length - 1; i > 0; i -= 1) {
+        const j = Math.floor(Math.random() * (i + 1));
+        const t = arr[i];
+        arr[i] = arr[j];
+        arr[j] = t;
+      }
+      return arr.slice(0, Math.min(n, arr.length));
+    }
     function renderGrid() {
       const list = filtered();
       const book = DATA.name || "";
       $("stats").textContent = (book ? book + " · " : "") + `共 ${DATA.words.length} 词 · 当前 ${list.length} 词`;
       $("empty").hidden = list.length > 0;
+      updateSeqHint();
       const box = $("grid");
       box.innerHTML = list.map((w) => {
         const sel = state.selected.has(w.id) ? " sel" : "";
@@ -546,6 +628,7 @@
       syncBook();
       state.cat = "all";
       clearSelection();
+      resetSeq();
       [...$("dims").querySelectorAll("button")].forEach((b) => b.classList.toggle("on", b.dataset.dim === state.dim));
       [...$("accent").querySelectorAll("button")].forEach((b) => b.classList.toggle("on", b.dataset.accent === state.accent));
       renderLibbar();
@@ -600,6 +683,7 @@
       const btn = e.target.closest("[data-cat]");
       if (!btn) return;
       state.cat = btn.dataset.cat;
+      resetSeq();
       renderChips();
       renderGrid();
       if (isNarrow()) closeChipsPanel();
@@ -611,6 +695,7 @@
       state.cat = "all";
       [...$("dims").querySelectorAll("button")].forEach((b) => b.classList.toggle("on", b === btn));
       savePref();
+      resetSeq();
       renderChips();
       renderGrid();
       closeChipsPanel();
@@ -624,8 +709,37 @@
     });
     $("q").addEventListener("input", (e) => {
       state.q = e.target.value || "";
+      resetSeq();
       renderGrid();
     });
+    $("pickN").addEventListener("click", (e) => {
+      const btn = e.target.closest("button[data-n]");
+      if (!btn) return;
+      state.pickN = Number(btn.dataset.n);
+      renderPickN();
+      resetSeq();
+      savePref();
+    });
+    $("btnSeq").onclick = () => {
+      const list = filtered();
+      if (!list.length) {
+        alert("当前没有可选择的单词");
+        return;
+      }
+      const n = state.pickN;
+      const start = state.seqOffset % list.length;
+      applySelection(seqSlice(list, start, n));
+      state.seqOffset = (start + Math.min(n, list.length)) % list.length;
+      updateSeqHint();
+    };
+    $("btnRand").onclick = () => {
+      const list = filtered();
+      if (!list.length) {
+        alert("当前没有可选择的单词");
+        return;
+      }
+      applySelection(shufflePick(list, state.pickN));
+    };
     $("grid").addEventListener("click", (e) => {
       const play = e.target.closest("[data-play]");
       if (play) {
@@ -876,6 +990,7 @@
 
     loadPref();
     applyBook();
+    renderPickN();
   </script>
 </body>
 </html>

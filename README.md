@@ -4,7 +4,7 @@ KET / PET / 人教版 PEP（3–9 年级）词汇学习页：按主题或单元�
 
 **在线使用：** [https://xiaoyyuchen.github.io/EbbWords/](https://xiaoyyuchen.github.io/EbbWords/)
 
-本地打开 `index.html` 也可使用。搜索支持 `*`（任意字符）和 `_`（单个字符）。
+本地打开 `index.html` 也可使用。搜索支持 `*`（任意字符）和 `_`（单个字符）。可在当前主题里选择 5–10 个单词后，用「顺序选」按列表分段勾选，或用「随机选」每次抽一批。
 
 ## 词库
 
