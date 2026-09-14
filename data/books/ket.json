@@ -1,0 +1,8150 @@
+{
+  "id": "ket",
+  "name": "KET 高频词汇",
+  "short": "ket",
+  "kind": "topic",
+  "groups": [
+    {
+      "id": "family",
+      "name": "家庭人物",
+      "color": "#e07a5f"
+    },
+    {
+      "id": "body",
+      "name": "身体外貌",
+      "color": "#c05621"
+    },
+    {
+      "id": "clothes",
+      "name": "服装配饰",
+      "color": "#9b6b9e"
+    },
+    {
+      "id": "food",
+      "name": "食物饮料",
+      "color": "#dd6b20"
+    },
+    {
+      "id": "home",
+      "name": "家居生活",
+      "color": "#2f855a"
+    },
+    {
+      "id": "school",
+      "name": "学校学习",
+      "color": "#2b6cb0"
+    },
+    {
+      "id": "work",
+      "name": "工作职业",
+      "color": "#4a5568"
+    },
+    {
+      "id": "travel",
+      "name": "交通旅行",
+      "color": "#3182ce"
+    },
+    {
+      "id": "places",
+      "name": "城镇场所",
+      "color": "#6b46c1"
+    },
+    {
+      "id": "sport",
+      "name": "运动爱好",
+      "color": "#38a169"
+    },
+    {
+      "id": "fun",
+      "name": "娱乐媒体",
+      "color": "#d53f8c"
+    },
+    {
+      "id": "nature",
+      "name": "天气自然",
+      "color": "#319795"
+    },
+    {
+      "id": "animals",
+      "name": "动物宠物",
+      "color": "#b7791f"
+    },
+    {
+      "id": "time",
+      "name": "时间日期",
+      "color": "#805ad5"
+    },
+    {
+      "id": "number",
+      "name": "数字度量",
+      "color": "#4c51bf"
+    },
+    {
+      "id": "color",
+      "name": "颜色材质",
+      "color": "#e53e3e"
+    },
+    {
+      "id": "shop",
+      "name": "购物金钱",
+      "color": "#d69e2e"
+    },
+    {
+      "id": "health",
+      "name": "健康医疗",
+      "color": "#c53030"
+    },
+    {
+      "id": "tech",
+      "name": "科技通讯",
+      "color": "#2c7a7b"
+    },
+    {
+      "id": "social",
+      "name": "社交用语",
+      "color": "#b83280"
+    },
+    {
+      "id": "feel",
+      "name": "情感描述",
+      "color": "#dd6b20"
+    },
+    {
+      "id": "action",
+      "name": "常用动词",
+      "color": "#2b6cb0"
+    },
+    {
+      "id": "place",
+      "name": "方位位置",
+      "color": "#718096"
+    },
+    {
+      "id": "grammar",
+      "name": "功能语法",
+      "color": "#4a5568"
+    },
+    {
+      "id": "other",
+      "name": "其他",
+      "color": "#a0aec0"
+    }
+  ],
+  "words": [
+    {
+      "w": "a, an",
+      "p": "art",
+      "i": "ei; æn",
+      "c": "一,一个",
+      "t": "grammar"
+    },
+    {
+      "w": "able",
+      "p": "adj",
+      "i": "'eibl",
+      "c": "能干的,有能力的",
+      "t": "feel"
+    },
+    {
+      "w": "about",
+      "p": "prep",
+      "i": "'əbaut",
+      "c": "关于",
+      "t": "place"
+    },
+    {
+      "w": "above",
+      "p": "prep",
+      "i": "ə'bʌv",
+      "c": "在...上面",
+      "t": "place"
+    },
+    {
+      "w": "accident",
+      "p": "n",
+      "i": "'æksidənt",
+      "c": "事故,意外的事",
+      "t": "health"
+    },
+    {
+      "w": "across",
+      "p": "prep",
+      "i": "ə'krɔs",
+      "c": "穿过,横过",
+      "t": "place"
+    },
+    {
+      "w": "activity",
+      "p": "n",
+      "i": "æk'tiviti",
+      "c": "活动",
+      "t": "fun"
+    },
+    {
+      "w": "actor",
+      "p": "n",
+      "i": "'æktə",
+      "c": "男演员",
+      "t": "work"
+    },
+    {
+      "w": "actually",
+      "p": "adv",
+      "i": "'æktʃuəli",
+      "c": "实际上",
+      "t": "feel"
+    },
+    {
+      "w": "add",
+      "p": "v",
+      "i": "æd",
+      "c": "增加",
+      "t": "number"
+    },
+    {
+      "w": "address",
+      "p": "n",
+      "i": "ə'dres",
+      "c": "住址",
+      "t": "home"
+    },
+    {
+      "w": "adult",
+      "p": "adj & n",
+      "i": "ə'dʌlt, 'ædʌlt",
+      "c": "成年的,成熟的；成年人",
+      "t": "family"
+    },
+    {
+      "w": "adventure",
+      "p": "n",
+      "i": "əd'ventʃə",
+      "c": "冒险,奇遇",
+      "t": "travel"
+    },
+    {
+      "w": "advertisement",
+      "p": "n",
+      "i": "ædvər'taizmənt",
+      "c": "广告",
+      "t": "fun"
+    },
+    {
+      "w": "aeroplane",
+      "p": "n",
+      "i": "'ɛərəplein",
+      "c": "飞机",
+      "t": "travel"
+    },
+    {
+      "w": "afraid",
+      "p": "adj",
+      "i": "ə'freid",
+      "c": "害怕的,担心的",
+      "t": "feel"
+    },
+    {
+      "w": "after",
+      "p": "prep",
+      "i": "'ɑ:ftə",
+      "c": "在...之后",
+      "t": "grammar"
+    },
+    {
+      "w": "afternoon",
+      "p": "n",
+      "i": "'ɑ:ftə'nu:n",
+      "c": "下午",
+      "t": "time"
+    },
+    {
+      "w": "afterwards",
+      "p": "adv",
+      "i": "'ɑ:ftəwədz",
+      "c": "以后,后来",
+      "t": "time"
+    },
+    {
+      "w": "again",
+      "p": "adv",
+      "i": "ə'gein",
+      "c": "又,再",
+      "t": "time"
+    },
+    {
+      "w": "against",
+      "p": "prep",
+      "i": "ə'genst, ə'geinst",
+      "c": "反对,靠,倚",
+      "t": "grammar"
+    },
+    {
+      "w": "age",
+      "p": "n",
+      "i": "eidʒ",
+      "c": "年龄",
+      "t": "family"
+    },
+    {
+      "w": "ago",
+      "p": "adv",
+      "i": "ə'gəu",
+      "c": "以前",
+      "t": "time"
+    },
+    {
+      "w": "agree",
+      "p": "v",
+      "i": "ə'gri:",
+      "c": "同意,赞成",
+      "t": "action"
+    },
+    {
+      "w": "air",
+      "p": "n",
+      "i": "ɛə",
+      "c": "空气,旋律",
+      "t": "nature"
+    },
+    {
+      "w": "airport",
+      "p": "n",
+      "i": "'eəpɔ:t",
+      "c": "飞机场",
+      "t": "travel"
+    },
+    {
+      "w": "all",
+      "p": "det & pron",
+      "i": "ɔ:l",
+      "c": "所有的,全部的",
+      "t": "grammar"
+    },
+    {
+      "w": "all right/alright",
+      "p": "adv",
+      "i": "",
+      "c": "好吧",
+      "t": "social"
+    },
+    {
+      "w": "almost",
+      "p": "adv",
+      "i": "'ɔ:lməust",
+      "c": "几乎,差不多",
+      "t": "time"
+    },
+    {
+      "w": "alone",
+      "p": "adj & adv",
+      "i": "ə'ləun",
+      "c": "单独的，单独地",
+      "t": "feel"
+    },
+    {
+      "w": "already",
+      "p": "adv",
+      "i": "ɔ:l'redi",
+      "c": "已经",
+      "t": "time"
+    },
+    {
+      "w": "also",
+      "p": "adv",
+      "i": "'ɔ:lsəu",
+      "c": "也",
+      "t": "grammar"
+    },
+    {
+      "w": "always",
+      "p": "adv",
+      "i": "'ɔ:lweiz",
+      "c": "总是",
+      "t": "time"
+    },
+    {
+      "w": "a.m.",
+      "p": "adv",
+      "i": ".ei'em",
+      "c": "(ante meridiem 的缩写)上午,午前",
+      "t": "time"
+    },
+    {
+      "w": "ambulance",
+      "p": "n",
+      "i": "'æmbjuləns",
+      "c": "救护车",
+      "t": "health"
+    },
+    {
+      "w": "among",
+      "p": "prep",
+      "i": "ə'mʌŋ",
+      "c": "在...之中",
+      "t": "place"
+    },
+    {
+      "w": "and",
+      "p": "conj",
+      "i": "ənd, ænd",
+      "c": "和",
+      "t": "grammar"
+    },
+    {
+      "w": "angry",
+      "p": "adj",
+      "i": "'æŋgri",
+      "c": "生气的",
+      "t": "feel"
+    },
+    {
+      "w": "animal",
+      "p": "n",
+      "i": "'æniməl",
+      "c": "动物",
+      "t": "animals"
+    },
+    {
+      "w": "another",
+      "p": "det & pron",
+      "i": "ə'nʌðə",
+      "c": "另一个",
+      "t": "grammar"
+    },
+    {
+      "w": "answer",
+      "p": "n & v",
+      "i": "ɑŋsə",
+      "c": "答案,回答",
+      "t": "action"
+    },
+    {
+      "w": "any",
+      "p": "det and pron",
+      "i": "'eni",
+      "c": "一些，任何",
+      "t": "grammar"
+    },
+    {
+      "w": "anybody",
+      "p": "pron",
+      "i": "'eni.bɔdi, 'enibədi",
+      "c": "",
+      "t": "grammar"
+    },
+    {
+      "w": "anyone",
+      "p": "pron",
+      "i": "'eniwʌn",
+      "c": "任何人",
+      "t": "grammar"
+    },
+    {
+      "w": "anything",
+      "p": "pron",
+      "i": "'eni.θiŋ",
+      "c": "任何事",
+      "t": "grammar"
+    },
+    {
+      "w": "anyway",
+      "p": "adv",
+      "i": "'eniwei",
+      "c": "不管怎样",
+      "t": "grammar"
+    },
+    {
+      "w": "anywhere",
+      "p": "adv",
+      "i": "'eniwei",
+      "c": "任何地方",
+      "t": "grammar"
+    },
+    {
+      "w": "apartment",
+      "p": "n",
+      "i": "ə'pɑ:tmənt",
+      "c": "一套公寓房间",
+      "t": "home"
+    },
+    {
+      "w": "apple",
+      "p": "n",
+      "i": "'æpəl",
+      "c": "苹果",
+      "t": "food"
+    },
+    {
+      "w": "appointment",
+      "p": "n",
+      "i": "ə'pɔintmənt",
+      "c": "约会,预约",
+      "t": "health"
+    },
+    {
+      "w": "arm",
+      "p": "n",
+      "i": "ɑ:m",
+      "c": "手臂,袖子",
+      "t": "body"
+    },
+    {
+      "w": "(a)round",
+      "p": "adv & prep",
+      "i": "ə'raund",
+      "c": "弄圆,绕行",
+      "t": "place"
+    },
+    {
+      "w": "arrive",
+      "p": "v",
+      "i": "ə'raiv",
+      "c": "到达",
+      "t": "action"
+    },
+    {
+      "w": "art",
+      "p": "n",
+      "i": "ɑ:t",
+      "c": "艺术",
+      "t": "fun"
+    },
+    {
+      "w": "artist",
+      "p": "n",
+      "i": "'ɑ:tist",
+      "c": "艺术家",
+      "t": "work"
+    },
+    {
+      "w": "as",
+      "p": "prep",
+      "i": "æs",
+      "c": "当做",
+      "t": "grammar"
+    },
+    {
+      "w": "ask",
+      "p": "v",
+      "i": "ɑ:sk",
+      "c": "问,要求",
+      "t": "action"
+    },
+    {
+      "w": "assistant",
+      "p": "n",
+      "i": "ə'sistent",
+      "c": "助手，助理",
+      "t": "work"
+    },
+    {
+      "w": "as well",
+      "p": "adv",
+      "i": "",
+      "c": "也,又",
+      "t": "grammar"
+    },
+    {
+      "w": "as well as",
+      "p": "prep",
+      "i": "",
+      "c": "(除...之外)也,既...又",
+      "t": "grammar"
+    },
+    {
+      "w": "at",
+      "p": "prep",
+      "i": "æt",
+      "c": "在",
+      "t": "place"
+    },
+    {
+      "w": "at all",
+      "p": "adv",
+      "i": "",
+      "c": "完全,根本",
+      "t": "grammar"
+    },
+    {
+      "w": "aunt",
+      "p": "n",
+      "i": "ɑ:nt",
+      "c": "伯母,姑,婶,姨",
+      "t": "family"
+    },
+    {
+      "w": "autumn",
+      "p": "n",
+      "i": "'ɔ:təm",
+      "c": "秋季,秋天",
+      "t": "nature"
+    },
+    {
+      "w": "away",
+      "p": "adv",
+      "i": "ə'wei",
+      "c": "远离,离开",
+      "t": "time"
+    },
+    {
+      "w": "baby",
+      "p": "n",
+      "i": "'beibi",
+      "c": "婴儿",
+      "t": "family"
+    },
+    {
+      "w": "back",
+      "p": "n, adv & adj",
+      "i": "bæk",
+      "c": "后面的，向后地，后背,背脊",
+      "t": "body"
+    },
+    {
+      "w": "bad",
+      "p": "adj",
+      "i": "bæd",
+      "c": "坏的",
+      "t": "feel"
+    },
+    {
+      "w": "bag",
+      "p": "n",
+      "i": "bæg",
+      "c": "包",
+      "t": "clothes"
+    },
+    {
+      "w": "ball",
+      "p": "n",
+      "i": "bɔ:l",
+      "c": "球,舞会",
+      "t": "sport"
+    },
+    {
+      "w": "banana",
+      "p": "n",
+      "i": "bə'nɑ:nə",
+      "c": "香蕉",
+      "t": "food"
+    },
+    {
+      "w": "band",
+      "p": "n",
+      "i": "bænd",
+      "c": "带子,队,乐队",
+      "t": "fun"
+    },
+    {
+      "w": "bank",
+      "p": "n",
+      "i": "bæŋk",
+      "c": "银行,堤,岸",
+      "t": "places"
+    },
+    {
+      "w": "barbecue",
+      "p": "n",
+      "i": "'bɑ:bikju:",
+      "c": "烤肉",
+      "t": "food"
+    },
+    {
+      "w": "baseball",
+      "p": "n",
+      "i": "'beisbɔ:l",
+      "c": "棒球",
+      "t": "sport"
+    },
+    {
+      "w": "basketball",
+      "p": "n",
+      "i": "'bɑ:skitbɔ:l",
+      "c": "篮球",
+      "t": "sport"
+    },
+    {
+      "w": "bath",
+      "p": "n",
+      "i": "bɑ:θ",
+      "c": "洗澡,浴盆",
+      "t": "home"
+    },
+    {
+      "w": "bathroom",
+      "p": "n",
+      "i": "'bɑ:θrum, -ru:m",
+      "c": "浴室",
+      "t": "home"
+    },
+    {
+      "w": "be",
+      "p": "v",
+      "i": "bi:",
+      "c": "是,有,在",
+      "t": "action"
+    },
+    {
+      "w": "beach",
+      "p": "n",
+      "i": "bi:tʃ",
+      "c": "海滩",
+      "t": "places"
+    },
+    {
+      "w": "bear",
+      "p": "n",
+      "i": "beə(r)",
+      "c": "熊",
+      "t": "animals"
+    },
+    {
+      "w": "beautiful",
+      "p": "adj",
+      "i": "'bju:tifəl",
+      "c": "美丽的，漂亮的",
+      "t": "body"
+    },
+    {
+      "w": "because",
+      "p": "conj",
+      "i": "bi'kɔz",
+      "c": "因为",
+      "t": "grammar"
+    },
+    {
+      "w": "become",
+      "p": "v",
+      "i": "bi'kʌm",
+      "c": "变成,变得",
+      "t": "action"
+    },
+    {
+      "w": "bed",
+      "p": "n",
+      "i": "bed",
+      "c": "床",
+      "t": "home"
+    },
+    {
+      "w": "bedroom",
+      "p": "n",
+      "i": "'bedrum, -ru:m",
+      "c": "卧室",
+      "t": "home"
+    },
+    {
+      "w": "before",
+      "p": "adv & prep",
+      "i": "bi'fɔ:",
+      "c": "以前，在...以前",
+      "t": "grammar"
+    },
+    {
+      "w": "begin",
+      "p": "v",
+      "i": "bi'gin",
+      "c": "开始",
+      "t": "action"
+    },
+    {
+      "w": "beginner",
+      "p": "n",
+      "i": "bi'ginə",
+      "c": "初学者",
+      "t": "school"
+    },
+    {
+      "w": "behind",
+      "p": "adv & prep",
+      "i": "bi'haind",
+      "c": "在后面，在...之后",
+      "t": "place"
+    },
+    {
+      "w": "believe",
+      "p": "v",
+      "i": "bi'li:v",
+      "c": "相信",
+      "t": "action"
+    },
+    {
+      "w": "belong",
+      "p": "v",
+      "i": "bi'lɔŋ",
+      "c": "属于",
+      "t": "action"
+    },
+    {
+      "w": "below",
+      "p": "prep",
+      "i": "bi'ləu",
+      "c": "在...下面",
+      "t": "place"
+    },
+    {
+      "w": "belt",
+      "p": "n",
+      "i": "belt",
+      "c": "带,腰带",
+      "t": "clothes"
+    },
+    {
+      "w": "between",
+      "p": "prep",
+      "i": "bi'twi:n",
+      "c": "在...之间",
+      "t": "place"
+    },
+    {
+      "w": "bicycle",
+      "p": "n",
+      "i": "'baisik(ə)l",
+      "c": "自行车",
+      "t": "travel"
+    },
+    {
+      "w": "big",
+      "p": "adj",
+      "i": "big",
+      "c": "大的",
+      "t": "feel"
+    },
+    {
+      "w": "bike",
+      "p": "n",
+      "i": "baik",
+      "c": "自行车",
+      "t": "travel"
+    },
+    {
+      "w": "bill",
+      "p": "n",
+      "i": "bil",
+      "c": "帐单",
+      "t": "shop"
+    },
+    {
+      "w": "bird",
+      "p": "n",
+      "i": "bə:d",
+      "c": "鸟",
+      "t": "animals"
+    },
+    {
+      "w": "birthday",
+      "p": "n",
+      "i": "'bə:θdei",
+      "c": "生日",
+      "t": "time"
+    },
+    {
+      "w": "biscuit",
+      "p": "n",
+      "i": "'biskit",
+      "c": "饼干",
+      "t": "food"
+    },
+    {
+      "w": "bit",
+      "p": "n",
+      "i": "bit",
+      "c": "一点，少量",
+      "t": "number"
+    },
+    {
+      "w": "black",
+      "p": "adj",
+      "i": "blæk",
+      "c": "黑色的",
+      "t": "color"
+    },
+    {
+      "w": "blanket",
+      "p": "n",
+      "i": "'blæŋkit",
+      "c": "毛毯",
+      "t": "home"
+    },
+    {
+      "w": "blond(e)",
+      "p": "adj",
+      "i": "blɔnd",
+      "c": "金发的",
+      "t": "body"
+    },
+    {
+      "w": "blouse",
+      "p": "n",
+      "i": "blauz",
+      "c": "女衬衫",
+      "t": "clothes"
+    },
+    {
+      "w": "blue",
+      "p": "adj",
+      "i": "blu:",
+      "c": "蓝色的",
+      "t": "color"
+    },
+    {
+      "w": "board",
+      "p": "n",
+      "i": "bɔ:d",
+      "c": "木板,甲板",
+      "t": "school"
+    },
+    {
+      "w": "boat",
+      "p": "n",
+      "i": "bəut",
+      "c": "船",
+      "t": "travel"
+    },
+    {
+      "w": "body",
+      "p": "n",
+      "i": "'bɔdi",
+      "c": "身体,主体",
+      "t": "body"
+    },
+    {
+      "w": "boil",
+      "p": "v",
+      "i": "bɔil",
+      "c": "沸腾,煮沸",
+      "t": "food"
+    },
+    {
+      "w": "book",
+      "p": "n & v",
+      "i": "buk",
+      "c": "书，预订",
+      "t": "school"
+    },
+    {
+      "w": "bookshelf",
+      "p": "n",
+      "i": "'bukʃeif",
+      "c": "书架",
+      "t": "school"
+    },
+    {
+      "w": "bookshop",
+      "p": "n",
+      "i": "'bukʃɔp",
+      "c": "书店",
+      "t": "school"
+    },
+    {
+      "w": "boot",
+      "p": "n",
+      "i": "bu:t",
+      "c": "靴子",
+      "t": "clothes"
+    },
+    {
+      "w": "boring",
+      "p": "adj",
+      "i": "'bɔ:riŋ",
+      "c": "令人厌烦的",
+      "t": "feel"
+    },
+    {
+      "w": "born",
+      "p": "adj",
+      "i": "bɔ:n",
+      "c": "天生的",
+      "t": "family"
+    },
+    {
+      "w": "boss",
+      "p": "n",
+      "i": "bɔs",
+      "c": "老板,上司",
+      "t": "work"
+    },
+    {
+      "w": "both",
+      "p": "pron & det",
+      "i": "bəuθ",
+      "c": "两者都，两者",
+      "t": "grammar"
+    },
+    {
+      "w": "bottle",
+      "p": "n",
+      "i": "'bɔtl",
+      "c": "瓶子",
+      "t": "food"
+    },
+    {
+      "w": "bottom",
+      "p": "n",
+      "i": "'bɔtəm",
+      "c": "底部，屁股",
+      "t": "place"
+    },
+    {
+      "w": "bowl",
+      "p": "n",
+      "i": "bəul",
+      "c": "碗",
+      "t": "food"
+    },
+    {
+      "w": "box",
+      "p": "n",
+      "i": "bɔks",
+      "c": "盒子,箱",
+      "t": "home"
+    },
+    {
+      "w": "boy",
+      "p": "n",
+      "i": "bɔi",
+      "c": "男孩",
+      "t": "family"
+    },
+    {
+      "w": "brake",
+      "p": "n & v",
+      "i": "breik",
+      "c": "煞车",
+      "t": "travel"
+    },
+    {
+      "w": "bread",
+      "p": "n",
+      "i": "bred",
+      "c": "面包",
+      "t": "food"
+    },
+    {
+      "w": "break",
+      "p": "n & v",
+      "i": "breik",
+      "c": "",
+      "t": "action"
+    },
+    {
+      "w": "breakfast",
+      "p": "n",
+      "i": "'brekfəst",
+      "c": "早餐",
+      "t": "food"
+    },
+    {
+      "w": "bridge",
+      "p": "n",
+      "i": "bridʒ",
+      "c": "桥",
+      "t": "travel"
+    },
+    {
+      "w": "bring",
+      "p": "v",
+      "i": "briŋ",
+      "c": "带来",
+      "t": "action"
+    },
+    {
+      "w": "brother",
+      "p": "n",
+      "i": "'brʌðə",
+      "c": "兄弟",
+      "t": "family"
+    },
+    {
+      "w": "brown",
+      "p": "adj",
+      "i": "braun",
+      "c": "褐色的,棕色的",
+      "t": "color"
+    },
+    {
+      "w": "build",
+      "p": "v",
+      "i": "bild",
+      "c": "建立,建筑",
+      "t": "action"
+    },
+    {
+      "w": "building",
+      "p": "n",
+      "i": "'bildiŋ",
+      "c": "建筑物",
+      "t": "places"
+    },
+    {
+      "w": "burger",
+      "p": "n",
+      "i": "'bə:gə",
+      "c": "汉堡包",
+      "t": "food"
+    },
+    {
+      "w": "burn",
+      "p": "v",
+      "i": "bə:n",
+      "c": "燃烧,烧着",
+      "t": "action"
+    },
+    {
+      "w": "bus",
+      "p": "n",
+      "i": "bʌs",
+      "c": "公共汽车",
+      "t": "travel"
+    },
+    {
+      "w": "business",
+      "p": "n",
+      "i": "'biznis",
+      "c": "商业,生意,事务",
+      "t": "work"
+    },
+    {
+      "w": "businessman",
+      "p": "n",
+      "i": "'bizinismən",
+      "c": "商人",
+      "t": "work"
+    },
+    {
+      "w": "businesswoman",
+      "p": "n",
+      "i": "'biznis.wumən",
+      "c": "女商人",
+      "t": "work"
+    },
+    {
+      "w": "bus station",
+      "p": "n",
+      "i": "'bʌsteiʃən",
+      "c": "公共汽车站",
+      "t": "travel"
+    },
+    {
+      "w": "bus stop",
+      "p": "n",
+      "i": "'bʌstɔp",
+      "c": "公共汽车站",
+      "t": "travel"
+    },
+    {
+      "w": "busy",
+      "p": "adj",
+      "i": "'bizi",
+      "c": "忙的,繁忙的",
+      "t": "feel"
+    },
+    {
+      "w": "but",
+      "p": "conj",
+      "i": "bʌt",
+      "c": "但是",
+      "t": "grammar"
+    },
+    {
+      "w": "butter",
+      "p": "n",
+      "i": "'bʌtə",
+      "c": "奶油",
+      "t": "food"
+    },
+    {
+      "w": "buy",
+      "p": "v",
+      "i": "bai",
+      "c": "买",
+      "t": "shop"
+    },
+    {
+      "w": "by",
+      "p": "prep",
+      "i": "bai",
+      "c": "被,经由,在...之前",
+      "t": "place"
+    },
+    {
+      "w": "cafe/café",
+      "p": "n",
+      "i": "'kæfei; (US)kæ'fei",
+      "c": "咖啡",
+      "t": "food"
+    },
+    {
+      "w": "cake",
+      "p": "n",
+      "i": "keik",
+      "c": "蛋糕",
+      "t": "food"
+    },
+    {
+      "w": "call",
+      "p": "v",
+      "i": "kɔ:l",
+      "c": "呼叫,访问,打电话",
+      "t": "tech"
+    },
+    {
+      "w": "camera",
+      "p": "n",
+      "i": "'kæmərə",
+      "c": "照相机",
+      "t": "fun"
+    },
+    {
+      "w": "camp",
+      "p": "n & v",
+      "i": "kæmp",
+      "c": "露营,扎营",
+      "t": "travel"
+    },
+    {
+      "w": "campsite",
+      "p": "n",
+      "i": "kæmp'sait",
+      "c": "营地",
+      "t": "travel"
+    },
+    {
+      "w": "can",
+      "p": "n & v",
+      "i": "kæn, kən",
+      "c": "能力，能",
+      "t": "grammar"
+    },
+    {
+      "w": "canal",
+      "p": "n",
+      "i": "kə'næl",
+      "c": "运河,沟渠",
+      "t": "places"
+    },
+    {
+      "w": "car",
+      "p": "n",
+      "i": "kɑ:",
+      "c": "小汽车",
+      "t": "travel"
+    },
+    {
+      "w": "card",
+      "p": "n",
+      "i": "kɑ:d",
+      "c": "卡片",
+      "t": "shop"
+    },
+    {
+      "w": "careful",
+      "p": "adj",
+      "i": "'kɛəful",
+      "c": "小心的,仔细的",
+      "t": "health"
+    },
+    {
+      "w": "carrot",
+      "p": "n",
+      "i": "'kærət",
+      "c": "胡萝卜",
+      "t": "food"
+    },
+    {
+      "w": "carry",
+      "p": "v",
+      "i": "'kæri",
+      "c": "搬运,拿",
+      "t": "action"
+    },
+    {
+      "w": "cash",
+      "p": "n & v",
+      "i": "kæʃ",
+      "c": "现金，兑现,付现款",
+      "t": "shop"
+    },
+    {
+      "w": "cassette",
+      "p": "n",
+      "i": "kɑ:'set",
+      "c": "盒式录音带",
+      "t": "fun"
+    },
+    {
+      "w": "cassette player",
+      "p": "n",
+      "i": "",
+      "c": "卡式录音机",
+      "t": "fun"
+    },
+    {
+      "w": "cassette recorder",
+      "p": "n",
+      "i": "",
+      "c": "盒式录音机",
+      "t": "fun"
+    },
+    {
+      "w": "castle",
+      "p": "n",
+      "i": "'kɑ:sl",
+      "c": "城堡",
+      "t": "places"
+    },
+    {
+      "w": "cat",
+      "p": "n",
+      "i": "kæt",
+      "c": "猫,猫科动物",
+      "t": "animals"
+    },
+    {
+      "w": "catch",
+      "p": "v",
+      "i": "kætʃ",
+      "c": "抓住；赶上,了解",
+      "t": "travel"
+    },
+    {
+      "w": "cathedral",
+      "p": "n",
+      "i": "kə'θi:drəl",
+      "c": "大教堂",
+      "t": "places"
+    },
+    {
+      "w": "CD",
+      "p": "n",
+      "i": ".si:'di:",
+      "c": "激光唱片",
+      "t": "fun"
+    },
+    {
+      "w": "cent",
+      "p": "n",
+      "i": "sent",
+      "c": "分",
+      "t": "shop"
+    },
+    {
+      "w": "centre",
+      "p": "n",
+      "i": "'sentə",
+      "c": "中心",
+      "t": "places"
+    },
+    {
+      "w": "centimetre",
+      "p": "n",
+      "i": "'senti.mi:tə(r)",
+      "c": "厘米",
+      "t": "number"
+    },
+    {
+      "w": "century",
+      "p": "n",
+      "i": "'sentʃuri, -tʃəri",
+      "c": "世纪",
+      "t": "time"
+    },
+    {
+      "w": "certain",
+      "p": "adj",
+      "i": "'sə:tən",
+      "c": "一定的",
+      "t": "feel"
+    },
+    {
+      "w": "certainly (not)",
+      "p": "adv",
+      "i": "'sə:tənli",
+      "c": "当然",
+      "t": "feel"
+    },
+    {
+      "w": "chair",
+      "p": "n",
+      "i": "tʃɛə",
+      "c": "椅子,席位,讲座",
+      "t": "home"
+    },
+    {
+      "w": "change",
+      "p": "v & n",
+      "i": "tʃeindʒ",
+      "c": "变化,零钱",
+      "t": "shop"
+    },
+    {
+      "w": "cheap",
+      "p": "adj",
+      "i": "tʃi:p",
+      "c": "便宜的",
+      "t": "shop"
+    },
+    {
+      "w": "check",
+      "p": "v",
+      "i": "tʃek",
+      "c": "检查,阻止,核对",
+      "t": "action"
+    },
+    {
+      "w": "cheers!",
+      "p": "exclaim",
+      "i": "tʃiəz",
+      "c": "干杯",
+      "t": "social"
+    },
+    {
+      "w": "cheese",
+      "p": "n",
+      "i": "tʃi:z",
+      "c": "乳酪,干酪",
+      "t": "food"
+    },
+    {
+      "w": "chemist",
+      "p": "n",
+      "i": "'kemist",
+      "c": "化学家,药剂师",
+      "t": "work"
+    },
+    {
+      "w": "cheque",
+      "p": "n",
+      "i": "tʃek",
+      "c": "支票",
+      "t": "shop"
+    },
+    {
+      "w": "chicken",
+      "p": "n",
+      "i": "'tʃikin",
+      "c": "鸡,鸡肉",
+      "t": "food"
+    },
+    {
+      "w": "child",
+      "p": "n",
+      "i": "tʃaild",
+      "c": "小孩",
+      "t": "family"
+    },
+    {
+      "w": "chips",
+      "p": "n pl",
+      "i": "tʃips",
+      "c": "(口语)炸土豆条(片)",
+      "t": "food"
+    },
+    {
+      "w": "chocolate",
+      "p": "n",
+      "i": "'tʃɔkəlit",
+      "c": "巧克力",
+      "t": "food"
+    },
+    {
+      "w": "choose",
+      "p": "v",
+      "i": "tʃu:z",
+      "c": "选择",
+      "t": "action"
+    },
+    {
+      "w": "church",
+      "p": "n",
+      "i": "tʃə:tʃ",
+      "c": "教堂",
+      "t": "places"
+    },
+    {
+      "w": "cinema",
+      "p": "n",
+      "i": "'sinimə",
+      "c": "电影院",
+      "t": "fun"
+    },
+    {
+      "w": "city",
+      "p": "n",
+      "i": "'siti",
+      "c": "城市",
+      "t": "places"
+    },
+    {
+      "w": "class",
+      "p": "n",
+      "i": "klɑ:s",
+      "c": "班级,阶级,种类",
+      "t": "school"
+    },
+    {
+      "w": "classmate",
+      "p": "n",
+      "i": "'klɑ:smeit",
+      "c": "同班同学",
+      "t": "family"
+    },
+    {
+      "w": "classroom",
+      "p": "n",
+      "i": "'klɑ:srum",
+      "c": "教室",
+      "t": "school"
+    },
+    {
+      "w": "clean",
+      "p": "adj & v",
+      "i": "kli:n",
+      "c": "干净的，完全地",
+      "t": "action"
+    },
+    {
+      "w": "clear",
+      "p": "adj",
+      "i": "kliə",
+      "c": "清楚的,明确的",
+      "t": "feel"
+    },
+    {
+      "w": "clever",
+      "p": "adj",
+      "i": "'klevə",
+      "c": "聪明的",
+      "t": "feel"
+    },
+    {
+      "w": "click",
+      "p": "v",
+      "i": "klik",
+      "c": "点击,作滴答声",
+      "t": "tech"
+    },
+    {
+      "w": "climb",
+      "p": "v",
+      "i": "klaim",
+      "c": "攀登,上升,爬",
+      "t": "sport"
+    },
+    {
+      "w": "clock",
+      "p": "n",
+      "i": "klɔk",
+      "c": "时钟,计时器",
+      "t": "home"
+    },
+    {
+      "w": "close",
+      "p": "v",
+      "i": "kləuz",
+      "c": "关,结束,靠近",
+      "t": "action"
+    },
+    {
+      "w": "closed",
+      "p": "adj",
+      "i": "kləuzd",
+      "c": "关着的，封闭的",
+      "t": "feel"
+    },
+    {
+      "w": "close to",
+      "p": "prep",
+      "i": "",
+      "c": "接近于,在...的近旁",
+      "t": "place"
+    },
+    {
+      "w": "clothes",
+      "p": "n pl",
+      "i": "kləuðz",
+      "c": "衣服",
+      "t": "clothes"
+    },
+    {
+      "w": "cloud",
+      "p": "n",
+      "i": "klaud",
+      "c": "云,忧色,云状的烟",
+      "t": "nature"
+    },
+    {
+      "w": "cloudy",
+      "p": "adj",
+      "i": "'klaudi",
+      "c": "多云的",
+      "t": "nature"
+    },
+    {
+      "w": "club",
+      "p": "n",
+      "i": "klʌb",
+      "c": "俱乐部",
+      "t": "places"
+    },
+    {
+      "w": "coach",
+      "p": "n",
+      "i": "kəutʃ",
+      "c": "长途汽车,(火车)客车车厢,教练",
+      "t": "travel"
+    },
+    {
+      "w": "coat",
+      "p": "n",
+      "i": "kəut",
+      "c": "外套",
+      "t": "clothes"
+    },
+    {
+      "w": "coffee",
+      "p": "n",
+      "i": "'kɔfi",
+      "c": "咖啡",
+      "t": "food"
+    },
+    {
+      "w": "cold",
+      "p": "adj & n",
+      "i": "kəuld",
+      "c": "冷的",
+      "t": "health"
+    },
+    {
+      "w": "colleague",
+      "p": "n",
+      "i": "'kɔli:g",
+      "c": "同事",
+      "t": "family"
+    },
+    {
+      "w": "college",
+      "p": "n",
+      "i": "'kɔlidʒ",
+      "c": "学院",
+      "t": "school"
+    },
+    {
+      "w": "colour",
+      "p": "n",
+      "i": "'kʌlə",
+      "c": "颜色",
+      "t": "color"
+    },
+    {
+      "w": "comb",
+      "p": "n",
+      "i": "kəum",
+      "c": "头梳,鸡冠",
+      "t": "clothes"
+    },
+    {
+      "w": "come",
+      "p": "v",
+      "i": "kʌm",
+      "c": "来",
+      "t": "action"
+    },
+    {
+      "w": "comfortable",
+      "p": "adj",
+      "i": "'kʌmfətəbl",
+      "c": "舒适的",
+      "t": "feel"
+    },
+    {
+      "w": "company",
+      "p": "n",
+      "i": "'kʌmpəni",
+      "c": "公司,友伴,交际",
+      "t": "work"
+    },
+    {
+      "w": "competition",
+      "p": "n",
+      "i": "kɔmpi'tiʃən",
+      "c": "比赛,竞争",
+      "t": "sport"
+    },
+    {
+      "w": "computer",
+      "p": "n",
+      "i": "kəm'pju:tə",
+      "c": "计算机",
+      "t": "tech"
+    },
+    {
+      "w": "concert",
+      "p": "n",
+      "i": "'kɔnsət",
+      "c": "音乐会,一致",
+      "t": "fun"
+    },
+    {
+      "w": "congratulations!",
+      "p": "exclaim",
+      "i": "祝贺[ kən.græ tju'leiʃəns",
+      "c": "",
+      "t": "fun"
+    },
+    {
+      "w": "conversation",
+      "p": "n",
+      "i": ".kɔnvə'seiʃən",
+      "c": "会话,谈话",
+      "t": "fun"
+    },
+    {
+      "w": "cook",
+      "p": "n & v",
+      "i": "kuk",
+      "c": "煮，烹调",
+      "t": "food"
+    },
+    {
+      "w": "cooker",
+      "p": "n",
+      "i": "'kukə",
+      "c": "炊具",
+      "t": "food"
+    },
+    {
+      "w": "corner",
+      "p": "n",
+      "i": "'kɔ:nə",
+      "c": "角落,转角",
+      "t": "places"
+    },
+    {
+      "w": "correct",
+      "p": "adj",
+      "i": "kə'rekt",
+      "c": "正确的",
+      "t": "feel"
+    },
+    {
+      "w": "cost",
+      "p": "n & v",
+      "i": "kɔst",
+      "c": "价值,费用，花费,值",
+      "t": "shop"
+    },
+    {
+      "w": "could",
+      "p": "v",
+      "i": "kud",
+      "c": "能够",
+      "t": "grammar"
+    },
+    {
+      "w": "country",
+      "p": "n",
+      "i": "'kʌntri",
+      "c": "国家",
+      "t": "places"
+    },
+    {
+      "w": "countryside",
+      "p": "n",
+      "i": "'kʌntrisaid",
+      "c": "乡下,农村",
+      "t": "places"
+    },
+    {
+      "w": "course",
+      "p": "n",
+      "i": "kɔ:s",
+      "c": "课程,讲座",
+      "t": "school"
+    },
+    {
+      "w": "cousin",
+      "p": "n",
+      "i": "'kʌzn",
+      "c": "堂(或表)兄弟(姐妹)",
+      "t": "family"
+    },
+    {
+      "w": "cow",
+      "p": "n",
+      "i": "kau",
+      "c": "母牛,母兽",
+      "t": "animals"
+    },
+    {
+      "w": "cream",
+      "p": "n",
+      "i": "kri:m",
+      "c": "乳酪,奶油,面霜",
+      "t": "food"
+    },
+    {
+      "w": "credit card",
+      "p": "n",
+      "i": "'kredit.kɑ:d",
+      "c": "信用卡",
+      "t": "shop"
+    },
+    {
+      "w": "cross",
+      "p": "v",
+      "i": "krɔs",
+      "c": "交叉,横过,越过",
+      "t": "action"
+    },
+    {
+      "w": "crossing",
+      "p": "n",
+      "i": "'krɔsiŋ",
+      "c": "人行横道,十字路口",
+      "t": "travel"
+    },
+    {
+      "w": "crossroads",
+      "p": "n",
+      "i": "'krɔsroudz",
+      "c": "交叉路口,十字路",
+      "t": "travel"
+    },
+    {
+      "w": "crowd",
+      "p": "n",
+      "i": "kraud",
+      "c": "群众,一伙",
+      "t": "places"
+    },
+    {
+      "w": "crowded",
+      "p": "adj",
+      "i": "'kraudid",
+      "c": "拥挤的",
+      "t": "feel"
+    },
+    {
+      "w": "cry",
+      "p": "v",
+      "i": "krai",
+      "c": "哭,叫,喊",
+      "t": "action"
+    },
+    {
+      "w": "cup",
+      "p": "n",
+      "i": "kʌp",
+      "c": "杯子",
+      "t": "food"
+    },
+    {
+      "w": "cupboard",
+      "p": "n",
+      "i": "'kʌbəd",
+      "c": "碗橱",
+      "t": "home"
+    },
+    {
+      "w": "customer",
+      "p": "n",
+      "i": "'kʌstəmə",
+      "c": "顾客",
+      "t": "work"
+    },
+    {
+      "w": "cut",
+      "p": "v",
+      "i": "kʌt",
+      "c": "切割,减少,刺痛",
+      "t": "action"
+    },
+    {
+      "w": "dad(dy)",
+      "p": "n",
+      "i": "dæd",
+      "c": "爸爸",
+      "t": "family"
+    },
+    {
+      "w": "daily",
+      "p": "adj & adv",
+      "i": "'deili",
+      "c": "每日的，天天",
+      "t": "time"
+    },
+    {
+      "w": "dance",
+      "p": "n & v",
+      "i": "'dɑ:ns",
+      "c": "舞蹈，跳舞",
+      "t": "fun"
+    },
+    {
+      "w": "danger",
+      "p": "n",
+      "i": "'deindʒə",
+      "c": "危险",
+      "t": "health"
+    },
+    {
+      "w": "dangerous",
+      "p": "adj",
+      "i": "'deindʒrəs",
+      "c": "危险的",
+      "t": "health"
+    },
+    {
+      "w": "dark",
+      "p": "adj",
+      "i": "dɑ:k",
+      "c": "黑暗的",
+      "t": "color"
+    },
+    {
+      "w": "date",
+      "p": "n",
+      "i": "deit",
+      "c": "日期,约会",
+      "t": "time"
+    },
+    {
+      "w": "daughter",
+      "p": "n",
+      "i": "'dɔ:tə",
+      "c": "女儿",
+      "t": "family"
+    },
+    {
+      "w": "day",
+      "p": "n",
+      "i": "dei",
+      "c": "白天",
+      "t": "time"
+    },
+    {
+      "w": "dead",
+      "p": "adj",
+      "i": "ded",
+      "c": "死的",
+      "t": "health"
+    },
+    {
+      "w": "dear",
+      "p": "adj",
+      "i": "diə",
+      "c": "亲爱的",
+      "t": "social"
+    },
+    {
+      "w": "decide",
+      "p": "v",
+      "i": "di'said",
+      "c": "决定,判决",
+      "t": "action"
+    },
+    {
+      "w": "degree",
+      "p": "n",
+      "i": "di'gri:",
+      "c": "程度,度数",
+      "t": "number"
+    },
+    {
+      "w": "delay",
+      "p": "n & v",
+      "i": "di'lei",
+      "c": "耽搁,延迟",
+      "t": "travel"
+    },
+    {
+      "w": "dentist",
+      "p": "n",
+      "i": "'dentist",
+      "c": "牙科医生",
+      "t": "health"
+    },
+    {
+      "w": "department",
+      "p": "n",
+      "i": "di'pɑ:tmənt",
+      "c": "部,部门,系",
+      "t": "work"
+    },
+    {
+      "w": "describe",
+      "p": "v",
+      "i": "dis'kraib",
+      "c": "描述",
+      "t": "action"
+    },
+    {
+      "w": "desk",
+      "p": "n",
+      "i": "desk",
+      "c": "书桌",
+      "t": "home"
+    },
+    {
+      "w": "diary",
+      "p": "n",
+      "i": "'daiəri",
+      "c": "日记,日记簿",
+      "t": "school"
+    },
+    {
+      "w": "dictionary",
+      "p": "n",
+      "i": "'dikʃənəri",
+      "c": "词典,字典",
+      "t": "school"
+    },
+    {
+      "w": "die",
+      "p": "v",
+      "i": "dai",
+      "c": "死",
+      "t": "health"
+    },
+    {
+      "w": "difference",
+      "p": "n",
+      "i": "'difərəns",
+      "c": "不同,差异",
+      "t": "school"
+    },
+    {
+      "w": "different",
+      "p": "adj",
+      "i": "'difrənt",
+      "c": "不同的",
+      "t": "feel"
+    },
+    {
+      "w": "dining room",
+      "p": "n",
+      "i": "",
+      "c": "食堂",
+      "t": "home"
+    },
+    {
+      "w": "dinner",
+      "p": "n",
+      "i": "'dinə",
+      "c": "主餐,晚餐,晚宴",
+      "t": "food"
+    },
+    {
+      "w": "diploma",
+      "p": "n",
+      "i": "di'pləumə",
+      "c": "文凭",
+      "t": "school"
+    },
+    {
+      "w": "dirty",
+      "p": "adj",
+      "i": "'də:ti",
+      "c": "肮脏的",
+      "t": "feel"
+    },
+    {
+      "w": "disco",
+      "p": "n",
+      "i": "'diskəu",
+      "c": "迪斯科舞厅",
+      "t": "fun"
+    },
+    {
+      "w": "dish",
+      "p": "n",
+      "i": "diʃ",
+      "c": "盘子",
+      "t": "food"
+    },
+    {
+      "w": "do",
+      "p": "v",
+      "i": "du:",
+      "c": "干,做",
+      "t": "grammar"
+    },
+    {
+      "w": "doctor",
+      "p": "n",
+      "i": "'dɔktə",
+      "c": "医生",
+      "t": "health"
+    },
+    {
+      "w": "dog",
+      "p": "n",
+      "i": "dɔg",
+      "c": "狗,卑鄙的人",
+      "t": "animals"
+    },
+    {
+      "w": "dollar",
+      "p": "n",
+      "i": "'dɔlə",
+      "c": "美元",
+      "t": "shop"
+    },
+    {
+      "w": "dolphin",
+      "p": "n",
+      "i": "'dɔlfin",
+      "c": "海豚",
+      "t": "animals"
+    },
+    {
+      "w": "door",
+      "p": "n",
+      "i": "dɔ:, dɔə",
+      "c": "门",
+      "t": "home"
+    },
+    {
+      "w": "double",
+      "p": "adj",
+      "i": "'dʌbl",
+      "c": "两倍的,双重的",
+      "t": "number"
+    },
+    {
+      "w": "down",
+      "p": "adv & prep",
+      "i": "daun",
+      "c": "向下，沿着...而下",
+      "t": "place"
+    },
+    {
+      "w": "downstairs",
+      "p": "adv",
+      "i": "daʊn'steəz",
+      "c": "在楼下",
+      "t": "home"
+    },
+    {
+      "w": "draw",
+      "p": "v",
+      "i": "drɔ:",
+      "c": "拉,拖,挨近",
+      "t": "school"
+    },
+    {
+      "w": "drawing",
+      "p": "n",
+      "i": "'drɔ:iŋ",
+      "c": "绘图,图画",
+      "t": "school"
+    },
+    {
+      "w": "dress",
+      "p": "n & v",
+      "i": "dres",
+      "c": "女装,服装，穿著",
+      "t": "clothes"
+    },
+    {
+      "w": "drink",
+      "p": "n & v",
+      "i": "driŋk",
+      "c": "饮料，喝,喝酒",
+      "t": "food"
+    },
+    {
+      "w": "drive",
+      "p": "v",
+      "i": "draiv",
+      "c": "开车,驱使",
+      "t": "travel"
+    },
+    {
+      "w": "driving licence",
+      "p": "n",
+      "i": "",
+      "c": "驾驶执照",
+      "t": "travel"
+    },
+    {
+      "w": "drum",
+      "p": "n",
+      "i": "drʌm",
+      "c": "鼓,鼓声",
+      "t": "fun"
+    },
+    {
+      "w": "dry",
+      "p": "adj & v",
+      "i": "drai",
+      "c": "干的,枯燥无味的，把...弄干,干掉",
+      "t": "nature"
+    },
+    {
+      "w": "during",
+      "p": "prep",
+      "i": "'djuəriŋ",
+      "c": "在...期间",
+      "t": "time"
+    },
+    {
+      "w": "DVD",
+      "p": "n",
+      "i": "'di:'vi:'di:",
+      "c": "光碟,影碟",
+      "t": "fun"
+    },
+    {
+      "w": "DVD player",
+      "p": "n",
+      "i": "",
+      "c": "影碟机",
+      "t": "fun"
+    },
+    {
+      "w": "each",
+      "p": "det & pron",
+      "i": "i:tʃ",
+      "c": "每个,每",
+      "t": "grammar"
+    },
+    {
+      "w": "ear",
+      "p": "n",
+      "i": "iə",
+      "c": "耳朵",
+      "t": "body"
+    },
+    {
+      "w": "early",
+      "p": "adj & adv",
+      "i": "'ə:li",
+      "c": "早",
+      "t": "time"
+    },
+    {
+      "w": "earn",
+      "p": "v",
+      "i": "ə:n",
+      "c": "赚得,获得",
+      "t": "work"
+    },
+    {
+      "w": "east",
+      "p": "n, adj & adv",
+      "i": "i:st",
+      "c": "东方，东方的，向东方",
+      "t": "place"
+    },
+    {
+      "w": "easy",
+      "p": "adj",
+      "i": "'i:zi",
+      "c": "容易的,安逸的",
+      "t": "feel"
+    },
+    {
+      "w": "eat",
+      "p": "v",
+      "i": "i:t",
+      "c": "吃",
+      "t": "food"
+    },
+    {
+      "w": "egg",
+      "p": "n",
+      "i": "eg",
+      "c": "蛋",
+      "t": "food"
+    },
+    {
+      "w": "electric",
+      "p": "adj",
+      "i": "i'lektrik",
+      "c": "电的",
+      "t": "tech"
+    },
+    {
+      "w": "electricity",
+      "p": "n",
+      "i": "ilek'trisiti",
+      "c": "电",
+      "t": "tech"
+    },
+    {
+      "w": "elephant",
+      "p": "n",
+      "i": "'elifənt",
+      "c": "大象",
+      "t": "animals"
+    },
+    {
+      "w": "else",
+      "p": "pron",
+      "i": "els",
+      "c": "别的，其他, 另外",
+      "t": "grammar"
+    },
+    {
+      "w": "email",
+      "p": "n & v",
+      "i": "'i:'meil",
+      "c": "电子邮件，给...发电子信函",
+      "t": "tech"
+    },
+    {
+      "w": "empty",
+      "p": "adj & v",
+      "i": "'empti",
+      "c": "空的，倒空,使...空",
+      "t": "feel"
+    },
+    {
+      "w": "end",
+      "p": "v & n",
+      "i": "end",
+      "c": "结束,终点",
+      "t": "action"
+    },
+    {
+      "w": "engine",
+      "p": "n",
+      "i": "'endʒin",
+      "c": "发动机,引擎",
+      "t": "travel"
+    },
+    {
+      "w": "engineer",
+      "p": "n",
+      "i": "endʒi'niə",
+      "c": "工程师",
+      "t": "work"
+    },
+    {
+      "w": "enjoy",
+      "p": "v",
+      "i": "in'dʒɔi",
+      "c": "享受,喜欢",
+      "t": "action"
+    },
+    {
+      "w": "enough",
+      "p": "det & pron",
+      "i": "i'nʌf",
+      "c": "充足, 足够(的)",
+      "t": "grammar"
+    },
+    {
+      "w": "entrance",
+      "p": "n",
+      "i": "'entrəns",
+      "c": "入口",
+      "t": "places"
+    },
+    {
+      "w": "envelope",
+      "p": "n",
+      "i": "'enviləup",
+      "c": "信封",
+      "t": "school"
+    },
+    {
+      "w": "Euro",
+      "p": "n",
+      "i": "'jʊərəʊ",
+      "c": "欧元",
+      "t": "shop"
+    },
+    {
+      "w": "even",
+      "p": "adv",
+      "i": "'i:vən",
+      "c": "甚至,恰好,正当",
+      "t": "grammar"
+    },
+    {
+      "w": "evening",
+      "p": "n",
+      "i": "'i:vniŋ",
+      "c": "傍晚,晚上",
+      "t": "time"
+    },
+    {
+      "w": "ever",
+      "p": "adv",
+      "i": "'evə",
+      "c": "曾经,永远",
+      "t": "time"
+    },
+    {
+      "w": "every",
+      "p": "det",
+      "i": "'evri",
+      "c": "每,每个,每隔...的",
+      "t": "grammar"
+    },
+    {
+      "w": "everybody",
+      "p": "pron",
+      "i": "'evribɔdi, 'evribədi",
+      "c": "每人,人人",
+      "t": "grammar"
+    },
+    {
+      "w": "everyone",
+      "p": "pron",
+      "i": "'evriwʌn",
+      "c": "每人,人人",
+      "t": "grammar"
+    },
+    {
+      "w": "everything",
+      "p": "pron",
+      "i": "'evriθiŋ",
+      "c": "每件事,一切",
+      "t": "grammar"
+    },
+    {
+      "w": "everywhere",
+      "p": "adv",
+      "i": "'evrihwɛə",
+      "c": "到处,无论何处",
+      "t": "grammar"
+    },
+    {
+      "w": "examination/exam",
+      "p": "n",
+      "i": "ig.zæmi'neiʃən; ig'zæm, eg-",
+      "c": "检查,考试",
+      "t": "school"
+    },
+    {
+      "w": "example",
+      "p": "n",
+      "i": "ig'zɑ:mpl",
+      "c": "榜样,例子",
+      "t": "school"
+    },
+    {
+      "w": "excellent",
+      "p": "adj",
+      "i": "'eksələnt",
+      "c": "",
+      "t": "feel"
+    },
+    {
+      "w": "except",
+      "p": "prep",
+      "i": "ik'sept",
+      "c": "极好的,优秀的",
+      "t": "grammar"
+    },
+    {
+      "w": "excuse",
+      "p": "v",
+      "i": "iks'kju:z",
+      "c": "原谅",
+      "t": "social"
+    },
+    {
+      "w": "exhibition",
+      "p": "n",
+      "i": ".eksi'biʃən",
+      "c": "展览,展览会",
+      "t": "fun"
+    },
+    {
+      "w": "exit",
+      "p": "n",
+      "i": "'eksit, -zit",
+      "c": "出口,退场",
+      "t": "places"
+    },
+    {
+      "w": "expensive",
+      "p": "adj",
+      "i": "iks'pensiv",
+      "c": "昂贵的",
+      "t": "shop"
+    },
+    {
+      "w": "explain",
+      "p": "v",
+      "i": "iks'plein",
+      "c": "解释,说明",
+      "t": "action"
+    },
+    {
+      "w": "extra",
+      "p": "det",
+      "i": "'ekstrə",
+      "c": "额外的",
+      "t": "number"
+    },
+    {
+      "w": "face",
+      "p": "n",
+      "i": "feis",
+      "c": "脸,面容",
+      "t": "body"
+    },
+    {
+      "w": "factory",
+      "p": "n",
+      "i": "'fæktəri",
+      "c": "工厂",
+      "t": "work"
+    },
+    {
+      "w": "fail",
+      "p": "v",
+      "i": "feil",
+      "c": "失败,不及格",
+      "t": "action"
+    },
+    {
+      "w": "fair",
+      "p": "adj",
+      "i": "fɛə",
+      "c": "(皮肤，毛发等）浅色的；白皙的",
+      "t": "body"
+    },
+    {
+      "w": "fall",
+      "p": "v",
+      "i": "fɔ:l",
+      "c": "倒下,落下",
+      "t": "health"
+    },
+    {
+      "w": "family",
+      "p": "n",
+      "i": "'fæmili",
+      "c": "家庭",
+      "t": "family"
+    },
+    {
+      "w": "famous",
+      "p": "adj",
+      "i": "'feiməs",
+      "c": "著名的",
+      "t": "feel"
+    },
+    {
+      "w": "far",
+      "p": "adv",
+      "i": "fɑ:",
+      "c": "远的(地)",
+      "t": "place"
+    },
+    {
+      "w": "farm",
+      "p": "n",
+      "i": "fɑ:m",
+      "c": "农场,农田",
+      "t": "places"
+    },
+    {
+      "w": "fast",
+      "p": "adj & adv",
+      "i": "fɑ:st",
+      "c": "快速的, 很快地",
+      "t": "feel"
+    },
+    {
+      "w": "fat",
+      "p": "adj",
+      "i": "fæt",
+      "c": "肥胖的",
+      "t": "body"
+    },
+    {
+      "w": "father",
+      "p": "n",
+      "i": "'fɑ:ðə",
+      "c": "父亲",
+      "t": "family"
+    },
+    {
+      "w": "favourite",
+      "p": "adj",
+      "i": "'feivərit",
+      "c": "特别喜爱的",
+      "t": "feel"
+    },
+    {
+      "w": "feel",
+      "p": "v",
+      "i": "fi:l",
+      "c": "感觉,觉得,触摸",
+      "t": "action"
+    },
+    {
+      "w": "few",
+      "p": "det",
+      "i": "fju:",
+      "c": "很少的,不多的",
+      "t": "number"
+    },
+    {
+      "w": "field",
+      "p": "n",
+      "i": "fi:ld",
+      "c": "地,田地",
+      "t": "places"
+    },
+    {
+      "w": "fill",
+      "p": "v",
+      "i": "fil",
+      "c": "装满,填充",
+      "t": "action"
+    },
+    {
+      "w": "fill in",
+      "p": "phr v",
+      "i": "",
+      "c": "填写",
+      "t": "action"
+    },
+    {
+      "w": "film",
+      "p": "n",
+      "i": "film",
+      "c": "电影",
+      "t": "fun"
+    },
+    {
+      "w": "find",
+      "p": "v",
+      "i": "faind",
+      "c": "发现,感觉到",
+      "t": "action"
+    },
+    {
+      "w": "fine",
+      "p": "adj",
+      "i": "fain",
+      "c": "美好的,好的,晴朗的,健康的",
+      "t": "feel"
+    },
+    {
+      "w": "finish",
+      "p": "v",
+      "i": "'finiʃ",
+      "c": "完成,结束",
+      "t": "action"
+    },
+    {
+      "w": "fire",
+      "p": "n",
+      "i": "'faiə",
+      "c": "火,火灾",
+      "t": "nature"
+    },
+    {
+      "w": "first",
+      "p": "det, adv & adj",
+      "i": "fə:st",
+      "c": "首先,第一",
+      "t": "time"
+    },
+    {
+      "w": "fish",
+      "p": "n & v",
+      "i": "fiʃ",
+      "c": "鱼，捕鱼,钓鱼",
+      "t": "food"
+    },
+    {
+      "w": "flat",
+      "p": "n",
+      "i": "flæt",
+      "c": "公寓",
+      "t": "home"
+    },
+    {
+      "w": "flight",
+      "p": "n",
+      "i": "flait",
+      "c": "飞行,飞机的航程,航班",
+      "t": "travel"
+    },
+    {
+      "w": "floor",
+      "p": "n",
+      "i": "flɔ:, flɔə",
+      "c": "地板,楼层",
+      "t": "home"
+    },
+    {
+      "w": "flower",
+      "p": "n",
+      "i": "'flauə",
+      "c": "花",
+      "t": "nature"
+    },
+    {
+      "w": "fly",
+      "p": "n & v",
+      "i": "flai",
+      "c": "苍蝇，飞,飞翔,逃走",
+      "t": "travel"
+    },
+    {
+      "w": "fog",
+      "p": "n",
+      "i": "fɔg",
+      "c": "雾",
+      "t": "nature"
+    },
+    {
+      "w": "foggy",
+      "p": "adj",
+      "i": "'fɔgi",
+      "c": "有雾的",
+      "t": "nature"
+    },
+    {
+      "w": "follow",
+      "p": "v",
+      "i": "'fɔləu",
+      "c": "跟随,沿行",
+      "t": "action"
+    },
+    {
+      "w": "food",
+      "p": "n",
+      "i": "fu:d",
+      "c": "食物",
+      "t": "food"
+    },
+    {
+      "w": "foot",
+      "p": "n",
+      "i": "fut",
+      "c": "脚",
+      "t": "body"
+    },
+    {
+      "w": "football",
+      "p": "n",
+      "i": "'futbɔ:l",
+      "c": "足球",
+      "t": "sport"
+    },
+    {
+      "w": "for",
+      "p": "prep",
+      "i": "fɔ:; fə",
+      "c": "给,为",
+      "t": "grammar"
+    },
+    {
+      "w": "foreign",
+      "p": "adj",
+      "i": "'fɔrin",
+      "c": "外国的",
+      "t": "feel"
+    },
+    {
+      "w": "forest",
+      "p": "n",
+      "i": "'fɔrist",
+      "c": "森林",
+      "t": "places"
+    },
+    {
+      "w": "forget",
+      "p": "v",
+      "i": "fə'get",
+      "c": "忘记,忽略",
+      "t": "action"
+    },
+    {
+      "w": "fork",
+      "p": "n",
+      "i": "fɔ:k",
+      "c": "叉",
+      "t": "food"
+    },
+    {
+      "w": "form",
+      "p": "n",
+      "i": "fɔ:m",
+      "c": "形式,形状,表格",
+      "t": "school"
+    },
+    {
+      "w": "free",
+      "p": "adj",
+      "i": "fri:",
+      "c": "自由的,大方的",
+      "t": "feel"
+    },
+    {
+      "w": "fresh",
+      "p": "adj",
+      "i": "freʃ",
+      "c": "新鲜的",
+      "t": "feel"
+    },
+    {
+      "w": "fridge",
+      "p": "n",
+      "i": "fridʒ",
+      "c": "电冰箱",
+      "t": "food"
+    },
+    {
+      "w": "fried",
+      "p": "adj",
+      "i": "fri:d",
+      "c": "炸过的",
+      "t": "food"
+    },
+    {
+      "w": "friend",
+      "p": "n",
+      "i": "frend",
+      "c": "朋友",
+      "t": "family"
+    },
+    {
+      "w": "friendly",
+      "p": "adj",
+      "i": "'frendli",
+      "c": "友好的",
+      "t": "feel"
+    },
+    {
+      "w": "from",
+      "p": "prep",
+      "i": "frɔm, frəm, frm",
+      "c": "从,从...起",
+      "t": "place"
+    },
+    {
+      "w": "front",
+      "p": "n",
+      "i": "frʌnt",
+      "c": "前面,开头",
+      "t": "place"
+    },
+    {
+      "w": "fruit",
+      "p": "n",
+      "i": "fru:t",
+      "c": "水果",
+      "t": "food"
+    },
+    {
+      "w": "fry",
+      "p": "v",
+      "i": "frai",
+      "c": "油煎,油炸",
+      "t": "food"
+    },
+    {
+      "w": "full (of)",
+      "p": "adj",
+      "i": "ful",
+      "c": "充满的,完全的",
+      "t": "feel"
+    },
+    {
+      "w": "fun",
+      "p": "n",
+      "i": "fʌn",
+      "c": "乐趣,玩笑",
+      "t": "fun"
+    },
+    {
+      "w": "funny",
+      "p": "adj",
+      "i": "'fʌni",
+      "c": "滑稽的,有趣的",
+      "t": "feel"
+    },
+    {
+      "w": "furniture",
+      "p": "n",
+      "i": "'fə:nitʃə",
+      "c": "家具",
+      "t": "home"
+    },
+    {
+      "w": "game",
+      "p": "n",
+      "i": "geim",
+      "c": "游戏",
+      "t": "sport"
+    },
+    {
+      "w": "garage",
+      "p": "n",
+      "i": "'gærɑ:(d)ʒ",
+      "c": "车库,汽车修理厂",
+      "t": "travel"
+    },
+    {
+      "w": "garden",
+      "p": "n",
+      "i": "'gɑ:dn",
+      "c": "花园,果园,菜园",
+      "t": "home"
+    },
+    {
+      "w": "gas",
+      "p": "n",
+      "i": "gæs",
+      "c": "煤气,气体",
+      "t": "home"
+    },
+    {
+      "w": "gate",
+      "p": "n",
+      "i": "geit",
+      "c": "大门",
+      "t": "home"
+    },
+    {
+      "w": "get",
+      "p": "v",
+      "i": "get",
+      "c": "得到,变成",
+      "t": "action"
+    },
+    {
+      "w": "get off",
+      "p": "phr v",
+      "i": "",
+      "c": "下车",
+      "t": "travel"
+    },
+    {
+      "w": "get on",
+      "p": "phr v",
+      "i": "",
+      "c": "上车",
+      "t": "travel"
+    },
+    {
+      "w": "get up",
+      "p": "phr v",
+      "i": "",
+      "c": "起床",
+      "t": "action"
+    },
+    {
+      "w": "girl",
+      "p": "n",
+      "i": "gə:l",
+      "c": "女孩",
+      "t": "family"
+    },
+    {
+      "w": "give",
+      "p": "v",
+      "i": "giv",
+      "c": "给",
+      "t": "action"
+    },
+    {
+      "w": "glad",
+      "p": "adj",
+      "i": "glæd",
+      "c": "高兴的",
+      "t": "feel"
+    },
+    {
+      "w": "glass",
+      "p": "n & adj",
+      "i": "glɑ:s",
+      "c": "玻璃杯",
+      "t": "food"
+    },
+    {
+      "w": "glasses",
+      "p": "n pl",
+      "i": "'gla:siz",
+      "c": "眼镜",
+      "t": "body"
+    },
+    {
+      "w": "go",
+      "p": "v",
+      "i": "gəu",
+      "c": "去,走",
+      "t": "action"
+    },
+    {
+      "w": "go out",
+      "p": "v",
+      "i": "",
+      "c": "熄灭",
+      "t": "action"
+    },
+    {
+      "w": "golf",
+      "p": "n",
+      "i": "gɔlf",
+      "c": "高尔夫球",
+      "t": "sport"
+    },
+    {
+      "w": "gold",
+      "p": "n & adj",
+      "i": "gəuld",
+      "c": "金子，含金的",
+      "t": "color"
+    },
+    {
+      "w": "good",
+      "p": "adj",
+      "i": "gʊd",
+      "c": "好的,优良的,上等的",
+      "t": "feel"
+    },
+    {
+      "w": "goodbye",
+      "p": "exclaim",
+      "i": ".gʊd'bai",
+      "c": "再见",
+      "t": "social"
+    },
+    {
+      "w": "gram(me)",
+      "p": "n",
+      "i": "græm",
+      "c": "克",
+      "t": "number"
+    },
+    {
+      "w": "grandchild",
+      "p": "n",
+      "i": "'grændtʃaild",
+      "c": "孙",
+      "t": "family"
+    },
+    {
+      "w": "grand(d)ad",
+      "p": "n",
+      "i": "grænd",
+      "c": "(美俚)一千美元",
+      "t": "family"
+    },
+    {
+      "w": "granddaughter",
+      "p": "n",
+      "i": "'grændɔ:tə(r)",
+      "c": "孙女,外孙女",
+      "t": "family"
+    },
+    {
+      "w": "grandfather",
+      "p": "n",
+      "i": "'grænd.fɑ:ðə",
+      "c": "(外)祖父",
+      "t": "family"
+    },
+    {
+      "w": "grandma",
+      "p": "n",
+      "i": "'grænmɑ:, 'grændmɑ:",
+      "c": "(口语)奶奶,外婆",
+      "t": "family"
+    },
+    {
+      "w": "grandmother",
+      "p": "n",
+      "i": "'grænd.mʌðə",
+      "c": "(外)祖母",
+      "t": "family"
+    },
+    {
+      "w": "grandpa",
+      "p": "n",
+      "i": "'grænpɑ:, 'grændpɑ:",
+      "c": "(口语)爷爷,外公",
+      "t": "family"
+    },
+    {
+      "w": "grandparent",
+      "p": "n",
+      "i": "'grændpeərənt",
+      "c": "(外)祖父(母)",
+      "t": "family"
+    },
+    {
+      "w": "grandson",
+      "p": "n",
+      "i": "'grændsʌn",
+      "c": "孙子,外孙",
+      "t": "family"
+    },
+    {
+      "w": "grape",
+      "p": "n",
+      "i": "greip",
+      "c": "葡萄",
+      "t": "food"
+    },
+    {
+      "w": "grass",
+      "p": "n",
+      "i": "grɑ:s",
+      "c": "草",
+      "t": "nature"
+    },
+    {
+      "w": "great",
+      "p": "adj",
+      "i": "greit",
+      "c": "(口语)好极了",
+      "t": "feel"
+    },
+    {
+      "w": "green",
+      "p": "adj",
+      "i": "gri:n",
+      "c": "绿色的",
+      "t": "color"
+    },
+    {
+      "w": "grey",
+      "p": "adj",
+      "i": "grei",
+      "c": "灰色的",
+      "t": "color"
+    },
+    {
+      "w": "grill",
+      "p": "v",
+      "i": "gril",
+      "c": "烧,烤,严加盘问",
+      "t": "food"
+    },
+    {
+      "w": "grilled",
+      "p": "adj",
+      "i": "grild",
+      "c": "烤的,炙过的,有格子的",
+      "t": "food"
+    },
+    {
+      "w": "group",
+      "p": "n",
+      "i": "gru:p",
+      "c": "团体,组,团",
+      "t": "grammar"
+    },
+    {
+      "w": "grow",
+      "p": "v",
+      "i": "grəu",
+      "c": "种植,生长",
+      "t": "nature"
+    },
+    {
+      "w": "grow up",
+      "p": "phr v",
+      "i": "",
+      "c": "长大,成长",
+      "t": "family"
+    },
+    {
+      "w": "guest",
+      "p": "n",
+      "i": "gest",
+      "c": "客人",
+      "t": "family"
+    },
+    {
+      "w": "guest-house",
+      "p": "n",
+      "i": "",
+      "c": "客厅",
+      "t": "travel"
+    },
+    {
+      "w": "guide",
+      "p": "n",
+      "i": "gaid",
+      "c": "引导者,指南",
+      "t": "travel"
+    },
+    {
+      "w": "guidebook",
+      "p": "n",
+      "i": "'gaidbʊk",
+      "c": "旅行指南",
+      "t": "travel"
+    },
+    {
+      "w": "guitar",
+      "p": "n",
+      "i": "gi'tɑ:",
+      "c": "吉他",
+      "t": "fun"
+    },
+    {
+      "w": "hair",
+      "p": "n",
+      "i": "hɛə",
+      "c": "头发",
+      "t": "body"
+    },
+    {
+      "w": "hairdresser",
+      "p": "n",
+      "i": "'heədresə(r)",
+      "c": "理发师",
+      "t": "work"
+    },
+    {
+      "w": "hairdryer",
+      "p": "n",
+      "i": "",
+      "c": "吹风器",
+      "t": "body"
+    },
+    {
+      "w": "half",
+      "p": "n & pron",
+      "i": "hɑ:f",
+      "c": "半,一半的",
+      "t": "number"
+    },
+    {
+      "w": "hall",
+      "p": "n",
+      "i": "hɔ:l",
+      "c": "大厅,礼堂",
+      "t": "home"
+    },
+    {
+      "w": "Hallo/hello!",
+      "p": "exclaim",
+      "i": "'heləu, he'ləu",
+      "c": "（见面打招呼或打电话用语）喂,哈罗",
+      "t": "social"
+    },
+    {
+      "w": "hand",
+      "p": "n",
+      "i": "hænd",
+      "c": "手,掌握,协助",
+      "t": "body"
+    },
+    {
+      "w": "happen",
+      "p": "v",
+      "i": "'hæpən",
+      "c": "发生",
+      "t": "action"
+    },
+    {
+      "w": "happy",
+      "p": "adj",
+      "i": "'hæpi",
+      "c": "快乐的,幸福的",
+      "t": "feel"
+    },
+    {
+      "w": "hard",
+      "p": "adj & adv",
+      "i": "hɑ:d",
+      "c": "硬的，努力地",
+      "t": "feel"
+    },
+    {
+      "w": "hat",
+      "p": "n",
+      "i": "hæt",
+      "c": "帽子",
+      "t": "clothes"
+    },
+    {
+      "w": "hate",
+      "p": "v",
+      "i": "heit",
+      "c": "憎恨,憎恶",
+      "t": "action"
+    },
+    {
+      "w": "have",
+      "p": "v",
+      "i": "hæv,həv",
+      "c": "有",
+      "t": "action"
+    },
+    {
+      "w": "have got",
+      "p": "v",
+      "i": "",
+      "c": "拥有",
+      "t": "action"
+    },
+    {
+      "w": "have to",
+      "p": "v",
+      "i": "",
+      "c": "必须，不得不",
+      "t": "action"
+    },
+    {
+      "w": "he",
+      "p": "pron",
+      "i": "hi:, hi",
+      "c": "他",
+      "t": "grammar"
+    },
+    {
+      "w": "head",
+      "p": "n",
+      "i": "hed",
+      "c": "头，头脑,领袖",
+      "t": "body"
+    },
+    {
+      "w": "hear",
+      "p": "v",
+      "i": "hiə",
+      "c": "听到,听说,听取",
+      "t": "action"
+    },
+    {
+      "w": "heart",
+      "p": "n",
+      "i": "hɑ:t",
+      "c": "心,中心,要点",
+      "t": "body"
+    },
+    {
+      "w": "heating",
+      "p": "n",
+      "i": "'hi:tiŋ",
+      "c": "加热,供暖,暖气装置",
+      "t": "home"
+    },
+    {
+      "w": "heavy",
+      "p": "adj",
+      "i": "'hi:vi",
+      "c": "重的",
+      "t": "feel"
+    },
+    {
+      "w": "helicopter",
+      "p": "n",
+      "i": "'helikɔptə",
+      "c": "直升飞机",
+      "t": "travel"
+    },
+    {
+      "w": "help",
+      "p": "v",
+      "i": "help",
+      "c": "帮助,援助",
+      "t": "action"
+    },
+    {
+      "w": "her",
+      "p": "det & pron",
+      "i": "hə:; ə:.hə, ə",
+      "c": "她的",
+      "t": "grammar"
+    },
+    {
+      "w": "herself",
+      "p": "pron",
+      "i": "hə:'self, hə'self",
+      "c": "她自己",
+      "t": "grammar"
+    },
+    {
+      "w": "here",
+      "p": "adv",
+      "i": "hiə",
+      "c": "这里",
+      "t": "place"
+    },
+    {
+      "w": "hers",
+      "p": "pron",
+      "i": "hə:z",
+      "c": "她的",
+      "t": "grammar"
+    },
+    {
+      "w": "high",
+      "p": "adj",
+      "i": "hai",
+      "c": "高，高度的，高级的，高尚的",
+      "t": "feel"
+    },
+    {
+      "w": "hill",
+      "p": "n",
+      "i": "hil",
+      "c": "小山",
+      "t": "places"
+    },
+    {
+      "w": "him",
+      "p": "pron",
+      "i": "him, im, əm",
+      "c": "他（宾格）",
+      "t": "grammar"
+    },
+    {
+      "w": "himself",
+      "p": "pron",
+      "i": "him'self",
+      "c": "他自己",
+      "t": "grammar"
+    },
+    {
+      "w": "his",
+      "p": "det & pron",
+      "i": "hiz",
+      "c": "他的",
+      "t": "grammar"
+    },
+    {
+      "w": "hit",
+      "p": "v",
+      "i": "hit",
+      "c": "打,打击,碰撞",
+      "t": "action"
+    },
+    {
+      "w": "hobby",
+      "p": "n",
+      "i": "'hɔbi",
+      "c": "业余爱好",
+      "t": "fun"
+    },
+    {
+      "w": "hockey",
+      "p": "n",
+      "i": "'hɔki",
+      "c": "曲棍球",
+      "t": "sport"
+    },
+    {
+      "w": "holiday(s)",
+      "p": "n",
+      "i": "'hɔlədi, 'hɔlidei",
+      "c": "假期,假日",
+      "t": "travel"
+    },
+    {
+      "w": "home",
+      "p": "n & adv",
+      "i": "həum",
+      "c": "家",
+      "t": "home"
+    },
+    {
+      "w": "homework",
+      "p": "n",
+      "i": "'həumwə:k",
+      "c": "家庭作业",
+      "t": "school"
+    },
+    {
+      "w": "hope",
+      "p": "v",
+      "i": "həup",
+      "c": "希望",
+      "t": "action"
+    },
+    {
+      "w": "horse",
+      "p": "n",
+      "i": "hɔ:s",
+      "c": "马",
+      "t": "animals"
+    },
+    {
+      "w": "hospital",
+      "p": "n",
+      "i": "'hɔspitl",
+      "c": "医院",
+      "t": "places"
+    },
+    {
+      "w": "hot",
+      "p": "adj",
+      "i": "hɔt",
+      "c": "热的,热情的,辣的",
+      "t": "feel"
+    },
+    {
+      "w": "hotel",
+      "p": "n",
+      "i": "həu'tel",
+      "c": "旅馆，宾馆，酒店，饭店",
+      "t": "travel"
+    },
+    {
+      "w": "hour",
+      "p": "n",
+      "i": "'auə",
+      "c": "小时",
+      "t": "time"
+    },
+    {
+      "w": "house",
+      "p": "n",
+      "i": "haus",
+      "c": "房子,住宅",
+      "t": "home"
+    },
+    {
+      "w": "how",
+      "p": "adv",
+      "i": "hau",
+      "c": "怎样",
+      "t": "social"
+    },
+    {
+      "w": "hungry",
+      "p": "adj",
+      "i": "'hʌŋgri",
+      "c": "饥饿的",
+      "t": "food"
+    },
+    {
+      "w": "hurry",
+      "p": "v",
+      "i": "'hʌri",
+      "c": "催促,匆忙,赶快",
+      "t": "action"
+    },
+    {
+      "w": "hurt",
+      "p": "v",
+      "i": "hə:t",
+      "c": "伤害,(使)疼痛",
+      "t": "health"
+    },
+    {
+      "w": "husband",
+      "p": "n",
+      "i": "'hʌzbənd",
+      "c": "丈夫",
+      "t": "family"
+    },
+    {
+      "w": "I",
+      "p": "pron",
+      "i": "ai",
+      "c": "我",
+      "t": "grammar"
+    },
+    {
+      "w": "ice",
+      "p": "n",
+      "i": "ais",
+      "c": "冰",
+      "t": "food"
+    },
+    {
+      "w": "ice cream",
+      "p": "n",
+      "i": "ais'kri:m",
+      "c": "冰激凌",
+      "t": "food"
+    },
+    {
+      "w": "idea",
+      "p": "n",
+      "i": "ai'diə",
+      "c": "主意,想法,观念",
+      "t": "grammar"
+    },
+    {
+      "w": "if",
+      "p": "conj",
+      "i": "if",
+      "c": "如果",
+      "t": "grammar"
+    },
+    {
+      "w": "ill",
+      "p": "adj",
+      "i": "il",
+      "c": "坏的,有病的",
+      "t": "health"
+    },
+    {
+      "w": "important",
+      "p": "adj",
+      "i": "im'pɔ:tənt",
+      "c": "重要的",
+      "t": "feel"
+    },
+    {
+      "w": "improve",
+      "p": "v",
+      "i": "im'pru:v",
+      "c": "改良,改善,增进,提高",
+      "t": "action"
+    },
+    {
+      "w": "in",
+      "p": "adv & prep",
+      "i": "in",
+      "c": "在,在...之内",
+      "t": "place"
+    },
+    {
+      "w": "indoor",
+      "p": "adj",
+      "i": "'indɔ:",
+      "c": "户内的,室内的",
+      "t": "home"
+    },
+    {
+      "w": "indoors",
+      "p": "adv",
+      "i": "'in'dɔ:z",
+      "c": "在户内",
+      "t": "home"
+    },
+    {
+      "w": "information",
+      "p": "n",
+      "i": ".infə'meiʃən",
+      "c": "信息",
+      "t": "school"
+    },
+    {
+      "w": "in front of",
+      "p": "prep",
+      "i": "",
+      "c": "在...前面",
+      "t": "place"
+    },
+    {
+      "w": "insect",
+      "p": "n",
+      "i": "'insekt",
+      "c": "昆虫",
+      "t": "animals"
+    },
+    {
+      "w": "inside",
+      "p": "adv & prep",
+      "i": "'in'said",
+      "c": "在里面，在...里面",
+      "t": "place"
+    },
+    {
+      "w": "instead",
+      "p": "adv",
+      "i": "in'sted",
+      "c": "代替,顶替",
+      "t": "time"
+    },
+    {
+      "w": "instead of",
+      "p": "prep",
+      "i": "",
+      "c": "代替,而不是...",
+      "t": "grammar"
+    },
+    {
+      "w": "instructions",
+      "p": "n pl",
+      "i": "in'strʌkʃən",
+      "c": "使用说明",
+      "t": "school"
+    },
+    {
+      "w": "insurance",
+      "p": "n",
+      "i": "in'ʃuərəns",
+      "c": "保险",
+      "t": "health"
+    },
+    {
+      "w": "interested",
+      "p": "adj",
+      "i": "'intristid",
+      "c": "感兴趣的",
+      "t": "feel"
+    },
+    {
+      "w": "interesting",
+      "p": "adj",
+      "i": "'intristiŋ",
+      "c": "有趣的",
+      "t": "feel"
+    },
+    {
+      "w": "international",
+      "p": "adj",
+      "i": ".intə(:)'næʃənəl",
+      "c": "国际的",
+      "t": "feel"
+    },
+    {
+      "w": "internet",
+      "p": "n",
+      "i": "'intə:net",
+      "c": "因特网",
+      "t": "tech"
+    },
+    {
+      "w": "into",
+      "p": "prep",
+      "i": "'intu, 'intə",
+      "c": "到...里",
+      "t": "place"
+    },
+    {
+      "w": "invite",
+      "p": "v",
+      "i": "in'vait",
+      "c": "邀请",
+      "t": "action"
+    },
+    {
+      "w": "island",
+      "p": "n",
+      "i": "'ailənd",
+      "c": "岛",
+      "t": "travel"
+    },
+    {
+      "w": "it",
+      "p": "pron",
+      "i": "it",
+      "c": "它",
+      "t": "grammar"
+    },
+    {
+      "w": "its",
+      "p": "det",
+      "i": "its",
+      "c": "它的",
+      "t": "grammar"
+    },
+    {
+      "w": "itself",
+      "p": "pron",
+      "i": "it'self",
+      "c": "它自己",
+      "t": "grammar"
+    },
+    {
+      "w": "jacket",
+      "p": "n",
+      "i": "'dʒækit",
+      "c": "短上衣,茄克衫",
+      "t": "clothes"
+    },
+    {
+      "w": "jam",
+      "p": "n",
+      "i": "dʒæm",
+      "c": "果酱,拥塞之物,堵塞",
+      "t": "food"
+    },
+    {
+      "w": "jeans",
+      "p": "n pl",
+      "i": "dʒi:nz",
+      "c": "牛仔裤",
+      "t": "clothes"
+    },
+    {
+      "w": "job",
+      "p": "n",
+      "i": "dʒɔb",
+      "c": "工作",
+      "t": "work"
+    },
+    {
+      "w": "join",
+      "p": "v",
+      "i": "dʒɔin",
+      "c": "参加,结合,加入",
+      "t": "action"
+    },
+    {
+      "w": "journalist",
+      "p": "n",
+      "i": "'dʒə:nəlist",
+      "c": "记者",
+      "t": "work"
+    },
+    {
+      "w": "journey",
+      "p": "n",
+      "i": "'dʒə:ni",
+      "c": "旅程,旅行,行程",
+      "t": "travel"
+    },
+    {
+      "w": "juice",
+      "p": "n",
+      "i": "dʒu:s",
+      "c": "果汁",
+      "t": "food"
+    },
+    {
+      "w": "jump",
+      "p": "v",
+      "i": "dʒʌmp",
+      "c": "跳越,跃过,突升",
+      "t": "sport"
+    },
+    {
+      "w": "just",
+      "p": "adv",
+      "i": "dʒʌst",
+      "c": "正好,恰好",
+      "t": "grammar"
+    },
+    {
+      "w": "keep",
+      "p": "v",
+      "i": "ki:p",
+      "c": "保持,保存,维持",
+      "t": "action"
+    },
+    {
+      "w": "key",
+      "p": "n",
+      "i": "ki:",
+      "c": "钥匙",
+      "t": "home"
+    },
+    {
+      "w": "kilo(gram[me])",
+      "p": "n",
+      "i": "'ki:ləʊˌ,'ki-",
+      "c": "公斤，公里",
+      "t": "number"
+    },
+    {
+      "w": "kilometre",
+      "p": "n",
+      "i": "'kiləʊmi:tə(r)",
+      "c": "公里,千米",
+      "t": "number"
+    },
+    {
+      "w": "kind",
+      "p": "adj & n",
+      "i": "kaind",
+      "c": "仁慈的,友好的，种类",
+      "t": "feel"
+    },
+    {
+      "w": "king",
+      "p": "n",
+      "i": "kiŋ",
+      "c": "国王",
+      "t": "family"
+    },
+    {
+      "w": "kitchen",
+      "p": "n",
+      "i": "'kitʃin",
+      "c": "厨房",
+      "t": "home"
+    },
+    {
+      "w": "knife",
+      "p": "n",
+      "i": "naif",
+      "c": "刀",
+      "t": "food"
+    },
+    {
+      "w": "know",
+      "p": "v",
+      "i": "nəu",
+      "c": "知道,了解,认识",
+      "t": "school"
+    },
+    {
+      "w": "lake",
+      "p": "n",
+      "i": "leik",
+      "c": "湖",
+      "t": "places"
+    },
+    {
+      "w": "lamp",
+      "p": "n",
+      "i": "læmp",
+      "c": "灯",
+      "t": "home"
+    },
+    {
+      "w": "language",
+      "p": "n",
+      "i": "'læŋgwidʒ",
+      "c": "语言",
+      "t": "school"
+    },
+    {
+      "w": "laptop (computer)",
+      "p": "n",
+      "i": "",
+      "c": "便携式电脑",
+      "t": "tech"
+    },
+    {
+      "w": "large",
+      "p": "adj",
+      "i": "lɑ:dʒ",
+      "c": "大的,大量的,宽大的",
+      "t": "number"
+    },
+    {
+      "w": "last",
+      "p": "adj & adv",
+      "i": "lɑ:st",
+      "c": "最后的,末尾的，最后,后来",
+      "t": "time"
+    },
+    {
+      "w": "late",
+      "p": "adj & adv",
+      "i": "leit",
+      "c": "迟的,晚的，很晚",
+      "t": "feel"
+    },
+    {
+      "w": "later",
+      "p": "adv",
+      "i": "'leitə",
+      "c": "稍后,后来",
+      "t": "time"
+    },
+    {
+      "w": "laugh",
+      "p": "v",
+      "i": "lɑ:f",
+      "c": "笑",
+      "t": "action"
+    },
+    {
+      "w": "learn",
+      "p": "v",
+      "i": "lə:n",
+      "c": "学习,获悉,记住",
+      "t": "school"
+    },
+    {
+      "w": "leather",
+      "p": "n & adj",
+      "i": "'leðə",
+      "c": "皮革制的，皮革",
+      "t": "clothes"
+    },
+    {
+      "w": "leave",
+      "p": "v",
+      "i": "li:v",
+      "c": "离开,告假",
+      "t": "action"
+    },
+    {
+      "w": "left",
+      "p": "n, adj & adv",
+      "i": "left",
+      "c": "左边的，向左，左边",
+      "t": "place"
+    },
+    {
+      "w": "leg",
+      "p": "n",
+      "i": "leg",
+      "c": "腿",
+      "t": "body"
+    },
+    {
+      "w": "lemon",
+      "p": "n",
+      "i": "'lemən",
+      "c": "柠檬",
+      "t": "food"
+    },
+    {
+      "w": "lemonade",
+      "p": "n",
+      "i": ".lemə'meid",
+      "c": "柠檬水",
+      "t": "food"
+    },
+    {
+      "w": "less",
+      "p": "det, pron & adv",
+      "i": "les",
+      "c": "更少的,更小的，更少地,更小地",
+      "t": "number"
+    },
+    {
+      "w": "lesson",
+      "p": "n",
+      "i": "'lesn",
+      "c": "课",
+      "t": "school"
+    },
+    {
+      "w": "let",
+      "p": "v",
+      "i": "let",
+      "c": "让,容许,使得",
+      "t": "action"
+    },
+    {
+      "w": "letter",
+      "p": "n",
+      "i": "'letə",
+      "c": "信,字母",
+      "t": "school"
+    },
+    {
+      "w": "level",
+      "p": "n",
+      "i": "'lev(ə)l",
+      "c": "水平,水准,标准",
+      "t": "school"
+    },
+    {
+      "w": "library",
+      "p": "n",
+      "i": "'laibrəri",
+      "c": "图书馆",
+      "t": "school"
+    },
+    {
+      "w": "licence",
+      "p": "n",
+      "i": "'laisəns",
+      "c": "执照,许可证,特许",
+      "t": "travel"
+    },
+    {
+      "w": "lie down",
+      "p": "phr v",
+      "i": "",
+      "c": "躺下",
+      "t": "action"
+    },
+    {
+      "w": "life",
+      "p": "n",
+      "i": "laif",
+      "c": "生活,生命",
+      "t": "family"
+    },
+    {
+      "w": "lift",
+      "p": "n",
+      "i": "lift",
+      "c": "举起，电梯",
+      "t": "home"
+    },
+    {
+      "w": "light",
+      "p": "n & adj",
+      "i": "lait",
+      "c": "光亮,灯，轻的,光亮的",
+      "t": "color"
+    },
+    {
+      "w": "like",
+      "p": "v, prep & adv",
+      "i": "laik",
+      "c": "喜欢，像,如同",
+      "t": "grammar"
+    },
+    {
+      "w": "line",
+      "p": "n",
+      "i": "lain",
+      "c": "行,线,航线",
+      "t": "grammar"
+    },
+    {
+      "w": "lion",
+      "p": "n",
+      "i": "'laiən",
+      "c": "狮子",
+      "t": "animals"
+    },
+    {
+      "w": "listen",
+      "p": "v",
+      "i": "'lisn",
+      "c": "听",
+      "t": "action"
+    },
+    {
+      "w": "litre",
+      "p": "n",
+      "i": "li:tə(r)",
+      "c": "公升",
+      "t": "number"
+    },
+    {
+      "w": "little",
+      "p": "adj & det",
+      "i": "'litl",
+      "c": "小的",
+      "t": "number"
+    },
+    {
+      "w": "live",
+      "p": "v",
+      "i": "liv,lɑiv",
+      "c": "活,居住,过著",
+      "t": "action"
+    },
+    {
+      "w": "living room",
+      "p": "n",
+      "i": "",
+      "c": "起居室；客厅",
+      "t": "home"
+    },
+    {
+      "w": "long",
+      "p": "adj",
+      "i": "lɔŋ",
+      "c": "长的,很久的",
+      "t": "feel"
+    },
+    {
+      "w": "look",
+      "p": "v",
+      "i": "luk",
+      "c": "看,注视",
+      "t": "action"
+    },
+    {
+      "w": "look after",
+      "p": "phr v",
+      "i": "",
+      "c": "目送(寻求,照料,看管)",
+      "t": "action"
+    },
+    {
+      "w": "look at",
+      "p": "phr v",
+      "i": "",
+      "c": "看",
+      "t": "action"
+    },
+    {
+      "w": "look for",
+      "p": "phr v",
+      "i": "",
+      "c": "寻找",
+      "t": "action"
+    },
+    {
+      "w": "look out",
+      "p": "phr v",
+      "i": "",
+      "c": "留神,注意",
+      "t": "action"
+    },
+    {
+      "w": "lorry",
+      "p": "n",
+      "i": "'lɔri",
+      "c": "卡车",
+      "t": "travel"
+    },
+    {
+      "w": "lose",
+      "p": "v",
+      "i": "lu:z",
+      "c": "遗失,损失",
+      "t": "action"
+    },
+    {
+      "w": "lot",
+      "p": "det",
+      "i": "lɔt",
+      "c": "许多",
+      "t": "number"
+    },
+    {
+      "w": "lots",
+      "p": "det",
+      "i": "",
+      "c": "堆",
+      "t": "number"
+    },
+    {
+      "w": "loud",
+      "p": "adj",
+      "i": "laud",
+      "c": "大声的",
+      "t": "feel"
+    },
+    {
+      "w": "love",
+      "p": "n & v",
+      "i": "lʌv",
+      "c": "爱,恋爱",
+      "t": "action"
+    },
+    {
+      "w": "lovely",
+      "p": "adj",
+      "i": "'lʌvli",
+      "c": "可爱的,令人愉快的",
+      "t": "feel"
+    },
+    {
+      "w": "low",
+      "p": "adj",
+      "i": "ləu",
+      "c": "低的,消沉的",
+      "t": "feel"
+    },
+    {
+      "w": "luck",
+      "p": "n",
+      "i": "lʌk",
+      "c": "运气",
+      "t": "feel"
+    },
+    {
+      "w": "lucky",
+      "p": "adj",
+      "i": "'lʌki",
+      "c": "幸运的",
+      "t": "feel"
+    },
+    {
+      "w": "luggage",
+      "p": "n",
+      "i": "'lʌgidʒ",
+      "c": "行李",
+      "t": "travel"
+    },
+    {
+      "w": "lunch",
+      "p": "n",
+      "i": "lʌntʃ",
+      "c": "午餐",
+      "t": "food"
+    },
+    {
+      "w": "machine",
+      "p": "n",
+      "i": "mə'ʃi:n",
+      "c": "机器,机械装置",
+      "t": "tech"
+    },
+    {
+      "w": "magazine",
+      "p": "n",
+      "i": ".mægə'zi:n",
+      "c": "杂志",
+      "t": "fun"
+    },
+    {
+      "w": "make",
+      "p": "v",
+      "i": "meik",
+      "c": "做,制造,使",
+      "t": "action"
+    },
+    {
+      "w": "man",
+      "p": "n",
+      "i": "mæn",
+      "c": "男人,人类,人",
+      "t": "family"
+    },
+    {
+      "w": "manager",
+      "p": "n",
+      "i": "'mænidʒə",
+      "c": "经理",
+      "t": "work"
+    },
+    {
+      "w": "many",
+      "p": "det",
+      "i": "'meni",
+      "c": "许多的",
+      "t": "number"
+    },
+    {
+      "w": "map",
+      "p": "n",
+      "i": "mæp",
+      "c": "地图",
+      "t": "travel"
+    },
+    {
+      "w": "market",
+      "p": "n",
+      "i": "'mɑ:kit",
+      "c": "市场,交易",
+      "t": "places"
+    },
+    {
+      "w": "married",
+      "p": "adj",
+      "i": "'mærid",
+      "c": "已婚的",
+      "t": "family"
+    },
+    {
+      "w": "match",
+      "p": "n",
+      "i": "mætʃ",
+      "c": "比赛,火柴,对手",
+      "t": "sport"
+    },
+    {
+      "w": "matter",
+      "p": "v",
+      "i": "'mætə",
+      "c": "有关系",
+      "t": "action"
+    },
+    {
+      "w": "me",
+      "p": "pron",
+      "i": "mi:.mi",
+      "c": "我(宾格)",
+      "t": "grammar"
+    },
+    {
+      "w": "meal",
+      "p": "n",
+      "i": "mi:l",
+      "c": "膳食,一餐",
+      "t": "food"
+    },
+    {
+      "w": "mean",
+      "p": "v",
+      "i": "mi:n, min",
+      "c": "意谓,想要,意欲",
+      "t": "action"
+    },
+    {
+      "w": "meat",
+      "p": "n",
+      "i": "mi:t",
+      "c": "肉",
+      "t": "food"
+    },
+    {
+      "w": "mechanic",
+      "p": "n",
+      "i": "mi'kænik",
+      "c": "技工,机修工",
+      "t": "work"
+    },
+    {
+      "w": "medicine",
+      "p": "n",
+      "i": "'medsin, -disin",
+      "c": "药,医学",
+      "t": "health"
+    },
+    {
+      "w": "meet",
+      "p": "v",
+      "i": "mi:t",
+      "c": "遇见,引见,对付",
+      "t": "action"
+    },
+    {
+      "w": "meeting",
+      "p": "n",
+      "i": "'mi:tiŋ",
+      "c": "会议",
+      "t": "work"
+    },
+    {
+      "w": "member",
+      "p": "n",
+      "i": "'membə",
+      "c": "成员,会员",
+      "t": "work"
+    },
+    {
+      "w": "menu",
+      "p": "n",
+      "i": "'menju:",
+      "c": "菜单",
+      "t": "food"
+    },
+    {
+      "w": "message",
+      "p": "n",
+      "i": "'mesidʒ",
+      "c": "消息,信息",
+      "t": "tech"
+    },
+    {
+      "w": "metre",
+      "p": "n",
+      "i": "'mi:tə",
+      "c": "米,公尺",
+      "t": "number"
+    },
+    {
+      "w": "middle",
+      "p": "n",
+      "i": "'midl",
+      "c": "中间",
+      "t": "place"
+    },
+    {
+      "w": "midnight",
+      "p": "n",
+      "i": "'mid.nait",
+      "c": "午夜",
+      "t": "time"
+    },
+    {
+      "w": "mile",
+      "p": "n",
+      "i": "mail",
+      "c": "英里",
+      "t": "number"
+    },
+    {
+      "w": "milk",
+      "p": "n",
+      "i": "milk",
+      "c": "奶,乳状物",
+      "t": "food"
+    },
+    {
+      "w": "million",
+      "p": "n",
+      "i": "'miljən",
+      "c": "百万",
+      "t": "number"
+    },
+    {
+      "w": "mind",
+      "p": "v",
+      "i": "maind",
+      "c": "介意,照顾,留心",
+      "t": "action"
+    },
+    {
+      "w": "mine",
+      "p": "pron",
+      "i": "main",
+      "c": "我的",
+      "t": "grammar"
+    },
+    {
+      "w": "mineral water",
+      "p": "n",
+      "i": "'minərəl.wɔ:tə",
+      "c": "矿泉水",
+      "t": "food"
+    },
+    {
+      "w": "minute",
+      "p": "n",
+      "i": "mai'nju:t",
+      "c": "分钟",
+      "t": "time"
+    },
+    {
+      "w": "mirror",
+      "p": "n",
+      "i": "'mirə",
+      "c": "镜子",
+      "t": "home"
+    },
+    {
+      "w": "Miss",
+      "p": "n",
+      "i": "mis",
+      "c": "小姐",
+      "t": "family"
+    },
+    {
+      "w": "mistake",
+      "p": "n",
+      "i": "mis'teik",
+      "c": "错误",
+      "t": "school"
+    },
+    {
+      "w": "mobile (phone)",
+      "p": "n",
+      "i": "'məubail",
+      "c": "可移动的,易变的",
+      "t": "tech"
+    },
+    {
+      "w": "modern",
+      "p": "adj",
+      "i": "'mɔdən",
+      "c": "现代的",
+      "t": "feel"
+    },
+    {
+      "w": "moment",
+      "p": "n",
+      "i": "'məumənt",
+      "c": "片刻,瞬间",
+      "t": "time"
+    },
+    {
+      "w": "money",
+      "p": "n",
+      "i": "'mʌni",
+      "c": "钱",
+      "t": "shop"
+    },
+    {
+      "w": "monkey",
+      "p": "n",
+      "i": "'mʌŋki",
+      "c": "猴子",
+      "t": "animals"
+    },
+    {
+      "w": "month",
+      "p": "n",
+      "i": "mʌnθ",
+      "c": "月",
+      "t": "time"
+    },
+    {
+      "w": "monthly",
+      "p": "adj & adv",
+      "i": "'mʌnθli",
+      "c": "每月的，每月",
+      "t": "time"
+    },
+    {
+      "w": "moon",
+      "p": "n",
+      "i": "mu:n",
+      "c": "月亮",
+      "t": "nature"
+    },
+    {
+      "w": "more",
+      "p": "det, pron & adv",
+      "i": "mɔ:(r)",
+      "c": "更多",
+      "t": "number"
+    },
+    {
+      "w": "morning",
+      "p": "n",
+      "i": "'mɔ:niŋ",
+      "c": "早晨,上午",
+      "t": "time"
+    },
+    {
+      "w": "most",
+      "p": "det, pron & adv",
+      "i": "məust",
+      "c": "最多，最多的",
+      "t": "number"
+    },
+    {
+      "w": "mother",
+      "p": "n",
+      "i": "'mʌðə",
+      "c": "母亲",
+      "t": "family"
+    },
+    {
+      "w": "motorway",
+      "p": "n",
+      "i": "'məʊtəwei",
+      "c": "高速公路",
+      "t": "travel"
+    },
+    {
+      "w": "mountain",
+      "p": "n",
+      "i": "'mauntin",
+      "c": "山,山脉",
+      "t": "places"
+    },
+    {
+      "w": "mouse",
+      "p": "n",
+      "i": "maus",
+      "c": "老鼠,鼠标",
+      "t": "animals"
+    },
+    {
+      "w": "mouth",
+      "p": "n",
+      "i": "mauθ",
+      "c": "嘴,开口",
+      "t": "body"
+    },
+    {
+      "w": "move",
+      "p": "v",
+      "i": "mu:v",
+      "c": "移动,搬家",
+      "t": "action"
+    },
+    {
+      "w": "Mr",
+      "p": "n",
+      "i": "'mistə(r)",
+      "c": "先生(Mister 的缩写)",
+      "t": "family"
+    },
+    {
+      "w": "Mrs",
+      "p": "n",
+      "i": "",
+      "c": "女士",
+      "t": "family"
+    },
+    {
+      "w": "Ms",
+      "p": "n",
+      "i": "miz",
+      "c": "女士",
+      "t": "family"
+    },
+    {
+      "w": "much",
+      "p": "det, pron & adv",
+      "i": "mʌtʃ",
+      "c": "许多，许多的",
+      "t": "number"
+    },
+    {
+      "w": "mum(my)",
+      "p": "n",
+      "i": "mʌm",
+      "c": "(口语)妈妈",
+      "t": "family"
+    },
+    {
+      "w": "museum",
+      "p": "n",
+      "i": "mju(:)'ziəm",
+      "c": "博物馆",
+      "t": "places"
+    },
+    {
+      "w": "music",
+      "p": "n",
+      "i": "'mju:zik",
+      "c": "音乐",
+      "t": "fun"
+    },
+    {
+      "w": "must",
+      "p": "v",
+      "i": "mʌst; məst",
+      "c": "必须",
+      "t": "grammar"
+    },
+    {
+      "w": "myself",
+      "p": "pron",
+      "i": "mai'self",
+      "c": "我自己",
+      "t": "grammar"
+    },
+    {
+      "w": "name",
+      "p": "n",
+      "i": "neim",
+      "c": "名字,名称",
+      "t": "family"
+    },
+    {
+      "w": "national",
+      "p": "adj",
+      "i": "'næʃənəl",
+      "c": "国家的,民族的",
+      "t": "feel"
+    },
+    {
+      "w": "nationality",
+      "p": "n",
+      "i": ".næʃə'næliti",
+      "c": "国籍,民族",
+      "t": "family"
+    },
+    {
+      "w": "near",
+      "p": "adv & prep",
+      "i": "niə",
+      "c": "接近，靠近,近乎",
+      "t": "place"
+    },
+    {
+      "w": "nearly",
+      "p": "adv",
+      "i": "'niəli",
+      "c": "几乎,差不多",
+      "t": "time"
+    },
+    {
+      "w": "neck",
+      "p": "n",
+      "i": "nek",
+      "c": "脖子,颈",
+      "t": "body"
+    },
+    {
+      "w": "need",
+      "p": "v",
+      "i": "ni:d",
+      "c": "需要,必需",
+      "t": "action"
+    },
+    {
+      "w": "neighbour",
+      "p": "n",
+      "i": "'neibə",
+      "c": "邻居(邻近的东西,邻近值)",
+      "t": "family"
+    },
+    {
+      "w": "never",
+      "p": "adv",
+      "i": "'nevə",
+      "c": "从不",
+      "t": "time"
+    },
+    {
+      "w": "new",
+      "p": "adj",
+      "i": "nju:",
+      "c": "新的",
+      "t": "feel"
+    },
+    {
+      "w": "news",
+      "p": "n",
+      "i": "nju:z",
+      "c": "新闻,消息",
+      "t": "fun"
+    },
+    {
+      "w": "newsagent",
+      "p": "n",
+      "i": "'nju:z.eidʒənt",
+      "c": "报纸或定期刊物之经销商",
+      "t": "shop"
+    },
+    {
+      "w": "newspaper",
+      "p": "n",
+      "i": "'nju:speipə",
+      "c": "报纸",
+      "t": "fun"
+    },
+    {
+      "w": "next",
+      "p": "adj & adv",
+      "i": "nekst",
+      "c": "下一个的，其次",
+      "t": "time"
+    },
+    {
+      "w": "next to",
+      "p": "prep",
+      "i": "",
+      "c": "次于(紧跟在...之后的)",
+      "t": "place"
+    },
+    {
+      "w": "nice",
+      "p": "adj",
+      "i": "nais",
+      "c": "美好的,令人愉快的",
+      "t": "feel"
+    },
+    {
+      "w": "night",
+      "p": "n",
+      "i": "nait",
+      "c": "夜晚",
+      "t": "time"
+    },
+    {
+      "w": "no",
+      "p": "det & exclaim",
+      "i": "nəu",
+      "c": "没有,不是",
+      "t": "social"
+    },
+    {
+      "w": "nobody",
+      "p": "pron",
+      "i": "'nəubədi",
+      "c": "没有人",
+      "t": "grammar"
+    },
+    {
+      "w": "noisy",
+      "p": "adj",
+      "i": "'nɔizi",
+      "c": "喧闹的,嘈杂的",
+      "t": "feel"
+    },
+    {
+      "w": "noon",
+      "p": "n",
+      "i": "nu:n",
+      "c": "正午,中午",
+      "t": "time"
+    },
+    {
+      "w": "no one",
+      "p": "pron",
+      "i": "",
+      "c": "没有人(谁也不)",
+      "t": "grammar"
+    },
+    {
+      "w": "none",
+      "p": "pron",
+      "i": "nʌn",
+      "c": "没有人,没有任何东西",
+      "t": "grammar"
+    },
+    {
+      "w": "north",
+      "p": "n, adj & adv",
+      "i": "nɔ:θ",
+      "c": "北方，北方(的) 向北方",
+      "t": "place"
+    },
+    {
+      "w": "nose",
+      "p": "n",
+      "i": "nəuz",
+      "c": "鼻子,突出部分",
+      "t": "body"
+    },
+    {
+      "w": "not",
+      "p": "adv",
+      "i": "nɔt",
+      "c": "不",
+      "t": "grammar"
+    },
+    {
+      "w": "note",
+      "p": "n & v",
+      "i": "nəut",
+      "c": "笔记，记录",
+      "t": "action"
+    },
+    {
+      "w": "nothing",
+      "p": "pron",
+      "i": "'nʌθiŋ",
+      "c": "什么也没有",
+      "t": "grammar"
+    },
+    {
+      "w": "now",
+      "p": "adv",
+      "i": "nau",
+      "c": "现在,立刻",
+      "t": "time"
+    },
+    {
+      "w": "nowhere",
+      "p": "adv",
+      "i": "'nəuhwɛə",
+      "c": "任何地方都不",
+      "t": "grammar"
+    },
+    {
+      "w": "number",
+      "p": "n",
+      "i": "'nʌmbə",
+      "c": "号码,数字",
+      "t": "number"
+    },
+    {
+      "w": "nurse",
+      "p": "n",
+      "i": "nə:s",
+      "c": "护士,褓姆,奶妈",
+      "t": "health"
+    },
+    {
+      "w": "occupation",
+      "p": "n",
+      "i": ".ɔkju'peiʃən",
+      "c": "职业",
+      "t": "work"
+    },
+    {
+      "w": "o'clock",
+      "p": "adv",
+      "i": "ə'klɔk",
+      "c": "…点钟",
+      "t": "time"
+    },
+    {
+      "w": "of",
+      "p": "prep",
+      "i": "ɔv, əv, v, f",
+      "c": "…的,表示所属",
+      "t": "place"
+    },
+    {
+      "w": "off",
+      "p": "adv",
+      "i": "ɔ:f, ɔf",
+      "c": "走开,出发,隔断",
+      "t": "place"
+    },
+    {
+      "w": "office",
+      "p": "n",
+      "i": "'ɔfis",
+      "c": "办公室",
+      "t": "work"
+    },
+    {
+      "w": "often",
+      "p": "adv",
+      "i": "'ɔ(:)fn, 'ɔ:ftən",
+      "c": "经常",
+      "t": "time"
+    },
+    {
+      "w": "oil",
+      "p": "n",
+      "i": "ɔil",
+      "c": "油,油画颜料",
+      "t": "home"
+    },
+    {
+      "w": "OK/O.K./okay",
+      "p": "exclaim",
+      "i": "əʊ'kei",
+      "c": "好,不错,可以",
+      "t": "social"
+    },
+    {
+      "w": "old",
+      "p": "adj",
+      "i": "əuld",
+      "c": "旧的,老的",
+      "t": "feel"
+    },
+    {
+      "w": "omelette",
+      "p": "n",
+      "i": "'ɔmlit, -let",
+      "c": "煎蛋",
+      "t": "food"
+    },
+    {
+      "w": "on",
+      "p": "prep & adv",
+      "i": "ɔn",
+      "c": "在...之上",
+      "t": "place"
+    },
+    {
+      "w": "once",
+      "p": "adv",
+      "i": "wʌns",
+      "c": "一次,曾经",
+      "t": "time"
+    },
+    {
+      "w": "one",
+      "p": "pron, det & num",
+      "i": "wʌn",
+      "c": "一,任何人",
+      "t": "number"
+    },
+    {
+      "w": "onion",
+      "p": "n",
+      "i": "'ʌnjən",
+      "c": "洋葱",
+      "t": "food"
+    },
+    {
+      "w": "only",
+      "p": "adv & adj",
+      "i": "'əunli",
+      "c": "只,仅仅，唯一的",
+      "t": "feel"
+    },
+    {
+      "w": "open",
+      "p": "adj & v",
+      "i": "'əupən",
+      "c": "开著的,开放的，打开,公开",
+      "t": "feel"
+    },
+    {
+      "w": "opera",
+      "p": "n",
+      "i": "'ɔpərə",
+      "c": "歌剧",
+      "t": "fun"
+    },
+    {
+      "w": "opposite",
+      "p": "prep",
+      "i": "'ɔpəzit",
+      "c": "对面",
+      "t": "place"
+    },
+    {
+      "w": "or",
+      "p": "conj",
+      "i": "ɔ:,ə",
+      "c": "或者,还是",
+      "t": "grammar"
+    },
+    {
+      "w": "orange",
+      "p": "adj & n",
+      "i": "'ɔrindʒ",
+      "c": "橙色的，橘子",
+      "t": "food"
+    },
+    {
+      "w": "other",
+      "p": "det",
+      "i": "'ʌðə",
+      "c": "别的,其他的",
+      "t": "grammar"
+    },
+    {
+      "w": "our",
+      "p": "det",
+      "i": "'auə",
+      "c": "我们的",
+      "t": "grammar"
+    },
+    {
+      "w": "ours",
+      "p": "pron",
+      "i": "'auəz",
+      "c": "我们的",
+      "t": "grammar"
+    },
+    {
+      "w": "ourselves",
+      "p": "pron",
+      "i": ".auə'selvz",
+      "c": "我们自己",
+      "t": "grammar"
+    },
+    {
+      "w": "out",
+      "p": "adv",
+      "i": "aut",
+      "c": "在外,熄减,出现",
+      "t": "place"
+    },
+    {
+      "w": "outdoor",
+      "p": "adj",
+      "i": "'autdɔ:",
+      "c": "户外的,屋外的",
+      "t": "place"
+    },
+    {
+      "w": "outdoors",
+      "p": "adv",
+      "i": "aut'dɔ:z",
+      "c": "在户外,在野外",
+      "t": "place"
+    },
+    {
+      "w": "outside",
+      "p": "prep & adv",
+      "i": "'aut'said",
+      "c": "在...外，在外面",
+      "t": "place"
+    },
+    {
+      "w": "over",
+      "p": "prep & adv",
+      "i": "'əuvə",
+      "c": "在...的上方，结束",
+      "t": "place"
+    },
+    {
+      "w": "own",
+      "p": "adj",
+      "i": "əun",
+      "c": "自己的",
+      "t": "grammar"
+    },
+    {
+      "w": "pack",
+      "p": "v",
+      "i": "pæk",
+      "c": "包装,捆扎,塞满",
+      "t": "travel"
+    },
+    {
+      "w": "page",
+      "p": "n",
+      "i": "peidʒ",
+      "c": "页",
+      "t": "school"
+    },
+    {
+      "w": "pain",
+      "p": "n",
+      "i": "pein",
+      "c": "痛苦,疼痛,辛苦",
+      "t": "health"
+    },
+    {
+      "w": "paint",
+      "p": "v & n",
+      "i": "peint",
+      "c": "油漆,绘画",
+      "t": "action"
+    },
+    {
+      "w": "pair",
+      "p": "n",
+      "i": "pɛə",
+      "c": "",
+      "t": "number"
+    },
+    {
+      "w": "paper",
+      "p": "n & adj",
+      "i": "'peipə",
+      "c": "双,对,副",
+      "t": "school"
+    },
+    {
+      "w": "pardon",
+      "p": "exclaim",
+      "i": "'pɑ:dn",
+      "c": "原谅,赦免",
+      "t": "social"
+    },
+    {
+      "w": "parent",
+      "p": "n",
+      "i": "'pɛərənt",
+      "c": "父母,父母亲",
+      "t": "family"
+    },
+    {
+      "w": "park",
+      "p": "n & v",
+      "i": "pɑ:k",
+      "c": "公园,停车，处停车,置于",
+      "t": "places"
+    },
+    {
+      "w": "part",
+      "p": "n",
+      "i": "pɑ:t",
+      "c": "部份,零件,角色",
+      "t": "grammar"
+    },
+    {
+      "w": "party",
+      "p": "n",
+      "i": "'pɑ:ti",
+      "c": "政党,聚会",
+      "t": "fun"
+    },
+    {
+      "w": "pass",
+      "p": "v",
+      "i": "pɑ:s",
+      "c": "经过,消逝,传递",
+      "t": "action"
+    },
+    {
+      "w": "passenger",
+      "p": "n",
+      "i": "'pæsindʒə",
+      "c": "乘客,旅客",
+      "t": "travel"
+    },
+    {
+      "w": "passport",
+      "p": "n",
+      "i": "'pɑ:spɔ:t",
+      "c": "护照",
+      "t": "travel"
+    },
+    {
+      "w": "past",
+      "p": "prep",
+      "i": "pɑ:st",
+      "c": "过,经过",
+      "t": "time"
+    },
+    {
+      "w": "pasta",
+      "p": "n",
+      "i": "'pɑ:stə",
+      "c": "生面团，意大利通心粉",
+      "t": "food"
+    },
+    {
+      "w": "path",
+      "p": "n",
+      "i": "pɑ:θ",
+      "c": "路线,轨道,路程,小路,小径",
+      "t": "places"
+    },
+    {
+      "w": "pay",
+      "p": "v",
+      "i": "pei",
+      "c": "支付,付清,报偿",
+      "t": "action"
+    },
+    {
+      "w": "pay for",
+      "p": "phr v",
+      "i": "",
+      "c": "偿还,付款",
+      "t": "shop"
+    },
+    {
+      "w": "pen",
+      "p": "n",
+      "i": "pen",
+      "c": "钢笔",
+      "t": "school"
+    },
+    {
+      "w": "pence",
+      "p": "n pl",
+      "i": "pens",
+      "c": "便士",
+      "t": "shop"
+    },
+    {
+      "w": "pencil",
+      "p": "n",
+      "i": "'pensl",
+      "c": "铅笔",
+      "t": "school"
+    },
+    {
+      "w": "pen-friend",
+      "p": "n",
+      "i": "",
+      "c": "笔友",
+      "t": "family"
+    },
+    {
+      "w": "penny",
+      "p": "n",
+      "i": "'peni",
+      "c": "便士",
+      "t": "shop"
+    },
+    {
+      "w": "people",
+      "p": "n pl",
+      "i": "'pi:pl",
+      "c": "民族,人,人们",
+      "t": "family"
+    },
+    {
+      "w": "pepper",
+      "p": "n",
+      "i": "'pepə",
+      "c": "胡椒粉",
+      "t": "food"
+    },
+    {
+      "w": "per",
+      "p": "prep",
+      "i": "pə:, pə",
+      "c": "每,每一",
+      "t": "number"
+    },
+    {
+      "w": "perhaps",
+      "p": "adv",
+      "i": "pə'hæps",
+      "c": "也许,可能",
+      "t": "feel"
+    },
+    {
+      "w": "person",
+      "p": "n",
+      "i": "'pə:sn",
+      "c": "人",
+      "t": "family"
+    },
+    {
+      "w": "pet",
+      "p": "n",
+      "i": "pet",
+      "c": "宠物",
+      "t": "animals"
+    },
+    {
+      "w": "petrol",
+      "p": "n",
+      "i": "'petrəl",
+      "c": "汽油",
+      "t": "travel"
+    },
+    {
+      "w": "petrol station",
+      "p": "n",
+      "i": "",
+      "c": "加油站",
+      "t": "travel"
+    },
+    {
+      "w": "pharmacy",
+      "p": "n",
+      "i": "'fɑ:məsi",
+      "c": "药房,配药学",
+      "t": "health"
+    },
+    {
+      "w": "phone",
+      "p": "v & n",
+      "i": "fəun",
+      "c": "打电话，电话",
+      "t": "tech"
+    },
+    {
+      "w": "photo(graph)",
+      "p": "n",
+      "i": "'fəutəu",
+      "c": "照片",
+      "t": "fun"
+    },
+    {
+      "w": "photography",
+      "p": "n",
+      "i": "fə'tɔgrəfi",
+      "c": "摄影术",
+      "t": "fun"
+    },
+    {
+      "w": "piano",
+      "p": "n",
+      "i": "pi'ɑ:nəu, 'pjɑ:-",
+      "c": "钢琴",
+      "t": "fun"
+    },
+    {
+      "w": "picnic",
+      "p": "n",
+      "i": "'piknik",
+      "c": "野餐",
+      "t": "food"
+    },
+    {
+      "w": "picture",
+      "p": "n",
+      "i": "'piktʃə",
+      "c": "图画,照片,景色",
+      "t": "fun"
+    },
+    {
+      "w": "piece",
+      "p": "n",
+      "i": "pi:s",
+      "c": "块,片,篇",
+      "t": "number"
+    },
+    {
+      "w": "pillow",
+      "p": "n",
+      "i": "'piləu",
+      "c": "枕头",
+      "t": "home"
+    },
+    {
+      "w": "pilot",
+      "p": "n",
+      "i": "'pailət",
+      "c": "飞行员,领航员,引航员",
+      "t": "work"
+    },
+    {
+      "w": "pink",
+      "p": "adj",
+      "i": "piŋk",
+      "c": "粉红色的",
+      "t": "color"
+    },
+    {
+      "w": "pity",
+      "p": "n",
+      "i": "'piti",
+      "c": "遗憾,同情,可惜",
+      "t": "feel"
+    },
+    {
+      "w": "pizza",
+      "p": "n",
+      "i": "'pi:tsə",
+      "c": "比萨饼",
+      "t": "food"
+    },
+    {
+      "w": "place",
+      "p": "n",
+      "i": "pleis",
+      "c": "地方,处境,职务",
+      "t": "places"
+    },
+    {
+      "w": "plan",
+      "p": "n & v",
+      "i": "plæn",
+      "c": "计划,策略,方法",
+      "t": "action"
+    },
+    {
+      "w": "plane",
+      "p": "n",
+      "i": "plein",
+      "c": "飞机,平面,刨子",
+      "t": "travel"
+    },
+    {
+      "w": "plant",
+      "p": "n",
+      "i": "plɑ:nt",
+      "c": "植物",
+      "t": "nature"
+    },
+    {
+      "w": "plastic",
+      "p": "n & adj",
+      "i": "'plæstik, plɑ:stik",
+      "c": "塑料，塑料的",
+      "t": "color"
+    },
+    {
+      "w": "plate",
+      "p": "n",
+      "i": "pleit",
+      "c": "碟,盘,金属板,板块",
+      "t": "food"
+    },
+    {
+      "w": "platform",
+      "p": "n",
+      "i": "'plætfɔ:m",
+      "c": "平台,月台,讲台,坛",
+      "t": "travel"
+    },
+    {
+      "w": "play",
+      "p": "v & n",
+      "i": "plei",
+      "c": "玩,进行比赛，演奏,播放，游戏,游玩,剧本,比赛",
+      "t": "sport"
+    },
+    {
+      "w": "pleasant",
+      "p": "adj",
+      "i": "'plezənt",
+      "c": "令人愉快的,舒适的",
+      "t": "feel"
+    },
+    {
+      "w": "please",
+      "p": "v",
+      "i": "pli:z",
+      "c": "取悦,请",
+      "t": "social"
+    },
+    {
+      "w": "p.m.",
+      "p": "adv",
+      "i": "",
+      "c": "下午",
+      "t": "time"
+    },
+    {
+      "w": "pocket",
+      "p": "n",
+      "i": "'pɔkit",
+      "c": "口袋,钱,袋",
+      "t": "clothes"
+    },
+    {
+      "w": "point",
+      "p": "v",
+      "i": "pɔint",
+      "c": "指出,指,描准",
+      "t": "action"
+    },
+    {
+      "w": "police",
+      "p": "n",
+      "i": "pə'li:s",
+      "c": "警察,警方",
+      "t": "places"
+    },
+    {
+      "w": "police car",
+      "p": "n",
+      "i": "",
+      "c": "警车",
+      "t": "travel"
+    },
+    {
+      "w": "police officer",
+      "p": "n",
+      "i": "",
+      "c": "警官, 警员",
+      "t": "work"
+    },
+    {
+      "w": "police station",
+      "p": "n",
+      "i": "",
+      "c": "警察局",
+      "t": "places"
+    },
+    {
+      "w": "pool",
+      "p": "n",
+      "i": "pu:l",
+      "c": "池,水塘,撞球",
+      "t": "sport"
+    },
+    {
+      "w": "poor",
+      "p": "adj",
+      "i": "puə",
+      "c": "可怜的,贫穷的",
+      "t": "feel"
+    },
+    {
+      "w": "pop",
+      "p": "n & adj",
+      "i": "pɔp",
+      "c": "流行乐曲，取出,发出爆裂声,突然伸出",
+      "t": "fun"
+    },
+    {
+      "w": "popular",
+      "p": "adj",
+      "i": "'pɔpjulə",
+      "c": "大众的,流行的,有销路的",
+      "t": "feel"
+    },
+    {
+      "w": "possible",
+      "p": "adj",
+      "i": "'pɔsəbl",
+      "c": "可能的",
+      "t": "feel"
+    },
+    {
+      "w": "post",
+      "p": "v & n",
+      "i": "pəʊst",
+      "c": "邮件,标竿,职位邮递,公布,布置",
+      "t": "action"
+    },
+    {
+      "w": "postcard",
+      "p": "n",
+      "i": "'pəʊstkɑ:d",
+      "c": "明信片",
+      "t": "travel"
+    },
+    {
+      "w": "post office",
+      "p": "n",
+      "i": "'pəustɔfis",
+      "c": "邮局",
+      "t": "places"
+    },
+    {
+      "w": "poster",
+      "p": "n",
+      "i": "'pəustə",
+      "c": "海报,招贴,脚夫",
+      "t": "fun"
+    },
+    {
+      "w": "potato",
+      "p": "n",
+      "i": "pə'teitəu",
+      "c": "马铃薯,土豆",
+      "t": "food"
+    },
+    {
+      "w": "pound (£)",
+      "p": "n",
+      "i": "paund",
+      "c": "磅,英镑",
+      "t": "shop"
+    },
+    {
+      "w": "practice",
+      "p": "n",
+      "i": "'præktis",
+      "c": "练习,实行,习惯",
+      "t": "school"
+    },
+    {
+      "w": "practise",
+      "p": "v",
+      "i": "'præktis",
+      "c": "实践(使...练习,养成...的习惯)",
+      "t": "school"
+    },
+    {
+      "w": "prefer",
+      "p": "v",
+      "i": "pri'fə:",
+      "c": "较喜欢,宁可,提出",
+      "t": "action"
+    },
+    {
+      "w": "present",
+      "p": "n",
+      "i": "pri'zent",
+      "c": "礼物,现在",
+      "t": "fun"
+    },
+    {
+      "w": "pretty",
+      "p": "adj",
+      "i": "'priti",
+      "c": "漂亮的",
+      "t": "body"
+    },
+    {
+      "w": "price",
+      "p": "n",
+      "i": "prais",
+      "c": "价格,代价,价值",
+      "t": "shop"
+    },
+    {
+      "w": "prize",
+      "p": "n",
+      "i": "praiz",
+      "c": "奖,奖品,战利品",
+      "t": "fun"
+    },
+    {
+      "w": "problem",
+      "p": "n",
+      "i": "'prɔbləm",
+      "c": "问题",
+      "t": "grammar"
+    },
+    {
+      "w": "programme",
+      "p": "n",
+      "i": "'prəugræm",
+      "c": "节目,程序,规划",
+      "t": "fun"
+    },
+    {
+      "w": "project",
+      "p": "n",
+      "i": "'prɔdʒekt",
+      "c": "工程,项目,计划,事业",
+      "t": "school"
+    },
+    {
+      "w": "pull",
+      "p": "v",
+      "i": "pul",
+      "c": "拔,拉,拖",
+      "t": "action"
+    },
+    {
+      "w": "pupil",
+      "p": "n",
+      "i": "'pju:pl, 'pju:pil",
+      "c": "瞳孔,学生,小学生",
+      "t": "school"
+    },
+    {
+      "w": "purple",
+      "p": "n",
+      "i": "'pə:pl",
+      "c": "紫色",
+      "t": "color"
+    },
+    {
+      "w": "purse",
+      "p": "n",
+      "i": "pə:s",
+      "c": "钱包, 资金,金钱,财富",
+      "t": "shop"
+    },
+    {
+      "w": "push",
+      "p": "v",
+      "i": "puʃ",
+      "c": "推,挤,逼迫",
+      "t": "action"
+    },
+    {
+      "w": "put",
+      "p": "v",
+      "i": "put",
+      "c": "放,安置",
+      "t": "action"
+    },
+    {
+      "w": "put on",
+      "p": "phr v",
+      "i": "",
+      "c": "穿上,戴上",
+      "t": "clothes"
+    },
+    {
+      "w": "quarter",
+      "p": "n",
+      "i": "'kwɔ:tə",
+      "c": "四分之一,一刻钟",
+      "t": "time"
+    },
+    {
+      "w": "queen",
+      "p": "n",
+      "i": "kwi:n",
+      "c": "女王,王后",
+      "t": "family"
+    },
+    {
+      "w": "question",
+      "p": "n",
+      "i": "'kwestʃən",
+      "c": "问题,疑问,疑问句",
+      "t": "school"
+    },
+    {
+      "w": "quick",
+      "p": "adj",
+      "i": "kwik",
+      "c": "快的,迅速的",
+      "t": "feel"
+    },
+    {
+      "w": "quiet",
+      "p": "adj",
+      "i": "'kwaiət",
+      "c": "安静的,静止的,宁静的",
+      "t": "feel"
+    },
+    {
+      "w": "quite",
+      "p": "adv",
+      "i": "kwait",
+      "c": "很,十分",
+      "t": "feel"
+    },
+    {
+      "w": "race",
+      "p": "n & v",
+      "i": "reis",
+      "c": "种族,赛跑",
+      "t": "sport"
+    },
+    {
+      "w": "radio",
+      "p": "n",
+      "i": "'reidiəu",
+      "c": "收音机",
+      "t": "fun"
+    },
+    {
+      "w": "railway",
+      "p": "n",
+      "i": "'reilwei",
+      "c": "铁路",
+      "t": "travel"
+    },
+    {
+      "w": "rain",
+      "p": "n & v",
+      "i": "rein",
+      "c": "雨，下雨",
+      "t": "nature"
+    },
+    {
+      "w": "raincoat",
+      "p": "n",
+      "i": "'reinkəʊt",
+      "c": "雨衣",
+      "t": "clothes"
+    },
+    {
+      "w": "rather",
+      "p": "adv",
+      "i": "'rɑ:ðə",
+      "c": "宁可,宁愿,有些,相当",
+      "t": "feel"
+    },
+    {
+      "w": "read",
+      "p": "v",
+      "i": "rid",
+      "c": "读，阅读，看懂，理解",
+      "t": "school"
+    },
+    {
+      "w": "ready",
+      "p": "adj",
+      "i": "'redi",
+      "c": "准备好的,乐意的,情愿的",
+      "t": "feel"
+    },
+    {
+      "w": "real",
+      "p": "adj",
+      "i": "'ri:əl",
+      "c": "实际的,现实的,真的",
+      "t": "feel"
+    },
+    {
+      "w": "really",
+      "p": "adv",
+      "i": "'riəli",
+      "c": "真正地,实在",
+      "t": "feel"
+    },
+    {
+      "w": "receptionist",
+      "p": "n",
+      "i": "ri'sepʃənist",
+      "c": "接待员",
+      "t": "work"
+    },
+    {
+      "w": "red",
+      "p": "adj",
+      "i": "red",
+      "c": "红色的",
+      "t": "color"
+    },
+    {
+      "w": "remember",
+      "p": "v",
+      "i": "ri'membə",
+      "c": "记得,记忆",
+      "t": "school"
+    },
+    {
+      "w": "rent",
+      "p": "v",
+      "i": "rent",
+      "c": "出租,租用",
+      "t": "action"
+    },
+    {
+      "w": "repair",
+      "p": "v",
+      "i": "ri'pɛə",
+      "c": "修理,补救,补偿",
+      "t": "action"
+    },
+    {
+      "w": "rest",
+      "p": "n & v",
+      "i": "rest",
+      "c": "其余的，休息",
+      "t": "action"
+    },
+    {
+      "w": "restaurant",
+      "p": "n",
+      "i": "'restər:ŋ, -rɔnt",
+      "c": "餐馆,饭店",
+      "t": "food"
+    },
+    {
+      "w": "return",
+      "p": "n & v",
+      "i": "ri'tə:n",
+      "c": "返回,归还,报答",
+      "t": "travel"
+    },
+    {
+      "w": "rice",
+      "p": "n",
+      "i": "rais",
+      "c": "稻,饭,米",
+      "t": "food"
+    },
+    {
+      "w": "rich",
+      "p": "adj",
+      "i": "ritʃ",
+      "c": "富有的,浓厚的,贵重的",
+      "t": "feel"
+    },
+    {
+      "w": "ride",
+      "p": "v",
+      "i": "raid",
+      "c": "骑,乘坐,克服",
+      "t": "travel"
+    },
+    {
+      "w": "right",
+      "p": "n, adj & adv",
+      "i": "rait",
+      "c": "权利,右，对的,正确的",
+      "t": "place"
+    },
+    {
+      "w": "river",
+      "p": "n",
+      "i": "'rivə",
+      "c": "江,河",
+      "t": "places"
+    },
+    {
+      "w": "road",
+      "p": "n",
+      "i": "rəud",
+      "c": "路",
+      "t": "travel"
+    },
+    {
+      "w": "roast",
+      "p": "v & adj",
+      "i": "rəust",
+      "c": "烤,烘焙，烘烤的,烤过的",
+      "t": "food"
+    },
+    {
+      "w": "rock",
+      "p": "n",
+      "i": "rɔk",
+      "c": "岩石,岩礁,巨石",
+      "t": "nature"
+    },
+    {
+      "w": "roof",
+      "p": "n",
+      "i": "ru:f",
+      "c": "屋顶",
+      "t": "home"
+    },
+    {
+      "w": "room",
+      "p": "n",
+      "i": "ru:m",
+      "c": "房间，空间",
+      "t": "home"
+    },
+    {
+      "w": "round",
+      "p": "adj",
+      "i": "raund",
+      "c": "圆的,肥胖的,完全的",
+      "t": "place"
+    },
+    {
+      "w": "roundabout",
+      "p": "n",
+      "i": "'raundəbaut",
+      "c": "远路",
+      "t": "travel"
+    },
+    {
+      "w": "ruin(s)",
+      "p": "n",
+      "i": "ruin; 'ru:in",
+      "c": "废墟,毁灭",
+      "t": "places"
+    },
+    {
+      "w": "run",
+      "p": "v",
+      "i": "rʌn",
+      "c": "跑,运转,进行,运转,经营,褪色",
+      "t": "sport"
+    },
+    {
+      "w": "sad",
+      "p": "adj",
+      "i": "sæd",
+      "c": "悲哀的,伤心的,不能令人满意的",
+      "t": "feel"
+    },
+    {
+      "w": "safe",
+      "p": "adj",
+      "i": "seif",
+      "c": "安全的",
+      "t": "feel"
+    },
+    {
+      "w": "salad",
+      "p": "n",
+      "i": "'sæləd",
+      "c": "色拉",
+      "t": "food"
+    },
+    {
+      "w": "sale",
+      "p": "n",
+      "i": "seil",
+      "c": "销售,削价出售",
+      "t": "shop"
+    },
+    {
+      "w": "salt",
+      "p": "n",
+      "i": "sɔ:lt",
+      "c": "盐,刺激",
+      "t": "food"
+    },
+    {
+      "w": "same",
+      "p": "adj & pron",
+      "i": "seim",
+      "c": "同样的，同样的人或事",
+      "t": "feel"
+    },
+    {
+      "w": "sandwich",
+      "p": "n",
+      "i": "'sænwidʒ, -tʃ",
+      "c": "三明治",
+      "t": "food"
+    },
+    {
+      "w": "save",
+      "p": "v",
+      "i": "seiv",
+      "c": "解救,保存,节省",
+      "t": "action"
+    },
+    {
+      "w": "say",
+      "p": "v",
+      "i": "sei",
+      "c": "说,讲",
+      "t": "action"
+    },
+    {
+      "w": "school",
+      "p": "n",
+      "i": "sku:l",
+      "c": "学校",
+      "t": "school"
+    },
+    {
+      "w": "sea",
+      "p": "n",
+      "i": "si:",
+      "c": "海,海洋",
+      "t": "places"
+    },
+    {
+      "w": "seat",
+      "p": "n",
+      "i": "si:t",
+      "c": "位子,席次,所在地",
+      "t": "travel"
+    },
+    {
+      "w": "second",
+      "p": "n & det",
+      "i": "'sekənd",
+      "c": "秒，第二的,其次的",
+      "t": "time"
+    },
+    {
+      "w": "secretary",
+      "p": "n",
+      "i": "'sekrətri",
+      "c": "秘书,部长,大臣,书记",
+      "t": "work"
+    },
+    {
+      "w": "see",
+      "p": "v",
+      "i": "si:",
+      "c": "看见,看出,明白,知道",
+      "t": "action"
+    },
+    {
+      "w": "sell",
+      "p": "v",
+      "i": "sel",
+      "c": "卖,销售",
+      "t": "shop"
+    },
+    {
+      "w": "send",
+      "p": "v",
+      "i": "send",
+      "c": "送给,传,寄",
+      "t": "action"
+    },
+    {
+      "w": "sentence",
+      "p": "n",
+      "i": "'sentəns",
+      "c": "句子,意见,宣判",
+      "t": "school"
+    },
+    {
+      "w": "several",
+      "p": "det",
+      "i": "'sevərəl",
+      "c": "几个,若干",
+      "t": "number"
+    },
+    {
+      "w": "shall",
+      "p": "v",
+      "i": "ʃæl, ʃəl, ʃl",
+      "c": "将",
+      "t": "grammar"
+    },
+    {
+      "w": "shampoo",
+      "p": "v & n",
+      "i": "ʃæm'pu:",
+      "c": "洗头(洗发剂) 洗发",
+      "t": "home"
+    },
+    {
+      "w": "she",
+      "p": "pron",
+      "i": "ʃi:, ʃi",
+      "c": "她",
+      "t": "grammar"
+    },
+    {
+      "w": "sheet",
+      "p": "n",
+      "i": "ʃi:t",
+      "c": "床单,张,片",
+      "t": "home"
+    },
+    {
+      "w": "shelf",
+      "p": "n",
+      "i": "ʃelf",
+      "c": "架子",
+      "t": "home"
+    },
+    {
+      "w": "ship",
+      "p": "n",
+      "i": "ʃip",
+      "c": "船,舰",
+      "t": "travel"
+    },
+    {
+      "w": "shirt",
+      "p": "n",
+      "i": "ʃə:t",
+      "c": "衬衫",
+      "t": "clothes"
+    },
+    {
+      "w": "shoe",
+      "p": "n",
+      "i": "ʃu:",
+      "c": "鞋",
+      "t": "clothes"
+    },
+    {
+      "w": "shop",
+      "p": "n & v",
+      "i": "ʃɔp",
+      "c": "商店，购物",
+      "t": "places"
+    },
+    {
+      "w": "shop assistant",
+      "p": "n",
+      "i": "",
+      "c": "店员",
+      "t": "work"
+    },
+    {
+      "w": "short",
+      "p": "adj",
+      "i": "ʃɔ:t",
+      "c": "短的,矮的",
+      "t": "feel"
+    },
+    {
+      "w": "shorts",
+      "p": "n pl",
+      "i": "ʃɔ:ts",
+      "c": "短裤",
+      "t": "clothes"
+    },
+    {
+      "w": "should",
+      "p": "v",
+      "i": "ʃud, ʃəd, ʃd",
+      "c": "应该,将要",
+      "t": "grammar"
+    },
+    {
+      "w": "shout",
+      "p": "v",
+      "i": "ʃaut",
+      "c": "呼喊,高声谈笑,玩乐",
+      "t": "action"
+    },
+    {
+      "w": "show",
+      "p": "v & n",
+      "i": "ʃəu",
+      "c": "表示,显现,展现",
+      "t": "fun"
+    },
+    {
+      "w": "shower",
+      "p": "n",
+      "i": "'ʃauə",
+      "c": "阵雨,淋浴",
+      "t": "home"
+    },
+    {
+      "w": "shut",
+      "p": "v",
+      "i": "ʃʌt",
+      "c": "关上,闭起,幽禁",
+      "t": "action"
+    },
+    {
+      "w": "sick",
+      "p": "adj",
+      "i": "sik",
+      "c": "恶心的,有病的,腻烦的",
+      "t": "health"
+    },
+    {
+      "w": "side",
+      "p": "n",
+      "i": "said",
+      "c": "旁边,侧,方面",
+      "t": "place"
+    },
+    {
+      "w": "silver",
+      "p": "n & adj",
+      "i": "'silvə",
+      "c": "银，银色的",
+      "t": "color"
+    },
+    {
+      "w": "since",
+      "p": "prep",
+      "i": "sins",
+      "c": "自从",
+      "t": "time"
+    },
+    {
+      "w": "sincerely",
+      "p": "adv",
+      "i": "sin'siəli",
+      "c": "真诚地",
+      "t": "social"
+    },
+    {
+      "w": "sing",
+      "p": "v",
+      "i": "siŋ",
+      "c": "唱,唱歌,鸣唱",
+      "t": "fun"
+    },
+    {
+      "w": "single",
+      "p": "adj",
+      "i": "'siŋgl",
+      "c": "单身的,单纯的,单一的",
+      "t": "feel"
+    },
+    {
+      "w": "sister",
+      "p": "n",
+      "i": "'sistə",
+      "c": "姐妹",
+      "t": "family"
+    },
+    {
+      "w": "sit",
+      "p": "v",
+      "i": "sit",
+      "c": "坐",
+      "t": "action"
+    },
+    {
+      "w": "sit down",
+      "p": "phr v",
+      "i": "",
+      "c": "坐(下)",
+      "t": "action"
+    },
+    {
+      "w": "sitting room",
+      "p": "n",
+      "i": "",
+      "c": "会客室,起居室",
+      "t": "home"
+    },
+    {
+      "w": "size",
+      "p": "n",
+      "i": "saiz",
+      "c": "尺寸,大小",
+      "t": "clothes"
+    },
+    {
+      "w": "ski",
+      "p": "v",
+      "i": "ski:, ʃi:",
+      "c": "滑雪",
+      "t": "sport"
+    },
+    {
+      "w": "skirt",
+      "p": "n",
+      "i": "skə:t",
+      "c": "裙子",
+      "t": "clothes"
+    },
+    {
+      "w": "sky",
+      "p": "n",
+      "i": "skai",
+      "c": "天空",
+      "t": "nature"
+    },
+    {
+      "w": "sleep",
+      "p": "v",
+      "i": "sli:p",
+      "c": "睡觉,睡眠,静止",
+      "t": "action"
+    },
+    {
+      "w": "slice",
+      "p": "n",
+      "i": "slais",
+      "c": "薄的切片,一部份",
+      "t": "food"
+    },
+    {
+      "w": "slow",
+      "p": "adj",
+      "i": "sləu",
+      "c": "慢的",
+      "t": "feel"
+    },
+    {
+      "w": "small",
+      "p": "adj",
+      "i": "smɔ:l",
+      "c": "小的",
+      "t": "number"
+    },
+    {
+      "w": "smoke",
+      "p": "v",
+      "i": "sməuk",
+      "c": "吸烟,以烟熏,冒烟",
+      "t": "action"
+    },
+    {
+      "w": "snack",
+      "p": "n",
+      "i": "snæk",
+      "c": "小吃,点心",
+      "t": "food"
+    },
+    {
+      "w": "snow",
+      "p": "n & v",
+      "i": "snəu",
+      "c": "雪，下雪",
+      "t": "nature"
+    },
+    {
+      "w": "so",
+      "p": "conj & adv",
+      "i": "səu; sə",
+      "c": "如此,如是,如...那样，所以,因此,所以",
+      "t": "grammar"
+    },
+    {
+      "w": "soap",
+      "p": "n",
+      "i": "səup",
+      "c": "肥皂",
+      "t": "home"
+    },
+    {
+      "w": "sock",
+      "p": "n",
+      "i": "sɔk",
+      "c": "短袜",
+      "t": "clothes"
+    },
+    {
+      "w": "sofa",
+      "p": "n",
+      "i": "'səufə",
+      "c": "沙发",
+      "t": "home"
+    },
+    {
+      "w": "soft",
+      "p": "adj",
+      "i": "sɔft",
+      "c": "软的",
+      "t": "feel"
+    },
+    {
+      "w": "some",
+      "p": "det & pron",
+      "i": "sʌm, səm, sm",
+      "c": "一些,一部份,若干",
+      "t": "grammar"
+    },
+    {
+      "w": "somebody",
+      "p": "pron",
+      "i": "'sʌmbədi",
+      "c": "某人,有人",
+      "t": "grammar"
+    },
+    {
+      "w": "someone",
+      "p": "pron",
+      "i": "'sʌmwʌn",
+      "c": "某人,有人",
+      "t": "grammar"
+    },
+    {
+      "w": "something",
+      "p": "pron",
+      "i": "'sʌmθiŋ",
+      "c": "某事（物），某东西",
+      "t": "grammar"
+    },
+    {
+      "w": "sometimes",
+      "p": "adv",
+      "i": "'sʌmtaimz",
+      "c": "有时",
+      "t": "time"
+    },
+    {
+      "w": "somewhere",
+      "p": "adv",
+      "i": "'sʌm(h)wɛə",
+      "c": "在某处",
+      "t": "grammar"
+    },
+    {
+      "w": "son",
+      "p": "n",
+      "i": "sʌn",
+      "c": "儿子",
+      "t": "family"
+    },
+    {
+      "w": "song",
+      "p": "n",
+      "i": "sɔŋ",
+      "c": "歌曲",
+      "t": "fun"
+    },
+    {
+      "w": "soon",
+      "p": "adv",
+      "i": "su:n",
+      "c": "不久,很快",
+      "t": "time"
+    },
+    {
+      "w": "sorry",
+      "p": "adj",
+      "i": "'sɔri",
+      "c": "对不起的, 抱歉的",
+      "t": "social"
+    },
+    {
+      "w": "sound",
+      "p": "v",
+      "i": "saund",
+      "c": "听,发出声音,测量",
+      "t": "action"
+    },
+    {
+      "w": "soup",
+      "p": "n",
+      "i": "su:p",
+      "c": "汤",
+      "t": "food"
+    },
+    {
+      "w": "south",
+      "p": "n, adj & adv",
+      "i": "sauθ",
+      "c": "南,南方，南方的在南方",
+      "t": "place"
+    },
+    {
+      "w": "space",
+      "p": "n",
+      "i": "speis",
+      "c": "位置,空间,距离",
+      "t": "nature"
+    },
+    {
+      "w": "speak",
+      "p": "v",
+      "i": "spi:k",
+      "c": "说,说话,演说",
+      "t": "action"
+    },
+    {
+      "w": "special",
+      "p": "adj",
+      "i": "'speʃəl",
+      "c": "特别的,专门的",
+      "t": "feel"
+    },
+    {
+      "w": "spell",
+      "p": "v",
+      "i": "spel",
+      "c": "(spelt,spelt) 拼,拼写,拼成",
+      "t": "school"
+    },
+    {
+      "w": "spend",
+      "p": "v",
+      "i": "spend",
+      "c": "(spent,spent) 花费,浪费,度过",
+      "t": "action"
+    },
+    {
+      "w": "spoon",
+      "p": "n",
+      "i": "spu:n",
+      "c": "匙,匙形的铲子",
+      "t": "food"
+    },
+    {
+      "w": "sport",
+      "p": "n",
+      "i": "spɔ:t",
+      "c": "运动,游戏,娱乐",
+      "t": "sport"
+    },
+    {
+      "w": "sports centre",
+      "p": "n",
+      "i": "spɔ:t.sentə",
+      "c": "体育中心",
+      "t": "sport"
+    },
+    {
+      "w": "spring",
+      "p": "n",
+      "i": "spriŋ",
+      "c": "春天,弹簧,跳跃,泉水",
+      "t": "nature"
+    },
+    {
+      "w": "square",
+      "p": "n & adj",
+      "i": "skwɛə",
+      "c": "正方形,街区,平方，正方形的,正直的,公正的",
+      "t": "places"
+    },
+    {
+      "w": "stadium",
+      "p": "n",
+      "i": "'steidiəm",
+      "c": "体育场",
+      "t": "sport"
+    },
+    {
+      "w": "staff",
+      "p": "n",
+      "i": "stɑ:f",
+      "c": "全体人员,同事",
+      "t": "work"
+    },
+    {
+      "w": "stairs",
+      "p": "n pl",
+      "i": "stɛəz",
+      "c": "楼梯",
+      "t": "home"
+    },
+    {
+      "w": "stamp",
+      "p": "n",
+      "i": "stæmp",
+      "c": "印,邮票,打印器",
+      "t": "shop"
+    },
+    {
+      "w": "stand",
+      "p": "v",
+      "i": "stænd",
+      "c": "站立,忍受,位于,坐落",
+      "t": "action"
+    },
+    {
+      "w": "star",
+      "p": "n",
+      "i": "stɑ:",
+      "c": "星,明星",
+      "t": "nature"
+    },
+    {
+      "w": "start",
+      "p": "v",
+      "i": "stɑ:t",
+      "c": "开始,起身,出发",
+      "t": "action"
+    },
+    {
+      "w": "station",
+      "p": "n",
+      "i": "'steiʃən",
+      "c": "车站,站,位置",
+      "t": "travel"
+    },
+    {
+      "w": "stay",
+      "p": "v",
+      "i": "stei",
+      "c": "停留,留宿,制止",
+      "t": "action"
+    },
+    {
+      "w": "steak",
+      "p": "n",
+      "i": "steik",
+      "c": "牛排",
+      "t": "food"
+    },
+    {
+      "w": "steal",
+      "p": "v",
+      "i": "sti:l",
+      "c": "偷",
+      "t": "action"
+    },
+    {
+      "w": "still",
+      "p": "adv",
+      "i": "stil",
+      "c": "仍然,更,静止地",
+      "t": "grammar"
+    },
+    {
+      "w": "stomach",
+      "p": "n",
+      "i": "'stʌmək",
+      "c": "胃",
+      "t": "body"
+    },
+    {
+      "w": "stop",
+      "p": "n & v",
+      "i": "stɔp",
+      "c": "停止,车站,滞留",
+      "t": "action"
+    },
+    {
+      "w": "store",
+      "p": "n",
+      "i": "stɔ:, stɔə",
+      "c": "商店,贮藏,仓库",
+      "t": "places"
+    },
+    {
+      "w": "storm",
+      "p": "n",
+      "i": "stɔ:m",
+      "c": "暴风雨",
+      "t": "nature"
+    },
+    {
+      "w": "story",
+      "p": "n",
+      "i": "'stɔ:ri",
+      "c": "故事",
+      "t": "fun"
+    },
+    {
+      "w": "straight",
+      "p": "adj",
+      "i": "streit",
+      "c": "直的,正直的,坦率的",
+      "t": "feel"
+    },
+    {
+      "w": "straight on",
+      "p": "adv",
+      "i": "",
+      "c": "笔直向前",
+      "t": "place"
+    },
+    {
+      "w": "strange",
+      "p": "adj",
+      "i": "streindʒ",
+      "c": "陌生的,奇怪的",
+      "t": "feel"
+    },
+    {
+      "w": "street",
+      "p": "n",
+      "i": "stri:t",
+      "c": "街道",
+      "t": "places"
+    },
+    {
+      "w": "strong",
+      "p": "adj",
+      "i": "strɔŋ",
+      "c": "强壮的",
+      "t": "feel"
+    },
+    {
+      "w": "student",
+      "p": "n",
+      "i": "'stju:dənt",
+      "c": "学生",
+      "t": "school"
+    },
+    {
+      "w": "studies",
+      "p": "n pl",
+      "i": "'stʌdiz",
+      "c": "学业(study 的复数形)",
+      "t": "school"
+    },
+    {
+      "w": "study",
+      "p": "v",
+      "i": "'stʌdi",
+      "c": "学习,研究",
+      "t": "school"
+    },
+    {
+      "w": "subject",
+      "p": "n",
+      "i": "'sʌbdʒikt",
+      "c": "科目,主题",
+      "t": "school"
+    },
+    {
+      "w": "such",
+      "p": "det",
+      "i": "sʌtʃ, sətʃ",
+      "c": "如此的,这样的",
+      "t": "grammar"
+    },
+    {
+      "w": "suddenly",
+      "p": "adv",
+      "i": "'sʌdənli",
+      "c": "突然地",
+      "t": "time"
+    },
+    {
+      "w": "sugar",
+      "p": "n",
+      "i": "'ʃugə",
+      "c": "糖",
+      "t": "food"
+    },
+    {
+      "w": "suit",
+      "p": "n",
+      "i": "sju:t",
+      "c": "套装,诉讼,请求",
+      "t": "clothes"
+    },
+    {
+      "w": "suitcase",
+      "p": "n",
+      "i": "'sju:tkeis",
+      "c": "手提箱",
+      "t": "travel"
+    },
+    {
+      "w": "summer",
+      "p": "n",
+      "i": "'sʌmə",
+      "c": "夏季,夏天",
+      "t": "nature"
+    },
+    {
+      "w": "sun",
+      "p": "n",
+      "i": "sʌn",
+      "c": "太阳",
+      "t": "nature"
+    },
+    {
+      "w": "sunny",
+      "p": "adj",
+      "i": "'sʌni",
+      "c": "阳光充足的,睛朗的,明媚的",
+      "t": "nature"
+    },
+    {
+      "w": "supermarket",
+      "p": "n",
+      "i": "'sju:pəˌmɑ:kit",
+      "c": "超级市场",
+      "t": "places"
+    },
+    {
+      "w": "supper",
+      "p": "n",
+      "i": "'sʌpə",
+      "c": "晚餐",
+      "t": "food"
+    },
+    {
+      "w": "suppose",
+      "p": "v",
+      "i": "sə'pəuz",
+      "c": "推想,假设,以为,认为",
+      "t": "action"
+    },
+    {
+      "w": "sure",
+      "p": "adj",
+      "i": "ʃuə",
+      "c": "确信,必然的,必定的",
+      "t": "feel"
+    },
+    {
+      "w": "surname",
+      "p": "n",
+      "i": "'sə:neim",
+      "c": "姓",
+      "t": "family"
+    },
+    {
+      "w": "surprise",
+      "p": "n",
+      "i": "sə'praiz",
+      "c": "惊奇",
+      "t": "feel"
+    },
+    {
+      "w": "surprised",
+      "p": "adj",
+      "i": "sə'praizd",
+      "c": "感到惊讶的",
+      "t": "feel"
+    },
+    {
+      "w": "sweater",
+      "p": "n",
+      "i": "'swetə",
+      "c": "毛衣",
+      "t": "clothes"
+    },
+    {
+      "w": "sweet",
+      "p": "n & adj",
+      "i": "swi:t",
+      "c": "糖果,甜点，甜的,可爱的,悦耳的",
+      "t": "food"
+    },
+    {
+      "w": "swim",
+      "p": "v",
+      "i": "swim",
+      "c": "游泳",
+      "t": "sport"
+    },
+    {
+      "w": "table",
+      "p": "n",
+      "i": "'teibl",
+      "c": "桌子, 餐桌, 工作台",
+      "t": "home"
+    },
+    {
+      "w": "table-tennis",
+      "p": "n",
+      "i": "'teibl.tenis",
+      "c": "乒乓球",
+      "t": "sport"
+    },
+    {
+      "w": "take",
+      "p": "v",
+      "i": "teik",
+      "c": "拿,取，花费",
+      "t": "action"
+    },
+    {
+      "w": "take off",
+      "p": "phr v",
+      "i": "",
+      "c": "起飞,脱掉",
+      "t": "travel"
+    },
+    {
+      "w": "talk",
+      "p": "n & v",
+      "i": "tɔ:k",
+      "c": "谈话,会谈,讲话",
+      "t": "action"
+    },
+    {
+      "w": "tall",
+      "p": "adj",
+      "i": "tɔ:l",
+      "c": "高的",
+      "t": "body"
+    },
+    {
+      "w": "taxi",
+      "p": "n",
+      "i": "'tæksi",
+      "c": "计程车,出租汽车",
+      "t": "travel"
+    },
+    {
+      "w": "tea",
+      "p": "n",
+      "i": "ti:",
+      "c": "茶.茶叶.茶树.茶点",
+      "t": "food"
+    },
+    {
+      "w": "teach",
+      "p": "v",
+      "i": "ti:tʃ",
+      "c": "教,教书,教导",
+      "t": "school"
+    },
+    {
+      "w": "team",
+      "p": "n",
+      "i": "ti:m",
+      "c": "队,组",
+      "t": "sport"
+    },
+    {
+      "w": "teenager",
+      "p": "n",
+      "i": "'ti:n.eidʒə",
+      "c": "13 岁到19 岁的年轻人",
+      "t": "family"
+    },
+    {
+      "w": "telephone",
+      "p": "n & v",
+      "i": "'telifəun",
+      "c": "打电话",
+      "t": "tech"
+    },
+    {
+      "w": "television",
+      "p": "n",
+      "i": "'teliviʒən",
+      "c": "电视",
+      "t": "fun"
+    },
+    {
+      "w": "tell",
+      "p": "v",
+      "i": "tel",
+      "c": "告诉,分辨，辨别",
+      "t": "action"
+    },
+    {
+      "w": "temperature",
+      "p": "n",
+      "i": "'tempritʃə(r)",
+      "c": "温度",
+      "t": "health"
+    },
+    {
+      "w": "tennis",
+      "p": "n",
+      "i": "'tenis",
+      "c": "网球",
+      "t": "sport"
+    },
+    {
+      "w": "tent",
+      "p": "n",
+      "i": "tent",
+      "c": "帐篷",
+      "t": "travel"
+    },
+    {
+      "w": "terrible",
+      "p": "adj",
+      "i": "'terəbl",
+      "c": "可怕的,糟糕的",
+      "t": "health"
+    },
+    {
+      "w": "test",
+      "p": "n",
+      "i": "test",
+      "c": "测试,试验",
+      "t": "school"
+    },
+    {
+      "w": "than",
+      "p": "prep & conj",
+      "i": "ðæn; ðən, ðn",
+      "c": "比",
+      "t": "grammar"
+    },
+    {
+      "w": "thank",
+      "p": "v",
+      "i": "θæŋk",
+      "c": "谢谢",
+      "t": "social"
+    },
+    {
+      "w": "the",
+      "p": "det",
+      "i": "ði:, ði; ðə, ð",
+      "c": "这(那),这(那)些",
+      "t": "grammar"
+    },
+    {
+      "w": "theatre",
+      "p": "n",
+      "i": "'θiətə",
+      "c": "剧场,戏院",
+      "t": "fun"
+    },
+    {
+      "w": "their",
+      "p": "det",
+      "i": "ðɛə, ðər",
+      "c": "他(她,它)们的",
+      "t": "grammar"
+    },
+    {
+      "w": "theirs",
+      "p": "pron",
+      "i": "ðɛəz",
+      "c": "他(她,它)们的",
+      "t": "grammar"
+    },
+    {
+      "w": "them",
+      "p": "pron",
+      "i": "θem",
+      "c": "他(她,它)们",
+      "t": "grammar"
+    },
+    {
+      "w": "themselves",
+      "p": "pron",
+      "i": "ðəm'selvz",
+      "c": "他(她,它)们自己",
+      "t": "grammar"
+    },
+    {
+      "w": "then",
+      "p": "adv",
+      "i": "ðen",
+      "c": "那么，当时，然后，于是",
+      "t": "time"
+    },
+    {
+      "w": "there",
+      "p": "adv",
+      "i": "ðɛə, ðə",
+      "c": "在那里",
+      "t": "place"
+    },
+    {
+      "w": "these",
+      "p": "det & pron",
+      "i": "ði:z",
+      "c": "这些",
+      "t": "grammar"
+    },
+    {
+      "w": "they",
+      "p": "pron",
+      "i": "ðei; ðe",
+      "c": "他们",
+      "t": "grammar"
+    },
+    {
+      "w": "thin",
+      "p": "adj",
+      "i": "θin",
+      "c": "瘦的",
+      "t": "body"
+    },
+    {
+      "w": "thing",
+      "p": "n",
+      "i": "θiŋ",
+      "c": "东西,事情",
+      "t": "grammar"
+    },
+    {
+      "w": "think",
+      "p": "v",
+      "i": "θiŋk",
+      "c": "想,考虑,想像",
+      "t": "action"
+    },
+    {
+      "w": "thirsty",
+      "p": "adj",
+      "i": "'θə:sti",
+      "c": "口渴的",
+      "t": "food"
+    },
+    {
+      "w": "this",
+      "p": "det & pron",
+      "i": "ðis",
+      "c": "这,这个",
+      "t": "grammar"
+    },
+    {
+      "w": "those",
+      "p": "det & pron",
+      "i": "ðəuz",
+      "c": "那些",
+      "t": "grammar"
+    },
+    {
+      "w": "through",
+      "p": "prep",
+      "i": "θru:",
+      "c": "经过,穿过,凭借",
+      "t": "place"
+    },
+    {
+      "w": "throw",
+      "p": "v",
+      "i": "θrəu",
+      "c": "丢,掷,抛",
+      "t": "action"
+    },
+    {
+      "w": "thunderstorm",
+      "p": "n",
+      "i": "'θʌndəstɔ:m",
+      "c": "雷暴雨(大雷雨)",
+      "t": "nature"
+    },
+    {
+      "w": "ticket",
+      "p": "n",
+      "i": "'tikit",
+      "c": "票,券",
+      "t": "travel"
+    },
+    {
+      "w": "tidy",
+      "p": "adj & v",
+      "i": "'taidi",
+      "c": "整齐的,精简的，弄整齐,收拾",
+      "t": "home"
+    },
+    {
+      "w": "tights",
+      "p": "n pl",
+      "i": "taits",
+      "c": "贴身衬衣, 紧身衣",
+      "t": "clothes"
+    },
+    {
+      "w": "till",
+      "p": "prep",
+      "i": "til",
+      "c": "直到",
+      "t": "time"
+    },
+    {
+      "w": "time",
+      "p": "n",
+      "i": "taim",
+      "c": "时间,期限,次数,乘",
+      "t": "time"
+    },
+    {
+      "w": "tired",
+      "p": "adj",
+      "i": "'taiəd",
+      "c": "疲劳的,累的",
+      "t": "health"
+    },
+    {
+      "w": "to",
+      "p": "prep",
+      "i": "tu:, tə, tu",
+      "c": "(表示方向)到,向；(表示间接关系)给",
+      "t": "place"
+    },
+    {
+      "w": "today",
+      "p": "n & adv",
+      "i": "tə'dei",
+      "c": "今天",
+      "t": "time"
+    },
+    {
+      "w": "together",
+      "p": "adv",
+      "i": "tə'geðə",
+      "c": "一起",
+      "t": "time"
+    },
+    {
+      "w": "toilet",
+      "p": "n",
+      "i": "'tɔilit",
+      "c": "厕所,盥洗室",
+      "t": "home"
+    },
+    {
+      "w": "tomato",
+      "p": "n",
+      "i": "tə'mɑ:təu, tə'meitəu",
+      "c": "西红柿",
+      "t": "food"
+    },
+    {
+      "w": "tomorrow",
+      "p": "n & adv",
+      "i": "tə'mɔrəu, tu'mɔrəu",
+      "c": "明天",
+      "t": "time"
+    },
+    {
+      "w": "tonight",
+      "p": "n & adv",
+      "i": "tə'nait",
+      "c": "今晚",
+      "t": "time"
+    },
+    {
+      "w": "too",
+      "p": "adv",
+      "i": "tu:",
+      "c": "也",
+      "t": "grammar"
+    },
+    {
+      "w": "tooth",
+      "p": "n",
+      "i": "tu:θ",
+      "c": "牙齿",
+      "t": "body"
+    },
+    {
+      "w": "toothbrush",
+      "p": "n",
+      "i": "'tu:θbrʌʃ",
+      "c": "牙刷",
+      "t": "body"
+    },
+    {
+      "w": "top",
+      "p": "n",
+      "i": "tɔp",
+      "c": "顶端,极点,最高地位;陀螺",
+      "t": "place"
+    },
+    {
+      "w": "total",
+      "p": "adj & n",
+      "i": "'təutl",
+      "c": "全体的,总的,全然的",
+      "t": "number"
+    },
+    {
+      "w": "tour",
+      "p": "n & v",
+      "i": "tuə",
+      "c": "旅游,观光旅行,任期",
+      "t": "travel"
+    },
+    {
+      "w": "tour guide",
+      "p": "n",
+      "i": "",
+      "c": "导游",
+      "t": "travel"
+    },
+    {
+      "w": "tourist",
+      "p": "n",
+      "i": "'tuərist",
+      "c": "旅游者,观光者",
+      "t": "travel"
+    },
+    {
+      "w": "tourist information centre",
+      "p": "n",
+      "i": "",
+      "c": "旅游信息中心",
+      "t": "travel"
+    },
+    {
+      "w": "towel",
+      "p": "n",
+      "i": "'tauəl, taul",
+      "c": "毛巾",
+      "t": "home"
+    },
+    {
+      "w": "town",
+      "p": "n",
+      "i": "taun",
+      "c": "城镇",
+      "t": "places"
+    },
+    {
+      "w": "toy",
+      "p": "n",
+      "i": "tɔi",
+      "c": "玩具,小玩意儿",
+      "t": "fun"
+    },
+    {
+      "w": "traffic",
+      "p": "n",
+      "i": "'træfik",
+      "c": "交通",
+      "t": "travel"
+    },
+    {
+      "w": "traffic lights",
+      "p": "n pl",
+      "i": "",
+      "c": "交通灯",
+      "t": "travel"
+    },
+    {
+      "w": "train",
+      "p": "n",
+      "i": "trein",
+      "c": "火车",
+      "t": "travel"
+    },
+    {
+      "w": "trainers",
+      "p": "n pl",
+      "i": "",
+      "c": "练习器",
+      "t": "clothes"
+    },
+    {
+      "w": "tram",
+      "p": "n",
+      "i": "træm",
+      "c": "有轨电车",
+      "t": "travel"
+    },
+    {
+      "w": "travel",
+      "p": "v",
+      "i": "'trævl",
+      "c": "旅行,传播",
+      "t": "travel"
+    },
+    {
+      "w": "travel agent",
+      "p": "n",
+      "i": "",
+      "c": "旅行社",
+      "t": "travel"
+    },
+    {
+      "w": "tree",
+      "p": "n",
+      "i": "tri:",
+      "c": "树",
+      "t": "nature"
+    },
+    {
+      "w": "trip",
+      "p": "n",
+      "i": "trip",
+      "c": "旅行,摔倒,差错",
+      "t": "travel"
+    },
+    {
+      "w": "trouble",
+      "p": "n",
+      "i": "'trʌbl",
+      "c": "麻烦,困难",
+      "t": "feel"
+    },
+    {
+      "w": "trousers",
+      "p": "n pl",
+      "i": "'traʊzəz",
+      "c": "裤子",
+      "t": "clothes"
+    },
+    {
+      "w": "try",
+      "p": "v",
+      "i": "trai",
+      "c": "试,尝试",
+      "t": "action"
+    },
+    {
+      "w": "try on",
+      "p": "phr v",
+      "i": "",
+      "c": "试穿",
+      "t": "clothes"
+    },
+    {
+      "w": "T-shirt",
+      "p": "n",
+      "i": "'ti:.ʃə:t",
+      "c": "T 恤衫",
+      "t": "clothes"
+    },
+    {
+      "w": "turn",
+      "p": "v",
+      "i": "tə:n",
+      "c": "旋转",
+      "t": "action"
+    },
+    {
+      "w": "turn off",
+      "p": "phr v",
+      "i": "",
+      "c": "关掉",
+      "t": "action"
+    },
+    {
+      "w": "turn on",
+      "p": "phr v",
+      "i": "",
+      "c": "打开,拧开",
+      "t": "action"
+    },
+    {
+      "w": "twice",
+      "p": "adv",
+      "i": "twais",
+      "c": "两倍,两次",
+      "t": "time"
+    },
+    {
+      "w": "type",
+      "p": "n",
+      "i": "taip",
+      "c": "类型,品种,样式,模范",
+      "t": "grammar"
+    },
+    {
+      "w": "tyre",
+      "p": "n",
+      "i": "'taiə",
+      "c": "轮胎",
+      "t": "travel"
+    },
+    {
+      "w": "umbrella",
+      "p": "n",
+      "i": "ʌm'brelə",
+      "c": "伞",
+      "t": "clothes"
+    },
+    {
+      "w": "uncle",
+      "p": "n",
+      "i": "'ʌŋkl",
+      "c": "伯,姑父,舅,叔,姨父",
+      "t": "family"
+    },
+    {
+      "w": "under",
+      "p": "prep",
+      "i": "'ʌndə",
+      "c": "在...之下,低于",
+      "t": "place"
+    },
+    {
+      "w": "underground",
+      "p": "n & adj",
+      "i": "'ʌndəgraund",
+      "c": "地下,地铁,地道,秘密活动；在地下,秘密地",
+      "t": "travel"
+    },
+    {
+      "w": "understand",
+      "p": "v",
+      "i": ".ʌndə'stænd",
+      "c": "理解,了解,领会,闻知",
+      "t": "school"
+    },
+    {
+      "w": "uniform",
+      "p": "n",
+      "i": "'ju:nifɔ:m",
+      "c": "制服",
+      "t": "clothes"
+    },
+    {
+      "w": "university",
+      "p": "n",
+      "i": ".ju:ni'və:siti",
+      "c": "大学",
+      "t": "school"
+    },
+    {
+      "w": "until",
+      "p": "prep",
+      "i": "ən'til, ʌn'til",
+      "c": "直到...为止",
+      "t": "time"
+    },
+    {
+      "w": "up",
+      "p": "prep & adv",
+      "i": "ʌp",
+      "c": "向上，向上的",
+      "t": "place"
+    },
+    {
+      "w": "upstairs",
+      "p": "adv",
+      "i": "'ʌp'stɛəz",
+      "c": "在楼上,往楼上",
+      "t": "home"
+    },
+    {
+      "w": "use",
+      "p": "v",
+      "i": "ju:s",
+      "c": "使用,用",
+      "t": "action"
+    },
+    {
+      "w": "useful",
+      "p": "adj",
+      "i": "'ju:sful",
+      "c": "有用的",
+      "t": "feel"
+    },
+    {
+      "w": "usual",
+      "p": "adj",
+      "i": "'ju:ʒuəl",
+      "c": "通常的",
+      "t": "feel"
+    },
+    {
+      "w": "vegetable",
+      "p": "n",
+      "i": "'vedʒitəbl",
+      "c": "蔬菜",
+      "t": "food"
+    },
+    {
+      "w": "very",
+      "p": "adv",
+      "i": "'veri",
+      "c": "非常",
+      "t": "time"
+    },
+    {
+      "w": "video",
+      "p": "n",
+      "i": "'vidiəu",
+      "c": "录像(机)",
+      "t": "fun"
+    },
+    {
+      "w": "video recorder",
+      "p": "n",
+      "i": "'vidiəuri.kɔ:də",
+      "c": "录像机",
+      "t": "fun"
+    },
+    {
+      "w": "village",
+      "p": "n",
+      "i": "'vilidʒ",
+      "c": "村庄",
+      "t": "places"
+    },
+    {
+      "w": "visit",
+      "p": "v",
+      "i": "'vizit",
+      "c": "拜访,访问",
+      "t": "travel"
+    },
+    {
+      "w": "visitor",
+      "p": "n",
+      "i": "'vizitə",
+      "c": "参观者,访问者",
+      "t": "travel"
+    },
+    {
+      "w": "volleyball",
+      "p": "n",
+      "i": "'vɔlibɔ:l",
+      "c": "排球",
+      "t": "sport"
+    },
+    {
+      "w": "wait",
+      "p": "v",
+      "i": "weit",
+      "c": "等候,期待,延缓",
+      "t": "action"
+    },
+    {
+      "w": "waiter",
+      "p": "n",
+      "i": "'weitə",
+      "c": "侍者,服务员",
+      "t": "food"
+    },
+    {
+      "w": "waitress",
+      "p": "n",
+      "i": "'weitris",
+      "c": "女侍者,女服务员",
+      "t": "food"
+    },
+    {
+      "w": "wake up",
+      "p": "phr v",
+      "i": "",
+      "c": "醒来",
+      "t": "action"
+    },
+    {
+      "w": "walk",
+      "p": "v",
+      "i": "wɔ:k",
+      "c": "走，步行",
+      "t": "action"
+    },
+    {
+      "w": "wall",
+      "p": "n",
+      "i": "wɔ:l",
+      "c": "墙壁,垣",
+      "t": "home"
+    },
+    {
+      "w": "wallet",
+      "p": "n",
+      "i": "'wɔlit",
+      "c": "皮夹,钱包",
+      "t": "shop"
+    },
+    {
+      "w": "want",
+      "p": "v",
+      "i": "wɔnt",
+      "c": "要,希望",
+      "t": "action"
+    },
+    {
+      "w": "warm",
+      "p": "adj",
+      "i": "wɔ:m",
+      "c": "暖和的",
+      "t": "nature"
+    },
+    {
+      "w": "wash",
+      "p": "v",
+      "i": "wɔʃ",
+      "c": "洗,洗涤,洗清",
+      "t": "action"
+    },
+    {
+      "w": "wash up",
+      "p": "phr v",
+      "i": "",
+      "c": "洗餐具",
+      "t": "food"
+    },
+    {
+      "w": "watch",
+      "p": "n & v",
+      "i": "wɔtʃ",
+      "c": "手表，看,注视,照顾",
+      "t": "clothes"
+    },
+    {
+      "w": "water",
+      "p": "n",
+      "i": "'wɔ:tə",
+      "c": "水,雨水,海水",
+      "t": "food"
+    },
+    {
+      "w": "way",
+      "p": "n",
+      "i": "wei",
+      "c": "方法,道路,方向",
+      "t": "place"
+    },
+    {
+      "w": "we",
+      "p": "pron",
+      "i": "wi:; wi",
+      "c": "我们",
+      "t": "grammar"
+    },
+    {
+      "w": "wear",
+      "p": "v",
+      "i": "wєə",
+      "c": "穿著,用旧,耗损",
+      "t": "clothes"
+    },
+    {
+      "w": "weather",
+      "p": "n",
+      "i": "'weðə",
+      "c": "天气",
+      "t": "nature"
+    },
+    {
+      "w": "website",
+      "p": "n",
+      "i": "",
+      "c": "WWW 的站点",
+      "t": "fun"
+    },
+    {
+      "w": "week",
+      "p": "n",
+      "i": "wi:k",
+      "c": "星期,周",
+      "t": "time"
+    },
+    {
+      "w": "weekday",
+      "p": "n",
+      "i": "'wi:kdei",
+      "c": "工作日",
+      "t": "time"
+    },
+    {
+      "w": "weekend",
+      "p": "n",
+      "i": "wi:k'end, 'wi:kend",
+      "c": "周末",
+      "t": "time"
+    },
+    {
+      "w": "weekly",
+      "p": "adj & adv",
+      "i": "'wi:kli",
+      "c": "每周的,一周一次的,周刊的",
+      "t": "time"
+    },
+    {
+      "w": "welcome",
+      "p": "v",
+      "i": "'welkəm",
+      "c": "欢迎",
+      "t": "social"
+    },
+    {
+      "w": "well",
+      "p": "adv & adj",
+      "i": "wel",
+      "c": "健康的,良好的；很好地,适当地",
+      "t": "feel"
+    },
+    {
+      "w": "west",
+      "p": "n, adj & adv",
+      "i": "west",
+      "c": "西,西方；西方的；向(在)西方",
+      "t": "place"
+    },
+    {
+      "w": "wet",
+      "p": "adj",
+      "i": "wet",
+      "c": "湿的",
+      "t": "nature"
+    },
+    {
+      "w": "what",
+      "p": "det & pron",
+      "i": "(h)wɔt",
+      "c": "什么，多么",
+      "t": "grammar"
+    },
+    {
+      "w": "wheel",
+      "p": "n",
+      "i": "wi:l, hw-",
+      "c": "轮子,周期",
+      "t": "travel"
+    },
+    {
+      "w": "when",
+      "p": "adv",
+      "i": "(h)wen",
+      "c": "什么时候",
+      "t": "time"
+    },
+    {
+      "w": "where",
+      "p": "adv",
+      "i": "(h)wɛə",
+      "c": "在哪里",
+      "t": "place"
+    },
+    {
+      "w": "which",
+      "p": "det",
+      "i": "(h)witʃ",
+      "c": "哪一个,哪一些",
+      "t": "grammar"
+    },
+    {
+      "w": "while",
+      "p": "conj",
+      "i": "(h)wail",
+      "c": "当...的时候",
+      "t": "time"
+    },
+    {
+      "w": "white",
+      "p": "adj",
+      "i": "(h)wait",
+      "c": "白色的",
+      "t": "color"
+    },
+    {
+      "w": "who",
+      "p": "pron",
+      "i": "hu:",
+      "c": "谁",
+      "t": "grammar"
+    },
+    {
+      "w": "whole",
+      "p": "adj & n",
+      "i": "həul",
+      "c": "整个的，全部",
+      "t": "number"
+    },
+    {
+      "w": "whose",
+      "p": "pron",
+      "i": "hu:z",
+      "c": "谁的",
+      "t": "grammar"
+    },
+    {
+      "w": "why",
+      "p": "adv",
+      "i": "(h)wai",
+      "c": "为什么",
+      "t": "grammar"
+    },
+    {
+      "w": "wife",
+      "p": "n",
+      "i": "waif",
+      "c": "妻子",
+      "t": "family"
+    },
+    {
+      "w": "will ('ll)",
+      "p": "v",
+      "i": "wil",
+      "c": "将, 愿意",
+      "t": "grammar"
+    },
+    {
+      "w": "win",
+      "p": "v",
+      "i": "win",
+      "c": "赢得,胜利,成功",
+      "t": "sport"
+    },
+    {
+      "w": "wind",
+      "p": "n",
+      "i": "waind",
+      "c": "风,气味,卷",
+      "t": "nature"
+    },
+    {
+      "w": "window",
+      "p": "n",
+      "i": "'windəu",
+      "c": "窗户",
+      "t": "home"
+    },
+    {
+      "w": "windy",
+      "p": "adj",
+      "i": "'windi",
+      "c": "有风的, 多风的",
+      "t": "nature"
+    },
+    {
+      "w": "winter",
+      "p": "n",
+      "i": "'wintə",
+      "c": "冬季,冬天",
+      "t": "nature"
+    },
+    {
+      "w": "wishe(s)",
+      "p": "n pl",
+      "i": "wiʃ",
+      "c": "希望,愿望,祝颂",
+      "t": "social"
+    },
+    {
+      "w": "with",
+      "p": "prep",
+      "i": "wið",
+      "c": "和...一起,用",
+      "t": "place"
+    },
+    {
+      "w": "without",
+      "p": "prep",
+      "i": "wið'aut",
+      "c": "无,没有",
+      "t": "place"
+    },
+    {
+      "w": "woman",
+      "p": "n",
+      "i": "'wumən",
+      "c": "妇女,女人",
+      "t": "family"
+    },
+    {
+      "w": "wonderful",
+      "p": "adj",
+      "i": "'wʌndəful",
+      "c": "极好的,精彩的",
+      "t": "feel"
+    },
+    {
+      "w": "wood",
+      "p": "n",
+      "i": "wud",
+      "c": "木材,木头",
+      "t": "nature"
+    },
+    {
+      "w": "wool",
+      "p": "n",
+      "i": "wul",
+      "c": "毛线,毛织品,羊毛",
+      "t": "clothes"
+    },
+    {
+      "w": "word",
+      "p": "n",
+      "i": "wə:d",
+      "c": "词,单词,消息,诺言",
+      "t": "school"
+    },
+    {
+      "w": "work",
+      "p": "n & v",
+      "i": "wə:k",
+      "c": "工作,有效",
+      "t": "work"
+    },
+    {
+      "w": "world",
+      "p": "n",
+      "i": "wə:ld",
+      "c": "世界",
+      "t": "places"
+    },
+    {
+      "w": "would",
+      "p": "v",
+      "i": "wud, wəd, əd, d",
+      "c": "将,愿意",
+      "t": "grammar"
+    },
+    {
+      "w": "write",
+      "p": "v",
+      "i": "rait",
+      "c": "写",
+      "t": "school"
+    },
+    {
+      "w": "write down",
+      "p": "phr v",
+      "i": "",
+      "c": "写下(把...描写成,减低面价值)",
+      "t": "action"
+    },
+    {
+      "w": "wrong",
+      "p": "adj",
+      "i": "rɔŋ",
+      "c": "错误的",
+      "t": "feel"
+    },
+    {
+      "w": "year",
+      "p": "n",
+      "i": "jə:, jiə",
+      "c": "年",
+      "t": "time"
+    },
+    {
+      "w": "yellow",
+      "p": "adj",
+      "i": "'jeləu",
+      "c": "黄色的",
+      "t": "color"
+    },
+    {
+      "w": "yes",
+      "p": "exclaim",
+      "i": "jes",
+      "c": "是,是的",
+      "t": "social"
+    },
+    {
+      "w": "yesterday",
+      "p": "n & adv",
+      "i": "'jestədi",
+      "c": "昨天",
+      "t": "time"
+    },
+    {
+      "w": "yet",
+      "p": "adv",
+      "i": "jet",
+      "c": "还,仍然",
+      "t": "time"
+    },
+    {
+      "w": "you",
+      "p": "pron",
+      "i": "ju:, ju",
+      "c": "你，你们",
+      "t": "grammar"
+    },
+    {
+      "w": "young",
+      "p": "adj",
+      "i": "jʌŋ",
+      "c": "年轻的",
+      "t": "feel"
+    },
+    {
+      "w": "your",
+      "p": "det",
+      "i": "jɔ:, juə",
+      "c": "你的，你们的",
+      "t": "grammar"
+    },
+    {
+      "w": "yours",
+      "p": "pron",
+      "i": "jɔ:z, juəz",
+      "c": "你的,你们的",
+      "t": "grammar"
+    },
+    {
+      "w": "yourself",
+      "p": "pron",
+      "i": "jɔ:'self, juə-, jə-",
+      "c": "你自己",
+      "t": "grammar"
+    },
+    {
+      "w": "zero",
+      "p": "n",
+      "i": "'ziərəu",
+      "c": "零",
+      "t": "number"
+    },
+    {
+      "w": "zoo",
+      "p": "n",
+      "i": "zu:",
+      "c": "动物园",
+      "t": "animals"
+    }
+  ]
+}

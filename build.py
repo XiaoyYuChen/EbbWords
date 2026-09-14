@@ -11,6 +11,7 @@ SRC = ROOT / "data" / "ket.txt"
 TPL = ROOT / "template.html"
 OUT = ROOT / "index.html"
 RAW = ROOT / "data" / "raw"
+BOOKS = ROOT / "data" / "books"
 
 POS_TOKEN = r"(?:phr\s*v|n\s*pl|art|adj|adv|prep|pron|det|conj|num|exclaim|aux|n|v)"
 POS_INNER = rf"{POS_TOKEN}(?:\s*(?:&|and|,)\s*{POS_TOKEN})*"
@@ -343,17 +344,23 @@ def letter_of(head: str) -> str:
 
 def pos_bucket(pos: str) -> str:
     p = (pos or "").lower()
-    if "phr" in p:
+    if "phr v" in p:
         return "短语动词"
+    if p == "phr" or p.startswith("phr"):
+        return "短语"
     if "exclaim" in p:
         return "感叹"
+    if "aux" in p:
+        return "助动词"
     if "n pl" in p:
         return "名词复数"
-    if re.search(r"\bn\b", p):
-        if "v" in p and not p.startswith("n"):
-            return "名/动"
+    has_n = bool(re.search(r"\bn\b", p))
+    has_v = bool(re.search(r"\bv\b", p) or p.startswith("v"))
+    if has_n and has_v:
+        return "名/动"
+    if has_n:
         return "名词"
-    if re.search(r"\bv\b", p) or p.startswith("v"):
+    if has_v:
         return "动词"
     if "adj" in p:
         return "形容词"
@@ -811,18 +818,113 @@ def book_payload(kind, name, short, words, groups):
     }
 
 
-def main():
+def slim_word(w: dict) -> dict:
+    return {
+        "w": w.get("w") or "",
+        "p": w.get("p") or "",
+        "i": w.get("i") or "",
+        "c": w.get("c") or "",
+        "t": w.get("t") or "",
+    }
+
+
+def slim_book(book: dict) -> dict:
+    out = {
+        "id": book.get("id") or book.get("short"),
+        "name": book.get("name"),
+        "short": book.get("short"),
+        "kind": book.get("kind"),
+        "groups": book.get("groups") or [],
+        "words": [slim_word(w) for w in book.get("words") or []],
+    }
+    for key in ("grade", "term", "termName"):
+        if key in book:
+            out[key] = book[key]
+    return out
+
+
+def hydrate_book(data: dict) -> dict:
+    words = []
+    for i, w in enumerate(data.get("words") or [], 1):
+        words.append(
+            make_word(
+                i,
+                w.get("w") or "",
+                w.get("p") or "",
+                w.get("i") or "",
+                w.get("c") or "",
+                w.get("t") or "",
+            )
+        )
+    data = dict(data)
+    data["words"] = words
+    return data
+
+
+def export_books(ket_book, pet_book, pep_books):
+    BOOKS.mkdir(parents=True, exist_ok=True)
+    (BOOKS / "ket.json").write_text(
+        json.dumps(slim_book(ket_book), ensure_ascii=False, indent=2) + "\n",
+        encoding="utf-8",
+    )
+    (BOOKS / "pet.json").write_text(
+        json.dumps(slim_book(pet_book), ensure_ascii=False, indent=2) + "\n",
+        encoding="utf-8",
+    )
+    for b in pep_books:
+        name = f"pep-{b['grade']}-{b['term']}.json"
+        (BOOKS / name).write_text(
+            json.dumps(slim_book(b), ensure_ascii=False, indent=2) + "\n",
+            encoding="utf-8",
+        )
+
+
+def load_from_books():
+    ket = hydrate_book(json.loads((BOOKS / "ket.json").read_text(encoding="utf-8")))
+    pet = hydrate_book(json.loads((BOOKS / "pet.json").read_text(encoding="utf-8")))
+    pep_books = []
+    for path in sorted(BOOKS.glob("pep-*.json")):
+        pep_books.append(hydrate_book(json.loads(path.read_text(encoding="utf-8"))))
+    pep_books.sort(key=lambda b: (b.get("grade") or 0, b.get("term") or 0))
+    return ket, pet, pep_books
+
+
+def fill_pep_pos(ket_words, pet_words, pep_books):
+    from posfill import fill_words, lookup_from_words, wordnet_table
+
+    known = lookup_from_words(ket_words + pet_words)
+    heads = [w["w"] for b in pep_books for w in b["words"] if not w.get("p")]
+    wn_map = wordnet_table(heads) if heads else {}
+    n = 0
+    empty = 0
+    for b in pep_books:
+        n += fill_words(b["words"], known, wn_map)
+        for w in b["words"]:
+            w["g"] = pos_bucket(w.get("p") or "")
+            if not w.get("p"):
+                empty += 1
+    return n, empty
+
+
+def load_from_raw():
     compiled = compile_topic_sets()
     topic_groups = [{"id": g, "name": n, "color": c} for g, n, c in GROUPS]
     ket = load_ket(compiled)
     pet = load_pet(compiled)
     pep_books = load_g3_2024() + load_youdao_pep()
-    pep_map = {f"{b['grade']}-{b['term']}": b for b in pep_books}
+    filled, empty = fill_pep_pos(ket, pet, pep_books)
+    print(f"pep_pos_filled={filled} pep_pos_empty={empty}")
+    ket_book = book_payload("topic", "KET 高频词汇", "ket", ket, topic_groups)
+    pet_book = book_payload("topic", "PET / B1 Preliminary", "pet", pet, topic_groups)
+    return ket_book, pet_book, pep_books
 
+
+def write_html(ket_book, pet_book, pep_books):
+    pep_map = {f"{b['grade']}-{b['term']}": b for b in pep_books}
     payload = {
         "libs": {
-            "ket": book_payload("topic", "KET 高频词汇", "ket", ket, topic_groups),
-            "pet": book_payload("topic", "PET / B1 Preliminary", "pet", pet, topic_groups),
+            "ket": ket_book,
+            "pet": pet_book,
         },
         "pep": pep_map,
     }
@@ -832,10 +934,23 @@ def main():
         json.dumps(payload, ensure_ascii=False, separators=(",", ":")),
     )
     OUT.write_text(html, encoding="utf-8")
-    print(f"ket={len(ket)} pet={len(pet)} pep_books={len(pep_books)}")
+    print(f"ket={len(ket_book['words'])} pet={len(pet_book['words'])} pep_books={len(pep_books)}")
     print(f"html={OUT} bytes={OUT.stat().st_size}")
     for b in pep_books:
         print(f"  {b['name']:24} {len(b['words']):4} units={len(b['groups'])}")
+
+
+def main():
+    import sys
+
+    from_raw = "--from-raw" in sys.argv
+    if from_raw or not (BOOKS / "ket.json").exists():
+        ket_book, pet_book, pep_books = load_from_raw()
+        export_books(ket_book, pet_book, pep_books)
+        print(f"wrote JSON books -> {BOOKS}")
+    else:
+        ket_book, pet_book, pep_books = load_from_books()
+    write_html(ket_book, pet_book, pep_books)
 
 
 if __name__ == "__main__":
