@@ -493,6 +493,16 @@
       if (last <= list.length) el.textContent = `下一批 ${a}–${last}`;
       else el.textContent = `下一批 ${a}–${list.length}, 1–${last - list.length}`;
     }
+    function scrollToWord(word) {
+      if (!word) return;
+      const el = document.querySelector('.card[data-id="' + word.id + '"]');
+      if (!el) return;
+      const header = document.querySelector("header.app");
+      const sticky = header && getComputedStyle(header).position === "sticky";
+      const headerH = sticky ? header.getBoundingClientRect().height + 8 : 8;
+      const y = el.getBoundingClientRect().top + window.pageYOffset - headerH;
+      window.scrollTo({ top: Math.max(0, y), behavior: "smooth" });
+    }
     function applySelection(words) {
       state.selected.clear();
       words.forEach((w) => state.selected.set(w.id, w));
@@ -500,8 +510,10 @@
       $("selNames").textContent = [...state.selected.values()].map((w) => w.w).join("、");
       $("btnSheet").disabled = state.selected.size < 1;
       renderGrid();
-      const first = document.querySelector(".card.sel");
-      if (first) first.scrollIntoView({ behavior: "smooth", block: "nearest" });
+      const first = words[0];
+      requestAnimationFrame(() => {
+        requestAnimationFrame(() => scrollToWord(first));
+      });
     }
     function shufflePick(list, n) {
       const arr = list.slice();
