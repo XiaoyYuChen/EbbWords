@@ -25,9 +25,9 @@ KET / PET / 人教版 PEP（3–9 年级）词汇学习页：按主题或单元�
 
 `w` 单词，`p` 词性，`i` 音标，`c` 中文，`t` 主题或单元 id。修改 JSON 后运行 `python build.py` 即可重新生成页面。从原始资料重建词库（并补全 PEP 词性）可用 `python build.py --from-raw`。
 
-## 一起完善
+## 欢迎一起
 
-Token 有富裕的同学，欢迎帮我扩展 **FCE 词汇**、**句型** 等。直接在仓库提 Issue 或 Pull Request 即可。
+Token 有富裕的同学，欢迎一起扩展 **FCE 词汇**、**句型** 等。直接在仓库提 Issue 或 Pull Request 即可。
 
 ## 作者
 
