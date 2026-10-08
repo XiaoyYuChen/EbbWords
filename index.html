@@ -154,6 +154,7 @@
     }
     .card.sel .chk { background: var(--accent-2); border-color: var(--accent-2); color: #fff; }
     .head { font-size: 18px; font-weight: 700; line-height: 1.25; }
+    .head .ph { color: var(--accent); font-weight: 800; }
     .meta { margin-top: 2px; font-size: 12px; color: #718096; }
     .cn { margin-top: 6px; font-size: 14px; color: #374151; }
     .play {
@@ -232,6 +233,8 @@
             <button data-dim="topic" class="on" id="dimTopic">主题</button>
             <button data-dim="pos">词性</button>
             <button data-dim="letter">字母</button>
+            <button data-dim="phonics">发音</button>
+            <button data-dim="morph">词根</button>
           </div>
           <div class="dims" id="accent">
             <button data-accent="1" class="on">英音</button>
@@ -239,7 +242,7 @@
           </div>
         </div>
       </div>
-      <p class="hint">搜索支持 *（任意字符）和 _（单个字符）。KET / PET 按主题筛选，PEP 按 Unit 单元筛选。点喇叭听发音；可在当前主题里顺序选或随机选 5–10 个单词后生成默写纸。</p>
+      <p class="hint">搜索支持 *（任意字符）和 _（单个字符）。All 汇总全部词库。可用「发音」按 are / igh / ere 等自然拼读音组归类；可用「词根」按 un- 否定、re- 再次、port 运送等归类。KET / PET 按主题筛选，PEP 按 Unit 单元筛选。切换词库时已选单词会保留。点喇叭听发音；可在当前主题里顺序选或随机选 5–10 个单词后生成默写纸。</p>
       <div class="chips-wrap" id="chipsWrap">
         <button type="button" class="chips-toggle" id="chipsToggle" aria-expanded="false">
           <span class="lab" id="chipsToggleLab">主题</span>
@@ -307,6 +310,198 @@
     const PRINT_MAX = 10;
     const DAYS = [30, 15, 7, 4, 2, 1];
     const LS = "ebbwords.v1";
+    const DIMS = ["topic", "pos", "letter", "phonics", "morph"];
+    // Curated whitelist: bare prefix match would pull uncle/red/sport etc.
+    const MORPHEMES = [
+      {
+        id: "un", name: "un-", gloss: "否定", marks: ["un"], mode: "start", color: "#e07a5f",
+        words: ["unable", "unbelievable", "undress", "unemployed", "unexpected", "unfair", "unhappy", "unlucky", "unusual"]
+      },
+      {
+        id: "re", name: "re-", gloss: "再次", marks: ["re"], mode: "start", color: "#2b6cb0",
+        words: ["recall", "recover", "recycle", "recycled", "recycling", "repair", "repeat", "reply", "return", "reusable", "review"]
+      },
+      {
+        id: "port", name: "port", gloss: "运送", marks: ["port"], mode: "in", color: "#3182ce",
+        words: ["porter", "public transport", "report", "reporter", "transportation"]
+      },
+      {
+        id: "dis", name: "dis-", gloss: "否定", marks: ["dis"], mode: "start", color: "#c05621",
+        words: ["disabled", "disagree", "disappoint", "disappointed", "disappointing", "disbelief", "dislike"]
+      },
+      {
+        id: "im", name: "im-", gloss: "否定", marks: ["im", "in"], mode: "start", color: "#805ad5",
+        words: ["impossible", "independent", "inexpensive"]
+      },
+      {
+        id: "pre", name: "pre-", gloss: "预先", marks: ["pre"], mode: "start", color: "#dd6b20",
+        words: ["prepare", "preparation", "prediction"]
+      },
+      {
+        id: "trans", name: "trans-", gloss: "转移", marks: ["trans"], mode: "start", color: "#6b46c1",
+        words: ["translate", "translation", "transportation"]
+      },
+      {
+        id: "ful", name: "-ful", gloss: "充满", marks: ["ful"], mode: "end", color: "#38a169",
+        words: ["beautiful", "careful", "be careful", "cheerful", "colourful", "harmful", "helpful", "painful", "peaceful", "successful", "truthful", "useful", "wonderful"]
+      },
+      {
+        id: "less", name: "-less", gloss: "没有", marks: ["less"], mode: "end", color: "#9b6b9e",
+        words: ["careless", "meaningless", "sleeveless"]
+      },
+      {
+        id: "phon", name: "phon", gloss: "声音", marks: ["phon"], mode: "in", color: "#d53f8c",
+        words: ["phone", "telephone"]
+      },
+      {
+        id: "graph", name: "graph", gloss: "写", marks: ["graph"], mode: "in", color: "#319795",
+        words: ["photograph", "geography"]
+      },
+      {
+        id: "cycle", name: "cycle", gloss: "循环", marks: ["cycle", "cycl"], mode: "in", color: "#b7791f",
+        words: ["bicycle", "cycle", "recycle", "recycled", "recycling"]
+      },
+      {
+        id: "y", name: "-y", gloss: "…的", marks: ["y"], mode: "end", color: "#e53e3e",
+        words: [
+          "angry", "bossy", "busy", "cloudy", "crazy", "crispy", "curly", "dirty",
+          "easy", "empty", "foggy", "funny", "guilty", "happy", "healthy", "heavy",
+          "hungry", "icy", "lazy", "lively", "lonely", "lovely", "lucky", "noisy",
+          "rainy", "scary", "sleepy", "snowy", "spicy", "sunny", "tasty", "thirsty",
+          "tidy", "ugly", "unhappy", "unlucky", "windy", "yummy"
+        ]
+      },
+      {
+        id: "act", name: "act", gloss: "行动", marks: ["act"], mode: "in", color: "#2c7a7b",
+        words: ["act", "action", "action movie", "active", "activity", "actor", "actress"]
+      },
+      {
+        id: "tion", name: "-tion", gloss: "行为", marks: ["tion"], mode: "end", color: "#4c51bf",
+        words: [
+          "accommodation", "action", "application", "attention", "collection",
+          "communication", "competition", "composition", "condition", "connection",
+          "conversation", "destination", "direction", "education", "examination",
+          "exhibition", "fiction", "graduation", "immigration", "information",
+          "inspiration", "instruction", "introduction", "invention", "invitation",
+          "location", "occupation", "operation", "pollution", "population",
+          "position", "prediction", "preparation", "prescription", "pronunciation",
+          "protection", "qualification", "reception", "relation", "reservation",
+          "resolution", "satisfaction", "science fiction", "situation", "suggestion",
+          "translation", "transportation", "vacation"
+        ]
+      },
+      {
+        id: "sion", name: "-sion", gloss: "行为", marks: ["sion"], mode: "end", color: "#b83280",
+        words: [
+          "admission", "decision", "discussion", "expression",
+          "make one's own decision", "profession", "television"
+        ]
+      },
+      {
+        id: "ment", name: "-ment", gloss: "结果", marks: ["ment"], mode: "end", color: "#718096",
+        words: [
+          "achievement", "advertisement", "agreement", "amusement", "announcement",
+          "apartment", "appointment", "department", "development", "employment",
+          "environment", "equipment", "excitement", "government", "pavement",
+          "retirement", "self-improvement"
+        ]
+      },
+      {
+        id: "ness", name: "-ness", gloss: "性质", marks: ["ness"], mode: "end", color: "#d69e2e",
+        words: ["business", "fairness", "fitness", "illness", "kindness", "on business"]
+      },
+      {
+        id: "age", name: "-age", gloss: "状态", marks: ["age"], mode: "end", color: "#c53030",
+        words: [
+          "advantage", "baggage", "bandage", "cottage", "courage", "damage",
+          "garage", "language", "luggage", "message", "passage", "sausage",
+          "stage", "take a message", "text message", "village", "wage"
+        ]
+      }
+    ];
+    MORPHEMES.forEach((g) => { g.wordSet = new Set(g.words); });
+    const morphMap = Object.fromEntries(MORPHEMES.map((g) => [g.id, g]));
+    // Letter pattern + same pronunciation (IPA). Split one-spelling-many-sounds into chips.
+    const PHONICS = [
+      { id: "ough-u", pats: ["ough"], mode: "in", name: "ough", example: "through", color: "#c05621",
+        sound: [/θru/, /tru:/, /ru:/], requireIpa: true },
+      { id: "ough-o", pats: ["ough"], mode: "in", name: "ough", example: "though", color: "#dd6b20",
+        sound: [/ðəu/, /ðou/, /əu/, /əʊ/], requireIpa: true },
+      { id: "ough-of", pats: ["ough"], mode: "in", name: "ough", example: "enough", color: "#c53030",
+        sound: [/ʌf/, /ɒf/, /ɔf/, /af/], requireIpa: true },
+      { id: "ough-or", pats: ["ough"], mode: "in", name: "ough", example: "thought", color: "#9b6b9e",
+        sound: [/ɔ:t/, /ɔt/, /o:t/], requireIpa: true },
+      { id: "eigh", pats: ["eight", "weigh", "eigh"], mode: "in", name: "eigh", example: "eight", color: "#dd6b20",
+        sound: [/eɪ/, /ei/] },
+      { id: "igh", pats: ["ight", "igh"], mode: "in", name: "igh", example: "light", color: "#2b6cb0",
+        sound: [/aɪ/, /ai/] },
+      { id: "are", pats: ["are"], mode: "end", name: "are", example: "share", color: "#e07a5f",
+        sound: [/eə/, /ɛə/], denyExact: ["are"] },
+      { id: "air", pats: ["air"], mode: "end", name: "air", example: "chair", color: "#d53f8c",
+        sound: [/eə/, /ɛə/] },
+      { id: "ere-e", pats: ["ere"], mode: "end", name: "ere", example: "there", color: "#6b46c1",
+        sound: [/eə/, /ɛə/], denyExact: ["here"], requireIpa: true },
+      { id: "ere-i", pats: ["ere"], mode: "end", name: "ere", example: "here", color: "#805ad5",
+        sound: [/iə/, /ɪə/], requireIpa: true },
+      { id: "ear-i", pats: ["ear"], mode: "end", name: "ear", example: "hear", color: "#b7791f",
+        sound: [/iə/, /ɪə/], requireIpa: true },
+      { id: "ear-e", pats: ["ear"], mode: "end", name: "ear", example: "bear", color: "#dd6b20",
+        sound: [/eə/, /ɛə/], requireIpa: true },
+      { id: "ire", pats: ["ire"], mode: "end", name: "ire", example: "fire", color: "#805ad5",
+        sound: [/aɪə/, /aiə/, /aɪə/] },
+      { id: "ore", pats: ["ore"], mode: "end", name: "ore", example: "more", color: "#3182ce",
+        sound: [/ɔ:/, /ɔə/, /o:/, /ɔː/] },
+      { id: "ure", pats: ["ure"], mode: "end", name: "ure", example: "sure", color: "#319795",
+        sound: [/uə/, /ʊə/, /u:ə/] },
+      // id must not be "all" — that sentinel means「全部」in state.cat
+      { id: "all-ball", pats: ["all"], mode: "end", name: "all", example: "ball", color: "#4a5568",
+        sound: [/ɔ:l/, /ɔl/, /o:l/, /ɔːl/], denyExact: ["shall"] },
+      { id: "alk", pats: ["alk"], mode: "end", name: "alk", example: "talk", color: "#9b6b9e",
+        sound: [/ɔ:k/, /ɔk/, /o:k/, /ɔːk/] },
+      { id: "old", pats: ["old"], mode: "end", name: "old", example: "cold", color: "#2f855a",
+        sound: [/əuld/, /əʊld/, /ould/, /əul/] },
+      { id: "ind", pats: ["ind"], mode: "end", name: "ind", example: "find", color: "#38a169",
+        sound: [/aind/, /aɪnd/] },
+      { id: "ai", pats: ["ai"], mode: "in", name: "ai", example: "rain", color: "#e53e3e",
+        sound: [/eɪ/, /ei/] },
+      { id: "ay", pats: ["ay"], mode: "in", name: "ay", example: "play", color: "#c53030",
+        sound: [/eɪ/, /ei/] },
+      { id: "ee", pats: ["ee"], mode: "in", name: "ee", example: "tree", color: "#2c7a7b",
+        sound: [/i:/, /iː/] },
+      { id: "ea-ee", pats: ["ea"], mode: "in", name: "ea", example: "eat", color: "#4c51bf",
+        sound: [/i:/, /iː/], soundNone: [/eə/, /ɛə/, /eɪ/, /ei/], requireIpa: true },
+      { id: "ea-e", pats: ["ea"], mode: "in", name: "ea", example: "bread", color: "#718096",
+        sound: [/e/, /ɛ/], soundNone: [/i:/, /iː/, /eɪ/, /ei/, /eə/, /ɛə/, /ə:/, /ɜ/], requireIpa: true },
+      { id: "oa", pats: ["oa"], mode: "in", name: "oa", example: "boat", color: "#b83280",
+        sound: [/əu/, /əʊ/, /ou/] },
+      { id: "oo-long", pats: ["oo"], mode: "in", name: "oo", example: "food", color: "#2b6cb0",
+        sound: [/u:/, /uː/], requireIpa: true },
+      { id: "oo-short", pats: ["oo"], mode: "in", name: "oo", example: "book", color: "#718096",
+        sound: [/ʊ/, /u(?![:ə])/], soundNone: [/u:/, /uː/, /au/, /aʊ/, /ɔ:/, /ɔː/, /uə/, /ʊə/, /əu/, /əʊ/], requireIpa: true },
+      { id: "ou", pats: ["ou"], mode: "in", name: "ou", example: "house", color: "#d69e2e",
+        sound: [/au/, /aʊ/], requireIpa: true },
+      { id: "ow-o", pats: ["ow"], mode: "in", name: "ow", example: "snow", color: "#2b6cb0",
+        sound: [/əu/, /əʊ/, /oʊ/], requireIpa: true },
+      { id: "ow-ou", pats: ["ow"], mode: "in", name: "ow", example: "cow", color: "#c05621",
+        sound: [/au/, /aʊ/], requireIpa: true },
+      { id: "oi", pats: ["oi"], mode: "in", name: "oi", example: "coin", color: "#dd6b20",
+        sound: [/ɔɪ/, /ɔi/, /oi/] },
+      { id: "oy", pats: ["oy"], mode: "in", name: "oy", example: "boy", color: "#c05621",
+        sound: [/ɔɪ/, /ɔi/, /oi/] },
+      { id: "ar", pats: ["ar"], mode: "in", name: "ar", example: "car", color: "#805ad5",
+        sound: [/ɑ:/, /ɑː/, /a:/] },
+      { id: "or", pats: ["or"], mode: "in", name: "or", example: "for", color: "#3182ce",
+        sound: [/ɔ:/, /ɔː/, /o:/] },
+      { id: "er", pats: ["er"], mode: "in", name: "er", example: "her", color: "#319795",
+        sound: [/ə:/, /ɜ:/, /ɜː/, /ər/, /ə$/] },
+      { id: "ir", pats: ["ir"], mode: "in", name: "ir", example: "bird", color: "#d53f8c",
+        sound: [/ə:/, /ɜ:/, /ɜː/] },
+      { id: "ur", pats: ["ur"], mode: "in", name: "ur", example: "turn", color: "#b7791f",
+        sound: [/ə:/, /ɜ:/, /ɜː/] }
+    ];
+    const PHONICS_OTHER = { id: "other", name: "其他", example: "", color: "#a0aec0" };
+    const phonicsMap = Object.fromEntries(PHONICS.map((p) => [p.id, p]));
+    phonicsMap[PHONICS_OTHER.id] = PHONICS_OTHER;
     const state = {
       lib: "ket",
       pepGrade: 3,
@@ -335,7 +530,7 @@
         if (p.pepGrade) state.pepGrade = p.pepGrade;
         if (p.pepTerm) state.pepTerm = p.pepTerm;
         if (p.accent) state.accent = String(p.accent);
-        if (p.dim) state.dim = p.dim;
+        if (DIMS.includes(p.dim)) state.dim = p.dim;
         if (p.pickN >= 5 && p.pickN <= 10) state.pickN = Number(p.pickN);
       } catch (e) {}
     }
@@ -350,16 +545,100 @@
     function pepKey() {
       return state.pepGrade + "-" + state.pepTerm;
     }
+    function selKey(w) {
+      return String((w && w.w) || "").toLowerCase().trim();
+    }
+    function isSelected(w) {
+      const key = selKey(w);
+      return key ? state.selected.has(key) : false;
+    }
+    function updateSelBar() {
+      $("selCount").textContent = String(state.selected.size);
+      $("selNames").textContent = [...state.selected.values()].map((w) => w.w).join("、");
+      $("btnSheet").disabled = state.selected.size < 1;
+    }
+    let ALL_BOOK = null;
+    function buildAllBook() {
+      const ket = EBB.libs.ket;
+      const pet = EBB.libs.pet;
+      const pepList = Object.keys(EBB.pep || {}).sort((a, b) => {
+        const [ag, at] = a.split("-").map(Number);
+        const [bg, bt] = b.split("-").map(Number);
+        return (ag - bg) || (at - bt);
+      }).map((k) => EBB.pep[k]);
+      const groups = [];
+      const seenGroups = new Set();
+      const seenWords = new Map(); // key -> index in words
+      const words = [];
+      let seq = 1;
+      function addGroup(g) {
+        if (seenGroups.has(g.id)) return;
+        seenGroups.add(g.id);
+        groups.push({ id: g.id, name: g.name, color: g.color });
+      }
+      function enrich(dst, src) {
+        if (!dst.i && src.i) dst.i = src.i;
+        if (!dst.p && src.p) dst.p = src.p;
+        if (!dst.c && src.c) dst.c = src.c;
+        if (!dst.a && src.a) dst.a = src.a;
+      }
+      function ingest(book, topicMap) {
+        (book.groups || []).forEach((g) => {
+          const id = topicMap ? topicMap(g.id) : g.id;
+          addGroup({
+            id,
+            name: topicMap ? (book.short || book.name) + " · " + g.name : g.name,
+            color: g.color
+          });
+        });
+        (book.words || []).forEach((w) => {
+          const key = selKey(w);
+          if (!key) return;
+          if (seenWords.has(key)) {
+            enrich(words[seenWords.get(key)], w);
+            return;
+          }
+          seenWords.set(key, words.length);
+          words.push(Object.assign({}, w, {
+            id: seq++,
+            t: topicMap ? topicMap(w.t) : w.t
+          }));
+        });
+      }
+      ingest(ket, null);
+      ingest(pet, null);
+      pepList.forEach((b) => {
+        const prefix = b.id || b.short;
+        ingest(b, (tid) => prefix + ":" + tid);
+      });
+      return {
+        id: "all",
+        name: "全部词库",
+        short: "all",
+        kind: "mixed",
+        groups,
+        words
+      };
+    }
+    function getAllBook() {
+      if (!ALL_BOOK) ALL_BOOK = buildAllBook();
+      return ALL_BOOK;
+    }
     function currentBook() {
+      if (state.lib === "all") return getAllBook();
       if (state.lib === "pep") return EBB.pep[pepKey()] || EBB.pep["3-1"];
       return EBB.libs[state.lib] || EBB.libs.ket;
+    }
+    function topicDimLabel() {
+      if (DATA.kind === "unit") return "单元";
+      if (DATA.kind === "mixed") return "分类";
+      return "主题";
     }
     function syncBook() {
       DATA = currentBook();
       groupMap = Object.fromEntries((DATA.groups || []).map((g) => [g.id, g]));
-      const want = DATA.kind === "unit" ? "topic" : (state.dim === "topic" || state.dim === "pos" || state.dim === "letter" ? state.dim : "topic");
-      if (DATA.kind === "unit" && state.dim !== "topic" && state.dim !== "pos" && state.dim !== "letter") state.dim = "topic";
-      $("dimTopic").textContent = DATA.kind === "unit" ? "单元" : "主题";
+      if (!DIMS.includes(state.dim)) state.dim = "topic";
+      $("dimTopic").textContent = topicDimLabel();
     }
 
     function topicName(id) {
@@ -367,6 +646,136 @@
     }
     function topicColor(id) {
       return (groupMap[id] && groupMap[id].color) || "#a0aec0";
+    }
+
+    function spellTokens(w) {
+      // Use first slash alternative: "all right/alright" → "all right"
+      const raw = String((w && w.w) || "").toLowerCase().split("/")[0];
+      return raw.split(/[^a-z]+/).filter(Boolean);
+    }
+    function matchPhonicsPat(token, pat, mode) {
+      if (!token || !pat) return false;
+      if (mode === "end") return token.endsWith(pat);
+      if (pat === "eight") return token.startsWith("eight");
+      if (pat === "eigh") return /eigh(?!t)/.test(token);
+      return token.includes(pat);
+    }
+    function normalizeIpaPiece(s) {
+      return String(s || "")
+        .toLowerCase()
+        .replace(/[ˈˌ''\.⋅･·()\[\]]/g, "")
+        .replace(/є|ɛ/g, "e")
+        .replace(/ɪ/g, "i")
+        .replace(/ː/g, ":")
+        .replace(/\s+/g, "");
+    }
+    function ipaAlts(ipa) {
+      return String(ipa || "").split(/[,;]/).map((s) => normalizeIpaPiece(s.trim())).filter(Boolean);
+    }
+    function soundPass(ipa, g) {
+      const alts = ipaAlts(ipa);
+      if (!alts.length) return null; // unknown
+      const hit = (reList) => alts.some((a) => (reList || []).some((re) => re.test(a)));
+      if (g.soundNone && hit(g.soundNone)) return false;
+      if (g.sound && g.sound.length && !hit(g.sound)) return false;
+      return true;
+    }
+    function phonicsAccept(w, g, tok, pat, multi) {
+      const head = String((w && w.w) || "").toLowerCase().trim();
+      const deny = g.denyExact || [];
+      if (deny.includes(tok) || deny.includes(head)) return false;
+      const ipaOk = soundPass(w && w.i, g);
+      if (ipaOk === false) return false;
+      if (ipaOk === true) return true;
+      // No IPA
+      if (g.requireIpa) return false;
+      if (multi) return false;
+      if (g.mode === "end" || pat.length >= 3) return true;
+      return false;
+    }
+    function phonicsHit(w) {
+      const tokens = spellTokens(w);
+      if (!tokens.length) return null;
+      const multi = tokens.length > 1;
+      for (const g of PHONICS) {
+        for (const pat of g.pats) {
+          for (const tok of tokens) {
+            // skip bare "are"/"ear" inside phrases
+            if (multi && g.mode === "end" && tok === pat) continue;
+            if (!matchPhonicsPat(tok, pat, g.mode)) continue;
+            if (!phonicsAccept(w, g, tok, pat, multi)) continue;
+            return { group: g, pat, token: tok };
+          }
+        }
+      }
+      return null;
+    }
+    function phonicsId(w) {
+      const hit = phonicsHit(w);
+      return hit ? hit.group.id : PHONICS_OTHER.id;
+    }
+    function phonicsInfo(id) {
+      return phonicsMap[id] || PHONICS_OTHER;
+    }
+    function highlightPhonics(head, pat) {
+      const text = String(head || "");
+      if (!pat) return escapeHtml(text);
+      const re = new RegExp(escapeRegex(pat), "i");
+      const m = text.match(re);
+      if (!m) return escapeHtml(text);
+      const i = m.index;
+      const len = m[0].length;
+      return escapeHtml(text.slice(0, i))
+        + `<span class="ph">${escapeHtml(text.slice(i, i + len))}</span>`
+        + escapeHtml(text.slice(i + len));
+    }
+    function morphKey(w) {
+      return String((w && w.w) || "").toLowerCase().trim();
+    }
+    function morphGroupsFor(w) {
+      const key = morphKey(w);
+      if (!key) return [];
+      return MORPHEMES.filter((g) => g.wordSet.has(key));
+    }
+    function morphLabel(g) {
+      return g.name + " · " + g.gloss;
+    }
+    function morphInfo(id) {
+      return morphMap[id] || null;
+    }
+    function findMorphMark(text, marks, mode) {
+      const raw = String(text || "");
+      const lower = raw.toLowerCase();
+      for (const mark of marks || []) {
+        const m = String(mark || "").toLowerCase();
+        if (!m) continue;
+        if (mode === "start") {
+          const re = new RegExp("(^|[^a-z])(" + escapeRegex(m) + ")", "i");
+          const hit = raw.match(re);
+          if (hit) {
+            const i = hit.index + hit[1].length;
+            return { start: i, end: i + hit[2].length };
+          }
+        } else if (mode === "end") {
+          const re = new RegExp("(" + escapeRegex(m) + ")([^a-z]|$)", "i");
+          const hit = raw.match(re);
+          if (hit) {
+            return { start: hit.index, end: hit.index + hit[1].length };
+          }
+        } else {
+          const i = lower.indexOf(m);
+          if (i >= 0) return { start: i, end: i + m.length };
+        }
+      }
+      return null;
+    }
+    function highlightMorph(head, marks, mode) {
+      const text = String(head || "");
+      const hit = findMorphMark(text, marks, mode);
+      if (!hit) return escapeHtml(text);
+      return escapeHtml(text.slice(0, hit.start))
+        + `<span class="ph">${escapeHtml(text.slice(hit.start, hit.end))}</span>`
+        + escapeHtml(text.slice(hit.end));
     }
 
     function catsForDim() {
@@ -379,6 +788,46 @@
         const map = {};
         DATA.words.forEach((w) => { map[w.g] = (map[w.g] || 0) + 1; });
         return Object.keys(map).sort().map((k) => ({ id: k, name: k, color: "#2b6cb0", n: map[k] }));
+      }
+      if (state.dim === "phonics") {
+        const counts = {};
+        DATA.words.forEach((w) => {
+          const id = phonicsId(w);
+          counts[id] = (counts[id] || 0) + 1;
+        });
+        const cats = PHONICS
+          .filter((g) => counts[g.id])
+          .map((g) => ({
+            id: g.id,
+            name: g.example ? g.name + " · " + g.example : g.name,
+            color: g.color,
+            n: counts[g.id]
+          }));
+        if (counts[PHONICS_OTHER.id]) {
+          cats.push({
+            id: PHONICS_OTHER.id,
+            name: PHONICS_OTHER.name,
+            color: PHONICS_OTHER.color,
+            n: counts[PHONICS_OTHER.id]
+          });
+        }
+        return cats;
+      }
+      if (state.dim === "morph") {
+        const counts = {};
+        DATA.words.forEach((w) => {
+          morphGroupsFor(w).forEach((g) => {
+            counts[g.id] = (counts[g.id] || 0) + 1;
+          });
+        });
+        return MORPHEMES
+          .filter((g) => counts[g.id])
+          .map((g) => ({
+            id: g.id,
+            name: morphLabel(g),
+            color: g.color,
+            n: counts[g.id]
+          }));
       }
       const letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ#".split("");
       return letters.map((k) => ({
@@ -417,6 +866,8 @@
         if (state.cat === "all") return true;
         if (state.dim === "topic") return w.t === state.cat;
         if (state.dim === "pos") return w.g === state.cat;
+        if (state.dim === "phonics") return phonicsId(w) === state.cat;
+        if (state.dim === "morph") return morphGroupsFor(w).some((g) => g.id === state.cat);
         return w.l === state.cat;
       });
     }
@@ -427,7 +878,9 @@
     function dimLabel() {
       if (state.dim === "pos") return "词性";
       if (state.dim === "letter") return "字母";
-      return DATA.kind === "unit" ? "单元" : "主题";
+      if (state.dim === "phonics") return "发音";
+      if (state.dim === "morph") return "词根";
+      return topicDimLabel();
     }
     function closeChipsPanel() {
       const wrap = $("chipsWrap");
@@ -514,10 +967,11 @@
     }
     function applySelection(words) {
       state.selected.clear();
-      words.forEach((w) => state.selected.set(w.id, w));
-      $("selCount").textContent = String(state.selected.size);
-      $("selNames").textContent = [...state.selected.values()].map((w) => w.w).join("、");
-      $("btnSheet").disabled = state.selected.size < 1;
+      words.forEach((w) => {
+        const key = selKey(w);
+        if (key) state.selected.set(key, w);
+      });
+      updateSelBar();
       renderGrid();
       const first = words[0];
       requestAnimationFrame(() => {
@@ -542,15 +996,39 @@
       updateSeqHint();
       const box = $("grid");
       box.innerHTML = list.map((w) => {
-        const sel = state.selected.has(w.id) ? " sel" : "";
+        const picked = isSelected(w);
+        const sel = picked ? " sel" : "";
         const playing = state.playingId === w.id ? " playing" : "";
         const meta = [w.p ? `(${w.p})` : "", w.i ? `[ ${w.i} ]` : ""].filter(Boolean).join(" ");
-        const tag = topicName(w.t);
+        let headHtml = escapeHtml(w.w);
+        let tag = topicName(w.t);
+        let catColor = topicColor(w.t);
+        if (state.dim === "phonics") {
+          const hit = phonicsHit(w);
+          const info = hit ? hit.group : PHONICS_OTHER;
+          tag = info.name;
+          catColor = info.color;
+          if (hit) headHtml = highlightPhonics(w.w, hit.pat);
+        } else if (state.dim === "morph") {
+          const groups = morphGroupsFor(w);
+          if (state.cat !== "all") {
+            const info = morphInfo(state.cat);
+            if (info) {
+              tag = morphLabel(info);
+              catColor = info.color;
+              headHtml = highlightMorph(w.w, info.marks, info.mode);
+            }
+          } else if (groups.length) {
+            tag = groups.map(morphLabel).join(" / ");
+            catColor = groups[0].color;
+            headHtml = highlightMorph(w.w, groups[0].marks, groups[0].mode);
+          }
+        }
         const extra = [meta, tag].filter(Boolean).join(" · ");
-        return `<article class="card${sel}${playing}" data-id="${w.id}" style="--cat:${topicColor(w.t)}">
-          <div class="chk">${state.selected.has(w.id) ? "✓" : ""}</div>
+        return `<article class="card${sel}${playing}" data-id="${w.id}" style="--cat:${catColor}">
+          <div class="chk">${picked ? "✓" : ""}</div>
           <div>
-            <div class="head">${escapeHtml(w.w)}</div>
+            <div class="head">${headHtml}</div>
             <div class="meta">${escapeHtml(extra)}</div>
             <div class="cn">${escapeHtml(w.c || "（无释义）")}</div>
           </div>
@@ -590,9 +1068,7 @@
 
     function clearSelection() {
       state.selected.clear();
-      $("selCount").textContent = "0";
-      $("selNames").textContent = "";
-      $("btnSheet").disabled = true;
+      updateSelBar();
     }
 
     function pepTermsForGrade(grade) {
@@ -605,6 +1081,7 @@
 
     function renderLibbar() {
       const libs = [
+        { id: "all", name: "All" },
         { id: "ket", name: "KET" },
         { id: "pet", name: "PET" },
         { id: "pep", name: "PEP" }
@@ -648,7 +1125,7 @@
       }
       syncBook();
       state.cat = "all";
-      clearSelection();
+      state.playingId = null;
       resetSeq();
       [...$("dims").querySelectorAll("button")].forEach((b) => b.classList.toggle("on", b.dataset.dim === state.dim));
       [...$("accent").querySelectorAll("button")].forEach((b) => b.classList.toggle("on", b.dataset.accent === state.accent));
@@ -664,7 +1141,6 @@
       const btn = e.target.closest("button[data-lib]");
       if (!btn) return;
       state.lib = btn.dataset.lib;
-      state.dim = "topic";
       applyBook();
     });
     $("pepbar").addEventListener("click", (e) => {
@@ -680,18 +1156,19 @@
     });
 
     function toggleSelect(id) {
-      if (state.selected.has(id)) state.selected.delete(id);
+      const w = DATA.words.find((x) => x.id === id);
+      if (!w) return;
+      const key = selKey(w);
+      if (!key) return;
+      if (state.selected.has(key)) state.selected.delete(key);
       else {
         if (state.selected.size >= PRINT_MAX) {
           alert("最多选择 10 个单词");
           return;
         }
-        const w = DATA.words.find((x) => x.id === id);
-        if (w) state.selected.set(id, w);
+        state.selected.set(key, w);
       }
-      $("selCount").textContent = String(state.selected.size);
-      $("selNames").textContent = [...state.selected.values()].map((w) => w.w).join("、");
-      $("btnSheet").disabled = state.selected.size < 1;
+      updateSelBar();
       renderGrid();
     }
 
