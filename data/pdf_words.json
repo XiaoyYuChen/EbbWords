@@ -1,0 +1,669 @@
+{
+  "units": {
+    "三-上-u1": {
+      "grade": "三",
+      "term": "上",
+      "unit": "1",
+      "pages": [
+        1,
+        2,
+        3
+      ]
+    },
+    "四-上-u2": {
+      "grade": "四",
+      "term": "上",
+      "unit": "2",
+      "pages": [
+        4,
+        31
+      ]
+    },
+    "三-上-u2": {
+      "grade": "三",
+      "term": "上",
+      "unit": "2",
+      "pages": [
+        5,
+        7,
+        30
+      ]
+    },
+    "三-上-u3": {
+      "grade": "三",
+      "term": "上",
+      "unit": "3",
+      "pages": [
+        6
+      ]
+    },
+    "三-上-u4": {
+      "grade": "三",
+      "term": "上",
+      "unit": "4",
+      "pages": [
+        9,
+        11,
+        12,
+        60
+      ]
+    },
+    "三-上-u5": {
+      "grade": "三",
+      "term": "上",
+      "unit": "5",
+      "pages": [
+        10,
+        13,
+        14,
+        81
+      ]
+    },
+    "三-上-u6": {
+      "grade": "三",
+      "term": "上",
+      "unit": "6",
+      "pages": [
+        15,
+        16,
+        18
+      ]
+    },
+    "三-下-u1": {
+      "grade": "三",
+      "term": "下",
+      "unit": "1",
+      "pages": [
+        17,
+        19
+      ]
+    },
+    "三-下-u2": {
+      "grade": "三",
+      "term": "下",
+      "unit": "2",
+      "pages": [
+        20,
+        21
+      ]
+    },
+    "五-上-u2": {
+      "grade": "五",
+      "term": "上",
+      "unit": "2",
+      "pages": [
+        22,
+        54,
+        55
+      ]
+    },
+    "三-下-u5": {
+      "grade": "三",
+      "term": "下",
+      "unit": "5",
+      "pages": [
+        23,
+        26
+      ]
+    },
+    "三-下-u4": {
+      "grade": "三",
+      "term": "下",
+      "unit": "4",
+      "pages": [
+        24,
+        25
+      ]
+    },
+    "三-下-u6": {
+      "grade": "三",
+      "term": "下",
+      "unit": "6",
+      "pages": [
+        27
+      ]
+    },
+    "四-上-u1": {
+      "grade": "四",
+      "term": "上",
+      "unit": "1",
+      "pages": [
+        28,
+        29
+      ]
+    },
+    "四-上-u3": {
+      "grade": "四",
+      "term": "上",
+      "unit": "3",
+      "pages": [
+        32
+      ]
+    },
+    "四-上-u4": {
+      "grade": "四",
+      "term": "上",
+      "unit": "4",
+      "pages": [
+        33,
+        34
+      ]
+    },
+    "四-上-u5": {
+      "grade": "四",
+      "term": "上",
+      "unit": "5",
+      "pages": [
+        35,
+        36
+      ]
+    },
+    "四-上-u6": {
+      "grade": "四",
+      "term": "上",
+      "unit": "6",
+      "pages": [
+        37,
+        38
+      ]
+    },
+    "四-下-u1": {
+      "grade": "四",
+      "term": "下",
+      "unit": "1",
+      "pages": [
+        39,
+        41
+      ]
+    },
+    "四-下-u2": {
+      "grade": "四",
+      "term": "下",
+      "unit": "2",
+      "pages": [
+        43
+      ]
+    },
+    "四-下-u3": {
+      "grade": "四",
+      "term": "下",
+      "unit": "3",
+      "pages": [
+        44,
+        45
+      ]
+    },
+    "四-下-u4": {
+      "grade": "四",
+      "term": "下",
+      "unit": "4",
+      "pages": [
+        46,
+        47
+      ]
+    },
+    "四-下-u5": {
+      "grade": "四",
+      "term": "下",
+      "unit": "5",
+      "pages": [
+        48,
+        49
+      ]
+    },
+    "四-下-u6": {
+      "grade": "四",
+      "term": "下",
+      "unit": "6",
+      "pages": [
+        50,
+        51
+      ]
+    },
+    "五-上-u1": {
+      "grade": "五",
+      "term": "上",
+      "unit": "1",
+      "pages": [
+        52,
+        53
+      ]
+    },
+    "五-上-u3": {
+      "grade": "五",
+      "term": "上",
+      "unit": "3",
+      "pages": [
+        56,
+        57
+      ]
+    },
+    "五-上-u4": {
+      "grade": "五",
+      "term": "上",
+      "unit": "4",
+      "pages": [
+        58,
+        59,
+        61
+      ]
+    },
+    "五-上-u5": {
+      "grade": "五",
+      "term": "上",
+      "unit": "5",
+      "pages": [
+        62,
+        63,
+        64
+      ]
+    },
+    "五-上-u6": {
+      "grade": "五",
+      "term": "上",
+      "unit": "6",
+      "pages": [
+        65,
+        66
+      ]
+    },
+    "五-下-u1": {
+      "grade": "五",
+      "term": "下",
+      "unit": "1",
+      "pages": [
+        67,
+        68,
+        69,
+        71
+      ]
+    },
+    "五-下-u2": {
+      "grade": "五",
+      "term": "下",
+      "unit": "2",
+      "pages": [
+        70,
+        72,
+        73
+      ]
+    },
+    "五-下-u3": {
+      "grade": "五",
+      "term": "下",
+      "unit": "3",
+      "pages": [
+        75,
+        76
+      ]
+    },
+    "五-下-u4": {
+      "grade": "五",
+      "term": "下",
+      "unit": "4",
+      "pages": [
+        77
+      ]
+    },
+    "五-下-u5": {
+      "grade": "五",
+      "term": "下",
+      "unit": "5",
+      "pages": [
+        79,
+        80
+      ]
+    },
+    "五-下-u6": {
+      "grade": "五",
+      "term": "下",
+      "unit": "6",
+      "pages": [
+        82,
+        83,
+        84
+      ]
+    },
+    "六-上-u1": {
+      "grade": "六",
+      "term": "上",
+      "unit": "1",
+      "pages": [
+        85,
+        86,
+        87
+      ]
+    },
+    "六-上-u2": {
+      "grade": "六",
+      "term": "上",
+      "unit": "2",
+      "pages": [
+        88,
+        90,
+        91
+      ]
+    },
+    "六-上-u6": {
+      "grade": "六",
+      "term": "上",
+      "unit": "6",
+      "pages": [
+        89,
+        100,
+        101
+      ]
+    },
+    "六-上-u3": {
+      "grade": "六",
+      "term": "上",
+      "unit": "3",
+      "pages": [
+        92,
+        93,
+        94
+      ]
+    },
+    "六-上-u41": {
+      "grade": "六",
+      "term": "上",
+      "unit": "41",
+      "pages": [
+        95
+      ]
+    },
+    "六-上-u4": {
+      "grade": "六",
+      "term": "上",
+      "unit": "4",
+      "pages": [
+        96
+      ]
+    },
+    "六-上-u5": {
+      "grade": "六",
+      "term": "上",
+      "unit": "5",
+      "pages": [
+        97,
+        98,
+        99
+      ]
+    }
+  },
+  "all_words": [
+    "a       uncle",
+    "above",
+    "afraid",
+    "anything",
+    "autumn",
+    "bad",
+    "bag",
+    "because",
+    "beef",
+    "behind",
+    "businessman",
+    "busy",
+    "but",
+    "cave",
+    "cheap",
+    "ciass",
+    "clock",
+    "club",
+    "cooking",
+    "cute",
+    "dad",
+    "dancing",
+    "diary",
+    "dink",
+    "dinner",
+    "dollar",
+    "draw",
+    "duck",
+    "eating",
+    "else",
+    "expensive",
+    "eye",
+    "fan",
+    "farm",
+    "farmer",
+    "fisherman",
+    "forest",
+    "forty",
+    "friend",
+    "grandma",
+    "grandpa",
+    "hat",
+    "hen",
+    "house",
+    "hurt",
+    "interesting",
+    "kind",
+    "learn",
+    "library",
+    "map",
+    "meet",
+    "mice",
+    "mooncake",
+    "munich",
+    "next",
+    "nice",
+    "nurse",
+    "of",
+    "old",
+    "parents",
+    "park",
+    "pen",
+    "pet",
+    "piece",
+    "plant",
+    "playing",
+    "pretty",
+    "red",
+    "rice",
+    "river",
+    "saturday",
+    "season",
+    "sed",
+    "send",
+    "shirt",
+    "show",
+    "sister",
+    "small",
+    "sock",
+    "speak",
+    "spring",
+    "studies",
+    "subway",
+    "summer",
+    "sushi",
+    "swim",
+    "sydney",
+    "them",
+    "tired",
+    "tree",
+    "trip",
+    "under",
+    "walk",
+    "wall",
+    "worried"
+  ],
+  "words_by_unit": {
+    "三-上-u1": [
+      "nice",
+      "eye",
+      "bag",
+      "pen"
+    ],
+    "四-上-u2": [],
+    "三-上-u2": [
+      "small",
+      "grandma",
+      "pet"
+    ],
+    "三-上-u3": [],
+    "三-上-u4": [
+      "plant",
+      "duck"
+    ],
+    "三-上-u5": [
+      "cute",
+      "red",
+      "DINK",
+      "Sed",
+      "draw",
+      "rice"
+    ],
+    "三-上-u6": [
+      "Old",
+      "piece"
+    ],
+    "三-下-u1": [
+      "friend"
+    ],
+    "三-下-u2": [
+      "dad",
+      "sister",
+      "grandpa",
+      "grandma"
+    ],
+    "五-上-u2": [
+      "cooking",
+      "tired",
+      "park",
+      "Saturday"
+    ],
+    "三-下-u5": [],
+    "三-下-u4": [
+      "Under",
+      "map"
+    ],
+    "三-下-u6": [],
+    "四-上-u1": [
+      "fan",
+      "wall"
+    ],
+    "四-上-u3": [
+      "hat",
+      "OF"
+    ],
+    "四-上-u4": [
+      "them"
+    ],
+    "四-上-u5": [
+      "beef",
+      "dinner"
+    ],
+    "四-上-u6": [
+      "parents",
+      "a       uncle",
+      "nurse",
+      "farmer",
+      "but"
+    ],
+    "四-下-u1": [
+      "library",
+      "eye",
+      "forty",
+      "CIASS"
+    ],
+    "四-下-u2": [],
+    "四-下-u3": [
+      "sydney"
+    ],
+    "四-下-u4": [
+      "hen",
+      "farm"
+    ],
+    "四-下-u5": [
+      "SOCK",
+      "shirt"
+    ],
+    "四-下-u6": [
+      "pretty",
+      "cheap",
+      "expensive",
+      "dollar"
+    ],
+    "五-上-u1": [
+      "old",
+      "kind",
+      "speak"
+    ],
+    "五-上-u3": [],
+    "五-上-u4": [
+      "SWIM",
+      "next",
+      "learn",
+      "Send"
+    ],
+    "五-上-u5": [
+      "clock",
+      "above",
+      "behind"
+    ],
+    "五-上-u6": [
+      "forest",
+      "river",
+      "tree",
+      "house"
+    ],
+    "五-下-u1": [
+      "dancing",
+      "busy",
+      "cave"
+    ],
+    "五-下-u2": [
+      "Spring",
+      "autumn",
+      "Summer",
+      "season",
+      "because"
+    ],
+    "五-下-u3": [
+      "meet",
+      "trip"
+    ],
+    "五-下-u4": [
+      "diary",
+      "walk"
+    ],
+    "五-下-u5": [
+      "eating",
+      "playing"
+    ],
+    "五-下-u6": [
+      "Show",
+      "anything",
+      "else",
+      "sushi"
+    ],
+    "六-上-u1": [
+      "Interesting"
+    ],
+    "六-上-u2": [
+      "subway",
+      "Munich"
+    ],
+    "六-上-u6": [
+      "afraid",
+      "worried",
+      "mice",
+      "bad",
+      "hurt"
+    ],
+    "六-上-u3": [
+      "mooncake"
+    ],
+    "六-上-u41": [
+      "studies"
+    ],
+    "六-上-u4": [
+      "Club"
+    ],
+    "六-上-u5": [
+      "businessman",
+      "fisherman"
+    ]
+  }
+}

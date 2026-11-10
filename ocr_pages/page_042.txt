@@ -1,0 +1,56 @@
+breakfast
+(4) Se. 早饭
+
+What's for breakfast?
+
+1
+1
+1
+1
+1
+1
+1
+I
+1
+1
+7
+
+~
+
+What would you like 三
+for lunch?              *...... Do you like English class?
+午餐你想吃什么?               你喜欢英语课吗?
+
+I'd like some noodles
+for dinner.
+晚饭我想吃些面条。
+
+dinner
+(名) (中午或晚上吃的)正餐
+
+Lf
+1
+1
+1
+1
+1
+1
+!
+1
+1
+1
+1
+1
+1
+1
+\
+
+a
+
+It's time for music class. <
+该上音乐课了。
+
+PE class 体育课
+
+扫码听读
+

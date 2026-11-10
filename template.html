@@ -20,6 +20,7 @@
       --font: "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif;
     }
     * { box-sizing: border-box; }
+    [hidden] { display: none !important; }
     html, body { margin: 0; min-height: 100%; }
     body {
       font-family: var(--font);
@@ -122,6 +123,11 @@
       .sel-info span { display: none; }
       .seq-hint { display: none; }
       button.btn { height: 36px; padding: 0 12px; font-size: 13px; }
+      .mybar-actions { margin-left: 0; flex: 0 0 auto; }
+      .single-card { padding: 16px 14px; }
+      .quiz-word { font-size: 28px; }
+      .quiz-opt { font-size: 14px; padding: 11px 12px; }
+      .plan-row .pm { font-size: 11px; }
     }
     .chip {
       flex: 0 0 auto; border: 1px solid var(--line); background: var(--paper);
@@ -163,6 +169,32 @@
     }
     .play:hover, .play.on { background: #feebc8; }
     .play svg { width: 16px; height: 16px; }
+    .card .head { cursor: pointer; }
+    .card .head:hover { color: var(--accent-2); }
+    .wpanel { max-width: 560px; }
+    .wsec { margin-top: 14px; font-size: 12px; color: var(--muted); letter-spacing: .12em; }
+    .wsec:first-child { margin-top: 0; }
+    .pword-line { margin-top: 6px; }
+    .pword { font-size: 32px; font-weight: 800; line-height: 1.35; word-break: break-all; }
+    .pword .ch.hl { color: var(--accent); }
+    .pword .sep { color: #d3c3ab; font-weight: 400; }
+    .pword .sp { color: var(--ink); }
+    .wsyl { margin-top: 8px; font-size: 20px; font-weight: 700; line-height: 1.4; word-break: break-all; }
+    .wsyl .sep { color: #d3c3ab; font-weight: 400; }
+    .wsyl .syl { color: var(--accent-2); }
+    .wsyl-lab { margin-right: 8px; font-size: 12px; font-weight: 600; color: var(--muted); letter-spacing: .08em; }
+    .wmeta { margin-top: 8px; font-size: 13px; color: #718096; }
+    .wcn { margin-top: 8px; font-size: 15px; color: #374151; }
+    .wsent-line { margin-top: 6px; }
+    .wsent { font-size: 17px; line-height: 1.5; }
+    .wsent b { color: var(--accent-2); }
+    .wsent-cn { margin-top: 4px; font-size: 14px; color: #6b7280; }
+    .sent-play { display: inline-flex; vertical-align: middle; margin-left: 8px; background: none; border: 1px solid var(--line); border-radius: 4px; padding: 2px 4px; cursor: pointer; color: var(--muted); }
+    .sent-play svg { width: 14px; height: 14px; }
+    .sent-play:hover { color: var(--accent); border-color: var(--accent); background: #feebc8; }
+    .word-play { padding: 4px 6px; }
+    .word-play svg { width: 20px; height: 20px; }
+    .wbtns { margin-top: 18px; display: flex; gap: 8px; flex-wrap: wrap; }
     .empty { text-align: center; color: var(--muted); padding: 60px 20px; }
     .dock {
       position: fixed; left: 0; right: 0; bottom: 0; z-index: 50;
@@ -206,6 +238,64 @@
       width: 100%; background: #f7f7f7; border: 1px solid var(--line); border-radius: 8px;
     }
     #sheetCanvas { display: none; }
+    /* ---- 我的词库 ---- */
+    .mybar-actions { margin-left: auto; display: flex; gap: 8px; flex-wrap: wrap; }
+    .btn.sm { height: 32px; padding: 0 12px; font-size: 12px; }
+    .mylib-hint { flex: 1 1 100%; margin: 4px 0 0; font-size: 12px; color: var(--muted); }
+    .acts { display: flex; flex-direction: column; gap: 6px; }
+    .mark {
+      width: 36px; height: 36px; border: 0; border-radius: 50%;
+      background: #e6f4ea; color: var(--ok); cursor: pointer; font-size: 16px; font-weight: 700;
+    }
+    .mark:hover { background: #c6f6d5; }
+    .grid.single-mode { display: block; }
+    .single { padding: 8px 0 24px; }
+    .single-card {
+      background: var(--paper); border-radius: var(--radius); box-shadow: var(--shadow);
+      padding: 22px 24px; max-width: 760px; margin: 0 auto; border: 1px solid transparent;
+    }
+    .single-top { display: flex; align-items: center; justify-content: space-between; gap: 10px; font-size: 13px; color: var(--muted); }
+    .single-status { border-radius: 999px; padding: 3px 10px; font-size: 12px; font-weight: 600; }
+    .single-status.unmastered { background: #ebf8ff; color: #2b6cb0; }
+    .single-status.mastered { background: #e6f4ea; color: var(--ok); }
+    .single-status.wrong { background: #fff5f5; color: #c53030; }
+    .single-nav { display: flex; justify-content: space-between; gap: 10px; margin-top: 20px; }
+    .toast {
+      position: fixed; left: 50%; bottom: calc(var(--dock-h) + 24px); transform: translateX(-50%) translateY(10px);
+      background: rgba(31,41,51,.94); color: #fff; border-radius: 999px; padding: 10px 18px; font-size: 13px;
+      z-index: 120; opacity: 0; pointer-events: none; transition: opacity .2s ease, transform .2s ease;
+      max-width: 86vw; text-align: center;
+    }
+    .toast.show { opacity: 1; transform: translateX(-50%) translateY(0); }
+    .plan-head { display: flex; flex-wrap: wrap; gap: 8px 14px; align-items: center; font-size: 13px; color: var(--muted); margin-bottom: 12px; }
+    .plan-row {
+      display: grid; grid-template-columns: 1fr auto auto; gap: 8px; align-items: center;
+      padding: 10px 0; border-bottom: 1px dashed var(--line);
+    }
+    .plan-row .pw { font-size: 16px; font-weight: 700; }
+    .plan-row .pm { font-size: 12px; color: var(--muted); margin-top: 2px; }
+    .plan-row.done { opacity: .55; }
+    .plan-btns { display: flex; gap: 6px; }
+    .plan-actions { margin-top: 14px; display: flex; gap: 8px; flex-wrap: wrap; }
+    .plan-empty { color: var(--muted); padding: 24px 0; text-align: center; }
+    .quiz-top { display: flex; align-items: center; justify-content: space-between; font-size: 13px; color: var(--muted); }
+    .quiz-word { margin: 18px 0 4px; font-size: 34px; font-weight: 800; text-align: center; word-break: break-all; }
+    .quiz-word .ch.hl { color: var(--accent); }
+    .quiz-word .sep { color: #d3c3ab; font-weight: 400; }
+    .quiz-meta { text-align: center; font-size: 13px; color: var(--muted); }
+    .quiz-opts { display: grid; gap: 10px; margin-top: 18px; }
+    .quiz-opt {
+      width: 100%; text-align: left; border: 1px solid var(--line); background: var(--paper);
+      border-radius: 12px; padding: 12px 14px; font-size: 15px; cursor: pointer; color: var(--ink);
+    }
+    .quiz-opt:hover { border-color: var(--accent-2); }
+    .quiz-opt.ok { border-color: var(--ok); background: #e6f4ea; color: #22543d; font-weight: 700; }
+    .quiz-opt.bad { border-color: #c53030; background: #fff5f5; color: #822727; }
+    .quiz-opt:disabled { cursor: default; }
+    .quiz-progress { margin-top: 14px; height: 6px; border-radius: 999px; background: #efe7da; overflow: hidden; }
+    .quiz-progress i { display: block; height: 100%; background: var(--accent-2); border-radius: 999px; }
+    .quiz-result { text-align: center; padding: 28px 0 8px; }
+    .quiz-result .big { font-size: 40px; font-weight: 800; color: var(--accent-2); }
     @media print {
       body * { visibility: hidden; }
       #printImg, #printImg * { visibility: visible; }
@@ -226,6 +316,7 @@
       </div>
       <div class="libbar" id="libbar"></div>
       <div class="pepbar" id="pepbar" hidden></div>
+      <div class="pepbar" id="mybar" hidden></div>
       <div class="toolbar">
         <input class="search" id="q" placeholder="搜索：apple、a*、t_n、*的　*任意　_单字" />
         <div class="toolbar-filters">
@@ -242,7 +333,7 @@
           </div>
         </div>
       </div>
-      <p class="hint">搜索支持 *（任意字符）和 _（单个字符）。All 汇总全部词库。可用「发音」按 are / igh / ere 等自然拼读音组归类；可用「词根」按 un- 否定、re- 再次、port 运送等归类。KET / PET 按主题筛选，PEP 按 Unit 单元筛选。切换词库时已选单词会保留。点喇叭听发音；可在当前主题里顺序选或随机选 5–10 个单词后生成默写纸。</p>
+      <p class="hint">搜索支持 *（任意字符）和 _（单个字符）。All 汇总全部词库。可用「发音」按 are / igh / ere 等自然拼读音组归类；可用「词根」按 un- 否定、re- 再次、port 运送等归类。KET / PET 按主题筛选，PEP 按 Unit 单元筛选。切换词库时已选单词会保留。点喇叭听发音；点击单词可查看自然拼读和例句；可在当前主题里顺序选或随机选 5–10 个单词后生成默写纸。</p>
       <div class="chips-wrap" id="chipsWrap">
         <button type="button" class="chips-toggle" id="chipsToggle" aria-expanded="false">
           <span class="lab" id="chipsToggleLab">主题</span>
@@ -277,8 +368,11 @@
         <span class="seq-hint" id="seqHint"></span>
       </div>
       <div class="dock-actions">
-        <div class="sel-info">已选 <b id="selCount">0</b> / 10 <span id="selNames" style="color:#718096;font-size:12px"></span></div>
+        <div class="sel-info">已选 <b id="selCount">0</b> <span id="selHint" style="color:#718096;font-size:12px"></span><span id="selNames" style="color:#718096;font-size:12px"></span></div>
         <div class="btns">
+          <button class="btn primary" id="btnAddLib" disabled hidden>加入我的词库</button>
+          <button class="btn ghost" id="btnMyMaster" disabled hidden>移入已掌握</button>
+          <button class="btn ghost" id="btnMyRemove" disabled hidden>移出词库</button>
           <button class="btn ghost" id="btnClear">清空</button>
           <button class="btn ghost" id="btnBlank">空白模板</button>
           <button class="btn primary" id="btnSheet" disabled>生成默写纸</button>
@@ -299,6 +393,43 @@
       <img id="sheetPreview" alt="默写纸预览" />
     </div>
   </div>
+
+  <div class="modal" id="wmodal">
+    <div class="panel wpanel">
+      <div class="wsec">拼读字母组</div>
+      <div class="pword-line">
+        <span class="pword" id="wTitle"></span><button class="sent-play word-play" id="wPlay" title="播放发音"><svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20"><path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3a4.5 4.5 0 0 0-2.5-4v8a4.5 4.5 0 0 0 2.5-4zM14 3.2v2.1a7.5 7.5 0 0 1 0 13.4v2.1a9.5 9.5 0 0 0 0-17.6z"/></svg></button>
+      </div>
+      <div class="wsyl" id="wSyl"></div>
+      <div class="wmeta" id="wMeta"></div>
+      <div class="wcn" id="wCn"></div>
+      <div class="wsec">例句</div>
+      <div class="wsent-line">
+        <span class="wsent" id="wSentEn"></span><button class="sent-play" id="wSentPlay" title="播放例句"><svg viewBox="0 0 24 24" fill="currentColor" width="14" height="14"><path d="M8 5v14l11-7z"/></svg></button>
+      </div>
+      <div class="wsent-cn" id="wSentCn"></div>
+      <div class="wbtns">
+        <button class="btn ghost" id="wClose">关闭</button>
+      </div>
+    </div>
+  </div>
+  <div class="modal" id="planModal">
+    <div class="panel">
+      <h2>学习计划</h2>
+      <div id="planBody"></div>
+      <div class="plan-actions"><button class="btn ghost" id="btnPlanClose">关闭</button></div>
+    </div>
+  </div>
+
+  <div class="modal" id="quizModal">
+    <div class="panel">
+      <div class="quiz-top"><h2 style="margin:0">自测</h2><button class="btn ghost sm" id="btnQuizClose">关闭</button></div>
+      <div id="quizBody"></div>
+    </div>
+  </div>
+
+  <div class="toast" id="toast"></div>
+  <input type="file" id="myImportInput" accept="application/json,.json" hidden />
   <canvas id="sheetCanvas" width="1754" height="1240"></canvas>
   <img id="printImg" alt="" style="display:none" />
 
@@ -310,6 +441,8 @@
     const PRINT_MAX = 10;
     const DAYS = [30, 15, 7, 4, 2, 1];
     const LS = "ebbwords.v1";
+    const MYLIB_LS = "ebbwords.mylib.v1";
+    const MY_PICK_MAX = 300;
     const DIMS = ["topic", "pos", "letter", "phonics", "morph"];
     // Curated whitelist: bare prefix match would pull uncle/red/sport etc.
     const MORPHEMES = [
@@ -513,7 +646,11 @@
       playingId: null,
       accent: "1",
       pickN: 10,
-      seqOffset: 0
+      seqOffset: 0,
+      myStatus: "unmastered",
+      browseMode: "list",
+      planDaily: 5,
+      browseIdx: 0
     };
     let audioEl = null;
     let DATA = EBB.libs.ket;
@@ -532,13 +669,17 @@
         if (p.accent) state.accent = String(p.accent);
         if (DIMS.includes(p.dim)) state.dim = p.dim;
         if (p.pickN >= 5 && p.pickN <= 10) state.pickN = Number(p.pickN);
+        if (["unmastered", "mastered", "wrong"].includes(p.myStatus)) state.myStatus = p.myStatus;
+        if (p.browseMode === "card" || p.browseMode === "list") state.browseMode = p.browseMode;
+        if (p.planDaily >= 3 && p.planDaily <= 10) state.planDaily = Number(p.planDaily);
       } catch (e) {}
     }
     function savePref() {
       try {
         localStorage.setItem(LS, JSON.stringify({
           lib: state.lib, pepGrade: state.pepGrade, pepTerm: state.pepTerm,
-          accent: state.accent, dim: state.dim, pickN: state.pickN
+          accent: state.accent, dim: state.dim, pickN: state.pickN,
+          myStatus: state.myStatus, browseMode: state.browseMode, planDaily: state.planDaily
         }));
       } catch (e) {}
     }
@@ -553,9 +694,144 @@
       return key ? state.selected.has(key) : false;
     }
     function updateSelBar() {
-      $("selCount").textContent = String(state.selected.size);
+      const n = state.selected.size;
+      $("selCount").textContent = String(n);
       $("selNames").textContent = [...state.selected.values()].map((w) => w.w).join("、");
-      $("btnSheet").disabled = state.selected.size < 1;
+      $("selHint").textContent = n > PRINT_MAX ? `（默写纸取前 ${PRINT_MAX} 个） ` : "";
+      $("btnSheet").disabled = n < 1;
+      syncDockActions();
+    }
+
+    /* ---- 我的词库：本地数据 ---- */
+    const MY_STATUS = { unmastered: "未掌握", mastered: "已掌握", wrong: "错题库" };
+    let MYLIB = { version: 1, words: {}, plan: null };
+    let toastTimer = 0;
+
+    function toast(msg) {
+      const el = $("toast");
+      if (!el) return;
+      el.textContent = msg;
+      el.classList.add("show");
+      clearTimeout(toastTimer);
+      toastTimer = setTimeout(() => el.classList.remove("show"), 1800);
+    }
+
+    function loadMyLib() {
+      try {
+        const raw = localStorage.getItem(MYLIB_LS);
+        if (!raw) return;
+        const p = JSON.parse(raw);
+        if (!p || typeof p !== "object") return;
+        const words = (p.words && typeof p.words === "object") ? p.words : {};
+        Object.keys(words).forEach((k) => {
+          const r = words[k];
+          if (!r || typeof r !== "object" || !r.w) { delete words[k]; return; }
+          r.k = r.k || k;
+          r.status = MY_STATUS[r.status] ? r.status : "unmastered";
+          r.addedAt = Number(r.addedAt) || Date.now();
+          r.updatedAt = Number(r.updatedAt) || r.addedAt;
+          r.streak = Number(r.streak) || 0;
+          r.wrongCount = Number(r.wrongCount) || 0;
+        });
+        MYLIB.words = words;
+        MYLIB.plan = normalizePlan(p.plan);
+      } catch (e) {}
+    }
+
+    function normalizePlan(plan) {
+      if (!plan || !Array.isArray(plan.days)) return null;
+      const days = plan.days.filter((d) => d && Array.isArray(d.keys)).map((d) => ({
+        keys: d.keys.filter((k) => typeof k === "string"),
+        done: Array.isArray(d.done) ? d.done.filter((k) => typeof k === "string") : []
+      }));
+      return {
+        daily: Math.max(3, Math.min(10, Number(plan.daily) || 5)),
+        days,
+        cursor: Math.max(0, Number(plan.cursor) || 0),
+        createdAt: Number(plan.createdAt) || Date.now()
+      };
+    }
+
+    function saveMyLib() {
+      try {
+        localStorage.setItem(MYLIB_LS, JSON.stringify(MYLIB));
+      } catch (e) {
+        toast("本地存储写入失败，请先导出备份");
+      }
+    }
+
+    function myKey(w) {
+      return selKey(w);
+    }
+
+    function snapshotWord(w) {
+      const key = myKey(w);
+      const now = Date.now();
+      return {
+        k: key,
+        w: String(w.w || "").trim(),
+        p: w.p || "", i: w.i || "", c: w.c || "", a: w.a || "",
+        t: w.t || "", g: w.g || "", l: w.l || "",
+        e: w.e || "", z: w.z || "",
+        tn: topicName(w.t), tc: topicColor(w.t),
+        status: "unmastered", addedAt: now, updatedAt: now,
+        streak: 0, wrongCount: 0
+      };
+    }
+
+    function myRecords(status) {
+      const list = Object.values(MYLIB.words);
+      const arr = status ? list.filter((r) => r.status === status) : list.slice();
+      arr.sort((a, b) => (status === "unmastered" ? a.addedAt - b.addedAt : b.updatedAt - a.updatedAt));
+      return arr;
+    }
+
+    function myCounts() {
+      const c = { unmastered: 0, mastered: 0, wrong: 0 };
+      Object.values(MYLIB.words).forEach((r) => { if (c[r.status] !== undefined) c[r.status] += 1; });
+      return c;
+    }
+
+    function addToMyLib(words, status) {
+      const st = MY_STATUS[status] ? status : "unmastered";
+      let added = 0;
+      let updated = 0;
+      (words || []).forEach((w) => {
+        const key = myKey(w);
+        if (!key) return;
+        const cur = MYLIB.words[key];
+        if (cur) {
+          let changed = false;
+          ["w", "p", "i", "c", "a", "t", "g", "l", "e", "z"].forEach((f) => {
+            if (!cur[f] && w[f]) { cur[f] = w[f]; changed = true; }
+          });
+          if (!cur.tn) { cur.tn = topicName(cur.t); cur.tc = topicColor(cur.t); changed = true; }
+          if (cur.status !== st) { cur.status = st; changed = true; }
+          if (changed) cur.updatedAt = Date.now();
+          updated += 1;
+          return;
+        }
+        MYLIB.words[key] = snapshotWord(w);
+        MYLIB.words[key].status = st;
+        added += 1;
+      });
+      saveMyLib();
+      return { added, updated };
+    }
+
+    function setMyStatus(key, status) {
+      const rec = MYLIB.words[key];
+      if (!rec) return false;
+      rec.status = status;
+      rec.updatedAt = Date.now();
+      if (status === "mastered") rec.streak = 0;
+      saveMyLib();
+      return true;
+    }
+
+    function removeMyWords(keys) {
+      (keys || []).forEach((k) => { delete MYLIB.words[k]; });
+      saveMyLib();
     }
     let ALL_BOOK = null;
     function buildAllBook() {
@@ -624,7 +900,21 @@
       if (!ALL_BOOK) ALL_BOOK = buildAllBook();
       return ALL_BOOK;
     }
+    function myBook() {
+      const records = myRecords(state.myStatus);
+      const groups = [];
+      const seen = new Set();
+      const words = records.map((r, i) => {
+        if (r.t && !seen.has(r.t)) {
+          seen.add(r.t);
+          groups.push({ id: r.t, name: r.tn || r.t, color: r.tc || "#a0aec0" });
+        }
+        return Object.assign({}, r, { id: i + 1 });
+      });
+      return { id: "my", name: "我的词库", short: "my", kind: "my", groups, words };
+    }
     function currentBook() {
+      if (state.lib === "my") return myBook();
       if (state.lib === "all") return getAllBook();
       if (state.lib === "pep") return EBB.pep[pepKey()] || EBB.pep["3-1"];
       return EBB.libs[state.lib] || EBB.libs.ket;
@@ -729,6 +1019,372 @@
         + `<span class="ph">${escapeHtml(text.slice(i, i + len))}</span>`
         + escapeHtml(text.slice(i + len));
     }
+    /* ---- 自然拼读：字母组拆分（phonics-app）+ 音节拆分（phonics-splitter 动物规则） ---- */
+    const VOWEL_TEAMS = ["eigh", "igh", "eau", "ai", "ay", "ee", "ea", "oa", "ow", "oi", "oy", "ou", "au", "aw", "oo", "ie", "ei", "ue", "ew", "ey", "ui"];
+    const R_CONTROLLED = ["ar", "er", "ir", "or", "ur"];
+    const CONSONANT_DIGRAPHS = ["tch", "dge", "sh", "ch", "th", "wh", "ph", "ck", "ng", "nk", "qu", "wr", "kn", "mb", "gn", "gh"];
+    const DOUBLE_CONSONANTS = ["ll", "ss", "ff", "zz", "dd", "tt", "pp", "nn", "mm", "bb", "gg", "cc", "rr"];
+    const COMMON_ENDINGS = ["tion", "sion", "ture", "le", "al", "el", "il", "ol", "ul", "ing", "ang", "ong", "ung", "ink", "ank", "onk", "unk", "ed", "es"];
+    const BLENDS = ["thr", "str", "spl", "spr", "scr", "bl", "cl", "fl", "gl", "pl", "sl", "br", "cr", "dr", "fr", "gr", "pr", "tr", "sc", "sk", "sm", "sn", "sp", "st", "sw"];
+    const END_ONLY = new Set(["le", "al", "el", "il", "ol", "ul", "ing", "ang", "ong", "ung", "ink", "ank", "onk", "unk", "ed", "es"]);
+    const UNITS = [...new Set([...VOWEL_TEAMS, ...R_CONTROLLED, ...CONSONANT_DIGRAPHS, ...DOUBLE_CONSONANTS, ...COMMON_ENDINGS, ...BLENDS])]
+      .sort((a, b) => b.length - a.length);
+
+    function breakdown(word) {
+      const w = String(word || "").toLowerCase();
+      const out = [];
+      let i = 0;
+      while (i < w.length) {
+        let hit = null;
+        // 词尾 ending 优先（le / ing / tion 等），避免被 blend 抢先
+        for (const u of COMMON_ENDINGS) {
+          if (END_ONLY.has(u) && w.startsWith(u, i) && i + u.length === w.length) { hit = u; break; }
+        }
+        if (!hit) {
+          // 下一位置就是词尾 ending（如 table 的 b+le），当前字母单独切
+          const tailEnd = COMMON_ENDINGS.some((u) => END_ONLY.has(u) && w.startsWith(u, i + 1) && i + 1 + u.length === w.length);
+          if (!tailEnd) for (const u of UNITS) {
+            if (w.startsWith(u, i)) {
+              if (END_ONLY.has(u)) continue;
+              if ((u === "ed" || u === "es") && /[aeiou]$/.test(w.slice(0, w.length - u.length))) continue;
+              hit = u; break;
+            }
+          }
+        }
+        if (!hit) hit = w[i];
+        out.push(hit);
+        i += hit.length;
+      }
+      return out;
+    }
+
+    const NUC_TEAMS = ["eigh", "igh", "eau", "ai", "ay", "ee", "ea", "oa", "ow", "oi", "oy", "ou", "au", "aw", "oo", "ie", "ei", "ue", "ew", "ey", "ui"];
+    const NUC_R = ["wor", "ar", "er", "ir", "or", "ur"];
+    const IE_SPLIT = new Set(["quiet", "diet", "client", "science", "society", "alien", "patient", "anxiety", "audience", "experience", "convenient"]);
+    const KEEP_E = new Set(["be", "he", "me", "she", "we", "the", "maybe", "recipe", "simile", "acne", "catastrophe", "apostrophe"]);
+
+    function findNuclei(s) {
+      const out = [];
+      let i = 0;
+      while (i < s.length) {
+        if (s.startsWith("qu", i)) { i += 2; continue; }
+        if (s[i] === "g" && s[i + 1] === "u" && /[aeiouy]/.test(s[i + 2] || "")) { i += 2; continue; }
+        if (s.startsWith("tion", i) || s.startsWith("sion", i) || s.startsWith("ture", i)) {
+          out.push({ start: i, end: i + 4, text: s.substr(i, 4) });
+          i += 4; continue;
+        }
+        let hit = null;
+        for (const t of NUC_TEAMS) {
+          if (s.startsWith(t, i) && !(t === "ie" && IE_SPLIT.has(s))) { hit = t; break; }
+        }
+        if (!hit) for (const t of NUC_R) if (s.startsWith(t, i)) { hit = t; break; }
+        if (hit) { out.push({ start: i, end: i + hit.length, text: hit }); i += hit.length; continue; }
+        const c = s[i];
+        if ("aeiou".includes(c)) { out.push({ start: i, end: i + 1, text: c }); i++; continue; }
+        if (c === "y" && i > 0 && !/[aeiou]/.test(s[i - 1]) && !/[aeiou]/.test(s[i + 1] || "")) {
+          out.push({ start: i, end: i + 1, text: "y" }); i++; continue;
+        }
+        i++;
+      }
+      // 词尾静音 e 默认不发音
+      if (s.length > 2 && s.endsWith("e") && out.length && out[out.length - 1].start === s.length - 1) {
+        if (!KEEP_E.has(s)) out.pop();
+      }
+      return out;
+    }
+
+    function consonantUnits(str) {
+      const out = [];
+      let i = 0;
+      while (i < str.length) {
+        let hit = null;
+        for (const u of CONSONANT_DIGRAPHS) if (str.startsWith(u, i)) { hit = u; break; }
+        if (!hit) hit = str[i];
+        out.push(hit);
+        i += hit.length;
+      }
+      return out;
+    }
+    function countCons(units) {
+      let n = 0;
+      for (const u of units) n += (u === "x" ? 2 : 1);
+      return n;
+    }
+
+    const IPA_SHORT = /^(æ|e|ɪ|ɒ|ʌ|ɛ|ʊ)/;
+    function ipaVowels(ipa) {
+      if (!ipa) return null;
+      const p = String(ipa).toLowerCase().replace(/[ˈˌ'\-()\/\[\] ]/g, "");
+      const m = p.match(/ju:|iə|eə|uə|ɔi|ai|ei|əu|au|ou|[aeiouæɑɒɔəɜʌɪʊɛ]+ː?/g);
+      return m || null;
+    }
+    const CAMEL_WORDS = new Set(["camel", "city", "robin", "model", "seven", "melon", "lemon", "river", "finish", "rapid", "solid", "magic", "promise", "body", "money", "happy", "family", "animal", "very", "many", "any", "study", "busy", "visit", "limit", "habit", "travel", "level", "never", "ever", "clever", "better", "letter", "summer", "winter", "under", "number", "sister"]);
+    const TIGER_WORDS = new Set(["tiger", "baby", "music", "open", "robot", "paper", "basic", "bonus", "labor", "pilot", "vital", "major", "female", "moment", "banana", "photo", "hotel", "total", "final", "human", "native", "future"]);
+    const CODA_DIGRAPHS = new Set(["ck", "ng", "nk", "x", "ll", "ss", "ff", "zz", "dd", "tt", "pp", "nn", "mm", "bb", "gg", "cc", "rr", "tch", "dge"]);
+
+    function cutCore(core, ipa) {
+      const nuc = findNuclei(core);
+      if (nuc.length <= 1) return [core];
+      const ipaV = ipaVowels(ipa);
+      const aligned = ipaV && ipaV.length === nuc.length;
+      const cuts = [];
+      for (let i = 0; i < nuc.length - 1; i++) {
+        const between = core.slice(nuc[i].end, nuc[i + 1].start);
+        const units = consonantUnits(between);
+        const count = countCons(units);
+        const next = nuc[i + 1].text;
+        let cut;
+        if (units.length === 0) {
+          cut = nuc[i].end;
+        } else if (count >= 2) {
+          cut = nuc[i].end + units[0].length;
+        } else {
+          let camel;
+          const nextPart = core.slice(nuc[i + 1].start);
+          const magicNext = /^[aeiou][bcdfghjklmnpqrstvwxyz]e$/.test(nextPart);
+          const ONSET_DIGRAPHS = new Set(["sh", "ch", "th", "wh", "ph", "qu", "wr", "kn", "gh"]);
+          if (nuc[i].text.length >= 2 && /^(ar|er|ir|or|ur)$/.test(nuc[i].text)) camel = false;
+          else if (CAMEL_WORDS.has(core)) camel = true;
+          else if (TIGER_WORDS.has(core)) camel = false;
+          else if (ONSET_DIGRAPHS.has(units[0])) camel = false;
+          else if (CODA_DIGRAPHS.has(units[0])) camel = true;
+          else if (magicNext) camel = false;
+          else if (aligned) camel = IPA_SHORT.test(ipaV[i]);
+          else if (next === "y" || next === "ie") camel = true;
+          else if (next === "ow" && i === nuc.length - 2) camel = true;
+          else if (nextPart.length <= 3 && /^(it|in|ot|en|on|el|il|id|ic|ish)$/.test(nextPart)) camel = true;
+          else camel = false;
+          cut = camel ? nuc[i].end + units[0].length : nuc[i].end;
+        }
+        if (cut > 0 && cut < core.length) cuts.push(cut);
+      }
+      const out = [];
+      let prev = 0;
+      for (const c of [...new Set(cuts)].sort((a, b) => a - b)) { out.push(core.slice(prev, c)); prev = c; }
+      out.push(core.slice(prev));
+      return out.filter(Boolean);
+    }
+
+    const SUFFIXES = ["tion", "sion", "ture", "able", "ible", "ment", "ness", "less", "ful", "ous", "ly", "ing"];
+    function hasVowel(s) { return /[aeiouy]/.test(s); }
+    function cluster(s) { return /(rk|ck|mp|nt|nd|st|sk|sp|lt|ld|lk|lp|ft|ct|pt|ng|nk|sh|ch|tch|dge)$/.test(s); }
+
+    function syllabify(word, ipa) {
+      let w = String(word || "").toLowerCase().replace(/[^a-z]/g, "");
+      if (!w) return [];
+      let newTail = [];     // 独立成音节的后缀
+      let attach = "";      // 并入最后一个音节的后缀
+
+      // 0) -gue / -que 词尾：u 不发音（tongue, rogue, league）
+      if (/[gq]ue$/.test(w) && w.length > 4) { attach = "ue"; w = w.slice(0, -2); }
+
+      let pluralDone = false;
+      // 1) 复数/三单 -es（多一个音节）
+      if (w.endsWith("es")) {
+        const stem = w.slice(0, -2);
+        if (hasVowel(stem) && /(s|x|ch|sh|z|o)$/.test(stem)) {
+          let core = stem, esText = "es";
+          if (/([bcdfgklmnpqrstvz])\1$/.test(stem)) {
+            core = stem.slice(0, -1); esText = stem.slice(-1) + "es";
+          } else if (/(ch|sh|tch|dge)$/.test(stem)) {
+            const cutN = stem.match(/(ch|sh|tch|dge)$/)[1].length;
+            core = stem.slice(0, -cutN); esText = stem.slice(-cutN) + "es";
+          }
+          newTail.unshift(esText); w = core; pluralDone = true;
+        }
+      }
+      // 2) 复数/三单 -s（并入）
+      if (!pluralDone && w.endsWith("s") && !w.endsWith("ss")) {
+        const stem = w.slice(0, -1);
+        if (hasVowel(stem)) { attach = "s" + attach; w = stem; }
+      }
+      // 3) -ed
+      if (w.endsWith("ed")) {
+        const stem = w.slice(0, -2);
+        if (hasVowel(stem)) {
+          if (/[td]$/.test(stem)) { newTail.unshift("ed"); w = stem; }
+          else { attach = "ed" + attach; w = stem; }
+        }
+      }
+      // 4) -er（动词/工具名词，词干以辅音簇结尾）
+      if (w.endsWith("er") && !w.endsWith("ier")) {
+        const stem = w.slice(0, -2);
+        if (hasVowel(stem) && cluster(stem)) { newTail.unshift("er"); w = stem; }
+      }
+      // 5) 其他后缀
+      for (const suf of SUFFIXES) {
+        if (!w.endsWith(suf)) continue;
+        const stem = w.slice(0, -suf.length);
+        if (!hasVowel(stem)) continue;
+        if (suf === "able") newTail = ["a", "ble", ...newTail];
+        else if (suf === "ible") newTail = ["i", "ble", ...newTail];
+        else if (suf === "ing" && /([bcdfghjklmnpqrstvwxz])\1$/.test(stem)) {
+          newTail.unshift(stem.slice(-1) + "ing");
+          w = stem.slice(0, -1);
+          break;
+        }
+        else newTail.unshift(suf);
+        w = stem;
+        break;
+      }
+
+      // 6) Turtle: -Cle / -Cles
+      let leafTail = [];
+      if (w.length >= 4 && /[^aeiou]le$/.test(w)) { leafTail = [w.slice(-3)]; w = w.slice(0, -3); }
+      else if (w.length >= 5 && /[^aeiou]les$/.test(w)) { leafTail = [w.slice(-4)]; w = w.slice(0, -4); }
+
+      let parts = w ? cutCore(w, ipa) : [];
+      parts.push(...leafTail, ...newTail);
+      if (attach) {
+        if (parts.length) parts[parts.length - 1] += attach;
+        else parts.push(attach);
+      }
+      return parts;
+    }
+
+    function segmentedHtml(word, hit) {
+      const text = String(word || "");
+      const pat = hit ? String(hit.pat || "").toLowerCase() : "";
+      const hitTok = hit ? String(hit.token || "").toLowerCase() : "";
+      return text.split(/([^A-Za-z]+)/).map((part) => {
+        if (!part) return "";
+        if (!/^[A-Za-z]+$/.test(part)) return `<span class="sp">${escapeHtml(part)}</span>`;
+        const low = part.toLowerCase();
+        const chunks = breakdown(low);
+        let hl = -1;
+        if (pat && (!hitTok || low === hitTok)) {
+          const oi = low.indexOf(pat);
+          if (oi >= 0) {
+            let pos = 0, best = -1, bestOv = 0;
+            chunks.forEach((c, ci) => {
+              const s0 = pos, e0 = pos + c.length;
+              pos = e0;
+              const ov = Math.max(0, Math.min(e0, oi + pat.length) - Math.max(s0, oi));
+              if (ov > bestOv) { bestOv = ov; best = ci; }
+            });
+            if (bestOv > 0) hl = best;
+          }
+        }
+        let pos = 0;
+        return chunks.map((c, ci) => {
+          const seg = part.substr(pos, c.length);
+          pos += c.length;
+          return `<span class="ch${ci === hl ? " hl" : ""}">${escapeHtml(seg)}</span>`;
+        }).join('<span class="sep">_</span>');
+      }).join("");
+    }
+
+    function syllableHtml(word, ipa) {
+      const parts = String(word || "").split(/([^A-Za-z]+)/);
+      const chunks = [];
+      let total = 0;
+      for (const p of parts) {
+        if (!p) continue;
+        if (!/^[A-Za-z]+$/.test(p)) { chunks.push(escapeHtml(p)); continue; }
+        const syl = syllabify(p, ipa);
+        total += syl.length;
+        chunks.push('<span class="syl">' + syl.map(escapeHtml).join('<span class="sep">_</span>') + "</span>");
+      }
+      if (total <= 1) return "";
+      return '<span class="wsyl-lab">音节</span>' + chunks.join("");
+    }
+    function posKind(p) {
+      p = " " + String(p || "").toLowerCase().replace(/&|and|,/g, " ") + " ";
+      p = p.replace(/\s+/g, " ");
+      if (p.includes(" phr")) return "phr";
+      if (p.includes(" exclaim")) return "exclaim";
+      if (p.includes(" aux")) return "aux";
+      if (p.includes(" art ")) return "art";
+      if (p.includes(" conj ")) return "conj";
+      if (p.includes(" prep ")) return "prep";
+      if (p.includes(" pron ")) return "pron";
+      if (p.includes(" det ")) return "det";
+      if (p.includes(" num ")) return "num";
+      if (p.includes(" adj ")) return "adj";
+      if (p.includes(" adv ")) return "adv";
+      if (p.includes(" n ")) return "n";
+      if (p.includes(" v ")) return "v";
+      return "x";
+    }
+    const SENT_TOPIC = {
+      food: [["I like to eat the {w}.", "我喜欢吃{c}。"], ["The {w} is yummy.", "{c}真好吃。"]],
+      animals: [["The {w} is cute.", "这只{c}很可爱。"], ["I can see {a} {w}.", "我能看到{c}。"]],
+      family: [["I love my {w}.", "我爱我的{c}。"], ["My {w} is at home.", "我的{c}在家里。"]],
+      body: [["This is my {w}.", "这是我的{c}。"]],
+      clothes: [["I like this {w}.", "我喜欢这件{c}。"]],
+      school: [["I use the {w} at school.", "我在学校用{c}。"]]
+    };
+    const SENT = {
+      n: [["This is {a} {w}.", "这是{c}。"], ["I like the {w}.", "我喜欢这个{c}。"]],
+      v: [["Let's {w} together.", "让我们一起{c}。"], ["I {w} every day.", "我每天都{c}。"]],
+      adj: [["It is very {w}.", "它非常{c}。"], ["This one is {w}.", "这个很{c}。"]],
+      adverb: [["She sings {w}.", "她唱得很{c}。"], ["He runs {w}.", "他跑得很{c}。"]],
+      num: [["I have {w} books.", "我有{c}本书。"]],
+      exclaim: [["Tom said, \"{W}!\"", "汤姆说：“{c}！”"]],
+      func: [["We often use \"{w}\".", "“{w}”的意思是{c}。"]]
+    };
+    function cnFirst(c) {
+      return String(c || "").split(/[，,；;]/)[0].replace(/^[（(]|[）)]$/g, "").trim();
+    }
+    function makeSentence(w) {
+      const word = String((w && w.w) || "").trim();
+      const low = word.toLowerCase();
+      const c = cnFirst(w && w.c);
+      const kind = posKind(w && w.p);
+      let pool = SENT.func;
+      if (kind === "n") {
+        const tid = String((w && w.t) || "").split(":").pop();
+        pool = SENT_TOPIC[tid] || SENT.n;
+      } else if (kind === "v") pool = SENT.v;
+      else if (kind === "adj") pool = SENT.adj;
+      else if (kind === "adv" && /ly$/.test(low)) pool = SENT.adverb;
+      else if (kind === "num") pool = SENT.num;
+      else if (kind === "exclaim") pool = SENT.exclaim;
+      let hash = 0;
+      for (const ch of low) hash = (hash * 31 + ch.charCodeAt(0)) >>> 0;
+      const [enTpl, cnTpl] = pool[hash % pool.length];
+      const article = /^[aeiou]/.test(low) ? "an" : "a";
+      const aShown = /\s/.test(low) ? "" : article + " ";
+      const en = enTpl.replace("{a} ", aShown).replace("{W}", word).replace("{w}", word);
+      const cn = c ? cnTpl.split("{c}").join(c) : "";
+      return [en, cn];
+    }
+    let wmodalWord = null;
+    let wmodalSentence = "";
+    function wordDetail(w) {
+      let en, cn;
+      if (w && w.e) {
+        en = w.e;
+        cn = w.z || "";
+      } else {
+        [en, cn] = makeSentence(w);
+      }
+      const escaped = escapeHtml(en);
+      const wEsc = escapeHtml(String(w.w || ""));
+      return {
+        title: segmentedHtml(w.w, phonicsHit(w)),
+        sylHtml: syllableHtml(w.w, w.i),
+        meta: [w.p ? `(${w.p})` : "", w.i ? `[ ${w.i} ]` : ""].filter(Boolean).join(" "),
+        cn: w.c || "（无释义）",
+        sentText: en,
+        sentEn: wEsc ? escaped.replace(new RegExp("(" + escapeRegex(wEsc) + ")", "i"), "<b>$1</b>") : escaped,
+        sentCn: cn
+      };
+    }
+    function openWordModal(w) {
+      wmodalWord = w;
+      const d = wordDetail(w);
+      wmodalSentence = d.sentText;
+      $("wTitle").innerHTML = d.title;
+      $("wSyl").innerHTML = d.sylHtml;
+      $("wSyl").style.display = d.sylHtml ? "block" : "none";
+      $("wMeta").textContent = d.meta;
+      $("wCn").textContent = d.cn;
+      $("wSentEn").innerHTML = d.sentEn;
+      $("wSentCn").textContent = d.sentCn;
+      $("wmodal").classList.add("show");
+    }
+
     function morphKey(w) {
       return String((w && w.w) || "").toLowerCase().trim();
     }
@@ -861,6 +1517,9 @@
 
     function filtered() {
       const q = state.q.trim().toLowerCase();
+      if (state.lib === "my") {
+        return DATA.words.filter((w) => matchQ(w, q));
+      }
       return DATA.words.filter((w) => {
         if (!matchQ(w, q)) return false;
         if (state.cat === "all") return true;
@@ -928,6 +1587,16 @@
         b.classList.toggle("on", Number(b.dataset.n) === state.pickN);
       });
     }
+    function syncDockActions() {
+      const isMy = state.lib === "my";
+      const has = state.selected.size > 0;
+      const add = $("btnAddLib");
+      const ms = $("btnMyMaster");
+      const rm = $("btnMyRemove");
+      if (add) { add.hidden = isMy; add.disabled = !has; }
+      if (ms) { ms.hidden = !isMy; ms.disabled = !has; }
+      if (rm) { rm.hidden = !isMy; rm.disabled = !has; }
+    }
     function resetSeq() {
       state.seqOffset = 0;
       updateSeqHint();
@@ -989,12 +1658,27 @@
       return arr.slice(0, Math.min(n, arr.length));
     }
     function renderGrid() {
+      const box = $("grid");
+      if (state.browseMode === "card") {
+        renderSingle();
+        return;
+      }
+      box.classList.remove("single-mode");
       const list = filtered();
       const book = DATA.name || "";
-      $("stats").textContent = (book ? book + " · " : "") + `共 ${DATA.words.length} 词 · 当前 ${list.length} 词`;
+      if (state.lib === "my") {
+        const c = myCounts();
+        $("stats").textContent = `我的词库 · 未掌握 ${c.unmastered} 词 · 已掌握 ${c.mastered} · 错题 ${c.wrong}`;
+        const total = c.unmastered + c.mastered + c.wrong;
+        $("empty").textContent = total
+          ? "这个分类下还没有单词"
+          : "我的词库还没有单词：去 All / KET / PET / PEP 勾选单词后点「加入我的词库」";
+      } else {
+        $("stats").textContent = (book ? book + " · " : "") + `共 ${DATA.words.length} 词 · 当前 ${list.length} 词`;
+        $("empty").textContent = "没有匹配的单词";
+      }
       $("empty").hidden = list.length > 0;
       updateSeqHint();
-      const box = $("grid");
       box.innerHTML = list.map((w) => {
         const picked = isSelected(w);
         const sel = picked ? " sel" : "";
@@ -1025,16 +1709,87 @@
           }
         }
         const extra = [meta, tag].filter(Boolean).join(" · ");
+        const playBtn = `<button class="play${playing ? " on" : ""}" data-play="${w.id}" title="播放发音">${iconPlay()}</button>`;
+        const doneBtn = state.lib === "my" && w.status !== "mastered"
+          ? `<button class="mark" data-master="${w.id}" title="标记已掌握">✓</button>`
+          : "";
+        const actionHtml = state.lib === "my"
+          ? `<div class="acts">${playBtn}${doneBtn}</div>`
+          : playBtn;
         return `<article class="card${sel}${playing}" data-id="${w.id}" style="--cat:${catColor}">
           <div class="chk">${picked ? "✓" : ""}</div>
           <div>
-            <div class="head">${headHtml}</div>
+            <div class="head" title="查看自然拼读和例句">${headHtml}</div>
             <div class="meta">${escapeHtml(extra)}</div>
             <div class="cn">${escapeHtml(w.c || "（无释义）")}</div>
           </div>
-          <button class="play${playing ? " on" : ""}" data-play="${w.id}" title="播放发音">${iconPlay()}</button>
+          ${actionHtml}
         </article>`;
       }).join("");
+    }
+
+    function currentBrowseWord() {
+      const list = filtered();
+      if (!list.length) return null;
+      const i = Math.max(0, Math.min(state.browseIdx, list.length - 1));
+      return list[i];
+    }
+
+    function renderSingle() {
+      const box = $("grid");
+      box.classList.add("single-mode");
+      const list = filtered();
+      if (state.lib === "my") {
+        const c = myCounts();
+        $("stats").textContent = `我的词库 · 未掌握 ${c.unmastered} 词 · 已掌握 ${c.mastered} · 错题 ${c.wrong}`;
+        const total = c.unmastered + c.mastered + c.wrong;
+        $("empty").textContent = total
+          ? "这个分类下还没有单词"
+          : "我的词库还没有单词：去 All / KET / PET / PEP 勾选单词后点「加入我的词库」";
+      } else {
+        const book = DATA.name || "";
+        $("stats").textContent = (book ? book + " · " : "") + `共 ${DATA.words.length} 词 · 当前 ${list.length} 词`;
+        $("empty").textContent = "没有匹配的单词";
+      }
+      $("empty").hidden = list.length > 0;
+      updateSeqHint();
+      if (!list.length) { box.innerHTML = ""; return; }
+      if (state.browseIdx >= list.length) state.browseIdx = 0;
+      if (state.browseIdx < 0) state.browseIdx = list.length - 1;
+      const w = list[state.browseIdx];
+      const d = wordDetail(w);
+      const st = w.status || "unmastered";
+      const statusHtml = state.lib === "my"
+        ? `<span class="single-status ${st}">${MY_STATUS[st]}</span>`
+        : "";
+      const masterBtn = state.lib === "my" && st !== "mastered"
+        ? `<button class="btn ghost" data-single-master="1">标记已掌握</button>`
+        : "";
+      box.innerHTML = `<div class="single"><article class="single-card">
+        <div class="single-top">
+          <span>第 ${state.browseIdx + 1} / ${list.length} 个</span>
+          ${statusHtml}
+        </div>
+        <div class="wsec">完整单词</div>
+        <div class="pword">${escapeHtml(w.w)}</div>
+        ${d.sylHtml ? `<div class="wsyl">${d.sylHtml}</div>` : ""}
+        <div class="wsec">自然拼读</div>
+        <div class="pword">${d.title}</div>
+        <div class="wmeta">${escapeHtml(d.meta)}${w.tn ? " · " + escapeHtml(w.tn) : ""}</div>
+        <div class="wcn">${escapeHtml(d.cn)}</div>
+        <div class="wsec">例句</div>
+        <div class="wsent">${d.sentEn}</div>
+        <div class="wsent-cn">${escapeHtml(d.sentCn)}</div>
+        <div class="wbtns">
+          <button class="btn primary" data-single-play="1">播放单词</button>
+          <button class="btn ghost" data-single-sent="1">播放例句</button>
+          ${masterBtn}
+        </div>
+        <div class="single-nav">
+          <button class="btn ghost" data-single-nav="-1">← 上一个</button>
+          <button class="btn ghost" data-single-nav="1">下一个 →</button>
+        </div>
+      </article></div>`;
     }
 
     function escapeHtml(s) {
@@ -1066,9 +1821,326 @@
       a.play().catch(fallback);
     }
 
+    function playSentence(text) {
+      const s = String(text || "").trim();
+      if (!s) return;
+      if (audioEl) {
+        audioEl.pause();
+        audioEl = null;
+      }
+      const url = "https://dict.youdao.com/dictvoice?type=2&audio=" + encodeURIComponent(s);
+      const a = new Audio(url);
+      audioEl = a;
+      const fallback = () => {
+        try {
+          speechSynthesis.cancel();
+          const u = new SpeechSynthesisUtterance(s);
+          u.lang = "en-GB";
+          speechSynthesis.speak(u);
+        } catch (e) {}
+      };
+      a.onerror = fallback;
+      a.play().catch(fallback);
+    }
+
     function clearSelection() {
       state.selected.clear();
       updateSelBar();
+    }
+
+    /* ---- 学习计划 ---- */
+    function buildPlan(daily) {
+      const n = Math.max(3, Math.min(10, Number(daily) || 5));
+      const pool = myRecords("unmastered");
+      const days = [];
+      for (let i = 0; i < pool.length; i += n) {
+        days.push({ keys: pool.slice(i, i + n).map((r) => r.k), done: [] });
+      }
+      MYLIB.plan = { daily: n, days, cursor: 0, createdAt: Date.now() };
+      saveMyLib();
+      toast(`已生成 ${days.length} 天学习计划`);
+    }
+
+    function openPlan() {
+      renderPlan();
+      $("planModal").classList.add("show");
+    }
+
+    function renderPlan() {
+      const box = $("planBody");
+      const c = myCounts();
+      const p = MYLIB.plan;
+      if (!p || !p.days.length) {
+        let html = `<p>把未掌握单词按每天固定数量排成任务队列。当前未掌握 <b>${c.unmastered}</b> 词。</p>`;
+        html += `<div style="font-size:13px;color:#6b7280;margin-bottom:6px">每天学习数量</div><div class="dims" id="planDaily">`;
+        for (let n = 3; n <= 10; n += 1) {
+          html += `<button data-daily="${n}" class="${state.planDaily === n ? "on" : ""}">${n}</button>`;
+        }
+        html += `</div><div class="plan-actions"><button class="btn primary" data-plan-gen="1" ${c.unmastered ? "" : "disabled"}>生成计划</button></div>`;
+        if (!c.unmastered) html += `<p style="margin-top:10px">未掌握词库为空，先去添加单词，或把已掌握的单词移回未掌握。</p>`;
+        box.innerHTML = html;
+        return;
+      }
+      const day = p.days[p.cursor];
+      if (!day) {
+        box.innerHTML = `<div class="plan-empty">计划已完成 🎉</div>
+          <div class="plan-actions"><button class="btn ghost" data-plan-regen="1">重新生成</button></div>`;
+        return;
+      }
+      const rows = day.keys.map((k) => MYLIB.words[k]).filter(Boolean);
+      const doneCount = day.done.filter((k) => day.keys.includes(k)).length;
+      const allDone = rows.length === 0 || rows.every((r) => day.done.includes(r.k));
+      const inPlan = new Set();
+      p.days.forEach((d) => d.keys.forEach((k) => inPlan.add(k)));
+      const outside = myRecords("unmastered").filter((r) => !inPlan.has(r.k)).length;
+      let html = `<div class="plan-head">
+        <span>第 ${p.cursor + 1} / ${p.days.length} 天</span>
+        <span>每天 ${p.daily} 个</span>
+        <span>今日完成 ${doneCount} / ${rows.length}</span>
+        ${outside ? `<span>另有 ${outside} 个未掌握词不在计划中</span>` : ""}
+      </div><div id="planToday"></div>`;
+      html += `<div class="plan-actions">`;
+      if (allDone) {
+        if (p.cursor + 1 < p.days.length) html += `<button class="btn primary" data-plan-next="1">进入下一天</button>`;
+        else html += `<span class="plan-empty" style="padding:0">计划已完成 🎉</span>`;
+      }
+      html += `<button class="btn ghost" data-plan-regen="1">重新生成</button></div>`;
+      box.innerHTML = html;
+      $("planToday").innerHTML = rows.map((r) => {
+        const done = day.done.includes(r.k);
+        const meta = [r.i ? `[ ${r.i} ]` : "", r.c || ""].filter(Boolean).join(" · ");
+        return `<div class="plan-row${done ? " done" : ""}">
+          <div><div class="pw">${escapeHtml(r.w)}</div><div class="pm">${escapeHtml(meta)}</div></div>
+          <button class="btn ghost sm" data-plan-play="${escapeHtml(r.k)}">播放</button>
+          <div class="plan-btns">
+            <button class="btn ghost sm" data-plan-ok="${escapeHtml(r.k)}" ${done ? "disabled" : ""}>认识</button>
+            <button class="btn ghost sm" data-plan-no="${escapeHtml(r.k)}" ${done ? "disabled" : ""}>不认识</button>
+          </div>
+        </div>`;
+      }).join("");
+    }
+
+    function planMark(key, status) {
+      const p = MYLIB.plan;
+      const day = p && p.days[p.cursor];
+      const rec = MYLIB.words[key];
+      if (!day || !rec) return;
+      setMyStatus(key, status);
+      if (status === "wrong") rec.wrongCount = (rec.wrongCount || 0) + 1;
+      if (!day.done.includes(key)) day.done.push(key);
+      saveMyLib();
+      renderPlan();
+      refreshMyViews();
+    }
+
+    /* ---- 自测 ---- */
+    let quiz = null;
+    let quizScope = "unmastered";
+    let GLOBAL_MEANINGS = null;
+
+    function globalMeanings() {
+      if (GLOBAL_MEANINGS) return GLOBAL_MEANINGS;
+      const out = [];
+      const push = (book) => {
+        ((book && book.words) || []).forEach((w) => {
+          if (w.c && w.c !== "（无释义）") out.push(w.c);
+        });
+      };
+      push(EBB.libs.ket);
+      push(EBB.libs.pet);
+      Object.keys(EBB.pep || {}).forEach((k) => push(EBB.pep[k]));
+      GLOBAL_MEANINGS = out;
+      return out;
+    }
+
+    function quizScopePool(scope) {
+      return scope === "all" ? myRecords(null) : myRecords(scope);
+    }
+
+    function openQuiz() {
+      const c = myCounts();
+      quizScope = c.wrong ? "wrong" : (c.unmastered ? "unmastered" : "all");
+      quiz = null;
+      renderQuizStart();
+      $("quizModal").classList.add("show");
+    }
+
+    function renderQuizStart() {
+      const c = myCounts();
+      const opts = [
+        ["wrong", `错题库 ${c.wrong}`],
+        ["unmastered", `未掌握 ${c.unmastered}`],
+        ["all", `全部 ${c.wrong + c.unmastered + c.mastered}`]
+      ];
+      let html = `<p>看单词，选出正确的中文释义。答错自动进入错题库；连续答对 2 次自动移入已掌握。</p>
+        <div style="font-size:13px;color:#6b7280;margin-bottom:6px">自测范围</div><div class="dims">`;
+      opts.forEach(([id, name]) => {
+        html += `<button data-quiz-scope="${id}" class="${quizScope === id ? "on" : ""}">${name}</button>`;
+      });
+      html += `</div><div class="plan-actions"><button class="btn primary" data-quiz-start="1">开始自测</button></div>`;
+      if (!(c.wrong + c.unmastered + c.mastered)) html += `<p style="margin-top:10px">我的词库为空，先添加单词吧。</p>`;
+      $("quizBody").innerHTML = html;
+    }
+
+    function startQuiz() {
+      const list = quizScopePool(quizScope).filter((r) => r.c && r.c !== "（无释义）");
+      if (!list.length) { toast("该范围暂无可自测的单词"); return; }
+      quiz = {
+        scope: quizScope,
+        idx: 0,
+        correct: 0,
+        pool: shufflePick(list, Math.min(10, list.length)),
+        answered: false,
+        options: []
+      };
+      renderQuizQuestion();
+    }
+
+    function quizOptions(rec) {
+      const used = new Set([rec.c]);
+      const out = [rec.c];
+      const local = shufflePick(Object.values(MYLIB.words).map((r) => r.c).filter((x) => x && x !== "（无释义）"), Number.MAX_SAFE_INTEGER);
+      const globals = shufflePick(globalMeanings(), Number.MAX_SAFE_INTEGER);
+      local.concat(globals).forEach((x) => {
+        if (out.length >= 4 || used.has(x)) return;
+        used.add(x);
+        out.push(x);
+      });
+      return shufflePick(out, out.length);
+    }
+
+    function renderQuizQuestion() {
+      if (!quiz) return;
+      if (quiz.idx >= quiz.pool.length) { renderQuizResult(); return; }
+      const rec = quiz.pool[quiz.idx];
+      quiz.answered = false;
+      quiz.options = quizOptions(rec);
+      const pct = Math.round((quiz.idx / quiz.pool.length) * 100);
+      let html = `<div class="quiz-top"><span>第 ${quiz.idx + 1} / ${quiz.pool.length} 题</span><span>答对 ${quiz.correct}</span></div>
+        <div class="quiz-progress"><i style="width:${pct}%"></i></div>
+        <div class="quiz-word">${segmentedHtml(rec.w, phonicsHit(rec))}</div>
+        <div class="quiz-meta">${escapeHtml([rec.i ? `[ ${rec.i} ]` : "", rec.p ? `(${rec.p})` : ""].filter(Boolean).join(" "))}</div>
+        <div style="text-align:center;margin-top:10px"><button class="btn ghost sm" data-quiz-play="1">播放发音</button></div>
+        <div class="quiz-opts">`;
+      quiz.options.forEach((opt, i) => {
+        html += `<button class="quiz-opt" data-quiz-opt="${i}">${escapeHtml(opt)}</button>`;
+      });
+      html += `</div>`;
+      $("quizBody").innerHTML = html;
+    }
+
+    function answerQuiz(i) {
+      if (!quiz || quiz.answered || !quiz.pool) return;
+      const rec = quiz.pool[quiz.idx];
+      const pick = quiz.options[i];
+      const right = pick === rec.c;
+      quiz.answered = true;
+      const btns = $("quizBody").querySelectorAll(".quiz-opt");
+      btns.forEach((b) => { b.disabled = true; });
+      if (btns[i]) btns[i].classList.add(right ? "ok" : "bad");
+      if (!right) {
+        quiz.options.forEach((opt, j) => {
+          if (opt === rec.c && btns[j]) btns[j].classList.add("ok");
+        });
+      }
+      if (right) {
+        quiz.correct += 1;
+        rec.streak = (rec.streak || 0) + 1;
+        rec.updatedAt = Date.now();
+        if (rec.streak >= 2 && rec.status !== "mastered") {
+          rec.status = "mastered";
+          rec.streak = 0;
+          saveMyLib();
+          toast(`「${rec.w}」连续答对，已移入已掌握`);
+        } else {
+          saveMyLib();
+        }
+      } else {
+        rec.streak = 0;
+        rec.wrongCount = (rec.wrongCount || 0) + 1;
+        rec.status = "wrong";
+        rec.updatedAt = Date.now();
+        saveMyLib();
+      }
+      refreshMyViews();
+      setTimeout(() => {
+        if (!quiz) return;
+        quiz.idx += 1;
+        renderQuizQuestion();
+      }, 900);
+    }
+
+    function renderQuizResult() {
+      const total = quiz.pool.length;
+      const rate = total ? Math.round((quiz.correct / total) * 100) : 0;
+      $("quizBody").innerHTML = `<div class="quiz-result">
+        <div class="big">${quiz.correct} / ${total}</div>
+        <p>正确率 ${rate}%</p>
+      </div>
+      <div class="plan-actions" style="justify-content:center">
+        <button class="btn primary" data-quiz-again="1">再来一组</button>
+        <button class="btn ghost" data-quiz-done="1">完成</button>
+      </div>`;
+    }
+
+    function closeQuiz() {
+      quiz = null;
+      $("quizModal").classList.remove("show");
+      refreshMyViews();
+    }
+
+    /* ---- 导入 / 导出 ---- */
+    function exportMyLib() {
+      const payload = {
+        app: "EbbWords", version: 1, exportedAt: new Date().toISOString(),
+        words: MYLIB.words, plan: MYLIB.plan
+      };
+      const blob = new Blob([JSON.stringify(payload, null, 2)], { type: "application/json" });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement("a");
+      const d = new Date();
+      const mm = String(d.getMonth() + 1).padStart(2, "0");
+      const dd = String(d.getDate()).padStart(2, "0");
+      a.href = url;
+      a.download = `ebbwords-mylib-${d.getFullYear()}${mm}${dd}.json`;
+      document.body.appendChild(a);
+      a.click();
+      document.body.removeChild(a);
+      setTimeout(() => URL.revokeObjectURL(url), 1000);
+      toast("已导出我的词库");
+    }
+
+    function importMyLibText(text) {
+      const data = JSON.parse(text);
+      if (!data || typeof data !== "object" || !data.words || typeof data.words !== "object") {
+        throw new Error("bad format");
+      }
+      let added = 0;
+      let updated = 0;
+      Object.keys(data.words).forEach((k) => {
+        const rec = data.words[k];
+        if (!rec || typeof rec !== "object" || !rec.w) return;
+        rec.k = rec.k || k;
+        rec.status = MY_STATUS[rec.status] ? rec.status : "unmastered";
+        rec.addedAt = Number(rec.addedAt) || Date.now();
+        rec.updatedAt = Number(rec.updatedAt) || rec.addedAt;
+        rec.streak = Number(rec.streak) || 0;
+        rec.wrongCount = Number(rec.wrongCount) || 0;
+        const cur = MYLIB.words[k];
+        if (!cur) { MYLIB.words[k] = rec; added += 1; return; }
+        if (rec.updatedAt > (cur.updatedAt || 0)) {
+          MYLIB.words[k] = Object.assign({}, cur, rec);
+          updated += 1;
+        } else {
+          ["w", "p", "i", "c", "a", "t", "g", "l", "tn", "tc", "e", "z"].forEach((f) => {
+            if (!cur[f] && rec[f]) cur[f] = rec[f];
+          });
+        }
+      });
+      if (!MYLIB.plan && data.plan) MYLIB.plan = normalizePlan(data.plan);
+      saveMyLib();
+      refreshMyViews();
+      toast(`导入完成：新增 ${added}，更新 ${updated}`);
     }
 
     function pepTermsForGrade(grade) {
@@ -1084,12 +2156,16 @@
         { id: "all", name: "All" },
         { id: "ket", name: "KET" },
         { id: "pet", name: "PET" },
-        { id: "pep", name: "PEP" }
+        { id: "pep", name: "PEP" },
+        { id: "my", name: "我的词库" }
       ];
       $("libbar").innerHTML = `<span class="lab">词库</span><div class="dims">` + libs.map((x) => {
         const on = state.lib === x.id ? " on" : "";
         return `<button data-lib="${x.id}" class="${on}">${x.name}</button>`;
-      }).join("") + `</div>`;
+      }).join("") + `</div><span class="lab">浏览</span><div class="dims">
+        <button data-browse="list" class="${state.browseMode === "list" ? "on" : ""}">列表</button>
+        <button data-browse="card" class="${state.browseMode === "card" ? "on" : ""}">卡片</button>
+      </div>`;
     }
 
     function renderPepbar() {
@@ -1116,6 +2192,46 @@
       bar.innerHTML = html;
     }
 
+    function renderMybar() {
+      const bar = $("mybar");
+      if (state.lib !== "my") {
+        bar.hidden = true;
+        bar.innerHTML = "";
+        return;
+      }
+      bar.hidden = false;
+      const c = myCounts();
+      const tabs = [
+        { id: "unmastered", name: "未掌握", n: c.unmastered },
+        { id: "mastered", name: "已掌握", n: c.mastered },
+        { id: "wrong", name: "错题库", n: c.wrong }
+      ];
+      let html = `<span class="lab">状态</span><div class="dims">`;
+      tabs.forEach((t) => {
+        html += `<button data-my-status="${t.id}" class="${state.myStatus === t.id ? "on" : ""}">${t.name} ${t.n}</button>`;
+      });
+      html += `</div>`;
+      html += `<div class="mybar-actions">
+        <button class="btn primary sm" data-my-act="plan">学习计划</button>
+        <button class="btn ghost sm" data-my-act="quiz">自测</button>
+        <button class="btn ghost sm" data-my-act="export">导出</button>
+        <button class="btn ghost sm" data-my-act="import">导入</button>
+      </div>`;
+      html += `<div class="mylib-hint">数据保存在本机浏览器，换设备前请先导出</div>`;
+      bar.innerHTML = html;
+    }
+
+    function refreshMyViews() {
+      if (state.lib === "my") {
+        syncBook();
+        state.playingId = null;
+        renderMybar();
+        renderGrid();
+      } else {
+        renderGrid();
+      }
+    }
+
     function applyBook() {
       if (state.lib === "pep") {
         if (!EBB.pep[pepKey()]) {
@@ -1126,12 +2242,18 @@
       syncBook();
       state.cat = "all";
       state.playingId = null;
+      state.browseIdx = 0;
       resetSeq();
       [...$("dims").querySelectorAll("button")].forEach((b) => b.classList.toggle("on", b.dataset.dim === state.dim));
       [...$("accent").querySelectorAll("button")].forEach((b) => b.classList.toggle("on", b.dataset.accent === state.accent));
+      const isMy = state.lib === "my";
+      $("dims").hidden = isMy;
+      $("chipsWrap").hidden = isMy;
       renderLibbar();
       renderPepbar();
+      renderMybar();
       renderChips();
+      syncDockActions();
       renderGrid();
       closeChipsPanel();
       savePref();
@@ -1139,9 +2261,19 @@
 
     $("libbar").addEventListener("click", (e) => {
       const btn = e.target.closest("button[data-lib]");
-      if (!btn) return;
-      state.lib = btn.dataset.lib;
-      applyBook();
+      if (btn) {
+        state.lib = btn.dataset.lib;
+        applyBook();
+        return;
+      }
+      const br = e.target.closest("button[data-browse]");
+      if (br) {
+        state.browseMode = br.dataset.browse;
+        state.browseIdx = 0;
+        savePref();
+        renderLibbar();
+        renderGrid();
+      }
     });
     $("pepbar").addEventListener("click", (e) => {
       const g = e.target.closest("button[data-grade]");
@@ -1155,6 +2287,28 @@
       }
     });
 
+    $("mybar").addEventListener("click", (e) => {
+      const st = e.target.closest("[data-my-status]");
+      if (st) {
+        state.myStatus = st.dataset.myStatus;
+        state.browseIdx = 0;
+        savePref();
+        syncBook();
+        renderMybar();
+        renderGrid();
+        updateSelBar();
+        return;
+      }
+      const act = e.target.closest("[data-my-act]");
+      if (act) {
+        const a = act.dataset.myAct;
+        if (a === "plan") openPlan();
+        else if (a === "quiz") openQuiz();
+        else if (a === "export") exportMyLib();
+        else if (a === "import") $("myImportInput").click();
+      }
+    });
+
     function toggleSelect(id) {
       const w = DATA.words.find((x) => x.id === id);
       if (!w) return;
@@ -1162,8 +2316,8 @@
       if (!key) return;
       if (state.selected.has(key)) state.selected.delete(key);
       else {
-        if (state.selected.size >= PRINT_MAX) {
-          alert("最多选择 10 个单词");
+        if (state.selected.size >= MY_PICK_MAX) {
+          toast(`最多选择 ${MY_PICK_MAX} 个单词`);
           return;
         }
         state.selected.set(key, w);
@@ -1239,6 +2393,45 @@
       applySelection(shufflePick(list, state.pickN));
     };
     $("grid").addEventListener("click", (e) => {
+      const mark = e.target.closest("[data-master]");
+      if (mark) {
+        const w = DATA.words.find((x) => x.id === Number(mark.dataset.master));
+        if (w) {
+          setMyStatus(myKey(w), "mastered");
+          toast("已标记为已掌握");
+          refreshMyViews();
+        }
+        e.stopPropagation();
+        return;
+      }
+      const nav = e.target.closest("[data-single-nav]");
+      if (nav) {
+        const list = filtered();
+        if (list.length) {
+          state.browseIdx = (state.browseIdx + Number(nav.dataset.singleNav) + list.length) % list.length;
+          renderGrid();
+        }
+        return;
+      }
+      if (e.target.closest("[data-single-play]")) {
+        const w = currentBrowseWord();
+        if (w) playWord(w);
+        return;
+      }
+      if (e.target.closest("[data-single-sent]")) {
+        const w = currentBrowseWord();
+        if (w) playSentence(wordDetail(w).sentText);
+        return;
+      }
+      if (e.target.closest("[data-single-master]")) {
+        const w = currentBrowseWord();
+        if (w) {
+          setMyStatus(myKey(w), "mastered");
+          toast("已标记为已掌握");
+          refreshMyViews();
+        }
+        return;
+      }
       const play = e.target.closest("[data-play]");
       if (play) {
         const w = DATA.words.find((x) => x.id === Number(play.dataset.play));
@@ -1247,7 +2440,13 @@
         return;
       }
       const card = e.target.closest(".card");
-      if (card) toggleSelect(Number(card.dataset.id));
+      if (!card) return;
+      if (e.target.closest(".head")) {
+        const w = DATA.words.find((x) => x.id === Number(card.dataset.id));
+        if (w) openWordModal(w);
+        return;
+      }
+      toggleSelect(Number(card.dataset.id));
     });
     $("btnClear").onclick = () => {
       clearSelection();
@@ -1255,10 +2454,135 @@
     };
     $("btnSheet").onclick = () => generateSheet(false);
     $("btnBlank").onclick = () => generateSheet(true);
+    $("btnAddLib").onclick = () => {
+      const words = [...state.selected.values()];
+      if (!words.length) return;
+      const r = addToMyLib(words, "unmastered");
+      toast(`已加入 ${r.added} 个单词到我的词库${r.updated ? `，${r.updated} 个已存在` : ""}`);
+      state.selected.clear();
+      updateSelBar();
+      renderGrid();
+    };
+    $("btnMyMaster").onclick = () => {
+      let n = 0;
+      [...state.selected.keys()].forEach((k) => { if (setMyStatus(k, "mastered")) n += 1; });
+      toast(n ? `已将 ${n} 个单词移入已掌握` : "选中的单词不在我的词库中");
+      state.selected.clear();
+      updateSelBar();
+      refreshMyViews();
+    };
+    $("btnMyRemove").onclick = () => {
+      const keys = [...state.selected.keys()].filter((k) => MYLIB.words[k]);
+      if (!keys.length) { toast("请先勾选我的词库中的单词"); return; }
+      if (!confirm(`确定从我的词库移除 ${keys.length} 个单词？`)) return;
+      removeMyWords(keys);
+      state.selected.clear();
+      updateSelBar();
+      toast(`已移除 ${keys.length} 个单词`);
+      refreshMyViews();
+    };
+    $("btnPlanClose").onclick = () => $("planModal").classList.remove("show");
+    $("planModal").addEventListener("click", (e) => {
+      if (e.target.id === "planModal") $("planModal").classList.remove("show");
+    });
+    $("planBody").addEventListener("click", (e) => {
+      const daily = e.target.closest("[data-daily]");
+      if (daily) {
+        state.planDaily = Number(daily.dataset.daily);
+        savePref();
+        renderPlan();
+        return;
+      }
+      if (e.target.closest("[data-plan-gen]")) {
+        buildPlan(state.planDaily);
+        renderPlan();
+        refreshMyViews();
+        return;
+      }
+      if (e.target.closest("[data-plan-regen]")) {
+        if (!myCounts().unmastered) { toast("未掌握词库为空"); return; }
+        if (!confirm("重新生成会丢弃当前学习进度，确定继续？")) return;
+        buildPlan(state.planDaily);
+        renderPlan();
+        refreshMyViews();
+        return;
+      }
+      if (e.target.closest("[data-plan-next]")) {
+        MYLIB.plan.cursor += 1;
+        saveMyLib();
+        renderPlan();
+        return;
+      }
+      const play = e.target.closest("[data-plan-play]");
+      if (play) {
+        const rec = MYLIB.words[play.dataset.planPlay];
+        if (rec) playWord(Object.assign({ id: rec.k }, rec));
+        return;
+      }
+      const ok = e.target.closest("[data-plan-ok]");
+      const no = e.target.closest("[data-plan-no]");
+      if (ok || no) planMark(ok ? ok.dataset.planOk : no.dataset.planNo, ok ? "mastered" : "wrong");
+    });
+    $("btnQuizClose").onclick = closeQuiz;
+    $("quizModal").addEventListener("click", (e) => {
+      if (e.target.id === "quizModal") closeQuiz();
+    });
+    $("quizBody").addEventListener("click", (e) => {
+      const sc = e.target.closest("[data-quiz-scope]");
+      if (sc) {
+        quizScope = sc.dataset.quizScope;
+        renderQuizStart();
+        return;
+      }
+      if (e.target.closest("[data-quiz-start]")) { startQuiz(); return; }
+      if (e.target.closest("[data-quiz-play]")) {
+        const rec = quiz && quiz.pool && quiz.pool[quiz.idx];
+        if (rec) playWord(Object.assign({ id: rec.k }, rec));
+        return;
+      }
+      const opt = e.target.closest("[data-quiz-opt]");
+      if (opt) { answerQuiz(Number(opt.dataset.quizOpt)); return; }
+      if (e.target.closest("[data-quiz-again]")) { startQuiz(); return; }
+      if (e.target.closest("[data-quiz-done]")) closeQuiz();
+    });
+    $("myImportInput").addEventListener("change", (e) => {
+      const file = e.target.files && e.target.files[0];
+      e.target.value = "";
+      if (!file) return;
+      const reader = new FileReader();
+      reader.onload = () => {
+        try {
+          importMyLibText(String(reader.result || ""));
+        } catch (err) {
+          alert("导入失败：文件格式不正确");
+        }
+      };
+      reader.readAsText(file);
+    });
+    document.addEventListener("keydown", (e) => {
+      if (state.browseMode !== "card") return;
+      if (document.querySelector(".modal.show")) return;
+      if (e.key !== "ArrowLeft" && e.key !== "ArrowRight") return;
+      const list = filtered();
+      if (!list.length) return;
+      const d = e.key === "ArrowRight" ? 1 : -1;
+      state.browseIdx = (state.browseIdx + d + list.length) % list.length;
+      renderGrid();
+    });
     $("btnClose").onclick = () => $("modal").classList.remove("show");
     $("modal").addEventListener("click", (e) => {
       if (e.target.id === "modal") $("modal").classList.remove("show");
     });
+    $("wClose").onclick = () => $("wmodal").classList.remove("show");
+    $("wmodal").addEventListener("click", (e) => {
+      if (e.target.id === "wmodal") $("wmodal").classList.remove("show");
+    });
+    $("wPlay").onclick = () => {
+      if (wmodalWord) playWord(wmodalWord);
+    };
+    $("wSentPlay").onclick = () => {
+      if (wmodalSentence) playSentence(wmodalSentence);
+    };
 
     /* ---- 艾宾浩斯默写纸（对齐 poemCloud dictSheetDraw） ---- */
     const LINE_COLOR = "#4C4C4C";
@@ -1459,7 +2783,7 @@
 
     let lastDataUrl = "";
     function generateSheet(blank) {
-      const words = blank ? [] : [...state.selected.values()];
+      const words = blank ? [] : [...state.selected.values()].slice(0, PRINT_MAX);
       if (!blank && !words.length) return;
       const canvas = $("sheetCanvas");
       drawSheet(canvas, words, 1754, 1240, blank);
@@ -1486,9 +2810,11 @@
       w.onload = () => { w.focus(); w.print(); };
     };
 
+    loadMyLib();
     loadPref();
     applyBook();
     renderPickN();
+    updateSelBar();
   </script>
 </body>
 </html>

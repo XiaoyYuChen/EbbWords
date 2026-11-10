@@ -819,13 +819,18 @@ def book_payload(kind, name, short, words, groups):
 
 
 def slim_word(w: dict) -> dict:
-    return {
+    out = {
         "w": w.get("w") or "",
         "p": w.get("p") or "",
         "i": w.get("i") or "",
         "c": w.get("c") or "",
         "t": w.get("t") or "",
     }
+    if w.get("e"):
+        out["e"] = w["e"]
+    if w.get("z"):
+        out["z"] = w["z"]
+    return out
 
 
 def slim_book(book: dict) -> dict:
@@ -846,16 +851,19 @@ def slim_book(book: dict) -> dict:
 def hydrate_book(data: dict) -> dict:
     words = []
     for i, w in enumerate(data.get("words") or [], 1):
-        words.append(
-            make_word(
-                i,
-                w.get("w") or "",
-                w.get("p") or "",
-                w.get("i") or "",
-                w.get("c") or "",
-                w.get("t") or "",
-            )
+        nw = make_word(
+            i,
+            w.get("w") or "",
+            w.get("p") or "",
+            w.get("i") or "",
+            w.get("c") or "",
+            w.get("t") or "",
         )
+        if w.get("e"):
+            nw["e"] = w["e"]
+        if w.get("z"):
+            nw["z"] = w["z"]
+        words.append(nw)
     data = dict(data)
     data["words"] = words
     return data

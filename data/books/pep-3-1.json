@@ -41,742 +41,954 @@
       "p": "n",
       "i": "neɪm",
       "c": "名字",
-      "t": "u1"
+      "t": "u1",
+      "e": "Did I pronounce your name correctly?",
+      "z": "我把你的名字读对了吗？"
     },
     {
       "w": "nice",
       "p": "adj",
       "i": "naɪs",
       "c": "好的；令人愉快的",
-      "t": "u1"
+      "t": "u1",
+      "e": "It was nice of them to invite us.",
+      "z": "他们真好，邀请了我们。"
     },
     {
       "w": "ear",
       "p": "n",
       "i": "ɪə(r)",
       "c": "耳朵",
-      "t": "u1"
+      "t": "u1",
+      "e": "She tweaked his ear playfully.",
+      "z": "她拧他的耳朵逗着玩儿。"
     },
     {
       "w": "hand",
       "p": "n",
       "i": "hænd",
       "c": "手",
-      "t": "u1"
+      "t": "u1",
+      "e": "He gave my hand a little squeeze.",
+      "z": "他轻轻捏了捏我的手。"
     },
     {
       "w": "eye",
       "p": "n",
       "i": "aɪ",
       "c": "眼睛",
-      "t": "u1"
+      "t": "u1",
+      "e": "A surgeon needs a good eye and a steady hand.",
+      "z": "做外科医生眼要准，手要稳。"
     },
     {
       "w": "mouth",
       "p": "n",
       "i": "maʊθ",
       "c": "嘴",
-      "t": "u1"
+      "t": "u1",
+      "e": "She popped a mint into her mouth.",
+      "z": "她往嘴里丢了块儿薄荷糖。"
     },
     {
       "w": "arm",
       "p": "n",
       "i": "ɑːm",
       "c": "胳膊",
-      "t": "u1"
+      "t": "u1",
+      "e": "She linked her arm through his.",
+      "z": "她用自己的胳膊挽住他的胳膊。"
     },
     {
       "w": "can",
       "p": "aux",
       "i": "kæn",
       "c": "能；会",
-      "t": "u1"
+      "t": "u1",
+      "e": "You can all come? Excellent!",
+      "z": "你们都能来？太好了！"
     },
     {
       "w": "share",
       "p": "n & v",
       "i": "ʃeə(r)",
       "c": "分享",
-      "t": "u1"
+      "t": "u1",
+      "e": "We should aim for a bigger share of the market.",
+      "z": "我们应该努力争取更大的市场份额。"
     },
     {
       "w": "smile",
       "p": "v",
       "i": "smaɪl",
       "c": "微笑",
-      "t": "u1"
+      "t": "u1",
+      "e": "Ron gave her a knowing smile.",
+      "z": "罗恩向她报以一个会意的微笑。"
     },
     {
       "w": "listen",
       "p": "v",
       "i": "ˈlɪsn",
       "c": "听",
-      "t": "u1"
+      "t": "u1",
+      "e": "Heidi stood still to listen.",
+      "z": "海蒂静静地站着听。"
     },
     {
       "w": "help",
       "p": "v",
       "i": "help",
       "c": "帮助",
-      "t": "u1"
+      "t": "u1",
+      "e": "I felt duty-bound to help him.",
+      "z": "我觉得帮助他责无旁贷。"
     },
     {
       "w": "say",
       "p": "v",
       "i": "seɪ",
       "c": "说",
-      "t": "u1"
+      "t": "u1",
+      "e": "Could you say it again, please?",
+      "z": "请再说一遍好吗？"
     },
     {
       "w": "friend",
       "p": "n",
       "i": "frend",
       "c": "朋友",
-      "t": "u1"
+      "t": "u1",
+      "e": "The new librarian is a friend of mine.",
+      "z": "这位新来的图书管理员是我的朋友。"
     },
     {
       "w": "good",
       "p": "adj",
       "i": "ɡʊd",
       "c": "好的",
-      "t": "u1"
+      "t": "u1",
+      "e": "It was very good of you to come.",
+      "z": "你能来真是太好了。"
     },
     {
       "w": "mum",
       "p": "n",
       "i": "mʌm",
       "c": "妈妈",
-      "t": "u2"
+      "t": "u2",
+      "e": "Dear mum, happy Mother's Day!",
+      "z": "亲爱的妈妈，母亲节快乐！"
     },
     {
       "w": "dad",
       "p": "n",
       "i": "dæd",
       "c": "爸爸",
-      "t": "u2"
+      "t": "u2",
+      "e": "Every Saturday dad made a beautiful pea and ham soup.",
+      "z": "每个星期六爸爸都做一道鲜美的豌豆火腿汤。"
     },
     {
       "w": "grandma",
       "p": "n",
       "i": "ˈɡrænmɑː",
       "c": "奶奶；外婆",
-      "t": "u2"
+      "t": "u2",
+      "e": "Grandma was from Scotland.",
+      "z": "奶奶来自苏格兰。"
     },
     {
       "w": "grandpa",
       "p": "n",
       "i": "ˈɡrænpɑː",
       "c": "爷爷；外公",
-      "t": "u2"
+      "t": "u2",
+      "e": "I love and miss my grandpa.",
+      "z": "我很爱我的爷爷，我也很怀念他。"
     },
     {
       "w": "grandfather",
       "p": "n",
       "i": "ˈɡrænfɑːðə(r)",
       "c": "祖父",
-      "t": "u2"
+      "t": "u2",
+      "e": "Charles displays unreserved admiration for his grandfather.",
+      "z": "查尔斯对他祖父表现出毫不保留的崇敬。"
     },
     {
       "w": "grandmother",
       "p": "n",
       "i": "ˈɡrænmʌðə(r)",
       "c": "祖母",
-      "t": "u2"
+      "t": "u2",
+      "e": "He often runs errands for his grandmother.",
+      "z": "他经常给他的祖母跑腿儿。"
     },
     {
       "w": "mother",
       "p": "n",
       "i": "ˈmʌðə(r)",
       "c": "母亲",
-      "t": "u2"
+      "t": "u2",
+      "e": "My mother drove us to the airport.",
+      "z": "我母亲开车把我们送到了机场。"
     },
     {
       "w": "father",
       "p": "n",
       "i": "ˈfɑːðə(r)",
       "c": "父亲",
-      "t": "u2"
+      "t": "u2",
+      "e": "He's the image of his father.",
+      "z": "他酷似他的父亲。"
     },
     {
       "w": "me",
       "p": "pron",
       "i": "miː",
       "c": "我",
-      "t": "u2"
+      "t": "u2",
+      "e": "That sounds great. Deal me in!",
+      "z": "这听起来太棒了。算我一个！"
     },
     {
       "w": "sister",
       "p": "n",
       "i": "ˈsɪstə(r)",
       "c": "姐妹",
-      "t": "u2"
+      "t": "u2",
+      "e": "And how is my sainted sister?",
+      "z": "我那大好人姐姐怎么样？"
     },
     {
       "w": "family",
       "p": "n",
       "i": "ˈfæməli",
       "c": "家庭",
-      "t": "u2"
+      "t": "u2",
+      "e": "My family means everything to me.",
+      "z": "对我来说家庭意味着一切。"
     },
     {
       "w": "have",
       "p": "v",
       "i": "hæv",
       "c": "有",
-      "t": "u2"
+      "t": "u2",
+      "e": "They have three small children.",
+      "z": "他们有三个年幼的孩子。"
     },
     {
       "w": "big",
       "p": "adj",
       "i": "bɪɡ",
       "c": "大的",
-      "t": "u2"
+      "t": "u2",
+      "e": "The band has hit big in the US.",
+      "z": "乐队在美国大获成功。"
     },
     {
       "w": "cousin",
       "p": "n",
       "i": "ˈkʌzn",
       "c": "堂/表兄弟姐妹",
-      "t": "u2"
+      "t": "u2",
+      "e": "Eric was my cousin Edward's boy.",
+      "z": "埃里克是我堂兄爱德华的儿子。"
     },
     {
       "w": "brother",
       "p": "n",
       "i": "ˈbrʌðə(r)",
       "c": "兄；弟",
-      "t": "u2"
+      "t": "u2",
+      "e": "He loved his brother deeply.",
+      "z": "他深爱自己的哥哥。"
     },
     {
       "w": "baby",
       "p": "n",
       "i": "ˈbeɪbi",
       "c": "婴儿",
-      "t": "u2"
+      "t": "u2",
+      "e": "We're expecting our first baby.",
+      "z": "我们要生第一个孩子了。"
     },
     {
       "w": "uncle",
       "p": "n",
       "i": "ˈʌŋkl",
       "c": "叔叔；舅舅",
-      "t": "u2"
+      "t": "u2",
+      "e": "My uncle taught me to juggle.",
+      "z": "我叔叔教我玩杂耍。"
     },
     {
       "w": "aunt",
       "p": "n",
       "i": "ɑːnt",
       "c": "姑姑；阿姨",
-      "t": "u2"
+      "t": "u2",
+      "e": "This is my aunt who's over from Canada.",
+      "z": "这是我姑姑，她是从加拿大过来的。"
     },
     {
       "w": "small",
       "p": "adj",
       "i": "smɔːl",
       "c": "小的",
-      "t": "u2"
+      "t": "u2",
+      "e": "Although small, the kitchen is well designed.",
+      "z": "厨房虽小，但设计巧妙。"
     },
     {
       "w": "like",
       "p": "v, prep & adv",
       "i": "laɪk",
       "c": "喜欢",
-      "t": "u3"
+      "t": "u3",
+      "e": "The lights shone like diamonds.",
+      "z": "灯光像钻石一样闪闪发亮。"
     },
     {
       "w": "dog",
       "p": "n",
       "i": "dɒɡ",
       "c": "狗",
-      "t": "u3"
+      "t": "u3",
+      "e": "The dog gave me a playful bite.",
+      "z": "狗闹着玩地咬了我一下。"
     },
     {
       "w": "pet",
       "p": "n",
       "i": "pet",
       "c": "宠物",
-      "t": "u3"
+      "t": "u3",
+      "e": "A child first labels the household pet cat as a \"cat\" and then generalizes this label to other animals that look like it.",
+      "z": "孩子先把家养的宠物猫称为“猫”，然后把这个称呼扩大到其他看起来像猫的动物。"
     },
     {
       "w": "cat",
       "p": "n",
       "i": "kæt",
       "c": "猫",
-      "t": "u3"
+      "t": "u3",
+      "e": "Can you feed the cat, please?",
+      "z": "请你喂一下猫好吗？"
     },
     {
       "w": "fish",
       "p": "n & v",
       "i": "fɪʃ",
       "c": "鱼",
-      "t": "u3"
+      "t": "u3",
+      "e": "The fish was cooked to perfection.",
+      "z": "这鱼烹得恰到好处。"
     },
     {
       "w": "bird",
       "p": "n",
       "i": "bɜːd",
       "c": "鸟",
-      "t": "u3"
+      "t": "u3",
+      "e": "The bird fanned out its tail feathers.",
+      "z": "这只鸟把尾羽展成扇形。"
     },
     {
       "w": "rabbit",
       "p": "n",
       "i": "ˈræbɪt",
       "c": "兔子",
-      "t": "u3"
+      "t": "u3",
+      "e": "She jumped back like a startled rabbit.",
+      "z": "她像受惊的兔子似的跳了回去。"
     },
     {
       "w": "go",
       "p": "v",
       "i": "ɡəʊ",
       "c": "去",
-      "t": "u3"
+      "t": "u3",
+      "e": "Let's go fishing this weekend.",
+      "z": "咱们这个周末去钓鱼吧。"
     },
     {
       "w": "zoo",
       "p": "n",
       "i": "zuː",
       "c": "动物园",
-      "t": "u3"
+      "t": "u3",
+      "e": "I thought we might go to the zoo on Saturday.",
+      "z": "我觉得周六我们可以去动物园。"
     },
     {
       "w": "fox",
       "p": "n & v",
       "i": "fɒks",
       "c": "狐狸",
-      "t": "u3"
+      "t": "u3",
+      "e": "He was as cunning as a fox.",
+      "z": "他像狐狸一样狡猾。"
     },
     {
       "w": "Miss",
       "p": "n",
       "i": "mɪs",
       "c": "小姐；（女）老师",
-      "t": "u3"
+      "t": "u3",
+      "e": "Miss Li has taught us English for 3 years.",
+      "z": "李老师教我们英语已有三年了。"
     },
     {
       "w": "panda",
       "p": "n",
       "i": "ˈpændə",
       "c": "大熊猫",
-      "t": "u3"
+      "t": "u3",
+      "e": "I have spotted the panda!",
+      "z": "我看见了熊猫！"
     },
     {
       "w": "cute",
       "p": "adj",
       "i": "kjuːt",
       "c": "可爱的",
-      "t": "u3"
+      "t": "u3",
+      "e": "Young kangaroos are very cute.",
+      "z": "袋鼠幼仔非常可爱。"
     },
     {
       "w": "monkey",
       "p": "n",
       "i": "ˈmʌŋki",
       "c": "猴子",
-      "t": "u3"
+      "t": "u3",
+      "e": "You cheeky monkey!",
+      "z": "你这厚脸皮的猴崽子！"
     },
     {
       "w": "tiger",
       "p": "n",
       "i": "ˈtaɪɡə(r)",
       "c": "老虎",
-      "t": "u3"
+      "t": "u3",
+      "e": "The tiger prowled through the undergrowth.",
+      "z": "老虎悄然穿过矮树丛。"
     },
     {
       "w": "elephant",
       "p": "n",
       "i": "ˈelɪfənt",
       "c": "大象",
-      "t": "u3"
+      "t": "u3",
+      "e": "The elephant flapped its ears.",
+      "z": "大象拍打着双耳。"
     },
     {
       "w": "lion",
       "p": "n",
       "i": "ˈlaɪən",
       "c": "狮子",
-      "t": "u3"
+      "t": "u3",
+      "e": "The lion is the king of the jungle.",
+      "z": "狮子是丛林之王。"
     },
     {
       "w": "animal",
       "p": "n",
       "i": "ˈænɪml",
       "c": "动物",
-      "t": "u3"
+      "t": "u3",
+      "e": "The dolphin is an intelligent animal.",
+      "z": "海豚是聪明的动物。"
     },
     {
       "w": "giraffe",
       "p": "n",
       "i": "dʒəˈrɑːf",
       "c": "长颈鹿",
-      "t": "u3"
+      "t": "u3",
+      "e": "You have two giraffe toys.",
+      "z": "你有两个长颈鹿玩具。"
     },
     {
       "w": "tall",
       "p": "adj",
       "i": "tɔːl",
       "c": "高的",
-      "t": "u3"
+      "t": "u3",
+      "e": "You're as tall as your father.",
+      "z": "你和你父亲一样高。"
     },
     {
       "w": "fast",
       "p": "adj & adv",
       "i": "fɑːst",
       "c": "快的",
-      "t": "u3"
+      "t": "u3",
+      "e": "Don't go too fast —gently does it!",
+      "z": "别太快—慢点吧！"
     },
     {
       "w": "apple",
       "p": "n",
       "i": "ˈæpl",
       "c": "苹果",
-      "t": "u4"
+      "t": "u4",
+      "e": "He ate the apple, stalk and all.",
+      "z": "他把那个苹果吃了个干净，连梗都没剩下。"
     },
     {
       "w": "banana",
       "p": "n",
       "i": "bəˈnɑːnə",
       "c": "香蕉",
-      "t": "u4"
+      "t": "u4",
+      "e": "He slipped on a banana skin.",
+      "z": "他踩在香蕉皮上滑倒了。"
     },
     {
       "w": "farm",
       "p": "n",
       "i": "fɑːm",
       "c": "农场",
-      "t": "u4"
+      "t": "u4",
+      "e": "It's a lovely old farm.",
+      "z": "那是个宜人的老农场。"
     },
     {
       "w": "air",
       "p": "n",
       "i": "eə(r)",
       "c": "空气",
-      "t": "u4"
+      "t": "u4",
+      "e": "The helicopter rose into the air.",
+      "z": "直升机升上了天空。"
     },
     {
       "w": "orange",
       "p": "adj & n",
       "i": "ˈɒrɪndʒ",
       "c": "橙子；橙色的",
-      "t": "u4"
+      "t": "u4",
+      "e": "I plucked an orange from the tree.",
+      "z": "我从树上摘了一个橙子。"
     },
     {
       "w": "grape",
       "p": "n",
       "i": "ɡreɪp",
       "c": "葡萄",
-      "t": "u4"
+      "t": "u4",
+      "e": "The colouring pigments from the skins are not allowed to bleed into the grape juice.",
+      "z": "这些果皮的色素不允许掺混进葡萄汁中。"
     },
     {
       "w": "school",
       "p": "n",
       "i": "skuːl",
       "c": "学校",
-      "t": "u4"
+      "t": "u4",
+      "e": "She knows every student in the school.",
+      "z": "她认识学校里的每一个学生。"
     },
     {
       "w": "garden",
       "p": "n",
       "i": "ˈɡɑːdn",
       "c": "花园",
-      "t": "u4"
+      "t": "u4",
+      "e": "The garden blazed with colour.",
+      "z": "花园里姹紫嫣红。"
     },
     {
       "w": "need",
       "p": "v",
       "i": "niːd",
       "c": "需要",
-      "t": "u4"
+      "t": "u4",
+      "e": "We need to preserve the forest.",
+      "z": "我们需要保护森林。"
     },
     {
       "w": "water",
       "p": "n",
       "i": "ˈwɔːtə(r)",
       "c": "水",
-      "t": "u4"
+      "t": "u4",
+      "e": "The water burbled over gravel.",
+      "z": "水汩汩流过卵石。"
     },
     {
       "w": "flower",
       "p": "n",
       "i": "ˈflaʊə(r)",
       "c": "花",
-      "t": "u4"
+      "t": "u4",
+      "e": "The roses are in flower early this year.",
+      "z": "今年玫瑰花开得早。"
     },
     {
       "w": "grass",
       "p": "n",
       "i": "ɡrɑːs",
       "c": "草",
-      "t": "u4"
+      "t": "u4",
+      "e": "The grass was soft and springy.",
+      "z": "草柔软而有弹性。"
     },
     {
       "w": "plant",
       "p": "n",
       "i": "plɑːnt",
       "c": "植物；种植",
-      "t": "u4"
+      "t": "u4",
+      "e": "This plant blooms between May and June.",
+      "z": "这种植物在五六月间开花。"
     },
     {
       "w": "new",
       "p": "adj",
       "i": "njuː",
       "c": "新的",
-      "t": "u4"
+      "t": "u4",
+      "e": "Her new series is a smash hit.",
+      "z": "她的新系列节目极为成功，引起轰动。"
     },
     {
       "w": "tree",
       "p": "n",
       "i": "triː",
       "c": "树",
-      "t": "u4"
+      "t": "u4",
+      "e": "I plucked an orange from the tree.",
+      "z": "我从树上摘了一个橙子。"
     },
     {
       "w": "sun",
       "p": "n",
       "i": "sʌn",
       "c": "太阳",
-      "t": "u4"
+      "t": "u4",
+      "e": "The hot sun sapped our energy.",
+      "z": "火辣辣的太阳烤得我们虚软无力。"
     },
     {
       "w": "give",
       "p": "v",
       "i": "ɡɪv",
       "c": "给",
-      "t": "u4"
+      "t": "u4",
+      "e": "She was not going to give up her hard-won freedom so easily.",
+      "z": "她不会这么轻易地放弃得来不易的自由。"
     },
     {
       "w": "them",
       "p": "pron",
       "i": "ðem",
       "c": "它们；他们",
-      "t": "u4"
+      "t": "u4",
+      "e": "It was true love between them.",
+      "z": "他们是真心相爱。"
     },
     {
       "w": "colour",
       "p": "n",
       "i": "ˈkʌlə(r)",
       "c": "颜色",
-      "t": "u5"
+      "t": "u5",
+      "e": "What's your favourite colour?",
+      "z": "你最喜欢的颜色是什么？"
     },
     {
       "w": "orange",
       "p": "adj & n",
       "i": "ˈɒrɪndʒ",
       "c": "橙色的；橙子",
-      "t": "u5"
+      "t": "u5",
+      "e": "I plucked an orange from the tree.",
+      "z": "我从树上摘了一个橙子。"
     },
     {
       "w": "green",
       "p": "adj",
       "i": "ɡriːn",
       "c": "绿色的",
-      "t": "u5"
+      "t": "u5",
+      "e": "They painted the door a luminous green.",
+      "z": "他们把门漆成了翠绿色。"
     },
     {
       "w": "red",
       "p": "adj",
       "i": "red",
       "c": "红色的",
-      "t": "u5"
+      "t": "u5",
+      "e": "He sent her a single red rose.",
+      "z": "他送给她一支红玫瑰。"
     },
     {
       "w": "blue",
       "p": "adj",
       "i": "bluː",
       "c": "蓝色的",
-      "t": "u5"
+      "t": "u5",
+      "e": "The sky was a brilliant blue.",
+      "z": "天空一片蔚蓝。"
     },
     {
       "w": "make",
       "p": "v",
       "i": "meɪk",
       "c": "做；制作",
-      "t": "u5"
+      "t": "u5",
+      "e": "Never make your students feel ignorant.",
+      "z": "千万别让你的学生感到自己一无所知。"
     },
     {
       "w": "purple",
       "p": "n",
       "i": "ˈpɜːpl",
       "c": "紫色的",
-      "t": "u5"
+      "t": "u5",
+      "e": "Its large leaves often show a delicate purple tint.",
+      "z": "它的大叶子常现出一种柔和的淡紫色。"
     },
     {
       "w": "brown",
       "p": "adj",
       "i": "braʊn",
       "c": "棕色的",
-      "t": "u5"
+      "t": "u5",
+      "e": "He had deep-set brown eyes.",
+      "z": "他拥有一双深邃的褐色眼睛。"
     },
     {
       "w": "bear",
       "p": "n",
       "i": "beə(r)",
       "c": "熊",
-      "t": "u5"
+      "t": "u5",
+      "e": "The teddy bear was his favourite plaything.",
+      "z": "软毛玩具熊是他最心爱的玩具。"
     },
     {
       "w": "yellow",
       "p": "adj",
       "i": "ˈjeləʊ",
       "c": "黄色的",
-      "t": "u5"
+      "t": "u5",
+      "e": "The walls have been painted bright yellow.",
+      "z": "这些墙壁已被漆成亮黄色。"
     },
     {
       "w": "duck",
       "p": "n",
       "i": "dʌk",
       "c": "鸭子",
-      "t": "u5"
+      "t": "u5",
+      "e": "She chose a bench beside the duck pond and sat down.",
+      "z": "她选了鸭池旁的一张长椅坐了下来。"
     },
     {
       "w": "sea",
       "p": "n",
       "i": "siː",
       "c": "大海",
-      "t": "u5"
+      "t": "u5",
+      "e": "The sea rippled and sparkled.",
+      "z": "大海波光粼粼。"
     },
     {
       "w": "some",
       "p": "det & pron",
       "i": "sʌm",
       "c": "一些",
-      "t": "u5"
+      "t": "u5",
+      "e": "I bought some new clothes for the trip.",
+      "z": "我为这次旅行买了一些新衣服。"
     },
     {
       "w": "pink",
       "p": "adj",
       "i": "pɪŋk",
       "c": "粉色的",
-      "t": "u5"
+      "t": "u5",
+      "e": "There was a pink tinge to the sky.",
+      "z": "天空略带一点淡淡的粉红色。"
     },
     {
       "w": "draw",
       "p": "v",
       "i": "drɔː",
       "c": "画画",
-      "t": "u5"
+      "t": "u5",
+      "e": "They managed an honourable 2–2 draw.",
+      "z": "他们奋力打成了2:2平局，值得敬佩。"
     },
     {
       "w": "white",
       "p": "adj",
       "i": "waɪt",
       "c": "白色的",
-      "t": "u5"
+      "t": "u5",
+      "e": "His hair was as white as snow.",
+      "z": "他头发雪白。"
     },
     {
       "w": "black",
       "p": "adj",
       "i": "blæk",
       "c": "黑色的",
-      "t": "u5"
+      "t": "u5",
+      "e": "He holds a black belt in karate.",
+      "z": "他在空手道中得了黑带。"
     },
     {
       "w": "old",
       "p": "adj",
       "i": "əʊld",
       "c": "……岁的；旧的",
-      "t": "u6"
+      "t": "u6",
+      "e": "She has a six-year-old daughter.",
+      "z": "她有个6岁的女儿。"
     },
     {
       "w": "five",
       "p": "num",
       "i": "faɪv",
       "c": "五",
-      "t": "u6"
+      "t": "u6",
+      "e": "She brought up five children.",
+      "z": "她抚育了五个孩子。"
     },
     {
       "w": "year",
       "p": "n",
       "i": "jɪə(r)",
       "c": "年；岁",
-      "t": "u6"
+      "t": "u6",
+      "e": "She had a baby last year.",
+      "z": "她去年生了个孩子。"
     },
     {
       "w": "one",
       "p": "num",
       "i": "wʌn",
       "c": "一",
-      "t": "u6"
+      "t": "u6",
+      "e": "He's one of my dearest friends.",
+      "z": "他是我最亲密的一位朋友。"
     },
     {
       "w": "two",
       "p": "num",
       "i": "tuː",
       "c": "二",
-      "t": "u6"
+      "t": "u6",
+      "e": "The two teams were well matched.",
+      "z": "这两个队势均力敌。"
     },
     {
       "w": "three",
       "p": "num",
       "i": "θriː",
       "c": "三",
-      "t": "u6"
+      "t": "u6",
+      "e": "They have three small children.",
+      "z": "他们有三个年幼的孩子。"
     },
     {
       "w": "four",
       "p": "num",
       "i": "fɔː(r)",
       "c": "四",
-      "t": "u6"
+      "t": "u6",
+      "e": "I'm lucky in that I've got four sisters.",
+      "z": "我很幸运，因为我有四个姐妹。"
     },
     {
       "w": "ten",
       "p": "num",
       "i": "ten",
       "c": "十",
-      "t": "u6"
+      "t": "u6",
+      "e": "It's the first letter I've had in ten days.",
+      "z": "这是我十天来收到的第一封信。"
     },
     {
       "w": "six",
       "p": "num",
       "i": "sɪks",
       "c": "六",
-      "t": "u6"
+      "t": "u6",
+      "e": "Do you know your six times table?",
+      "z": "你会背六的乘法口诀吗？"
     },
     {
       "w": "seven",
       "p": "num",
       "i": "ˈsevn",
       "c": "七",
-      "t": "u6"
+      "t": "u6",
+      "e": "Two plus five is seven.",
+      "z": "二加五等于七。"
     },
     {
       "w": "eight",
       "p": "num",
       "i": "eɪt",
       "c": "八",
-      "t": "u6"
+      "t": "u6",
+      "e": "Wake up! It's eight o'clock.",
+      "z": "醒醒吧！已经八点钟了。"
     },
     {
       "w": "nine",
       "p": "num",
       "i": "naɪn",
       "c": "九",
-      "t": "u6"
+      "t": "u6",
+      "e": "They have two children aged six and nine.",
+      "z": "他们有两个小孩，一个六岁，一个九岁。"
     },
     {
       "w": "o'clock",
       "p": "adv",
       "i": "əˈklɒk",
       "c": "……点钟",
-      "t": "u6"
+      "t": "u6",
+      "e": "The clock said three o'clock.",
+      "z": "时钟显示三点整。"
     },
     {
       "w": "cut",
       "p": "v",
       "i": "kʌt",
       "c": "切",
-      "t": "u6"
+      "t": "u6",
+      "e": "You've had your hair cut!",
+      "z": "你理发了！"
     },
     {
       "w": "eat",
       "p": "v",
       "i": "iːt",
       "c": "吃",
-      "t": "u6"
+      "t": "u6",
+      "e": "Let's eat our picnic by the lake.",
+      "z": "咱们到湖边去吃野餐吧。"
     },
     {
       "w": "cake",
       "p": "n",
       "i": "keɪk",
       "c": "蛋糕",
-      "t": "u6"
+      "t": "u6",
+      "e": "That cake looks very tempting.",
+      "z": "那蛋糕的样子让人嘴馋。"
     }
   ],
   "grade": 3,

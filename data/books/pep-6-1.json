@@ -41,910 +41,1170 @@
       "p": "n",
       "i": "'saɪəns",
       "c": "科学",
-      "t": "u1"
+      "t": "u1",
+      "e": "The progress of science is unstoppable.",
+      "z": "科学的进步是无法阻挡的。"
     },
     {
       "w": "museum",
       "p": "n",
       "i": "mjuː'zɪəm",
       "c": "博物馆",
-      "t": "u1"
+      "t": "u1",
+      "e": "Entry to the museum is free.",
+      "z": "这座博物馆免费参观。"
     },
     {
       "w": "post office",
       "p": "n",
       "i": "ˈpəust ɔfis",
       "c": "邮局",
-      "t": "u1"
+      "t": "u1",
+      "e": "I went round to the post office.",
+      "z": "我到邮局去了一趟。"
     },
     {
       "w": "bookstore",
       "p": "n",
       "i": "'bʊkstɔː",
       "c": "书店",
-      "t": "u1"
+      "t": "u1",
+      "e": "Later we went to the bookstore.",
+      "z": "后来，我们还去了书店。"
     },
     {
       "w": "cinema",
       "p": "n",
       "i": "ˈsɪnəmɑ:ˈsɪnəmə",
       "c": "电影院",
-      "t": "u1"
+      "t": "u1",
+      "e": "Let's go to the cinema— there's a good film on this week.",
+      "z": "咱们去看电影吧，本周在上映一部好片子。"
     },
     {
       "w": "hospital",
       "p": "n",
       "i": "'hɒspɪt(ə)l",
       "c": "医院",
-      "t": "u1"
+      "t": "u1",
+      "e": "The new hospital opens on July 1st.",
+      "z": "这家新医院七月一日开诊。"
     },
     {
       "w": "crossing",
       "p": "n",
       "i": "'krɒsɪŋ",
       "c": "十字路口",
-      "t": "u1"
+      "t": "u1",
+      "e": "Go along this street and turn left at the second crossing.",
+      "z": "沿着这条街直走，在第二个十字路口左转。"
     },
     {
       "w": "turn",
       "p": "v",
       "i": "tɜːn",
       "c": "转弯",
-      "t": "u1"
+      "t": "u1",
+      "e": "Can you turn the music lower—you'll wake the baby.",
+      "z": "能不能把音乐放小点，别把孩子吵醒了。"
     },
     {
       "w": "left",
       "p": "n, adj & adv",
       "i": "left",
       "c": "左",
-      "t": "u1"
+      "t": "u1",
+      "e": "I left the island with a light heart.",
+      "z": "我怀着愉快的心情离开了那个小岛。"
     },
     {
       "w": "on foot",
       "p": "phr",
       "i": "",
       "c": "步行",
-      "t": "u2"
+      "t": "u2",
+      "e": "I left my car in a lay-by and set off on foot.",
+      "z": "我把车留在路侧停车带，开始步行。"
     },
     {
       "w": "by",
       "p": "prep",
       "i": "baɪ",
       "c": "乘",
-      "t": "u2"
+      "t": "u2",
+      "e": "I was astounded by its beauty.",
+      "z": "我被它的美丽震撼了。"
     },
     {
       "w": "bus",
       "p": "n",
       "i": "bʌs",
       "c": "公共汽车",
-      "t": "u2"
+      "t": "u2",
+      "e": "We caught the last bus home.",
+      "z": "我们赶上了回家的末班公共汽车。"
     },
     {
       "w": "plane",
       "p": "n",
       "i": "pleɪn",
       "c": "飞机",
-      "t": "u2"
+      "t": "u2",
+      "e": "The plane made a smooth landing.",
+      "z": "飞机平稳降落。"
     },
     {
       "w": "taxi",
       "p": "n",
       "i": "'tæksɪ",
       "c": "出租汽车",
-      "t": "u2"
+      "t": "u2",
+      "e": "The taxi showed up on the dot.",
+      "z": "出租车准时到了。"
     },
     {
       "w": "ship",
       "p": "n",
       "i": "ʃɪp",
       "c": "船",
-      "t": "u2"
+      "t": "u2",
+      "e": "The ship sliced the water.",
+      "z": "船破浪前进。"
     },
     {
       "w": "subway",
       "p": "n",
       "i": "'sʌbweɪ",
       "c": "地铁",
-      "t": "u2"
+      "t": "u2",
+      "e": "The subway is efficient and spotlessly clean.",
+      "z": "地铁快，而且一尘不染。"
     },
     {
       "w": "train",
       "p": "n",
       "i": "treɪn",
       "c": "火车",
-      "t": "u2"
+      "t": "u2",
+      "e": "The train drew into the station.",
+      "z": "火车徐徐驶入车站。"
     },
     {
       "w": "slow",
       "p": "adj",
       "i": "sləʊ",
       "c": "慢的",
-      "t": "u2"
+      "t": "u2",
+      "e": "Oh you're so slow; come on, hurry up!",
+      "z": "哎哟，你可真慢；加把劲，快点！"
     },
     {
       "w": "down",
       "p": "adv & prep",
       "i": "daʊn",
       "c": "减少",
-      "t": "u2"
+      "t": "u2",
+      "e": "He danced off down the road.",
+      "z": "他沿着马路蹦蹦跳跳地走了。"
     },
     {
       "w": "slow down",
       "p": "phr",
       "i": "",
       "c": "慢下来",
-      "t": "u2"
+      "t": "u2",
+      "e": "How can we slow down time?",
+      "z": "我们怎样才能让时间慢下来？"
     },
     {
       "w": "stop",
       "p": "n & v",
       "i": "stɒp",
       "c": "停下",
-      "t": "u2"
+      "t": "u2",
+      "e": "Let's stop and ask for directions.",
+      "z": "咱们停下来问问路吧。"
     },
     {
       "w": "Mrs",
       "p": "n",
       "i": "ˈmɪsɪz",
       "c": "夫人",
-      "t": "u2"
+      "t": "u2",
+      "e": "I promised to babysit for Mrs. Plunkett.",
+      "z": "我答应了为普伦基特太太临时照看孩子。"
     },
     {
       "w": "early",
       "p": "adj & adv",
       "i": "'ɜːlɪ",
       "c": "早到的",
-      "t": "u2"
+      "t": "u2",
+      "e": "Let's make an early start tomorrow.",
+      "z": "咱们明天一早就出发吧。"
     },
     {
       "w": "helmet",
       "p": "n",
       "i": "'helmɪt",
       "c": "头盔",
-      "t": "u2"
+      "t": "u2",
+      "e": "He locked his helmet into position with a click.",
+      "z": "他喀哒一声把头盔扣好。"
     },
     {
       "w": "must",
       "p": "aux",
       "i": "mʌst",
       "c": "必须",
-      "t": "u2"
+      "t": "u2",
+      "e": "Your trip must have been fun!",
+      "z": "你这次旅行一定很开心吧！"
     },
     {
       "w": "wear",
       "p": "v",
       "i": "weə",
       "c": "戴",
-      "t": "u2"
+      "t": "u2",
+      "e": "What you wear speaks volumes about you.",
+      "z": "你的穿戴能充分表明你的方方面面。"
     },
     {
       "w": "attention",
       "p": "n",
       "i": "ə'tenʃ(ə)n",
       "c": "注意",
-      "t": "u2"
+      "t": "u2",
+      "e": "You have my undivided attention.",
+      "z": "我全部的注意力都在你身上。"
     },
     {
       "w": "pay attention to",
       "p": "phr",
       "i": "",
       "c": "注意",
-      "t": "u2"
+      "t": "u2",
+      "e": "You should always pay attention to personal grooming.",
+      "z": "你应随时注意个人仪容。"
     },
     {
       "w": "traffic",
       "p": "n",
       "i": "'træfɪk",
       "c": "交通",
-      "t": "u2"
+      "t": "u2",
+      "e": "If we go early we should beat the traffic.",
+      "z": "我们早点出发就会避开交通拥挤。"
     },
     {
       "w": "traffic lights",
       "p": "n pl",
       "i": "",
       "c": "交通信号灯",
-      "t": "u2"
+      "t": "u2",
+      "e": "Turn left at the traffic lights.",
+      "z": "在交通信号灯处向左拐。"
     },
     {
       "w": "Munich",
       "p": "n",
       "i": "'mju:nik",
       "c": "慕尼黑",
-      "t": "u2"
+      "t": "u2",
+      "e": "The CIA had requested our help to penetrate a drug ring operating out of Munich.",
+      "z": "中情局曾要求我们协助打入在慕尼黑外活动的一个贩毒团伙。"
     },
     {
       "w": "Germany",
       "p": "n",
       "i": "'dʒɜːmənɪ",
       "c": "德国",
-      "t": "u2"
+      "t": "u2",
+      "e": "Germany ran Argentina very close in the final.",
+      "z": "在决赛中，德国队发挥得几乎和阿根廷队一样出色。"
     },
     {
       "w": "Alaska",
       "p": "n",
       "i": "ə'læskə",
       "c": "阿拉斯加州",
-      "t": "u2"
+      "t": "u2",
+      "e": "The weather is a constant topic of conversation in Alaska.",
+      "z": "天气在阿拉斯加是一个永恒的交谈话题。"
     },
     {
       "w": "sled",
       "p": "n",
       "i": "sled",
       "c": "雪橇",
-      "t": "u2"
+      "t": "u2",
+      "e": "We can see a sled in the store.",
+      "z": "我们看到玩具店有一辆雪橇车。"
     },
     {
       "w": "fast",
       "p": "adj & adv",
       "i": "fɑːst",
       "c": "快的",
-      "t": "u2"
+      "t": "u2",
+      "e": "Don't go too fast —gently does it!",
+      "z": "别太快—慢点吧！"
     },
     {
       "w": "ferry",
       "p": "n",
       "i": "'ferɪ",
       "c": "轮渡",
-      "t": "u2"
+      "t": "u2",
+      "e": "We caught the ferry at Ostend.",
+      "z": "我们在奥斯坦德及时赶上了渡船。"
     },
     {
       "w": "Papa Westray",
       "p": "n",
       "i": "",
       "c": "帕帕韦斯特雷岛",
-      "t": "u2"
+      "t": "u2",
+      "e": "Papa Westray has a population of just 70 and no secondary school.",
+      "z": "帕帕·韦斯·特雷岛人口只有70，岛上没有中学。"
     },
     {
       "w": "Scotland",
       "p": "n",
       "i": "'skɔtlənd",
       "c": "苏格兰",
-      "t": "u2"
+      "t": "u2",
+      "e": "I felt homesick for Scotland.",
+      "z": "我思念故乡苏格兰。"
     },
     {
       "w": "visit",
       "p": "v",
       "i": "'vɪzɪt",
       "c": "拜访",
-      "t": "u3"
+      "t": "u3",
+      "e": "The museum is certainly worth a visit.",
+      "z": "这家博物馆的确值得参观。"
     },
     {
       "w": "film",
       "p": "n",
       "i": "fɪlm",
       "c": "电影",
-      "t": "u3"
+      "t": "u3",
+      "e": "I enjoyed this film immensely.",
+      "z": "我非常喜欢这部电影。"
     },
     {
       "w": "see a film",
       "p": "phr",
       "i": "",
       "c": "看电影",
-      "t": "u3"
+      "t": "u3",
+      "e": "Shall we go to see a film this evening?",
+      "z": "我们今晚去看电影好吗？"
     },
     {
       "w": "trip",
       "p": "n",
       "i": "trɪp",
       "c": "旅行",
-      "t": "u3"
+      "t": "u3",
+      "e": "Your trip must have been fun!",
+      "z": "你这次旅行一定很开心吧！"
     },
     {
       "w": "take a trip",
       "p": "phr v",
       "i": "",
       "c": "去旅行",
-      "t": "u3"
+      "t": "u3",
+      "e": "It'd be fun, after the situation in Europe settles down, to take a trip to France.",
+      "z": "欧洲局势平定下来之后，去法国旅行将会很好玩。"
     },
     {
       "w": "supermarket",
       "p": "n",
       "i": "'suːpəmɑːkɪt; 'sjuː-",
       "c": "超市",
-      "t": "u3"
+      "t": "u3",
+      "e": "The supermarket fired the first shot in a price war today.",
+      "z": "今天，这家超市打响了价格战的头一炮。"
     },
     {
       "w": "evening",
       "p": "n",
       "i": "'iːv(ə)nɪŋ",
       "c": "晚上",
-      "t": "u3"
+      "t": "u3",
+      "e": "The evening breeze ruffled the pond.",
+      "z": "那傍晚的微风吹皱了水塘的表面。"
     },
     {
       "w": "tonight",
       "p": "n & adv",
       "i": "tə'naɪt",
       "c": "今晚",
-      "t": "u3"
+      "t": "u3",
+      "e": "Let's go dancing tonight.",
+      "z": "我们今晚去跳舞吧。"
     },
     {
       "w": "tomorrow",
       "p": "n & adv",
       "i": "tə'mɒrəʊ",
       "c": "明天",
-      "t": "u3"
+      "t": "u3",
+      "e": "I'm flying to Hong Kong tomorrow.",
+      "z": "明天我要乘飞机去香港。"
     },
     {
       "w": "next week",
       "p": "phr",
       "i": "nekst wi:k",
       "c": "下周",
-      "t": "u3"
+      "t": "u3",
+      "e": "We commence building next week.",
+      "z": "我们下周破土动工。"
     },
     {
       "w": "dictionary",
       "p": "n",
       "i": "'dɪkʃ(ə)n(ə)rɪ",
       "c": "词典",
-      "t": "u3"
+      "t": "u3",
+      "e": "Can you suggest a good dictionary?",
+      "z": "你能推荐一本好词典吗？"
     },
     {
       "w": "comic",
       "p": "n",
       "i": "'kɒmɪk",
       "c": "滑稽的",
-      "t": "u3"
+      "t": "u3",
+      "e": "The novel is comic and tragic.",
+      "z": "这本小说兼有喜剧和悲剧的特点。"
     },
     {
       "w": "comic book",
       "p": "phr",
       "i": "",
       "c": "连环画",
-      "t": "u3"
+      "t": "u3",
+      "e": "He is looking for his comic book.",
+      "z": "他在找他的漫画书。"
     },
     {
       "w": "word",
       "p": "n",
       "i": "wɜːd",
       "c": "单词",
-      "t": "u3"
+      "t": "u3",
+      "e": "Kate's word was law in the Brown household.",
+      "z": "凯特的话在布朗家就是金科玉律。"
     },
     {
       "w": "word book",
       "p": "phr",
       "i": "'wɜːdbʊk",
       "c": "单词书",
-      "t": "u3"
+      "t": "u3",
+      "e": "Keith has also written a 10,000-word book using the technique.",
+      "z": "基斯还利用这个技巧创作出了一部1万字的书。"
     },
     {
       "w": "post card",
       "p": "phr",
       "i": "",
       "c": "明信片",
-      "t": "u3"
+      "t": "u3",
+      "e": "Nearby, another post card fishing village awaits you: Peggy's Cove.",
+      "z": "附近，另一个如明信片般美丽的渔村恭候你的光临-佩吉湾。"
     },
     {
       "w": "lesson",
       "p": "n",
       "i": "'les(ə)n",
       "c": "课",
-      "t": "u3"
+      "t": "u3",
+      "e": "Do you have a PE lesson on Friday?",
+      "z": "你们周五有体育课吗？"
     },
     {
       "w": "space",
       "p": "n",
       "i": "speɪs",
       "c": "太空",
-      "t": "u3"
+      "t": "u3",
+      "e": "The vastness of space really boggles the mind.",
+      "z": "太空之辽阔的确使人难以想象。"
     },
     {
       "w": "travel",
       "p": "v",
       "i": "'træv(ə)l",
       "c": "旅行",
-      "t": "u3"
+      "t": "u3",
+      "e": "We spent hours poring over travel brochures.",
+      "z": "我们花了几个小时仔细研究旅游宣传册。"
     },
     {
       "w": "half",
       "p": "n & pron",
       "i": "hɑːf",
       "c": "一半",
-      "t": "u3"
+      "t": "u3",
+      "e": "I never walk out on a job half done.",
+      "z": "我做工作从不半途而废。"
     },
     {
       "w": "price",
       "p": "n",
       "i": "praɪs",
       "c": "价格",
-      "t": "u3"
+      "t": "u3",
+      "e": "We want peace at any price.",
+      "z": "为了争取和平，我们不惜任何代价。"
     },
     {
       "w": "Mid-Autumn Festival",
       "p": "n",
       "i": "",
       "c": "中秋节",
-      "t": "u3"
+      "t": "u3",
+      "e": "Where are Tom's parents going for the Mid-Autumn Festival?",
+      "z": "汤姆的父母中秋节要去哪里？"
     },
     {
       "w": "together",
       "p": "adv",
       "i": "tə'geðə",
       "c": "一起",
-      "t": "u3"
+      "t": "u3",
+      "e": "We spent a blissful week together.",
+      "z": "我们在一起度过了极为幸福的一周。"
     },
     {
       "w": "get together",
       "p": "phr v",
       "i": "",
       "c": "聚会",
-      "t": "u3"
+      "t": "u3",
+      "e": "We get together to enjoy the moon and eat moon cakes.",
+      "z": "我们聚在一起赏月和吃月饼。"
     },
     {
       "w": "mooncake",
       "p": "n",
       "i": "'mu:nkeɪk",
       "c": "月饼",
-      "t": "u3"
+      "t": "u3",
+      "e": "I ate one quarter of a mooncake.",
+      "z": "我吃了四分之一的月饼。"
     },
     {
       "w": "poem",
       "p": "n",
       "i": "'pəʊɪm",
       "c": "诗",
-      "t": "u3"
+      "t": "u3",
+      "e": "He read the poem aloud.",
+      "z": "他朗读了这首诗。"
     },
     {
       "w": "moon",
       "p": "n",
       "i": "muːn",
       "c": "月亮",
-      "t": "u3"
+      "t": "u3",
+      "e": "Our way was lit by a full moon.",
+      "z": "一轮明月照亮了我们的路。"
     },
     {
       "w": "studies",
       "p": "n pl",
       "i": "'stʌdiz",
       "c": "学习",
-      "t": "u3"
+      "t": "u3",
+      "e": "Recent medical studies confirm the efficacy of a healthier lifestyle.",
+      "z": "近来的医学研究证实了更健康的生活方式的功效。"
     },
     {
       "w": "puzzle",
       "p": "n & v",
       "i": "'pʌz(ə)l",
       "c": "谜",
-      "t": "u3"
+      "t": "u3",
+      "e": "We invited readers who completed the puzzle to send in their solutions.",
+      "z": "我们邀请解完谜的读者交出谜底。"
     },
     {
       "w": "hiking",
       "p": "v",
       "i": "'haɪkɪŋ",
       "c": "远足",
-      "t": "u3"
+      "t": "u3",
+      "e": "Her hobbies include hiking and photography.",
+      "z": "她的业余爱好包括徒步旅行和摄影。"
     },
     {
       "w": "pen pal",
       "p": "phr",
       "i": "",
       "c": "笔友",
-      "t": "u4"
+      "t": "u4",
+      "e": "Maybe you should find a pen pal.",
+      "z": "也许你应该找个笔友。"
     },
     {
       "w": "hobby",
       "p": "n",
       "i": "'hɒbɪ",
       "c": "业余爱好",
-      "t": "u4"
+      "t": "u4",
+      "e": "An old hand at photography, Tim has been shooting wildlife as a hobby for the last 13 years.",
+      "z": "蒂姆是一位摄影老手，在过去13年里一直以拍摄野生动物为业余爱好。"
     },
     {
       "w": "jasmine",
       "p": "n",
       "i": "'dʒæzmɪn; 'dʒæs-",
       "c": "茉莉",
-      "t": "u4"
+      "t": "u4",
+      "e": "I like jasmine tea best of all.",
+      "z": "我最喜欢茉莉花茶。"
     },
     {
       "w": "idea",
       "p": "n",
       "i": "aɪ'dɪə",
       "c": "主意",
-      "t": "u4"
+      "t": "u4",
+      "e": "That's a jolly good idea.",
+      "z": "那是个绝妙的主意。"
     },
     {
       "w": "Canberra",
       "p": "n",
       "i": "'kænbərə",
       "c": "堪培拉",
-      "t": "u4"
+      "t": "u4",
+      "e": "I'm going to Canberra University.",
+      "z": "我准备去堪培拉大学。"
     },
     {
       "w": "amazing",
       "p": "adj",
       "i": "ə'meɪzɪŋ",
       "c": "令人惊奇的",
-      "t": "u4"
+      "t": "u4",
+      "e": "She has amazing powers of recall.",
+      "z": "她有惊人的记忆力。"
     },
     {
       "w": "shall",
       "p": "aux",
       "i": "ʃæl; ʃ(ə)l",
       "c": "表示征求意见",
-      "t": "u4"
+      "t": "u4",
+      "e": "We shall love you whatever happens, Diana.",
+      "z": "黛安娜，不管发生什么事我们都会爱你的。"
     },
     {
       "w": "goal",
       "p": "n",
       "i": "gəʊl",
       "c": "射门",
-      "t": "u4"
+      "t": "u4",
+      "e": "The last minute goal sent the fans into raptures.",
+      "z": "最后一刻的进球使得球迷们欣喜若狂。"
     },
     {
       "w": "join",
       "p": "v",
       "i": "dʒɒɪn",
       "c": "加入",
-      "t": "u4"
+      "t": "u4",
+      "e": "Angela says she longs to join an amateur dramatics class.",
+      "z": "安吉拉说她渴望参加业余戏剧班。"
     },
     {
       "w": "club",
       "p": "n",
       "i": "klʌb",
       "c": "俱乐部",
-      "t": "u4"
+      "t": "u4",
+      "e": "The club has live jazz on Sundays.",
+      "z": "该俱乐部每个星期天都有现场爵士乐演奏。"
     },
     {
       "w": "share",
       "p": "n & v",
       "i": "ʃeə",
       "c": "分享",
-      "t": "u4"
+      "t": "u4",
+      "e": "We should aim for a bigger share of the market.",
+      "z": "我们应该努力争取更大的市场份额。"
     },
     {
       "w": "factory",
       "p": "n",
       "i": "'fækt(ə)rɪ",
       "c": "工厂",
-      "t": "u5"
+      "t": "u5",
+      "e": "The factory is working at full capacity.",
+      "z": "这家工厂在开足马力生产。"
     },
     {
       "w": "worker",
       "p": "n",
       "i": "'wɜːkə",
       "c": "工人",
-      "t": "u5"
+      "t": "u5",
+      "e": "She's a very hard worker.",
+      "z": "她工作很卖力。"
     },
     {
       "w": "postman",
       "p": "n",
       "i": "'pəʊs(t)mən",
       "c": "邮递员",
-      "t": "u5"
+      "t": "u5",
+      "e": "Has the postman been yet?",
+      "z": "邮递员来过了吗？"
     },
     {
       "w": "businessman",
       "p": "n",
       "i": "'bɪznɪsmən",
       "c": "商人",
-      "t": "u5"
+      "t": "u5",
+      "e": "Warren was an adventurous businessman.",
+      "z": "沃伦是一位有冒险精神的商人。"
     },
     {
       "w": "police officer",
       "p": "n",
       "i": "pəˈlis ˈɔfɪsɚ",
       "c": "警察",
-      "t": "u5"
+      "t": "u5",
+      "e": "The police officer fended off the blows with his riot shield.",
+      "z": "警察用防暴盾牌抵挡攻击。"
     },
     {
       "w": "fisherman",
       "p": "n",
       "i": "'fɪʃəmən",
       "c": "渔民",
-      "t": "u5"
+      "t": "u5",
+      "e": "The fisherman rowed us back to the shore.",
+      "z": "渔夫划船将我们送回到岸上。"
     },
     {
       "w": "scientist",
       "p": "n",
       "i": "'saɪəntɪst",
       "c": "科学家",
-      "t": "u5"
+      "t": "u5",
+      "e": "He's a brilliant young scientist.",
+      "z": "他是一个才华横溢的青年科学家。"
     },
     {
       "w": "pilot",
       "p": "n",
       "i": "'paɪlət",
       "c": "飞行员",
-      "t": "u5"
+      "t": "u5",
+      "e": "The pilot escaped death by seconds.",
+      "z": "这位飞行员数秒之内死里逃生。"
     },
     {
       "w": "coach",
       "p": "n",
       "i": "kəʊtʃ",
       "c": "教练",
-      "t": "u5"
+      "t": "u5",
+      "e": "He's more than a coach, he's a friend.",
+      "z": "他不只是个教练，还是个朋友。"
     },
     {
       "w": "country",
       "p": "n",
       "i": "'kʌntrɪ",
       "c": "国家",
-      "t": "u5"
+      "t": "u5",
+      "e": "We live in a multinational country.",
+      "z": "我们生活在一个多民族的国家。"
     },
     {
       "w": "head teacher",
       "p": "phr",
       "i": "",
       "c": "校长",
-      "t": "u5"
+      "t": "u5",
+      "e": "They have appointed a new head teacher at my son's school.",
+      "z": "我儿子读书的学校任命了一位新校长。"
     },
     {
       "w": "sea",
       "p": "n",
       "i": "siː",
       "c": "大海",
-      "t": "u5"
+      "t": "u5",
+      "e": "The sea rippled and sparkled.",
+      "z": "大海波光粼粼。"
     },
     {
       "w": "stay",
       "p": "v",
       "i": "steɪ",
       "c": "保持",
-      "t": "u5"
+      "t": "u5",
+      "e": "I was delighted that you could stay.",
+      "z": "你能留下来我很高兴。"
     },
     {
       "w": "university",
       "p": "n",
       "i": "juːnɪ'vɜːsɪtɪ",
       "c": "大学",
-      "t": "u5"
+      "t": "u5",
+      "e": "The university is highly rated for its research.",
+      "z": "这所大学因其研究工作而受到高度评价。"
     },
     {
       "w": "gym",
       "p": "n",
       "i": "dʒɪm",
       "c": "体育馆",
-      "t": "u5"
+      "t": "u5",
+      "e": "I work out at the gym most days.",
+      "z": "我多数日子都在健身俱乐部锻炼身体。"
     },
     {
       "w": "if",
       "p": "conj",
       "i": "ɪf",
       "c": "如果",
-      "t": "u5"
+      "t": "u5",
+      "e": "I'd be glad if you could help me.",
+      "z": "你若能帮助我，我会非常感激。"
     },
     {
       "w": "reporter",
       "p": "n",
       "i": "rɪ'pɔːtə",
       "c": "记者",
-      "t": "u5"
+      "t": "u5",
+      "e": "I fondly remember my first job as a reporter.",
+      "z": "我深深地记得我初次工作当记者的情景。"
     },
     {
       "w": "use",
       "p": "v",
       "i": "juːz",
       "c": "使用",
-      "t": "u5"
+      "t": "u5",
+      "e": "Might I use your phone?",
+      "z": "我可以用一下你的电话吗？"
     },
     {
       "w": "type",
       "p": "n",
       "i": "taɪp",
       "c": "打字",
-      "t": "u5"
+      "t": "u5",
+      "e": "Every type of boat was pressed into service to rescue passengers from the sinking ferry.",
+      "z": "为了营救下沉渡轮上的旅客，各类船只都被临时征用了。"
     },
     {
       "w": "quickly",
       "p": "adv",
       "i": "'kwɪklɪ",
       "c": "迅速地",
-      "t": "u5"
+      "t": "u5",
+      "e": "Twenty years have passed so quickly, in the blink of an eye.",
+      "z": "二十年快滴很，弹指一挥间。"
     },
     {
       "w": "secretary",
       "p": "n",
       "i": "ˈsekrətrɪ",
       "c": "秘书",
-      "t": "u5"
+      "t": "u5",
+      "e": "He dictated a letter to his secretary.",
+      "z": "他向秘书口授信稿。"
     },
     {
       "w": "angry",
       "p": "adj",
       "i": "'æŋgrɪ",
       "c": "生气的",
-      "t": "u6"
+      "t": "u6",
+      "e": "I was angry at the time but we had a good laugh about it afterwards.",
+      "z": "我当时很生气，可后来却又觉得十分可笑。"
     },
     {
       "w": "afraid",
       "p": "adj",
       "i": "ə'freɪd",
       "c": "害怕",
-      "t": "u6"
+      "t": "u6",
+      "e": "I was afraid you'd say no, and my dream would go up in smoke.",
+      "z": "我担心你会说不，那我的梦想就化为乌有了。"
     },
     {
       "w": "sad",
       "p": "adj",
       "i": "sæd",
       "c": "难过的",
-      "t": "u6"
+      "t": "u6",
+      "e": "When I am sad, he comforts me.",
+      "z": "当我伤心的时候，他安慰我。"
     },
     {
       "w": "worried",
       "p": "adj",
       "i": "'wʌrɪd",
       "c": "担心的",
-      "t": "u6"
+      "t": "u6",
+      "e": "I was worried you wouldn't come.",
+      "z": "我还担心你不来呢。"
     },
     {
       "w": "happy",
       "p": "adj",
       "i": "'hæpɪ",
       "c": "高兴的",
-      "t": "u6"
+      "t": "u6",
+      "e": "I wished her a happy birthday.",
+      "z": "我祝她生日快乐。"
     },
     {
       "w": "see a doctor",
       "p": "phr",
       "i": "",
       "c": "看病",
-      "t": "u6"
+      "t": "u6",
+      "e": "You must see a doctor, Frederick.",
+      "z": "弗雷德里克，你一定得看医生。"
     },
     {
       "w": "wear.",
       "p": "n",
       "i": "weə",
       "c": "穿",
-      "t": "u6"
+      "t": "u6",
+      "e": "I can't decide what to wear.",
+      "z": "我拿不定主意穿什么。"
     },
     {
       "w": "more",
       "p": "det, pron & adv",
       "i": "mɔː",
       "c": "更多的",
-      "t": "u6"
+      "t": "u6",
+      "e": "His paintings became more lyrical.",
+      "z": "他的画变得更有诗意。"
     },
     {
       "w": "deep",
       "p": "adj",
       "i": "diːp",
       "c": "深的",
-      "t": "u6"
+      "t": "u6",
+      "e": "His voice was deep and mellow.",
+      "z": "他的声音低沉而柔和。"
     },
     {
       "w": "breath",
       "p": "n",
       "i": "breθ",
       "c": "呼吸",
-      "t": "u6"
+      "t": "u6",
+      "e": "I'm dying for a breath of fresh air.",
+      "z": "我真想呼吸点新鲜空气。"
     },
     {
       "w": "take a deep breath",
       "p": "phr v",
       "i": "",
       "c": "深呼吸",
-      "t": "u6"
+      "t": "u6",
+      "e": "Her lips parted as if she were about to take a deep breath.",
+      "z": "她张开了嘴，好像要做深呼吸。"
     },
     {
       "w": "count",
       "p": "n & v",
       "i": "kaʊnt",
       "c": "数数",
-      "t": "u6"
+      "t": "u6",
+      "e": "What anyone else promises you doesn't count. Only what you can decide for yourself actually counts.",
+      "z": "任何人答应你的事都不算数，只有自己能做主的才算数。"
     },
     {
       "w": "count to ten",
       "p": "phr",
       "i": "",
       "c": "数到十",
-      "t": "u6"
+      "t": "u6",
+      "e": "Just count to ten and then consider whether or not you should make that purchase.",
+      "z": "数到十然后再考虑一下你是否购买。"
     },
     {
       "w": "chase",
       "p": "n & v",
       "i": "tʃeɪs",
       "c": "追赶",
-      "t": "u6"
+      "t": "u6",
+      "e": "The movie has a car chase to end all car chases.",
+      "z": "这部影片的汽车追逐场面非常刺激。"
     },
     {
       "w": "mice",
       "p": "n",
       "i": "maɪs",
       "c": "老鼠",
-      "t": "u6"
+      "t": "u6",
+      "e": "Our cat is hopeless at catching mice.",
+      "z": "我们的猫绝对捉不到老鼠。"
     },
     {
       "w": "bad",
       "p": "adj",
       "i": "bæd",
       "c": "邪恶的",
-      "t": "u6"
+      "t": "u6",
+      "e": "She gave him the bad news without preamble.",
+      "z": "她开门见山地把坏消息告诉了他。"
     },
     {
       "w": "hurt",
       "p": "v",
       "i": "hɜːt",
       "c": "受伤",
-      "t": "u6"
+      "t": "u6",
+      "e": "I didn't mean to hurt you.",
+      "z": "我不是有意要伤害你。"
     },
     {
       "w": "ill",
       "p": "adj",
       "i": "ɪl",
       "c": "有病",
-      "t": "u6"
+      "t": "u6",
+      "e": "He was very good to me when I was ill.",
+      "z": "我生病时他对我关怀备至。"
     },
     {
       "w": "wrong",
       "p": "adj",
       "i": "rɒŋ",
       "c": "有毛病",
-      "t": "u6"
+      "t": "u6",
+      "e": "It's wrong to swear and shout.",
+      "z": "骂人和喊叫是不对的。"
     },
     {
       "w": "should",
       "p": "aux",
       "i": "ʃəd; strong form ʃʊd",
       "c": "应该",
-      "t": "u6"
+      "t": "u6",
+      "e": "He should be applauded for his courage.",
+      "z": "他应该因其勇气而受到称赞。"
     },
     {
       "w": "feel",
       "p": "v",
       "i": "fiːl",
       "c": "觉得",
-      "t": "u6"
+      "t": "u6",
+      "e": "I feel absolutely terrific today!",
+      "z": "我今天的感觉真是好极了！"
     },
     {
       "w": "well",
       "p": "adv & adj",
       "i": "wel",
       "c": "健康",
-      "t": "u6"
+      "t": "u6",
+      "e": "They rejoiced to see their son well again.",
+      "z": "他们看到儿子恢复了健康，无比高兴。"
     },
     {
       "w": "sit",
       "p": "v",
       "i": "sɪt",
       "c": "坐",
-      "t": "u6"
+      "t": "u6",
+      "e": "Let's sit in the shade for a while.",
+      "z": "咱们在阴凉处坐一会儿吧。"
     },
     {
       "w": "grass",
       "p": "n",
       "i": "grɑːs",
       "c": "草坪",
-      "t": "u6"
+      "t": "u6",
+      "e": "The grass was soft and springy.",
+      "z": "草柔软而有弹性。"
     },
     {
       "w": "ant",
       "p": "n",
       "i": "ænt",
       "c": "蚂蚁",
-      "t": "u6"
+      "t": "u6",
+      "e": "Have you ever stepped on an ant?",
+      "z": "你踩过蚂蚁吗？"
     },
     {
       "w": "worry",
       "p": "n & v",
       "i": "'wʌrɪ",
       "c": "担心",
-      "t": "u6"
+      "t": "u6",
+      "e": "Don't worry. You'll be a wow.",
+      "z": "别担心。你会一鸣惊人的。"
     },
     {
       "w": "stuck",
       "p": "v",
       "i": "stʌk",
       "c": "陷住",
-      "t": "u6"
+      "t": "u6",
+      "e": "If you get stuck, click on Help.",
+      "z": "如果你碰到困难，请点击“帮助”。"
     },
     {
       "w": "mud",
       "p": "n & v",
       "i": "mʌd",
       "c": "泥",
-      "t": "u6"
+      "t": "u6",
+      "e": "I cleaned the mud off my shoes.",
+      "z": "我刷掉了鞋子上的泥。"
     },
     {
       "w": "pull",
       "p": "v",
       "i": "pʊl",
       "c": "拉",
-      "t": "u6"
+      "t": "u6",
+      "e": "I like the pop you get when you pull out a cork.",
+      "z": "我喜欢你拔出瓶塞时弄出的那“砰”的一声。"
     },
     {
       "w": "everyone",
       "p": "pron",
       "i": "'evrɪwʌn",
       "c": "每人",
-      "t": "u6"
+      "t": "u6",
+      "e": "He was much loved by everyone.",
+      "z": "他深受大家的爱戴。"
     }
   ],
   "grade": 6,

@@ -41,791 +41,1017 @@
       "p": "adv",
       "i": "weə(r)",
       "c": "在哪里",
-      "t": "u1"
+      "t": "u1",
+      "e": "Let's pick up where we left off yesterday.",
+      "z": "咱们从昨天停下的地方继续吧。"
     },
     {
       "w": "from",
       "p": "prep",
       "i": "frɒm",
       "c": "来自",
-      "t": "u1"
+      "t": "u1",
+      "e": "Visitors came from near and far.",
+      "z": "游客来自四面八方。"
     },
     {
       "w": "about",
       "p": "prep",
       "i": "əˈbaʊt",
       "c": "大约；关于",
-      "t": "u1"
+      "t": "u1",
+      "e": "She's all fired up about her new job.",
+      "z": "她对新工作充满热情。"
     },
     {
       "w": "today",
       "p": "n & adv",
       "i": "təˈdeɪ",
       "c": "今天",
-      "t": "u1"
+      "t": "u1",
+      "e": "I feel absolutely terrific today!",
+      "z": "我今天的感觉真是好极了！"
     },
     {
       "w": "teacher",
       "p": "n",
       "i": "ˈtiːtʃə(r)",
       "c": "教师",
-      "t": "u1"
+      "t": "u1",
+      "e": "He worked as a teacher for 50 years.",
+      "z": "他从事教师工作50年了。"
     },
     {
       "w": "student",
       "p": "n",
       "i": "ˈstjuːdnt",
       "c": "学生",
-      "t": "u1"
+      "t": "u1",
+      "e": "She knows every student in the school.",
+      "z": "她认识学校里的每一个学生。"
     },
     {
       "w": "after",
       "p": "prep",
       "i": "ˈɑːftə(r)",
       "c": "在……之后",
-      "t": "u1"
+      "t": "u1",
+      "e": "Let's meet for a drink after work.",
+      "z": "下班后我们一起去喝一杯吧。"
     },
     {
       "w": "who",
       "p": "pron",
       "i": "huː",
       "c": "谁",
-      "t": "u1"
+      "t": "u1",
+      "e": "Guess who I ran into today!",
+      "z": "猜猜我今天碰见谁了！"
     },
     {
       "w": "girl",
       "p": "n",
       "i": "ɡɜːl",
       "c": "女孩",
-      "t": "u1"
+      "t": "u1",
+      "e": "'I want my ma,' sobbed the little girl.",
+      "z": "小女孩抽泣着说：“我要妈妈。”"
     },
     {
       "w": "neighbour",
       "p": "n",
       "i": "ˈneɪbə(r)",
       "c": "邻居",
-      "t": "u1"
+      "t": "u1",
+      "e": "This neighbour crewed on a ferryboat.",
+      "z": "这位邻居在一艘渡船上当船员。"
     },
     {
       "w": "boy",
       "p": "n",
       "i": "bɔɪ",
       "c": "男孩",
-      "t": "u1"
+      "t": "u1",
+      "e": "My wife has just had a baby boy.",
+      "z": "我妻子刚生了个男孩。"
     },
     {
       "w": "woman",
       "p": "n",
       "i": "ˈwʊmən",
       "c": "女人",
-      "t": "u1"
+      "t": "u1",
+      "e": "She was a truly remarkable woman.",
+      "z": "她是一位真正非同凡响的女人。"
     },
     {
       "w": "man",
       "p": "n",
       "i": "mæn",
       "c": "男人",
-      "t": "u1"
+      "t": "u1",
+      "e": "He's the best man for the job.",
+      "z": "他是担任这项工作的最佳人选。"
     },
     {
       "w": "Mr",
       "p": "n",
       "i": "ˈmɪstə(r)",
       "c": "先生",
-      "t": "u1"
+      "t": "u1",
+      "e": "Mr. White tenderly embraced his wife.",
+      "z": "怀特先生温柔地拥抱了妻子。"
     },
     {
       "w": "classmate",
       "p": "n",
       "i": "ˈklɑːsmeɪt",
       "c": "同班同学",
-      "t": "u1"
+      "t": "u1",
+      "e": "She felt like a fifth-grader who had snitched on a classmate.",
+      "z": "她觉得自己就像个打同学小报告的小学五年级学生。"
     },
     {
       "w": "he",
       "p": "pron",
       "i": "hiː",
       "c": "他",
-      "t": "u1"
+      "t": "u1",
+      "e": "He thanked her ceremoniously.",
+      "z": "他郑重其事地感谢了她。"
     },
     {
       "w": "English",
       "p": "n",
       "i": "ˈɪŋɡlɪʃ",
       "c": "英语",
-      "t": "u1"
+      "t": "u1",
+      "e": "Her English is almost flawless.",
+      "z": "她的英语几乎无可挑剔。"
     },
     {
       "w": "she",
       "p": "pron",
       "i": "ʃiː",
       "c": "她",
-      "t": "u1"
+      "t": "u1",
+      "e": "'How wonderful!' she trilled.",
+      "z": "“太妙了！”她高兴地喊道。"
     },
     {
       "w": "very",
       "p": "adv",
       "i": "ˈveri",
       "c": "很；非常",
-      "t": "u1"
+      "t": "u1",
+      "e": "You put that very succinctly.",
+      "z": "你说得十分简明扼要。"
     },
     {
       "w": "UK",
       "p": "n",
       "i": "ˌjuːˈkeɪ",
       "c": "英国",
-      "t": "u1"
+      "t": "u1",
+      "e": "The band will be playing at 20 different venues on their UK tour.",
+      "z": "这个乐队在英国巡回演出期间将在20个不同的地点演出。"
     },
     {
       "w": "China",
       "p": "n",
       "i": "ˈtʃaɪnə",
       "c": "中国",
-      "t": "u1"
+      "t": "u1",
+      "e": "China has always fascinated me.",
+      "z": "中国一直令我心驰神往。"
     },
     {
       "w": "Canada",
       "p": "n",
       "i": "ˈkænədə",
       "c": "加拿大",
-      "t": "u1"
+      "t": "u1",
+      "e": "They started life anew in Canada.",
+      "z": "他们在加拿大开始新生活。"
     },
     {
       "w": "USA",
       "p": "n",
       "i": "ˌjuːesˈeɪ",
       "c": "美国",
-      "t": "u1"
+      "t": "u1",
+      "e": "Do you need a visa for the USA?",
+      "z": "你需要美国签证吗？"
     },
     {
       "w": "has",
       "p": "v",
       "i": "hæz",
       "c": "有（他/她/它）",
-      "t": "u2"
+      "t": "u2",
+      "e": "He has a flair for languages.",
+      "z": "他有学语言的天分。"
     },
     {
       "w": "long",
       "p": "adj",
       "i": "lɒŋ",
       "c": "长的",
-      "t": "u2"
+      "t": "u2",
+      "e": "The long blades clashed together.",
+      "z": "长刀相击铿然作响。"
     },
     {
       "w": "body",
       "p": "n",
       "i": "ˈbɒdi",
       "c": "身体",
-      "t": "u2"
+      "t": "u2",
+      "e": "A cool shower wakes up the body and boosts circulation.",
+      "z": "冷水浴使身体振奋，促进血液循环。"
     },
     {
       "w": "short",
       "p": "adj",
       "i": "ʃɔːt",
       "c": "短的；矮的",
-      "t": "u2"
+      "t": "u2",
+      "e": "I think her new short hairstyle looks simply great.",
+      "z": "我觉得她新剪的短发看上去简直棒极了。"
     },
     {
       "w": "leg",
       "p": "n",
       "i": "leɡ",
       "c": "腿",
-      "t": "u2"
+      "t": "u2",
+      "e": "His leg was getting better.",
+      "z": "他的腿在渐渐恢复。"
     },
     {
       "w": "right",
       "p": "n, adj & adv",
       "i": "raɪt",
       "c": "正确的；右边",
-      "t": "u2"
+      "t": "u2",
+      "e": "Your answer is exactly right.",
+      "z": "你的回答完全正确。"
     },
     {
       "w": "fat",
       "p": "adj",
       "i": "fæt",
       "c": "胖的",
-      "t": "u2"
+      "t": "u2",
+      "e": "Rubbish! You're not fat.",
+      "z": "瞎说！你并不胖。"
     },
     {
       "w": "thin",
       "p": "adj",
       "i": "θɪn",
       "c": "瘦的",
-      "t": "u2"
+      "t": "u2",
+      "e": "I like my bread sliced thin.",
+      "z": "我喜欢吃切成薄片的面包。"
     },
     {
       "w": "slow",
       "p": "adj",
       "i": "sləʊ",
       "c": "缓慢的",
-      "t": "u2"
+      "t": "u2",
+      "e": "Oh you're so slow; come on, hurry up!",
+      "z": "哎哟，你可真慢；加把劲，快点！"
     },
     {
       "w": "love",
       "p": "n & v",
       "i": "lʌv",
       "c": "喜爱",
-      "t": "u2"
+      "t": "u2",
+      "e": "Her heart overflowed with love.",
+      "z": "她的心里充满了爱。"
     },
     {
       "w": "tail",
       "p": "n & v",
       "i": "teɪl",
       "c": "尾巴",
-      "t": "u2"
+      "t": "u2",
+      "e": "The dog ran up, wagging its tail.",
+      "z": "那条狗摇着尾巴跑上前去。"
     },
     {
       "w": "her",
       "p": "pron",
       "i": "hɜː(r)",
       "c": "她的",
-      "t": "u2"
+      "t": "u2",
+      "e": "He thanked her ceremoniously.",
+      "z": "他郑重其事地感谢了她。"
     },
     {
       "w": "gift",
       "p": "n & v",
       "i": "ɡɪft",
       "c": "礼物",
-      "t": "u2"
+      "t": "u2",
+      "e": "She has a great gift for music.",
+      "z": "她极有音乐天赋。"
     },
     {
       "w": "picture",
       "p": "n",
       "i": "ˈpɪktʃə(r)",
       "c": "图画；照片",
-      "t": "u2"
+      "t": "u2",
+      "e": "I painted a beautiful picture.",
+      "z": "我画了一幅漂亮的画。"
     },
     {
       "w": "card",
       "p": "n",
       "i": "kɑːd",
       "c": "贺卡；卡片",
-      "t": "u2"
+      "t": "u2",
+      "e": "Simon's a whiz at card games.",
+      "z": "西蒙是纸牌游戏的高手。"
     },
     {
       "w": "sing",
       "p": "v",
       "i": "sɪŋ",
       "c": "唱歌",
-      "t": "u2"
+      "t": "u2",
+      "e": "Will you sing us a song?",
+      "z": "你给我们唱支歌好吗？"
     },
     {
       "w": "dance",
       "p": "n & v",
       "i": "dɑːns",
       "c": "跳舞",
-      "t": "u2"
+      "t": "u2",
+      "e": "He did a little dance of triumph.",
+      "z": "他兴高采烈地舞动了几步。"
     },
     {
       "w": "face",
       "p": "n",
       "i": "feɪs",
       "c": "脸",
-      "t": "u2"
+      "t": "u2",
+      "e": "His face cracked into a smile.",
+      "z": "他脸上绽出了微笑。"
     },
     {
       "w": "all",
       "p": "det & pron",
       "i": "ɔːl",
       "c": "全部",
-      "t": "u2"
+      "t": "u2",
+      "e": "We've all had a splendid time.",
+      "z": "我们大家都玩得很开心。"
     },
     {
       "w": "so",
       "p": "conj",
       "i": "səʊ",
       "c": "那么",
-      "t": "u2"
+      "t": "u2",
+      "e": "His books are always so gripping.",
+      "z": "他的书总是那么扣人心弦。"
     },
     {
       "w": "talk",
       "p": "n & v",
       "i": "tɔːk",
       "c": "说话",
-      "t": "u2"
+      "t": "u2",
+      "e": "A child learns to talk by imitation.",
+      "z": "小孩子通过模仿学会说话。"
     },
     {
       "w": "song",
       "p": "n",
       "i": "sɒŋ",
       "c": "歌曲",
-      "t": "u2"
+      "t": "u2",
+      "e": "We sang a song together.",
+      "z": "我们一起唱了一首歌。"
     },
     {
       "w": "or",
       "p": "conj",
       "i": "ɔː(r)",
       "c": "或者",
-      "t": "u2"
+      "t": "u2",
+      "e": "To stay fit off season, I play tennis or football.",
+      "z": "为了在休赛期间保持状态，我常打网球或踢足球。"
     },
     {
       "w": "much",
       "p": "det, pron & adv",
       "i": "mʌtʃ",
       "c": "许多",
-      "t": "u2"
+      "t": "u2",
+      "e": "Take as much time as you like.",
+      "z": "你想花多少时间就花多少时间。"
     },
     {
       "w": "eraser",
       "p": "n",
       "i": "ɪˈreɪzə(r)",
       "c": "橡皮",
-      "t": "u3"
+      "t": "u3",
+      "e": "I hide the eraser in her boot.",
+      "z": "我把橡皮擦藏进了她的靴子里。"
     },
     {
       "w": "find",
       "p": "v",
       "i": "faɪnd",
       "c": "找到",
-      "t": "u3"
+      "t": "u3",
+      "e": "She went to a lot of trouble to find the book for me.",
+      "z": "她不辞劳苦把书给我找到了。"
     },
     {
       "w": "ruler",
       "p": "n",
       "i": "ˈruːlə(r)",
       "c": "直尺",
-      "t": "u3"
+      "t": "u3",
+      "e": "The ruler cracked and splintered into pieces.",
+      "z": "尺子裂了，碎成了片。"
     },
     {
       "w": "pen",
       "p": "n",
       "i": "pen",
       "c": "钢笔",
-      "t": "u3"
+      "t": "u3",
+      "e": "Can I borrow a pen from you?",
+      "z": "我可以借用你的钢笔吗？"
     },
     {
       "w": "pencil",
       "p": "n",
       "i": "ˈpensl",
       "c": "铅笔",
-      "t": "u3"
+      "t": "u3",
+      "e": "I snapped the pencil in half.",
+      "z": "我啪的一声将铅笔折成两段。"
     },
     {
       "w": "book",
       "p": "n & v",
       "i": "bʊk",
       "c": "书",
-      "t": "u3"
+      "t": "u3",
+      "e": "It's a book for young and old alike.",
+      "z": "这本书老少咸宜。"
     },
     {
       "w": "bag",
       "p": "n",
       "i": "bæɡ",
       "c": "包",
-      "t": "u3"
+      "t": "u3",
+      "e": "Could you fetch me my bag?",
+      "z": "你能帮我去取我的包吗？"
     },
     {
       "w": "paper",
       "p": "n & adj",
       "i": "ˈpeɪpə(r)",
       "c": "纸",
-      "t": "u3"
+      "t": "u3",
+      "e": "I could hear his pen scraping across the paper.",
+      "z": "我听得见他的钢笔在纸上沙沙地响。"
     },
     {
       "w": "these",
       "p": "det",
       "i": "ðiːz",
       "c": "这些",
-      "t": "u3"
+      "t": "u3",
+      "e": "She has cleaved to these principles all her life.",
+      "z": "她一生坚守这些原则。"
     },
     {
       "w": "see",
       "p": "v",
       "i": "siː",
       "c": "看见",
-      "t": "u3"
+      "t": "u3",
+      "e": "We came specially to see you.",
+      "z": "我们特意来看你。"
     },
     {
       "w": "smell",
       "p": "n & v",
       "i": "smel",
       "c": "闻",
-      "t": "u3"
+      "t": "u3",
+      "e": "That smell reminds me of France.",
+      "z": "这股气味使我想起了法国。"
     },
     {
       "w": "taste",
       "p": "n",
       "i": "teɪst",
       "c": "尝",
-      "t": "u3"
+      "t": "u3",
+      "e": "She had impeccable taste in clothes.",
+      "z": "她对服装有着无可挑剔的品味。"
     },
     {
       "w": "hear",
       "p": "v",
       "i": "hɪə(r)",
       "c": "听见",
-      "t": "u3"
+      "t": "u3",
+      "e": "I'm glad to hear you're feeling better.",
+      "z": "听说你感觉好些了，我很高兴。"
     },
     {
       "w": "touch",
       "p": "n & v",
       "i": "tʌtʃ",
       "c": "触摸",
-      "t": "u3"
+      "t": "u3",
+      "e": "Don't touch that plate—it's hot!",
+      "z": "别碰那个盘子，烫手！"
     },
     {
       "w": "learn",
       "p": "v",
       "i": "lɜːn",
       "c": "学习",
-      "t": "u3"
+      "t": "u3",
+      "e": "How did you learn to bake cakes?",
+      "z": "你是怎么学会烤蛋糕的？"
     },
     {
       "w": "nose",
       "p": "n",
       "i": "nəʊz",
       "c": "鼻子",
-      "t": "u3"
+      "t": "u3",
+      "e": "Aw, she's got her mother's nose!",
+      "z": "哦，她的鼻子和她妈妈的一模一样！"
     },
     {
       "w": "tongue",
       "p": "n & v",
       "i": "tʌŋ",
       "c": "舌头",
-      "t": "u3"
+      "t": "u3",
+      "e": "She stuck her tongue out at me.",
+      "z": "她冲我吐了吐舌头。"
     },
     {
       "w": "class",
       "p": "n",
       "i": "klɑːs",
       "c": "课；班级",
-      "t": "u3"
+      "t": "u3",
+      "e": "We think he'll turn into a top-class player.",
+      "z": "我们认为他会成为一名一流的选手。"
     },
     {
       "w": "computer",
       "p": "n",
       "i": "kəmˈpjuːtə(r)",
       "c": "电脑",
-      "t": "u3"
+      "t": "u3",
+      "e": "My computer seems to have a mind of its own!",
+      "z": "我的电脑好像也有它自己的想法！"
     },
     {
       "w": "breakfast",
       "p": "n",
       "i": "ˈbrekfəst",
       "c": "早餐",
-      "t": "u4"
+      "t": "u4",
+      "e": "He ate a substantial breakfast.",
+      "z": "他吃了一顿丰盛的早餐。"
     },
     {
       "w": "time",
       "p": "n",
       "i": "taɪm",
       "c": "时间",
-      "t": "u4"
+      "t": "u4",
+      "e": "Time is like a wild donkey. Once it starts running, it never stops.",
+      "z": "时间像一头野驴呀，跑起来就不停。"
     },
     {
       "w": "bread",
       "p": "n",
       "i": "bred",
       "c": "面包",
-      "t": "u4"
+      "t": "u4",
+      "e": "I like my bread sliced thin.",
+      "z": "我喜欢吃切成薄片的面包。"
     },
     {
       "w": "egg",
       "p": "n",
       "i": "eɡ",
       "c": "鸡蛋",
-      "t": "u4"
+      "t": "u4",
+      "e": "She cracked an egg into the pan.",
+      "z": "她往锅里打了一个鸡蛋。"
     },
     {
       "w": "milk",
       "p": "n",
       "i": "mɪlk",
       "c": "牛奶",
-      "t": "u4"
+      "t": "u4",
+      "e": "The cat licked up the milk.",
+      "z": "猫把牛奶舔光了。"
     },
     {
       "w": "noodle",
       "p": "n",
       "i": "ˈnuːdl",
       "c": "面条",
-      "t": "u4"
+      "t": "u4",
+      "e": "They have two restaurants that purvey dumplings and chicken noodle soup.",
+      "z": "有两家供应饺子和鸡肉汤面的餐馆。"
     },
     {
       "w": "juice",
       "p": "n",
       "i": "dʒuːs",
       "c": "果汁",
-      "t": "u4"
+      "t": "u4",
+      "e": "Would you care for some orange juice?",
+      "z": "你想要些橙汁吗？"
     },
     {
       "w": "rice",
       "p": "n",
       "i": "raɪs",
       "c": "米饭",
-      "t": "u4"
+      "t": "u4",
+      "e": "Farmers grow rice in the rich soil.",
+      "z": "农民们在肥沃的土地上种水稻。"
     },
     {
       "w": "meat",
       "p": "n",
       "i": "miːt",
       "c": "肉",
-      "t": "u4"
+      "t": "u4",
+      "e": "They brought her meat so that she never went hungry.",
+      "z": "他们给她带来了肉，这样她就再也不用挨饿了。"
     },
     {
       "w": "vegetable",
       "p": "n",
       "i": "ˈvedʒtəbl",
       "c": "蔬菜",
-      "t": "u4"
+      "t": "u4",
+      "e": "Recently much of their energy has gone into planting a large vegetable garden.",
+      "z": "最近，他们的大部分精力已经花在种植一个大型蔬菜园上。"
     },
     {
       "w": "healthy",
       "p": "adj",
       "i": "ˈhelθi",
       "c": "健康的",
-      "t": "u4"
+      "t": "u4",
+      "e": "Mary gave birth to a healthy baby girl.",
+      "z": "玛丽生了个健康的女婴。"
     },
     {
       "w": "plate",
       "p": "n",
       "i": "pleɪt",
       "c": "盘子",
-      "t": "u4"
+      "t": "u4",
+      "e": "She heaped my plate with food.",
+      "z": "她往我的盘子里夹了很多食物。"
     },
     {
       "w": "soup",
       "p": "n",
       "i": "suːp",
       "c": "汤",
-      "t": "u4"
+      "t": "u4",
+      "e": "Martina contented herself with a bowl of soup.",
+      "z": "马丁娜喝了一碗汤就心满意足了。"
     },
     {
       "w": "fruit",
       "p": "n",
       "i": "fruːt",
       "c": "水果",
-      "t": "u4"
+      "t": "u4",
+      "e": "The trees were dripping with fruit.",
+      "z": "树上挂满了果子。"
     },
     {
       "w": "colourful",
       "p": "adj",
       "i": "ˈkʌləfl",
       "c": "五彩缤纷的",
-      "t": "u4"
+      "t": "u4",
+      "e": "The flowers were colourful and the scenery magnificent.",
+      "z": "花儿绚丽多彩，风景美丽动人。"
     },
     {
       "w": "candy",
       "p": "n",
       "i": "ˈkændi",
       "c": "糖果",
-      "t": "u4"
+      "t": "u4",
+      "e": "Who wants the last piece of candy?",
+      "z": "谁想要这最后一块糖？"
     },
     {
       "w": "yummy",
       "p": "adj",
       "i": "ˈjʌmi",
       "c": "很好吃的",
-      "t": "u4"
+      "t": "u4",
+      "e": "I'll bet they have yummy ice cream.",
+      "z": "我打赌他们有好吃的冰激淋。"
     },
     {
       "w": "at",
       "p": "prep",
       "i": "æt",
       "c": "在",
-      "t": "u5"
+      "t": "u5",
+      "e": "He always sparkles at parties.",
+      "z": "在各种聚会上，他总是光芒四射。"
     },
     {
       "w": "boat",
       "p": "n",
       "i": "bəʊt",
       "c": "小船",
-      "t": "u5"
+      "t": "u5",
+      "e": "The boat chugged down the river.",
+      "z": "小船突突地沿江而下。"
     },
     {
       "w": "cool",
       "p": "adj",
       "i": "kuːl",
       "c": "酷的",
-      "t": "u5"
+      "t": "u5",
+      "e": "We found a cool place to sit.",
+      "z": "我们找了一个凉快的地方坐下来。"
     },
     {
       "w": "keep",
       "p": "v",
       "i": "kiːp",
       "c": "保存；保留",
-      "t": "u5"
+      "t": "u5",
+      "e": "Her grandchildren keep her young.",
+      "z": "她的孙子孙女让她保持年轻。"
     },
     {
       "w": "home",
       "p": "n & adv",
       "i": "həʊm",
       "c": "家",
-      "t": "u5"
+      "t": "u5",
+      "e": "We arrived home safe and sound.",
+      "z": "我们安然无恙地到了家。"
     },
     {
       "w": "ball",
       "p": "n",
       "i": "bɔːl",
       "c": "球",
-      "t": "u5"
+      "t": "u5",
+      "e": "The ball swerved into the net.",
+      "z": "球在空中划了一条弧线，进了球门。"
     },
     {
       "w": "doll",
       "p": "n",
       "i": "dɒl",
       "c": "玩偶",
-      "t": "u5"
+      "t": "u5",
+      "e": "The child was clutching a doll in her hand.",
+      "z": "女孩手里紧紧抱着一个玩具娃娃。"
     },
     {
       "w": "car",
       "p": "n",
       "i": "kɑː(r)",
       "c": "汽车",
-      "t": "u5"
+      "t": "u5",
+      "e": "Vroom! A sports car roared past.",
+      "z": "呜的一声，一辆跑车疾驶而过。"
     },
     {
       "w": "on",
       "p": "prep",
       "i": "ɒn",
       "c": "在……上面",
-      "t": "u5"
+      "t": "u5",
+      "e": "All our hopes now rest on you.",
+      "z": "现在所有的希望都寄托在你的身上。"
     },
     {
       "w": "shelf",
       "p": "n",
       "i": "ʃelf",
       "c": "架子",
-      "t": "u5"
+      "t": "u5",
+      "e": "The book I wanted was on the top shelf.",
+      "z": "我想要的那本书在书架的最上层。"
     },
     {
       "w": "in",
       "p": "prep",
       "i": "ɪn",
       "c": "在……里面",
-      "t": "u5"
+      "t": "u5",
+      "e": "Flags fluttered in the breeze.",
+      "z": "旗帜在微风中飘扬。"
     },
     {
       "w": "box",
       "p": "n",
       "i": "bɒks",
       "c": "箱子；盒子",
-      "t": "u5"
+      "t": "u5",
+      "e": "Can you help me with this box?",
+      "z": "你能帮我搬这个箱子吗？"
     },
     {
       "w": "cap",
       "p": "n",
       "i": "kæp",
       "c": "帽子",
-      "t": "u5"
+      "t": "u5",
+      "e": "She tucked her hair (up) under her cap.",
+      "z": "她把头发拢起来塞进帽子里。"
     },
     {
       "w": "map",
       "p": "n",
       "i": "mæp",
       "c": "地图",
-      "t": "u5"
+      "t": "u5",
+      "e": "Sue spread the map out on the floor.",
+      "z": "休在地板上摊开地图。"
     },
     {
       "w": "under",
       "p": "prep",
       "i": "ˈʌndə(r)",
       "c": "在……下面",
-      "t": "u5"
+      "t": "u5",
+      "e": "I admire her coolness under pressure.",
+      "z": "我佩服她在压力下能保持冷静。"
     },
     {
       "w": "still",
       "p": "adv",
       "i": "stɪl",
       "c": "仍然",
-      "t": "u5"
+      "t": "u5",
+      "e": "There is still a glimmer of hope.",
+      "z": "仍有一线希望。"
     },
     {
       "w": "put",
       "p": "v",
       "i": "pʊt",
       "c": "放",
-      "t": "u5"
+      "t": "u5",
+      "e": "She put the glass down carefully.",
+      "z": "她小心翼翼地放下玻璃杯。"
     },
     {
       "w": "eleven",
       "p": "num",
       "i": "ɪˈlevn",
       "c": "十一",
-      "t": "u6"
+      "t": "u6",
+      "e": "Charles I ruled for eleven years.",
+      "z": "查理一世统治了十一年。"
     },
     {
       "w": "twelve",
       "p": "num",
       "i": "twelv",
       "c": "十二",
-      "t": "u6"
+      "t": "u6",
+      "e": "After twelve days at sea, they sighted land.",
+      "z": "在海上航行十二天后他们看到了陆地。"
     },
     {
       "w": "thirteen",
       "p": "num",
       "i": "ˌθɜːˈtiːn",
       "c": "十三",
-      "t": "u6"
+      "t": "u6",
+      "e": "He ran away from home at the age of thirteen.",
+      "z": "他十三岁时离家出走。"
     },
     {
       "w": "fourteen",
       "p": "num",
       "i": "ˌfɔːˈtiːn",
       "c": "十四",
-      "t": "u6"
+      "t": "u6",
+      "e": "Women are advised not to drink more than fourteen units of alcohol per week.",
+      "z": "建议妇女每周饮酒不超过十四个酒精单位。"
     },
     {
       "w": "fifteen",
       "p": "num",
       "i": "ˌfɪfˈtiːn",
       "c": "十五",
-      "t": "u6"
+      "t": "u6",
+      "e": "We paid off our mortgage after fifteen years.",
+      "z": "我们历经十五年的时间还清了抵押借款。"
     },
     {
       "w": "sixteen",
       "p": "num",
       "i": "ˌsɪksˈtiːn",
       "c": "十六",
-      "t": "u6"
+      "t": "u6",
+      "e": "Round here, you leave school at sixteen and next thing you know , you're married with three kids.",
+      "z": "这一带的人十六岁中学毕业，接着就结婚，生三个孩子。"
     },
     {
       "w": "seventeen",
       "p": "num",
       "i": "ˌsevnˈtiːn",
       "c": "十七",
-      "t": "u6"
+      "t": "u6",
+      "e": "I haven't reached seventeen.",
+      "z": "我还不到十七岁。"
     },
     {
       "w": "eighteen",
       "p": "num",
       "i": "ˌeɪˈtiːn",
       "c": "十八",
-      "t": "u6"
+      "t": "u6",
+      "e": "His boat is an eighteen-footer.",
+      "z": "他的小船长十八英尺。"
     },
     {
       "w": "nineteen",
       "p": "num",
       "i": "ˌnaɪnˈtiːn",
       "c": "十九",
-      "t": "u6"
+      "t": "u6",
+      "e": "They have nineteen days to make up their minds.",
+      "z": "他们有十九天的时间来做出决定。"
     },
     {
       "w": "twenty",
       "p": "num",
       "i": "ˈtwenti",
       "c": "二十",
-      "t": "u6"
+      "t": "u6",
+      "e": "Dave and I go back twenty years.",
+      "z": "我和戴夫相识有二十年了。"
     },
     {
       "w": "piggy bank",
       "p": "phr",
       "i": "ˈpɪɡi bæŋk",
       "c": "储钱罐",
-      "t": "u6"
+      "t": "u6",
+      "e": "You can put money into a piggy bank that has to be smashed to get the money out.",
+      "z": "你可以把钱放进一个小猪存钱罐，要打碎它才能取出钱。"
     },
     {
       "w": "pay",
       "p": "v",
       "i": "peɪ",
       "c": "付钱",
-      "t": "u6"
+      "t": "u6",
+      "e": "It was generous of him to offer to pay for us both.",
+      "z": "他主动为我们俩付钱，真是大方。"
     },
     {
       "w": "back",
       "p": "n, adv & adj",
       "i": "bæk",
       "c": "回来；背部",
-      "t": "u6"
+      "t": "u6",
+      "e": "\"Welcome back,\" she beamed.",
+      "z": "“欢迎回来，”她笑容满面地说。"
     }
   ],
   "grade": 3,
