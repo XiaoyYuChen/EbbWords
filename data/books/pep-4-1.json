@@ -42,8 +42,8 @@
       "i": "'klɑːsruːm; -rʊm",
       "c": "教室",
       "t": "u1",
-      "e": "The classroom teacher must be sensitive to a child's needs.",
-      "z": "课堂教师必须理解孩子的需求。"
+      "e": "This is our classroom.",
+      "z": "这是我们的教室。"
     },
     {
       "w": "window",
@@ -51,8 +51,7 @@
       "i": "'wɪndəʊ",
       "c": "窗户",
       "t": "u1",
-      "e": "The rain lashed at the window.",
-      "z": "雨点猛烈地打在窗户上。"
+      "e": "To open the window."
     },
     {
       "w": "blackboard",
@@ -69,8 +68,8 @@
       "i": "laɪt",
       "c": "电灯",
       "t": "u1",
-      "e": "All plants need light and water.",
-      "z": "一切植物都需要阳光和水。"
+      "e": "I turn on the light?",
+      "z": "我能开灯吗?"
     },
     {
       "w": "picture",
@@ -78,8 +77,8 @@
       "i": "'pɪktʃə",
       "c": "图画",
       "t": "u1",
-      "e": "I painted a beautiful picture.",
-      "z": "我画了一幅漂亮的画。"
+      "e": "I like the picture.",
+      "z": "我喜欢这幅画。"
     },
     {
       "w": "door",
@@ -87,8 +86,7 @@
       "i": "dɔː",
       "c": "门",
       "t": "u1",
-      "e": "A bell tinkled as the door opened.",
-      "z": "房门一开，铃声丁零响了。"
+      "e": "Please close the door."
     },
     {
       "w": "teacher's desk",
@@ -96,8 +94,8 @@
       "i": "",
       "c": "讲台",
       "t": "u1",
-      "e": "There are many books on my teacher's desk.",
-      "z": "我的老师桌子上有很多书。"
+      "e": "I clean the teacher's desk.",
+      "z": "我打扫讲台。"
     },
     {
       "w": "computer",
@@ -105,8 +103,7 @@
       "i": "kəm'pjuːtə",
       "c": "计算机",
       "t": "u1",
-      "e": "My computer seems to have a mind of its own!",
-      "z": "我的电脑好像也有它自己的想法！"
+      "e": "Where is the computer?"
     },
     {
       "w": "fan",
@@ -114,8 +111,8 @@
       "i": "fæn",
       "c": "风扇",
       "t": "u1",
-      "e": "He is a fanatical fan of Mozart.",
-      "z": "他是一名莫扎特音乐的狂热爱好者。"
+      "e": "Turn on the fan.",
+      "z": "打开风扇。"
     },
     {
       "w": "wall",
@@ -123,8 +120,8 @@
       "i": "wɔːl",
       "c": "墙壁",
       "t": "u1",
-      "e": "He was leaning nonchalantly against the wall.",
-      "z": "他漫不经心地斜倚着墙。"
+      "e": "It's on the wall.",
+      "z": "它在墙壁上。"
     },
     {
       "w": "floor",
@@ -132,8 +129,8 @@
       "i": "flɔː",
       "c": "地板",
       "t": "u1",
-      "e": "The polished floor glowed richly.",
-      "z": "光洁无瑕的地板十分明亮。"
+      "e": "My toy is on the floor.",
+      "z": "我的玩具在地板上。"
     },
     {
       "w": "really",
@@ -141,8 +138,7 @@
       "i": "'rɪəlɪ",
       "c": "真的",
       "t": "u1",
-      "e": "You played really brilliantly.",
-      "z": "你的表现真是棒极了。"
+      "e": "I really like my room."
     },
     {
       "w": "near",
@@ -150,8 +146,8 @@
       "i": "nɪə",
       "c": "距离近",
       "t": "u1",
-      "e": "He noticed a new building going up near Whitaker Park.",
-      "z": "他注意到一幢新楼正在惠特克公园附近拔地而起。"
+      "e": "His house is very near.",
+      "z": "他的房子就在附近。"
     },
     {
       "w": "TV",
@@ -159,8 +155,8 @@
       "i": "ˌti: ˈvi:",
       "c": "电视",
       "t": "u1",
-      "e": "He's hoping to make it big on TV.",
-      "z": "他正期待着在电视上干出个名堂来。"
+      "e": "I want to watch TV.",
+      "z": "我想看电视。"
     },
     {
       "w": "clean",
@@ -168,8 +164,8 @@
       "i": "kliːn",
       "c": "打扫",
       "t": "u1",
-      "e": "Her house is scrupulously clean.",
-      "z": "她的家干干净净，纤尘不染。"
+      "e": "I clean the teacher's desk.",
+      "z": "我打扫讲台。"
     },
     {
       "w": "help",
@@ -177,8 +173,7 @@
       "i": "help",
       "c": "帮助",
       "t": "u1",
-      "e": "I felt duty-bound to help him.",
-      "z": "我觉得帮助他责无旁贷。"
+      "e": "I help you?"
     },
     {
       "w": "schoolbag",
@@ -186,8 +181,8 @@
       "i": "'skuːlbæɡ",
       "c": "书包",
       "t": "u2",
-      "e": "You can try on this schoolbag.",
-      "z": "您可以试背一下这个书包。"
+      "e": "He schoolbag are cheap and nice.",
+      "z": "他的书包又便宜又好。"
     },
     {
       "w": "maths book",
@@ -195,8 +190,8 @@
       "i": "",
       "c": "数学书",
       "t": "u2",
-      "e": "He has lost his maths book.",
-      "z": "他已经把数学书丢了。"
+      "e": "This is my maths book.",
+      "z": "这是我的数学书。"
     },
     {
       "w": "English book",
@@ -204,8 +199,7 @@
       "i": "",
       "c": "英语书",
       "t": "u2",
-      "e": "I'm holding the English book.",
-      "z": "我正拿着英语书。"
+      "e": "It's a English book."
     },
     {
       "w": "Chinese book",
@@ -213,8 +207,8 @@
       "i": "",
       "c": "语文书",
       "t": "u2",
-      "e": "This Chinese book is very good.",
-      "z": "这本语文书非常棒！"
+      "e": "The Chinese book is useful.",
+      "z": "这本语文书很有用。"
     },
     {
       "w": "storybook",
@@ -222,8 +216,8 @@
       "i": "'stɔːrɪbʊk",
       "c": "故事书",
       "t": "u2",
-      "e": "I also want to buy a storybook.",
-      "z": "我也想买本故事书。"
+      "e": "I like this storybook.",
+      "z": "我喜欢这本故事书。"
     },
     {
       "w": "candy",
@@ -231,8 +225,8 @@
       "i": "'kændɪ",
       "c": "糖果",
       "t": "u2",
-      "e": "Who wants the last piece of candy?",
-      "z": "谁想要这最后一块糖？"
+      "e": "Let's share the candy.",
+      "z": "让我们分享糖果吧。"
     },
     {
       "w": "notebook",
@@ -249,8 +243,8 @@
       "i": "tɒɪ",
       "c": "玩具",
       "t": "u2",
-      "e": "He whittled the piece of wood into a simple toy.",
-      "z": "他把那块木头削成了一个简易的玩具。"
+      "e": "My toy car is red.",
+      "z": "我的玩具小汽车是"
     },
     {
       "w": "key",
@@ -258,8 +252,8 @@
       "i": "kiː",
       "c": "钥匙",
       "t": "u2",
-      "e": "Confidence is the key to success.",
-      "z": "信心是成功的关键。"
+      "e": "A key is on the sofa.",
+      "z": "一把钥匙在长沙友上。"
     },
     {
       "w": "wow",
@@ -285,8 +279,8 @@
       "i": "",
       "c": "非常地",
       "t": "u2",
-      "e": "She was proud that her daughter had so much talent.",
-      "z": "女儿这么有天赋令她喜不自胜。"
+      "e": "Thank you so much.",
+      "z": "非常感谢你。"
     },
     {
       "w": "cute",
@@ -294,8 +288,8 @@
       "i": "kjuːt",
       "c": "可爱的",
       "t": "u3",
-      "e": "Young kangaroos are very cute.",
-      "z": "袋鼠幼仔非常可爱。"
+      "e": "The girl is very cute.",
+      "z": "这个女孩很可爱。"
     },
     {
       "w": "strong",
@@ -303,8 +297,8 @@
       "i": "strɒŋ",
       "c": "强壮的",
       "t": "u3",
-      "e": "She was a strong, principled woman.",
-      "z": "她是个坚强、有原则的女人。"
+      "e": "The man is very strong.",
+      "z": "这个男人非常强壮。"
     },
     {
       "w": "friendly",
@@ -321,8 +315,8 @@
       "i": "'kwaɪət",
       "c": "安静的",
       "t": "u3",
-      "e": "The port is quiet and unspoiled.",
-      "z": "这个港口很安静，有未受破坏的自然美。"
+      "e": "She is a quiet girl.",
+      "z": "她是一个文静的女孩。"
     },
     {
       "w": "hair",
@@ -330,8 +324,8 @@
       "i": "heə",
       "c": "头发",
       "t": "u3",
-      "e": "His hair was as white as snow.",
-      "z": "他头发雪白。"
+      "e": "I have blue hair.",
+      "z": "我的头友是蓝色的。"
     },
     {
       "w": "shoe",
@@ -339,8 +333,8 @@
       "i": "ʃuː",
       "c": "鞋",
       "t": "u3",
-      "e": "The back of my shoe is rubbing.",
-      "z": "我的鞋后跟磨脚。"
+      "e": "Her shoes are blue.",
+      "z": "她的鞋子是蓝色的。"
     },
     {
       "w": "glasses",
@@ -348,8 +342,8 @@
       "i": "'glɑːsɪz",
       "c": "眼镜",
       "t": "u3",
-      "e": "Sunlight glinted on his glasses.",
-      "z": "阳光在他的眼镜上闪光。"
+      "e": "His glasses are blue.",
+      "z": "他的眼镜是蓝色的。"
     },
     {
       "w": "his",
@@ -357,8 +351,8 @@
       "i": "hɪz",
       "c": "他的",
       "t": "u3",
-      "e": "She rumpled his hair playfully.",
-      "z": "她顽皮地弄乱他的头发。"
+      "e": "His glasses are blue.",
+      "z": "他的眼镜是蓝色的。"
     },
     {
       "w": "or",
@@ -375,8 +369,8 @@
       "i": "raɪt",
       "c": "对的",
       "t": "u3",
-      "e": "Your answer is exactly right.",
-      "z": "你的回答完全正确。"
+      "e": "I stamp my right foot.",
+      "z": "我跌我的右脚。"
     },
     {
       "w": "hat",
@@ -384,8 +378,8 @@
       "i": "hæt",
       "c": "帽子",
       "t": "u3",
-      "e": "She looks a sight in that hat!",
-      "z": "她戴着那顶帽子，样子够滑稽的！"
+      "e": "Where is my hat?",
+      "z": "我的帽子在哪里?"
     },
     {
       "w": "her",
@@ -393,8 +387,8 @@
       "i": "hɜː",
       "c": "她的",
       "t": "u3",
-      "e": "He thanked her ceremoniously.",
-      "z": "他郑重其事地感谢了她。"
+      "e": "Her shoes are blue.",
+      "z": "她的鞋子是蓝色的。"
     },
     {
       "w": "bedroom",
@@ -402,8 +396,8 @@
       "i": "'bedruːm; -rʊm",
       "c": "卧室",
       "t": "u4",
-      "e": "The main bedroom is enormous.",
-      "z": "主卧室大极了。"
+      "e": "This is her bedroom.",
+      "z": "这是她的卧室。"
     },
     {
       "w": "living room",
@@ -411,8 +405,8 @@
       "i": "'lɪvɪŋ ru:m",
       "c": "客厅",
       "t": "u4",
-      "e": "I'd like the use of your living room, if I may.",
-      "z": "如果可以，我想用用你的起居室。"
+      "e": "Is she in the living room?",
+      "z": "她在客厅里吗?"
     },
     {
       "w": "study",
@@ -420,8 +414,8 @@
       "i": "'stʌdɪ",
       "c": "书房",
       "t": "u4",
-      "e": "We will study the report carefully before making a decision.",
-      "z": "我们将认真研究这份报告，然后再作决定。"
+      "e": "I'm in the study.",
+      "z": "我在书房里。"
     },
     {
       "w": "kitchen",
@@ -438,8 +432,8 @@
       "i": "'bɑːθruːm; -rʊm",
       "c": "浴室",
       "t": "u4",
-      "e": "The bathroom floor was awash.",
-      "z": "浴室地板浸在水中。"
+      "e": "This is my bathroom.",
+      "z": "这是我的浴室。"
     },
     {
       "w": "bed",
@@ -447,8 +441,8 @@
       "i": "bed",
       "c": "床",
       "t": "u4",
-      "e": "I've had it! I'm going to bed.",
-      "z": "我太困了！我要去睡觉了。"
+      "e": "This bed is small.",
+      "z": "这张床很小。"
     },
     {
       "w": "phone",
@@ -465,8 +459,7 @@
       "i": "'teɪb(ə)l",
       "c": "桌子",
       "t": "u4",
-      "e": "Liz saw their eyes meet fondly across the table.",
-      "z": "利兹看到他们隔着桌子深情地对视着。"
+      "e": "Are they on the table?"
     },
     {
       "w": "sofa",
@@ -474,8 +467,8 @@
       "i": "'səʊfə",
       "c": "长沙发",
       "t": "u4",
-      "e": "The sofa also functions as a bed.",
-      "z": "这沙发还可当床用。"
+      "e": "A key is on the sofa.",
+      "z": "一把钥匙在长沙友上。"
     },
     {
       "w": "fridge",
@@ -483,8 +476,8 @@
       "i": "frɪdʒ",
       "c": "冰箱",
       "t": "u4",
-      "e": "The fridge was completely bare.",
-      "z": "电冰箱里什么也没有。"
+      "e": "He opens the fridge.",
+      "z": "他打开冰箱。"
     },
     {
       "w": "find",
@@ -492,8 +485,8 @@
       "i": "faɪnd",
       "c": "找到",
       "t": "u4",
-      "e": "She went to a lot of trouble to find the book for me.",
-      "z": "她不辞劳苦把书给我找到了。"
+      "e": "Can you find a bottle?",
+      "z": "尔能找到一个瓶子吗?"
     },
     {
       "w": "them",
@@ -501,8 +494,8 @@
       "i": "ðem; ðəm",
       "c": "他们",
       "t": "u4",
-      "e": "It was true love between them.",
-      "z": "他们是真心相爱。"
+      "e": "I can see them playing.",
+      "z": "我能看到他们在玩。"
     },
     {
       "w": "beef",
@@ -510,8 +503,8 @@
       "i": "biːf",
       "c": "牛肉",
       "t": "u5",
-      "e": "Pete gobbled all the beef stew.",
-      "z": "皮特狼吞虎咽地吃完了所有的炖牛肉。"
+      "e": "Would you like some beef?",
+      "z": "你想要些牛肉吗?"
     },
     {
       "w": "chicken",
@@ -519,8 +512,7 @@
       "i": "'tʃɪkɪn",
       "c": "鸡肉",
       "t": "u5",
-      "e": "I love chicken wings so much.",
-      "z": "我真的很喜欢吃鸡翅。"
+      "e": "I'd like some chicken."
     },
     {
       "w": "noodles",
@@ -528,8 +520,8 @@
       "i": "ˈnu:dlz",
       "c": "面条",
       "t": "u5",
-      "e": "Would you prefer rice or noodles?",
-      "z": "你喜欢吃米饭还是面条？"
+      "e": "I want some noodles.",
+      "z": "我想要些面条。"
     },
     {
       "w": "soup",
@@ -537,8 +529,8 @@
       "i": "suːp",
       "c": "汤",
       "t": "u5",
-      "e": "Martina contented herself with a bowl of soup.",
-      "z": "马丁娜喝了一碗汤就心满意足了。"
+      "e": "Have some soup.",
+      "z": "喝些汤 吧"
     },
     {
       "w": "vegetable",
@@ -546,8 +538,7 @@
       "i": "ˈvedʒtəbl",
       "c": "蔬菜",
       "t": "u5",
-      "e": "Recently much of their energy has gone into planting a large vegetable garden.",
-      "z": "最近，他们的大部分精力已经花在种植一个大型蔬菜园上。"
+      "e": "I like eating vegetable."
     },
     {
       "w": "chopsticks",
@@ -564,8 +555,7 @@
       "i": "bəʊl",
       "c": "碗",
       "t": "u5",
-      "e": "She dug into her bowl of pasta.",
-      "z": "她津津有味地吃着碗里的面条。"
+      "e": "Can you give me three bowls?"
     },
     {
       "w": "fork",
@@ -573,8 +563,8 @@
       "i": "fɔːk",
       "c": "餐叉",
       "t": "u5",
-      "e": "He dug his fork into the steak.",
-      "z": "他把餐叉叉进牛排。"
+      "e": "TO eat with a knife and fork.",
+      "z": "用刀叉吃东西。"
     },
     {
       "w": "knife",
@@ -582,8 +572,8 @@
       "i": "naɪf",
       "c": "刀",
       "t": "u5",
-      "e": "He thrust at me with a knife.",
-      "z": "他拿刀向我刺来。"
+      "e": "TO eat with a knife and fork.",
+      "z": "用刀叉吃东西。"
     },
     {
       "w": "spoon",
@@ -591,8 +581,8 @@
       "i": "spuːn",
       "c": "匙,勺子",
       "t": "u5",
-      "e": "She licked the spoon clean.",
-      "z": "她把调羹舔得干干净净。"
+      "e": "I use the spoon.",
+      "z": "我用这把勺。"
     },
     {
       "w": "dinner",
@@ -600,8 +590,7 @@
       "i": "'dɪnə",
       "c": "正餐",
       "t": "u5",
-      "e": "Let's invite them to dinner tomorrow.",
-      "z": "我们明天请他们吃饭吧。"
+      "e": "When do you eat dinner?"
     },
     {
       "w": "ready",
@@ -609,8 +598,8 @@
       "i": "'redɪ",
       "c": "准备好",
       "t": "u5",
-      "e": "Everybody ready? It's showtime!",
-      "z": "大家都准备好了吗？开演！"
+      "e": "Are you ready?",
+      "z": "你准备好了吗?"
     },
     {
       "w": "help yourself",
@@ -618,8 +607,7 @@
       "i": "",
       "c": "为（自己）取用",
       "t": "u5",
-      "e": "If you want another drink, just help yourself.",
-      "z": "你要是想再喝一杯就请自便。"
+      "e": "Help yourself."
     },
     {
       "w": "pass",
@@ -627,8 +615,8 @@
       "i": "pɑːs",
       "c": "给",
       "t": "u5",
-      "e": "She timed the pass perfectly.",
-      "z": "她传球的时机掌握得恰到好处。"
+      "e": "Can you pass me that flower?",
+      "z": "你能把那洒花递给我吗?"
     },
     {
       "w": "try",
@@ -636,8 +624,7 @@
       "i": "traɪ",
       "c": "试",
       "t": "u5",
-      "e": "I'll try to explain in simple terms.",
-      "z": "我会尽量讲得通俗易懂。"
+      "e": "I try on these gloves?"
     },
     {
       "w": "parents",
@@ -645,8 +632,8 @@
       "i": "'peərənts",
       "c": "父母",
       "t": "u6",
-      "e": "This book is dedicated to my parents.",
-      "z": "谨以此书献给我的父母。"
+      "e": "They are my parents.",
+      "z": "他们是我的父母。"
     },
     {
       "w": "cousin",
@@ -654,8 +641,8 @@
       "i": "'kʌz(ə)n",
       "c": "同辈表亲",
       "t": "u6",
-      "e": "Eric was my cousin Edward's boy.",
-      "z": "埃里克是我堂兄爱德华的儿子。"
+      "e": "My cousin is very beautiful.",
+      "z": "我的党妹很漂亮"
     },
     {
       "w": "uncle",
@@ -663,8 +650,7 @@
       "i": "'ʌŋk(ə)l",
       "c": "叔叔",
       "t": "u6",
-      "e": "My uncle taught me to juggle.",
-      "z": "我叔叔教我玩杂耍。"
+      "e": "He is my uncle."
     },
     {
       "w": "aunt",
@@ -672,8 +658,8 @@
       "i": "ɑːnt",
       "c": "阿姨",
       "t": "u6",
-      "e": "This is my aunt who's over from Canada.",
-      "z": "这是我姑姑，她是从加拿大过来的。"
+      "e": "I like my aunt.",
+      "z": "我喜欢我的姑母"
     },
     {
       "w": "baby brother",
@@ -681,8 +667,7 @@
       "i": "",
       "c": "小弟弟",
       "t": "u6",
-      "e": "You've got a baby brother and a baby sister.",
-      "z": "你有一个小弟弟和一个小妹妹。"
+      "e": "I have a baby brother."
     },
     {
       "w": "doctor",
@@ -690,8 +675,7 @@
       "i": "'dɒktə",
       "c": "医生",
       "t": "u6",
-      "e": "I respect him as a doctor.",
-      "z": "我尊敬他这个医生。"
+      "e": "You should see a doctor."
     },
     {
       "w": "cook",
@@ -699,8 +683,8 @@
       "i": "kʊk",
       "c": "厨师",
       "t": "u6",
-      "e": "She was an amazingly good cook.",
-      "z": "她曾是个好得惊人的厨师。"
+      "e": "My father is a cook.",
+      "z": "我的父亲是一名厨师。"
     },
     {
       "w": "driver",
@@ -717,8 +701,8 @@
       "i": "'fɑːmə",
       "c": "农民",
       "t": "u6",
-      "e": "There once was a poor farmer who had four sons.",
-      "z": "从前有一个贫苦的农夫，他有四个儿子。"
+      "e": "He is a farmer.",
+      "z": "他是一位农民"
     },
     {
       "w": "nurse",
@@ -726,8 +710,8 @@
       "i": "nɜːs",
       "c": "护士",
       "t": "u6",
-      "e": "The nurse cleaned the wound.",
-      "z": "护士清洗了伤口。"
+      "e": "My sister is a nurse.",
+      "z": "我的姐姐是一名护士。"
     },
     {
       "w": "people",
@@ -735,8 +719,8 @@
       "i": "'piːp(ə)l",
       "c": "人们",
       "t": "u6",
-      "e": "The people yearned for peace.",
-      "z": "人民渴望和平。"
+      "e": "Many people like Italian food.",
+      "z": "许多人喜欢意大利的食物。"
     },
     {
       "w": "but",
@@ -744,8 +728,7 @@
       "i": "bʌt; bət",
       "c": "但是",
       "t": "u6",
-      "e": "My horse is small but wiry and sure-footed.",
-      "z": "我的马虽矮小，但身体结实，步伐稳健。"
+      "e": "We're tired but happy."
     },
     {
       "w": "little",
@@ -771,8 +754,8 @@
       "i": "",
       "c": "足球运动员",
       "t": "u6",
-      "e": "He's the best football player I've ever coached.",
-      "z": "他是我训练过的最出色的足球运动员。"
+      "e": "My brother is a football player.",
+      "z": "我的哥哥是一名足球运动员。"
     },
     {
       "w": "job",
@@ -789,8 +772,8 @@
       "i": "'bɑːskɪtbɔːl",
       "c": "篮球",
       "t": "u6",
-      "e": "I enjoy playing basketball.",
-      "z": "我喜欢打篮球。"
+      "e": "We like playing basketball.",
+      "z": "我们喜欢打蓝球。"
     }
   ],
   "grade": 4,

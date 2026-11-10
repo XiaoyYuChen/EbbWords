@@ -1,0 +1,2982 @@
+{
+  "April": {
+    "en": "The exhibition will open in April.",
+    "cn": "这个展览将在四月开幕。",
+    "page": 84
+  },
+  "Canada": {
+    "en": "I'm from the Canada.",
+    "cn": "我来自加拿大。",
+    "page": 17
+  },
+  "Canberra": {
+    "en": "Are you from Canberra?",
+    "cn": "你是堪培拉人吗?",
+    "page": 96
+  },
+  "Chinese": {
+    "en": "The Chinese book is useful.",
+    "cn": "这本语文书很有用。",
+    "page": 4
+  },
+  "Chinese book": {
+    "en": "The Chinese book is useful.",
+    "cn": "这本语文书很有用。",
+    "page": 4
+  },
+  "Christmas": {
+    "en": "When is Christmas?",
+    "cn": "圣诞节是什么时候?",
+    "page": 76
+  },
+  "English": {
+    "en": "Let's learn English.",
+    "cn": "我们学英语吧。",
+    "page": 61
+  },
+  "English book": {
+    "en": "It's a English book.",
+    "cn": "",
+    "page": 4
+  },
+  "English class": {
+    "en": "Do you like English class?",
+    "cn": "你喜欢英语课吗?",
+    "page": 42
+  },
+  "Friday": {
+    "en": "I have a music class on this Friday.",
+    "cn": "这周五我有一节音乐课。",
+    "page": 54
+  },
+  "Germany": {
+    "en": "I go to Germany by plane.",
+    "cn": "机去德国",
+    "page": 91
+  },
+  "Italian": {
+    "en": "Many people like Italian food.",
+    "cn": "许多人喜欢意大利的食物。",
+    "page": 86
+  },
+  "Miss": {
+    "en": "Miss Li is our English teacher.",
+    "cn": "李老师是我们的英语老师。",
+    "page": 10
+  },
+  "Monday": {
+    "en": "The meet is on Monday.",
+    "cn": "会议在星期一举行。",
+    "page": 75
+  },
+  "Moscow": {
+    "en": "What's the weather like in Moscow?",
+    "cn": "莫斯科的天气怎么样?",
+    "page": 45
+  },
+  "Ms": {
+    "en": "She is Ms Bella.",
+    "cn": "她是贝拉女士。",
+    "page": 53
+  },
+  "National Day": {
+    "en": "When is National Day?",
+    "cn": "国庆节是什么时候?",
+    "page": 76
+  },
+  "November": {
+    "en": "I like November.",
+    "cn": "圣诞节在十二月。",
+    "page": 74
+  },
+  "PE class": {
+    "en": "I have a PE class on this Tuesday.",
+    "cn": "",
+    "page": 54
+  },
+  "Saturday": {
+    "en": "What do you do on this Saturday?",
+    "cn": "你这周六干什么?",
+    "page": 54
+  },
+  "Spain": {
+    "en": "Do you like Spain?",
+    "cn": "",
+    "page": 68
+  },
+  "Spanish": {
+    "en": "It's a Spanish song.",
+    "cn": "它是一首西班牙的歌曲。",
+    "page": 84
+  },
+  "Sunday": {
+    "en": "Is it Sunday?",
+    "cn": "",
+    "page": 54
+  },
+  "Sydney": {
+    "en": "Is it hot in Sydney?",
+    "cn": "",
+    "page": 45
+  },
+  "TV": {
+    "en": "I want to watch TV.",
+    "cn": "我想看电视。",
+    "page": 29
+  },
+  "Tuesday": {
+    "en": "I have a PE class on this Tuesday.",
+    "cn": "",
+    "page": 54
+  },
+  "UK": {
+    "en": "Are you from UK?",
+    "cn": "你是英国人吗?",
+    "page": 17
+  },
+  "USA": {
+    "en": "She's from the USA.",
+    "cn": "她来自美国。",
+    "page": 17
+  },
+  "a pair of": {
+    "en": "I'd like a pair of gloves.",
+    "cn": "我想要一双手套。",
+    "page": 50
+  },
+  "act": {
+    "en": "Act like an elephant.",
+    "cn": "扮演一头大象。",
+    "page": 76
+  },
+  "afraid": {
+    "en": "I'm afraid of my maths teacher.",
+    "cn": "我怕我的数学老师。",
+    "page": 100
+  },
+  "air": {
+    "en": "Let's go out for some fresh air.",
+    "cn": "我们出去呼吸点新鲜空气吧。",
+    "page": 11
+  },
+  "all": {
+    "en": "Are these all ours?",
+    "cn": "这些全是我们的吗?",
+    "page": 79
+  },
+  "always": {
+    "en": "Why are you always late?",
+    "cn": "你为什么总是迟到?",
+    "page": 69
+  },
+  "amazing": {
+    "en": "What amazing speed!",
+    "cn": "多么惊人的速度啊!",
+    "page": 96
+  },
+  "and": {
+    "en": "He schoolbag are cheap and nice.",
+    "cn": "他的书包又便宜又好。",
+    "page": 50
+  },
+  "angry": {
+    "en": "Are you angry?",
+    "cn": "你生气吗?",
+    "page": 100
+  },
+  "animal": {
+    "en": "Let's travel in the animal world.",
+    "cn": "",
+    "page": 45
+  },
+  "apple": {
+    "en": "Do you like apples?",
+    "cn": "你喜欢苹果吗?",
+    "page": 26
+  },
+  "are": {
+    "en": "Are you ready?",
+    "cn": "你准备好了吗?",
+    "page": 36
+  },
+  "arm": {
+    "en": "This is my arm.",
+    "cn": "",
+    "page": 1
+  },
+  "art": {
+    "en": "Is that the art room?",
+    "cn": "那是美术教室吗?",
+    "page": 39
+  },
+  "art room": {
+    "en": "Is that the art room?",
+    "cn": "那是美术教室吗?",
+    "page": 39
+  },
+  "at": {
+    "en": "Look at the fox.",
+    "cn": "看那只狐狸。",
+    "page": 8
+  },
+  "attention": {
+    "en": "Please pay attention to the traffic lights.",
+    "cn": "请注意交通信号灯。",
+    "page": 91
+  },
+  "aunt": {
+    "en": "I like my aunt.",
+    "cn": "我喜欢我的姑母",
+    "page": 7
+  },
+  "autumn": {
+    "en": "Autumn is very beautiful.",
+    "cn": "秋天很美。",
+    "page": 72
+  },
+  "baby brother": {
+    "en": "I have a baby brother.",
+    "cn": "",
+    "page": 37
+  },
+  "bag": {
+    "en": "Carry your bag.",
+    "cn": "背上你的包",
+    "page": 2
+  },
+  "balloon": {
+    "en": "I have fifteen balloons.",
+    "cn": "",
+    "page": 27
+  },
+  "banana": {
+    "en": "Would you like a banana?",
+    "cn": "你想要一个香焦吗?",
+    "page": 11
+  },
+  "basketball": {
+    "en": "We like playing basketball.",
+    "cn": "我们喜欢打蓝球。",
+    "page": 38
+  },
+  "bathroom": {
+    "en": "This is my bathroom.",
+    "cn": "这是我的浴室。",
+    "page": 33
+  },
+  "be": {
+    "en": "You can be a secretary.",
+    "cn": "",
+    "page": 99
+  },
+  "bean": {
+    "en": "Are these green beans?",
+    "cn": "这毕是豆角吗?",
+    "page": 46
+  },
+  "bear": {
+    "en": "Look at the bear. It's on the hill.",
+    "cn": "看那只熊。它在山上。",
+    "page": 14
+  },
+  "beautiful": {
+    "en": "It's a beautiful song!",
+    "cn": "这是一首美妙的歌!",
+    "page": 58
+  },
+  "bed": {
+    "en": "This bed is small.",
+    "cn": "这张床很小。",
+    "page": 33
+  },
+  "bedroom": {
+    "en": "This is her bedroom.",
+    "cn": "这是她的卧室。",
+    "page": 33
+  },
+  "beef": {
+    "en": "Would you like some beef?",
+    "cn": "你想要些牛肉吗?",
+    "page": 35
+  },
+  "best": {
+    "en": "I like winter best.",
+    "cn": "我最喜欢冬天。",
+    "page": 70
+  },
+  "between": {
+    "en": "There is a table between two windows.",
+    "cn": "",
+    "page": 63
+  },
+  "big": {
+    "en": "I have big eyes.",
+    "cn": "我有一双大眼睛。",
+    "page": 7
+  },
+  "bike": {
+    "en": "I see a bike in the picture.",
+    "cn": "我在这张照片中看到了一辆自行车。",
+    "page": 62
+  },
+  "bird": {
+    "en": "This is a bird.",
+    "cn": "",
+    "page": 8
+  },
+  "birthday": {
+    "en": "Happy birthday!",
+    "cn": "",
+    "page": 18
+  },
+  "blue": {
+    "en": "I have blue hair.",
+    "cn": "我的头友是蓝色的。",
+    "page": 32
+  },
+  "boat": {
+    "en": "I'm rowing a boat.",
+    "cn": "我正在划船。",
+    "page": 25
+  },
+  "boating": {
+    "en": "He likes boating.",
+    "cn": "他喜欢划船。",
+    "page": 66
+  },
+  "body": {
+    "en": "Shake your body.",
+    "cn": "晃动你的身体。",
+    "page": 6
+  },
+  "book": {
+    "en": "This is my maths book.",
+    "cn": "这是我的数学书。",
+    "page": 4
+  },
+  "bottle": {
+    "en": "I'd like a water bottle.",
+    "cn": "我想要一个水瓶。",
+    "page": 62
+  },
+  "bowl": {
+    "en": "Can you give me three bowls?",
+    "cn": "",
+    "page": 35
+  },
+  "box": {
+    "en": "Open your pencil box.",
+    "cn": "打开你的铅笔盒",
+    "page": 2
+  },
+  "boy": {
+    "en": "He is a young boy.",
+    "cn": "他是个小男孩。",
+    "page": 52
+  },
+  "bread": {
+    "en": "Have some bread.",
+    "cn": "吃些面包。",
+    "page": 81
+  },
+  "breakfast": {
+    "en": "When do you eat breakfast?",
+    "cn": "你什么时候吃早饭?",
+    "page": 67
+  },
+  "breath": {
+    "en": "Hold one's breath.",
+    "cn": "屏住呼吸。",
+    "page": 100
+  },
+  "bright": {
+    "en": "The moon is very bright.",
+    "cn": "",
+    "page": 94
+  },
+  "brother": {
+    "en": "He is my brother.",
+    "cn": "",
+    "page": 18
+  },
+  "businessman": {
+    "en": "I'm going to be a businessman.",
+    "cn": "我要成为一个商人",
+    "page": 97
+  },
+  "but": {
+    "en": "We're tired but happy.",
+    "cn": "",
+    "page": 100
+  },
+  "buy": {
+    "en": "We are going to buy a word book.",
+    "cn": "我们要去买一本单词书。",
+    "page": 93
+  },
+  "cake": {
+    "en": "I have three cakes.",
+    "cn": "",
+    "page": 15
+  },
+  "call": {
+    "en": "He calls out their name in turn.",
+    "cn": "",
+    "page": 83
+  },
+  "can": {
+    "en": "Can you make bread?",
+    "cn": "你会做面包吗?",
+    "page": 13
+  },
+  "candy": {
+    "en": "Let's share the candy.",
+    "cn": "让我们分享糖果吧。",
+    "page": 1
+  },
+  "cap": {
+    "en": "Where 'is my cap?",
+    "cn": "我的帽子在哪里?",
+    "page": 24
+  },
+  "car": {
+    "en": "This is a car.",
+    "cn": "这是一辆小汽车。",
+    "page": 25
+  },
+  "cat": {
+    "en": "It's a white cat.",
+    "cn": "它是一只白色的猫。",
+    "page": 14
+  },
+  "chair": {
+    "en": "I sit on the chair.",
+    "cn": "我坐在这把椅子上。",
+    "page": 24
+  },
+  "cheap": {
+    "en": "He schoolbag are cheap and nice.",
+    "cn": "他的书包又便宜又好。",
+    "page": 50
+  },
+  "chicken": {
+    "en": "I'd like some chicken.",
+    "cn": "",
+    "page": 35
+  },
+  "children": {
+    "en": "Who are these children?",
+    "cn": "",
+    "page": 23
+  },
+  "class": {
+    "en": "Do you like English class?",
+    "cn": "你喜欢英语课吗?",
+    "page": 42
+  },
+  "classroom": {
+    "en": "This is our classroom.",
+    "cn": "这是我们的教室。",
+    "page": 28
+  },
+  "clean": {
+    "en": "I clean the teacher's desk.",
+    "cn": "我打扫讲台。",
+    "page": 29
+  },
+  "clever": {
+    "en": "My robot is very clever.",
+    "cn": "我的机器人很聪明。",
+    "page": 53
+  },
+  "climb": {
+    "en": "Let's climb the hill.",
+    "cn": "",
+    "page": 65
+  },
+  "close": {
+    "en": "Please close the door.",
+    "cn": "",
+    "page": 28
+  },
+  "clothes": {
+    "en": "Whose clothes are these?",
+    "cn": "这些是谁的衣服?",
+    "page": 48
+  },
+  "club": {
+    "en": "I want to join the football club.",
+    "cn": "我想加入足球俱乐部。",
+    "page": 96
+  },
+  "coach": {
+    "en": "Is he a basketball coach?",
+    "cn": "他是一名篮球教练吗?",
+    "page": 98
+  },
+  "coat": {
+    "en": "Where is my yellow coat?",
+    "cn": "我的黄色大衣在哪里?",
+    "page": 48
+  },
+  "cold": {
+    "en": "It's very cold outside.",
+    "cn": "外面非常冷。",
+    "page": 44
+  },
+  "color": {
+    "en": "What's your favorite color?",
+    "cn": "你最喜欢的颜色是什么?",
+    "page": 13
+  },
+  "come": {
+    "en": "Come and join us.",
+    "cn": "来加入我们吧",
+    "page": 96
+  },
+  "comic": {
+    "en": "It's a comic story.",
+    "cn": "",
+    "page": 93
+  },
+  "computer": {
+    "en": "Where is the computer?",
+    "cn": "",
+    "page": 28
+  },
+  "cook": {
+    "en": "My father is a cook.",
+    "cn": "我的父亲是一名厨师。",
+    "page": 37
+  },
+  "cooking": {
+    "en": "Do you like cooking?",
+    "cn": "你喜欢豪饪吧",
+    "page": 22
+  },
+  "could": {
+    "en": "Could you tell me how to get to the hospital?",
+    "cn": "尔能告诉我如何去医院吗?",
+    "page": 87
+  },
+  "count": {
+    "en": "You should count to five.",
+    "cn": "你应该数到五。",
+    "page": 101
+  },
+  "count to ten": {
+    "en": "Let's count to ten together.",
+    "cn": "我们一起数到十吧。",
+    "page": 101
+  },
+  "cousin": {
+    "en": "My cousin is very beautiful.",
+    "cn": "我的党妹很漂亮",
+    "page": 7
+  },
+  "cow": {
+    "en": "Cows are very strong.",
+    "cn": "奶牛很导。",
+    "page": 46
+  },
+  "crayon": {
+    "en": "It's a pink crayon.",
+    "cn": "它是一文粉色的蜡笔。",
+    "page": 14
+  },
+  "cream": {
+    "en": "The ice cream is very sweet.",
+    "cn": "",
+    "page": 56
+  },
+  "cut": {
+    "en": "Let's cut up the potatoes.",
+    "cn": "让我们把土豆切碎。",
+    "page": 16
+  },
+  "cut up": {
+    "en": "Let's cut up the potatoes.",
+    "cn": "让我们把土豆切碎。",
+    "page": 16
+  },
+  "cute": {
+    "en": "The girl is very cute.",
+    "cn": "这个女孩很可爱。",
+    "page": 10
+  },
+  "dad": {
+    "en": "My dad is very tall.",
+    "cn": "我的爸爸很高。",
+    "page": 5
+  },
+  "dancing": {
+    "en": "I have a dancing class.",
+    "cn": "我有一节和舞蹈课",
+    "page": 67
+  },
+  "day": {
+    "en": "Today is a sunny day.",
+    "cn": "今天是阳光明媚的一天。",
+    "page": 44
+  },
+  "deep": {
+    "en": "The river is very deep.",
+    "cn": "这条河很深。",
+    "page": 100
+  },
+  "delicious": {
+    "en": "Hamburgers are delicious.",
+    "cn": "汉堡包是美味的。",
+    "page": 56
+  },
+  "desk": {
+    "en": "My pen is on the desk.",
+    "cn": "我的钢笔在书桌上。",
+    "page": 24
+  },
+  "dinner": {
+    "en": "When do you eat dinner?",
+    "cn": "",
+    "page": 67
+  },
+  "do": {
+    "en": "What do you usually do after dinner?",
+    "cn": "晚饭后你通常做什么?",
+    "page": 68
+  },
+  "doctor": {
+    "en": "You should see a doctor.",
+    "cn": "",
+    "page": 100
+  },
+  "dog": {
+    "en": "Look at the dog.",
+    "cn": "",
+    "page": 60
+  },
+  "doing morning exercises": {
+    "en": "She is doing morning exercises.",
+    "cn": "",
+    "page": 82
+  },
+  "door": {
+    "en": "Please close the door.",
+    "cn": "",
+    "page": 28
+  },
+  "down": {
+    "en": "Please slow down and stop at a yellow light.",
+    "cn": "黄灯时请减速并停下来。",
+    "page": 90
+  },
+  "draw": {
+    "en": "Are you drawing a picture?",
+    "cn": "你在画画吗?",
+    "page": 14
+  },
+  "dress": {
+    "en": "Your dress is very beautiful.",
+    "cn": "你的连衣裙很漂",
+    "page": 48
+  },
+  "drink": {
+    "en": "He is drinking water.",
+    "cn": "他正在喝水。",
+    "page": 80
+  },
+  "drinking": {
+    "en": "He is drinking water.",
+    "cn": "他正在喝水。",
+    "page": 80
+  },
+  "drive": {
+    "en": "Don't drive so fast!",
+    "cn": "别把车开得这么快!",
+    "page": 91
+  },
+  "duck": {
+    "en": "Look at the duck.",
+    "cn": "看那只鸭子。它在卡车里。",
+    "page": 14
+  },
+  "each other": {
+    "en": "They look at each other.",
+    "cn": "",
+    "page": 80
+  },
+  "ear": {
+    "en": "I touch my ears.",
+    "cn": "",
+    "page": 1
+  },
+  "eat": {
+    "en": "We'll eat mooncakes.",
+    "cn": "我们会吃月饼。",
+    "page": 94
+  },
+  "eat breakfast": {
+    "en": "When do you eat breakfast?",
+    "cn": "你什么时候吃早饭?",
+    "page": 67
+  },
+  "eat dinner": {
+    "en": "When do you eat dinner?",
+    "cn": "你什么时候吃晚饭?",
+    "page": 67
+  },
+  "eating": {
+    "en": "I like eating tomatoes.",
+    "cn": "我喜欢吃西红柿。",
+    "page": 46
+  },
+  "egg": {
+    "en": "He has eight eggs.",
+    "cn": "他有八个鸡蛋。",
+    "page": 18
+  },
+  "eight": {
+    "en": "He has eight eggs.",
+    "cn": "他有八个鸡蛋。",
+    "page": 18
+  },
+  "eighteen": {
+    "en": "Eighteen cars are 'on the road.",
+    "cn": "",
+    "page": 27
+  },
+  "elephant": {
+    "en": "Act like an elephant.",
+    "cn": "扮演一头大象。",
+    "page": 76
+  },
+  "eleven": {
+    "en": "I see eleven Kites.",
+    "cn": "",
+    "page": 27
+  },
+  "email": {
+    "en": "I send you an email.",
+    "cn": "我给你友送了封电子邮件。",
+    "page": 61
+  },
+  "eraser": {
+    "en": "I have an eraser.",
+    "cn": "我有 一块橡皮。",
+    "page": 2
+  },
+  "every": {
+    "en": "I play sports every morning.",
+    "cn": "我每天早上做体育运动。",
+    "page": 22
+  },
+  "every day": {
+    "en": "You should play sports every day.",
+    "cn": "殉你应该每天做体育运动。",
+    "page": 55
+  },
+  "everything": {
+    "en": "Everything is no problem.",
+    "cn": "所有事都没问题。",
+    "page": 61
+  },
+  "excited": {
+    "en": "Are you excited?",
+    "cn": "",
+    "page": 80
+  },
+  "exercise": {
+    "en": "She is doing morning exercises.",
+    "cn": "她正在晨练。",
+    "page": 82
+  },
+  "exhibition": {
+    "en": "The exhibition will open in April.",
+    "cn": "这个展览将在四月开幕。",
+    "page": 84
+  },
+  "eye": {
+    "en": "Let's close our eyes.",
+    "cn": "让我们闭上眼睛。",
+    "page": 1
+  },
+  "factory": {
+    "en": "My father works in a factory.",
+    "cn": "我的爸爸在一家工厂上班。",
+    "page": 97
+  },
+  "fall": {
+    "en": "Leaves start to fall in autumn.",
+    "cn": "叶子在秋天开始掉落。",
+    "page": 73
+  },
+  "family": {
+    "en": "This is my family.",
+    "cn": "这是我的家庭。",
+    "page": 7
+  },
+  "famous": {
+    "en": "My father works in a famous university.",
+    "cn": "",
+    "page": 98
+  },
+  "fan": {
+    "en": "Turn on the fan.",
+    "cn": "打开风扇。",
+    "page": 29
+  },
+  "far": {
+    "en": "Is it far from here?",
+    "cn": "它离这里远吗?",
+    "page": 87
+  },
+  "farm": {
+    "en": "Let's go to the farm.",
+    "cn": "我们去农场吧。",
+    "page": 11
+  },
+  "farmer": {
+    "en": "He is a farmer.",
+    "cn": "他是一位农民",
+    "page": 38
+  },
+  "fast": {
+    "en": "A fast horse.",
+    "cn": "速度快的马。",
+    "page": 10
+  },
+  "fat": {
+    "en": "The bear is fat.",
+    "cn": "这只能很胖。",
+    "page": 23
+  },
+  "father": {
+    "en": "My father is a cook.",
+    "cn": "我的父亲是一名厨师。",
+    "page": 37
+  },
+  "favorite": {
+    "en": "What's your favorite color?",
+    "cn": "你最喜欢的颜色是什么?",
+    "page": 13
+  },
+  "favourite": {
+    "en": "What's your favourite food?",
+    "cn": "",
+    "page": 57
+  },
+  "feel": {
+    "en": "I feel warm.",
+    "cn": "",
+    "page": 44
+  },
+  "fifteen": {
+    "en": "I have fifteen balloons.",
+    "cn": "我看见十六只乌。",
+    "page": 27
+  },
+  "film": {
+    "en": "Do you like that film?",
+    "cn": "你喜欢那部电影吗?",
+    "page": 92
+  },
+  "find": {
+    "en": "Can you find a bottle?",
+    "cn": "尔能找到一个瓶子吗?",
+    "page": 62
+  },
+  "first floor": {
+    "en": "It's on the first floor.",
+    "cn": "它在一楼。",
+    "page": 39
+  },
+  "fish": {
+    "en": "Can you see thirteen fish?",
+    "cn": "你能看见十三条鱼吗?",
+    "page": 27
+  },
+  "five": {
+    "en": "You should count to five.",
+    "cn": "你应该数到五。",
+    "page": 101
+  },
+  "floor": {
+    "en": "My toy is on the floor.",
+    "cn": "我的玩具在地板上。",
+    "page": 29
+  },
+  "flower": {
+    "en": "She planted a flower today.",
+    "cn": "她今天种了一打人花。",
+    "page": 12
+  },
+  "fly": {
+    "en": "Let's fly a kite!",
+    "cn": "我们放风筝吧!",
+    "page": 45
+  },
+  "fly a kite": {
+    "en": "Let's fly a kite!",
+    "cn": "我们放风筝吧!",
+    "page": 45
+  },
+  "follow": {
+    "en": "Follow me, please.",
+    "cn": "",
+    "page": 87
+  },
+  "food": {
+    "en": "The food is very fresh.",
+    "cn": "这些食物很新鲜。",
+    "page": 56
+  },
+  "foot": {
+    "en": "I stamp my right foot.",
+    "cn": "我跌我的右脚。",
+    "page": 6
+  },
+  "football": {
+    "en": "They are playing football.",
+    "cn": "他们正在踢足球。",
+    "page": 80
+  },
+  "football player": {
+    "en": "My brother is a football player.",
+    "cn": "我的哥哥是一名足球运动员。",
+    "page": 38
+  },
+  "for": {
+    "en": "Here is a new schedule for you.",
+    "cn": "二这是为你做的一份新的日程安排",
+    "page": 22
+  },
+  "forest": {
+    "en": "Let's go to the forest!",
+    "cn": "我们去森林吧!",
+    "page": 65
+  },
+  "fork": {
+    "en": "TO eat with a knife and fork.",
+    "cn": "用刀叉吃东西。",
+    "page": 36
+  },
+  "four": {
+    "en": "I see four ducks.",
+    "cn": "我看见四只了鸭子。",
+    "page": 15
+  },
+  "fourth": {
+    "en": "I like the fourth one.",
+    "cn": "我喜欢第四个。",
+    "page": 77
+  },
+  "fox": {
+    "en": "Look at the fox.",
+    "cn": "看那只狐狸。",
+    "page": 8
+  },
+  "fresh": {
+    "en": "The food is very fresh.",
+    "cn": "这些食物很新鲜。",
+    "page": 56
+  },
+  "fridge": {
+    "en": "He opens the fridge.",
+    "cn": "他打开冰箱。",
+    "page": 34
+  },
+  "friend": {
+    "en": "This is my friend.",
+    "cn": "这是我的朋友。",
+    "page": 3
+  },
+  "from": {
+    "en": "I'm from the Canada.",
+    "cn": "我来自加拿大。",
+    "page": 17
+  },
+  "fruit": {
+    "en": "Let's pick some fresh fruit!",
+    "cn": "我们摘些新鲜的水果吧",
+    "page": 72
+  },
+  "funny": {
+    "en": "The cat is so funny.",
+    "cn": "这只狂非常滑稿。",
+    "page": 52
+  },
+  "fur": {
+    "en": "Its fur is very short.",
+    "cn": "它的毛友非常短。",
+    "page": 78
+  },
+  "game": {
+    "en": "The game is over.",
+    "cn": "游戏结束了。",
+    "page": 43
+  },
+  "garden": {
+    "en": "This is a big garden.",
+    "cn": "这是个大人花园。",
+    "page": 47
+  },
+  "get": {
+    "en": "How can I get there?",
+    "cn": "",
+    "page": 85
+  },
+  "get together": {
+    "en": "Let's get together!",
+    "cn": "我们聚会吧!。",
+    "page": 94
+  },
+  "get up": {
+    "en": "When do you get up?",
+    "cn": "你什么时候起床?",
+    "page": 68
+  },
+  "gift": {
+    "en": "It's a special gift for you.",
+    "cn": "这是给你准备的特别礼物。",
+    "page": 78
+  },
+  "giraffe": {
+    "en": "Giraffes are very tall.",
+    "cn": "长颈鹿很高",
+    "page": 23
+  },
+  "girl": {
+    "en": "She is a good girl.",
+    "cn": "她是一个好女孩。",
+    "page": 3
+  },
+  "give": {
+    "en": "I give him a pencil.",
+    "cn": "我给他一支铅笔。",
+    "page": 53
+  },
+  "glass": {
+    "en": "His glasses are blue.",
+    "cn": "",
+    "page": 32
+  },
+  "glasses": {
+    "en": "His glasses are blue.",
+    "cn": "他的眼镜是蓝色的。",
+    "page": 32
+  },
+  "glove": {
+    "en": "I'd like a pair of gloves.",
+    "cn": "我想要一双手套。",
+    "page": 50
+  },
+  "go": {
+    "en": "Let's go to school!",
+    "cn": "我们去上学吧!",
+    "page": 43
+  },
+  "go for a walk": {
+    "en": "We go for a walk.",
+    "cn": "我们去散步。",
+    "page": 78
+  },
+  "go out": {
+    "en": "Let's go out for some fresh air.",
+    "cn": "我们出去呼吸点新鲜空气吧。",
+    "page": 11
+  },
+  "go swimming": {
+    "en": "Do you want to go swimming?",
+    "cn": "你想去游泳吗?",
+    "page": 71
+  },
+  "go to school": {
+    "en": "Let's go to school!",
+    "cn": "我们去上学吧!",
+    "page": 43
+  },
+  "goat": {
+    "en": "Look at that goat.",
+    "cn": "看那只山手。",
+    "page": 47
+  },
+  "good": {
+    "en": "She is a good girl.",
+    "cn": "她是一个好女孩。",
+    "page": 3
+  },
+  "grandfather": {
+    "en": "Who is your grandfather?",
+    "cn": "",
+    "page": 5
+  },
+  "grandma": {
+    "en": "Is she your grandma?",
+    "cn": "她是你的奶奶吗?",
+    "page": 7
+  },
+  "grandmother": {
+    "en": "She is my grandmother.",
+    "cn": "",
+    "page": 5
+  },
+  "grandpa": {
+    "en": "This is my grandpa.",
+    "cn": "这是我的外祖父。",
+    "page": 5
+  },
+  "grandparent": {
+    "en": "They are my grandparents.",
+    "cn": "他们是我的外祖父母。",
+    "page": 63
+  },
+  "grass": {
+    "en": "Don't walk on the grass.",
+    "cn": "",
+    "page": 89
+  },
+  "great": {
+    "en": "It sounds great.",
+    "cn": "",
+    "page": 69
+  },
+  "green": {
+    "en": "I see green.",
+    "cn": "我看见绿色。",
+    "page": 13
+  },
+  "green beans": {
+    "en": "Are these green beans?",
+    "cn": "这毕是豆角吗?",
+    "page": 46
+  },
+  "hair": {
+    "en": "I have blue hair.",
+    "cn": "我的头友是蓝色的。",
+    "page": 32
+  },
+  "hamburger": {
+    "en": "Hamburgers are delicious.",
+    "cn": "汉堡包是美味的。",
+    "page": 56
+  },
+  "hand": {
+    "en": "I clap my hands.",
+    "cn": "我拍我的手。",
+    "page": 1
+  },
+  "happy": {
+    "en": "We're tired but happy.",
+    "cn": "",
+    "page": 100
+  },
+  "hard": {
+    "en": "You should study hard.",
+    "cn": "",
+    "page": 101
+  },
+  "has": {
+    "en": "He has eight eggs.",
+    "cn": "他有八个鸡蛋。",
+    "page": 18
+  },
+  "hat": {
+    "en": "Where is my hat?",
+    "cn": "我的帽子在哪里?",
+    "page": 32
+  },
+  "have": {
+    "en": "Have some oranges.",
+    "cn": "你喜欢苹果吗?",
+    "page": 26
+  },
+  "have a look": {
+    "en": "Let's have a look!",
+    "cn": "我们一起来看一看吧!",
+    "page": 84
+  },
+  "he": {
+    "en": "He likes boating.",
+    "cn": "他喜欢划船。",
+    "page": 66
+  },
+  "head": {
+    "en": "Touch your head.",
+    "cn": "摸摸你的头。",
+    "page": 6
+  },
+  "head teacher": {
+    "en": "She is a head teacher.",
+    "cn": "她是一位校长。",
+    "page": 98
+  },
+  "healthy": {
+    "en": "He is very healthy.",
+    "cn": "他很健康。",
+    "page": 56
+  },
+  "heavy": {
+    "en": "The box is too heavy.",
+    "cn": "这箱子太重了。",
+    "page": 51
+  },
+  "helmet": {
+    "en": "You should wear a helmet.",
+    "cn": "",
+    "page": 90
+  },
+  "help": {
+    "en": "I help you?",
+    "cn": "",
+    "page": 86
+  },
+  "help yourself": {
+    "en": "Help yourself.",
+    "cn": "",
+    "page": 36
+  },
+  "her": {
+    "en": "Her shoes are blue.",
+    "cn": "她的鞋子是蓝色的。",
+    "page": 32
+  },
+  "here": {
+    "en": "Is it far from here?",
+    "cn": "它离这里远吗?",
+    "page": 87
+  },
+  "hi": {
+    "en": "His glasses are blue.",
+    "cn": "",
+    "page": 32
+  },
+  "hiking": {
+    "en": "Shall we go hiking tomorrow?",
+    "cn": "我们明天可以去远足吗?",
+    "page": 96
+  },
+  "hill": {
+    "en": "Look at the bear. It's on the hill.",
+    "cn": "看那只熊。它在山上。",
+    "page": 14
+  },
+  "him": {
+    "en": "Don't listen to him.",
+    "cn": "别听他的。",
+    "page": 3
+  },
+  "his": {
+    "en": "His glasses are blue.",
+    "cn": "他的眼镜是蓝色的。",
+    "page": 32
+  },
+  "hold": {
+    "en": "Hold one's breath.",
+    "cn": "屏住呼吸。",
+    "page": 100
+  },
+  "horse": {
+    "en": "A fast horse.",
+    "cn": "速度快的马。",
+    "page": 10
+  },
+  "hospital": {
+    "en": "Could you tell me how to get to the hospital?",
+    "cn": "尔能告诉我如何去医院吗?",
+    "page": 87
+  },
+  "hot": {
+    "en": "Do you like this hot weather?",
+    "cn": "你喜欢这种炎热的天气吗?",
+    "page": 44
+  },
+  "house": {
+    "en": "His house is very near.",
+    "cn": "他的房子就在附近。",
+    "page": 29
+  },
+  "how": {
+    "en": "Could you tell me how to get to the hospital?",
+    "cn": "尔能告诉我如何去医院吗?",
+    "page": 87
+  },
+  "how much": {
+    "en": "How much is it?",
+    "cn": "它多少钱?",
+    "page": 51
+  },
+  "hungry": {
+    "en": "I I'm still very hungry.",
+    "cn": "",
+    "page": 78
+  },
+  "hurry": {
+    "en": "Hurry up!",
+    "cn": "快点! 你上学迟到了。",
+    "page": 43
+  },
+  "hurry up": {
+    "en": "Hurry up!",
+    "cn": "快点! 你上学迟到了。",
+    "page": 43
+  },
+  "ice cream": {
+    "en": "The ice cream is very sweet.",
+    "cn": "",
+    "page": 56
+  },
+  "if": {
+    "en": "If you want to read, please turn on the light.",
+    "cn": "如果你要看书，请开灯。",
+    "page": 99
+  },
+  "in": {
+    "en": "I'm in the study.",
+    "cn": "我在书房里。",
+    "page": 33
+  },
+  "is": {
+    "en": "When is Christmas?",
+    "cn": "圣诞节是什么时候?",
+    "page": 76
+  },
+  "island": {
+    "en": "He lives on an island.",
+    "cn": "他住在岛上。",
+    "page": 71
+  },
+  "it": {
+    "en": "How much is it?",
+    "cn": "它多少钱?",
+    "page": 51
+  },
+  "its": {
+    "en": "Its eyes are blue.",
+    "cn": "它的 人",
+    "page": 83
+  },
+  "jasmine": {
+    "en": "I like jasmine very much.",
+    "cn": "",
+    "page": 95
+  },
+  "join": {
+    "en": "Come and join us.",
+    "cn": "来加入我们吧",
+    "page": 96
+  },
+  "juice": {
+    "en": "Would you like some juice?",
+    "cn": "你想要些果汁吗?",
+    "page": 81
+  },
+  "jump": {
+    "en": "Are those monkeys jumping?",
+    "cn": "那些猴子正在跳吗?",
+    "page": 80
+  },
+  "jumping": {
+    "en": "Are those monkeys jumping?",
+    "cn": "那些猴子正在跳吗?",
+    "page": 80
+  },
+  "just": {
+    "en": "This dress is just my size.",
+    "cn": "这件裙子正好是我的尺码。",
+    "page": 51
+  },
+  "key": {
+    "en": "A key is on the sofa.",
+    "cn": "一把钥匙在长沙友上。",
+    "page": 34
+  },
+  "kite": {
+    "en": "Let's fly a kite!",
+    "cn": "我们放风筝吧!",
+    "page": 45
+  },
+  "kitten": {
+    "en": "I see a kitten.",
+    "cn": "",
+    "page": 78
+  },
+  "knife": {
+    "en": "TO eat with a knife and fork.",
+    "cn": "用刀叉吃东西。",
+    "page": 36
+  },
+  "kung fu": {
+    "en": "Chinese kung fu is very wonderful!",
+    "cn": "",
+    "page": 61
+  },
+  "late": {
+    "en": "Why are you always late?",
+    "cn": "",
+    "page": 69
+  },
+  "learn": {
+    "en": "Let's learn English.",
+    "cn": "我们学英语吧。",
+    "page": 61
+  },
+  "leave": {
+    "en": "Leaves start to fall in autumn.",
+    "cn": "叶子在秋天开始掉落。",
+    "page": 73
+  },
+  "left": {
+    "en": "Turn left at the traffic lights.",
+    "cn": "在交通信号灯处向左转。",
+    "page": 91
+  },
+  "leg": {
+    "en": "These are my legs.",
+    "cn": "",
+    "page": 6
+  },
+  "let": {
+    "en": "Let me help you.",
+    "cn": "",
+    "page": 29
+  },
+  "let's": {
+    "en": "Ok, let's go.",
+    "cn": "好，我们走吧。",
+    "page": 30
+  },
+  "library": {
+    "en": "Where is the library?",
+    "cn": "",
+    "page": 39
+  },
+  "light": {
+    "en": "I turn on the light?",
+    "cn": "我能开灯吗?",
+    "page": 28
+  },
+  "like": {
+    "en": "I like elephants.",
+    "cn": "我喜欢大象。",
+    "page": 60
+  },
+  "lion": {
+    "en": "Look at the lion.",
+    "cn": "",
+    "page": 10
+  },
+  "listen": {
+    "en": "Don't listen to him.",
+    "cn": "别听他的。",
+    "page": 3
+  },
+  "listening to music": {
+    "en": "He is listening to music.",
+    "cn": "他正在听音乐。",
+    "page": 82
+  },
+  "live": {
+    "en": "I live near the nature park.",
+    "cn": "我住在目然公园附近。",
+    "page": 64
+  },
+  "living room": {
+    "en": "Is she in the living room?",
+    "cn": "她在客厅里吗?",
+    "page": 33
+  },
+  "long": {
+    "en": "Its tail is so long.",
+    "cn": "",
+    "page": 23
+  },
+  "look": {
+    "en": "Look at the fox.",
+    "cn": "看那只狐狸。",
+    "page": 8
+  },
+  "lot": {
+    "en": "I make a lot of new friends.",
+    "cn": "我交了许多新朋友。",
+    "page": 64
+  },
+  "love": {
+    "en": "I love my mother.",
+    "cn": "",
+    "page": 20
+  },
+  "lunch": {
+    "en": "When do you take classes after lunch?",
+    "cn": "午饭后你什么时候上课?",
+    "page": 68
+  },
+  "make": {
+    "en": "Can you make bread?",
+    "cn": "你会做面包吗?",
+    "page": 13
+  },
+  "make a snowman": {
+    "en": "Can you make a snowman?",
+    "cn": "你会堆雪人吗?",
+    "page": 70
+  },
+  "man": {
+    "en": "The man is very strong.",
+    "cn": "这个男人非常强壮。",
+    "page": 32
+  },
+  "many": {
+    "en": "Many people like Italian food.",
+    "cn": "许多人喜欢意大利的食物。",
+    "page": 86
+  },
+  "math": {
+    "en": "This is my maths book.",
+    "cn": "这是我的数学书。",
+    "page": 4
+  },
+  "maths book": {
+    "en": "This is my maths book.",
+    "cn": "这是我的数学书。",
+    "page": 4
+  },
+  "me": {
+    "en": "Show me red.",
+    "cn": "给我看看红色。",
+    "page": 13
+  },
+  "meat": {
+    "en": "A piece of meat.",
+    "cn": "",
+    "page": 16
+  },
+  "meet": {
+    "en": "The meet is on Monday.",
+    "cn": "会议在星期一举行。",
+    "page": 75
+  },
+  "mine": {
+    "en": "This pink dress is mine.",
+    "cn": "这件粉色连衣裙是我的。",
+    "page": 49
+  },
+  "monkey": {
+    "en": "Look at that monkey!",
+    "cn": "看那只猴子!",
+    "page": 9
+  },
+  "month": {
+    "en": "I like the twelfth month.",
+    "cn": "我喜欢第十二个月份。",
+    "page": 77
+  },
+  "mooncake": {
+    "en": "We'll eat mooncakes.",
+    "cn": "我们会吃月饼。",
+    "page": 94
+  },
+  "more": {
+    "en": "I need more water.",
+    "cn": "我需要更多的水。",
+    "page": 11
+  },
+  "morning": {
+    "en": "I play sports every morning.",
+    "cn": "我每天早上做体育运动。",
+    "page": 22
+  },
+  "mother": {
+    "en": "She is my mother.",
+    "cn": "",
+    "page": 7
+  },
+  "mouse": {
+    "en": "This is a mouse.",
+    "cn": "这是一只老鼠。",
+    "page": 64
+  },
+  "mouth": {
+    "en": "I have a small mouth.",
+    "cn": "我有一个小嘴巴。",
+    "page": 1
+  },
+  "much": {
+    "en": "How much is it?",
+    "cn": "它多少钱?",
+    "page": 51
+  },
+  "mum": {
+    "en": "This is my mum.",
+    "cn": "这是我的妈妈。",
+    "page": 30
+  },
+  "museum": {
+    "en": "Is it a museum?",
+    "cn": "它是一个博物馆吗?",
+    "page": 85
+  },
+  "music": {
+    "en": "Turn the music down.",
+    "cn": "把音乐声关小点。",
+    "page": 90
+  },
+  "music class": {
+    "en": "It's time for music class.",
+    "cn": "该上音乐课了。",
+    "page": 42
+  },
+  "music room": {
+    "en": "Is that the music room?",
+    "cn": "那是音乐教室吗?",
+    "page": 41
+  },
+  "my": {
+    "en": "I clap my hands.",
+    "cn": "我拍我的手。",
+    "page": 1
+  },
+  "name": {
+    "en": "What's your name?",
+    "cn": "你叫什么名字?",
+    "page": 2
+  },
+  "national": {
+    "en": "It's a national park.",
+    "cn": "它是一个国家公园， 全",
+    "page": 75
+  },
+  "nature": {
+    "en": "I live near the nature park.",
+    "cn": "我住在目然公园附近。",
+    "page": 64
+  },
+  "near": {
+    "en": "His house is very near.",
+    "cn": "他的房子就在附近。",
+    "page": 29
+  },
+  "need": {
+    "en": "I need more water.",
+    "cn": "我需要更多的水。",
+    "page": 11
+  },
+  "new": {
+    "en": "He is our new friend.",
+    "cn": "他是我们的新朋友。",
+    "page": 12
+  },
+  "nice": {
+    "en": "She is very nice.",
+    "cn": "她人很好。",
+    "page": 1
+  },
+  "night": {
+    "en": "It was a windy night.",
+    "cn": "那是个有风的夜晚。",
+    "page": 44
+  },
+  "nine": {
+    "en": "I have nine books.",
+    "cn": "我有九本书。",
+    "page": 15
+  },
+  "no": {
+    "en": "Everything is no problem.",
+    "cn": "所有事都没问题。",
+    "page": 61
+  },
+  "no problem": {
+    "en": "Everything is no problem.",
+    "cn": "所有事都没问题。",
+    "page": 61
+  },
+  "noise": {
+    "en": "What's that noise?",
+    "cn": "",
+    "page": 78
+  },
+  "noodle": {
+    "en": "I want some noodles.",
+    "cn": "我想要些面条。",
+    "page": 35
+  },
+  "noodles": {
+    "en": "I want some noodles.",
+    "cn": "我想要些面条。",
+    "page": 35
+  },
+  "nose": {
+    "en": "Look at my nose!",
+    "cn": "",
+    "page": 40
+  },
+  "now": {
+    "en": "Their eyes are open now.",
+    "cn": "他们的眼睛现在是睁着的。",
+    "page": 78
+  },
+  "nurse": {
+    "en": "My sister is a nurse.",
+    "cn": "我的姐姐是一名护士。",
+    "page": 38
+  },
+  "of": {
+    "en": "A piece of meat.",
+    "cn": "",
+    "page": 16
+  },
+  "office": {
+    "en": "Is this the teachers' office?",
+    "cn": "这是教师办公室吗?",
+    "page": 39
+  },
+  "often": {
+    "en": "I often play sports.",
+    "cn": "",
+    "page": 67
+  },
+  "old": {
+    "en": "Mary is five years old.",
+    "cn": "",
+    "page": 16
+  },
+  "on": {
+    "en": "It's on the wall.",
+    "cn": "它在墙壁上。",
+    "page": 29
+  },
+  "one": {
+    "en": "Which one do you like?",
+    "cn": "你喜欢哪一个?",
+    "page": 70
+  },
+  "open": {
+    "en": "Open your pencil box.",
+    "cn": "打开你的铅笔盒",
+    "page": 2
+  },
+  "orange": {
+    "en": "I like orange.",
+    "cn": "",
+    "page": 30
+  },
+  "other": {
+    "en": "They look at each other.",
+    "cn": "他们看向对方。",
+    "page": 80
+  },
+  "our": {
+    "en": "Let's close our eyes.",
+    "cn": "让我们闭上眼睛。",
+    "page": 1
+  },
+  "ours": {
+    "en": "Are these all ours?",
+    "cn": "这些全是我们的吗?",
+    "page": 79
+  },
+  "out": {
+    "en": "Let's go out for some fresh air.",
+    "cn": "我们出去呼吸点新鲜空气吧。",
+    "page": 11
+  },
+  "outside": {
+    "en": "It's very cold outside.",
+    "cn": "外面非常冷。",
+    "page": 44
+  },
+  "over": {
+    "en": "The game is over.",
+    "cn": "游戏结束了。",
+    "page": 43
+  },
+  "pack": {
+    "en": "Let's wait for him. He packs his schoolbag.",
+    "cn": "",
+    "page": 49
+  },
+  "pair": {
+    "en": "I'd like a pair of gloves.",
+    "cn": "我想要一双手套。",
+    "page": 50
+  },
+  "pal": {
+    "en": "I have a pen pal.",
+    "cn": "",
+    "page": 95
+  },
+  "panda": {
+    "en": "This is a panda.",
+    "cn": "这是一只大驴猫。",
+    "page": 10
+  },
+  "pants": {
+    "en": "My pants are blue.",
+    "cn": "我的裤子是蓝色的。慑",
+    "page": 48
+  },
+  "parent": {
+    "en": "They are my parents.",
+    "cn": "他们是我的父母。",
+    "page": 37
+  },
+  "parents": {
+    "en": "They are my parents.",
+    "cn": "他们是我的父母。",
+    "page": 37
+  },
+  "park": {
+    "en": "It's a national park.",
+    "cn": "它是一个国家公园， 全",
+    "page": 75
+  },
+  "party": {
+    "en": "Go to the party.",
+    "cn": "",
+    "page": 59
+  },
+  "pass": {
+    "en": "Can you pass me that flower?",
+    "cn": "你能把那洒花递给我吗?",
+    "page": 36
+  },
+  "pay attention to": {
+    "en": "Please pay attention to the traffic lights.",
+    "cn": "请注意交通信号灯。",
+    "page": 91
+  },
+  "pear": {
+    "en": "I'd like some pear juice.",
+    "cn": "",
+    "page": 26
+  },
+  "pen": {
+    "en": "Show me your pen.",
+    "cn": "给我看看你的钢笔",
+    "page": 2
+  },
+  "pen pal": {
+    "en": "I have a pen pal.",
+    "cn": "",
+    "page": 95
+  },
+  "pencil": {
+    "en": "I use your pencil?",
+    "cn": "我可以用你的铅笔吗?",
+    "page": 1
+  },
+  "pencil box": {
+    "en": "Open your pencil box.",
+    "cn": "打开你的铅笔盒",
+    "page": 2
+  },
+  "people": {
+    "en": "Many people like Italian food.",
+    "cn": "许多人喜欢意大利的食物。",
+    "page": 86
+  },
+  "pick": {
+    "en": "Let's pick some fresh fruit!",
+    "cn": "我们摘些新鲜的水果吧",
+    "page": 72
+  },
+  "picture": {
+    "en": "I like the picture.",
+    "cn": "我喜欢这幅画。",
+    "page": 28
+  },
+  "piece": {
+    "en": "A piece of meat.",
+    "cn": "",
+    "page": 16
+  },
+  "pilot": {
+    "en": "My uncle is a pilot.",
+    "cn": "我的姑父是一名飞行员。",
+    "page": 98
+  },
+  "pink": {
+    "en": "It's a pink crayon.",
+    "cn": "它是一文粉色的蜡笔。",
+    "page": 14
+  },
+  "plane": {
+    "en": "I go to Germany by plane.",
+    "cn": "机去德国",
+    "page": 91
+  },
+  "plant": {
+    "en": "Let's plant more trees.",
+    "cn": "让我们多种树吧。",
+    "page": 75
+  },
+  "plate": {
+    "en": "Do you need a plate?",
+    "cn": "你需要盘子吗?",
+    "page": 18
+  },
+  "play": {
+    "en": "Let's play basketball.",
+    "cn": "",
+    "page": 59
+  },
+  "play basketball": {
+    "en": "Let's play basketball.",
+    "cn": "",
+    "page": 59
+  },
+  "play sports": {
+    "en": "I play sports every morning.",
+    "cn": "我每天早上做体育运动。",
+    "page": 22
+  },
+  "player": {
+    "en": "My brother is a football player.",
+    "cn": "",
+    "page": 38
+  },
+  "playground": {
+    "en": "I Let's go to the playground.",
+    "cn": "",
+    "page": 39
+  },
+  "playing": {
+    "en": "I can see them playing.",
+    "cn": "我能看到他们在玩。",
+    "page": 34
+  },
+  "please": {
+    "en": "Please send me an email.",
+    "cn": "你可以给我友电子邮件到",
+    "page": 61
+  },
+  "postcard": {
+    "en": "He sends me a postcard.",
+    "cn": "他寄给我一张明信片。",
+    "page": 93
+  },
+  "potato": {
+    "en": "Let's cut up the potatoes.",
+    "cn": "",
+    "page": 16
+  },
+  "pretty": {
+    "en": "My shoes are pretty.",
+    "cn": "",
+    "page": 50
+  },
+  "problem": {
+    "en": "Everything is no problem.",
+    "cn": "所有事都没问题。",
+    "page": 61
+  },
+  "purple": {
+    "en": "I see a purple flower.",
+    "cn": "我看见一休紫色的花。",
+    "page": 13
+  },
+  "puzzle": {
+    "en": "Do you like word puzzles?",
+    "cn": "你喜欢字谜吗?",
+    "page": 95
+  },
+  "quickly": {
+    "en": "He runs very quickly.",
+    "cn": "",
+    "page": 99
+  },
+  "quiet": {
+    "en": "She is a quiet girl.",
+    "cn": "她是一个文静的女孩。",
+    "page": 32
+  },
+  "quietly": {
+    "en": "Work quietly!",
+    "cn": "",
+    "page": 82
+  },
+  "rabbit": {
+    "en": "He is eating like a rabbit.",
+    "cn": "他正像免子一样吃东西。",
+    "page": 80
+  },
+  "rainy": {
+    "en": "Is it rainy today?",
+    "cn": "今天是阴雨天吗?",
+    "page": 44
+  },
+  "read": {
+    "en": "If you want to read, please turn on the light.",
+    "cn": "如果你要看书，请开灯。",
+    "page": 99
+  },
+  "read books": {
+    "en": "I often read books.",
+    "cn": "我经单读书。",
+    "page": 22
+  },
+  "reading a book": {
+    "en": "He is reading a book.",
+    "cn": "他正在看书。",
+    "page": 82
+  },
+  "ready": {
+    "en": "Are you ready?",
+    "cn": "你准备好了吗?",
+    "page": 36
+  },
+  "really": {
+    "en": "I really like my room.",
+    "cn": "",
+    "page": 29
+  },
+  "red": {
+    "en": "Show me red.",
+    "cn": "给我看看红色。",
+    "page": 13
+  },
+  "reporter": {
+    "en": "I'm going to be a reporter.",
+    "cn": "我要做一名记者。",
+    "page": 99
+  },
+  "rice": {
+    "en": "I have some rice, please?",
+    "cn": "请给我一些米饭好吗?",
+    "page": 81
+  },
+  "right": {
+    "en": "I stamp my right foot.",
+    "cn": "我跌我的右脚。",
+    "page": 6
+  },
+  "river": {
+    "en": "The river is very deep.",
+    "cn": "这条河很深。",
+    "page": 100
+  },
+  "road": {
+    "en": "Please keep on the right side of the road.",
+    "cn": "请靠马路的右边行走。",
+    "page": 86
+  },
+  "robot": {
+    "en": "My robot is very clever.",
+    "cn": "我的机器人很聪明。",
+    "page": 53
+  },
+  "room": {
+    "en": "I really like my room.",
+    "cn": "",
+    "page": 29
+  },
+  "row": {
+    "en": "I'm rowing a boat.",
+    "cn": "",
+    "page": 25
+  },
+  "ruler": {
+    "en": "I have a ruler.",
+    "cn": "",
+    "page": 2
+  },
+  "run": {
+    "en": "He runs very quickly.",
+    "cn": "他跑得非常快。",
+    "page": 99
+  },
+  "salad": {
+    "en": "Would you like some salad?",
+    "cn": "",
+    "page": 56
+  },
+  "sandwich": {
+    "en": "The sandwich is delicious.",
+    "cn": "这个三明治很美味。",
+    "page": 56
+  },
+  "say": {
+    "en": "What did Hi say?",
+    "cn": "他说什么?",
+    "page": 3
+  },
+  "school": {
+    "en": "Let's go to school!",
+    "cn": "我们去上学吧!",
+    "page": 43
+  },
+  "schoolbag": {
+    "en": "He schoolbag are cheap and nice.",
+    "cn": "他的书包又便宜又好。",
+    "page": 50
+  },
+  "science": {
+    "en": "Why do you like science?",
+    "cn": "你为什么喜欢科学?",
+    "page": 85
+  },
+  "sea": {
+    "en": "Look at the blue sea.",
+    "cn": "看那蓝色的大海。",
+    "page": 14
+  },
+  "season": {
+    "en": "Which season do you like best?",
+    "cn": "你最喜欢哪个季节?",
+    "page": 72
+  },
+  "second": {
+    "en": "It's on the second floor.",
+    "cn": "它在二楼。",
+    "page": 39
+  },
+  "second floor": {
+    "en": "It's on the second floor.",
+    "cn": "它在二楼。",
+    "page": 39
+  },
+  "secretary": {
+    "en": "You can be a secretary.",
+    "cn": "你可以成为一名秘书。",
+    "page": 99
+  },
+  "see": {
+    "en": "I see green.",
+    "cn": "我看见绿色。",
+    "page": 13
+  },
+  "see a doctor": {
+    "en": "You should see a doctor.",
+    "cn": "",
+    "page": 100
+  },
+  "see a film": {
+    "en": "Would you like to see a film now?",
+    "cn": "你现在想看一部电影吗?",
+    "page": 92
+  },
+  "send": {
+    "en": "I send you an email.",
+    "cn": "我给你友送了封电子邮件。",
+    "page": 61
+  },
+  "seven": {
+    "en": "I have seven pears.",
+    "cn": "我有七个梨。",
+    "page": 15
+  },
+  "shake": {
+    "en": "Shake your body.",
+    "cn": "晃动你的身体。",
+    "page": 6
+  },
+  "share": {
+    "en": "Let's share the candy.",
+    "cn": "让我们分享糖果吧。",
+    "page": 1
+  },
+  "she": {
+    "en": "She is very nice.",
+    "cn": "她人很好。",
+    "page": 1
+  },
+  "shirt": {
+    "en": "Where is my blue shirt?",
+    "cn": "",
+    "page": 49
+  },
+  "shoe": {
+    "en": "Her shoes are blue.",
+    "cn": "她的鞋子是蓝色的。",
+    "page": 32
+  },
+  "short": {
+    "en": "Its fur is very short.",
+    "cn": "它的毛友非常短。",
+    "page": 78
+  },
+  "shorts": {
+    "en": "My shorts are red.",
+    "cn": "我的短裤是红色的。",
+    "page": 49
+  },
+  "should": {
+    "en": "You should study hard.",
+    "cn": "你应该好好学习。",
+    "page": 101
+  },
+  "show": {
+    "en": "When is the art show?",
+    "cn": "",
+    "page": 77
+  },
+  "shy": {
+    "en": "He is a shy boy.",
+    "cn": "",
+    "page": 52
+  },
+  "side": {
+    "en": "Please keep on the right side of the road.",
+    "cn": "请靠马路的右边行走。",
+    "page": 86
+  },
+  "sing": {
+    "en": "Can you sing English songs?",
+    "cn": "",
+    "page": 58
+  },
+  "sing English songs": {
+    "en": "Can you sing English songs?",
+    "cn": "",
+    "page": 58
+  },
+  "sir": {
+    "en": "Good morning, sir.",
+    "cn": "",
+    "page": 86
+  },
+  "sister": {
+    "en": "My sister is a nurse.",
+    "cn": "我的姐姐是一名护士。",
+    "page": 38
+  },
+  "sit": {
+    "en": "I sit on the chair.",
+    "cn": "我坐在这把椅子上。",
+    "page": 24
+  },
+  "size": {
+    "en": "This dress is just my size.",
+    "cn": "这件裙子正好是我的尺码。",
+    "page": 51
+  },
+  "skirt": {
+    "en": "Her skirt is yellow.",
+    "cn": "她的裙子是黄色的。",
+    "page": 48
+  },
+  "sled": {
+    "en": "Is this your sled?",
+    "cn": "",
+    "page": 91
+  },
+  "sleep": {
+    "en": "Is the baby sleeping?",
+    "cn": "宝宝正在睡觉吗?",
+    "page": 80
+  },
+  "sleeping": {
+    "en": "Is the baby sleeping?",
+    "cn": "宝宝正在睡觉吗?",
+    "page": 80
+  },
+  "slow down": {
+    "en": "Please slow down and stop at a yellow light.",
+    "cn": "黄灯时请减速并停下来。",
+    "page": 90
+  },
+  "small": {
+    "en": "This bed is small.",
+    "cn": "这张床很小。",
+    "page": 33
+  },
+  "smile": {
+    "en": "I like your smile.",
+    "cn": "我喜欢你的微笑。",
+    "page": 1
+  },
+  "snow": {
+    "en": "I often play in the snow.",
+    "cn": "",
+    "page": 70
+  },
+  "snowman": {
+    "en": "Can you make a snowman?",
+    "cn": "你会堆雪人吗?",
+    "page": 70
+  },
+  "so": {
+    "en": "You are so nice!",
+    "cn": "",
+    "page": 50
+  },
+  "so much": {
+    "en": "Thank you so much.",
+    "cn": "非常感谢你。",
+    "page": 31
+  },
+  "sock": {
+    "en": "Is this your Sock?",
+    "cn": "这是你的短袜吗?” ”他穿上毛衣。",
+    "page": 48
+  },
+  "sofa": {
+    "en": "A key is on the sofa.",
+    "cn": "一把钥匙在长沙友上。",
+    "page": 34
+  },
+  "some": {
+    "en": "Have some soup.",
+    "cn": "喝些汤 吧",
+    "page": 35
+  },
+  "song": {
+    "en": "It's a beautiful song!",
+    "cn": "这是一首美妙的歌!",
+    "page": 58
+  },
+  "sound": {
+    "en": "It sounds great.",
+    "cn": "",
+    "page": 69
+  },
+  "soup": {
+    "en": "Have some soup.",
+    "cn": "喝些汤 吧",
+    "page": 35
+  },
+  "speak": {
+    "en": "I can speak English.",
+    "cn": "我会说英语。",
+    "page": 59
+  },
+  "speak English": {
+    "en": "I can speak English.",
+    "cn": "我会说英语。",
+    "page": 59
+  },
+  "special": {
+    "en": "It's a special gift for you.",
+    "cn": "这是给你准备的特别礼物。",
+    "page": 78
+  },
+  "speed": {
+    "en": "What amazing speed!",
+    "cn": "多么惊人的速度啊!",
+    "page": 96
+  },
+  "spoon": {
+    "en": "I use the spoon.",
+    "cn": "我用这把勺。",
+    "page": 36
+  },
+  "sport": {
+    "en": "Do you like sports?",
+    "cn": "你喜欢体育运动吗?",
+    "page": 22
+  },
+  "spring": {
+    "en": "Do you like spring?",
+    "cn": "你喜欢春天吗?",
+    "page": 72
+  },
+  "start": {
+    "en": "Leaves start to fall in autumn.",
+    "cn": "叶子在秋天开始掉落。",
+    "page": 73
+  },
+  "still": {
+    "en": "I I'm still very hungry.",
+    "cn": "",
+    "page": 78
+  },
+  "stop": {
+    "en": "Please slow down and stop at a yellow light.",
+    "cn": "黄灯时请减速并停下来。",
+    "page": 90
+  },
+  "story": {
+    "en": "A a story.",
+    "cn": "他给孩子们读了一则故事。",
+    "page": 55
+  },
+  "storybook": {
+    "en": "I like this storybook.",
+    "cn": "我喜欢这本故事书。",
+    "page": 4
+  },
+  "strong": {
+    "en": "The man is very strong.",
+    "cn": "这个男人非常强壮。",
+    "page": 32
+  },
+  "student": {
+    "en": "Are you a student?",
+    "cn": "尔是学生吗?",
+    "page": 17
+  },
+  "study": {
+    "en": "I'm in the study.",
+    "cn": "我在书房里。",
+    "page": 33
+  },
+  "summer": {
+    "en": "I like summer best.",
+    "cn": "我最喜欢夏天。",
+    "page": 72
+  },
+  "sun": {
+    "en": "The sun is warm.",
+    "cn": "太阳很温暖。",
+    "page": 12
+  },
+  "sunny": {
+    "en": "Today is a sunny day.",
+    "cn": "今天是阳光明媚的一天。",
+    "page": 44
+  },
+  "supermarket": {
+    "en": "Where is the supermarket?",
+    "cn": "超市在哪里?",
+    "page": 92
+  },
+  "sweet": {
+    "en": "The ice cream is very sweet.",
+    "cn": "",
+    "page": 56
+  },
+  "swim": {
+    "en": "We'll swim on this weekend.",
+    "cn": "这周末我们要游泳。",
+    "page": 59
+  },
+  "table": {
+    "en": "Are they on the table?",
+    "cn": "",
+    "page": 34
+  },
+  "tail": {
+    "en": "Its tail is so long.",
+    "cn": "",
+    "page": 23
+  },
+  "take": {
+    "en": "When do you take classes after lunch?",
+    "cn": "午饭后你什么时候上课?",
+    "page": 68
+  },
+  "take a trip": {
+    "en": "Let's take a trip.",
+    "cn": "我们去旅行吧。",
+    "page": 92
+  },
+  "tall": {
+    "en": "Giraffes are very tall.",
+    "cn": "长颈鹿很高",
+    "page": 23
+  },
+  "teach": {
+    "en": "She teaches me English.",
+    "cn": "她教我英语。",
+    "page": 84
+  },
+  "teacher": {
+    "en": "He is my teacher.",
+    "cn": "他是我的老师。",
+    "page": 17
+  },
+  "teacher's desk": {
+    "en": "I clean the teacher's desk.",
+    "cn": "我打扫讲台。",
+    "page": 29
+  },
+  "tell": {
+    "en": "Could you tell me how to get to the hospital?",
+    "cn": "尔能告诉我如何去医院吗?",
+    "page": 87
+  },
+  "ten": {
+    "en": "I have ten plates.",
+    "cn": "我有十个盘子。",
+    "page": 15
+  },
+  "thank": {
+    "en": "Thank you so much.",
+    "cn": "非常感谢你。",
+    "page": 31
+  },
+  "that": {
+    "en": "What's that noise?",
+    "cn": "那是什么响声?",
+    "page": 78
+  },
+  "the": {
+    "en": "I see a bike in the picture.",
+    "cn": "我在这张照片中看到了一辆自行车。",
+    "page": 62
+  },
+  "their": {
+    "en": "Their eyes are open now.",
+    "cn": "他们的眼睛现在是睁着的。",
+    "page": 78
+  },
+  "them": {
+    "en": "I can see them playing.",
+    "cn": "我能看到他们在玩。",
+    "page": 34
+  },
+  "there": {
+    "en": "There are many countries in the world.",
+    "cn": "世界上有许多国家。",
+    "page": 98
+  },
+  "these": {
+    "en": "Are these pears?",
+    "cn": "这些是梨吗?",
+    "page": 47
+  },
+  "they": {
+    "en": "They are my parents.",
+    "cn": "他们是我的父母。",
+    "page": 37
+  },
+  "thin": {
+    "en": "The girl is very thin.",
+    "cn": "那个女孩非常瘦。",
+    "page": 23
+  },
+  "third": {
+    "en": "It's the third month in a year.",
+    "cn": "这是一年中的第三个月。",
+    "page": 77
+  },
+  "thirteen": {
+    "en": "Can you see thirteen fish?",
+    "cn": "你能看见十三条鱼吗?",
+    "page": 27
+  },
+  "thirty": {
+    "en": "I have thirty pears.",
+    "cn": "我有三十个梨。",
+    "page": 43
+  },
+  "this": {
+    "en": "Is this your pencil?",
+    "cn": "这是你的铅笔吗?",
+    "page": 2
+  },
+  "those": {
+    "en": "Are those monkeys jumping?",
+    "cn": "那些猴子正在跳吗?",
+    "page": 80
+  },
+  "three": {
+    "en": "I want three eggs.",
+    "cn": "我想要三个鸡蛋。",
+    "page": 81
+  },
+  "time": {
+    "en": "What time is it?",
+    "cn": "",
+    "page": 43
+  },
+  "tired": {
+    "en": "He is tired.",
+    "cn": "",
+    "page": 22
+  },
+  "to": {
+    "en": "Don't listen to him.",
+    "cn": "别听他的。",
+    "page": 3
+  },
+  "today": {
+    "en": "Is it rainy today?",
+    "cn": "今天是阴雨天吗?",
+    "page": 44
+  },
+  "together": {
+    "en": "Let's count to ten together.",
+    "cn": "我们一起数到十吧。",
+    "page": 101
+  },
+  "tomato": {
+    "en": "I like eating tomatoes.",
+    "cn": "我喜欢吃西红柿。",
+    "page": 46
+  },
+  "tomorrow": {
+    "en": "Shall we go hiking tomorrow?",
+    "cn": "我们明天可以去远足吗?",
+    "page": 96
+  },
+  "too": {
+    "en": "The box is too heavy.",
+    "cn": "这箱子太重了。",
+    "page": 51
+  },
+  "touch": {
+    "en": "Touch your head.",
+    "cn": "摸摸你的头。",
+    "page": 6
+  },
+  "toy": {
+    "en": "My toy car is red.",
+    "cn": "我的玩具小汽车是",
+    "page": 31
+  },
+  "traffic": {
+    "en": "Turn left at the traffic lights.",
+    "cn": "在交通信号灯处向左转。",
+    "page": 91
+  },
+  "traffic lights": {
+    "en": "Turn left at the traffic lights.",
+    "cn": "在交通信号灯处向左转。",
+    "page": 91
+  },
+  "travel": {
+    "en": "Let's travel in the animal world.",
+    "cn": "",
+    "page": 45
+  },
+  "tree": {
+    "en": "Let's plant more trees.",
+    "cn": "让我们多种树吧。",
+    "page": 75
+  },
+  "trip": {
+    "en": "It's a wonderful trip!",
+    "cn": "这是一次很棒的旅行!",
+    "page": 92
+  },
+  "truck": {
+    "en": "Look at the duck. It's in the truck.",
+    "cn": "看那只鸭子。它在卡车里。",
+    "page": 60
+  },
+  "try": {
+    "en": "I try on these gloves?",
+    "cn": "",
+    "page": 51
+  },
+  "try on": {
+    "en": "I try on these gloves?",
+    "cn": "",
+    "page": 51
+  },
+  "turn": {
+    "en": "He calls out their name in turn.",
+    "cn": "",
+    "page": 83
+  },
+  "turn on": {
+    "en": "Turn on the fan.",
+    "cn": "打开风扇。",
+    "page": 29
+  },
+  "twelfth": {
+    "en": "I like the twelfth month.",
+    "cn": "我喜欢第十二个月份。",
+    "page": 77
+  },
+  "twelve": {
+    "en": "I'd like twelve books.",
+    "cn": "我想要十二本书。",
+    "page": 27
+  },
+  "twenty": {
+    "en": "I need twenty plates.",
+    "cn": "需要二十个盘子。",
+    "page": 27
+  },
+  "two": {
+    "en": "There is a table between two windows.",
+    "cn": "",
+    "page": 63
+  },
+  "umbrella": {
+    "en": "Is this your umbrella?",
+    "cn": "这是你的雨伞吗?",
+    "page": 50
+  },
+  "uncle": {
+    "en": "He is my uncle.",
+    "cn": "",
+    "page": 7
+  },
+  "under": {
+    "en": "Acat is under my chair.",
+    "cn": "一只猫在我的椅子下面。",
+    "page": 24
+  },
+  "university": {
+    "en": "My father works in a famous university.",
+    "cn": "",
+    "page": 98
+  },
+  "up": {
+    "en": "When do you get up?",
+    "cn": "",
+    "page": 68
+  },
+  "us": {
+    "en": "Come and join us.",
+    "cn": "来加入我们吧",
+    "page": 96
+  },
+  "use": {
+    "en": "I use your pencil?",
+    "cn": "我可以用你的铅笔吗?",
+    "page": 1
+  },
+  "useful": {
+    "en": "The Chinese book is useful.",
+    "cn": "这本语文书很有用。",
+    "page": 4
+  },
+  "usually": {
+    "en": "What do you usually do after dinner?",
+    "cn": "晚饭后你通常做什么?",
+    "page": 68
+  },
+  "vacation": {
+    "en": "I like summer vacation.",
+    "cn": "我喜欢暑假。",
+    "page": 73
+  },
+  "vegetable": {
+    "en": "I like eating vegetable.",
+    "cn": "",
+    "page": 35
+  },
+  "very": {
+    "en": "It's very cold outside.",
+    "cn": "外面非常冷。",
+    "page": 44
+  },
+  "village": {
+    "en": "This is my village.",
+    "cn": "这是我的村庄。",
+    "page": 66
+  },
+  "wait": {
+    "en": "Let's wait for him. He packs his schoolbag.",
+    "cn": "让我们等他吧。",
+    "page": 49
+  },
+  "walk": {
+    "en": "We go for a walk.",
+    "cn": "",
+    "page": 78
+  },
+  "wall": {
+    "en": "It's on the wall.",
+    "cn": "它在墙壁上。",
+    "page": 29
+  },
+  "want": {
+    "en": "I want some noodles.",
+    "cn": "我想要些面条。",
+    "page": 35
+  },
+  "warm": {
+    "en": "The sun is warm.",
+    "cn": "太阳很温暖。",
+    "page": 12
+  },
+  "wash": {
+    "en": "Let's wash our hands.",
+    "cn": "我们去洗手吧。",
+    "page": 55
+  },
+  "wash my clothes": {
+    "en": "I wash my clothes.",
+    "cn": "我洗自己的衣服。",
+    "page": 55
+  },
+  "watch": {
+    "en": "I want to watch TV.",
+    "cn": "我想看电视。",
+    "page": 29
+  },
+  "watch TV": {
+    "en": "I want to watch TV.",
+    "cn": "我想看电视。",
+    "page": 29
+  },
+  "water": {
+    "en": "I need more water.",
+    "cn": "我需要更多的水。",
+    "page": 11
+  },
+  "water bottle": {
+    "en": "I'd like a water bottle.",
+    "cn": "我想要一个水瓶。",
+    "page": 62
+  },
+  "way": {
+    "en": "This way, please.",
+    "cn": "",
+    "page": 41
+  },
+  "we": {
+    "en": "We like playing basketball.",
+    "cn": "我们喜欢打蓝球。",
+    "page": 38
+  },
+  "we'll": {
+    "en": "We'll eat mooncakes.",
+    "cn": "我们会吃月饼。",
+    "page": 94
+  },
+  "wear": {
+    "en": "You should wear a helmet.",
+    "cn": "",
+    "page": 90
+  },
+  "weather": {
+    "en": "Do you like this hot weather?",
+    "cn": "你喜欢这种炎热的天气吗?",
+    "page": 44
+  },
+  "weekend": {
+    "en": "We'll swim on this weekend.",
+    "cn": "这周末我们要游泳。",
+    "page": 59
+  },
+  "what": {
+    "en": "What did Hi say?",
+    "cn": "他说什么?",
+    "page": 3
+  },
+  "when": {
+    "en": "When is Christmas?",
+    "cn": "圣诞节是什么时候?",
+    "page": 76
+  },
+  "where": {
+    "en": "Where 'is my cap?",
+    "cn": "我的帽子在哪里?",
+    "page": 24
+  },
+  "which": {
+    "en": "Which one do you like?",
+    "cn": "你喜欢哪一个?",
+    "page": 70
+  },
+  "white": {
+    "en": "It's a white cat.",
+    "cn": "它是一只白色的猫。",
+    "page": 14
+  },
+  "who": {
+    "en": "Who is your grandfather?",
+    "cn": "你的徐徐是谁?",
+    "page": 5
+  },
+  "whose": {
+    "en": "Whose clothes are these?",
+    "cn": "这些是谁的衣服?",
+    "page": 48
+  },
+  "why": {
+    "en": "Why are you always late?",
+    "cn": "你为什么总是迟到?",
+    "page": 69
+  },
+  "will": {
+    "en": "You will act out stories.",
+    "cn": "你们将表演故事。",
+    "page": 76
+  },
+  "window": {
+    "en": "To open the window.",
+    "cn": "",
+    "page": 28
+  },
+  "windy": {
+    "en": "It was a windy night.",
+    "cn": "那是个有风的夜晚。",
+    "page": 44
+  },
+  "winter": {
+    "en": "I like winter best.",
+    "cn": "我最喜欢冬天。",
+    "page": 70
+  },
+  "with": {
+    "en": "TO eat with a knife and fork.",
+    "cn": "用刀叉吃东西。",
+    "page": 36
+  },
+  "wonderful": {
+    "en": "Chinese kung fu is very wonderful!",
+    "cn": "",
+    "page": 61
+  },
+  "word": {
+    "en": "We are going to buy a word book.",
+    "cn": "我们要去买一本单词书。",
+    "page": 93
+  },
+  "word book": {
+    "en": "We are going to buy a word book.",
+    "cn": "我们要去买一本单词书。",
+    "page": 93
+  },
+  "work": {
+    "en": "He starts to work.",
+    "cn": "他开始工作。",
+    "page": 69
+  },
+  "world": {
+    "en": "There are many countries in the world.",
+    "cn": "世界上有许多国家。",
+    "page": 98
+  },
+  "worried": {
+    "en": "Do you feel worried about it?",
+    "cn": "你担心它吗?",
+    "page": 100
+  },
+  "would": {
+    "en": "Would you like a banana?",
+    "cn": "你想要一个香焦吗?",
+    "page": 11
+  },
+  "year": {
+    "en": "It's the third month in a year.",
+    "cn": "这是一年中的第三个月。",
+    "page": 77
+  },
+  "yellow": {
+    "en": "Her skirt is yellow.",
+    "cn": "她的裙子是黄色的。",
+    "page": 48
+  },
+  "you": {
+    "en": "Are you ready?",
+    "cn": "你准备好了吗?",
+    "page": 36
+  },
+  "young": {
+    "en": "He is a young boy.",
+    "cn": "他是个小男孩。",
+    "page": 52
+  },
+  "your": {
+    "en": "Carry your bag.",
+    "cn": "背上你的包",
+    "page": 2
+  },
+  "yours": {
+    "en": "These gifts are yours.",
+    "cn": "这些礼物是你们的。",
+    "page": 49
+  },
+  "yourself": {
+    "en": "Help yourself.",
+    "cn": "",
+    "page": 36
+  },
+  "yum": {
+    "en": "Yum, the soup is so delicious.",
+    "cn": "",
+    "page": 47
+  },
+  "zoo": {
+    "en": "I like going to the zoo.",
+    "cn": "我喜欢去动物园。",
+    "page": 8
+  }
+}

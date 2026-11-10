@@ -293,8 +293,8 @@
       "i": "ri:d;red",
       "c": "读",
       "t": "u2",
-      "e": "Will you read me a bedtime story?",
-      "z": "给我读个睡前故事好吗？"
+      "e": "If you want to read, please turn on the light.",
+      "z": "如果你要看书，请开灯。"
     },
     {
       "w": "saw",
@@ -347,8 +347,7 @@
       "i": "ʃəʊ",
       "c": "演出",
       "t": "u2",
-      "e": "The show was an instant success.",
-      "z": "演出一炮打响。"
+      "e": "When is the art show?"
     },
     {
       "w": "magazine",
@@ -473,8 +472,8 @@
       "i": "fɪʃ",
       "c": "钓鱼",
       "t": "u3",
-      "e": "The fish was cooked to perfection.",
-      "z": "这鱼烹得恰到好处。"
+      "e": "Can you see thirteen fish?",
+      "z": "你能看见十三条鱼吗?"
     },
     {
       "w": "went fishing",
@@ -545,8 +544,8 @@
       "i": "gɪft",
       "c": "礼物",
       "t": "u3",
-      "e": "She has a great gift for music.",
-      "z": "她极有音乐天赋。"
+      "e": "It's a special gift for you.",
+      "z": "这是给你准备的特别礼物。"
     },
     {
       "w": "fell",
@@ -599,8 +598,8 @@
       "i": "kəd; kʊd",
       "c": "能",
       "t": "u3",
-      "e": "I'd be glad if you could help me.",
-      "z": "你若能帮助我，我会非常感激。"
+      "e": "Could you tell me how to get to the hospital?",
+      "z": "尔能告诉我如何去医院吗?"
     },
     {
       "w": "till",
@@ -671,8 +670,7 @@
       "i": "grɑːs",
       "c": "草坪",
       "t": "u4",
-      "e": "The grass was soft and springy.",
-      "z": "草柔软而有弹性。"
+      "e": "Don't walk on the grass."
     },
     {
       "w": "gym",
@@ -833,8 +831,8 @@
       "i": "trɪp",
       "c": "绊倒",
       "t": "u4",
-      "e": "Your trip must have been fun!",
-      "z": "你这次旅行一定很开心吧！"
+      "e": "It's a wonderful trip!",
+      "z": "这是一次很棒的旅行!"
     },
     {
       "w": "woke",
@@ -869,8 +867,8 @@
       "i": "raɪt",
       "c": "右",
       "t": "u4",
-      "e": "Your answer is exactly right.",
-      "z": "你的回答完全正确。"
+      "e": "I stamp my right foot.",
+      "z": "我跌我的右脚。"
     },
     {
       "w": "ask",
@@ -887,8 +885,7 @@
       "i": "sɜː",
       "c": "先生",
       "t": "u4",
-      "e": "\"A pleasure to meet you, sir,\" he said.",
-      "z": "“很荣幸见到您，先生，”他说。"
+      "e": "Good morning, sir."
     },
     {
       "w": "interesting",
@@ -905,8 +902,8 @@
       "i": "ɪˈtælɪən",
       "c": "意大利的",
       "t": "u4",
-      "e": "Where is your Italian cannon? Get it up here!",
-      "z": "你他娘的意大利炮呢，给我拉上来！"
+      "e": "Many people like Italian food.",
+      "z": "许多人喜欢意大利的食物。"
     },
     {
       "w": "restaurant",
@@ -941,8 +938,7 @@
       "i": "get",
       "c": "到达",
       "t": "u4",
-      "e": "I want to get the job on merit.",
-      "z": "我要凭才能得到这份工作。"
+      "e": "How can I get there?"
     },
     {
       "w": "GPS",
@@ -977,8 +973,7 @@
       "i": "'fɒləʊ",
       "c": "跟着",
       "t": "u4",
-      "e": "\"Then follow the leader,\" he cried gaily.",
-      "z": "“那就跟着领头的走。”他快活地叫道。"
+      "e": "Follow me, please."
     },
     {
       "w": "far",
@@ -986,8 +981,8 @@
       "i": "fɑː",
       "c": "较远的",
       "t": "u4",
-      "e": "The advantages far outweigh the disadvantages.",
-      "z": "利远大于弊。"
+      "e": "Is it far from here?",
+      "z": "它离这里远吗?"
     },
     {
       "w": "tell",
@@ -995,8 +990,8 @@
       "i": "tel",
       "c": "告诉",
       "t": "u4",
-      "e": "She was bursting to tell him the good news.",
-      "z": "她急不可待要把好消息告诉他。"
+      "e": "Could you tell me how to get to the hospital?",
+      "z": "尔能告诉我如何去医院吗?"
     }
   ],
   "grade": 6,

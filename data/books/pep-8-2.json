@@ -125,8 +125,8 @@
       "i": "fʊt",
       "c": "脚(复数feet)",
       "t": "u1",
-      "e": "Sam stamped his foot in anger.",
-      "z": "萨姆气得直跺脚。"
+      "e": "I stamp my right foot.",
+      "z": "我跌我的右脚。"
     },
     {
       "w": "neck",
@@ -501,8 +501,8 @@
       "i": "naɪf",
       "c": "刀，餐刀",
       "t": "u1",
-      "e": "He thrust at me with a knife.",
-      "z": "他拿刀向我刺来。"
+      "e": "TO eat with a knife and fork.",
+      "z": "用刀叉吃东西。"
     },
     {
       "w": "cut off",
@@ -609,8 +609,8 @@
       "i": "nɜːs",
       "c": "护士",
       "t": "u1",
-      "e": "The nurse cleaned the wound.",
-      "z": "护士清洗了伤口。"
+      "e": "My sister is a nurse.",
+      "z": "我的姐姐是一名护士。"
     },
     {
       "w": "clean up",
@@ -753,8 +753,8 @@
       "i": "strɒŋ",
       "c": "强壮的；强烈的",
       "t": "u2",
-      "e": "She was a strong, principled woman.",
-      "z": "她是个坚强、有原则的女人。"
+      "e": "The man is very strong.",
+      "z": "这个男人非常强壮。"
     },
     {
       "w": "feeling",
@@ -906,8 +906,8 @@
       "i": "mɪs",
       "c": "小姐",
       "t": "u2",
-      "e": "Miss Li has taught us English for 3 years.",
-      "z": "李老师教我们英语已有三年了。"
+      "e": "Miss Li is our English teacher.",
+      "z": "李老师是我们的英语老师。"
     },
     {
       "w": "set up",
@@ -978,8 +978,8 @@
       "i": "'əʊp(ə)n",
       "c": "打开",
       "t": "u2",
-      "e": "She turned the key and the lid sprang open.",
-      "z": "她一拧钥匙，盖子啪地打开了。"
+      "e": "Open your pencil box.",
+      "z": "打开你的铅笔盒"
     },
     {
       "w": "door",
@@ -987,8 +987,7 @@
       "i": "dɔː",
       "c": "门",
       "t": "u2",
-      "e": "A bell tinkled as the door opened.",
-      "z": "房门一开，铃声丁零响了。"
+      "e": "Please close the door."
     },
     {
       "w": "carry",
@@ -1023,8 +1022,7 @@
       "i": "ɪk'saɪtɪd",
       "c": "激动的，兴奋的",
       "t": "u2",
-      "e": "His eyes were bright and excited.",
-      "z": "他目光发亮，兴奋不已。"
+      "e": "Are you excited?"
     },
     {
       "w": "kindness",
@@ -1041,8 +1039,8 @@
       "i": "'klevə",
       "c": "聪明的，机灵的",
       "t": "u2",
-      "e": "'You are clever,' she gushed.",
-      "z": "“你好聪明。”她夸张地称赞说。"
+      "e": "My robot is very clever.",
+      "z": "我的机器人很聪明。"
     },
     {
       "w": "understand",
@@ -1077,8 +1075,7 @@
       "i": "sɜː",
       "c": "先生",
       "t": "u2",
-      "e": "\"A pleasure to meet you, sir,\" he said.",
-      "z": "“很荣幸见到您，先生，”他说。"
+      "e": "Good morning, sir."
     },
     {
       "w": "madam",
@@ -1158,8 +1155,7 @@
       "i": "ʃɜːt",
       "c": "运动衫，衬衫",
       "t": "u3",
-      "e": "He put on a gaily coloured shirt.",
-      "z": "他穿上了一件色彩亮丽的衬衫。"
+      "e": "Where is my blue shirt?"
     },
     {
       "w": "as soon as",
@@ -1176,8 +1172,8 @@
       "i": "pɑːs",
       "c": "经过；前行；批准",
       "t": "u3",
-      "e": "She timed the pass perfectly.",
-      "z": "她传球的时机掌握得恰到好处。"
+      "e": "Can you pass me that flower?",
+      "z": "你能把那洒花递给我吗?"
     },
     {
       "w": "borrow",
@@ -1707,8 +1703,8 @@
       "i": "'fʊtbɔːl",
       "c": "足球",
       "t": "u4",
-      "e": "Luckily, we both love football.",
-      "z": "幸好我们俩都热爱足球。"
+      "e": "They are playing football.",
+      "z": "他们正在踢足球。"
     },
     {
       "w": "cut out",
@@ -1903,8 +1899,8 @@
       "i": "laɪt",
       "c": "灯；电灯",
       "t": "u5",
-      "e": "All plants need light and water.",
-      "z": "一切植物都需要阳光和水。"
+      "e": "I turn on the light?",
+      "z": "我能开灯吗?"
     },
     {
       "w": "report",
@@ -1939,8 +1935,7 @@
       "i": "'wɪndəʊ",
       "c": "窗户",
       "t": "u5",
-      "e": "The rain lashed at the window.",
-      "z": "雨点猛烈地打在窗户上。"
+      "e": "To open the window."
     },
     {
       "w": "flashlight",
@@ -2038,8 +2033,8 @@
       "i": "",
       "c": "看一看",
       "t": "u5",
-      "e": "I insisted that we should have a look at every car.",
-      "z": "我坚持我们应该把每辆车都看一看。"
+      "e": "Let's have a look!",
+      "z": "我们一起来看一看吧!"
     },
     {
       "w": "icy",
@@ -2306,8 +2301,7 @@
       "i": "teɪl",
       "c": "尾巴",
       "t": "u6",
-      "e": "The dog ran up, wagging its tail.",
-      "z": "那条狗摇着尾巴跑上前去。"
+      "e": "Its tail is so long."
     },
     {
       "w": "magic",
@@ -2405,8 +2399,8 @@
       "i": "smaɪl",
       "c": "微笑",
       "t": "u6",
-      "e": "Ron gave her a knowing smile.",
-      "z": "罗恩向她报以一个会意的微笑。"
+      "e": "I like your smile.",
+      "z": "我喜欢你的微笑。"
     },
     {
       "w": "marry",
@@ -2558,8 +2552,7 @@
       "i": "braɪt",
       "c": "明亮的,发亮的",
       "t": "u6",
-      "e": "His eyes were bright and excited.",
-      "z": "他目光发亮，兴奋不已。"
+      "e": "The moon is very bright."
     },
     {
       "w": "ground",
@@ -2621,8 +2614,8 @@
       "i": "diːp",
       "c": "深的",
       "t": "u7",
-      "e": "His voice was deep and mellow.",
-      "z": "他的声音低沉而柔和。"
+      "e": "The river is very deep.",
+      "z": "这条河很深。"
     },
     {
       "w": "desert",
@@ -2675,8 +2668,8 @@
       "i": "wɔːl",
       "c": "墙",
       "t": "u7",
-      "e": "He was leaning nonchalantly against the wall.",
-      "z": "他漫不经心地斜倚着墙。"
+      "e": "It's on the wall.",
+      "z": "它在墙壁上。"
     },
     {
       "w": "amazing",
@@ -2684,8 +2677,8 @@
       "i": "ə'meɪzɪŋ",
       "c": "令人惊异的",
       "t": "u7",
-      "e": "She has amazing powers of recall.",
-      "z": "她有惊人的记忆力。"
+      "e": "What amazing speed!",
+      "z": "多么惊人的速度啊!"
     },
     {
       "w": "ancient",
@@ -2837,8 +2830,8 @@
       "i": "'neɪtʃə",
       "c": "自然界，大自然",
       "t": "u7",
-      "e": "The poem conveys his deep reverence for nature.",
-      "z": "这首诗表达了他对大自然的深深崇敬之情。"
+      "e": "I live near the nature park.",
+      "z": "我住在目然公园附近。"
     },
     {
       "w": "even though",
@@ -3107,8 +3100,8 @@
       "i": "'aɪlənd",
       "c": "岛屿",
       "t": "u8",
-      "e": "The island is covered with seabirds.",
-      "z": "这岛上到处都是海鸟。"
+      "e": "He lives on an island.",
+      "z": "他住在岛上。"
     },
     {
       "w": "full of",
@@ -3143,8 +3136,8 @@
       "i": "'hʌrɪ",
       "c": "匆忙，赶快",
       "t": "u8",
-      "e": "Take your time—there's no hurry.",
-      "z": "悠着点—不用急。"
+      "e": "Hurry up!",
+      "z": "快点! 你上学迟到了。"
     },
     {
       "w": "hurry up",
@@ -3152,8 +3145,8 @@
       "i": "'hʌrɪ ʌp",
       "c": "赶快，急忙（做某事）",
       "t": "u8",
-      "e": "Oh you're so slow; come on, hurry up!",
-      "z": "哎哟，你可真慢；加把劲，快点！"
+      "e": "Hurry up!",
+      "z": "快点! 你上学迟到了。"
     },
     {
       "w": "due",
@@ -3350,8 +3343,8 @@
       "i": "fæn",
       "c": "狂热爱好者",
       "t": "u8",
-      "e": "He is a fanatical fan of Mozart.",
-      "z": "他是一名莫扎特音乐的狂热爱好者。"
+      "e": "Turn on the fan.",
+      "z": "打开风扇。"
     },
     {
       "w": "southern",
@@ -3755,8 +3748,8 @@
       "i": "fɒks",
       "c": "狐狸",
       "t": "u9",
-      "e": "He was as cunning as a fox.",
-      "z": "他像狐狸一样狡猾。"
+      "e": "Look at the fox.",
+      "z": "看那只狐狸。"
     },
     {
       "w": "all year around",
@@ -3791,8 +3784,8 @@
       "i": "sprɪŋ",
       "c": "春天",
       "t": "u9",
-      "e": "I love Rome, especially in the spring.",
-      "z": "我喜爱罗马，尤其是春天的罗马。"
+      "e": "Do you like spring?",
+      "z": "你喜欢春天吗?"
     },
     {
       "w": "mostly",
@@ -3836,8 +3829,7 @@
       "i": "swiːt",
       "c": "甜的",
       "t": "u10",
-      "e": "She achieves a sweet success.",
-      "z": "她尝到了成功的甜美滋味。"
+      "e": "The ice cream is very sweet."
     },
     {
       "w": "memory",
@@ -3863,8 +3855,8 @@
       "i": "tɒɪ",
       "c": "玩具",
       "t": "u10",
-      "e": "He whittled the piece of wood into a simple toy.",
-      "z": "他把那块木头削成了一个简易的玩具。"
+      "e": "My toy car is red.",
+      "z": "我的玩具小汽车是"
     },
     {
       "w": "bear",
@@ -3872,8 +3864,8 @@
       "i": "beə",
       "c": "熊",
       "t": "u10",
-      "e": "The teddy bear was his favourite plaything.",
-      "z": "软毛玩具熊是他最心爱的玩具。"
+      "e": "Look at the bear. It's on the hill.",
+      "z": "看那只熊。它在山上。"
     },
     {
       "w": "maker",
@@ -3998,8 +3990,8 @@
       "i": "'bedruːm; -rʊm",
       "c": "卧室",
       "t": "u10",
-      "e": "The main bedroom is enormous.",
-      "z": "主卧室大极了。"
+      "e": "This is her bedroom.",
+      "z": "这是她的卧室。"
     },
     {
       "w": "no longer",
@@ -4142,8 +4134,8 @@
       "i": "ˈkreɪən",
       "c": "彩色铅笔",
       "t": "u10",
-      "e": "Someone had scribbled all over the table in crayon.",
-      "z": "不知谁用蜡笔胡写乱画，桌面上都涂满了。"
+      "e": "It's a pink crayon.",
+      "z": "它是一文粉色的蜡笔。"
     },
     {
       "w": "shame",
@@ -4169,8 +4161,8 @@
       "i": "kaʊnt",
       "c": "计算，计数；有价值",
       "t": "u10",
-      "e": "What anyone else promises you doesn't count. Only what you can decide for yourself actually counts.",
-      "z": "任何人答应你的事都不算数，只有自己能做主的才算数。"
+      "e": "You should count to five.",
+      "z": "你应该数到五。"
     },
     {
       "w": "century",
@@ -4241,8 +4233,8 @@
       "i": "həʊld",
       "c": "抓住；拥有",
       "t": "u10",
-      "e": "We hold a dance every year to raise money for charity.",
-      "z": "我们每年举行一场舞会，为慈善事业募捐。"
+      "e": "Hold one's breath.",
+      "z": "屏住呼吸。"
     }
   ],
   "grade": 8,

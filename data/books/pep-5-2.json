@@ -42,8 +42,8 @@
       "i": "it brɛkfəst",
       "c": "吃早饭",
       "t": "u1",
-      "e": "You can still eat breakfast when you are slimming.",
-      "z": "你减肥也可以吃早饭嘛！"
+      "e": "When do you eat breakfast?",
+      "z": "你什么时候吃早饭?"
     },
     {
       "w": "have...class",
@@ -61,7 +61,7 @@
       "c": "进行体育运动",
       "t": "u1",
       "e": "I play sports every morning.",
-      "z": "我每天早上做运动。"
+      "z": "我每天早上做体育运动。"
     },
     {
       "w": "exercise",
@@ -69,8 +69,8 @@
       "i": "'eksəsaɪz",
       "c": "练习；运动；运用",
       "t": "u1",
-      "e": "Diet and exercise are equally important.",
-      "z": "饮食和锻炼同样重要。"
+      "e": "She is doing morning exercises.",
+      "z": "她正在晨练。"
     },
     {
       "w": "do morning exercise",
@@ -87,8 +87,8 @@
       "i": "",
       "c": "吃晚饭",
       "t": "u1",
-      "e": "Where do you want to eat dinner?",
-      "z": "你想去哪里吃晚餐？"
+      "e": "When do you eat dinner?",
+      "z": "你什么时候吃晚饭?"
     },
     {
       "w": "clean my room",
@@ -105,8 +105,8 @@
       "i": "",
       "c": "散步",
       "t": "u1",
-      "e": "Let's go for a walk.",
-      "z": "咱们去散散步吧。"
+      "e": "We go for a walk.",
+      "z": "我们去散步。"
     },
     {
       "w": "go shopping",
@@ -123,8 +123,8 @@
       "i": "teɪk",
       "c": "上（课）",
       "t": "u1",
-      "e": "Let's take the kids to the fair.",
-      "z": "咱们带孩子们到游乐场吧。"
+      "e": "When do you take classes after lunch?",
+      "z": "午饭后你什么时候上课?"
     },
     {
       "w": "dancing",
@@ -132,8 +132,8 @@
       "i": "'dɑːnsɪŋ",
       "c": "跳舞",
       "t": "u1",
-      "e": "Let's go dancing tonight.",
-      "z": "我们今晚去跳舞吧。"
+      "e": "I have a dancing class.",
+      "z": "我有一节和舞蹈课"
     },
     {
       "w": "take a dancing class",
@@ -150,8 +150,8 @@
       "i": "wen",
       "c": "什么时候",
       "t": "u1",
-      "e": "Her heart jolted when she saw him.",
-      "z": "她看到他时心里咯噔一下子。"
+      "e": "When is Christmas?",
+      "z": "圣诞节是什么时候?"
     },
     {
       "w": "after",
@@ -168,8 +168,8 @@
       "i": "stɑːt",
       "c": "开始",
       "t": "u1",
-      "e": "It was a chance to start afresh.",
-      "z": "这是个重新开始的机会。"
+      "e": "Leaves start to fall in autumn.",
+      "z": "叶子在秋天开始掉落。"
     },
     {
       "w": "usually",
@@ -177,8 +177,8 @@
       "i": "ˈjuːʒʊəlɪ",
       "c": "通常地",
       "t": "u1",
-      "e": "His stories usually have a happy ending.",
-      "z": "他的故事通常有一个美满的结局。"
+      "e": "What do you usually do after dinner?",
+      "z": "晚饭后你通常做什么?"
     },
     {
       "w": "Spain",
@@ -186,8 +186,7 @@
       "i": "spein",
       "c": "西班牙",
       "t": "u1",
-      "e": "We had a good time in Spain.",
-      "z": "我们在西班牙过得很愉快。"
+      "e": "Do you like Spain?"
     },
     {
       "w": "late",
@@ -195,8 +194,7 @@
       "i": "leɪt",
       "c": "晚",
       "t": "u1",
-      "e": "We're going to be late—let's get a taxi.",
-      "z": "我们要迟到了—咱们坐出租车吧。"
+      "e": "Why are you always late?"
     },
     {
       "w": "a.m.",
@@ -222,8 +220,8 @@
       "i": "waɪ",
       "c": "为什么",
       "t": "u1",
-      "e": "We are all good friends; why stand on ceremony?",
-      "z": "都是自己人，何必客气呢？"
+      "e": "Why are you always late?",
+      "z": "你为什么总是迟到?"
     },
     {
       "w": "shop",
@@ -240,8 +238,8 @@
       "i": "wɜːk",
       "c": "工作",
       "t": "u1",
-      "e": "He's in love with his work.",
-      "z": "他热爱自己的工作。"
+      "e": "He starts to work.",
+      "z": "他开始工作。"
     },
     {
       "w": "last",
@@ -258,8 +256,7 @@
       "i": "saʊnd",
       "c": "听起来好像",
       "t": "u1",
-      "e": "Her ears pricked up at the sound of his name.",
-      "z": "一听到他的名字她的耳朵就立刻竖了起来。"
+      "e": "It sounds great."
     },
     {
       "w": "also",
@@ -285,8 +282,8 @@
       "i": "niːd",
       "c": "需要",
       "t": "u1",
-      "e": "We need to preserve the forest.",
-      "z": "我们需要保护森林。"
+      "e": "I need more water.",
+      "z": "我需要更多的水。"
     },
     {
       "w": "play",
@@ -294,8 +291,7 @@
       "i": "pleɪ",
       "c": "戏剧",
       "t": "u1",
-      "e": "I used to play here as a boy.",
-      "z": "我小时候常在这里玩。"
+      "e": "Let's play basketball."
     },
     {
       "w": "letter",
@@ -312,8 +308,8 @@
       "i": "laɪv；lɪv",
       "c": "居住",
       "t": "u1",
-      "e": "We live in a multinational country.",
-      "z": "我们生活在一个多民族的国家。"
+      "e": "I live near the nature park.",
+      "z": "我住在目然公园附近。"
     },
     {
       "w": "island",
@@ -321,8 +317,8 @@
       "i": "'aɪlənd",
       "c": "岛",
       "t": "u1",
-      "e": "The island is covered with seabirds.",
-      "z": "这岛上到处都是海鸟。"
+      "e": "He lives on an island.",
+      "z": "他住在岛上。"
     },
     {
       "w": "always",
@@ -330,8 +326,8 @@
       "i": "ˈɔ:lweɪz",
       "c": "总是",
       "t": "u1",
-      "e": "He always sparkles at parties.",
-      "z": "在各种聚会上，他总是光芒四射。"
+      "e": "Why are you always late?",
+      "z": "你为什么总是迟到?"
     },
     {
       "w": "cave",
@@ -348,8 +344,8 @@
       "i": "",
       "c": "去游泳",
       "t": "u1",
-      "e": "How often do you go swimming?",
-      "z": "你多久去游泳一次？"
+      "e": "Do you want to go swimming?",
+      "z": "你想去游泳吗?"
     },
     {
       "w": "win",
@@ -366,8 +362,8 @@
       "i": "sprɪŋ",
       "c": "春天",
       "t": "u2",
-      "e": "I love Rome, especially in the spring.",
-      "z": "我喜爱罗马，尤其是春天的罗马。"
+      "e": "Do you like spring?",
+      "z": "你喜欢春天吗?"
     },
     {
       "w": "summer",
@@ -375,8 +371,8 @@
       "i": "'sʌmə",
       "c": "夏天",
       "t": "u2",
-      "e": "I really love summer evenings.",
-      "z": "我非常喜欢夏天的夜晚。"
+      "e": "I like summer best.",
+      "z": "我最喜欢夏天。"
     },
     {
       "w": "autumn",
@@ -384,8 +380,8 @@
       "i": "'ɔːtəm",
       "c": "秋天",
       "t": "u2",
-      "e": "He published his autobiography last autumn.",
-      "z": "他去年秋天出版了他的自传。"
+      "e": "Autumn is very beautiful.",
+      "z": "秋天很美。"
     },
     {
       "w": "winter",
@@ -393,8 +389,8 @@
       "i": "'wɪntə",
       "c": "冬天",
       "t": "u2",
-      "e": "Swallows migrate south in winter.",
-      "z": "燕子在冬天迁徙到南方。"
+      "e": "I like winter best.",
+      "z": "我最喜欢冬天。"
     },
     {
       "w": "season",
@@ -402,8 +398,8 @@
       "i": "'siːz(ə)n",
       "c": "季节",
       "t": "u2",
-      "e": "He has improved his ranking this season from 67th to 30th.",
-      "z": "本赛季他将自己的排名从第67位提高到了第30位。"
+      "e": "Which season do you like best?",
+      "z": "你最喜欢哪个季节?"
     },
     {
       "w": "picnic",
@@ -429,8 +425,8 @@
       "i": "pɪk",
       "c": "摘",
       "t": "u2",
-      "e": "She bent to pick a red rose.",
-      "z": "她弯下腰摘了一朵红玫瑰。"
+      "e": "Let's pick some fresh fruit!",
+      "z": "我们摘些新鲜的水果吧"
     },
     {
       "w": "pick apples",
@@ -447,8 +443,8 @@
       "i": "'snəʊmæn",
       "c": "雪人",
       "t": "u2",
-      "e": "I finally finished my snowman!",
-      "z": "我终于堆好了我的雪人！"
+      "e": "Can you make a snowman?",
+      "z": "你会堆雪人吗?"
     },
     {
       "w": "make a snowman",
@@ -456,8 +452,8 @@
       "i": "",
       "c": "堆雪人",
       "t": "u2",
-      "e": "We can make a snowman tomorrow.",
-      "z": "明天我们可以堆雪人了。"
+      "e": "Can you make a snowman?",
+      "z": "你会堆雪人吗?"
     },
     {
       "w": "go swimming.",
@@ -474,8 +470,8 @@
       "i": "wɪtʃ",
       "c": "哪一个",
       "t": "u2",
-      "e": "They called the event \"a tribute to heroes,\" which was a nice touch.",
-      "z": "他们把这次活动称为“向英雄致敬”，这是个点睛妙笔。"
+      "e": "Which one do you like?",
+      "z": "你喜欢哪一个?"
     },
     {
       "w": "best",
@@ -483,8 +479,8 @@
       "i": "best",
       "c": "最",
       "t": "u2",
-      "e": "Be the best, or don't do it at all. Fight for first, or don't fight at all.",
-      "z": "要做就做最好，要争就争第一。"
+      "e": "I like winter best.",
+      "z": "我最喜欢冬天。"
     },
     {
       "w": "snow",
@@ -492,8 +488,7 @@
       "i": "snəʊ",
       "c": "雪",
       "t": "u2",
-      "e": "His hair was as white as snow.",
-      "z": "他头发雪白。"
+      "e": "I often play in the snow."
     },
     {
       "w": "good job",
@@ -519,8 +514,8 @@
       "i": "vəˈkeɪʃn",
       "c": "假期",
       "t": "u2",
-      "e": "We're going to the beach for vacation.",
-      "z": "我们要去海滨度假。"
+      "e": "I like summer vacation.",
+      "z": "我喜欢暑假。"
     },
     {
       "w": "all",
@@ -528,8 +523,8 @@
       "i": "ɔːl",
       "c": "完全",
       "t": "u2",
-      "e": "We've all had a splendid time.",
-      "z": "我们大家都玩得很开心。"
+      "e": "Are these all ours?",
+      "z": "这些全是我们的吗?"
     },
     {
       "w": "pink",
@@ -537,8 +532,8 @@
       "i": "pɪŋk",
       "c": "粉色",
       "t": "u2",
-      "e": "There was a pink tinge to the sky.",
-      "z": "天空略带一点淡淡的粉红色。"
+      "e": "It's a pink crayon.",
+      "z": "它是一文粉色的蜡笔。"
     },
     {
       "w": "lovely",
@@ -564,8 +559,8 @@
       "i": "fɔːl",
       "c": "落下",
       "t": "u2",
-      "e": "Let me fall if I must fall. The one I become will catch me.",
-      "z": "如果必须坠落，就让我坠落。我会成为的那个人，一定会接住我。"
+      "e": "Leaves start to fall in autumn.",
+      "z": "叶子在秋天开始掉落。"
     },
     {
       "w": "paint",
@@ -609,8 +604,8 @@
       "i": "'eɪprəl",
       "c": "四月",
       "t": "u3",
-      "e": "We were wondering about next April for the wedding.",
-      "z": "我们寻思着下个四月举行婚礼可好。"
+      "e": "The exhibition will open in April.",
+      "z": "这个展览将在四月开幕。"
     },
     {
       "w": "May",
@@ -672,8 +667,8 @@
       "i": "nə(ʊ)'vembə",
       "c": "十一月",
       "t": "u3",
-      "e": "Thanksgiving Day is on the fourth Thursday of November.",
-      "z": "感恩节在十一月的第四个星期四。"
+      "e": "I like November.",
+      "z": "圣诞节在十二月。"
     },
     {
       "w": "December",
@@ -717,8 +712,8 @@
       "i": "miːt",
       "c": "集会",
       "t": "u3",
-      "e": "Hey! Nice to meet you.",
-      "z": "嘿，很高兴认识你。"
+      "e": "The meet is on Monday.",
+      "z": "会议在星期一举行。"
     },
     {
       "w": "sports meet",
@@ -744,8 +739,8 @@
       "i": "trɪp",
       "c": "旅行",
       "t": "u3",
-      "e": "Your trip must have been fun!",
-      "z": "你这次旅行一定很开心吧！"
+      "e": "It's a wonderful trip!",
+      "z": "这是一次很棒的旅行!"
     },
     {
       "w": "year",
@@ -753,8 +748,8 @@
       "i": "jɪə; jɜː",
       "c": "年",
       "t": "u3",
-      "e": "She had a baby last year.",
-      "z": "她去年生了个孩子。"
+      "e": "It's the third month in a year.",
+      "z": "这是一年中的第三个月。"
     },
     {
       "w": "plant",
@@ -762,8 +757,8 @@
       "i": "plɑːnt",
       "c": "种植",
       "t": "u3",
-      "e": "This plant blooms between May and June.",
-      "z": "这种植物在五六月间开花。"
+      "e": "Let's plant more trees.",
+      "z": "让我们多种树吧。"
     },
     {
       "w": "contest",
@@ -789,8 +784,8 @@
       "i": "'næʃ(ə)n(ə)l",
       "c": "国家的",
       "t": "u3",
-      "e": "Success in sport is a source of national pride.",
-      "z": "体育成就是民族光荣的源泉。"
+      "e": "It's a national park.",
+      "z": "它是一个国家公园， 全"
     },
     {
       "w": "National Day",
@@ -798,8 +793,8 @@
       "i": "ˈnæʃənəl de",
       "c": "国庆日",
       "t": "u3",
-      "e": "Let's celebrate National Day.",
-      "z": "让我们来庆祝国庆节吧。"
+      "e": "When is National Day?",
+      "z": "国庆节是什么时候?"
     },
     {
       "w": "American",
@@ -825,8 +820,8 @@
       "i": "ˈkrɪsməs",
       "c": "圣诞节",
       "t": "u3",
-      "e": "The children can't wait for Christmas to come.",
-      "z": "孩子们等圣诞节都等不及了。"
+      "e": "When is Christmas?",
+      "z": "圣诞节是什么时候?"
     },
     {
       "w": "holiday",
@@ -843,8 +838,8 @@
       "i": "geɪm",
       "c": "游戏",
       "t": "u3",
-      "e": "He knew the game inside out.",
-      "z": "他对这个游戏了如指掌。"
+      "e": "The game is over.",
+      "z": "游戏结束了。"
     },
     {
       "w": "roll",
@@ -915,8 +910,8 @@
       "i": "'sek(ə)nd",
       "c": "第二",
       "t": "u4",
-      "e": "She came second in the marathon.",
-      "z": "她在马拉松比赛中获得第二名。"
+      "e": "It's on the second floor.",
+      "z": "它在二楼。"
     },
     {
       "w": "third",
@@ -924,8 +919,8 @@
       "i": "θɜːd",
       "c": "第三",
       "t": "u4",
-      "e": "I was pregnant with our third child at the time.",
-      "z": "当时我正怀着我们的第三个孩子。"
+      "e": "It's the third month in a year.",
+      "z": "这是一年中的第三个月。"
     },
     {
       "w": "fourth",
@@ -933,8 +928,8 @@
       "i": "fɔːθ",
       "c": "第四",
       "t": "u4",
-      "e": "This was their fourth successive win.",
-      "z": "这是他们连续第四次获胜。"
+      "e": "I like the fourth one.",
+      "z": "我喜欢第四个。"
     },
     {
       "w": "fifth",
@@ -951,8 +946,8 @@
       "i": "twelfθ",
       "c": "第十二",
       "t": "u4",
-      "e": "My birthday is March twelfth.",
-      "z": "我的生日是在三月十二日。"
+      "e": "I like the twelfth month.",
+      "z": "我喜欢第十二个月份。"
     },
     {
       "w": "twentieth",
@@ -996,8 +991,8 @@
       "i": "'speʃ(ə)l",
       "c": "特殊的",
       "t": "u4",
-      "e": "A special bond unites our two countries.",
-      "z": "一种特殊的纽带把我们两国联结起来。"
+      "e": "It's a special gift for you.",
+      "z": "这是给你准备的特别礼物。"
     },
     {
       "w": "fool",
@@ -1014,8 +1009,7 @@
       "i": "'kɪt(ə)n",
       "c": "小猫",
       "t": "u4",
-      "e": "From somewhere, the kitten mewed.",
-      "z": "从某个地方，这只小猫喵喵地叫着。"
+      "e": "I see a kitten."
     },
     {
       "w": "diary",
@@ -1032,8 +1026,7 @@
       "i": "stɪl",
       "c": "仍然",
       "t": "u4",
-      "e": "There is still a glimmer of hope.",
-      "z": "仍有一线希望。"
+      "e": "I I'm still very hungry."
     },
     {
       "w": "noise",
@@ -1041,8 +1034,7 @@
       "i": "nɔɪz",
       "c": "噪音",
       "t": "u4",
-      "e": "The noise came at us from all sides.",
-      "z": "噪音从四面八方向我们袭来。"
+      "e": "What's that noise?"
     },
     {
       "w": "fur",
@@ -1050,8 +1042,8 @@
       "i": "fɜː",
       "c": "动物皮毛",
       "t": "u4",
-      "e": "The animal is hunted for its fur.",
-      "z": "狩猎这种动物是为了获取其毛皮。"
+      "e": "Its fur is very short.",
+      "z": "它的毛友非常短。"
     },
     {
       "w": "open",
@@ -1059,8 +1051,8 @@
       "i": "'əʊp(ə)n",
       "c": "开着的",
       "t": "u4",
-      "e": "She turned the key and the lid sprang open.",
-      "z": "她一拧钥匙，盖子啪地打开了。"
+      "e": "Open your pencil box.",
+      "z": "打开你的铅笔盒"
     },
     {
       "w": "walk",
@@ -1068,8 +1060,7 @@
       "i": "wɔːk",
       "c": "行走",
       "t": "u4",
-      "e": "He can now walk unaided.",
-      "z": "他现在能独自行走了。"
+      "e": "We go for a walk."
     },
     {
       "w": "mine",
@@ -1077,8 +1068,8 @@
       "i": "maɪn",
       "c": "我的",
       "t": "u4",
-      "e": "The new librarian is a friend of mine.",
-      "z": "这位新来的图书管理员是我的朋友。"
+      "e": "This pink dress is mine.",
+      "z": "这件粉色连衣裙是我的。"
     },
     {
       "w": "yours",
@@ -1086,8 +1077,8 @@
       "i": "jɔːz; jʊəz",
       "c": "你的",
       "t": "u4",
-      "e": "The job is yours for the asking.",
-      "z": "只要开口，这份工作就是你的了。"
+      "e": "These gifts are yours.",
+      "z": "这些礼物是你们的。"
     },
     {
       "w": "his",
@@ -1095,8 +1086,8 @@
       "i": "hɪz",
       "c": "他的",
       "t": "u4",
-      "e": "She rumpled his hair playfully.",
-      "z": "她顽皮地弄乱他的头发。"
+      "e": "His glasses are blue.",
+      "z": "他的眼镜是蓝色的。"
     },
     {
       "w": "hers",
@@ -1122,8 +1113,8 @@
       "i": "aʊəz",
       "c": "我们的",
       "t": "u4",
-      "e": "He lived in a gentler age than ours.",
-      "z": "他生活的时代比我们这个时代更平静祥和。"
+      "e": "Are these all ours?",
+      "z": "这些全是我们的吗?"
     },
     {
       "w": "climbing",
@@ -1140,8 +1131,8 @@
       "i": "'iːtɪŋ",
       "c": "吃",
       "t": "u5",
-      "e": "What do you say to eating out tonight?",
-      "z": "今晚到外边吃饭，怎么样？"
+      "e": "I like eating tomatoes.",
+      "z": "我喜欢吃西红柿。"
     },
     {
       "w": "playing",
@@ -1149,8 +1140,8 @@
       "i": "'pleɪŋ",
       "c": "玩",
       "t": "u5",
-      "e": "I enjoy playing basketball.",
-      "z": "我喜欢打篮球。"
+      "e": "I can see them playing.",
+      "z": "我能看到他们在玩。"
     },
     {
       "w": "jumping",
@@ -1158,8 +1149,8 @@
       "i": "'dʒʌmpɪŋ",
       "c": "跳",
       "t": "u5",
-      "e": "The children were jumping up and down with excitement.",
-      "z": "孩子们兴奋得跳来跳去。"
+      "e": "Are those monkeys jumping?",
+      "z": "那些猴子正在跳吗?"
     },
     {
       "w": "drinking",
@@ -1167,8 +1158,8 @@
       "i": "'drɪŋkɪŋ",
       "c": "喝",
       "t": "u5",
-      "e": "What are you drinking? It's my shout.",
-      "z": "你喝什么？该我请客了。"
+      "e": "He is drinking water.",
+      "z": "他正在喝水。"
     },
     {
       "w": "sleeping",
@@ -1176,8 +1167,8 @@
       "i": "'sliːpɪŋ",
       "c": "睡觉",
       "t": "u5",
-      "e": "The baby was sleeping peacefully.",
-      "z": "婴儿睡得很安稳。"
+      "e": "Is the baby sleeping?",
+      "z": "宝宝正在睡觉吗?"
     },
     {
       "w": "each",
@@ -1194,8 +1185,8 @@
       "i": "'ʌðə",
       "c": "其他",
       "t": "u5",
-      "e": "He easily outpaced the other runners.",
-      "z": "他轻而易举地超过了其他赛跑选手。"
+      "e": "They look at each other.",
+      "z": "他们看向对方。"
     },
     {
       "w": "each other",
@@ -1203,8 +1194,7 @@
       "i": "",
       "c": "相互",
       "t": "u5",
-      "e": "They were whispering endearments to each other.",
-      "z": "他们彼此低声倾吐着爱慕之情。"
+      "e": "They look at each other."
     },
     {
       "w": "excited",
@@ -1212,8 +1202,7 @@
       "i": "ɪk'saɪtɪd",
       "c": "兴奋地",
       "t": "u5",
-      "e": "His eyes were bright and excited.",
-      "z": "他目光发亮，兴奋不已。"
+      "e": "Are you excited?"
     },
     {
       "w": "like",
@@ -1221,8 +1210,8 @@
       "i": "laɪk",
       "c": "像⋯⋯那样",
       "t": "u5",
-      "e": "The lights shone like diamonds.",
-      "z": "灯光像钻石一样闪闪发亮。"
+      "e": "I like elephants.",
+      "z": "我喜欢大象。"
     },
     {
       "w": "doing morning exercises",
@@ -1230,8 +1219,7 @@
       "i": "",
       "c": "做早操",
       "t": "u5",
-      "e": "In the past few years, many schools have changed the ways of doing morning exercises.",
-      "z": "在过去的几年里，许多学校已经改变了做早操的方式。"
+      "e": "She is doing morning exercises."
     },
     {
       "w": "having...class",
@@ -1257,8 +1245,8 @@
       "i": "",
       "c": "看书",
       "t": "u5",
-      "e": "I'm reading a book about medicine.",
-      "z": "我在读一本关于医学的书。"
+      "e": "He is reading a book.",
+      "z": "他正在看书。"
     },
     {
       "w": "listening to music",
@@ -1266,8 +1254,8 @@
       "i": "",
       "c": "听音乐",
       "t": "u5",
-      "e": "When I was a teenager, I used to spend time in my room listening to music.",
-      "z": "当我还是青少年的时候，我经常在我房间里听歌消磨时间。"
+      "e": "He is listening to music.",
+      "z": "他正在听音乐。"
     },
     {
       "w": "keep",
@@ -1311,8 +1299,7 @@
       "i": "tɜːn",
       "c": "顺序",
       "t": "u6",
-      "e": "Can you turn the music lower—you'll wake the baby.",
-      "z": "能不能把音乐放小点，别把孩子吵醒了。"
+      "e": "He calls out their name in turn."
     },
     {
       "w": "take turns",
@@ -1338,8 +1325,8 @@
       "i": "ɪts",
       "c": "它的",
       "t": "u6",
-      "e": "I was astounded by its beauty.",
-      "z": "我被它的美丽震撼了。"
+      "e": "Its eyes are blue.",
+      "z": "它的 人"
     },
     {
       "w": "show",
@@ -1347,8 +1334,7 @@
       "i": "ʃəʊ",
       "c": "指导，引导",
       "t": "u6",
-      "e": "The show was an instant success.",
-      "z": "演出一炮打响。"
+      "e": "When is the art show?"
     },
     {
       "w": "anything",
@@ -1374,8 +1360,8 @@
       "i": "ˌeksɪˈbɪʃn",
       "c": "展览",
       "t": "u6",
-      "e": "The exhibition is sure to be popular.",
-      "z": "这一展览肯定受欢迎。"
+      "e": "The exhibition will open in April.",
+      "z": "这个展览将在四月开幕。"
     },
     {
       "w": "say",
@@ -1383,8 +1369,8 @@
       "i": "seɪ",
       "c": "说；讲",
       "t": "u6",
-      "e": "Could you say it again, please?",
-      "z": "请再说一遍好吗？"
+      "e": "What did Hi say?",
+      "z": "他说什么?"
     },
     {
       "w": "have a look",
@@ -1392,8 +1378,8 @@
       "i": "",
       "c": "看一看",
       "t": "u6",
-      "e": "I insisted that we should have a look at every car.",
-      "z": "我坚持我们应该把每辆车都看一看。"
+      "e": "Let's have a look!",
+      "z": "我们一起来看一看吧!"
     },
     {
       "w": "sushi",
@@ -1410,8 +1396,8 @@
       "i": "tiːtʃ",
       "c": "教",
       "t": "u6",
-      "e": "Most schools teach children lowercase letters first, and uppercase letters later.",
-      "z": "大多数学校先教孩子们小写字母，后教大写字母。"
+      "e": "She teaches me English.",
+      "z": "她教我英语。"
     },
     {
       "w": "sure",
@@ -1437,8 +1423,8 @@
       "i": "'spænɪʃ",
       "c": "西班牙的",
       "t": "u6",
-      "e": "I had hoped to brush up my Spanish.",
-      "z": "我曾希望提高一下我的西班牙语。"
+      "e": "It's a Spanish song.",
+      "z": "它是一首西班牙的歌曲。"
     }
   ],
   "grade": 5,

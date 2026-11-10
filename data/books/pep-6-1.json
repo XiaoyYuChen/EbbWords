@@ -42,8 +42,8 @@
       "i": "'saɪəns",
       "c": "科学",
       "t": "u1",
-      "e": "The progress of science is unstoppable.",
-      "z": "科学的进步是无法阻挡的。"
+      "e": "Why do you like science?",
+      "z": "你为什么喜欢科学?"
     },
     {
       "w": "museum",
@@ -51,8 +51,8 @@
       "i": "mjuː'zɪəm",
       "c": "博物馆",
       "t": "u1",
-      "e": "Entry to the museum is free.",
-      "z": "这座博物馆免费参观。"
+      "e": "Is it a museum?",
+      "z": "它是一个博物馆吗?"
     },
     {
       "w": "post office",
@@ -87,8 +87,8 @@
       "i": "'hɒspɪt(ə)l",
       "c": "医院",
       "t": "u1",
-      "e": "The new hospital opens on July 1st.",
-      "z": "这家新医院七月一日开诊。"
+      "e": "Could you tell me how to get to the hospital?",
+      "z": "尔能告诉我如何去医院吗?"
     },
     {
       "w": "crossing",
@@ -105,8 +105,7 @@
       "i": "tɜːn",
       "c": "转弯",
       "t": "u1",
-      "e": "Can you turn the music lower—you'll wake the baby.",
-      "z": "能不能把音乐放小点，别把孩子吵醒了。"
+      "e": "He calls out their name in turn."
     },
     {
       "w": "left",
@@ -114,8 +113,8 @@
       "i": "left",
       "c": "左",
       "t": "u1",
-      "e": "I left the island with a light heart.",
-      "z": "我怀着愉快的心情离开了那个小岛。"
+      "e": "Turn left at the traffic lights.",
+      "z": "在交通信号灯处向左转。"
     },
     {
       "w": "on foot",
@@ -150,8 +149,8 @@
       "i": "pleɪn",
       "c": "飞机",
       "t": "u2",
-      "e": "The plane made a smooth landing.",
-      "z": "飞机平稳降落。"
+      "e": "I go to Germany by plane.",
+      "z": "机去德国"
     },
     {
       "w": "taxi",
@@ -204,8 +203,8 @@
       "i": "daʊn",
       "c": "减少",
       "t": "u2",
-      "e": "He danced off down the road.",
-      "z": "他沿着马路蹦蹦跳跳地走了。"
+      "e": "Please slow down and stop at a yellow light.",
+      "z": "黄灯时请减速并停下来。"
     },
     {
       "w": "slow down",
@@ -213,8 +212,8 @@
       "i": "",
       "c": "慢下来",
       "t": "u2",
-      "e": "How can we slow down time?",
-      "z": "我们怎样才能让时间慢下来？"
+      "e": "Please slow down and stop at a yellow light.",
+      "z": "黄灯时请减速并停下来。"
     },
     {
       "w": "stop",
@@ -222,8 +221,8 @@
       "i": "stɒp",
       "c": "停下",
       "t": "u2",
-      "e": "Let's stop and ask for directions.",
-      "z": "咱们停下来问问路吧。"
+      "e": "Please slow down and stop at a yellow light.",
+      "z": "黄灯时请减速并停下来。"
     },
     {
       "w": "Mrs",
@@ -249,8 +248,7 @@
       "i": "'helmɪt",
       "c": "头盔",
       "t": "u2",
-      "e": "He locked his helmet into position with a click.",
-      "z": "他喀哒一声把头盔扣好。"
+      "e": "You should wear a helmet."
     },
     {
       "w": "must",
@@ -267,8 +265,7 @@
       "i": "weə",
       "c": "戴",
       "t": "u2",
-      "e": "What you wear speaks volumes about you.",
-      "z": "你的穿戴能充分表明你的方方面面。"
+      "e": "You should wear a helmet."
     },
     {
       "w": "attention",
@@ -276,8 +273,8 @@
       "i": "ə'tenʃ(ə)n",
       "c": "注意",
       "t": "u2",
-      "e": "You have my undivided attention.",
-      "z": "我全部的注意力都在你身上。"
+      "e": "Please pay attention to the traffic lights.",
+      "z": "请注意交通信号灯。"
     },
     {
       "w": "pay attention to",
@@ -285,8 +282,8 @@
       "i": "",
       "c": "注意",
       "t": "u2",
-      "e": "You should always pay attention to personal grooming.",
-      "z": "你应随时注意个人仪容。"
+      "e": "Please pay attention to the traffic lights.",
+      "z": "请注意交通信号灯。"
     },
     {
       "w": "traffic",
@@ -294,8 +291,8 @@
       "i": "'træfɪk",
       "c": "交通",
       "t": "u2",
-      "e": "If we go early we should beat the traffic.",
-      "z": "我们早点出发就会避开交通拥挤。"
+      "e": "Turn left at the traffic lights.",
+      "z": "在交通信号灯处向左转。"
     },
     {
       "w": "traffic lights",
@@ -304,7 +301,7 @@
       "c": "交通信号灯",
       "t": "u2",
       "e": "Turn left at the traffic lights.",
-      "z": "在交通信号灯处向左拐。"
+      "z": "在交通信号灯处向左转。"
     },
     {
       "w": "Munich",
@@ -321,8 +318,8 @@
       "i": "'dʒɜːmənɪ",
       "c": "德国",
       "t": "u2",
-      "e": "Germany ran Argentina very close in the final.",
-      "z": "在决赛中，德国队发挥得几乎和阿根廷队一样出色。"
+      "e": "I go to Germany by plane.",
+      "z": "机去德国"
     },
     {
       "w": "Alaska",
@@ -339,8 +336,7 @@
       "i": "sled",
       "c": "雪橇",
       "t": "u2",
-      "e": "We can see a sled in the store.",
-      "z": "我们看到玩具店有一辆雪橇车。"
+      "e": "Is this your sled?"
     },
     {
       "w": "fast",
@@ -348,8 +344,8 @@
       "i": "fɑːst",
       "c": "快的",
       "t": "u2",
-      "e": "Don't go too fast —gently does it!",
-      "z": "别太快—慢点吧！"
+      "e": "A fast horse.",
+      "z": "速度快的马。"
     },
     {
       "w": "ferry",
@@ -393,8 +389,8 @@
       "i": "fɪlm",
       "c": "电影",
       "t": "u3",
-      "e": "I enjoyed this film immensely.",
-      "z": "我非常喜欢这部电影。"
+      "e": "Do you like that film?",
+      "z": "你喜欢那部电影吗?"
     },
     {
       "w": "see a film",
@@ -402,8 +398,8 @@
       "i": "",
       "c": "看电影",
       "t": "u3",
-      "e": "Shall we go to see a film this evening?",
-      "z": "我们今晚去看电影好吗？"
+      "e": "Would you like to see a film now?",
+      "z": "你现在想看一部电影吗?"
     },
     {
       "w": "trip",
@@ -411,8 +407,8 @@
       "i": "trɪp",
       "c": "旅行",
       "t": "u3",
-      "e": "Your trip must have been fun!",
-      "z": "你这次旅行一定很开心吧！"
+      "e": "It's a wonderful trip!",
+      "z": "这是一次很棒的旅行!"
     },
     {
       "w": "take a trip",
@@ -420,8 +416,8 @@
       "i": "",
       "c": "去旅行",
       "t": "u3",
-      "e": "It'd be fun, after the situation in Europe settles down, to take a trip to France.",
-      "z": "欧洲局势平定下来之后，去法国旅行将会很好玩。"
+      "e": "Let's take a trip.",
+      "z": "我们去旅行吧。"
     },
     {
       "w": "supermarket",
@@ -429,8 +425,8 @@
       "i": "'suːpəmɑːkɪt; 'sjuː-",
       "c": "超市",
       "t": "u3",
-      "e": "The supermarket fired the first shot in a price war today.",
-      "z": "今天，这家超市打响了价格战的头一炮。"
+      "e": "Where is the supermarket?",
+      "z": "超市在哪里?"
     },
     {
       "w": "evening",
@@ -456,8 +452,8 @@
       "i": "tə'mɒrəʊ",
       "c": "明天",
       "t": "u3",
-      "e": "I'm flying to Hong Kong tomorrow.",
-      "z": "明天我要乘飞机去香港。"
+      "e": "Shall we go hiking tomorrow?",
+      "z": "我们明天可以去远足吗?"
     },
     {
       "w": "next week",
@@ -483,8 +479,7 @@
       "i": "'kɒmɪk",
       "c": "滑稽的",
       "t": "u3",
-      "e": "The novel is comic and tragic.",
-      "z": "这本小说兼有喜剧和悲剧的特点。"
+      "e": "It's a comic story."
     },
     {
       "w": "comic book",
@@ -501,8 +496,8 @@
       "i": "wɜːd",
       "c": "单词",
       "t": "u3",
-      "e": "Kate's word was law in the Brown household.",
-      "z": "凯特的话在布朗家就是金科玉律。"
+      "e": "We are going to buy a word book.",
+      "z": "我们要去买一本单词书。"
     },
     {
       "w": "word book",
@@ -510,8 +505,8 @@
       "i": "'wɜːdbʊk",
       "c": "单词书",
       "t": "u3",
-      "e": "Keith has also written a 10,000-word book using the technique.",
-      "z": "基斯还利用这个技巧创作出了一部1万字的书。"
+      "e": "We are going to buy a word book.",
+      "z": "我们要去买一本单词书。"
     },
     {
       "w": "post card",
@@ -546,8 +541,7 @@
       "i": "'træv(ə)l",
       "c": "旅行",
       "t": "u3",
-      "e": "We spent hours poring over travel brochures.",
-      "z": "我们花了几个小时仔细研究旅游宣传册。"
+      "e": "Let's travel in the animal world."
     },
     {
       "w": "half",
@@ -582,8 +576,8 @@
       "i": "tə'geðə",
       "c": "一起",
       "t": "u3",
-      "e": "We spent a blissful week together.",
-      "z": "我们在一起度过了极为幸福的一周。"
+      "e": "Let's count to ten together.",
+      "z": "我们一起数到十吧。"
     },
     {
       "w": "get together",
@@ -591,8 +585,8 @@
       "i": "",
       "c": "聚会",
       "t": "u3",
-      "e": "We get together to enjoy the moon and eat moon cakes.",
-      "z": "我们聚在一起赏月和吃月饼。"
+      "e": "Let's get together!",
+      "z": "我们聚会吧!。"
     },
     {
       "w": "mooncake",
@@ -600,8 +594,8 @@
       "i": "'mu:nkeɪk",
       "c": "月饼",
       "t": "u3",
-      "e": "I ate one quarter of a mooncake.",
-      "z": "我吃了四分之一的月饼。"
+      "e": "We'll eat mooncakes.",
+      "z": "我们会吃月饼。"
     },
     {
       "w": "poem",
@@ -636,8 +630,8 @@
       "i": "'pʌz(ə)l",
       "c": "谜",
       "t": "u3",
-      "e": "We invited readers who completed the puzzle to send in their solutions.",
-      "z": "我们邀请解完谜的读者交出谜底。"
+      "e": "Do you like word puzzles?",
+      "z": "你喜欢字谜吗?"
     },
     {
       "w": "hiking",
@@ -645,8 +639,8 @@
       "i": "'haɪkɪŋ",
       "c": "远足",
       "t": "u3",
-      "e": "Her hobbies include hiking and photography.",
-      "z": "她的业余爱好包括徒步旅行和摄影。"
+      "e": "Shall we go hiking tomorrow?",
+      "z": "我们明天可以去远足吗?"
     },
     {
       "w": "pen pal",
@@ -654,8 +648,7 @@
       "i": "",
       "c": "笔友",
       "t": "u4",
-      "e": "Maybe you should find a pen pal.",
-      "z": "也许你应该找个笔友。"
+      "e": "I have a pen pal."
     },
     {
       "w": "hobby",
@@ -672,8 +665,7 @@
       "i": "'dʒæzmɪn; 'dʒæs-",
       "c": "茉莉",
       "t": "u4",
-      "e": "I like jasmine tea best of all.",
-      "z": "我最喜欢茉莉花茶。"
+      "e": "I like jasmine very much."
     },
     {
       "w": "idea",
@@ -690,8 +682,8 @@
       "i": "'kænbərə",
       "c": "堪培拉",
       "t": "u4",
-      "e": "I'm going to Canberra University.",
-      "z": "我准备去堪培拉大学。"
+      "e": "Are you from Canberra?",
+      "z": "你是堪培拉人吗?"
     },
     {
       "w": "amazing",
@@ -699,8 +691,8 @@
       "i": "ə'meɪzɪŋ",
       "c": "令人惊奇的",
       "t": "u4",
-      "e": "She has amazing powers of recall.",
-      "z": "她有惊人的记忆力。"
+      "e": "What amazing speed!",
+      "z": "多么惊人的速度啊!"
     },
     {
       "w": "shall",
@@ -726,8 +718,8 @@
       "i": "dʒɒɪn",
       "c": "加入",
       "t": "u4",
-      "e": "Angela says she longs to join an amateur dramatics class.",
-      "z": "安吉拉说她渴望参加业余戏剧班。"
+      "e": "Come and join us.",
+      "z": "来加入我们吧"
     },
     {
       "w": "club",
@@ -735,8 +727,8 @@
       "i": "klʌb",
       "c": "俱乐部",
       "t": "u4",
-      "e": "The club has live jazz on Sundays.",
-      "z": "该俱乐部每个星期天都有现场爵士乐演奏。"
+      "e": "I want to join the football club.",
+      "z": "我想加入足球俱乐部。"
     },
     {
       "w": "share",
@@ -744,8 +736,8 @@
       "i": "ʃeə",
       "c": "分享",
       "t": "u4",
-      "e": "We should aim for a bigger share of the market.",
-      "z": "我们应该努力争取更大的市场份额。"
+      "e": "Let's share the candy.",
+      "z": "让我们分享糖果吧。"
     },
     {
       "w": "factory",
@@ -753,8 +745,8 @@
       "i": "'fækt(ə)rɪ",
       "c": "工厂",
       "t": "u5",
-      "e": "The factory is working at full capacity.",
-      "z": "这家工厂在开足马力生产。"
+      "e": "My father works in a factory.",
+      "z": "我的爸爸在一家工厂上班。"
     },
     {
       "w": "worker",
@@ -780,8 +772,8 @@
       "i": "'bɪznɪsmən",
       "c": "商人",
       "t": "u5",
-      "e": "Warren was an adventurous businessman.",
-      "z": "沃伦是一位有冒险精神的商人。"
+      "e": "I'm going to be a businessman.",
+      "z": "我要成为一个商人"
     },
     {
       "w": "police officer",
@@ -816,8 +808,8 @@
       "i": "'paɪlət",
       "c": "飞行员",
       "t": "u5",
-      "e": "The pilot escaped death by seconds.",
-      "z": "这位飞行员数秒之内死里逃生。"
+      "e": "My uncle is a pilot.",
+      "z": "我的姑父是一名飞行员。"
     },
     {
       "w": "coach",
@@ -825,8 +817,8 @@
       "i": "kəʊtʃ",
       "c": "教练",
       "t": "u5",
-      "e": "He's more than a coach, he's a friend.",
-      "z": "他不只是个教练，还是个朋友。"
+      "e": "Is he a basketball coach?",
+      "z": "他是一名篮球教练吗?"
     },
     {
       "w": "country",
@@ -843,8 +835,8 @@
       "i": "",
       "c": "校长",
       "t": "u5",
-      "e": "They have appointed a new head teacher at my son's school.",
-      "z": "我儿子读书的学校任命了一位新校长。"
+      "e": "She is a head teacher.",
+      "z": "她是一位校长。"
     },
     {
       "w": "sea",
@@ -852,8 +844,8 @@
       "i": "siː",
       "c": "大海",
       "t": "u5",
-      "e": "The sea rippled and sparkled.",
-      "z": "大海波光粼粼。"
+      "e": "Look at the blue sea.",
+      "z": "看那蓝色的大海。"
     },
     {
       "w": "stay",
@@ -870,8 +862,7 @@
       "i": "juːnɪ'vɜːsɪtɪ",
       "c": "大学",
       "t": "u5",
-      "e": "The university is highly rated for its research.",
-      "z": "这所大学因其研究工作而受到高度评价。"
+      "e": "My father works in a famous university."
     },
     {
       "w": "gym",
@@ -888,8 +879,8 @@
       "i": "ɪf",
       "c": "如果",
       "t": "u5",
-      "e": "I'd be glad if you could help me.",
-      "z": "你若能帮助我，我会非常感激。"
+      "e": "If you want to read, please turn on the light.",
+      "z": "如果你要看书，请开灯。"
     },
     {
       "w": "reporter",
@@ -897,8 +888,8 @@
       "i": "rɪ'pɔːtə",
       "c": "记者",
       "t": "u5",
-      "e": "I fondly remember my first job as a reporter.",
-      "z": "我深深地记得我初次工作当记者的情景。"
+      "e": "I'm going to be a reporter.",
+      "z": "我要做一名记者。"
     },
     {
       "w": "use",
@@ -906,8 +897,8 @@
       "i": "juːz",
       "c": "使用",
       "t": "u5",
-      "e": "Might I use your phone?",
-      "z": "我可以用一下你的电话吗？"
+      "e": "I use your pencil?",
+      "z": "我可以用你的铅笔吗?"
     },
     {
       "w": "type",
@@ -924,8 +915,7 @@
       "i": "'kwɪklɪ",
       "c": "迅速地",
       "t": "u5",
-      "e": "Twenty years have passed so quickly, in the blink of an eye.",
-      "z": "二十年快滴很，弹指一挥间。"
+      "e": "He runs very quickly."
     },
     {
       "w": "secretary",
@@ -933,8 +923,8 @@
       "i": "ˈsekrətrɪ",
       "c": "秘书",
       "t": "u5",
-      "e": "He dictated a letter to his secretary.",
-      "z": "他向秘书口授信稿。"
+      "e": "You can be a secretary.",
+      "z": "你可以成为一名秘书。"
     },
     {
       "w": "angry",
@@ -942,8 +932,8 @@
       "i": "'æŋgrɪ",
       "c": "生气的",
       "t": "u6",
-      "e": "I was angry at the time but we had a good laugh about it afterwards.",
-      "z": "我当时很生气，可后来却又觉得十分可笑。"
+      "e": "Are you angry?",
+      "z": "你生气吗?"
     },
     {
       "w": "afraid",
@@ -951,8 +941,8 @@
       "i": "ə'freɪd",
       "c": "害怕",
       "t": "u6",
-      "e": "I was afraid you'd say no, and my dream would go up in smoke.",
-      "z": "我担心你会说不，那我的梦想就化为乌有了。"
+      "e": "I'm afraid of my maths teacher.",
+      "z": "我怕我的数学老师。"
     },
     {
       "w": "sad",
@@ -969,8 +959,8 @@
       "i": "'wʌrɪd",
       "c": "担心的",
       "t": "u6",
-      "e": "I was worried you wouldn't come.",
-      "z": "我还担心你不来呢。"
+      "e": "Do you feel worried about it?",
+      "z": "你担心它吗?"
     },
     {
       "w": "happy",
@@ -978,8 +968,7 @@
       "i": "'hæpɪ",
       "c": "高兴的",
       "t": "u6",
-      "e": "I wished her a happy birthday.",
-      "z": "我祝她生日快乐。"
+      "e": "We're tired but happy."
     },
     {
       "w": "see a doctor",
@@ -987,8 +976,7 @@
       "i": "",
       "c": "看病",
       "t": "u6",
-      "e": "You must see a doctor, Frederick.",
-      "z": "弗雷德里克，你一定得看医生。"
+      "e": "You should see a doctor."
     },
     {
       "w": "wear.",
@@ -1005,8 +993,8 @@
       "i": "mɔː",
       "c": "更多的",
       "t": "u6",
-      "e": "His paintings became more lyrical.",
-      "z": "他的画变得更有诗意。"
+      "e": "I need more water.",
+      "z": "我需要更多的水。"
     },
     {
       "w": "deep",
@@ -1014,8 +1002,8 @@
       "i": "diːp",
       "c": "深的",
       "t": "u6",
-      "e": "His voice was deep and mellow.",
-      "z": "他的声音低沉而柔和。"
+      "e": "The river is very deep.",
+      "z": "这条河很深。"
     },
     {
       "w": "breath",
@@ -1023,8 +1011,8 @@
       "i": "breθ",
       "c": "呼吸",
       "t": "u6",
-      "e": "I'm dying for a breath of fresh air.",
-      "z": "我真想呼吸点新鲜空气。"
+      "e": "Hold one's breath.",
+      "z": "屏住呼吸。"
     },
     {
       "w": "take a deep breath",
@@ -1041,8 +1029,8 @@
       "i": "kaʊnt",
       "c": "数数",
       "t": "u6",
-      "e": "What anyone else promises you doesn't count. Only what you can decide for yourself actually counts.",
-      "z": "任何人答应你的事都不算数，只有自己能做主的才算数。"
+      "e": "You should count to five.",
+      "z": "你应该数到五。"
     },
     {
       "w": "count to ten",
@@ -1050,8 +1038,8 @@
       "i": "",
       "c": "数到十",
       "t": "u6",
-      "e": "Just count to ten and then consider whether or not you should make that purchase.",
-      "z": "数到十然后再考虑一下你是否购买。"
+      "e": "Let's count to ten together.",
+      "z": "我们一起数到十吧。"
     },
     {
       "w": "chase",
@@ -1113,8 +1101,8 @@
       "i": "ʃəd; strong form ʃʊd",
       "c": "应该",
       "t": "u6",
-      "e": "He should be applauded for his courage.",
-      "z": "他应该因其勇气而受到称赞。"
+      "e": "You should study hard.",
+      "z": "你应该好好学习。"
     },
     {
       "w": "feel",
@@ -1122,8 +1110,7 @@
       "i": "fiːl",
       "c": "觉得",
       "t": "u6",
-      "e": "I feel absolutely terrific today!",
-      "z": "我今天的感觉真是好极了！"
+      "e": "I feel warm."
     },
     {
       "w": "well",
@@ -1140,8 +1127,8 @@
       "i": "sɪt",
       "c": "坐",
       "t": "u6",
-      "e": "Let's sit in the shade for a while.",
-      "z": "咱们在阴凉处坐一会儿吧。"
+      "e": "I sit on the chair.",
+      "z": "我坐在这把椅子上。"
     },
     {
       "w": "grass",
@@ -1149,8 +1136,7 @@
       "i": "grɑːs",
       "c": "草坪",
       "t": "u6",
-      "e": "The grass was soft and springy.",
-      "z": "草柔软而有弹性。"
+      "e": "Don't walk on the grass."
     },
     {
       "w": "ant",

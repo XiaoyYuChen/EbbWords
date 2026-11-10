@@ -42,8 +42,8 @@
       "i": "",
       "c": "一楼（美）；二楼（英）",
       "t": "u1",
-      "e": "The shop is on the first floor.",
-      "z": "商店在第一层。"
+      "e": "It's on the first floor.",
+      "z": "它在一楼。"
     },
     {
       "w": "second floor",
@@ -51,8 +51,8 @@
       "i": "",
       "c": "二楼",
       "t": "u1",
-      "e": "The spare bedroom is on the second floor.",
-      "z": "闲置的卧室在2楼。"
+      "e": "It's on the second floor.",
+      "z": "它在二楼。"
     },
     {
       "w": "teacher's office",
@@ -69,8 +69,7 @@
       "i": "ˈlaɪbrərɪ",
       "c": "图书馆",
       "t": "u1",
-      "e": "The new library is close to completion.",
-      "z": "新图书馆快要竣工了。"
+      "e": "Where is the library?"
     },
     {
       "w": "playground",
@@ -78,8 +77,7 @@
       "i": "'pleɪgraʊnd",
       "c": "操场",
       "t": "u1",
-      "e": "The girls were skipping in the playground.",
-      "z": "姑娘们在操场上跳绳。"
+      "e": "I Let's go to the playground."
     },
     {
       "w": "computer room",
@@ -96,8 +94,8 @@
       "i": "",
       "c": "美术教室",
       "t": "u1",
-      "e": "In my school, there is an art room.",
-      "z": "在我学校里有一个美术教室。"
+      "e": "Is that the art room?",
+      "z": "那是美术教室吗?"
     },
     {
       "w": "music room",
@@ -105,8 +103,8 @@
       "i": "",
       "c": "音乐教室",
       "t": "u1",
-      "e": "The music room had been made to reflect and deepen sounds.",
-      "z": "音乐室被打造成可以产生回音并使声音变得低沉。"
+      "e": "Is that the music room?",
+      "z": "那是音乐教室吗?"
     },
     {
       "w": "next to",
@@ -132,8 +130,8 @@
       "i": "klɑːs",
       "c": "班级",
       "t": "u1",
-      "e": "We think he'll turn into a top-class player.",
-      "z": "我们认为他会成为一名一流的选手。"
+      "e": "Do you like English class?",
+      "z": "你喜欢英语课吗?"
     },
     {
       "w": "forty",
@@ -150,8 +148,7 @@
       "i": "weɪ",
       "c": "方向",
       "t": "u1",
-      "e": "Our way was lit by a full moon.",
-      "z": "一轮明月照亮了我们的路。"
+      "e": "This way, please."
     },
     {
       "w": "breakfast",
@@ -159,8 +156,8 @@
       "i": "'brekfəst",
       "c": "早餐",
       "t": "u2",
-      "e": "He ate a substantial breakfast.",
-      "z": "他吃了一顿丰盛的早餐。"
+      "e": "When do you eat breakfast?",
+      "z": "你什么时候吃早饭?"
     },
     {
       "w": "English class",
@@ -168,8 +165,8 @@
       "i": "",
       "c": "英语课",
       "t": "u2",
-      "e": "Shall we go to English class?",
-      "z": "我们要去上英语课吗？"
+      "e": "Do you like English class?",
+      "z": "你喜欢英语课吗?"
     },
     {
       "w": "lunch",
@@ -177,8 +174,8 @@
       "i": "lʌn(t)ʃ",
       "c": "午饭",
       "t": "u2",
-      "e": "We ended up staying for lunch.",
-      "z": "我们最终还是留了下来吃午饭。"
+      "e": "When do you take classes after lunch?",
+      "z": "午饭后你什么时候上课?"
     },
     {
       "w": "music class",
@@ -186,8 +183,8 @@
       "i": "",
       "c": "音乐课",
       "t": "u2",
-      "e": "I'm going to have a music class!",
-      "z": "我要上音乐课了！"
+      "e": "It's time for music class.",
+      "z": "该上音乐课了。"
     },
     {
       "w": "PE class",
@@ -195,8 +192,7 @@
       "i": "",
       "c": "体育课",
       "t": "u2",
-      "e": "When do you have a PE class?",
-      "z": "你何时有体育课？"
+      "e": "I have a PE class on this Tuesday."
     },
     {
       "w": "dinner",
@@ -204,8 +200,7 @@
       "i": "'dɪnə",
       "c": "正餐",
       "t": "u2",
-      "e": "Let's invite them to dinner tomorrow.",
-      "z": "我们明天请他们吃饭吧。"
+      "e": "When do you eat dinner?"
     },
     {
       "w": "get up",
@@ -213,8 +208,8 @@
       "i": "",
       "c": "起床",
       "t": "u2",
-      "e": "What time do you get up on weekdays?",
-      "z": "你在工作日什么时候起床？"
+      "e": "When do you get up?",
+      "z": "你什么时候起床?"
     },
     {
       "w": "go to school",
@@ -222,8 +217,8 @@
       "i": "",
       "c": "上学",
       "t": "u2",
-      "e": "You've got to go to school, whether you like it or not.",
-      "z": "不管你喜欢不喜欢，你得上学。"
+      "e": "Let's go to school!",
+      "z": "我们去上学吧!"
     },
     {
       "w": "go home",
@@ -249,8 +244,8 @@
       "i": "'əʊvə",
       "c": "结束",
       "t": "u2",
-      "e": "The water burbled over gravel.",
-      "z": "水汩汩流过卵石。"
+      "e": "The game is over.",
+      "z": "游戏结束了。"
     },
     {
       "w": "now",
@@ -258,8 +253,8 @@
       "i": "naʊ",
       "c": "现在",
       "t": "u2",
-      "e": "All our hopes now rest on you.",
-      "z": "现在所有的希望都寄托在你的身上。"
+      "e": "Their eyes are open now.",
+      "z": "他们的眼睛现在是睁着的。"
     },
     {
       "w": "o'clock",
@@ -285,8 +280,8 @@
       "i": "'θɜːtɪ",
       "c": "三十",
       "t": "u2",
-      "e": "He's a policeman. He's thirty-five years old. He's tall and cool.",
-      "z": "他是一名警察。他三十五岁。他又高又酷。"
+      "e": "I have thirty pears.",
+      "z": "我有三十个梨。"
     },
     {
       "w": "hurry up",
@@ -294,8 +289,8 @@
       "i": "'hʌrɪ ʌp",
       "c": "快点",
       "t": "u2",
-      "e": "Oh you're so slow; come on, hurry up!",
-      "z": "哎哟，你可真慢；加把劲，快点！"
+      "e": "Hurry up!",
+      "z": "快点! 你上学迟到了。"
     },
     {
       "w": "come on",
@@ -321,8 +316,8 @@
       "i": "kəʊld",
       "c": "冷的",
       "t": "u3",
-      "e": "It was bitterly cold.",
-      "z": "天气冷得刺骨。"
+      "e": "It's very cold outside.",
+      "z": "外面非常冷。"
     },
     {
       "w": "cool",
@@ -339,8 +334,8 @@
       "i": "wɔːm",
       "c": "温暖的",
       "t": "u3",
-      "e": "It's lovely and warm in here.",
-      "z": "这里温暖宜人。"
+      "e": "The sun is warm.",
+      "z": "太阳很温暖。"
     },
     {
       "w": "hot",
@@ -348,8 +343,8 @@
       "i": "hɒt",
       "c": "热的",
       "t": "u3",
-      "e": "Swimming on a hot day is sheer bliss.",
-      "z": "热天游泳是天大的乐事。"
+      "e": "Do you like this hot weather?",
+      "z": "你喜欢这种炎热的天气吗?"
     },
     {
       "w": "sunny",
@@ -357,8 +352,8 @@
       "i": "'sʌnɪ",
       "c": "阳光充足的",
       "t": "u3",
-      "e": "It's a brilliantly sunny morning.",
-      "z": "这是个阳光灿烂的早晨。"
+      "e": "Today is a sunny day.",
+      "z": "今天是阳光明媚的一天。"
     },
     {
       "w": "windy",
@@ -366,8 +361,8 @@
       "i": "'wɪndɪ",
       "c": "多风的",
       "t": "u3",
-      "e": "It was windy and Jake felt cold.",
-      "z": "风很大，杰克觉得很冷。"
+      "e": "It was a windy night.",
+      "z": "那是个有风的夜晚。"
     },
     {
       "w": "cloudy",
@@ -393,8 +388,8 @@
       "i": "'reɪnɪ",
       "c": "阴雨的",
       "t": "u3",
-      "e": "Oh, great! Today is a rainy day.",
-      "z": "哦，太棒了！今天是个雨天。"
+      "e": "Is it rainy today?",
+      "z": "今天是阴雨天吗?"
     },
     {
       "w": "outside",
@@ -402,8 +397,8 @@
       "i": "aʊt'saɪd; 'aʊtsaɪd",
       "c": "在户外",
       "t": "u3",
-      "e": "Train your muscles and bones outside, and train your gomoku inside.",
-      "z": "外练筋骨皮，内练五子棋。"
+      "e": "It's very cold outside.",
+      "z": "外面非常冷。"
     },
     {
       "w": "be careful",
@@ -420,8 +415,8 @@
       "i": "'weðə",
       "c": "天气",
       "t": "u3",
-      "e": "The weather was very kind to us.",
-      "z": "天气非常宜人。"
+      "e": "Do you like this hot weather?",
+      "z": "你喜欢这种炎热的天气吗?"
     },
     {
       "w": "New York",
@@ -456,8 +451,8 @@
       "i": "wɜːld",
       "c": "世界",
       "t": "u3",
-      "e": "I advance across the wide world, through all the truths of the world.",
-      "z": "我在广阔的天地里前进，穿越世界的真理。"
+      "e": "There are many countries in the world.",
+      "z": "世界上有许多国家。"
     },
     {
       "w": "London",
@@ -474,8 +469,8 @@
       "i": "'mɔskəʊ",
       "c": "莫斯科",
       "t": "u3",
-      "e": "They are filming in Moscow right now.",
-      "z": "目前他们正在莫斯科拍电影。"
+      "e": "What's the weather like in Moscow?",
+      "z": "莫斯科的天气怎么样?"
     },
     {
       "w": "Singapore",
@@ -492,8 +487,7 @@
       "i": "ˈsɪdnɪ",
       "c": "悉尼",
       "t": "u3",
-      "e": "Sydney is one of the world's must-see cities.",
-      "z": "悉尼是世界上的必游城市之一。"
+      "e": "Is it hot in Sydney?"
     },
     {
       "w": "fly",
@@ -501,8 +495,8 @@
       "i": "flaɪ",
       "c": "放（风筝）",
       "t": "u3",
-      "e": "She is licensed to fly solo.",
-      "z": "她已获准单飞。"
+      "e": "Let's fly a kite!",
+      "z": "我们放风筝吧!"
     },
     {
       "w": "love",
@@ -510,8 +504,7 @@
       "i": "lʌv",
       "c": "爱你的",
       "t": "u3",
-      "e": "Her heart overflowed with love.",
-      "z": "她的心里充满了爱。"
+      "e": "I love my mother."
     },
     {
       "w": "tomato",
@@ -519,8 +512,8 @@
       "i": "tə'mɑːtəʊ",
       "c": "西红柿",
       "t": "u4",
-      "e": "It's similar in size to a tomato.",
-      "z": "大小和西红柿差不多。"
+      "e": "I like eating tomatoes.",
+      "z": "我喜欢吃西红柿。"
     },
     {
       "w": "potato",
@@ -528,8 +521,7 @@
       "i": "pə'teɪtəʊ",
       "c": "马铃薯",
       "t": "u4",
-      "e": "The boiled potato was mealy.",
-      "z": "这个煮土豆干巴巴的。"
+      "e": "Let's cut up the potatoes."
     },
     {
       "w": "green beans",
@@ -537,8 +529,8 @@
       "i": "",
       "c": "豆角",
       "t": "u4",
-      "e": "Each of us chose from the many pots of tomato juice, green beans and jelly.",
-      "z": "我们每个人都从许多罐番茄汁、青豆和果冻中挑选。"
+      "e": "Are these green beans?",
+      "z": "这毕是豆角吗?"
     },
     {
       "w": "carrot",
@@ -555,8 +547,8 @@
       "i": "hɔːs",
       "c": "马",
       "t": "u4",
-      "e": "He galloped his horse home.",
-      "z": "他骑着马飞奔回家。"
+      "e": "A fast horse.",
+      "z": "速度快的马。"
     },
     {
       "w": "cow",
@@ -564,8 +556,8 @@
       "i": "kaʊ",
       "c": "牛",
       "t": "u4",
-      "e": "A cow stood on the tracks.",
-      "z": "一头奶牛站在铁轨上。"
+      "e": "Cows are very strong.",
+      "z": "奶牛很导。"
     },
     {
       "w": "sheep",
@@ -591,8 +583,8 @@
       "i": "ðiːz",
       "c": "这些",
       "t": "u4",
-      "e": "She has cleaved to these principles all her life.",
-      "z": "她一生坚守这些原则。"
+      "e": "Are these pears?",
+      "z": "这些是梨吗?"
     },
     {
       "w": "yum",
@@ -600,8 +592,7 @@
       "i": "jʌm",
       "c": "味道好",
       "t": "u4",
-      "e": "I had one tonight, and yum, it is delicious!",
-      "z": "今天晚上我就吃了一个，嗯，味道不错。"
+      "e": "Yum, the soup is so delicious."
     },
     {
       "w": "animal",
@@ -609,8 +600,7 @@
       "i": "'ænɪm(ə)l",
       "c": "动物",
       "t": "u4",
-      "e": "The dolphin is an intelligent animal.",
-      "z": "海豚是聪明的动物。"
+      "e": "Let's travel in the animal world."
     },
     {
       "w": "those",
@@ -618,8 +608,8 @@
       "i": "ðəʊz",
       "c": "那些",
       "t": "u4",
-      "e": "She treasures her memories of those joyous days.",
-      "z": "她珍惜那些快乐时光的记忆。"
+      "e": "Are those monkeys jumping?",
+      "z": "那些猴子正在跳吗?"
     },
     {
       "w": "garden",
@@ -627,8 +617,8 @@
       "i": "'gɑːd(ə)n",
       "c": "花园",
       "t": "u4",
-      "e": "The garden blazed with colour.",
-      "z": "花园里姹紫嫣红。"
+      "e": "This is a big garden.",
+      "z": "这是个大人花园。"
     },
     {
       "w": "farm",
@@ -636,8 +626,8 @@
       "i": "fɑːm",
       "c": "农场",
       "t": "u4",
-      "e": "It's a lovely old farm.",
-      "z": "那是个宜人的老农场。"
+      "e": "Let's go to the farm.",
+      "z": "我们去农场吧。"
     },
     {
       "w": "goat",
@@ -645,8 +635,8 @@
       "i": "gəʊt",
       "c": "山羊",
       "t": "u4",
-      "e": "I roped the goat to a post.",
-      "z": "我把山羊拴在一根柱子上。"
+      "e": "Look at that goat.",
+      "z": "看那只山手。"
     },
     {
       "w": "eat",
@@ -654,8 +644,8 @@
       "i": "iːt",
       "c": "吃",
       "t": "u4",
-      "e": "Let's eat our picnic by the lake.",
-      "z": "咱们到湖边去吃野餐吧。"
+      "e": "We'll eat mooncakes.",
+      "z": "我们会吃月饼。"
     },
     {
       "w": "clothes",
@@ -663,8 +653,8 @@
       "i": "kləʊ(ð)z",
       "c": "服装",
       "t": "u5",
-      "e": "She wears really funky clothes.",
-      "z": "她穿的衣服真是时髦又独特。"
+      "e": "Whose clothes are these?",
+      "z": "这些是谁的衣服?"
     },
     {
       "w": "pants",
@@ -672,8 +662,8 @@
       "i": "pæn(t)s",
       "c": "裤子",
       "t": "u5",
-      "e": "Don't tell me you've split another pair of pants!",
-      "z": "你不会又把一条裤子撑破了吧！"
+      "e": "My pants are blue.",
+      "z": "我的裤子是蓝色的。慑"
     },
     {
       "w": "hat",
@@ -681,8 +671,8 @@
       "i": "hæt",
       "c": "帽子",
       "t": "u5",
-      "e": "She looks a sight in that hat!",
-      "z": "她戴着那顶帽子，样子够滑稽的！"
+      "e": "Where is my hat?",
+      "z": "我的帽子在哪里?"
     },
     {
       "w": "dress",
@@ -690,8 +680,8 @@
       "i": "dres",
       "c": "连衣裙",
       "t": "u5",
-      "e": "Let me show you my new dress.",
-      "z": "给你看看我新买的连衣裙。"
+      "e": "Your dress is very beautiful.",
+      "z": "你的连衣裙很漂"
     },
     {
       "w": "skirt",
@@ -699,8 +689,8 @@
       "i": "skɜːt",
       "c": "女裙",
       "t": "u5",
-      "e": "The skirt has a side opening.",
-      "z": "这裙子是侧面开口的。"
+      "e": "Her skirt is yellow.",
+      "z": "她的裙子是黄色的。"
     },
     {
       "w": "coat",
@@ -708,8 +698,8 @@
       "i": "kəʊt",
       "c": "大衣",
       "t": "u5",
-      "e": "He bought a new coat for me.",
-      "z": "他给我买了一件新外套。"
+      "e": "Where is my yellow coat?",
+      "z": "我的黄色大衣在哪里?"
     },
     {
       "w": "sweater",
@@ -726,8 +716,8 @@
       "i": "sɒk",
       "c": "短袜",
       "t": "u5",
-      "e": "He groped around in the dark for his other sock.",
-      "z": "他在黑暗中到处瞎摸找另一只袜子。"
+      "e": "Is this your Sock?",
+      "z": "这是你的短袜吗?” ”他穿上毛衣。"
     },
     {
       "w": "shorts",
@@ -735,8 +725,8 @@
       "i": "ʃɔːts",
       "c": "短裤",
       "t": "u5",
-      "e": "My shorts were chafing my thighs.",
-      "z": "我的短裤蹭得我大腿疼。"
+      "e": "My shorts are red.",
+      "z": "我的短裤是红色的。"
     },
     {
       "w": "jacket",
@@ -753,8 +743,7 @@
       "i": "ʃɜːt",
       "c": "衬衫",
       "t": "u5",
-      "e": "He put on a gaily coloured shirt.",
-      "z": "他穿上了一件色彩亮丽的衬衫。"
+      "e": "Where is my blue shirt?"
     },
     {
       "w": "yours",
@@ -762,8 +751,8 @@
       "i": "jɔːz; jʊəz",
       "c": "你的",
       "t": "u5",
-      "e": "The job is yours for the asking.",
-      "z": "只要开口，这份工作就是你的了。"
+      "e": "These gifts are yours.",
+      "z": "这些礼物是你们的。"
     },
     {
       "w": "whose",
@@ -771,8 +760,8 @@
       "i": "huːz",
       "c": "谁的",
       "t": "u5",
-      "e": "He is a veteran parliamentarian whose views enjoy widespread respect.",
-      "z": "他是一位资深议员，其观点受到广泛尊重。"
+      "e": "Whose clothes are these?",
+      "z": "这些是谁的衣服?"
     },
     {
       "w": "mine",
@@ -780,8 +769,8 @@
       "i": "maɪn",
       "c": "我的",
       "t": "u5",
-      "e": "The new librarian is a friend of mine.",
-      "z": "这位新来的图书管理员是我的朋友。"
+      "e": "This pink dress is mine.",
+      "z": "这件粉色连衣裙是我的。"
     },
     {
       "w": "pack",
@@ -789,8 +778,7 @@
       "i": "pæk",
       "c": "收拾",
       "t": "u5",
-      "e": "All joiners will receive a welcome pack.",
-      "z": "每位入会者都会收到一个迎新包。"
+      "e": "Let's wait for him. He packs his schoolbag."
     },
     {
       "w": "wait",
@@ -798,8 +786,8 @@
       "i": "weɪt",
       "c": "等待",
       "t": "u5",
-      "e": "The children can't wait for Christmas to come.",
-      "z": "孩子们等圣诞节都等不及了。"
+      "e": "Let's wait for him. He packs his schoolbag.",
+      "z": "让我们等他吧。"
     },
     {
       "w": "glove",
@@ -807,8 +795,8 @@
       "i": "glʌv",
       "c": "手套",
       "t": "u5",
-      "e": "She bent down to pick up her glove.",
-      "z": "她俯身去捡手套。"
+      "e": "I'd like a pair of gloves.",
+      "z": "我想要一双手套。"
     },
     {
       "w": "scarf",
@@ -825,8 +813,8 @@
       "i": "ʌm'brelə",
       "c": "伞",
       "t": "u5",
-      "e": "Can I borrow your umbrella?",
-      "z": "借你的伞用一下行吗？"
+      "e": "Is this your umbrella?",
+      "z": "这是你的雨伞吗?"
     },
     {
       "w": "sunglasses",
@@ -843,8 +831,7 @@
       "i": "'prɪtɪ",
       "c": "美丽的",
       "t": "u6",
-      "e": "The results were pretty good.",
-      "z": "结果相当不错。"
+      "e": "My shoes are pretty."
     },
     {
       "w": "expensive",
@@ -861,8 +848,8 @@
       "i": "tʃiːp",
       "c": "便宜的",
       "t": "u6",
-      "e": "The meal was amazingly cheap.",
-      "z": "这餐饭便宜得出奇。"
+      "e": "He schoolbag are cheap and nice.",
+      "z": "他的书包又便宜又好。"
     },
     {
       "w": "nice",
@@ -870,8 +857,8 @@
       "i": "naɪs",
       "c": "好的",
       "t": "u6",
-      "e": "It was nice of them to invite us.",
-      "z": "他们真好，邀请了我们。"
+      "e": "She is very nice.",
+      "z": "她人很好。"
     },
     {
       "w": "try on",
@@ -879,8 +866,7 @@
       "i": "",
       "c": "试穿",
       "t": "u6",
-      "e": "Let the child try on as many as she likes.",
-      "z": "让这个孩子爱试穿多少就试多少吧。"
+      "e": "I try on these gloves?"
     },
     {
       "w": "size",
@@ -888,8 +874,8 @@
       "i": "saɪz",
       "c": "尺码",
       "t": "u6",
-      "e": "I made a full-size cardboard model.",
-      "z": "我做了一个和原物一样大小的硬纸板模型。"
+      "e": "This dress is just my size.",
+      "z": "这件裙子正好是我的尺码。"
     },
     {
       "w": "of course",
@@ -906,8 +892,8 @@
       "i": "tuː",
       "c": "太",
       "t": "u6",
-      "e": "It was too good an opportunity to miss.",
-      "z": "这个机会太好了，不容错过。"
+      "e": "The box is too heavy.",
+      "z": "这箱子太重了。"
     },
     {
       "w": "just",
@@ -915,8 +901,8 @@
       "i": "dʒʌst",
       "c": "正好",
       "t": "u6",
-      "e": "My wife has just had a baby boy.",
-      "z": "我妻子刚生了个男孩。"
+      "e": "This dress is just my size.",
+      "z": "这件裙子正好是我的尺码。"
     },
     {
       "w": "how much",
@@ -924,8 +910,8 @@
       "i": "haʊ mʌtʃ",
       "c": "多少钱",
       "t": "u6",
-      "e": "Happiness is not how much we own, but how we enjoy what we have.",
-      "z": "幸福不是我们拥有多少，而是我们如何享受我们拥有的东西。"
+      "e": "How much is it?",
+      "z": "它多少钱?"
     },
     {
       "w": "eighty",
@@ -960,8 +946,8 @@
       "i": "mɔː",
       "c": "更多的",
       "t": "u6",
-      "e": "His paintings became more lyrical.",
-      "z": "他的画变得更有诗意。"
+      "e": "I need more water.",
+      "z": "我需要更多的水。"
     },
     {
       "w": "us",
@@ -969,8 +955,8 @@
       "i": "əs; ʌs",
       "c": "我们",
       "t": "u6",
-      "e": "The building soared above us.",
-      "z": "在我们眼前，那座大楼巍然高耸。"
+      "e": "Come and join us.",
+      "z": "来加入我们吧"
     }
   ],
   "grade": 4,
