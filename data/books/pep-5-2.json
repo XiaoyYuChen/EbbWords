@@ -201,7 +201,7 @@
     {
       "w": "a.m.",
       "p": "adv",
-      "i": "",
+      "i": ".ei'em",
       "c": "上午",
       "t": "u1",
       "e": "The programme starts at 9 a.m.",
@@ -210,7 +210,7 @@
     {
       "w": "p.m.",
       "p": "adv",
-      "i": "",
+      "i": "ˌpiː ˈem",
       "c": "下午",
       "t": "u1",
       "e": "The accident happened at 3 p.m.",
@@ -813,7 +813,7 @@
     {
       "w": "Thanksgiving",
       "p": "n",
-      "i": "",
+      "i": "ˌθæŋksˈɡɪvɪŋ",
       "c": "感恩节",
       "t": "u3",
       "e": "We always eat turkey on Thanksgiving.",
@@ -885,7 +885,7 @@
     {
       "w": "RSVP",
       "p": "n",
-      "i": "",
+      "i": "ˌɑːr es viː ˈpiː",
       "c": "请赐复",
       "t": "u3",
       "e": "RSVP opened a session (2) with QFS.",
@@ -975,7 +975,7 @@
     {
       "w": "twenty-third",
       "p": "n",
-      "i": "",
+      "i": "ˌtwenti ˈθɜːd",
       "c": "第二十三",
       "t": "u4",
       "e": "He recited a verse of the twenty-third psalm.",

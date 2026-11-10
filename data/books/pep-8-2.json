@@ -399,7 +399,7 @@
     {
       "w": "sunburned",
       "p": "adj",
-      "i": "",
+      "i": "ˈsʌnbɜːnd",
       "c": "晒伤的",
       "t": "u1",
       "e": "Her shoulders were badly sunburned.",
@@ -471,7 +471,7 @@
     {
       "w": "kg",
       "p": "n",
-      "i": "",
+      "i": "ˌkeɪ ˈdʒiː",
       "c": "公斤，千克(kilogram)",
       "t": "u1",
       "e": "Each of them weighs 56 kg!",
@@ -903,7 +903,7 @@
     {
       "w": "Miss",
       "p": "n",
-      "i": "",
+      "i": "mɪs",
       "c": "小姐",
       "t": "u2",
       "e": "Miss Li has taught us English for 3 years.",
@@ -1891,7 +1891,7 @@
     {
       "w": "wind",
       "p": "n",
-      "i": "wɪnd; (for v.) waɪnd",
+      "i": "wɪnd; waɪnd",
       "c": "风",
       "t": "u5",
       "e": "They were chilled by the icy wind.",
@@ -2627,7 +2627,7 @@
     {
       "w": "desert",
       "p": "n",
-      "i": "(for v.) dɪ'zɜːt; (for n.) 'dezət",
+      "i": "ˈdezət; dɪˈzɜːt",
       "c": "沙漠",
       "t": "u7",
       "e": "She had missed the glorious blooms of the desert spring.",
@@ -2870,7 +2870,7 @@
     {
       "w": "cm",
       "p": "n",
-      "i": "",
+      "i": "ˌsiː ˈem",
       "c": "厘米(等于centimeter)",
       "t": "u7",
       "e": "His height had increased by 2.5 cm.",

@@ -222,7 +222,7 @@
     {
       "w": "OK",
       "p": "exclaim",
-      "i": "",
+      "i": "əʊˈkeɪ",
       "c": "好；可以",
       "t": "u1",
       "e": "OK, so I was wrong. I'm sorry.",
@@ -1923,7 +1923,7 @@
     {
       "w": "ping-pong",
       "p": "n & v",
-      "i": "",
+      "i": "ˈpɪŋ pɒŋ",
       "c": "乒乓球",
       "t": "u8",
       "e": "I would like to play ping-pong.",
@@ -2400,7 +2400,7 @@
     {
       "w": "burger",
       "p": "n",
-      "i": "",
+      "i": "'bəːgə",
       "c": "(hamburger)汉堡包",
       "t": "u9",
       "e": "You can have a burger, but you can't have fries as well.",
@@ -3336,7 +3336,7 @@
     {
       "w": "subject",
       "p": "n",
-      "i": "ˈsʌbdʒɪkt;(for adj.)ˈsʌbdʒɪkt;(for v.)səbˈdʒekt",
+      "i": "ˈsʌbdʒɪkt; səbˈdʒekt",
       "c": "学科；科目",
       "t": "u12",
       "e": "Biology is my favourite subject.",
@@ -3354,7 +3354,7 @@
     {
       "w": "P.E.",
       "p": "exclaim",
-      "i": "",
+      "i": "ˌpiː ˈiː",
       "c": "(physical education)体育",
       "t": "u12",
       "e": "My favorite subject is P.E.",
@@ -3516,7 +3516,7 @@
     {
       "w": "A.M.",
       "p": "adv",
-      "i": "",
+      "i": ".ei'em",
       "c": "(a.m.)上午",
       "t": "u12",
       "e": "Oct. 24, 8:15 A.M. I'm sitting in homeroom and I'm the first person here.",
@@ -3525,7 +3525,7 @@
     {
       "w": "P.M.",
       "p": "adv",
-      "i": "",
+      "i": "ˌpiː ˈem",
       "c": "(p.m.) 下午；午后",
       "t": "u12",
       "e": "The accident happened at 3 p.m.",
