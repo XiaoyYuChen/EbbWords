@@ -927,7 +927,24 @@ def load_from_raw():
     return ket_book, pet_book, pep_books
 
 
+def attach_illustrations(pep_books):
+    """Attach generated illustration paths (assets/illustrations/pep-G-T/unit/word.jpg) to matching words."""
+    illus = ROOT / "assets" / "illustrations"
+    n = 0
+    for b in pep_books:
+        base = illus / f"pep-{b['grade']}-{b['term']}"
+        if not base.is_dir():
+            continue
+        for w in b["words"]:
+            p = base / str(w.get("t") or "") / f"{w['w']}.jpg"
+            if p.is_file():
+                w["img"] = p.relative_to(ROOT).as_posix()
+                n += 1
+    return n
+
+
 def write_html(ket_book, pet_book, pep_books):
+    n_img = attach_illustrations(pep_books)
     pep_map = {f"{b['grade']}-{b['term']}": b for b in pep_books}
     payload = {
         "libs": {
@@ -942,7 +959,7 @@ def write_html(ket_book, pet_book, pep_books):
         json.dumps(payload, ensure_ascii=False, separators=(",", ":")),
     )
     OUT.write_text(html, encoding="utf-8")
-    print(f"ket={len(ket_book['words'])} pet={len(pet_book['words'])} pep_books={len(pep_books)}")
+    print(f"ket={len(ket_book['words'])} pet={len(pet_book['words'])} pep_books={len(pep_books)} illustrations={n_img}")
     print(f"html={OUT} bytes={OUT.stat().st_size}")
     for b in pep_books:
         print(f"  {b['name']:24} {len(b['words']):4} units={len(b['groups'])}")
