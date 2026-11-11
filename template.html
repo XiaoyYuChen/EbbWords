@@ -129,6 +129,21 @@
       .quiz-opt { font-size: 14px; padding: 11px 12px; }
       .plan-row .pm { font-size: 11px; }
     }
+    @media (max-width: 900px) {
+      .dock-actions { flex-wrap: nowrap; gap: 8px; }
+      .dock-actions .sel-info { flex: 0 1 auto; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+      .dock-actions .btns { flex: 1 1 auto; min-width: 0; flex-wrap: nowrap; justify-content: flex-end; gap: 6px; }
+      .dock-actions .btns .btn {
+        flex: 1 1 0; min-width: 0; padding: 0 6px; font-size: 12px; height: 36px;
+        white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+      }
+    }
+    @media (max-width: 560px) {
+      .dock-actions .btns .btn[data-short] { font-size: 0; padding: 0 4px; }
+      .dock-actions .btns .btn[data-short]::after { content: attr(data-short); font-size: 11.5px; }
+      .single-nav { gap: 6px; }
+      .single-nav .btn { padding: 0 8px; font-size: 12px; }
+    }
     .chip {
       flex: 0 0 auto; border: 1px solid var(--line); background: var(--paper);
       border-radius: 999px; padding: 7px 12px; font-size: 13px; cursor: pointer;
@@ -333,6 +348,23 @@
       #printImg { position: absolute; left: 0; top: 0; width: 100%; }
       @page { size: A4 landscape; margin: 8mm; }
     }
+    .passagebar { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 12px; align-items: center; }
+    .passage-view { padding: 8px 0 140px; }
+    .passage-list { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 12px; }
+    .passage-card { padding: 16px; border: 1px solid #e2e8f0; border-radius: 8px; cursor: pointer; background: #fff; transition: box-shadow .15s, border-color .15s; }
+    .passage-card:hover { border-color: var(--accent-2); box-shadow: 0 2px 8px rgba(0,0,0,.08); }
+    .passage-card .pnum { color: #718096; font-size: 12px; }
+    .passage-card .ptitle { font-weight: 600; margin-top: 4px; font-size: 15px; }
+    .passage-card .pwords { color: #a0aec0; font-size: 12px; margin-top: 8px; }
+    .passage-body { font-size: 18px; line-height: 1.9; padding: 16px 20px; background: #f7fafc; border-radius: 8px; }
+    .passage-body p { margin: 0 0 6px; }
+    .passage-body .pw { cursor: pointer; border-bottom: 1px dashed #cbd5e0; }
+    .passage-body .pw:hover { color: var(--accent-2); border-color: var(--accent-2); }
+    .passage-words { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 8px; }
+    .passage-word-chip { padding: 6px 12px; border: 1px solid #e2e8f0; border-radius: 16px; cursor: pointer; background: #fff; font-size: 14px; }
+    .passage-word-chip:hover { border-color: var(--accent-2); color: var(--accent-2); }
+    .passage-word-chip.unknown { border-style: dashed; color: #c05621; }
+    .wmodal-img { margin-top: 0; }
   </style>
 </head>
 <body>
@@ -344,6 +376,12 @@
           <a class="repo-link" href="https://github.com/XiaoyYuChen/EbbWords" target="_blank" rel="noopener noreferrer">开源地址 · GitHub</a>
         </div>
         <div class="stats" id="stats"></div>
+      </div>
+      <div class="passagebar" id="passagebar">
+        <div class="dims" id="viewToggle">
+          <button type="button" data-view="words" class="on" id="btnWords">词库</button>
+          <button type="button" data-view="passages" id="btnPassages">短文</button>
+        </div>
       </div>
       <div class="libbar" id="libbar"></div>
       <div class="pepbar" id="pepbar" hidden></div>
@@ -380,6 +418,19 @@
   <main class="wrap">
     <div class="grid" id="grid"></div>
     <div class="empty" id="empty" hidden>没有匹配的单词</div>
+    <div class="passage-view" id="passageView" hidden>
+      <div class="passage-list-wrap" id="passageListWrap">
+        <h2 style="margin:8px 0 12px">短文列表</h2>
+        <div class="passage-list" id="passageList"></div>
+      </div>
+      <div class="passage-detail-wrap" id="passageDetailWrap" hidden>
+        <button class="btn ghost sm" id="btnPassageBack">← 返回列表</button>
+        <h2 id="passageTitle" style="margin:8px 0 12px"></h2>
+        <div class="passage-body" id="passageBody"></div>
+        <div class="wsec" style="margin-top:24px">单词列表</div>
+        <div class="passage-words" id="passageWords"></div>
+      </div>
+    </div>
   </main>
 
   <div class="dock">
@@ -401,12 +452,12 @@
       <div class="dock-actions">
         <div class="sel-info">已选 <b id="selCount">0</b> <span id="selHint" style="color:#718096;font-size:12px"></span><span id="selNames" style="color:#718096;font-size:12px"></span></div>
         <div class="btns">
-          <button class="btn primary" id="btnAddLib" disabled hidden>加入我的词库</button>
-          <button class="btn ghost" id="btnMyMaster" disabled hidden>移入已掌握</button>
-          <button class="btn ghost" id="btnMyRemove" disabled hidden>移出词库</button>
+          <button class="btn primary" id="btnAddLib" disabled hidden data-short="加词库">加入我的词库</button>
+          <button class="btn ghost" id="btnMyMaster" disabled hidden data-short="已掌握">移入已掌握</button>
+          <button class="btn ghost" id="btnMyRemove" disabled hidden data-short="移出">移出词库</button>
           <button class="btn ghost" id="btnClear">清空</button>
-          <button class="btn ghost" id="btnBlank">空白模板</button>
-          <button class="btn primary" id="btnSheet" disabled>生成默写纸</button>
+          <button class="btn ghost" id="btnBlank" data-short="空模板">空白模板</button>
+          <button class="btn primary" id="btnSheet" disabled data-short="默写纸">生成默写纸</button>
         </div>
       </div>
     </div>
@@ -427,11 +478,14 @@
 
   <div class="modal" id="wmodal">
     <div class="panel wpanel">
-      <div class="wsec">拼读字母组</div>
+      <div class="single-img wmodal-img" id="wImgWrap" hidden><img id="wImg" alt=""></div>
+      <div class="wsec">完整单词</div>
       <div class="pword-line">
-        <span class="pword" id="wTitle"></span><button class="sent-play word-play" id="wPlay" title="播放发音"><svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20"><path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3a4.5 4.5 0 0 0-2.5-4v8a4.5 4.5 0 0 0 2.5-4zM14 3.2v2.1a7.5 7.5 0 0 1 0 13.4v2.1a9.5 9.5 0 0 0 0-17.6z"/></svg></button>
+        <span class="pword" id="wFull"></span><button class="sent-play word-play" id="wPlay" title="播放发音"><svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20"><path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3a4.5 4.5 0 0 0-2.5-4v8a4.5 4.5 0 0 0 2.5-4zM14 3.2v2.1a7.5 7.5 0 0 1 0 13.4v2.1a9.5 9.5 0 0 0 0-17.6z"/></svg></button>
       </div>
       <div class="wsyl" id="wSyl"></div>
+      <div class="wsec">自然拼读</div>
+      <div class="pword-line"><span class="pword" id="wTitle"></span></div>
       <div class="wmeta" id="wMeta"></div>
       <div class="wcn" id="wCn"></div>
       <div class="wsec">例句</div>
@@ -441,6 +495,8 @@
       <div class="wsent-cn" id="wSentCn"></div>
       <div class="wbtns">
         <button class="btn ghost" id="wClose">关闭</button>
+        <button class="btn ghost" id="wAddMyLib">加入我的词库</button>
+        <button class="btn primary" id="wAddSheet">加入默写纸</button>
       </div>
     </div>
   </div>
@@ -471,7 +527,7 @@
     const EBB = window.EBB;
     const PRINT_MAX = 10;
     const DAYS = [30, 15, 7, 4, 2, 1];
-    const LS = "ebbwords.v1";
+    const LS = "ebbwords.v2";
     const MYLIB_LS = "ebbwords.mylib.v1";
     const MY_PICK_MAX = 300;
     const DIMS = ["topic", "pos", "letter", "phonics", "morph"];
@@ -667,11 +723,11 @@
     const phonicsMap = Object.fromEntries(PHONICS.map((p) => [p.id, p]));
     phonicsMap[PHONICS_OTHER.id] = PHONICS_OTHER;
     const state = {
-      lib: "ket",
+      lib: "pep",
       pepGrade: 3,
       pepTerm: 1,
       dim: "topic",
-      cat: "all",
+      cat: "u1",
       q: "",
       selected: new Map(),
       playingId: null,
@@ -679,7 +735,7 @@
       pickN: 10,
       seqOffset: 0,
       myStatus: "unmastered",
-      browseMode: "list",
+      browseMode: "card",
       planDaily: 5,
       browseIdx: 0
     };
@@ -1347,25 +1403,41 @@
     };
     const SENT = {
       n: [["This is {a} {w}.", "这是{c}。"], ["I like the {w}.", "我喜欢这个{c}。"]],
+      npl: [["I like these {w}.", "我喜欢这些{c}。"], ["We have some {w}.", "我们有一些{c}。"]],
       v: [["Let's {w} together.", "让我们一起{c}。"], ["I {w} every day.", "我每天都{c}。"]],
       adj: [["It is very {w}.", "它非常{c}。"], ["This one is {w}.", "这个很{c}。"]],
       adverb: [["She sings {w}.", "她唱得很{c}。"], ["He runs {w}.", "他跑得很{c}。"]],
       num: [["I have {w} books.", "我有{c}本书。"]],
       exclaim: [["Tom said, \"{W}!\"", "汤姆说：“{c}！”"]],
-      func: [["We often use \"{w}\".", "“{w}”的意思是{c}。"]]
+      func: [["The word \"{w}\" means {c}.", "单词“{w}”的意思是{c}。"]]
     };
+    function posFromCn(c) {
+      const m = String(c || "").match(/^\s*(phr\s*v|n\s*pl|art|adj|adv|prep|pron|det|conj|num|exclaim|aux|n|v)\b/i);
+      return m ? m[1].toLowerCase().replace(/\s+/g, " ") : "";
+    }
+    function cnClean(c) {
+      return String(c || "")
+        .replace(/^\s*(?:phr\s*v|n\s*pl|art|adj|adv|prep|pron|det|conj|num|exclaim|aux|n|v)\b\.?\s*/i, "")
+        .replace(/（[^）]*）$/g, "")
+        .trim();
+    }
     function cnFirst(c) {
       return String(c || "").split(/[，,；;]/)[0].replace(/^[（(]|[）)]$/g, "").trim();
     }
     function makeSentence(w) {
       const word = String((w && w.w) || "").trim();
       const low = word.toLowerCase();
-      const c = cnFirst(w && w.c);
-      const kind = posKind(w && w.p);
+      let kind = posKind(w && w.p);
+      if (kind === "x") kind = posKind(posFromCn(w && w.c)); // 有道释义自带 "n./v./adj." 前缀
+      const c = cnClean(cnFirst(w && w.c));
+      const plural = kind === "n" && /复数/.test(String((w && w.c) || "")) && /[^s]s$/.test(low);
       let pool = SENT.func;
       if (kind === "n") {
-        const tid = String((w && w.t) || "").split(":").pop();
-        pool = SENT_TOPIC[tid] || SENT.n;
+        if (plural) pool = SENT.npl;
+        else {
+          const tid = String((w && w.t) || "").split(":").pop();
+          pool = SENT_TOPIC[tid] || SENT.n;
+        }
       } else if (kind === "v") pool = SENT.v;
       else if (kind === "adj") pool = SENT.adj;
       else if (kind === "adv" && /ly$/.test(low)) pool = SENT.adverb;
@@ -1375,10 +1447,16 @@
       for (const ch of low) hash = (hash * 31 + ch.charCodeAt(0)) >>> 0;
       const [enTpl, cnTpl] = pool[hash % pool.length];
       const article = /^[aeiou]/.test(low) ? "an" : "a";
-      const aShown = /\s/.test(low) ? "" : article + " ";
+      const aShown = /\s/.test(low) || plural ? "" : article + " ";
       const en = enTpl.replace("{a} ", aShown).replace("{W}", word).replace("{w}", word);
       const cn = c ? cnTpl.split("{c}").join(c) : "";
       return [en, cn];
+    }
+    // 无可用释义的怪异 token 不合成残句
+    function makeSentenceSafe(w) {
+      const c = cnClean(cnFirst(w && w.c));
+      if (!c) return ["", ""];
+      return makeSentence(w);
     }
     let wmodalWord = null;
     let wmodalSentence = "";
@@ -1388,7 +1466,7 @@
         en = w.e;
         cn = w.z || "";
       } else {
-        [en, cn] = makeSentence(w);
+        [en, cn] = makeSentenceSafe(w);
       }
       const escaped = escapeHtml(en);
       const wEsc = escapeHtml(String(w.w || ""));
@@ -1406,6 +1484,11 @@
       wmodalWord = w;
       const d = wordDetail(w);
       wmodalSentence = d.sentText;
+      const imgSrc = w && w.img ? encodeURI(w.img) : "";
+      $("wImg").src = imgSrc;
+      $("wImg").alt = String((w && w.w) || "");
+      $("wImgWrap").hidden = !imgSrc;
+      $("wFull").textContent = String((w && w.w) || "");
       $("wTitle").innerHTML = d.title;
       $("wSyl").innerHTML = d.sylHtml;
       $("wSyl").style.display = d.sylHtml ? "block" : "none";
@@ -1619,7 +1702,7 @@
       });
     }
     function syncDockActions() {
-      const isMy = state.lib === "my";
+      const isMy = state.lib === "my" && view === "words";
       const has = state.selected.size > 0;
       const add = $("btnAddLib");
       const ms = $("btnMyMaster");
@@ -1797,6 +1880,7 @@
       const masterBtn = state.lib === "my" && st !== "mastered"
         ? `<button class="btn ghost" data-single-master="1">标记已掌握</button>`
         : "";
+      const pickBtn = `<button class="btn ghost" data-single-pick="1">${isSelected(w) ? "取消选中" : "选中"}</button>`;
       const fsBtn = `<button class="btn ghost sm" data-single-fs="1">${cardFsActive() ? "退出全屏" : "全屏"}</button>`;
       const imgHtml = w.img
         ? `<div class="single-img"><img src="${escapeHtml(encodeURI(w.img))}" alt="${escapeHtml(w.w)}"></div>`
@@ -1819,6 +1903,7 @@
         <div class="wsent-cn">${escapeHtml(d.sentCn)}</div>
         <div class="single-nav">
           <button class="btn ghost" data-single-nav="-1">← 上一个</button>
+          ${pickBtn}
           ${masterBtn}
           <button class="btn ghost" data-single-nav="1">下一个 →</button>
         </div>
@@ -2318,6 +2403,7 @@
       }
     }
 
+    let applyBookInit = false;
     function applyBook() {
       if (state.lib === "pep") {
         if (!EBB.pep[pepKey()]) {
@@ -2326,7 +2412,9 @@
         }
       }
       syncBook();
-      state.cat = "all";
+      const firstUnit = !applyBookInit && state.lib === "pep" && DATA.groups.length ? DATA.groups[0].id : null;
+      applyBookInit = true;
+      state.cat = firstUnit || "all";
       state.playingId = null;
       state.browseIdx = 0;
       resetSeq();
@@ -2511,6 +2599,11 @@
       if (e.target.closest("[data-single-sent]")) {
         const w = currentBrowseWord();
         if (w) playSentence(wordDetail(w).sentText);
+        return;
+      }
+      if (e.target.closest("[data-single-pick]")) {
+        const w = currentBrowseWord();
+        if (w) toggleSelect(w.id);
         return;
       }
       if (e.target.closest("[data-single-master]")) {
@@ -2899,6 +2992,199 @@
       w.document.close();
       w.onload = () => { w.focus(); w.print(); };
     };
+
+    // ===== Passage module =====
+    let view = "words"; // "words" | "passages"
+    let passageListClickBound = false;
+    let passageBodyClickBound = false;
+    let passageWordsClickBound = false;
+
+    let _anyLibIndex = null;
+    function findWordAnyLib(word) {
+      const key = String(word || "").toLowerCase().trim();
+      if (!key) return null;
+      if (!_anyLibIndex) {
+        _anyLibIndex = {};
+        const push = (w) => {
+          const k = String(w.w).toLowerCase();
+          const cur = _anyLibIndex[k];
+          if (!cur) { _anyLibIndex[k] = w; return; }
+          // Prefer richer entries so PEP illustrations/examples are not shadowed by KET/PET
+          if (!cur.img && w.img) { _anyLibIndex[k] = w; return; }
+          if (!cur.img && !w.img && !cur.e && w.e) _anyLibIndex[k] = w;
+        };
+        for (const libId of ["ket", "pet"]) {
+          const lib = EBB.libs[libId];
+          if (lib && lib.words) lib.words.forEach(push);
+        }
+        const pep = EBB.pep || {};
+        for (const k in pep) {
+          const b = pep[k];
+          if (b && b.words) b.words.forEach(push);
+        }
+      }
+      return _anyLibIndex[key] || null;
+    }
+
+    function renderPassageList() {
+      const items = (EBB.passages && EBB.passages.items) || [];
+      if (!items.length) {
+        $("passageList").innerHTML = "<p style='color:#718096'>暂无短文</p>";
+        return;
+      }
+      $("passageList").innerHTML = items.map((p) => {
+        const total = p.words.length;
+        const known = p.words.filter((w) => findWordAnyLib(w)).length;
+        return `<div class="passage-card" data-pid="${p.id}">
+          <div class="pnum">No.${String(p.id).padStart(2, "0")}</div>
+          <div class="ptitle">${escapeHtml(p.title)}</div>
+          <div class="pwords">${total} 词 · ${total - known} 生词</div>
+        </div>`;
+      }).join("");
+    }
+
+    // 先分词再逐段转义，避免转义产物（&quot; 里的 quot）被再次识别成单词
+    function renderPassageLine(line) {
+      const re = /\b[A-Za-z]+(?:'[a-z]+)?\b/g;
+      let out = "";
+      let last = 0;
+      let m;
+      while ((m = re.exec(line)) !== null) {
+        out += escapeHtml(line.slice(last, m.index));
+        out += `<span class="pw" data-w="${escapeHtml(m[0].toLowerCase())}">${escapeHtml(m[0])}</span>`;
+        last = m.index + m[0].length;
+      }
+      out += escapeHtml(line.slice(last));
+      return out;
+    }
+
+    function openPassage(pid) {
+      const items = EBB.passages.items || [];
+      const p = items.find((x) => x.id === pid);
+      if (!p) return;
+      $("passageTitle").textContent = `No.${String(p.id).padStart(2, "0")} ${p.title}`;
+      $("passageBody").innerHTML = p.lines.map(
+        (line) => `<p>${renderPassageLine(line)}</p>`
+      ).join("");
+      const map = (EBB.passages && EBB.passages.wordMap) || {};
+      $("passageWords").innerHTML = p.words.map((w) => {
+        const known = !!findWordAnyLib(w);
+        return `<span class="passage-word-chip${known ? "" : " unknown"}" data-w="${escapeHtml(w)}">${escapeHtml(w)}</span>`;
+      }).join("");
+      $("passageListWrap").hidden = true;
+      $("passageDetailWrap").hidden = false;
+    }
+
+    function openPassageWord(word) {
+      const key = String(word || "").toLowerCase().trim();
+      if (!key) return;
+      const lib = findWordAnyLib(key);
+      const map = (EBB.passages && EBB.passages.wordMap) || {};
+      const cached = map[key];
+      let wobj;
+      if (lib) {
+        wobj = lib;
+      } else if (cached) {
+        wobj = {
+          w: cached.w || word,
+          p: cached.p || "",
+          i: cached.i || "",
+          c: cached.c || "",
+          e: cached.e || "",
+          z: cached.z || "",
+        };
+      } else {
+        wobj = { w: word, p: "", i: "", c: "（未收录）" };
+      }
+      openWordModal(wobj);
+    }
+
+    function switchView(v) {
+      view = v;
+      const isPassage = v === "passages";
+      $("passageView").hidden = !isPassage;
+      $("libbar").hidden = isPassage;
+      $("pepbar").hidden = isPassage || state.lib !== "pep";
+      $("mybar").hidden = isPassage || state.lib !== "my";
+      const chipsWrap = $("chipsWrap");
+      if (chipsWrap) chipsWrap.hidden = isPassage;
+      // 短文视图保留底部工具栏（已选单词 / 加入我的词库 / 清空 / 生成默写纸），仅隐藏顺序随机选区
+      const dock = document.querySelector(".dock");
+      if (dock) dock.style.display = "";
+      const pickRow = document.querySelector(".dock .pick-row");
+      if (pickRow) pickRow.style.display = isPassage ? "none" : "";
+      const toolbar = document.querySelector(".toolbar");
+      if (toolbar) toolbar.style.display = isPassage ? "none" : "";
+      const hint = document.querySelector("header.app .hint");
+      if (hint) hint.style.display = isPassage ? "none" : "";
+      const stats = $("stats");
+      if (stats) stats.style.display = isPassage ? "none" : "";
+      $("grid").hidden = isPassage;
+      $("empty").hidden = isPassage;
+      $("btnWords").classList.toggle("on", !isPassage);
+      $("btnPassages").classList.toggle("on", isPassage);
+      if (isPassage) {
+        $("passageListWrap").hidden = false;
+        $("passageDetailWrap").hidden = true;
+        renderPassageList();
+      }
+      updateSelBar();
+    }
+
+    $("btnPassages").addEventListener("click", () => switchView("passages"));
+    $("btnWords").addEventListener("click", () => switchView("words"));
+    $("btnPassageBack").addEventListener("click", () => {
+      $("passageListWrap").hidden = false;
+      $("passageDetailWrap").hidden = true;
+    });
+    if (!passageListClickBound) {
+      $("passageList").addEventListener("click", (e) => {
+        const card = e.target.closest("[data-pid]");
+        if (!card) return;
+        openPassage(Number(card.dataset.pid));
+      });
+      passageListClickBound = true;
+    }
+    if (!passageBodyClickBound) {
+      $("passageBody").addEventListener("click", (e) => {
+        const sp = e.target.closest(".pw");
+        if (!sp) return;
+        openPassageWord(sp.dataset.w);
+      });
+      passageBodyClickBound = true;
+    }
+    if (!passageWordsClickBound) {
+      $("passageWords").addEventListener("click", (e) => {
+        const chip = e.target.closest("[data-w]");
+        if (!chip) return;
+        openPassageWord(chip.dataset.w);
+      });
+      passageWordsClickBound = true;
+    }
+    $("wAddMyLib").addEventListener("click", () => {
+      if (!wmodalWord) return;
+      const r = addToMyLib([wmodalWord], "unmastered");
+      if (r.added) toast(`已加入我的词库：${wmodalWord.w}`);
+      else if (r.updated) toast(`「${wmodalWord.w}」已在词库中`);
+      else toast("加入失败");
+      refreshMyViews();
+    });
+    $("wAddSheet").addEventListener("click", () => {
+      if (!wmodalWord) return;
+      const key = selKey(wmodalWord);
+      if (!key) return;
+      if (state.selected.has(key)) {
+        toast("已在默写纸中");
+        return;
+      }
+      if (state.selected.size >= MY_PICK_MAX) {
+        toast(`最多选择 ${MY_PICK_MAX} 个单词`);
+        return;
+      }
+      state.selected.set(key, wmodalWord);
+      updateSelBar();
+      toast("已加入默写纸");
+    });
 
     loadMyLib();
     loadPref();

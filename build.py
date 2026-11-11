@@ -12,6 +12,23 @@ TPL = ROOT / "template.html"
 OUT = ROOT / "index.html"
 RAW = ROOT / "data" / "raw"
 BOOKS = ROOT / "data" / "books"
+PASSAGES = ROOT / "data" / "passages"
+PASSAGE_WORDS_JSON = ROOT / "data" / "passage_words.json"
+
+# Stopwords filtered from passage word lists (function words, common verbs, pronouns)
+PASSAGE_STOPWORDS = {
+    "a", "an", "the", "is", "are", "was", "were", "and", "or", "but", "to", "of",
+    "in", "on", "at", "for", "with", "by", "from", "it", "he", "she", "they",
+    "we", "i", "you", "my", "your", "his", "her", "their", "our", "this", "that",
+    "these", "those", "me", "him", "us", "them", "as", "so", "do", "does", "did",
+    "be", "been", "being", "have", "has", "had", "will", "would", "can", "could",
+    "should", "may", "might", "must", "not", "no", "yes", "very", "just", "too",
+    "then", "than", "if", "when", "where", "why", "how", "what", "which", "who",
+    "whom", "while", "again", "here", "there", "up", "down", "out", "over",
+    "under", "after", "before", "now",
+}
+PASSAGE_WORD_RE = re.compile(r"[A-Za-z]+(?:'[a-z]+)?")
+PASSAGE_NUM_RE = re.compile(r"^(\d+)\s*\.?\s*")
 
 POS_TOKEN = r"(?:phr\s*v|n\s*pl|art|adj|adv|prep|pron|det|conj|num|exclaim|aux|n|v)"
 POS_INNER = rf"{POS_TOKEN}(?:\s*(?:&|and|,)\s*{POS_TOKEN})*"
@@ -943,15 +960,239 @@ def attach_illustrations(pep_books):
     return n
 
 
+def load_passages():
+    """Load short passages from data/passages/*.txt (project-owned copies).
+
+    File name format: "{NN}.{Title}.txt".
+    Returns a list of {id, title, lines:[...], words:[lowercase token,...]} sorted by numeric prefix.
+    The txt files are copied once from the external Audios directory; rebuild only reads local files.
+    """
+    if not PASSAGES.is_dir():
+        print(f"[passages] WARNING: passages dir not found: {PASSAGES}")
+        return []
+    items = []
+    for txt in sorted(PASSAGES.glob("*.txt")):
+        stem = txt.stem  # "NN.Title"
+        m = PASSAGE_NUM_RE.match(stem)
+        pid = int(m.group(1)) if m else len(items) + 1
+        title = stem.split(".", 1)[1] if "." in stem else stem
+        text = txt.read_text(encoding="utf-8", errors="ignore")
+        if not text.strip():
+            print(f"[passages] No.{pid} txt empty, skipped: {txt.name}")
+            continue
+        lines = [ln.strip() for ln in text.splitlines() if ln.strip()]
+        tokens = []
+        seen = set()
+        for ln in lines:
+            for tok in PASSAGE_WORD_RE.findall(ln):
+                low = tok.lower()
+                if low in PASSAGE_STOPWORDS or low in seen:
+                    continue
+                seen.add(low)
+                tokens.append(low)
+        items.append({"id": pid, "title": title, "lines": lines, "words": tokens})
+    items.sort(key=lambda x: x["id"])
+    return items
+
+
+def _fetch_youdao(word):
+    """Try Youdao JSON API; return (ipa, cn, pos, sent_en, sent_cn) or Nones on failure.
+
+    Youdao jsonapi structure:
+      simple.word[0].usphone -> IPA string
+      ec.word[0].trs[0].tr[0].l.i -> list of Chinese sense strings
+      ec.word[0].trs[0].pos -> part of speech
+      blng_sents_part.sentence-pair -> bilingual example sentences:
+        sentence / sentence-translation
+    """
+    try:
+        import urllib.request
+        import urllib.parse
+        url = "https://dict.youdao.com/jsonapi?q=" + urllib.parse.quote(word) + "&le=eng"
+        req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
+        with urllib.request.urlopen(req, timeout=5) as resp:
+            data = json.loads(resp.read().decode("utf-8", errors="ignore"))
+    except Exception:
+        return None, None, None, None, None
+    if not isinstance(data, dict):
+        return None, None, None, None, None
+
+    ipa = ""
+    simple = data.get("simple") or {}
+    simple_words = simple.get("word") if isinstance(simple, dict) else None
+    if isinstance(simple_words, list) and simple_words:
+        s0 = simple_words[0]
+        if isinstance(s0, dict):
+            ipa = (s0.get("usphone") or s0.get("ukphone") or "").strip()
+
+    cn = ""
+    pos = ""
+    ec = data.get("ec") or {}
+    ec_words = ec.get("word") if isinstance(ec, dict) else None
+    if isinstance(ec_words, list) and ec_words:
+        w0 = ec_words[0]
+        if isinstance(w0, dict):
+            if not ipa:
+                ph = (w0.get("phonetic") or "").strip()
+                if ph.startswith("/") and ph.endswith("/"):
+                    ph = ph[1:-1].strip()
+                ipa = ph
+            trs = w0.get("trs") or []
+            if trs and isinstance(trs[0], dict):
+                pos = trs[0].get("pos") or ""
+                tr_val = trs[0].get("tr") or []
+                if tr_val and isinstance(tr_val[0], dict):
+                    l_val = tr_val[0].get("l") or {}
+                    if isinstance(l_val, dict):
+                        i_val = l_val.get("i")
+                        if isinstance(i_val, list):
+                            cn = "; ".join(str(x) for x in i_val if x)
+                        elif isinstance(i_val, str):
+                            cn = i_val
+                    elif isinstance(l_val, str):
+                        cn = l_val
+
+    sent_en = ""
+    sent_cn = ""
+    blng = data.get("blng_sents_part") or {}
+    pairs = blng.get("sentence-pair") if isinstance(blng, dict) else None
+    if isinstance(pairs, list):
+        low = word.lower()
+        for pr in pairs:
+            if not isinstance(pr, dict):
+                continue
+            s = (pr.get("sentence") or "").strip()
+            st = (pr.get("sentence-translation") or "").strip()
+            if not s or not st or len(s) > 120:
+                continue
+            if low not in s.lower():
+                continue
+            sent_en = s
+            sent_cn = st
+            break
+    return ipa or None, cn or None, pos or None, sent_en or None, sent_cn or None
+
+
+def _fetch_dictionaryapi_dev(word):
+    """Fallback: dictionaryapi.dev (no key, English definitions). Returns (ipa, en_def, pos)."""
+    try:
+        import urllib.request
+        url = "https://api.dictionaryapi.dev/api/v2/entries/en/" + urllib.parse.quote(word)
+        req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
+        with urllib.request.urlopen(req, timeout=5) as resp:
+            data = json.loads(resp.read().decode("utf-8", errors="ignore"))
+    except Exception:
+        return "", "", ""
+    if not isinstance(data, list) or not data:
+        return "", "", ""
+    entry = data[0]
+    ipa = ""
+    for ph in entry.get("phonetics") or []:
+        t = ph.get("text") or ""
+        if t:
+            ipa = t.strip("/")
+            break
+    meanings = entry.get("meanings") or []
+    pos = meanings[0].get("partOfSpeech") if meanings else ""
+    en_def = ""
+    if meanings:
+        defs = meanings[0].get("definitions") or []
+        if defs:
+            en_def = defs[0].get("definition") or ""
+    return ipa, en_def, pos
+
+
+def fetch_unknown_passage_words(passage_word_set, known_word_set):
+    """For each word in (passage_word_set - known_word_set) not in cache, fetch phonetic+translation.
+
+    Cached at data/passage_words.json as {word: {w, i, c, p}}.
+    Returns full map {lowercase_word: {w, i, c, p}} including both cached and freshly fetched.
+    """
+    cache = {}
+    if PASSAGE_WORDS_JSON.is_file():
+        try:
+            cache = json.loads(PASSAGE_WORDS_JSON.read_text(encoding="utf-8"))
+        except Exception:
+            cache = {}
+    unknown = sorted(w for w in passage_word_set if w not in known_word_set)
+    cached = sum(1 for w in unknown if w in cache and cache[w].get("e"))
+    # 缺例句的缓存词条也重新抓取（老缓存只有 i/c/p）；_tried 标记已尝试但无例句的词，避免每次重建重复请求
+    to_fetch = [
+        w for w in unknown
+        if w not in cache or (not cache[w].get("e") and not cache[w].get("_tried"))
+    ]
+    fetched = 0
+    for w in to_fetch:
+        ipa, cn, pos, se, sc = _fetch_youdao(w)
+        if not ipa and not cn:
+            ipa2, en_def, pos2 = _fetch_dictionaryapi_dev(w)
+            ipa = ipa2
+            pos = pos2 or pos
+            cn = en_def  # English fallback if no Chinese
+        entry = cache.get(w)
+        if not entry:
+            entry = {"w": w, "i": ipa or "", "c": cn or "", "p": pos or ""}
+            cache[w] = entry
+        else:
+            if ipa:
+                entry["i"] = ipa
+            if cn:
+                entry["c"] = cn
+            if pos:
+                entry["p"] = pos
+        if se:
+            entry["e"] = se
+            entry["z"] = sc
+            entry.pop("_tried", None)
+        else:
+            entry["_tried"] = True
+        fetched += 1
+    if to_fetch:
+        try:
+            PASSAGE_WORDS_JSON.parent.mkdir(parents=True, exist_ok=True)
+            PASSAGE_WORDS_JSON.write_text(
+                json.dumps(cache, ensure_ascii=False, indent=2) + "\n",
+                encoding="utf-8",
+            )
+        except Exception as e:
+            print(f"[passages] WARNING: failed to write cache: {e}")
+    print(f"[passages] unknown={len(unknown)} cached={cached} fetched={fetched}")
+    # 剥离内部标记（_tried 等）再嵌入页面
+    return {
+        k: {f: v for f, v in entry.items() if not f.startswith("_")}
+        for k, entry in cache.items()
+    }
+
+
 def write_html(ket_book, pet_book, pep_books):
     n_img = attach_illustrations(pep_books)
     pep_map = {f"{b['grade']}-{b['term']}": b for b in pep_books}
+
+    # Passages: load short texts, fetch phonetic+translation for unknown words
+    passage_items = load_passages()
+    passage_word_set = set()
+    for p in passage_items:
+        passage_word_set.update(p["words"])
+    known_word_set = set()
+    for b in [ket_book, pet_book]:
+        for w in b["words"]:
+            known_word_set.add(str(w["w"]).lower())
+    for b in pep_books:
+        for w in b["words"]:
+            known_word_set.add(str(w["w"]).lower())
+    passage_word_map = fetch_unknown_passage_words(passage_word_set, known_word_set) if passage_items else {}
+    print(f"[passages] total={len(passage_items)} words={len(passage_word_set)} wordmap={len(passage_word_map)}")
+
     payload = {
         "libs": {
             "ket": ket_book,
             "pet": pet_book,
         },
         "pep": pep_map,
+        "passages": {
+            "items": passage_items,
+            "wordMap": passage_word_map,
+        },
     }
     tpl = TPL.read_text(encoding="utf-8")
     html = tpl.replace(
