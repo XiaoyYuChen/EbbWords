@@ -364,6 +364,19 @@
     .passage-word-chip { padding: 6px 12px; border: 1px solid #e2e8f0; border-radius: 16px; cursor: pointer; background: #fff; font-size: 14px; }
     .passage-word-chip:hover { border-color: var(--accent-2); color: var(--accent-2); }
     .passage-word-chip.unknown { border-style: dashed; color: #c05621; }
+    .passage-list-head { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin: 8px 0 12px; }
+    .dict-form { display: grid; grid-template-columns: 1fr auto; gap: 10px 12px; align-items: center; margin: 12px 0; }
+    .dict-lab { font-size: 14px; color: var(--ink); }
+    .dict-input { width: 92px; height: 38px; border: 1px solid var(--line); border-radius: 10px; padding: 0 10px; font-size: 14px; background: var(--paper); }
+    .dict-status { font-size: 13px; color: var(--muted); line-height: 1.6; min-height: 40px; }
+    .form-input, .form-textarea {
+      width: 100%; box-sizing: border-box; border: 1px solid var(--line);
+      border-radius: 12px; padding: 10px 12px; font-size: 14px;
+      background: var(--paper); color: var(--ink); font-family: inherit; outline: none;
+    }
+    .form-input { height: 42px; }
+    .form-textarea { resize: vertical; min-height: 180px; line-height: 1.7; }
+    .form-input:focus, .form-textarea:focus { border-color: var(--accent-2); box-shadow: 0 0 0 3px rgba(30,78,140,.12); }
     .wmodal-img { margin-top: 0; }
   </style>
 </head>
@@ -420,7 +433,10 @@
     <div class="empty" id="empty" hidden>没有匹配的单词</div>
     <div class="passage-view" id="passageView" hidden>
       <div class="passage-list-wrap" id="passageListWrap">
-        <h2 style="margin:8px 0 12px">短文列表</h2>
+        <div class="passage-list-head">
+          <h2 style="margin:0">短文列表</h2>
+          <button class="btn primary sm" id="passageAdd">＋ 新增短文</button>
+        </div>
         <div class="passage-list" id="passageList"></div>
       </div>
       <div class="passage-detail-wrap" id="passageDetailWrap" hidden>
@@ -457,6 +473,7 @@
           <button class="btn ghost" id="btnMyRemove" disabled hidden data-short="移出">移出词库</button>
           <button class="btn ghost" id="btnClear">清空</button>
           <button class="btn ghost" id="btnBlank" data-short="空模板">空白模板</button>
+          <button class="btn ghost" id="btnDictate" disabled data-short="听写">听写</button>
           <button class="btn primary" id="btnSheet" disabled data-short="默写纸">生成默写纸</button>
         </div>
       </div>
@@ -500,6 +517,37 @@
       </div>
     </div>
   </div>
+  <div class="modal" id="dictModal">
+    <div class="panel" style="max-width:520px">
+      <h2>单词听写</h2>
+      <p>按选中顺序朗读。可在听写过程中随时停止。</p>
+      <div class="dict-form">
+        <label class="dict-lab" for="dictRepeat">每个单词朗读遍数</label>
+        <input class="dict-input" type="number" id="dictRepeat" min="1" max="5" step="1" value="3" />
+        <label class="dict-lab" for="dictGap">间隔秒数</label>
+        <input class="dict-input" type="number" id="dictGap" min="1" max="60" step="1" value="10" />
+      </div>
+      <div class="dict-status" id="dictStatus">共 0 个单词</div>
+      <div class="btns" style="margin-top:16px">
+        <button class="btn ghost" id="dictClose">关闭</button>
+        <button class="btn ghost" id="dictStop" disabled>停止</button>
+        <button class="btn primary" id="dictStart">开始听写</button>
+      </div>
+    </div>
+  </div>
+  <div class="modal" id="passageModal">
+    <div class="panel" style="max-width:720px">
+      <h2>新增短文</h2>
+      <label class="dict-lab" for="passageTitleInput">标题</label>
+      <input class="form-input" id="passageTitleInput" placeholder="例如：My Weekend" maxlength="80" />
+      <label class="dict-lab" for="passageTextInput" style="display:block;margin-top:14px">正文（每行一句）</label>
+      <textarea class="form-textarea" id="passageTextInput" rows="10" placeholder="I go to the park with my family.&#10;We play football and eat apples."></textarea>
+      <div class="btns" style="justify-content:flex-end;margin-top:16px">
+        <button class="btn ghost" id="passageCancel">取消</button>
+        <button class="btn primary" id="passageSave">保存短文</button>
+      </div>
+    </div>
+  </div>
   <div class="modal" id="planModal">
     <div class="panel">
       <h2>学习计划</h2>
@@ -529,6 +577,8 @@
     const DAYS = [30, 15, 7, 4, 2, 1];
     const LS = "ebbwords.v2";
     const MYLIB_LS = "ebbwords.mylib.v1";
+    const PASSAGE_LS = "ebbwords.passages.v1";
+    const PASSAGE_WORDS_LS = "ebbwords.passagewords.v1";
     const MY_PICK_MAX = 300;
     const DIMS = ["topic", "pos", "letter", "phonics", "morph"];
     // Curated whitelist: bare prefix match would pull uncle/red/sport etc.
@@ -737,7 +787,9 @@
       myStatus: "unmastered",
       browseMode: "card",
       planDaily: 5,
-      browseIdx: 0
+      browseIdx: 0,
+      dictRepeat: 3,
+      dictGap: 10
     };
     let audioEl = null;
     let DATA = EBB.libs.ket;
@@ -759,6 +811,8 @@
         if (["unmastered", "mastered", "wrong"].includes(p.myStatus)) state.myStatus = p.myStatus;
         if (p.browseMode === "card" || p.browseMode === "list") state.browseMode = p.browseMode;
         if (p.planDaily >= 3 && p.planDaily <= 10) state.planDaily = Number(p.planDaily);
+        if (p.dictRepeat >= 1 && p.dictRepeat <= 5) state.dictRepeat = Number(p.dictRepeat);
+        if (p.dictGap >= 1 && p.dictGap <= 60) state.dictGap = Number(p.dictGap);
       } catch (e) {}
     }
     function savePref() {
@@ -766,7 +820,8 @@
         localStorage.setItem(LS, JSON.stringify({
           lib: state.lib, pepGrade: state.pepGrade, pepTerm: state.pepTerm,
           accent: state.accent, dim: state.dim, pickN: state.pickN,
-          myStatus: state.myStatus, browseMode: state.browseMode, planDaily: state.planDaily
+          myStatus: state.myStatus, browseMode: state.browseMode, planDaily: state.planDaily,
+          dictRepeat: state.dictRepeat, dictGap: state.dictGap
         }));
       } catch (e) {}
     }
@@ -786,6 +841,7 @@
       $("selNames").textContent = [...state.selected.values()].map((w) => w.w).join("、");
       $("selHint").textContent = n > PRINT_MAX ? `（默写纸取前 ${PRINT_MAX} 个） ` : "";
       $("btnSheet").disabled = n < 1;
+      $("btnDictate").disabled = n < 1;
       syncDockActions();
     }
 
@@ -1462,7 +1518,10 @@
     let wmodalSentence = "";
     function wordDetail(w) {
       let en, cn;
-      if (w && w.e) {
+      if (w && w.loading) {
+        en = "";
+        cn = "";
+      } else if (w && w.e) {
         en = w.e;
         cn = w.z || "";
       } else {
@@ -1474,7 +1533,7 @@
         title: segmentedHtml(w.w, phonicsHit(w)),
         sylHtml: syllableHtml(w.w, w.i),
         meta: [w.p ? `(${w.p})` : "", w.i ? `[ ${w.i} ]` : ""].filter(Boolean).join(" "),
-        cn: w.c || "（无释义）",
+        cn: w && w.loading ? "查询中…" : (w.c || "（无释义）"),
         sentText: en,
         sentEn: wEsc ? escaped.replace(new RegExp("(" + escapeRegex(wEsc) + ")", "i"), "<b>$1</b>") : escaped,
         sentCn: cn
@@ -2756,9 +2815,13 @@
     $("modal").addEventListener("click", (e) => {
       if (e.target.id === "modal") $("modal").classList.remove("show");
     });
-    $("wClose").onclick = () => $("wmodal").classList.remove("show");
+    function closeWordModal() {
+      $("wmodal").classList.remove("show");
+      wmodalWord = null;
+    }
+    $("wClose").onclick = closeWordModal;
     $("wmodal").addEventListener("click", (e) => {
-      if (e.target.id === "wmodal") $("wmodal").classList.remove("show");
+      if (e.target.id === "wmodal") closeWordModal();
     });
     $("wPlay").onclick = () => {
       if (wmodalWord) playWord(wmodalWord);
@@ -2968,6 +3031,18 @@
     function generateSheet(blank) {
       const words = blank ? [] : [...state.selected.values()].slice(0, PRINT_MAX);
       if (!blank && !words.length) return;
+      if (!blank) {
+        // 只新增词库中不存在的单词，已存在（含已掌握）保留原状态
+        const missing = words.filter((w) => {
+          const k = myKey(w);
+          return k && !MYLIB.words[k];
+        });
+        if (missing.length) {
+          addToMyLib(missing, "unmastered");
+          refreshMyViews();
+          toast(`已将 ${missing.length} 个新词加入未掌握`);
+        }
+      }
       const canvas = $("sheetCanvas");
       drawSheet(canvas, words, 1754, 1240, blank);
       lastDataUrl = canvas.toDataURL("image/png");
@@ -2993,11 +3068,323 @@
       w.onload = () => { w.focus(); w.print(); };
     };
 
+    // ===== Dictation module =====
+    let dictRunId = 0;
+    let dictAudio = null;
+    let dictTimer = 0;
+    let dictWaitResolve = null;
+
+    function clampNum(v, min, max, def) {
+      const n = Number(v);
+      if (!Number.isFinite(n)) return def;
+      return Math.max(min, Math.min(max, Math.round(n)));
+    }
+
+    function openDictModal() {
+      stopDictation();
+      $("dictRepeat").value = String(state.dictRepeat);
+      $("dictGap").value = String(state.dictGap);
+      $("dictStatus").textContent = `共 ${state.selected.size} 个单词`;
+      $("dictModal").classList.add("show");
+    }
+
+    function speakWordOnce(w) {
+      return new Promise((resolve) => {
+        let done = false;
+        let timer = 0;
+        const finish = () => {
+          if (done) return;
+          done = true;
+          clearTimeout(timer);
+          resolve();
+        };
+        const text = String((w && (w.a || w.w)) || "").trim();
+        if (!text) { finish(); return; }
+        if (audioEl) { audioEl.pause(); audioEl = null; }
+        if (dictAudio) { dictAudio.pause(); dictAudio = null; }
+        const fallback = () => {
+          try {
+            speechSynthesis.cancel();
+            const u = new SpeechSynthesisUtterance(text);
+            u.lang = "en-GB";
+            u.onend = finish;
+            u.onerror = finish;
+            speechSynthesis.speak(u);
+          } catch (e) { finish(); }
+        };
+        const url = "https://dict.youdao.com/dictvoice?type=" + state.accent + "&audio=" + encodeURIComponent(text);
+        const a = new Audio(url);
+        dictAudio = a;
+        a.onended = finish;
+        a.onerror = fallback;
+        a.play().catch(fallback);
+        timer = setTimeout(() => {
+          try { a.pause(); } catch (e) {}
+          finish();
+        }, 8000);
+      });
+    }
+
+    function waitGap(sec, id) {
+      return new Promise((resolve) => {
+        dictWaitResolve = () => { dictWaitResolve = null; resolve(false); };
+        dictTimer = setTimeout(() => {
+          dictWaitResolve = null;
+          resolve(id === dictRunId);
+        }, sec * 1000);
+      });
+    }
+
+    function stopDictation() {
+      dictRunId += 1;
+      clearTimeout(dictTimer);
+      if (dictWaitResolve) { const r = dictWaitResolve; dictWaitResolve = null; r(); }
+      if (dictAudio) {
+        try { dictAudio.pause(); } catch (e) {}
+        dictAudio = null;
+      }
+      try { speechSynthesis.cancel(); } catch (e) {}
+      const start = $("dictStart");
+      const stop = $("dictStop");
+      if (start) start.disabled = false;
+      if (stop) stop.disabled = true;
+      if ($("dictModal").classList.contains("show")) $("dictStatus").textContent = "已停止";
+    }
+
+    async function startDictation() {
+      const words = [...state.selected.values()];
+      if (!words.length) { toast("请先选择单词"); return; }
+      state.dictRepeat = clampNum($("dictRepeat").value, 1, 5, 3);
+      state.dictGap = clampNum($("dictGap").value, 1, 60, 10);
+      $("dictRepeat").value = String(state.dictRepeat);
+      $("dictGap").value = String(state.dictGap);
+      savePref();
+      stopDictation();
+      dictRunId += 1;
+      const id = dictRunId;
+      $("dictStart").disabled = true;
+      $("dictStop").disabled = false;
+      try {
+        for (let i = 0; i < words.length; i += 1) {
+          for (let r = 0; r < state.dictRepeat; r += 1) {
+            if (id !== dictRunId) return;
+            $("dictStatus").textContent = `第 ${i + 1}/${words.length} 个 · 第 ${r + 1}/${state.dictRepeat} 遍 · 间隔 ${state.dictGap} 秒`;
+            await speakWordOnce(words[i]);
+            if (id !== dictRunId) return;
+            const ok = await waitGap(state.dictGap, id);
+            if (!ok || id !== dictRunId) return;
+          }
+        }
+        if (id === dictRunId) {
+          $("dictStatus").textContent = "听写完成";
+        }
+      } finally {
+        if (id === dictRunId) {
+          $("dictStart").disabled = false;
+          $("dictStop").disabled = true;
+        }
+      }
+    }
+
+    $("btnDictate").onclick = openDictModal;
+    $("dictStart").onclick = startDictation;
+    $("dictStop").onclick = stopDictation;
+    $("dictClose").onclick = () => {
+      stopDictation();
+      $("dictModal").classList.remove("show");
+    };
+    $("dictModal").addEventListener("click", (e) => {
+      if (e.target.id !== "dictModal") return;
+      stopDictation();
+      $("dictModal").classList.remove("show");
+    });
+
     // ===== Passage module =====
     let view = "words"; // "words" | "passages"
     let passageListClickBound = false;
     let passageBodyClickBound = false;
     let passageWordsClickBound = false;
+
+    const PASSAGE_STOPWORDS = new Set(["a", "an", "the", "is", "are", "was", "were", "and", "or", "but", "to", "of",
+      "in", "on", "at", "for", "with", "by", "from", "it", "he", "she", "they",
+      "we", "i", "you", "my", "your", "his", "her", "their", "our", "this", "that",
+      "these", "those", "me", "him", "us", "them", "as", "so", "do", "does", "did",
+      "be", "been", "being", "have", "has", "had", "will", "would", "can", "could",
+      "should", "may", "might", "must", "not", "no", "yes", "very", "just", "too",
+      "then", "than", "if", "when", "where", "why", "how", "what", "which", "who",
+      "whom", "while", "again", "here", "there", "up", "down", "out", "over",
+      "under", "after", "before", "now"]);
+
+    let CUSTOM_PASSAGES = [];
+    let RUNTIME_WORDS = {};
+    const runtimeFetching = new Map();
+
+    function loadCustomPassages() {
+      try {
+        const raw = localStorage.getItem(PASSAGE_LS);
+        if (!raw) return;
+        const arr = JSON.parse(raw);
+        if (!Array.isArray(arr)) return;
+        CUSTOM_PASSAGES = arr
+          .filter((p) => p && typeof p.id === "string" && p.id && typeof p.title === "string" && Array.isArray(p.lines))
+          .map((p) => {
+            const lines = p.lines.map((s) => String(s || "").trim()).filter(Boolean);
+            const words = Array.isArray(p.words) && p.words.length
+              ? p.words.map((w) => String(w || "").toLowerCase()).filter(Boolean)
+              : extractPassageWords(lines);
+            return {
+              id: p.id,
+              title: p.title,
+              lines,
+              words,
+              custom: true,
+              createdAt: Number(p.createdAt) || Date.now()
+            };
+          })
+          .filter((p) => p.lines.length);
+      } catch (e) {}
+    }
+
+    function saveCustomPassages() {
+      try {
+        localStorage.setItem(PASSAGE_LS, JSON.stringify(CUSTOM_PASSAGES));
+      } catch (e) {
+        toast("本地存储写入失败");
+      }
+    }
+
+    function allPassageItems() {
+      const base = (EBB.passages && EBB.passages.items) || [];
+      return base.concat(CUSTOM_PASSAGES);
+    }
+
+    function extractPassageWords(lines) {
+      const out = [];
+      const seen = new Set();
+      const re = /[A-Za-z]+(?:'[a-z]+)?/g;
+      (lines || []).forEach((line) => {
+        let m;
+        while ((m = re.exec(line)) !== null) {
+          const low = m[0].toLowerCase();
+          if (PASSAGE_STOPWORDS.has(low) || seen.has(low)) continue;
+          seen.add(low);
+          out.push(low);
+        }
+      });
+      return out;
+    }
+
+    function loadRuntimeWords() {
+      try {
+        const raw = localStorage.getItem(PASSAGE_WORDS_LS);
+        if (!raw) return;
+        const obj = JSON.parse(raw);
+        if (!obj || typeof obj !== "object" || Array.isArray(obj)) return;
+        const out = {};
+        Object.keys(obj).forEach((k) => {
+          const r = obj[k];
+          if (r && typeof r === "object" && r.w) out[k] = r;
+        });
+        RUNTIME_WORDS = out;
+      } catch (e) {}
+    }
+
+    function saveRuntimeWords() {
+      try {
+        localStorage.setItem(PASSAGE_WORDS_LS, JSON.stringify(RUNTIME_WORDS));
+      } catch (e) {}
+    }
+
+    function normWordObj(src, fallbackWord) {
+      const r = src || {};
+      return {
+        w: String(r.w || fallbackWord || ""),
+        p: r.p || "",
+        i: r.i || "",
+        c: r.c || "",
+        e: r.e || "",
+        z: r.z || ""
+      };
+    }
+
+    function mapDictPos(pos) {
+      const map = {
+        noun: "n", verb: "v", adjective: "adj", adverb: "adv", pronoun: "pron",
+        preposition: "prep", conjunction: "conj", interjection: "exclaim",
+        determiner: "det", numeral: "num", article: "art"
+      };
+      return map[String(pos || "").toLowerCase()] || "";
+    }
+
+    function fetchJsonWithTimeout(url, ms) {
+      const ctrl = typeof AbortController !== "undefined" ? new AbortController() : null;
+      const timer = setTimeout(() => { if (ctrl) ctrl.abort(); }, ms);
+      return fetch(url, ctrl ? { signal: ctrl.signal } : undefined)
+        .then((res) => (res.ok ? res.json() : null))
+        .catch(() => null)
+        .finally(() => clearTimeout(timer));
+    }
+
+    async function translateText(text) {
+      const value = String(text || "").trim();
+      if (!value) return "";
+      const url = "https://api.mymemory.translated.net/get?q=" + encodeURIComponent(value) + "&langpair=en%7Czh-CN";
+      const data = await fetchJsonWithTimeout(url, 6000);
+      const out = data && data.responseData && data.responseData.translatedText;
+      if (!out || /MYMEMORY WARNING/i.test(String(out))) return "";
+      const s = String(out).trim();
+      return s.toLowerCase() === value.toLowerCase() ? "" : s;
+    }
+
+    async function fetchRuntimeWord(word) {
+      const key = String(word || "").toLowerCase().trim();
+      if (!key) return null;
+      if (runtimeFetching.has(key)) return runtimeFetching.get(key);
+      const task = (async () => {
+        const dict = await fetchJsonWithTimeout(
+          "https://api.dictionaryapi.dev/api/v2/entries/en/" + encodeURIComponent(key), 6000
+        );
+        let ipa = "";
+        let pos = "";
+        let example = "";
+        let enDef = "";
+        if (Array.isArray(dict) && dict.length) {
+          const entry = dict[0] || {};
+          if (entry.phonetic) ipa = String(entry.phonetic);
+          if (!ipa && Array.isArray(entry.phonetics)) {
+            const hit = entry.phonetics.find((x) => x && x.text);
+            if (hit) ipa = String(hit.text);
+          }
+          if (Array.isArray(entry.meanings)) {
+            for (const m of entry.meanings) {
+              if (!m) continue;
+              if (!pos) pos = mapDictPos(m.partOfSpeech);
+              const defs = Array.isArray(m.definitions) ? m.definitions : [];
+              for (const d of defs) {
+                if (!d) continue;
+                if (!enDef && d.definition) enDef = String(d.definition);
+                if (!example && d.example) example = String(d.example);
+              }
+              if (enDef && example) break;
+            }
+          }
+        }
+        const cn = await translateText(key);
+        if (!cn && !enDef && !ipa) return null;
+        const z = example ? await translateText(example) : "";
+        return { w: key, i: ipa, p: pos, c: cn || enDef, e: example, z };
+      })();
+      runtimeFetching.set(key, task);
+      try {
+        return await task;
+      } finally {
+        runtimeFetching.delete(key);
+      }
+    }
+
+    function isCurrentWord(key) {
+      return !!wmodalWord && String(wmodalWord.w || "").toLowerCase().trim() === key;
+    }
 
     let _anyLibIndex = null;
     function findWordAnyLib(word) {
@@ -3027,7 +3414,7 @@
     }
 
     function renderPassageList() {
-      const items = (EBB.passages && EBB.passages.items) || [];
+      const items = allPassageItems();
       if (!items.length) {
         $("passageList").innerHTML = "<p style='color:#718096'>暂无短文</p>";
         return;
@@ -3035,8 +3422,9 @@
       $("passageList").innerHTML = items.map((p) => {
         const total = p.words.length;
         const known = p.words.filter((w) => findWordAnyLib(w)).length;
-        return `<div class="passage-card" data-pid="${p.id}">
-          <div class="pnum">No.${String(p.id).padStart(2, "0")}</div>
+        const label = p.custom ? "自定义" : `No.${String(p.id).padStart(2, "0")}`;
+        return `<div class="passage-card" data-pid="${escapeHtml(String(p.id))}">
+          <div class="pnum">${label}</div>
           <div class="ptitle">${escapeHtml(p.title)}</div>
           <div class="pwords">${total} 词 · ${total - known} 生词</div>
         </div>`;
@@ -3059,14 +3447,15 @@
     }
 
     function openPassage(pid) {
-      const items = EBB.passages.items || [];
-      const p = items.find((x) => x.id === pid);
+      const items = allPassageItems();
+      const p = items.find((x) => String(x.id) === String(pid));
       if (!p) return;
-      $("passageTitle").textContent = `No.${String(p.id).padStart(2, "0")} ${p.title}`;
+      $("passageTitle").textContent = p.custom
+        ? p.title
+        : `No.${String(p.id).padStart(2, "0")} ${p.title}`;
       $("passageBody").innerHTML = p.lines.map(
         (line) => `<p>${renderPassageLine(line)}</p>`
       ).join("");
-      const map = (EBB.passages && EBB.passages.wordMap) || {};
       $("passageWords").innerHTML = p.words.map((w) => {
         const known = !!findWordAnyLib(w);
         return `<span class="passage-word-chip${known ? "" : " unknown"}" data-w="${escapeHtml(w)}">${escapeHtml(w)}</span>`;
@@ -3075,28 +3464,27 @@
       $("passageDetailWrap").hidden = false;
     }
 
-    function openPassageWord(word) {
+    async function openPassageWord(word) {
       const key = String(word || "").toLowerCase().trim();
       if (!key) return;
       const lib = findWordAnyLib(key);
+      if (lib) { openWordModal(lib); return; }
       const map = (EBB.passages && EBB.passages.wordMap) || {};
-      const cached = map[key];
-      let wobj;
-      if (lib) {
-        wobj = lib;
-      } else if (cached) {
-        wobj = {
-          w: cached.w || word,
-          p: cached.p || "",
-          i: cached.i || "",
-          c: cached.c || "",
-          e: cached.e || "",
-          z: cached.z || "",
-        };
-      } else {
-        wobj = { w: word, p: "", i: "", c: "（未收录）" };
+      const cached = map[key] || RUNTIME_WORDS[key];
+      if (cached) { openWordModal(normWordObj(cached, word)); return; }
+      openWordModal({ w: word, p: "", i: "", c: "", loading: true });
+      try {
+        const fetched = await fetchRuntimeWord(key);
+        if (fetched) {
+          RUNTIME_WORDS[key] = fetched;
+          saveRuntimeWords();
+          if (isCurrentWord(key)) openWordModal(normWordObj(fetched, word));
+        } else if (isCurrentWord(key)) {
+          openWordModal({ w: word, p: "", i: "", c: "（未收录）" });
+        }
+      } catch (e) {
+        if (isCurrentWord(key)) openWordModal({ w: word, p: "", i: "", c: "（未收录）" });
       }
-      openWordModal(wobj);
     }
 
     function switchView(v) {
@@ -3141,7 +3529,7 @@
       $("passageList").addEventListener("click", (e) => {
         const card = e.target.closest("[data-pid]");
         if (!card) return;
-        openPassage(Number(card.dataset.pid));
+        openPassage(card.dataset.pid);
       });
       passageListClickBound = true;
     }
@@ -3161,8 +3549,42 @@
       });
       passageWordsClickBound = true;
     }
+    $("passageAdd").addEventListener("click", () => {
+      $("passageTitleInput").value = "";
+      $("passageTextInput").value = "";
+      $("passageModal").classList.add("show");
+      setTimeout(() => $("passageTitleInput").focus(), 0);
+    });
+    $("passageCancel").addEventListener("click", () => {
+      $("passageModal").classList.remove("show");
+    });
+    $("passageModal").addEventListener("click", (e) => {
+      if (e.target.id === "passageModal") $("passageModal").classList.remove("show");
+    });
+    $("passageSave").addEventListener("click", () => {
+      const title = $("passageTitleInput").value.trim();
+      const text = $("passageTextInput").value.trim();
+      if (!title) { toast("请填写短文标题"); return; }
+      if (!text) { toast("请填写短文正文"); return; }
+      const lines = text.split(/\r?\n/).map((s) => s.trim()).filter(Boolean);
+      if (!lines.length) { toast("请填写短文正文"); return; }
+      const id = "c" + Date.now() + "-" + Math.random().toString(36).slice(2, 6);
+      CUSTOM_PASSAGES.push({
+        id,
+        title,
+        lines,
+        words: extractPassageWords(lines),
+        custom: true,
+        createdAt: Date.now()
+      });
+      saveCustomPassages();
+      $("passageModal").classList.remove("show");
+      renderPassageList();
+      openPassage(id);
+      toast("已新增短文");
+    });
     $("wAddMyLib").addEventListener("click", () => {
-      if (!wmodalWord) return;
+      if (!wmodalWord || wmodalWord.loading) return;
       const r = addToMyLib([wmodalWord], "unmastered");
       if (r.added) toast(`已加入我的词库：${wmodalWord.w}`);
       else if (r.updated) toast(`「${wmodalWord.w}」已在词库中`);
@@ -3170,7 +3592,7 @@
       refreshMyViews();
     });
     $("wAddSheet").addEventListener("click", () => {
-      if (!wmodalWord) return;
+      if (!wmodalWord || wmodalWord.loading) return;
       const key = selKey(wmodalWord);
       if (!key) return;
       if (state.selected.has(key)) {
@@ -3186,6 +3608,8 @@
       toast("已加入默写纸");
     });
 
+    loadCustomPassages();
+    loadRuntimeWords();
     loadMyLib();
     loadPref();
     applyBook();
