@@ -1,0 +1,44 @@
+1
+00:00:00,007 --> 00:00:01,411
+My weekend is fun
+
+2
+00:00:01,727 --> 00:00:03,331
+On Saturday morning
+
+3
+00:00:03,407 --> 00:00:06,451
+I went to the park with my mom and dad for a picnic
+
+4
+00:00:06,607 --> 00:00:09,211
+We brought sandwiches, fruits and juice
+
+5
+00:00:09,846 --> 00:00:12,811
+We sat on the grass and enjoyed the delicious food
+
+6
+00:00:13,089 --> 00:00:13,813
+After eating
+
+7
+00:00:13,813 --> 00:00:17,532
+I played soccer with my dad while my mom read a book nearby
+
+8
+00:00:17,606 --> 00:00:18,725
+We had a great time
+
+9
+00:00:18,725 --> 00:00:19,480
+On Sunday
+
+10
+00:00:19,480 --> 00:00:23,669
+I did my homework and read books at home
+
+11
+00:00:23,766 --> 00:00:26,402
+Weekends make me feel happy and relaxed
+

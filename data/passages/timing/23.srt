@@ -1,0 +1,32 @@
+1
+00:00:00,000 --> 00:00:01,552
+My favorite fruit is watermelon
+
+2
+00:00:01,552 --> 00:00:03,986
+In the summer my mom buys a big watermelon
+
+3
+00:00:04,192 --> 00:00:06,426
+We cut the watermelon into small pieces
+
+4
+00:00:06,593 --> 00:00:10,865
+The color of the watermelon is red and it has many black seeds inside
+
+5
+00:00:11,153 --> 00:00:15,305
+I Like to eat watermelon because it is very sweet and juicy
+
+6
+00:00:15,429 --> 00:00:16,106
+Sometimes
+
+7
+00:00:16,106 --> 00:00:20,265
+I eat watermelon with my friends and we see who can eat the fastest
+
+8
+00:00:20,593 --> 00:00:22,801
+Eating watermelon is a happy thing!
+

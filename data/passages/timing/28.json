@@ -1,0 +1,710 @@
+{
+  "attribute": {
+    "extra": {
+      "asr_service": "asr",
+      "caption_type": "speech",
+      "is_speech": "False",
+      "language": "zh-CN",
+      "sta_use_batch_request": "False"
+    }
+  },
+  "code": 0,
+  "duration": 42.433125,
+  "id": "3bdaf51d-b331-4328-8f96-a90af79bb7e2",
+  "message": "Success",
+  "status": null,
+  "utterances": [
+    {
+      "end_time": 1522,
+      "start_time": 0,
+      "text": "Apples, Apples",
+      "words": [
+        {
+          "attribute": {},
+          "end_time": 1340,
+          "start_time": 0,
+          "text": "Apples"
+        },
+        {
+          "attribute": {},
+          "end_time": 1340,
+          "start_time": 1340,
+          "text": ","
+        },
+        {
+          "attribute": {},
+          "end_time": 1340,
+          "start_time": 1340,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 1522,
+          "start_time": 1340,
+          "text": "Apples"
+        },
+        {
+          "attribute": {},
+          "end_time": 1522,
+          "start_time": 1522,
+          "text": ""
+        }
+      ]
+    },
+    {
+      "end_time": 3314,
+      "start_time": 1522,
+      "text": "by Liana Mahoney",
+      "words": [
+        {
+          "attribute": {},
+          "end_time": 1854,
+          "start_time": 1522,
+          "text": "by"
+        },
+        {
+          "attribute": {},
+          "end_time": 1854,
+          "start_time": 1854,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 2660,
+          "start_time": 2265,
+          "text": "Liana"
+        },
+        {
+          "attribute": {},
+          "end_time": 2660,
+          "start_time": 2660,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 3014,
+          "start_time": 2660,
+          "text": "Mahoney"
+        },
+        {
+          "attribute": {},
+          "end_time": 3014,
+          "start_time": 3014,
+          "text": ""
+        },
+        {
+          "attribute": {},
+          "end_time": 3314,
+          "start_time": 3014,
+          "text": ""
+        }
+      ]
+    },
+    {
+      "end_time": 7474,
+      "start_time": 5505,
+      "text": "Apples, apples",
+      "words": [
+        {
+          "attribute": {},
+          "end_time": 6174,
+          "start_time": 5505,
+          "text": "Apples"
+        },
+        {
+          "attribute": {},
+          "end_time": 6174,
+          "start_time": 6174,
+          "text": ","
+        },
+        {
+          "attribute": {},
+          "end_time": 6174,
+          "start_time": 6174,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 7174,
+          "start_time": 6505,
+          "text": "apples"
+        },
+        {
+          "attribute": {},
+          "end_time": 7474,
+          "start_time": 7174,
+          "text": ""
+        }
+      ]
+    },
+    {
+      "end_time": 10034,
+      "start_time": 8185,
+      "text": "Growing on a tree",
+      "words": [
+        {
+          "attribute": {},
+          "end_time": 8800,
+          "start_time": 8185,
+          "text": "Growing"
+        },
+        {
+          "attribute": {},
+          "end_time": 8800,
+          "start_time": 8800,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 9060,
+          "start_time": 8800,
+          "text": "on"
+        },
+        {
+          "attribute": {},
+          "end_time": 9060,
+          "start_time": 9060,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 9374,
+          "start_time": 9060,
+          "text": "a"
+        },
+        {
+          "attribute": {},
+          "end_time": 9374,
+          "start_time": 9374,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 10034,
+          "start_time": 9374,
+          "text": "tree"
+        }
+      ]
+    },
+    {
+      "end_time": 13354,
+      "start_time": 11505,
+      "text": "Apples, apples",
+      "words": [
+        {
+          "attribute": {},
+          "end_time": 12174,
+          "start_time": 11505,
+          "text": "Apples"
+        },
+        {
+          "attribute": {},
+          "end_time": 12174,
+          "start_time": 12174,
+          "text": ","
+        },
+        {
+          "attribute": {},
+          "end_time": 12174,
+          "start_time": 12174,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 13054,
+          "start_time": 12425,
+          "text": "apples"
+        },
+        {
+          "attribute": {},
+          "end_time": 13354,
+          "start_time": 13054,
+          "text": ""
+        }
+      ]
+    },
+    {
+      "end_time": 16354,
+      "start_time": 14025,
+      "text": "Pick one just for me!",
+      "words": [
+        {
+          "attribute": {},
+          "end_time": 14420,
+          "start_time": 14025,
+          "text": "Pick"
+        },
+        {
+          "attribute": {},
+          "end_time": 14420,
+          "start_time": 14420,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 14774,
+          "start_time": 14420,
+          "text": "one"
+        },
+        {
+          "attribute": {},
+          "end_time": 14774,
+          "start_time": 14774,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 15440,
+          "start_time": 15025,
+          "text": "just"
+        },
+        {
+          "attribute": {},
+          "end_time": 15440,
+          "start_time": 15440,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 15740,
+          "start_time": 15440,
+          "text": "for"
+        },
+        {
+          "attribute": {},
+          "end_time": 15740,
+          "start_time": 15740,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 16054,
+          "start_time": 15740,
+          "text": "me"
+        },
+        {
+          "attribute": {},
+          "end_time": 16054,
+          "start_time": 16054,
+          "text": "!"
+        },
+        {
+          "attribute": {},
+          "end_time": 16354,
+          "start_time": 16054,
+          "text": ""
+        }
+      ]
+    },
+    {
+      "end_time": 21474,
+      "start_time": 18985,
+      "text": "One apple, two apples",
+      "words": [
+        {
+          "attribute": {},
+          "end_time": 19397,
+          "start_time": 18985,
+          "text": "One"
+        },
+        {
+          "attribute": {},
+          "end_time": 19397,
+          "start_time": 19397,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 19774,
+          "start_time": 19397,
+          "text": "apple"
+        },
+        {
+          "attribute": {},
+          "end_time": 19774,
+          "start_time": 19774,
+          "text": ","
+        },
+        {
+          "attribute": {},
+          "end_time": 19774,
+          "start_time": 19774,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 20777,
+          "start_time": 20385,
+          "text": "two"
+        },
+        {
+          "attribute": {},
+          "end_time": 20777,
+          "start_time": 20777,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 21474,
+          "start_time": 20777,
+          "text": "apples"
+        }
+      ]
+    },
+    {
+      "end_time": 23994,
+      "start_time": 21945,
+      "text": "Three apples, four -",
+      "words": [
+        {
+          "attribute": {},
+          "end_time": 22374,
+          "start_time": 21945,
+          "text": "Three"
+        },
+        {
+          "attribute": {},
+          "end_time": 22374,
+          "start_time": 22374,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 22814,
+          "start_time": 22374,
+          "text": "apples"
+        },
+        {
+          "attribute": {},
+          "end_time": 22814,
+          "start_time": 22814,
+          "text": ","
+        },
+        {
+          "attribute": {},
+          "end_time": 22814,
+          "start_time": 22814,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 23694,
+          "start_time": 23265,
+          "text": "four"
+        },
+        {
+          "attribute": {},
+          "end_time": 23694,
+          "start_time": 23694,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 23994,
+          "start_time": 23694,
+          "text": "-"
+        }
+      ]
+    },
+    {
+      "end_time": 28024,
+      "start_time": 25425,
+      "text": "Red apples, green apples",
+      "words": [
+        {
+          "attribute": {},
+          "end_time": 25900,
+          "start_time": 25425,
+          "text": "Red"
+        },
+        {
+          "attribute": {},
+          "end_time": 25900,
+          "start_time": 25900,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 26334,
+          "start_time": 25900,
+          "text": "apples"
+        },
+        {
+          "attribute": {},
+          "end_time": 26334,
+          "start_time": 26334,
+          "text": ","
+        },
+        {
+          "attribute": {},
+          "end_time": 26334,
+          "start_time": 26334,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 27254,
+          "start_time": 26705,
+          "text": "green"
+        },
+        {
+          "attribute": {},
+          "end_time": 27254,
+          "start_time": 27254,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 28024,
+          "start_time": 27254,
+          "text": "apples"
+        }
+      ]
+    },
+    {
+      "end_time": 30354,
+      "start_time": 28025,
+      "text": "Yellow apples, more!",
+      "words": [
+        {
+          "attribute": {},
+          "end_time": 28620,
+          "start_time": 28025,
+          "text": "Yellow"
+        },
+        {
+          "attribute": {},
+          "end_time": 28620,
+          "start_time": 28620,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 29054,
+          "start_time": 28620,
+          "text": "apples"
+        },
+        {
+          "attribute": {},
+          "end_time": 29054,
+          "start_time": 29054,
+          "text": ","
+        },
+        {
+          "attribute": {},
+          "end_time": 29054,
+          "start_time": 29054,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 30054,
+          "start_time": 29625,
+          "text": "more"
+        },
+        {
+          "attribute": {},
+          "end_time": 30054,
+          "start_time": 30054,
+          "text": "!"
+        },
+        {
+          "attribute": {},
+          "end_time": 30354,
+          "start_time": 30054,
+          "text": ""
+        }
+      ]
+    },
+    {
+      "end_time": 34434,
+      "start_time": 32465,
+      "text": "Apples, apples",
+      "words": [
+        {
+          "attribute": {},
+          "end_time": 33174,
+          "start_time": 32465,
+          "text": "Apples"
+        },
+        {
+          "attribute": {},
+          "end_time": 33174,
+          "start_time": 33174,
+          "text": ","
+        },
+        {
+          "attribute": {},
+          "end_time": 33174,
+          "start_time": 33174,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 34134,
+          "start_time": 33505,
+          "text": "apples"
+        },
+        {
+          "attribute": {},
+          "end_time": 34434,
+          "start_time": 34134,
+          "text": ""
+        }
+      ]
+    },
+    {
+      "end_time": 36434,
+      "start_time": 34785,
+      "text": "Tasty as can be",
+      "words": [
+        {
+          "attribute": {},
+          "end_time": 35362,
+          "start_time": 34785,
+          "text": "Tasty"
+        },
+        {
+          "attribute": {},
+          "end_time": 35362,
+          "start_time": 35362,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 35580,
+          "start_time": 35362,
+          "text": "as"
+        },
+        {
+          "attribute": {},
+          "end_time": 35580,
+          "start_time": 35580,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 35800,
+          "start_time": 35580,
+          "text": "can"
+        },
+        {
+          "attribute": {},
+          "end_time": 35800,
+          "start_time": 35800,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 36434,
+          "start_time": 35800,
+          "text": "be"
+        }
+      ]
+    },
+    {
+      "end_time": 39194,
+      "start_time": 37425,
+      "text": "Apples, apples",
+      "words": [
+        {
+          "attribute": {},
+          "end_time": 37934,
+          "start_time": 37425,
+          "text": "Apples"
+        },
+        {
+          "attribute": {},
+          "end_time": 37934,
+          "start_time": 37934,
+          "text": ","
+        },
+        {
+          "attribute": {},
+          "end_time": 37934,
+          "start_time": 37934,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 38894,
+          "start_time": 38265,
+          "text": "apples"
+        },
+        {
+          "attribute": {},
+          "end_time": 39194,
+          "start_time": 38894,
+          "text": ""
+        }
+      ]
+    },
+    {
+      "end_time": 41554,
+      "start_time": 39385,
+      "text": "Share one now with me！",
+      "words": [
+        {
+          "attribute": {},
+          "end_time": 39840,
+          "start_time": 39385,
+          "text": "Share"
+        },
+        {
+          "attribute": {},
+          "end_time": 39840,
+          "start_time": 39840,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 40120,
+          "start_time": 39840,
+          "text": "one"
+        },
+        {
+          "attribute": {},
+          "end_time": 40120,
+          "start_time": 40120,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 40480,
+          "start_time": 40120,
+          "text": "now"
+        },
+        {
+          "attribute": {},
+          "end_time": 40480,
+          "start_time": 40480,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 40860,
+          "start_time": 40480,
+          "text": "with"
+        },
+        {
+          "attribute": {},
+          "end_time": 40860,
+          "start_time": 40860,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 41254,
+          "start_time": 40860,
+          "text": "me"
+        },
+        {
+          "attribute": {},
+          "end_time": 41554,
+          "start_time": 41254,
+          "text": "！"
+        }
+      ]
+    }
+  ]
+}

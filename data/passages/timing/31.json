@@ -1,0 +1,1721 @@
+{
+  "attribute": {
+    "extra": {
+      "asr_service": "asr",
+      "caption_type": "speech",
+      "is_speech": "False",
+      "language": "zh-CN",
+      "sta_use_batch_request": "False"
+    }
+  },
+  "code": 0,
+  "duration": 121.281125,
+  "id": "3b0dbad8-d54a-40d7-a5b5-1ae6c02be2b5",
+  "message": "Success",
+  "utterances": [
+    {
+      "attribute": {},
+      "end_time": 1795,
+      "start_time": 890,
+      "text": "Dan Does Tricks",
+      "words": [
+        {
+          "attribute": {},
+          "end_time": 1349,
+          "start_time": 890,
+          "text": "Dan"
+        },
+        {
+          "attribute": {},
+          "end_time": 1349,
+          "start_time": 1349,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 1700,
+          "start_time": 1490,
+          "text": "Does"
+        },
+        {
+          "attribute": {},
+          "end_time": 1700,
+          "start_time": 1700,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 1795,
+          "start_time": 1700,
+          "text": "Tricks"
+        },
+        {
+          "attribute": {},
+          "end_time": 1795,
+          "start_time": 1795,
+          "text": ""
+        }
+      ]
+    },
+    {
+      "attribute": {},
+      "end_time": 2020,
+      "start_time": 1795,
+      "text": "by S",
+      "words": [
+        {
+          "attribute": {},
+          "end_time": 1920,
+          "start_time": 1795,
+          "text": "by"
+        },
+        {
+          "attribute": {},
+          "end_time": 1920,
+          "start_time": 1920,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 2020,
+          "start_time": 1920,
+          "text": "S"
+        }
+      ]
+    },
+    {
+      "attribute": {},
+      "end_time": 2204,
+      "start_time": 2020,
+      "text": "V",
+      "words": [
+        {
+          "attribute": {},
+          "end_time": 2204,
+          "start_time": 2020,
+          "text": "V"
+        }
+      ]
+    },
+    {
+      "attribute": {},
+      "end_time": 2906,
+      "start_time": 2204,
+      "text": "Richard",
+      "words": [
+        {
+          "attribute": {},
+          "end_time": 2509,
+          "start_time": 2204,
+          "text": "Richard"
+        },
+        {
+          "attribute": {},
+          "end_time": 2509,
+          "start_time": 2509,
+          "text": ""
+        },
+        {
+          "attribute": {},
+          "end_time": 2906,
+          "start_time": 2509,
+          "text": ""
+        }
+      ]
+    },
+    {
+      "attribute": {},
+      "end_time": 6929,
+      "start_time": 5090,
+      "text": "Luke is a boy",
+      "words": [
+        {
+          "attribute": {},
+          "end_time": 5469,
+          "start_time": 5090,
+          "text": "Luke"
+        },
+        {
+          "attribute": {},
+          "end_time": 5469,
+          "start_time": 5469,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 5909,
+          "start_time": 5610,
+          "text": "is"
+        },
+        {
+          "attribute": {},
+          "end_time": 5909,
+          "start_time": 5909,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 6229,
+          "start_time": 5930,
+          "text": "a"
+        },
+        {
+          "attribute": {},
+          "end_time": 6229,
+          "start_time": 6229,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 6929,
+          "start_time": 6229,
+          "text": "boy"
+        }
+      ]
+    },
+    {
+      "attribute": {},
+      "end_time": 9889,
+      "start_time": 8250,
+      "text": "Luke has a dog",
+      "words": [
+        {
+          "attribute": {},
+          "end_time": 8600,
+          "start_time": 8250,
+          "text": "Luke"
+        },
+        {
+          "attribute": {},
+          "end_time": 8600,
+          "start_time": 8600,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 8869,
+          "start_time": 8600,
+          "text": "has"
+        },
+        {
+          "attribute": {},
+          "end_time": 8869,
+          "start_time": 8869,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 9189,
+          "start_time": 8890,
+          "text": "a"
+        },
+        {
+          "attribute": {},
+          "end_time": 9189,
+          "start_time": 9189,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 9589,
+          "start_time": 9189,
+          "text": "dog"
+        },
+        {
+          "attribute": {},
+          "end_time": 9889,
+          "start_time": 9589,
+          "text": ""
+        }
+      ]
+    },
+    {
+      "attribute": {},
+      "end_time": 11649,
+      "start_time": 10330,
+      "text": "named Dan",
+      "words": [
+        {
+          "attribute": {},
+          "end_time": 10869,
+          "start_time": 10330,
+          "text": "named"
+        },
+        {
+          "attribute": {},
+          "end_time": 10869,
+          "start_time": 10869,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 11649,
+          "start_time": 10930,
+          "text": "Dan"
+        }
+      ]
+    },
+    {
+      "attribute": {},
+      "end_time": 14609,
+      "start_time": 13010,
+      "text": "Dan does tricks",
+      "words": [
+        {
+          "attribute": {},
+          "end_time": 13389,
+          "start_time": 13010,
+          "text": "Dan"
+        },
+        {
+          "attribute": {},
+          "end_time": 13389,
+          "start_time": 13389,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 13669,
+          "start_time": 13389,
+          "text": "does"
+        },
+        {
+          "attribute": {},
+          "end_time": 13669,
+          "start_time": 13669,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 14609,
+          "start_time": 13690,
+          "text": "tricks"
+        }
+      ]
+    },
+    {
+      "attribute": {},
+      "end_time": 21069,
+      "start_time": 16890,
+      "text": "\"Sit,\" says Luke",
+      "words": [
+        {
+          "attribute": {},
+          "end_time": 16890,
+          "start_time": 16890,
+          "text": "\""
+        },
+        {
+          "attribute": {},
+          "end_time": 17229,
+          "start_time": 16890,
+          "text": "Sit"
+        },
+        {
+          "attribute": {},
+          "end_time": 17229,
+          "start_time": 17229,
+          "text": ","
+        },
+        {
+          "attribute": {},
+          "end_time": 17229,
+          "start_time": 17229,
+          "text": "\""
+        },
+        {
+          "attribute": {},
+          "end_time": 17229,
+          "start_time": 17229,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 19549,
+          "start_time": 19130,
+          "text": "says"
+        },
+        {
+          "attribute": {},
+          "end_time": 19549,
+          "start_time": 19549,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 21069,
+          "start_time": 20650,
+          "text": "Luke"
+        }
+      ]
+    },
+    {
+      "attribute": {},
+      "end_time": 21619,
+      "start_time": 21069,
+      "text": "نور",
+      "words": [
+        {
+          "attribute": {},
+          "end_time": 21619,
+          "start_time": 21069,
+          "text": "نور"
+        }
+      ]
+    },
+    {
+      "attribute": {},
+      "end_time": 23929,
+      "start_time": 23050,
+      "text": "Dan sits",
+      "words": [
+        {
+          "attribute": {},
+          "end_time": 23380,
+          "start_time": 23050,
+          "text": "Dan"
+        },
+        {
+          "attribute": {},
+          "end_time": 23380,
+          "start_time": 23380,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 23929,
+          "start_time": 23380,
+          "text": "sits"
+        }
+      ]
+    },
+    {
+      "attribute": {},
+      "end_time": 31649,
+      "start_time": 26330,
+      "text": "\"Give me five,\" says Luke",
+      "words": [
+        {
+          "attribute": {},
+          "end_time": 26330,
+          "start_time": 26330,
+          "text": "\""
+        },
+        {
+          "attribute": {},
+          "end_time": 26660,
+          "start_time": 26330,
+          "text": "Give"
+        },
+        {
+          "attribute": {},
+          "end_time": 26660,
+          "start_time": 26660,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 26949,
+          "start_time": 26660,
+          "text": "me"
+        },
+        {
+          "attribute": {},
+          "end_time": 26949,
+          "start_time": 26949,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 27549,
+          "start_time": 27170,
+          "text": "five"
+        },
+        {
+          "attribute": {},
+          "end_time": 27549,
+          "start_time": 27549,
+          "text": ","
+        },
+        {
+          "attribute": {},
+          "end_time": 27549,
+          "start_time": 27549,
+          "text": "\""
+        },
+        {
+          "attribute": {},
+          "end_time": 27549,
+          "start_time": 27549,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 30669,
+          "start_time": 30290,
+          "text": "says"
+        },
+        {
+          "attribute": {},
+          "end_time": 30669,
+          "start_time": 30669,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 31649,
+          "start_time": 30930,
+          "text": "Luke"
+        }
+      ]
+    },
+    {
+      "attribute": {},
+      "end_time": 38249,
+      "start_time": 34210,
+      "text": "Dan gives Luke five with his paw",
+      "words": [
+        {
+          "attribute": {},
+          "end_time": 34589,
+          "start_time": 34210,
+          "text": "Dan"
+        },
+        {
+          "attribute": {},
+          "end_time": 34589,
+          "start_time": 34589,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 35069,
+          "start_time": 34589,
+          "text": "gives"
+        },
+        {
+          "attribute": {},
+          "end_time": 35069,
+          "start_time": 35069,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 35509,
+          "start_time": 35090,
+          "text": "Luke"
+        },
+        {
+          "attribute": {},
+          "end_time": 35509,
+          "start_time": 35509,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 36429,
+          "start_time": 36010,
+          "text": "five"
+        },
+        {
+          "attribute": {},
+          "end_time": 36429,
+          "start_time": 36429,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 36789,
+          "start_time": 36490,
+          "text": "with"
+        },
+        {
+          "attribute": {},
+          "end_time": 36789,
+          "start_time": 36789,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 37309,
+          "start_time": 37010,
+          "text": "his"
+        },
+        {
+          "attribute": {},
+          "end_time": 37309,
+          "start_time": 37309,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 38249,
+          "start_time": 37530,
+          "text": "paw"
+        }
+      ]
+    },
+    {
+      "attribute": {},
+      "end_time": 46049,
+      "start_time": 42290,
+      "text": "\"Smile,\" says Luke",
+      "words": [
+        {
+          "attribute": {},
+          "end_time": 42290,
+          "start_time": 42290,
+          "text": "\""
+        },
+        {
+          "attribute": {},
+          "end_time": 42789,
+          "start_time": 42290,
+          "text": "Smile"
+        },
+        {
+          "attribute": {},
+          "end_time": 42789,
+          "start_time": 42789,
+          "text": ","
+        },
+        {
+          "attribute": {},
+          "end_time": 42789,
+          "start_time": 42789,
+          "text": "\""
+        },
+        {
+          "attribute": {},
+          "end_time": 42789,
+          "start_time": 42789,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 45189,
+          "start_time": 44810,
+          "text": "says"
+        },
+        {
+          "attribute": {},
+          "end_time": 45189,
+          "start_time": 45189,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 46049,
+          "start_time": 45330,
+          "text": "Luke"
+        }
+      ]
+    },
+    {
+      "attribute": {},
+      "end_time": 49169,
+      "start_time": 47770,
+      "text": "Dan smiles",
+      "words": [
+        {
+          "attribute": {},
+          "end_time": 48189,
+          "start_time": 47770,
+          "text": "Dan"
+        },
+        {
+          "attribute": {},
+          "end_time": 48189,
+          "start_time": 48189,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 49169,
+          "start_time": 48330,
+          "text": "smiles"
+        }
+      ]
+    },
+    {
+      "attribute": {},
+      "end_time": 54329,
+      "start_time": 52450,
+      "text": "Luke sits by the pool",
+      "words": [
+        {
+          "attribute": {},
+          "end_time": 52789,
+          "start_time": 52450,
+          "text": "Luke"
+        },
+        {
+          "attribute": {},
+          "end_time": 52789,
+          "start_time": 52789,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 53180,
+          "start_time": 52789,
+          "text": "sits"
+        },
+        {
+          "attribute": {},
+          "end_time": 53180,
+          "start_time": 53180,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 53420,
+          "start_time": 53180,
+          "text": "by"
+        },
+        {
+          "attribute": {},
+          "end_time": 53420,
+          "start_time": 53420,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 53709,
+          "start_time": 53420,
+          "text": "the"
+        },
+        {
+          "attribute": {},
+          "end_time": 53709,
+          "start_time": 53709,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 54329,
+          "start_time": 53709,
+          "text": "pool"
+        }
+      ]
+    },
+    {
+      "attribute": {},
+      "end_time": 58289,
+      "start_time": 55570,
+      "text": "He does not jump in the pool",
+      "words": [
+        {
+          "attribute": {},
+          "end_time": 55869,
+          "start_time": 55570,
+          "text": "He"
+        },
+        {
+          "attribute": {},
+          "end_time": 55869,
+          "start_time": 55869,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 56149,
+          "start_time": 55869,
+          "text": "does"
+        },
+        {
+          "attribute": {},
+          "end_time": 56149,
+          "start_time": 56149,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 56469,
+          "start_time": 56170,
+          "text": "not"
+        },
+        {
+          "attribute": {},
+          "end_time": 56469,
+          "start_time": 56469,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 57069,
+          "start_time": 56650,
+          "text": "jump"
+        },
+        {
+          "attribute": {},
+          "end_time": 57069,
+          "start_time": 57069,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 57380,
+          "start_time": 57090,
+          "text": "in"
+        },
+        {
+          "attribute": {},
+          "end_time": 57380,
+          "start_time": 57380,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 57669,
+          "start_time": 57380,
+          "text": "the"
+        },
+        {
+          "attribute": {},
+          "end_time": 57669,
+          "start_time": 57669,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 58289,
+          "start_time": 57669,
+          "text": "pool"
+        }
+      ]
+    },
+    {
+      "attribute": {},
+      "end_time": 66049,
+      "start_time": 63010,
+      "text": "\"I do not want to get wet",
+      "words": [
+        {
+          "attribute": {},
+          "end_time": 63010,
+          "start_time": 63010,
+          "text": "\""
+        },
+        {
+          "attribute": {},
+          "end_time": 63180,
+          "start_time": 63010,
+          "text": "I"
+        },
+        {
+          "attribute": {},
+          "end_time": 63180,
+          "start_time": 63180,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 63349,
+          "start_time": 63180,
+          "text": "do"
+        },
+        {
+          "attribute": {},
+          "end_time": 63349,
+          "start_time": 63349,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 63709,
+          "start_time": 63410,
+          "text": "not"
+        },
+        {
+          "attribute": {},
+          "end_time": 63709,
+          "start_time": 63709,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 64269,
+          "start_time": 63970,
+          "text": "want"
+        },
+        {
+          "attribute": {},
+          "end_time": 64269,
+          "start_time": 64269,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 64629,
+          "start_time": 64330,
+          "text": "to"
+        },
+        {
+          "attribute": {},
+          "end_time": 64629,
+          "start_time": 64629,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 65109,
+          "start_time": 64810,
+          "text": "get"
+        },
+        {
+          "attribute": {},
+          "end_time": 65109,
+          "start_time": 65109,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 66049,
+          "start_time": 65330,
+          "text": "wet"
+        }
+      ]
+    },
+    {
+      "attribute": {},
+      "end_time": 68129,
+      "start_time": 66930,
+      "text": "\" says Luke",
+      "words": [
+        {
+          "attribute": {},
+          "end_time": 66930,
+          "start_time": 66930,
+          "text": "\""
+        },
+        {
+          "attribute": {},
+          "end_time": 66930,
+          "start_time": 66930,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 67349,
+          "start_time": 66930,
+          "text": "says"
+        },
+        {
+          "attribute": {},
+          "end_time": 67349,
+          "start_time": 67349,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 68129,
+          "start_time": 67450,
+          "text": "Luke"
+        }
+      ]
+    },
+    {
+      "attribute": {},
+      "end_time": 71209,
+      "start_time": 69610,
+      "text": "Dan likes to swim",
+      "words": [
+        {
+          "attribute": {},
+          "end_time": 69989,
+          "start_time": 69610,
+          "text": "Dan"
+        },
+        {
+          "attribute": {},
+          "end_time": 69989,
+          "start_time": 69989,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 70275,
+          "start_time": 69989,
+          "text": "likes"
+        },
+        {
+          "attribute": {},
+          "end_time": 70275,
+          "start_time": 70275,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 70509,
+          "start_time": 70275,
+          "text": "to"
+        },
+        {
+          "attribute": {},
+          "end_time": 70509,
+          "start_time": 70509,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 71209,
+          "start_time": 70509,
+          "text": "swim"
+        }
+      ]
+    },
+    {
+      "attribute": {},
+      "end_time": 75889,
+      "start_time": 72490,
+      "text": "Luke throws a ball into the pool",
+      "words": [
+        {
+          "attribute": {},
+          "end_time": 72869,
+          "start_time": 72490,
+          "text": "Luke"
+        },
+        {
+          "attribute": {},
+          "end_time": 72869,
+          "start_time": 72869,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 73555,
+          "start_time": 72930,
+          "text": "throws"
+        },
+        {
+          "attribute": {},
+          "end_time": 73555,
+          "start_time": 73555,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 73789,
+          "start_time": 73555,
+          "text": "a"
+        },
+        {
+          "attribute": {},
+          "end_time": 73789,
+          "start_time": 73789,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 74109,
+          "start_time": 73789,
+          "text": "ball"
+        },
+        {
+          "attribute": {},
+          "end_time": 74109,
+          "start_time": 74109,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 74749,
+          "start_time": 74450,
+          "text": "into"
+        },
+        {
+          "attribute": {},
+          "end_time": 74749,
+          "start_time": 74749,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 75109,
+          "start_time": 74810,
+          "text": "the"
+        },
+        {
+          "attribute": {},
+          "end_time": 75109,
+          "start_time": 75109,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 75889,
+          "start_time": 75210,
+          "text": "pool"
+        }
+      ]
+    },
+    {
+      "attribute": {},
+      "end_time": 81849,
+      "start_time": 78330,
+      "text": "\"Fetch,\" says Luke",
+      "words": [
+        {
+          "attribute": {},
+          "end_time": 78330,
+          "start_time": 78330,
+          "text": "\""
+        },
+        {
+          "attribute": {},
+          "end_time": 79149,
+          "start_time": 78330,
+          "text": "Fetch"
+        },
+        {
+          "attribute": {},
+          "end_time": 79149,
+          "start_time": 79149,
+          "text": ","
+        },
+        {
+          "attribute": {},
+          "end_time": 79149,
+          "start_time": 79149,
+          "text": "\""
+        },
+        {
+          "attribute": {},
+          "end_time": 79149,
+          "start_time": 79149,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 81029,
+          "start_time": 80610,
+          "text": "says"
+        },
+        {
+          "attribute": {},
+          "end_time": 81029,
+          "start_time": 81029,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 81849,
+          "start_time": 81130,
+          "text": "Luke"
+        }
+      ]
+    },
+    {
+      "attribute": {},
+      "end_time": 87569,
+      "start_time": 83650,
+      "text": "Dan jumps into the pool and gets the ball",
+      "words": [
+        {
+          "attribute": {},
+          "end_time": 84069,
+          "start_time": 83650,
+          "text": "Dan"
+        },
+        {
+          "attribute": {},
+          "end_time": 84069,
+          "start_time": 84069,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 84549,
+          "start_time": 84069,
+          "text": "jumps"
+        },
+        {
+          "attribute": {},
+          "end_time": 84549,
+          "start_time": 84549,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 84880,
+          "start_time": 84650,
+          "text": "into"
+        },
+        {
+          "attribute": {},
+          "end_time": 84880,
+          "start_time": 84880,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 85109,
+          "start_time": 84880,
+          "text": "the"
+        },
+        {
+          "attribute": {},
+          "end_time": 85109,
+          "start_time": 85109,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 85629,
+          "start_time": 85109,
+          "text": "pool"
+        },
+        {
+          "attribute": {},
+          "end_time": 85629,
+          "start_time": 85629,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 86269,
+          "start_time": 85970,
+          "text": "and"
+        },
+        {
+          "attribute": {},
+          "end_time": 86269,
+          "start_time": 86269,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 86715,
+          "start_time": 86290,
+          "text": "gets"
+        },
+        {
+          "attribute": {},
+          "end_time": 86715,
+          "start_time": 86715,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 86949,
+          "start_time": 86715,
+          "text": "the"
+        },
+        {
+          "attribute": {},
+          "end_time": 86949,
+          "start_time": 86949,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 87569,
+          "start_time": 86949,
+          "text": "ball"
+        }
+      ]
+    },
+    {
+      "attribute": {},
+      "end_time": 93929,
+      "start_time": 88650,
+      "text": "Dan gets out of the pool and brings the ball to Luke",
+      "words": [
+        {
+          "attribute": {},
+          "end_time": 89069,
+          "start_time": 88650,
+          "text": "Dan"
+        },
+        {
+          "attribute": {},
+          "end_time": 89069,
+          "start_time": 89069,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 89789,
+          "start_time": 89210,
+          "text": "gets"
+        },
+        {
+          "attribute": {},
+          "end_time": 89789,
+          "start_time": 89789,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 90100,
+          "start_time": 89890,
+          "text": "out"
+        },
+        {
+          "attribute": {},
+          "end_time": 90100,
+          "start_time": 90100,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 90309,
+          "start_time": 90100,
+          "text": "of"
+        },
+        {
+          "attribute": {},
+          "end_time": 90309,
+          "start_time": 90309,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 90629,
+          "start_time": 90330,
+          "text": "the"
+        },
+        {
+          "attribute": {},
+          "end_time": 90629,
+          "start_time": 90629,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 90949,
+          "start_time": 90629,
+          "text": "pool"
+        },
+        {
+          "attribute": {},
+          "end_time": 90949,
+          "start_time": 90949,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 91869,
+          "start_time": 91570,
+          "text": "and"
+        },
+        {
+          "attribute": {},
+          "end_time": 91869,
+          "start_time": 91869,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 92315,
+          "start_time": 91869,
+          "text": "brings"
+        },
+        {
+          "attribute": {},
+          "end_time": 92315,
+          "start_time": 92315,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 92549,
+          "start_time": 92315,
+          "text": "the"
+        },
+        {
+          "attribute": {},
+          "end_time": 92549,
+          "start_time": 92549,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 92869,
+          "start_time": 92549,
+          "text": "ball"
+        },
+        {
+          "attribute": {},
+          "end_time": 92869,
+          "start_time": 92869,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 93309,
+          "start_time": 93010,
+          "text": "to"
+        },
+        {
+          "attribute": {},
+          "end_time": 93309,
+          "start_time": 93309,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 93929,
+          "start_time": 93309,
+          "text": "Luke"
+        }
+      ]
+    },
+    {
+      "attribute": {},
+      "end_time": 100009,
+      "start_time": 96290,
+      "text": "\"Good boy!\" says Luke",
+      "words": [
+        {
+          "attribute": {},
+          "end_time": 96290,
+          "start_time": 96290,
+          "text": "\""
+        },
+        {
+          "attribute": {},
+          "end_time": 96860,
+          "start_time": 96290,
+          "text": "Good"
+        },
+        {
+          "attribute": {},
+          "end_time": 96860,
+          "start_time": 96860,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 97189,
+          "start_time": 96860,
+          "text": "boy"
+        },
+        {
+          "attribute": {},
+          "end_time": 97189,
+          "start_time": 97189,
+          "text": "!\""
+        },
+        {
+          "attribute": {},
+          "end_time": 97189,
+          "start_time": 97189,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 99269,
+          "start_time": 98890,
+          "text": "says"
+        },
+        {
+          "attribute": {},
+          "end_time": 99269,
+          "start_time": 99269,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 100009,
+          "start_time": 99330,
+          "text": "Luke"
+        }
+      ]
+    },
+    {
+      "attribute": {},
+      "end_time": 104789,
+      "start_time": 101570,
+      "text": "\"You are a smart dog, Dan",
+      "words": [
+        {
+          "attribute": {},
+          "end_time": 101570,
+          "start_time": 101570,
+          "text": "\""
+        },
+        {
+          "attribute": {},
+          "end_time": 102075,
+          "start_time": 101570,
+          "text": "You"
+        },
+        {
+          "attribute": {},
+          "end_time": 102075,
+          "start_time": 102075,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 102309,
+          "start_time": 102075,
+          "text": "are"
+        },
+        {
+          "attribute": {},
+          "end_time": 102309,
+          "start_time": 102309,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 102629,
+          "start_time": 102330,
+          "text": "a"
+        },
+        {
+          "attribute": {},
+          "end_time": 102629,
+          "start_time": 102629,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 103069,
+          "start_time": 102629,
+          "text": "smart"
+        },
+        {
+          "attribute": {},
+          "end_time": 103069,
+          "start_time": 103069,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 103629,
+          "start_time": 103170,
+          "text": "dog"
+        },
+        {
+          "attribute": {},
+          "end_time": 103629,
+          "start_time": 103629,
+          "text": ","
+        },
+        {
+          "attribute": {},
+          "end_time": 103629,
+          "start_time": 103629,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 104789,
+          "start_time": 104330,
+          "text": "Dan"
+        }
+      ]
+    },
+    {
+      "attribute": {},
+      "end_time": 105339,
+      "start_time": 104789,
+      "text": "\"",
+      "words": [
+        {
+          "attribute": {},
+          "end_time": 105339,
+          "start_time": 104789,
+          "text": "\""
+        }
+      ]
+    },
+    {
+      "attribute": {},
+      "end_time": 116689,
+      "start_time": 105890,
+      "text": "Dan shakes the water off of his fur",
+      "words": [
+        {
+          "attribute": {},
+          "end_time": 107589,
+          "start_time": 105890,
+          "text": "Dan"
+        },
+        {
+          "attribute": {},
+          "end_time": 107589,
+          "start_time": 107589,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 109115,
+          "start_time": 108770,
+          "text": "shakes"
+        },
+        {
+          "attribute": {},
+          "end_time": 109115,
+          "start_time": 109115,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 109220,
+          "start_time": 109115,
+          "text": "the"
+        },
+        {
+          "attribute": {},
+          "end_time": 109220,
+          "start_time": 109220,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 109280,
+          "start_time": 109220,
+          "text": "water"
+        },
+        {
+          "attribute": {},
+          "end_time": 109280,
+          "start_time": 109280,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 109360,
+          "start_time": 109280,
+          "text": "off"
+        },
+        {
+          "attribute": {},
+          "end_time": 109360,
+          "start_time": 109360,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 109420,
+          "start_time": 109360,
+          "text": "of"
+        },
+        {
+          "attribute": {},
+          "end_time": 109420,
+          "start_time": 109420,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 109564,
+          "start_time": 109420,
+          "text": "his"
+        },
+        {
+          "attribute": {},
+          "end_time": 109564,
+          "start_time": 109564,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 116689,
+          "start_time": 109564,
+          "text": "fur"
+        }
+      ]
+    },
+    {
+      "attribute": {},
+      "end_time": 120149,
+      "start_time": 119479,
+      "text": "Now Luke is wet",
+      "words": [
+        {
+          "attribute": {},
+          "end_time": 119864,
+          "start_time": 119479,
+          "text": "Now"
+        },
+        {
+          "attribute": {},
+          "end_time": 119864,
+          "start_time": 119864,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 119904,
+          "start_time": 119864,
+          "text": "Luke"
+        },
+        {
+          "attribute": {},
+          "end_time": 119904,
+          "start_time": 119904,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 120004,
+          "start_time": 119904,
+          "text": "is"
+        },
+        {
+          "attribute": {},
+          "end_time": 120004,
+          "start_time": 120004,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 120149,
+          "start_time": 120004,
+          "text": "wet"
+        }
+      ]
+    },
+    {
+      "attribute": {},
+      "end_time": 121120,
+      "start_time": 120149,
+      "text": "\"Oh, Dan!\"",
+      "words": [
+        {
+          "attribute": {},
+          "end_time": 120149,
+          "start_time": 120149,
+          "text": "\""
+        },
+        {
+          "attribute": {},
+          "end_time": 120429,
+          "start_time": 120149,
+          "text": "Oh"
+        },
+        {
+          "attribute": {},
+          "end_time": 120429,
+          "start_time": 120429,
+          "text": ","
+        },
+        {
+          "attribute": {},
+          "end_time": 120429,
+          "start_time": 120429,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 120820,
+          "start_time": 120450,
+          "text": "Dan"
+        },
+        {
+          "attribute": {},
+          "end_time": 121120,
+          "start_time": 120820,
+          "text": "!\""
+        }
+      ]
+    }
+  ]
+}

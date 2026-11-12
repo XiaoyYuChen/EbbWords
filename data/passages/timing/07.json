@@ -1,0 +1,1123 @@
+{
+  "attribute": {
+    "extra": {
+      "asr_service": "asr",
+      "caption_type": "speech",
+      "is_speech": "False",
+      "language": "zh-CN",
+      "sta_use_batch_request": "False"
+    }
+  },
+  "code": 0,
+  "duration": 95.425125,
+  "id": "18ebbc9e-dadb-4f18-8ad0-a6bb735669ff",
+  "message": "Success",
+  "utterances": [
+    {
+      "attribute": {},
+      "end_time": 3683,
+      "start_time": 1776,
+      "text": "happy family",
+      "words": [
+        {
+          "attribute": {},
+          "end_time": 2463,
+          "start_time": 1776,
+          "text": "happy"
+        },
+        {
+          "attribute": {},
+          "end_time": 2463,
+          "start_time": 2463,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 3683,
+          "start_time": 2616,
+          "text": "family"
+        }
+      ]
+    },
+    {
+      "attribute": {},
+      "end_time": 7763,
+      "start_time": 4856,
+      "text": "I have a happy family",
+      "words": [
+        {
+          "attribute": {},
+          "end_time": 5223,
+          "start_time": 4856,
+          "text": "I"
+        },
+        {
+          "attribute": {},
+          "end_time": 5223,
+          "start_time": 5223,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 5623,
+          "start_time": 5256,
+          "text": "have"
+        },
+        {
+          "attribute": {},
+          "end_time": 5623,
+          "start_time": 5623,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 6383,
+          "start_time": 6016,
+          "text": "a"
+        },
+        {
+          "attribute": {},
+          "end_time": 6383,
+          "start_time": 6383,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 6903,
+          "start_time": 6383,
+          "text": "happy"
+        },
+        {
+          "attribute": {},
+          "end_time": 6903,
+          "start_time": 6903,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 7763,
+          "start_time": 6903,
+          "text": "family"
+        }
+      ]
+    },
+    {
+      "attribute": {},
+      "end_time": 13083,
+      "start_time": 9456,
+      "text": "THEY ARE MY DAD, MOM AND ME",
+      "words": [
+        {
+          "attribute": {},
+          "end_time": 9760,
+          "start_time": 9456,
+          "text": "THEY"
+        },
+        {
+          "attribute": {},
+          "end_time": 9760,
+          "start_time": 9760,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 10063,
+          "start_time": 9760,
+          "text": "ARE"
+        },
+        {
+          "attribute": {},
+          "end_time": 10063,
+          "start_time": 10063,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 10463,
+          "start_time": 10096,
+          "text": "MY"
+        },
+        {
+          "attribute": {},
+          "end_time": 10463,
+          "start_time": 10463,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 11023,
+          "start_time": 10496,
+          "text": "DAD"
+        },
+        {
+          "attribute": {},
+          "end_time": 11023,
+          "start_time": 11023,
+          "text": ","
+        },
+        {
+          "attribute": {},
+          "end_time": 11023,
+          "start_time": 11023,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 11903,
+          "start_time": 11376,
+          "text": "MOM"
+        },
+        {
+          "attribute": {},
+          "end_time": 11903,
+          "start_time": 11903,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 12420,
+          "start_time": 12056,
+          "text": "AND"
+        },
+        {
+          "attribute": {},
+          "end_time": 12420,
+          "start_time": 12420,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 13083,
+          "start_time": 12420,
+          "text": "ME"
+        }
+      ]
+    },
+    {
+      "attribute": {},
+      "end_time": 19523,
+      "start_time": 14856,
+      "text": "I like to go to the amusement park",
+      "words": [
+        {
+          "attribute": {},
+          "end_time": 15180,
+          "start_time": 14856,
+          "text": "I"
+        },
+        {
+          "attribute": {},
+          "end_time": 15180,
+          "start_time": 15180,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 15460,
+          "start_time": 15180,
+          "text": "like"
+        },
+        {
+          "attribute": {},
+          "end_time": 15460,
+          "start_time": 15460,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 15700,
+          "start_time": 15460,
+          "text": "to"
+        },
+        {
+          "attribute": {},
+          "end_time": 15700,
+          "start_time": 15700,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 15980,
+          "start_time": 15700,
+          "text": "go"
+        },
+        {
+          "attribute": {},
+          "end_time": 15980,
+          "start_time": 15980,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 16343,
+          "start_time": 15980,
+          "text": "to"
+        },
+        {
+          "attribute": {},
+          "end_time": 16343,
+          "start_time": 16343,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 17463,
+          "start_time": 17096,
+          "text": "the"
+        },
+        {
+          "attribute": {},
+          "end_time": 17463,
+          "start_time": 17463,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 18183,
+          "start_time": 17496,
+          "text": "amusement"
+        },
+        {
+          "attribute": {},
+          "end_time": 18183,
+          "start_time": 18183,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 19523,
+          "start_time": 18656,
+          "text": "park"
+        }
+      ]
+    },
+    {
+      "attribute": {},
+      "end_time": 22003,
+      "start_time": 20336,
+      "text": "AND DO WITH THEM",
+      "words": [
+        {
+          "attribute": {},
+          "end_time": 20700,
+          "start_time": 20336,
+          "text": "AND"
+        },
+        {
+          "attribute": {},
+          "end_time": 20700,
+          "start_time": 20700,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 21060,
+          "start_time": 20700,
+          "text": "DO"
+        },
+        {
+          "attribute": {},
+          "end_time": 21060,
+          "start_time": 21060,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 21380,
+          "start_time": 21060,
+          "text": "WITH"
+        },
+        {
+          "attribute": {},
+          "end_time": 21380,
+          "start_time": 21380,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 22003,
+          "start_time": 21380,
+          "text": "THEM"
+        }
+      ]
+    },
+    {
+      "attribute": {},
+      "end_time": 25323,
+      "start_time": 23176,
+      "text": "WE HAVE A LOT OF FUN",
+      "words": [
+        {
+          "attribute": {},
+          "end_time": 23500,
+          "start_time": 23176,
+          "text": "WE"
+        },
+        {
+          "attribute": {},
+          "end_time": 23500,
+          "start_time": 23500,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 23823,
+          "start_time": 23500,
+          "text": "HAVE"
+        },
+        {
+          "attribute": {},
+          "end_time": 23823,
+          "start_time": 23823,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 24140,
+          "start_time": 23856,
+          "text": "A"
+        },
+        {
+          "attribute": {},
+          "end_time": 24140,
+          "start_time": 24140,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 24320,
+          "start_time": 24140,
+          "text": "LOT"
+        },
+        {
+          "attribute": {},
+          "end_time": 24320,
+          "start_time": 24320,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 24583,
+          "start_time": 24320,
+          "text": "OF"
+        },
+        {
+          "attribute": {},
+          "end_time": 24583,
+          "start_time": 24583,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 25323,
+          "start_time": 24656,
+          "text": "FUN"
+        }
+      ]
+    },
+    {
+      "attribute": {},
+      "end_time": 31763,
+      "start_time": 27136,
+      "text": "And I enjoy our happy times together",
+      "words": [
+        {
+          "attribute": {},
+          "end_time": 27503,
+          "start_time": 27136,
+          "text": "And"
+        },
+        {
+          "attribute": {},
+          "end_time": 27503,
+          "start_time": 27503,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 28303,
+          "start_time": 27936,
+          "text": "I"
+        },
+        {
+          "attribute": {},
+          "end_time": 28303,
+          "start_time": 28303,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 28783,
+          "start_time": 28416,
+          "text": "enjoy"
+        },
+        {
+          "attribute": {},
+          "end_time": 28783,
+          "start_time": 28783,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 29503,
+          "start_time": 29136,
+          "text": "our"
+        },
+        {
+          "attribute": {},
+          "end_time": 29503,
+          "start_time": 29503,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 30063,
+          "start_time": 29536,
+          "text": "happy"
+        },
+        {
+          "attribute": {},
+          "end_time": 30063,
+          "start_time": 30063,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 30863,
+          "start_time": 30063,
+          "text": "times"
+        },
+        {
+          "attribute": {},
+          "end_time": 30863,
+          "start_time": 30863,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 31763,
+          "start_time": 31096,
+          "text": "together"
+        }
+      ]
+    },
+    {
+      "attribute": {},
+      "end_time": 36883,
+      "start_time": 33856,
+      "text": "I love my dad and mom",
+      "words": [
+        {
+          "attribute": {},
+          "end_time": 34223,
+          "start_time": 33856,
+          "text": "I"
+        },
+        {
+          "attribute": {},
+          "end_time": 34223,
+          "start_time": 34223,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 34600,
+          "start_time": 34256,
+          "text": "love"
+        },
+        {
+          "attribute": {},
+          "end_time": 34600,
+          "start_time": 34600,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 34943,
+          "start_time": 34600,
+          "text": "my"
+        },
+        {
+          "attribute": {},
+          "end_time": 34943,
+          "start_time": 34943,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 35423,
+          "start_time": 34943,
+          "text": "dad"
+        },
+        {
+          "attribute": {},
+          "end_time": 35423,
+          "start_time": 35423,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 36103,
+          "start_time": 35736,
+          "text": "and"
+        },
+        {
+          "attribute": {},
+          "end_time": 36103,
+          "start_time": 36103,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 36883,
+          "start_time": 36103,
+          "text": "mom"
+        }
+      ]
+    },
+    {
+      "attribute": {},
+      "end_time": 42083,
+      "start_time": 38816,
+      "text": "I feel very happy to have them",
+      "words": [
+        {
+          "attribute": {},
+          "end_time": 39180,
+          "start_time": 38816,
+          "text": "I"
+        },
+        {
+          "attribute": {},
+          "end_time": 39180,
+          "start_time": 39180,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 39543,
+          "start_time": 39180,
+          "text": "feel"
+        },
+        {
+          "attribute": {},
+          "end_time": 39543,
+          "start_time": 39543,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 40183,
+          "start_time": 39816,
+          "text": "very"
+        },
+        {
+          "attribute": {},
+          "end_time": 40183,
+          "start_time": 40183,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 40820,
+          "start_time": 40216,
+          "text": "happy"
+        },
+        {
+          "attribute": {},
+          "end_time": 40820,
+          "start_time": 40820,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 41100,
+          "start_time": 40820,
+          "text": "to"
+        },
+        {
+          "attribute": {},
+          "end_time": 41100,
+          "start_time": 41100,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 41420,
+          "start_time": 41100,
+          "text": "have"
+        },
+        {
+          "attribute": {},
+          "end_time": 41420,
+          "start_time": 41420,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 42083,
+          "start_time": 41420,
+          "text": "them"
+        }
+      ]
+    },
+    {
+      "attribute": {},
+      "end_time": 51683,
+      "start_time": 47216,
+      "text": "amusement park amusement park",
+      "words": [
+        {
+          "attribute": {},
+          "end_time": 47863,
+          "start_time": 47216,
+          "text": "amusement"
+        },
+        {
+          "attribute": {},
+          "end_time": 47863,
+          "start_time": 47863,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 48703,
+          "start_time": 48136,
+          "text": "park"
+        },
+        {
+          "attribute": {},
+          "end_time": 48703,
+          "start_time": 48703,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 50463,
+          "start_time": 49736,
+          "text": "amusement"
+        },
+        {
+          "attribute": {},
+          "end_time": 50463,
+          "start_time": 50463,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 51683,
+          "start_time": 50776,
+          "text": "park"
+        }
+      ]
+    },
+    {
+      "attribute": {},
+      "end_time": 53683,
+      "start_time": 52656,
+      "text": "游乐园",
+      "words": [
+        {
+          "attribute": {},
+          "end_time": 52920,
+          "start_time": 52656,
+          "text": "游"
+        },
+        {
+          "attribute": {},
+          "end_time": 53100,
+          "start_time": 52920,
+          "text": "乐"
+        },
+        {
+          "attribute": {},
+          "end_time": 53683,
+          "start_time": 53100,
+          "text": "园"
+        }
+      ]
+    },
+    {
+      "attribute": {},
+      "end_time": 58363,
+      "start_time": 57096,
+      "text": "A lot of fun",
+      "words": [
+        {
+          "attribute": {},
+          "end_time": 57400,
+          "start_time": 57096,
+          "text": "A"
+        },
+        {
+          "attribute": {},
+          "end_time": 57400,
+          "start_time": 57400,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 57580,
+          "start_time": 57400,
+          "text": "lot"
+        },
+        {
+          "attribute": {},
+          "end_time": 57580,
+          "start_time": 57580,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 57760,
+          "start_time": 57580,
+          "text": "of"
+        },
+        {
+          "attribute": {},
+          "end_time": 57760,
+          "start_time": 57760,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 58363,
+          "start_time": 57760,
+          "text": "fun"
+        }
+      ]
+    },
+    {
+      "attribute": {},
+      "end_time": 61363,
+      "start_time": 59856,
+      "text": "A lot of fun",
+      "words": [
+        {
+          "attribute": {},
+          "end_time": 60220,
+          "start_time": 59856,
+          "text": "A"
+        },
+        {
+          "attribute": {},
+          "end_time": 60220,
+          "start_time": 60220,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 60500,
+          "start_time": 60220,
+          "text": "lot"
+        },
+        {
+          "attribute": {},
+          "end_time": 60500,
+          "start_time": 60500,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 60740,
+          "start_time": 60500,
+          "text": "of"
+        },
+        {
+          "attribute": {},
+          "end_time": 60740,
+          "start_time": 60740,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 61363,
+          "start_time": 60740,
+          "text": "fun"
+        }
+      ]
+    },
+    {
+      "attribute": {},
+      "end_time": 64563,
+      "start_time": 63376,
+      "text": "很开心",
+      "words": [
+        {
+          "attribute": {},
+          "end_time": 63680,
+          "start_time": 63376,
+          "text": "很"
+        },
+        {
+          "attribute": {},
+          "end_time": 63940,
+          "start_time": 63680,
+          "text": "开"
+        },
+        {
+          "attribute": {},
+          "end_time": 64563,
+          "start_time": 63940,
+          "text": "心"
+        }
+      ]
+    },
+    {
+      "attribute": {},
+      "end_time": 68923,
+      "start_time": 67536,
+      "text": "很多快乐",
+      "words": [
+        {
+          "attribute": {},
+          "end_time": 67820,
+          "start_time": 67536,
+          "text": "很"
+        },
+        {
+          "attribute": {},
+          "end_time": 68020,
+          "start_time": 67820,
+          "text": "多"
+        },
+        {
+          "attribute": {},
+          "end_time": 68280,
+          "start_time": 68020,
+          "text": "快"
+        },
+        {
+          "attribute": {},
+          "end_time": 68923,
+          "start_time": 68280,
+          "text": "乐"
+        }
+      ]
+    },
+    {
+      "attribute": {},
+      "end_time": 74523,
+      "start_time": 70576,
+      "text": "enjoy enjoy 享受",
+      "words": [
+        {
+          "attribute": {},
+          "end_time": 71383,
+          "start_time": 70576,
+          "text": "enjoy"
+        },
+        {
+          "attribute": {},
+          "end_time": 71383,
+          "start_time": 71383,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 72543,
+          "start_time": 72176,
+          "text": "enjoy"
+        },
+        {
+          "attribute": {},
+          "end_time": 72543,
+          "start_time": 72543,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 73880,
+          "start_time": 73536,
+          "text": "享"
+        },
+        {
+          "attribute": {},
+          "end_time": 74523,
+          "start_time": 73880,
+          "text": "受"
+        }
+      ]
+    },
+    {
+      "attribute": {},
+      "end_time": 81003,
+      "start_time": 77696,
+      "text": "HAPPY TIMES, HAPPY TIMES",
+      "words": [
+        {
+          "attribute": {},
+          "end_time": 78260,
+          "start_time": 77696,
+          "text": "HAPPY"
+        },
+        {
+          "attribute": {},
+          "end_time": 78260,
+          "start_time": 78260,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 78943,
+          "start_time": 78260,
+          "text": "TIMES"
+        },
+        {
+          "attribute": {},
+          "end_time": 78943,
+          "start_time": 78943,
+          "text": ","
+        },
+        {
+          "attribute": {},
+          "end_time": 78943,
+          "start_time": 78943,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 79980,
+          "start_time": 79376,
+          "text": "HAPPY"
+        },
+        {
+          "attribute": {},
+          "end_time": 79980,
+          "start_time": 79980,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 81003,
+          "start_time": 79980,
+          "text": "TIMES"
+        }
+      ]
+    },
+    {
+      "attribute": {},
+      "end_time": 89283,
+      "start_time": 81736,
+      "text": "快乐时光together together在一起together",
+      "words": [
+        {
+          "attribute": {},
+          "end_time": 82020,
+          "start_time": 81736,
+          "text": "快"
+        },
+        {
+          "attribute": {},
+          "end_time": 82240,
+          "start_time": 82020,
+          "text": "乐"
+        },
+        {
+          "attribute": {},
+          "end_time": 82460,
+          "start_time": 82240,
+          "text": "时"
+        },
+        {
+          "attribute": {},
+          "end_time": 82743,
+          "start_time": 82460,
+          "text": "光"
+        },
+        {
+          "attribute": {},
+          "end_time": 84503,
+          "start_time": 83616,
+          "text": "together"
+        },
+        {
+          "attribute": {},
+          "end_time": 84503,
+          "start_time": 84503,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 85623,
+          "start_time": 85256,
+          "text": "together"
+        },
+        {
+          "attribute": {},
+          "end_time": 87000,
+          "start_time": 86696,
+          "text": "在"
+        },
+        {
+          "attribute": {},
+          "end_time": 87240,
+          "start_time": 87000,
+          "text": "一"
+        },
+        {
+          "attribute": {},
+          "end_time": 87543,
+          "start_time": 87240,
+          "text": "起"
+        },
+        {
+          "attribute": {},
+          "end_time": 89283,
+          "start_time": 88056,
+          "text": "together"
+        }
+      ]
+    },
+    {
+      "attribute": {},
+      "end_time": 94003,
+      "start_time": 92776,
+      "text": "Have a nice day",
+      "words": [
+        {
+          "attribute": {},
+          "end_time": 93058,
+          "start_time": 92776,
+          "text": "Have"
+        },
+        {
+          "attribute": {},
+          "end_time": 93058,
+          "start_time": 93058,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 93220,
+          "start_time": 93058,
+          "text": "a"
+        },
+        {
+          "attribute": {},
+          "end_time": 93220,
+          "start_time": 93220,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 93400,
+          "start_time": 93220,
+          "text": "nice"
+        },
+        {
+          "attribute": {},
+          "end_time": 93400,
+          "start_time": 93400,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 94003,
+          "start_time": 93400,
+          "text": "day"
+        }
+      ]
+    }
+  ]
+}

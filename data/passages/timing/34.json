@@ -1,0 +1,2253 @@
+{
+  "attribute": {
+    "extra": {
+      "asr_service": "asr",
+      "caption_type": "speech",
+      "is_speech": "False",
+      "language": "zh-CN",
+      "sta_use_batch_request": "False"
+    }
+  },
+  "code": 0,
+  "duration": 152.769125,
+  "id": "ac0cf3ad-8e8e-4f4d-83d7-3131e9ad5919",
+  "message": "Success",
+  "utterances": [
+    {
+      "attribute": {},
+      "end_time": 2182,
+      "start_time": 117,
+      "text": "The Early Bird ",
+      "words": [
+        {
+          "attribute": {},
+          "end_time": 522,
+          "start_time": 117,
+          "text": "The"
+        },
+        {
+          "attribute": {},
+          "end_time": 522,
+          "start_time": 522,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 1362,
+          "start_time": 677,
+          "text": "Early"
+        },
+        {
+          "attribute": {},
+          "end_time": 1362,
+          "start_time": 1362,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 1882,
+          "start_time": 1362,
+          "text": "Bird"
+        },
+        {
+          "attribute": {},
+          "end_time": 1882,
+          "start_time": 1882,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 2182,
+          "start_time": 1882,
+          "text": ""
+        }
+      ]
+    },
+    {
+      "attribute": {},
+      "end_time": 4142,
+      "start_time": 2197,
+      "text": "Catches the Worm (Maybe)",
+      "words": [
+        {
+          "attribute": {},
+          "end_time": 2860,
+          "start_time": 2197,
+          "text": "Catches"
+        },
+        {
+          "attribute": {},
+          "end_time": 2860,
+          "start_time": 2860,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 3242,
+          "start_time": 2860,
+          "text": "the"
+        },
+        {
+          "attribute": {},
+          "end_time": 3242,
+          "start_time": 3242,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 3460,
+          "start_time": 3242,
+          "text": "Worm"
+        },
+        {
+          "attribute": {},
+          "end_time": 3460,
+          "start_time": 3460,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 3460,
+          "start_time": 3460,
+          "text": "("
+        },
+        {
+          "attribute": {},
+          "end_time": 3842,
+          "start_time": 3460,
+          "text": "Maybe"
+        },
+        {
+          "attribute": {},
+          "end_time": 4142,
+          "start_time": 3842,
+          "text": ")"
+        }
+      ]
+    },
+    {
+      "attribute": {},
+      "end_time": 5622,
+      "start_time": 4277,
+      "text": "Story by S",
+      "words": [
+        {
+          "attribute": {},
+          "end_time": 4700,
+          "start_time": 4277,
+          "text": "Story"
+        },
+        {
+          "attribute": {},
+          "end_time": 4700,
+          "start_time": 4700,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 4980,
+          "start_time": 4700,
+          "text": "by"
+        },
+        {
+          "attribute": {},
+          "end_time": 4980,
+          "start_time": 4980,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 5622,
+          "start_time": 4980,
+          "text": "S"
+        }
+      ]
+    },
+    {
+      "attribute": {},
+      "end_time": 7709,
+      "start_time": 6909,
+      "text": "v",
+      "words": [
+        {
+          "attribute": {},
+          "end_time": 7709,
+          "start_time": 6909,
+          "text": "v"
+        }
+      ]
+    },
+    {
+      "attribute": {},
+      "end_time": 8220,
+      "start_time": 7709,
+      "text": "Richard",
+      "words": [
+        {
+          "attribute": {},
+          "end_time": 8220,
+          "start_time": 7709,
+          "text": "Richard"
+        },
+        {
+          "attribute": {},
+          "end_time": 8220,
+          "start_time": 8220,
+          "text": ""
+        },
+        {
+          "attribute": {},
+          "end_time": 8220,
+          "start_time": 8220,
+          "text": ""
+        }
+      ]
+    },
+    {
+      "attribute": {},
+      "end_time": 9622,
+      "start_time": 8220,
+      "text": "Bud is a bird",
+      "words": [
+        {
+          "attribute": {},
+          "end_time": 8408,
+          "start_time": 8220,
+          "text": "Bud"
+        },
+        {
+          "attribute": {},
+          "end_time": 8408,
+          "start_time": 8408,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 8620,
+          "start_time": 8408,
+          "text": "is"
+        },
+        {
+          "attribute": {},
+          "end_time": 8620,
+          "start_time": 8620,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 8922,
+          "start_time": 8620,
+          "text": "a"
+        },
+        {
+          "attribute": {},
+          "end_time": 8922,
+          "start_time": 8922,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 9622,
+          "start_time": 8922,
+          "text": "bird"
+        }
+      ]
+    },
+    {
+      "attribute": {},
+      "end_time": 14622,
+      "start_time": 10397,
+      "text": "He wakes up early to catch a worm",
+      "words": [
+        {
+          "attribute": {},
+          "end_time": 10802,
+          "start_time": 10397,
+          "text": "He"
+        },
+        {
+          "attribute": {},
+          "end_time": 10802,
+          "start_time": 10802,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 11048,
+          "start_time": 10802,
+          "text": "wakes"
+        },
+        {
+          "attribute": {},
+          "end_time": 11048,
+          "start_time": 11048,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 11362,
+          "start_time": 11048,
+          "text": "up"
+        },
+        {
+          "attribute": {},
+          "end_time": 11362,
+          "start_time": 11362,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 12002,
+          "start_time": 11362,
+          "text": "early"
+        },
+        {
+          "attribute": {},
+          "end_time": 12002,
+          "start_time": 12002,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 12882,
+          "start_time": 12477,
+          "text": "to"
+        },
+        {
+          "attribute": {},
+          "end_time": 12882,
+          "start_time": 12882,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 13560,
+          "start_time": 12882,
+          "text": "catch"
+        },
+        {
+          "attribute": {},
+          "end_time": 13560,
+          "start_time": 13560,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 13922,
+          "start_time": 13560,
+          "text": "a"
+        },
+        {
+          "attribute": {},
+          "end_time": 13922,
+          "start_time": 13922,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 14622,
+          "start_time": 13922,
+          "text": "worm"
+        }
+      ]
+    },
+    {
+      "attribute": {},
+      "end_time": 18022,
+      "start_time": 15837,
+      "text": "Bud is very hungry",
+      "words": [
+        {
+          "attribute": {},
+          "end_time": 16168,
+          "start_time": 15837,
+          "text": "Bud"
+        },
+        {
+          "attribute": {},
+          "end_time": 16168,
+          "start_time": 16168,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 16420,
+          "start_time": 16168,
+          "text": "is"
+        },
+        {
+          "attribute": {},
+          "end_time": 16420,
+          "start_time": 16420,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 16762,
+          "start_time": 16420,
+          "text": "very"
+        },
+        {
+          "attribute": {},
+          "end_time": 16762,
+          "start_time": 16762,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 18022,
+          "start_time": 16957,
+          "text": "hungry"
+        }
+      ]
+    },
+    {
+      "attribute": {},
+      "end_time": 21902,
+      "start_time": 20197,
+      "text": "Will is a worm",
+      "words": [
+        {
+          "attribute": {},
+          "end_time": 20600,
+          "start_time": 20197,
+          "text": "Will"
+        },
+        {
+          "attribute": {},
+          "end_time": 20600,
+          "start_time": 20600,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 20900,
+          "start_time": 20600,
+          "text": "is"
+        },
+        {
+          "attribute": {},
+          "end_time": 20900,
+          "start_time": 20900,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 21191,
+          "start_time": 20900,
+          "text": "a"
+        },
+        {
+          "attribute": {},
+          "end_time": 21191,
+          "start_time": 21191,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 21902,
+          "start_time": 21191,
+          "text": "worm"
+        }
+      ]
+    },
+    {
+      "attribute": {},
+      "end_time": 26462,
+      "start_time": 23397,
+      "text": "He moves around in the dirt",
+      "words": [
+        {
+          "attribute": {},
+          "end_time": 23802,
+          "start_time": 23397,
+          "text": "He"
+        },
+        {
+          "attribute": {},
+          "end_time": 23802,
+          "start_time": 23802,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 24260,
+          "start_time": 23802,
+          "text": "moves"
+        },
+        {
+          "attribute": {},
+          "end_time": 24260,
+          "start_time": 24260,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 24642,
+          "start_time": 24260,
+          "text": "around"
+        },
+        {
+          "attribute": {},
+          "end_time": 24642,
+          "start_time": 24642,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 25360,
+          "start_time": 25037,
+          "text": "in"
+        },
+        {
+          "attribute": {},
+          "end_time": 25360,
+          "start_time": 25360,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 25682,
+          "start_time": 25360,
+          "text": "the"
+        },
+        {
+          "attribute": {},
+          "end_time": 25682,
+          "start_time": 25682,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 26462,
+          "start_time": 25682,
+          "text": "dirt"
+        }
+      ]
+    },
+    {
+      "attribute": {},
+      "end_time": 32422,
+      "start_time": 27757,
+      "text": "Will sees Bud flying in the sky",
+      "words": [
+        {
+          "attribute": {},
+          "end_time": 28162,
+          "start_time": 27757,
+          "text": "Will"
+        },
+        {
+          "attribute": {},
+          "end_time": 28162,
+          "start_time": 28162,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 28642,
+          "start_time": 28197,
+          "text": "sees"
+        },
+        {
+          "attribute": {},
+          "end_time": 28642,
+          "start_time": 28642,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 29362,
+          "start_time": 28757,
+          "text": "Bud"
+        },
+        {
+          "attribute": {},
+          "end_time": 29362,
+          "start_time": 29362,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 31040,
+          "start_time": 30317,
+          "text": "flying"
+        },
+        {
+          "attribute": {},
+          "end_time": 31040,
+          "start_time": 31040,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 31340,
+          "start_time": 31040,
+          "text": "in"
+        },
+        {
+          "attribute": {},
+          "end_time": 31340,
+          "start_time": 31340,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 31671,
+          "start_time": 31340,
+          "text": "the"
+        },
+        {
+          "attribute": {},
+          "end_time": 31671,
+          "start_time": 31671,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 32422,
+          "start_time": 31671,
+          "text": "sky"
+        }
+      ]
+    },
+    {
+      "attribute": {},
+      "end_time": 35382,
+      "start_time": 33597,
+      "text": "Bud is looking for food",
+      "words": [
+        {
+          "attribute": {},
+          "end_time": 33928,
+          "start_time": 33597,
+          "text": "Bud"
+        },
+        {
+          "attribute": {},
+          "end_time": 33928,
+          "start_time": 33928,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 34242,
+          "start_time": 33928,
+          "text": "is"
+        },
+        {
+          "attribute": {},
+          "end_time": 34242,
+          "start_time": 34242,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 34488,
+          "start_time": 34242,
+          "text": "looking"
+        },
+        {
+          "attribute": {},
+          "end_time": 34488,
+          "start_time": 34488,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 34740,
+          "start_time": 34488,
+          "text": "for"
+        },
+        {
+          "attribute": {},
+          "end_time": 34740,
+          "start_time": 34740,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 35382,
+          "start_time": 34740,
+          "text": "food"
+        }
+      ]
+    },
+    {
+      "attribute": {},
+      "end_time": 43942,
+      "start_time": 38717,
+      "text": "\"I must hide,\" says Will",
+      "words": [
+        {
+          "attribute": {},
+          "end_time": 38717,
+          "start_time": 38717,
+          "text": "\""
+        },
+        {
+          "attribute": {},
+          "end_time": 39122,
+          "start_time": 38717,
+          "text": "I"
+        },
+        {
+          "attribute": {},
+          "end_time": 39122,
+          "start_time": 39122,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 40042,
+          "start_time": 39357,
+          "text": "must"
+        },
+        {
+          "attribute": {},
+          "end_time": 40042,
+          "start_time": 40042,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 41202,
+          "start_time": 40637,
+          "text": "hide"
+        },
+        {
+          "attribute": {},
+          "end_time": 41202,
+          "start_time": 41202,
+          "text": ","
+        },
+        {
+          "attribute": {},
+          "end_time": 41202,
+          "start_time": 41202,
+          "text": "\""
+        },
+        {
+          "attribute": {},
+          "end_time": 41202,
+          "start_time": 41202,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 43280,
+          "start_time": 42877,
+          "text": "says"
+        },
+        {
+          "attribute": {},
+          "end_time": 43280,
+          "start_time": 43280,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 43942,
+          "start_time": 43280,
+          "text": "Will"
+        }
+      ]
+    },
+    {
+      "attribute": {},
+      "end_time": 47182,
+      "start_time": 44717,
+      "text": "Will moves to the grass",
+      "words": [
+        {
+          "attribute": {},
+          "end_time": 45122,
+          "start_time": 44717,
+          "text": "Will"
+        },
+        {
+          "attribute": {},
+          "end_time": 45122,
+          "start_time": 45122,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 45780,
+          "start_time": 45317,
+          "text": "moves"
+        },
+        {
+          "attribute": {},
+          "end_time": 45780,
+          "start_time": 45780,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 46060,
+          "start_time": 45780,
+          "text": "to"
+        },
+        {
+          "attribute": {},
+          "end_time": 46060,
+          "start_time": 46060,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 46402,
+          "start_time": 46060,
+          "text": "the"
+        },
+        {
+          "attribute": {},
+          "end_time": 46402,
+          "start_time": 46402,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 47182,
+          "start_time": 46402,
+          "text": "grass"
+        }
+      ]
+    },
+    {
+      "attribute": {},
+      "end_time": 53582,
+      "start_time": 49877,
+      "text": "He still sees Bud flying in the sky",
+      "words": [
+        {
+          "attribute": {},
+          "end_time": 50260,
+          "start_time": 49877,
+          "text": "He"
+        },
+        {
+          "attribute": {},
+          "end_time": 50260,
+          "start_time": 50260,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 50642,
+          "start_time": 50260,
+          "text": "still"
+        },
+        {
+          "attribute": {},
+          "end_time": 50642,
+          "start_time": 50642,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 51162,
+          "start_time": 50677,
+          "text": "sees"
+        },
+        {
+          "attribute": {},
+          "end_time": 51162,
+          "start_time": 51162,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 51602,
+          "start_time": 51162,
+          "text": "Bud"
+        },
+        {
+          "attribute": {},
+          "end_time": 51602,
+          "start_time": 51602,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 52360,
+          "start_time": 51637,
+          "text": "flying"
+        },
+        {
+          "attribute": {},
+          "end_time": 52360,
+          "start_time": 52360,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 52620,
+          "start_time": 52360,
+          "text": "in"
+        },
+        {
+          "attribute": {},
+          "end_time": 52620,
+          "start_time": 52620,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 52891,
+          "start_time": 52620,
+          "text": "the"
+        },
+        {
+          "attribute": {},
+          "end_time": 52891,
+          "start_time": 52891,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 53582,
+          "start_time": 52891,
+          "text": "sky"
+        }
+      ]
+    },
+    {
+      "attribute": {},
+      "end_time": 57862,
+      "start_time": 55637,
+      "text": "\"I am not safe here",
+      "words": [
+        {
+          "attribute": {},
+          "end_time": 55637,
+          "start_time": 55637,
+          "text": "\""
+        },
+        {
+          "attribute": {},
+          "end_time": 55880,
+          "start_time": 55637,
+          "text": "I"
+        },
+        {
+          "attribute": {},
+          "end_time": 55880,
+          "start_time": 55880,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 56120,
+          "start_time": 55880,
+          "text": "am"
+        },
+        {
+          "attribute": {},
+          "end_time": 56120,
+          "start_time": 56120,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 56522,
+          "start_time": 56120,
+          "text": "not"
+        },
+        {
+          "attribute": {},
+          "end_time": 56522,
+          "start_time": 56522,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 57200,
+          "start_time": 56717,
+          "text": "safe"
+        },
+        {
+          "attribute": {},
+          "end_time": 57200,
+          "start_time": 57200,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 57862,
+          "start_time": 57200,
+          "text": "here"
+        }
+      ]
+    },
+    {
+      "attribute": {},
+      "end_time": 62362,
+      "start_time": 58237,
+      "text": "I must hide somewhere else",
+      "words": [
+        {
+          "attribute": {},
+          "end_time": 58642,
+          "start_time": 58237,
+          "text": "I"
+        },
+        {
+          "attribute": {},
+          "end_time": 58642,
+          "start_time": 58642,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 59122,
+          "start_time": 58642,
+          "text": "must"
+        },
+        {
+          "attribute": {},
+          "end_time": 59122,
+          "start_time": 59122,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 59682,
+          "start_time": 59122,
+          "text": "hide"
+        },
+        {
+          "attribute": {},
+          "end_time": 59682,
+          "start_time": 59682,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 60882,
+          "start_time": 59917,
+          "text": "somewhere"
+        },
+        {
+          "attribute": {},
+          "end_time": 60882,
+          "start_time": 60882,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 62362,
+          "start_time": 61157,
+          "text": "else"
+        }
+      ]
+    },
+    {
+      "attribute": {},
+      "end_time": 62912,
+      "start_time": 62362,
+      "text": "\"",
+      "words": [
+        {
+          "attribute": {},
+          "end_time": 62912,
+          "start_time": 62362,
+          "text": "\""
+        }
+      ]
+    },
+    {
+      "attribute": {},
+      "end_time": 67142,
+      "start_time": 64877,
+      "text": "Will moves near a tree",
+      "words": [
+        {
+          "attribute": {},
+          "end_time": 65271,
+          "start_time": 64877,
+          "text": "Will"
+        },
+        {
+          "attribute": {},
+          "end_time": 65271,
+          "start_time": 65271,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 65642,
+          "start_time": 65271,
+          "text": "moves"
+        },
+        {
+          "attribute": {},
+          "end_time": 65642,
+          "start_time": 65642,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 66040,
+          "start_time": 65642,
+          "text": "near"
+        },
+        {
+          "attribute": {},
+          "end_time": 66040,
+          "start_time": 66040,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 66362,
+          "start_time": 66040,
+          "text": "a"
+        },
+        {
+          "attribute": {},
+          "end_time": 66362,
+          "start_time": 66362,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 67142,
+          "start_time": 66362,
+          "text": "tree"
+        }
+      ]
+    },
+    {
+      "attribute": {},
+      "end_time": 70462,
+      "start_time": 67877,
+      "text": "He hides in the shade",
+      "words": [
+        {
+          "attribute": {},
+          "end_time": 68282,
+          "start_time": 67877,
+          "text": "He"
+        },
+        {
+          "attribute": {},
+          "end_time": 68282,
+          "start_time": 68282,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 69040,
+          "start_time": 68282,
+          "text": "hides"
+        },
+        {
+          "attribute": {},
+          "end_time": 69040,
+          "start_time": 69040,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 69320,
+          "start_time": 69040,
+          "text": "in"
+        },
+        {
+          "attribute": {},
+          "end_time": 69320,
+          "start_time": 69320,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 69642,
+          "start_time": 69320,
+          "text": "the"
+        },
+        {
+          "attribute": {},
+          "end_time": 69642,
+          "start_time": 69642,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 70462,
+          "start_time": 69642,
+          "text": "shade"
+        }
+      ]
+    },
+    {
+      "attribute": {},
+      "end_time": 74622,
+      "start_time": 71317,
+      "text": "Bud flies around the tree",
+      "words": [
+        {
+          "attribute": {},
+          "end_time": 71842,
+          "start_time": 71317,
+          "text": "Bud"
+        },
+        {
+          "attribute": {},
+          "end_time": 71842,
+          "start_time": 71842,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 72720,
+          "start_time": 71842,
+          "text": "flies"
+        },
+        {
+          "attribute": {},
+          "end_time": 72720,
+          "start_time": 72720,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 73122,
+          "start_time": 72720,
+          "text": "around"
+        },
+        {
+          "attribute": {},
+          "end_time": 73122,
+          "start_time": 73122,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 73802,
+          "start_time": 73397,
+          "text": "the"
+        },
+        {
+          "attribute": {},
+          "end_time": 73802,
+          "start_time": 73802,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 74622,
+          "start_time": 73802,
+          "text": "tree"
+        }
+      ]
+    },
+    {
+      "attribute": {},
+      "end_time": 80222,
+      "start_time": 76957,
+      "text": "\"The shade does not hide me!\"",
+      "words": [
+        {
+          "attribute": {},
+          "end_time": 76957,
+          "start_time": 76957,
+          "text": "\""
+        },
+        {
+          "attribute": {},
+          "end_time": 77340,
+          "start_time": 76957,
+          "text": "The"
+        },
+        {
+          "attribute": {},
+          "end_time": 77340,
+          "start_time": 77340,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 77722,
+          "start_time": 77340,
+          "text": "shade"
+        },
+        {
+          "attribute": {},
+          "end_time": 77722,
+          "start_time": 77722,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 78540,
+          "start_time": 78117,
+          "text": "does"
+        },
+        {
+          "attribute": {},
+          "end_time": 78540,
+          "start_time": 78540,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 78922,
+          "start_time": 78540,
+          "text": "not"
+        },
+        {
+          "attribute": {},
+          "end_time": 78922,
+          "start_time": 78922,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 79540,
+          "start_time": 79037,
+          "text": "hide"
+        },
+        {
+          "attribute": {},
+          "end_time": 79540,
+          "start_time": 79540,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 79922,
+          "start_time": 79540,
+          "text": "me"
+        },
+        {
+          "attribute": {},
+          "end_time": 80222,
+          "start_time": 79922,
+          "text": "!\""
+        }
+      ]
+    },
+    {
+      "attribute": {},
+      "end_time": 84182,
+      "start_time": 81637,
+      "text": "Will moves to the garden",
+      "words": [
+        {
+          "attribute": {},
+          "end_time": 82042,
+          "start_time": 81637,
+          "text": "Will"
+        },
+        {
+          "attribute": {},
+          "end_time": 82042,
+          "start_time": 82042,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 82688,
+          "start_time": 82197,
+          "text": "moves"
+        },
+        {
+          "attribute": {},
+          "end_time": 82688,
+          "start_time": 82688,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 82980,
+          "start_time": 82688,
+          "text": "to"
+        },
+        {
+          "attribute": {},
+          "end_time": 82980,
+          "start_time": 82980,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 83351,
+          "start_time": 82980,
+          "text": "the"
+        },
+        {
+          "attribute": {},
+          "end_time": 83351,
+          "start_time": 83351,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 84182,
+          "start_time": 83351,
+          "text": "garden"
+        }
+      ]
+    },
+    {
+      "attribute": {},
+      "end_time": 88702,
+      "start_time": 84517,
+      "text": "He still sees Bud flying in the sky",
+      "words": [
+        {
+          "attribute": {},
+          "end_time": 84880,
+          "start_time": 84517,
+          "text": "He"
+        },
+        {
+          "attribute": {},
+          "end_time": 84880,
+          "start_time": 84880,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 85242,
+          "start_time": 84880,
+          "text": "still"
+        },
+        {
+          "attribute": {},
+          "end_time": 85242,
+          "start_time": 85242,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 86042,
+          "start_time": 85397,
+          "text": "sees"
+        },
+        {
+          "attribute": {},
+          "end_time": 86042,
+          "start_time": 86042,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 86442,
+          "start_time": 86042,
+          "text": "Bud"
+        },
+        {
+          "attribute": {},
+          "end_time": 86442,
+          "start_time": 86442,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 87540,
+          "start_time": 86837,
+          "text": "flying"
+        },
+        {
+          "attribute": {},
+          "end_time": 87540,
+          "start_time": 87540,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 87760,
+          "start_time": 87540,
+          "text": "in"
+        },
+        {
+          "attribute": {},
+          "end_time": 87760,
+          "start_time": 87760,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 88011,
+          "start_time": 87760,
+          "text": "the"
+        },
+        {
+          "attribute": {},
+          "end_time": 88011,
+          "start_time": 88011,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 88702,
+          "start_time": 88011,
+          "text": "sky"
+        }
+      ]
+    },
+    {
+      "attribute": {},
+      "end_time": 95902,
+      "start_time": 90317,
+      "text": "\"I must find some place safe to hide",
+      "words": [
+        {
+          "attribute": {},
+          "end_time": 90317,
+          "start_time": 90317,
+          "text": "\""
+        },
+        {
+          "attribute": {},
+          "end_time": 90722,
+          "start_time": 90317,
+          "text": "I"
+        },
+        {
+          "attribute": {},
+          "end_time": 90722,
+          "start_time": 90722,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 91482,
+          "start_time": 90797,
+          "text": "must"
+        },
+        {
+          "attribute": {},
+          "end_time": 91482,
+          "start_time": 91482,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 91922,
+          "start_time": 91517,
+          "text": "find"
+        },
+        {
+          "attribute": {},
+          "end_time": 91922,
+          "start_time": 91922,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 93042,
+          "start_time": 92637,
+          "text": "some"
+        },
+        {
+          "attribute": {},
+          "end_time": 93042,
+          "start_time": 93042,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 93562,
+          "start_time": 93157,
+          "text": "place"
+        },
+        {
+          "attribute": {},
+          "end_time": 93562,
+          "start_time": 93562,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 94660,
+          "start_time": 93877,
+          "text": "safe"
+        },
+        {
+          "attribute": {},
+          "end_time": 94660,
+          "start_time": 94660,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 95042,
+          "start_time": 94660,
+          "text": "to"
+        },
+        {
+          "attribute": {},
+          "end_time": 95042,
+          "start_time": 95042,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 95902,
+          "start_time": 95042,
+          "text": "hide"
+        }
+      ]
+    },
+    {
+      "attribute": {},
+      "end_time": 98502,
+      "start_time": 97037,
+      "text": "\" Will says",
+      "words": [
+        {
+          "attribute": {},
+          "end_time": 97037,
+          "start_time": 97037,
+          "text": "\""
+        },
+        {
+          "attribute": {},
+          "end_time": 97037,
+          "start_time": 97037,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 97442,
+          "start_time": 97037,
+          "text": "Will"
+        },
+        {
+          "attribute": {},
+          "end_time": 97442,
+          "start_time": 97442,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 98502,
+          "start_time": 97717,
+          "text": "says"
+        }
+      ]
+    },
+    {
+      "attribute": {},
+      "end_time": 106782,
+      "start_time": 99917,
+      "text": "Will looks around and disappears as Bud swoops down",
+      "words": [
+        {
+          "attribute": {},
+          "end_time": 100322,
+          "start_time": 99917,
+          "text": "Will"
+        },
+        {
+          "attribute": {},
+          "end_time": 100322,
+          "start_time": 100322,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 100922,
+          "start_time": 100322,
+          "text": "looks"
+        },
+        {
+          "attribute": {},
+          "end_time": 100922,
+          "start_time": 100922,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 101362,
+          "start_time": 100957,
+          "text": "around"
+        },
+        {
+          "attribute": {},
+          "end_time": 101362,
+          "start_time": 101362,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 101882,
+          "start_time": 101477,
+          "text": "and"
+        },
+        {
+          "attribute": {},
+          "end_time": 101882,
+          "start_time": 101882,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 103362,
+          "start_time": 101882,
+          "text": "disappears"
+        },
+        {
+          "attribute": {},
+          "end_time": 103362,
+          "start_time": 103362,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 104202,
+          "start_time": 103797,
+          "text": "as"
+        },
+        {
+          "attribute": {},
+          "end_time": 104202,
+          "start_time": 104202,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 104762,
+          "start_time": 104202,
+          "text": "Bud"
+        },
+        {
+          "attribute": {},
+          "end_time": 104762,
+          "start_time": 104762,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 106080,
+          "start_time": 105117,
+          "text": "swoops"
+        },
+        {
+          "attribute": {},
+          "end_time": 106080,
+          "start_time": 106080,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 106782,
+          "start_time": 106080,
+          "text": "down"
+        }
+      ]
+    },
+    {
+      "attribute": {},
+      "end_time": 116142,
+      "start_time": 109677,
+      "text": "Bud eats some bird seeds that he finds on the ground",
+      "words": [
+        {
+          "attribute": {},
+          "end_time": 110202,
+          "start_time": 109677,
+          "text": "Bud"
+        },
+        {
+          "attribute": {},
+          "end_time": 110202,
+          "start_time": 110202,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 110720,
+          "start_time": 110202,
+          "text": "eats"
+        },
+        {
+          "attribute": {},
+          "end_time": 110720,
+          "start_time": 110720,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 111042,
+          "start_time": 110720,
+          "text": "some"
+        },
+        {
+          "attribute": {},
+          "end_time": 111042,
+          "start_time": 111042,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 111802,
+          "start_time": 111197,
+          "text": "bird"
+        },
+        {
+          "attribute": {},
+          "end_time": 111802,
+          "start_time": 111802,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 112842,
+          "start_time": 111917,
+          "text": "seeds"
+        },
+        {
+          "attribute": {},
+          "end_time": 112842,
+          "start_time": 112842,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 113682,
+          "start_time": 113277,
+          "text": "that"
+        },
+        {
+          "attribute": {},
+          "end_time": 113682,
+          "start_time": 113682,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 114122,
+          "start_time": 113717,
+          "text": "he"
+        },
+        {
+          "attribute": {},
+          "end_time": 114122,
+          "start_time": 114122,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 114780,
+          "start_time": 114122,
+          "text": "finds"
+        },
+        {
+          "attribute": {},
+          "end_time": 114780,
+          "start_time": 114780,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 115080,
+          "start_time": 114780,
+          "text": "on"
+        },
+        {
+          "attribute": {},
+          "end_time": 115080,
+          "start_time": 115080,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 115442,
+          "start_time": 115080,
+          "text": "the"
+        },
+        {
+          "attribute": {},
+          "end_time": 115442,
+          "start_time": 115442,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 116142,
+          "start_time": 115442,
+          "text": "ground"
+        }
+      ]
+    },
+    {
+      "attribute": {},
+      "end_time": 120622,
+      "start_time": 117837,
+      "text": "Bud did not see Will",
+      "words": [
+        {
+          "attribute": {},
+          "end_time": 118362,
+          "start_time": 117837,
+          "text": "Bud"
+        },
+        {
+          "attribute": {},
+          "end_time": 118362,
+          "start_time": 118362,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 118842,
+          "start_time": 118437,
+          "text": "did"
+        },
+        {
+          "attribute": {},
+          "end_time": 118842,
+          "start_time": 118842,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 119322,
+          "start_time": 118917,
+          "text": "not"
+        },
+        {
+          "attribute": {},
+          "end_time": 119322,
+          "start_time": 119322,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 119802,
+          "start_time": 119397,
+          "text": "see"
+        },
+        {
+          "attribute": {},
+          "end_time": 119802,
+          "start_time": 119802,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 120622,
+          "start_time": 119917,
+          "text": "Will"
+        }
+      ]
+    },
+    {
+      "attribute": {},
+      "end_time": 133822,
+      "start_time": 122437,
+      "text": "Bud flies away as Will pokes his head out of an apple that fell from the tree!",
+      "words": [
+        {
+          "attribute": {},
+          "end_time": 122922,
+          "start_time": 122437,
+          "text": "Bud"
+        },
+        {
+          "attribute": {},
+          "end_time": 122922,
+          "start_time": 122922,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 123642,
+          "start_time": 122922,
+          "text": "flies"
+        },
+        {
+          "attribute": {},
+          "end_time": 123642,
+          "start_time": 123642,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 124082,
+          "start_time": 123677,
+          "text": "away"
+        },
+        {
+          "attribute": {},
+          "end_time": 124082,
+          "start_time": 124082,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 124920,
+          "start_time": 124517,
+          "text": "as"
+        },
+        {
+          "attribute": {},
+          "end_time": 124920,
+          "start_time": 124920,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 125322,
+          "start_time": 124920,
+          "text": "Will"
+        },
+        {
+          "attribute": {},
+          "end_time": 125322,
+          "start_time": 125322,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 126260,
+          "start_time": 125597,
+          "text": "pokes"
+        },
+        {
+          "attribute": {},
+          "end_time": 126260,
+          "start_time": 126260,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 126642,
+          "start_time": 126260,
+          "text": "his"
+        },
+        {
+          "attribute": {},
+          "end_time": 126642,
+          "start_time": 126642,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 127042,
+          "start_time": 126642,
+          "text": "head"
+        },
+        {
+          "attribute": {},
+          "end_time": 127042,
+          "start_time": 127042,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 128042,
+          "start_time": 127637,
+          "text": "out"
+        },
+        {
+          "attribute": {},
+          "end_time": 128042,
+          "start_time": 128042,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 128602,
+          "start_time": 128197,
+          "text": "of"
+        },
+        {
+          "attribute": {},
+          "end_time": 128602,
+          "start_time": 128602,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 129122,
+          "start_time": 128717,
+          "text": "an"
+        },
+        {
+          "attribute": {},
+          "end_time": 129122,
+          "start_time": 129122,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 129722,
+          "start_time": 129122,
+          "text": "apple"
+        },
+        {
+          "attribute": {},
+          "end_time": 129722,
+          "start_time": 129722,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 130562,
+          "start_time": 130157,
+          "text": "that"
+        },
+        {
+          "attribute": {},
+          "end_time": 130562,
+          "start_time": 130562,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 132002,
+          "start_time": 131477,
+          "text": "fell"
+        },
+        {
+          "attribute": {},
+          "end_time": 132002,
+          "start_time": 132002,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 132442,
+          "start_time": 132037,
+          "text": "from"
+        },
+        {
+          "attribute": {},
+          "end_time": 132442,
+          "start_time": 132442,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 133042,
+          "start_time": 132637,
+          "text": "the"
+        },
+        {
+          "attribute": {},
+          "end_time": 133042,
+          "start_time": 133042,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 133522,
+          "start_time": 133042,
+          "text": "tree"
+        },
+        {
+          "attribute": {},
+          "end_time": 133822,
+          "start_time": 133522,
+          "text": "!"
+        }
+      ]
+    },
+    {
+      "attribute": {},
+      "end_time": 138142,
+      "start_time": 135237,
+      "text": "Will smiles and says",
+      "words": [
+        {
+          "attribute": {},
+          "end_time": 135642,
+          "start_time": 135237,
+          "text": "Will"
+        },
+        {
+          "attribute": {},
+          "end_time": 135642,
+          "start_time": 135642,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 137002,
+          "start_time": 135717,
+          "text": "smiles"
+        },
+        {
+          "attribute": {},
+          "end_time": 137002,
+          "start_time": 137002,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 137442,
+          "start_time": 137037,
+          "text": "and"
+        },
+        {
+          "attribute": {},
+          "end_time": 137442,
+          "start_time": 137442,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 138142,
+          "start_time": 137442,
+          "text": "says"
+        }
+      ]
+    },
+    {
+      "attribute": {},
+      "end_time": 149462,
+      "start_time": 146837,
+      "text": "\"That was close!\"",
+      "words": [
+        {
+          "attribute": {},
+          "end_time": 146837,
+          "start_time": 146837,
+          "text": "\""
+        },
+        {
+          "attribute": {},
+          "end_time": 147282,
+          "start_time": 146837,
+          "text": "That"
+        },
+        {
+          "attribute": {},
+          "end_time": 147282,
+          "start_time": 147282,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 148800,
+          "start_time": 148437,
+          "text": "was"
+        },
+        {
+          "attribute": {},
+          "end_time": 148800,
+          "start_time": 148800,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 149162,
+          "start_time": 148800,
+          "text": "close"
+        },
+        {
+          "attribute": {},
+          "end_time": 149462,
+          "start_time": 149162,
+          "text": "!\""
+        }
+      ]
+    }
+  ]
+}

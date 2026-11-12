@@ -1,0 +1,28 @@
+1
+00:00:00,017 --> 00:00:01,802
+I have a red bicycle
+
+2
+00:00:01,977 --> 00:00:03,601
+It was a birthday gift
+
+3
+00:00:03,896 --> 00:00:06,562
+I ride my bicycle to the park every day
+
+4
+00:00:06,977 --> 00:00:11,320
+Kiding my bicycle makes me teel tree and happy sometimes
+
+5
+00:00:11,320 --> 00:00:14,442
+I race with my friends to see who is the fastest
+
+6
+00:00:14,856 --> 00:00:18,681
+My bicycle is not only beautiful but also comfortable
+
+7
+00:00:19,016 --> 00:00:22,402
+Riding my bicycle is one of my favorite activities
+

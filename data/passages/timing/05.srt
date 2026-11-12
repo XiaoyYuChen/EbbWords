@@ -1,0 +1,32 @@
+1
+00:00:00,000 --> 00:00:01,125
+I Love summer
+
+2
+00:00:01,133 --> 00:00:03,044
+The weather is warm and sunny
+
+3
+00:00:03,093 --> 00:00:05,092
+I can play outside with my friends
+
+4
+00:00:05,094 --> 00:00:07,004
+We go to the beach and swim
+
+5
+00:00:07,373 --> 00:00:10,125
+I build sandcastles and collect seashells
+
+6
+00:00:10,294 --> 00:00:12,205
+I eat ice cream to stay cool
+
+7
+00:00:12,233 --> 00:00:15,525
+In the evening we have barbecues and watch the stars
+
+8
+00:00:15,694 --> 00:00:17,202
+Summer is my favorite season!
+

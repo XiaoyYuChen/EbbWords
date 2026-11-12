@@ -357,6 +357,10 @@
     .passage-card .ptitle { font-weight: 600; margin-top: 4px; font-size: 15px; }
     .passage-card .pwords { color: #a0aec0; font-size: 12px; margin-top: 8px; }
     .passage-body { font-size: 18px; line-height: 1.9; padding: 16px 20px; background: #f7fafc; border-radius: 8px; }
+    .passage-detail-head { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin: 8px 0 12px; flex-wrap: wrap; }
+    .passage-detail-head h2 { margin: 0; flex: 1 1 auto; min-width: 0; }
+    .passage-detail-head .btn { white-space: nowrap; }
+    .passage-body p.playing { color: var(--accent-2); }
     .passage-body p { margin: 0 0 6px; }
     .passage-body .pw { cursor: pointer; border-bottom: 1px dashed #cbd5e0; }
     .passage-body .pw:hover { color: var(--accent-2); border-color: var(--accent-2); }
@@ -441,7 +445,10 @@
       </div>
       <div class="passage-detail-wrap" id="passageDetailWrap" hidden>
         <button class="btn ghost sm" id="btnPassageBack">← 返回列表</button>
-        <h2 id="passageTitle" style="margin:8px 0 12px"></h2>
+        <div class="passage-detail-head">
+          <h2 id="passageTitle"></h2>
+          <button class="btn ghost sm" id="btnPassagePlay">▶ 播放短文</button>
+        </div>
         <div class="passage-body" id="passageBody"></div>
         <div class="wsec" style="margin-top:24px">单词列表</div>
         <div class="passage-words" id="passageWords"></div>
@@ -3082,6 +3089,7 @@
 
     function openDictModal() {
       stopDictation();
+      stopPassagePlayback();
       $("dictRepeat").value = String(state.dictRepeat);
       $("dictGap").value = String(state.dictGap);
       $("dictStatus").textContent = `共 ${state.selected.size} 个单词`;
@@ -3218,6 +3226,12 @@
     let CUSTOM_PASSAGES = [];
     let RUNTIME_WORDS = {};
     const runtimeFetching = new Map();
+    let currentPassage = null;
+    let passagePlayId = 0;
+    let passagePlaying = false;
+    let passageAudio = null;
+    let passageLineResolve = null;
+    let passageAudioResolve = null;
 
     function loadCustomPassages() {
       try {
@@ -3386,6 +3400,169 @@
       return !!wmodalWord && String(wmodalWord.w || "").toLowerCase().trim() === key;
     }
 
+    function setPassagePlayBtn(playing) {
+      const btn = $("btnPassagePlay");
+      if (!btn) return;
+      passagePlaying = playing;
+      btn.textContent = playing ? "■ 停止" : "▶ 播放短文";
+    }
+
+    function clearPassageHighlight() {
+      $("passageBody").querySelectorAll("p.playing").forEach((p) => p.classList.remove("playing"));
+    }
+
+    function highlightPassageLine(index) {
+      const ps = $("passageBody").querySelectorAll("p");
+      ps.forEach((p, j) => p.classList.toggle("playing", j === index));
+    }
+
+    function stopPassagePlayback() {
+      passagePlayId += 1;
+      if (passageLineResolve) {
+        const r = passageLineResolve;
+        passageLineResolve = null;
+        r(false);
+      }
+      if (passageAudioResolve) {
+        const r = passageAudioResolve;
+        passageAudioResolve = null;
+        r(false);
+      }
+      if (passageAudio) {
+        try { passageAudio.pause(); } catch (e) {}
+        passageAudio = null;
+      }
+      try { speechSynthesis.cancel(); } catch (e) {}
+      clearPassageHighlight();
+      setPassagePlayBtn(false);
+    }
+
+    // 原始音频整段播放：按 SRT 时间轴逐行高亮当前句
+    function playPassageAudio(passage, id) {
+      return new Promise((resolve) => {
+        let done = false;
+        let frame = 0;
+        const finish = (ok) => {
+          if (done) return;
+          done = true;
+          if (frame) cancelAnimationFrame(frame);
+          if (passageAudioResolve === finish) passageAudioResolve = null;
+          const a = passageAudio;
+          passageAudio = null;
+          if (a) {
+            a.onended = null;
+            a.onerror = null;
+            try { a.pause(); } catch (e) {}
+          }
+          resolve(ok && id === passagePlayId);
+        };
+        passageAudioResolve = finish;
+
+        const times = Array.isArray(passage.times) ? passage.times : [];
+        const lastEnd = times.length ? times[times.length - 1][1] : 0;
+        const a = new Audio(passage.audio);
+        a.preload = "auto";
+        passageAudio = a;
+        const tick = () => {
+          if (id !== passagePlayId) return;
+          const ms = a.currentTime * 1000;
+          if (lastEnd && ms > lastEnd + 600) {
+            finish(true);
+            return;
+          }
+          let cur = -1;
+          for (let i = 0; i < times.length; i += 1) {
+            const t = times[i];
+            if (t && ms >= t[0]) cur = i;
+            else break;
+          }
+          highlightPassageLine(cur);
+          frame = requestAnimationFrame(tick);
+        };
+        a.onended = () => finish(true);
+        a.onerror = () => finish(false);
+        a.play().then(() => {
+          if (id !== passagePlayId) { finish(false); return; }
+          tick();
+        }).catch(() => finish(false));
+      });
+    }
+
+    function speakPassageLine(text, id) {
+      return new Promise((resolve) => {
+        let done = false;
+        let timer = 0;
+        const finish = (ok) => {
+          if (done) return;
+          done = true;
+          clearTimeout(timer);
+          if (passageLineResolve === finish) passageLineResolve = null;
+          resolve(ok !== false && id === passagePlayId);
+        };
+        passageLineResolve = finish;
+        const s = String(text || "").trim();
+        if (!s) { finish(true); return; }
+        if (audioEl) { audioEl.pause(); audioEl = null; }
+        if (passageAudio) { passageAudio.pause(); passageAudio = null; }
+        const fallback = () => {
+          try {
+            speechSynthesis.cancel();
+            const u = new SpeechSynthesisUtterance(s);
+            u.lang = "en-GB";
+            u.onend = () => finish(true);
+            u.onerror = () => finish(false);
+            speechSynthesis.speak(u);
+          } catch (e) { finish(false); }
+        };
+        const url = "https://dict.youdao.com/dictvoice?type=2&audio=" + encodeURIComponent(s);
+        const a = new Audio(url);
+        passageAudio = a;
+        a.onended = () => finish(true);
+        a.onerror = fallback;
+        a.play().catch(fallback);
+        timer = setTimeout(() => {
+          try { a.pause(); } catch (e) {}
+          finish(false);
+        }, 20000);
+      });
+    }
+
+    async function startPassagePlayback() {
+      if (!currentPassage) return;
+      stopPassagePlayback();
+      passagePlayId += 1;
+      const id = passagePlayId;
+      setPassagePlayBtn(true);
+      const lines = currentPassage.lines || [];
+      let played = 0;
+      try {
+        // 优先播放项目内的原始音频，并按其字幕时间轴逐行高亮
+        if (currentPassage.audio && Array.isArray(currentPassage.times) && currentPassage.times.length) {
+          const ok = await playPassageAudio(currentPassage, id);
+          if (id !== passagePlayId) return;
+          if (ok) return;
+          clearPassageHighlight();
+        }
+        // 没有音频（自定义短文/文件缺失）时，逐行调用有道接口朗读
+        for (let i = 0; i < lines.length; i += 1) {
+          if (id !== passagePlayId) return;
+          highlightPassageLine(i);
+          const ok = await speakPassageLine(lines[i], id);
+          if (id !== passagePlayId) return;
+          if (ok) played += 1;
+          await new Promise((r) => setTimeout(r, 180));
+        }
+        if (id === passagePlayId && lines.length && !played) {
+          toast("短文播放失败，请检查网络后重试");
+        }
+      } finally {
+        if (id === passagePlayId) {
+          clearPassageHighlight();
+          setPassagePlayBtn(false);
+        }
+      }
+    }
+
     let _anyLibIndex = null;
     function findWordAnyLib(word) {
       const key = String(word || "").toLowerCase().trim();
@@ -3450,6 +3627,8 @@
       const items = allPassageItems();
       const p = items.find((x) => String(x.id) === String(pid));
       if (!p) return;
+      stopPassagePlayback();
+      currentPassage = p;
       $("passageTitle").textContent = p.custom
         ? p.title
         : `No.${String(p.id).padStart(2, "0")} ${p.title}`;
@@ -3467,6 +3646,7 @@
     async function openPassageWord(word) {
       const key = String(word || "").toLowerCase().trim();
       if (!key) return;
+      stopPassagePlayback();
       const lib = findWordAnyLib(key);
       if (lib) { openWordModal(lib); return; }
       const map = (EBB.passages && EBB.passages.wordMap) || {};
@@ -3488,6 +3668,7 @@
     }
 
     function switchView(v) {
+      stopPassagePlayback();
       view = v;
       const isPassage = v === "passages";
       $("passageView").hidden = !isPassage;
@@ -3522,8 +3703,13 @@
     $("btnPassages").addEventListener("click", () => switchView("passages"));
     $("btnWords").addEventListener("click", () => switchView("words"));
     $("btnPassageBack").addEventListener("click", () => {
+      stopPassagePlayback();
       $("passageListWrap").hidden = false;
       $("passageDetailWrap").hidden = true;
+    });
+    $("btnPassagePlay").addEventListener("click", () => {
+      if (passagePlaying) stopPassagePlayback();
+      else startPassagePlayback();
     });
     if (!passageListClickBound) {
       $("passageList").addEventListener("click", (e) => {

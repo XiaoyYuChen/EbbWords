@@ -1,0 +1,28 @@
+1
+00:00:00,000 --> 00:00:03,609
+This is my grandma my grandma is very beautiful
+
+2
+00:00:03,690 --> 00:00:05,649
+She makes delicious food for me
+
+3
+00:00:05,889 --> 00:00:07,809
+We like to bake cookies together
+
+4
+00:00:08,169 --> 00:00:11,448
+Grandma tells me stories and teaches me how to garden
+
+5
+00:00:11,689 --> 00:00:14,208
+We plant flowers and vegetables in the yard
+
+6
+00:00:14,330 --> 00:00:16,728
+She is very patient and combs my hair
+
+7
+00:00:16,929 --> 00:00:18,882
+I Love my grandma very much
+

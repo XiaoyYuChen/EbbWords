@@ -1,0 +1,36 @@
+1
+00:00:00,000 --> 00:00:00,815
+Hello everyone!
+
+2
+00:00:00,816 --> 00:00:02,202
+My name is Bella
+
+3
+00:00:02,295 --> 00:00:08,122
+I am four years old l have a happy family with my dad mom grandpa, grandma, and me
+
+4
+00:00:08,375 --> 00:00:11,682
+I Like to dance, sing draw, and play
+
+5
+00:00:11,976 --> 00:00:13,643
+My favorite color is pink
+
+6
+00:00:13,855 --> 00:00:16,054
+I Love to eat bananas and ice cream
+
+7
+00:00:16,056 --> 00:00:17,843
+I Like to go to kindergarten
+
+8
+00:00:17,936 --> 00:00:20,202
+There are many friends to play with at school
+
+9
+00:00:20,256 --> 00:00:22,562
+I am very happy and very glad to meet you all!
+

@@ -1,0 +1,893 @@
+{
+  "attribute": {
+    "extra": {
+      "asr_service": "asr",
+      "caption_type": "speech",
+      "is_speech": "False",
+      "language": "zh-CN",
+      "sta_use_batch_request": "False"
+    }
+  },
+  "code": 0,
+  "duration": 47.1264375,
+  "id": "a0df46fe-7f92-4521-9b37-bce9ae093441",
+  "message": "Success",
+  "status": null,
+  "utterances": [
+    {
+      "end_time": 6967,
+      "start_time": 2852,
+      "text": "I get up at seven o'clock every morning",
+      "words": [
+        {
+          "attribute": {},
+          "end_time": 3200,
+          "start_time": 2852,
+          "text": "I"
+        },
+        {
+          "attribute": {},
+          "end_time": 3200,
+          "start_time": 3200,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 3460,
+          "start_time": 3200,
+          "text": "get"
+        },
+        {
+          "attribute": {},
+          "end_time": 3460,
+          "start_time": 3460,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 3747,
+          "start_time": 3460,
+          "text": "up"
+        },
+        {
+          "attribute": {},
+          "end_time": 3747,
+          "start_time": 3747,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 4547,
+          "start_time": 4172,
+          "text": "at"
+        },
+        {
+          "attribute": {},
+          "end_time": 4547,
+          "start_time": 4547,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 4856,
+          "start_time": 4547,
+          "text": "seven"
+        },
+        {
+          "attribute": {},
+          "end_time": 4856,
+          "start_time": 4856,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 5083,
+          "start_time": 4856,
+          "text": "o"
+        },
+        {
+          "attribute": {},
+          "end_time": 5083,
+          "start_time": 5083,
+          "text": "'"
+        },
+        {
+          "attribute": {},
+          "end_time": 5307,
+          "start_time": 5083,
+          "text": "clock"
+        },
+        {
+          "attribute": {},
+          "end_time": 5307,
+          "start_time": 5307,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 5907,
+          "start_time": 5532,
+          "text": "every"
+        },
+        {
+          "attribute": {},
+          "end_time": 5907,
+          "start_time": 5907,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 6967,
+          "start_time": 6012,
+          "text": "morning"
+        }
+      ]
+    },
+    {
+      "end_time": 12087,
+      "start_time": 7972,
+      "text": "I brush my teeth and wash my face",
+      "words": [
+        {
+          "attribute": {},
+          "end_time": 8347,
+          "start_time": 7972,
+          "text": "I"
+        },
+        {
+          "attribute": {},
+          "end_time": 8347,
+          "start_time": 8347,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 8740,
+          "start_time": 8347,
+          "text": "brush"
+        },
+        {
+          "attribute": {},
+          "end_time": 8740,
+          "start_time": 8740,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 9107,
+          "start_time": 8740,
+          "text": "my"
+        },
+        {
+          "attribute": {},
+          "end_time": 9107,
+          "start_time": 9107,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 9827,
+          "start_time": 9107,
+          "text": "teeth"
+        },
+        {
+          "attribute": {},
+          "end_time": 9827,
+          "start_time": 9827,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 10907,
+          "start_time": 10532,
+          "text": "and"
+        },
+        {
+          "attribute": {},
+          "end_time": 10907,
+          "start_time": 10907,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 11200,
+          "start_time": 10907,
+          "text": "wash"
+        },
+        {
+          "attribute": {},
+          "end_time": 11200,
+          "start_time": 11200,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 11503,
+          "start_time": 11200,
+          "text": "my"
+        },
+        {
+          "attribute": {},
+          "end_time": 11503,
+          "start_time": 11503,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 12087,
+          "start_time": 11503,
+          "text": "face"
+        }
+      ]
+    },
+    {
+      "end_time": 18087,
+      "start_time": 13332,
+      "text": "After I eat breakfast with my family",
+      "words": [
+        {
+          "attribute": {},
+          "end_time": 13707,
+          "start_time": 13332,
+          "text": "After"
+        },
+        {
+          "attribute": {},
+          "end_time": 13707,
+          "start_time": 13707,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 14387,
+          "start_time": 14012,
+          "text": "I"
+        },
+        {
+          "attribute": {},
+          "end_time": 14387,
+          "start_time": 14387,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 14867,
+          "start_time": 14452,
+          "text": "eat"
+        },
+        {
+          "attribute": {},
+          "end_time": 14867,
+          "start_time": 14867,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 16107,
+          "start_time": 15092,
+          "text": "breakfast"
+        },
+        {
+          "attribute": {},
+          "end_time": 16107,
+          "start_time": 16107,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 16680,
+          "start_time": 16332,
+          "text": "with"
+        },
+        {
+          "attribute": {},
+          "end_time": 16680,
+          "start_time": 16680,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 17027,
+          "start_time": 16680,
+          "text": "my"
+        },
+        {
+          "attribute": {},
+          "end_time": 17027,
+          "start_time": 17027,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 18087,
+          "start_time": 17052,
+          "text": "family"
+        }
+      ]
+    },
+    {
+      "end_time": 21847,
+      "start_time": 18452,
+      "text": "I go to school and learn many things",
+      "words": [
+        {
+          "attribute": {},
+          "end_time": 18780,
+          "start_time": 18452,
+          "text": "I"
+        },
+        {
+          "attribute": {},
+          "end_time": 18780,
+          "start_time": 18780,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 19020,
+          "start_time": 18780,
+          "text": "go"
+        },
+        {
+          "attribute": {},
+          "end_time": 19020,
+          "start_time": 19020,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 19263,
+          "start_time": 19020,
+          "text": "to"
+        },
+        {
+          "attribute": {},
+          "end_time": 19263,
+          "start_time": 19263,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 19667,
+          "start_time": 19263,
+          "text": "school"
+        },
+        {
+          "attribute": {},
+          "end_time": 19667,
+          "start_time": 19667,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 20260,
+          "start_time": 19932,
+          "text": "and"
+        },
+        {
+          "attribute": {},
+          "end_time": 20260,
+          "start_time": 20260,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 20587,
+          "start_time": 20260,
+          "text": "learn"
+        },
+        {
+          "attribute": {},
+          "end_time": 20587,
+          "start_time": 20587,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 21027,
+          "start_time": 20652,
+          "text": "many"
+        },
+        {
+          "attribute": {},
+          "end_time": 21027,
+          "start_time": 21027,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 21847,
+          "start_time": 21172,
+          "text": "things"
+        }
+      ]
+    },
+    {
+      "end_time": 24407,
+      "start_time": 22892,
+      "text": "During recess",
+      "words": [
+        {
+          "attribute": {},
+          "end_time": 23467,
+          "start_time": 22892,
+          "text": "During"
+        },
+        {
+          "attribute": {},
+          "end_time": 23467,
+          "start_time": 23467,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 24407,
+          "start_time": 23467,
+          "text": "recess"
+        }
+      ]
+    },
+    {
+      "end_time": 28527,
+      "start_time": 25172,
+      "text": "I play with my friends",
+      "words": [
+        {
+          "attribute": {},
+          "end_time": 25520,
+          "start_time": 25172,
+          "text": "I"
+        },
+        {
+          "attribute": {},
+          "end_time": 25520,
+          "start_time": 25520,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 25840,
+          "start_time": 25520,
+          "text": "play"
+        },
+        {
+          "attribute": {},
+          "end_time": 25840,
+          "start_time": 25840,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 26187,
+          "start_time": 25840,
+          "text": "with"
+        },
+        {
+          "attribute": {},
+          "end_time": 26187,
+          "start_time": 26187,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 26667,
+          "start_time": 26292,
+          "text": "my"
+        },
+        {
+          "attribute": {},
+          "end_time": 26667,
+          "start_time": 26667,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 28527,
+          "start_time": 27372,
+          "text": "friends"
+        }
+      ]
+    },
+    {
+      "end_time": 30287,
+      "start_time": 28932,
+      "text": "After school",
+      "words": [
+        {
+          "attribute": {},
+          "end_time": 29307,
+          "start_time": 28932,
+          "text": "After"
+        },
+        {
+          "attribute": {},
+          "end_time": 29307,
+          "start_time": 29307,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 30287,
+          "start_time": 29372,
+          "text": "school"
+        }
+      ]
+    },
+    {
+      "end_time": 34247,
+      "start_time": 30652,
+      "text": "I go home and do my homework",
+      "words": [
+        {
+          "attribute": {},
+          "end_time": 31020,
+          "start_time": 30652,
+          "text": "I"
+        },
+        {
+          "attribute": {},
+          "end_time": 31020,
+          "start_time": 31020,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 31387,
+          "start_time": 31020,
+          "text": "go"
+        },
+        {
+          "attribute": {},
+          "end_time": 31387,
+          "start_time": 31387,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 31827,
+          "start_time": 31387,
+          "text": "home"
+        },
+        {
+          "attribute": {},
+          "end_time": 31827,
+          "start_time": 31827,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 32720,
+          "start_time": 32372,
+          "text": "and"
+        },
+        {
+          "attribute": {},
+          "end_time": 32720,
+          "start_time": 32720,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 32980,
+          "start_time": 32720,
+          "text": "do"
+        },
+        {
+          "attribute": {},
+          "end_time": 32980,
+          "start_time": 32980,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 33267,
+          "start_time": 32980,
+          "text": "my"
+        },
+        {
+          "attribute": {},
+          "end_time": 33267,
+          "start_time": 33267,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 34247,
+          "start_time": 33267,
+          "text": "homework"
+        }
+      ]
+    },
+    {
+      "end_time": 36447,
+      "start_time": 35052,
+      "text": "In the evening",
+      "words": [
+        {
+          "attribute": {},
+          "end_time": 35340,
+          "start_time": 35052,
+          "text": "In"
+        },
+        {
+          "attribute": {},
+          "end_time": 35340,
+          "start_time": 35340,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 35627,
+          "start_time": 35340,
+          "text": "the"
+        },
+        {
+          "attribute": {},
+          "end_time": 35627,
+          "start_time": 35627,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 36447,
+          "start_time": 35627,
+          "text": "evening"
+        }
+      ]
+    },
+    {
+      "end_time": 40247,
+      "start_time": 37012,
+      "text": "I eat dinner with my family",
+      "words": [
+        {
+          "attribute": {},
+          "end_time": 37387,
+          "start_time": 37012,
+          "text": "I"
+        },
+        {
+          "attribute": {},
+          "end_time": 37387,
+          "start_time": 37387,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 37907,
+          "start_time": 37492,
+          "text": "eat"
+        },
+        {
+          "attribute": {},
+          "end_time": 37907,
+          "start_time": 37907,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 38507,
+          "start_time": 37932,
+          "text": "dinner"
+        },
+        {
+          "attribute": {},
+          "end_time": 38507,
+          "start_time": 38507,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 38960,
+          "start_time": 38612,
+          "text": "with"
+        },
+        {
+          "attribute": {},
+          "end_time": 38960,
+          "start_time": 38960,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 39307,
+          "start_time": 38960,
+          "text": "my"
+        },
+        {
+          "attribute": {},
+          "end_time": 39307,
+          "start_time": 39307,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 40247,
+          "start_time": 39307,
+          "text": "family"
+        }
+      ]
+    },
+    {
+      "end_time": 46527,
+      "start_time": 40412,
+      "text": "I start to sleep at nine o'clock to be ready for a new day",
+      "words": [
+        {
+          "attribute": {},
+          "end_time": 40740,
+          "start_time": 40412,
+          "text": "I"
+        },
+        {
+          "attribute": {},
+          "end_time": 40740,
+          "start_time": 40740,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 40980,
+          "start_time": 40740,
+          "text": "start"
+        },
+        {
+          "attribute": {},
+          "end_time": 40980,
+          "start_time": 40980,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 41243,
+          "start_time": 40980,
+          "text": "to"
+        },
+        {
+          "attribute": {},
+          "end_time": 41243,
+          "start_time": 41243,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 41747,
+          "start_time": 41243,
+          "text": "sleep"
+        },
+        {
+          "attribute": {},
+          "end_time": 41747,
+          "start_time": 41747,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 42467,
+          "start_time": 42092,
+          "text": "at"
+        },
+        {
+          "attribute": {},
+          "end_time": 42467,
+          "start_time": 42467,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 42860,
+          "start_time": 42467,
+          "text": "nine"
+        },
+        {
+          "attribute": {},
+          "end_time": 42860,
+          "start_time": 42860,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 43163,
+          "start_time": 42860,
+          "text": "o"
+        },
+        {
+          "attribute": {},
+          "end_time": 43163,
+          "start_time": 43163,
+          "text": "'"
+        },
+        {
+          "attribute": {},
+          "end_time": 43547,
+          "start_time": 43163,
+          "text": "clock"
+        },
+        {
+          "attribute": {},
+          "end_time": 43547,
+          "start_time": 43547,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 44320,
+          "start_time": 44052,
+          "text": "to"
+        },
+        {
+          "attribute": {},
+          "end_time": 44320,
+          "start_time": 44320,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 44563,
+          "start_time": 44320,
+          "text": "be"
+        },
+        {
+          "attribute": {},
+          "end_time": 44563,
+          "start_time": 44563,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 44840,
+          "start_time": 44563,
+          "text": "ready"
+        },
+        {
+          "attribute": {},
+          "end_time": 44840,
+          "start_time": 44840,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 45147,
+          "start_time": 44840,
+          "text": "for"
+        },
+        {
+          "attribute": {},
+          "end_time": 45147,
+          "start_time": 45147,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 45560,
+          "start_time": 45252,
+          "text": "a"
+        },
+        {
+          "attribute": {},
+          "end_time": 45560,
+          "start_time": 45560,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 45860,
+          "start_time": 45560,
+          "text": "new"
+        },
+        {
+          "attribute": {},
+          "end_time": 45860,
+          "start_time": 45860,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 46527,
+          "start_time": 45860,
+          "text": "day"
+        }
+      ]
+    }
+  ]
+}

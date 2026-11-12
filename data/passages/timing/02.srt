@@ -1,0 +1,28 @@
+1
+00:00:00,000 --> 00:00:01,860
+I Love eating ice cream
+
+2
+00:00:01,879 --> 00:00:06,740
+Ice cream comes in many flavors and my favorite is strawberry
+
+3
+00:00:07,078 --> 00:00:12,019
+Eating ice cream in the summer is the best because it cools me down
+
+4
+00:00:12,079 --> 00:00:13,198
+Sometimes
+
+5
+00:00:13,198 --> 00:00:19,059
+I go to the ice cream shop with my family and everyone chooses their favorite flavor
+
+6
+00:00:19,318 --> 00:00:23,179
+Ice cream is not only delicious but also makes me happy
+
+7
+00:00:23,478 --> 00:00:26,801
+Every time I eat ice cream it's a joyful moment
+

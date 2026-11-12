@@ -1,0 +1,889 @@
+{
+  "attribute": {
+    "extra": {
+      "asr_service": "asr",
+      "caption_type": "speech",
+      "is_speech": "False",
+      "language": "zh-CN",
+      "sta_use_batch_request": "False"
+    }
+  },
+  "code": 0,
+  "duration": 80.577125,
+  "id": "e97ee59e-e8cf-4dc2-8ae3-14ee1b03ee3b",
+  "message": "Success",
+  "utterances": [
+    {
+      "attribute": {},
+      "end_time": 1217,
+      "start_time": 0,
+      "text": "Colors",
+      "words": [
+        {
+          "attribute": {},
+          "end_time": 1141,
+          "start_time": 0,
+          "text": "Colors"
+        },
+        {
+          "attribute": {},
+          "end_time": 1217,
+          "start_time": 1141,
+          "text": ""
+        }
+      ]
+    },
+    {
+      "attribute": {},
+      "end_time": 2581,
+      "start_time": 1218,
+      "text": "by Rebecca T",
+      "words": [
+        {
+          "attribute": {},
+          "end_time": 1500,
+          "start_time": 1218,
+          "text": "by"
+        },
+        {
+          "attribute": {},
+          "end_time": 1500,
+          "start_time": 1500,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 2299,
+          "start_time": 1500,
+          "text": "Rebecca"
+        },
+        {
+          "attribute": {},
+          "end_time": 2299,
+          "start_time": 2299,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 2581,
+          "start_time": 2299,
+          "text": "T"
+        }
+      ]
+    },
+    {
+      "attribute": {},
+      "end_time": 5681,
+      "start_time": 2581,
+      "text": "Besser",
+      "words": [
+        {
+          "attribute": {},
+          "end_time": 5381,
+          "start_time": 2581,
+          "text": "Besser"
+        },
+        {
+          "attribute": {},
+          "end_time": 5381,
+          "start_time": 5381,
+          "text": ""
+        },
+        {
+          "attribute": {},
+          "end_time": 5681,
+          "start_time": 5381,
+          "text": ""
+        }
+      ]
+    },
+    {
+      "attribute": {},
+      "end_time": 16361,
+      "start_time": 12458,
+      "text": "Red, blue, yellow, and green",
+      "words": [
+        {
+          "attribute": {},
+          "end_time": 12981,
+          "start_time": 12458,
+          "text": "Red"
+        },
+        {
+          "attribute": {},
+          "end_time": 12981,
+          "start_time": 12981,
+          "text": ","
+        },
+        {
+          "attribute": {},
+          "end_time": 12981,
+          "start_time": 12981,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 13981,
+          "start_time": 13458,
+          "text": "blue"
+        },
+        {
+          "attribute": {},
+          "end_time": 13981,
+          "start_time": 13981,
+          "text": ","
+        },
+        {
+          "attribute": {},
+          "end_time": 13981,
+          "start_time": 13981,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 14981,
+          "start_time": 14378,
+          "text": "yellow"
+        },
+        {
+          "attribute": {},
+          "end_time": 14981,
+          "start_time": 14981,
+          "text": ","
+        },
+        {
+          "attribute": {},
+          "end_time": 14981,
+          "start_time": 14981,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 15501,
+          "start_time": 15138,
+          "text": "and"
+        },
+        {
+          "attribute": {},
+          "end_time": 15501,
+          "start_time": 15501,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 16361,
+          "start_time": 15538,
+          "text": "green"
+        }
+      ]
+    },
+    {
+      "attribute": {},
+      "end_time": 20201,
+      "start_time": 17418,
+      "text": "Four bright colors to be seen",
+      "words": [
+        {
+          "attribute": {},
+          "end_time": 17781,
+          "start_time": 17418,
+          "text": "Four"
+        },
+        {
+          "attribute": {},
+          "end_time": 17781,
+          "start_time": 17781,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 18181,
+          "start_time": 17781,
+          "text": "bright"
+        },
+        {
+          "attribute": {},
+          "end_time": 18181,
+          "start_time": 18181,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 19080,
+          "start_time": 18218,
+          "text": "colors"
+        },
+        {
+          "attribute": {},
+          "end_time": 19080,
+          "start_time": 19080,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 19280,
+          "start_time": 19080,
+          "text": "to"
+        },
+        {
+          "attribute": {},
+          "end_time": 19280,
+          "start_time": 19280,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 19541,
+          "start_time": 19280,
+          "text": "be"
+        },
+        {
+          "attribute": {},
+          "end_time": 19541,
+          "start_time": 19541,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 20201,
+          "start_time": 19541,
+          "text": "seen"
+        }
+      ]
+    },
+    {
+      "attribute": {},
+      "end_time": 25601,
+      "start_time": 21978,
+      "text": "Red is the color of the rose",
+      "words": [
+        {
+          "attribute": {},
+          "end_time": 22379,
+          "start_time": 21978,
+          "text": "Red"
+        },
+        {
+          "attribute": {},
+          "end_time": 22379,
+          "start_time": 22379,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 22640,
+          "start_time": 22379,
+          "text": "is"
+        },
+        {
+          "attribute": {},
+          "end_time": 22640,
+          "start_time": 22640,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 22920,
+          "start_time": 22640,
+          "text": "the"
+        },
+        {
+          "attribute": {},
+          "end_time": 22920,
+          "start_time": 22920,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 23221,
+          "start_time": 22920,
+          "text": "color"
+        },
+        {
+          "attribute": {},
+          "end_time": 23221,
+          "start_time": 23221,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 24080,
+          "start_time": 23738,
+          "text": "of"
+        },
+        {
+          "attribute": {},
+          "end_time": 24080,
+          "start_time": 24080,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 24421,
+          "start_time": 24080,
+          "text": "the"
+        },
+        {
+          "attribute": {},
+          "end_time": 24421,
+          "start_time": 24421,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 25601,
+          "start_time": 24421,
+          "text": "rose"
+        }
+      ]
+    },
+    {
+      "attribute": {},
+      "end_time": 29361,
+      "start_time": 26298,
+      "text": "that I smell with my nose",
+      "words": [
+        {
+          "attribute": {},
+          "end_time": 26600,
+          "start_time": 26298,
+          "text": "that"
+        },
+        {
+          "attribute": {},
+          "end_time": 26600,
+          "start_time": 26600,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 26901,
+          "start_time": 26600,
+          "text": "I"
+        },
+        {
+          "attribute": {},
+          "end_time": 26901,
+          "start_time": 26901,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 27440,
+          "start_time": 26901,
+          "text": "smell"
+        },
+        {
+          "attribute": {},
+          "end_time": 27440,
+          "start_time": 27440,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 27781,
+          "start_time": 27440,
+          "text": "with"
+        },
+        {
+          "attribute": {},
+          "end_time": 27781,
+          "start_time": 27781,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 28221,
+          "start_time": 27858,
+          "text": "my"
+        },
+        {
+          "attribute": {},
+          "end_time": 28221,
+          "start_time": 28221,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 29361,
+          "start_time": 28221,
+          "text": "nose"
+        }
+      ]
+    },
+    {
+      "attribute": {},
+      "end_time": 33201,
+      "start_time": 30018,
+      "text": "Blue is the color of the sky",
+      "words": [
+        {
+          "attribute": {},
+          "end_time": 30499,
+          "start_time": 30018,
+          "text": "Blue"
+        },
+        {
+          "attribute": {},
+          "end_time": 30499,
+          "start_time": 30499,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 30780,
+          "start_time": 30499,
+          "text": "is"
+        },
+        {
+          "attribute": {},
+          "end_time": 30780,
+          "start_time": 30780,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 31080,
+          "start_time": 30780,
+          "text": "the"
+        },
+        {
+          "attribute": {},
+          "end_time": 31080,
+          "start_time": 31080,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 31381,
+          "start_time": 31080,
+          "text": "color"
+        },
+        {
+          "attribute": {},
+          "end_time": 31381,
+          "start_time": 31381,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 32200,
+          "start_time": 31898,
+          "text": "of"
+        },
+        {
+          "attribute": {},
+          "end_time": 32200,
+          "start_time": 32200,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 32500,
+          "start_time": 32200,
+          "text": "the"
+        },
+        {
+          "attribute": {},
+          "end_time": 32500,
+          "start_time": 32500,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 33201,
+          "start_time": 32500,
+          "text": "sky"
+        }
+      ]
+    },
+    {
+      "attribute": {},
+      "end_time": 38881,
+      "start_time": 34138,
+      "text": "with fluffy clouds, way up high",
+      "words": [
+        {
+          "attribute": {},
+          "end_time": 34501,
+          "start_time": 34138,
+          "text": "with"
+        },
+        {
+          "attribute": {},
+          "end_time": 34501,
+          "start_time": 34501,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 35301,
+          "start_time": 34578,
+          "text": "fluffy"
+        },
+        {
+          "attribute": {},
+          "end_time": 35301,
+          "start_time": 35301,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 36741,
+          "start_time": 35738,
+          "text": "clouds"
+        },
+        {
+          "attribute": {},
+          "end_time": 36741,
+          "start_time": 36741,
+          "text": ","
+        },
+        {
+          "attribute": {},
+          "end_time": 36741,
+          "start_time": 36741,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 37900,
+          "start_time": 37578,
+          "text": "way"
+        },
+        {
+          "attribute": {},
+          "end_time": 37900,
+          "start_time": 37900,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 38220,
+          "start_time": 37900,
+          "text": "up"
+        },
+        {
+          "attribute": {},
+          "end_time": 38220,
+          "start_time": 38220,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 38881,
+          "start_time": 38220,
+          "text": "high"
+        }
+      ]
+    },
+    {
+      "attribute": {},
+      "end_time": 43401,
+      "start_time": 40658,
+      "text": "Yellow and green can be found",
+      "words": [
+        {
+          "attribute": {},
+          "end_time": 41099,
+          "start_time": 40658,
+          "text": "Yellow"
+        },
+        {
+          "attribute": {},
+          "end_time": 41099,
+          "start_time": 41099,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 41381,
+          "start_time": 41099,
+          "text": "and"
+        },
+        {
+          "attribute": {},
+          "end_time": 41381,
+          "start_time": 41381,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 41901,
+          "start_time": 41381,
+          "text": "green"
+        },
+        {
+          "attribute": {},
+          "end_time": 41901,
+          "start_time": 41901,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 42360,
+          "start_time": 42018,
+          "text": "can"
+        },
+        {
+          "attribute": {},
+          "end_time": 42360,
+          "start_time": 42360,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 42701,
+          "start_time": 42360,
+          "text": "be"
+        },
+        {
+          "attribute": {},
+          "end_time": 42701,
+          "start_time": 42701,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 43401,
+          "start_time": 42701,
+          "text": "found"
+        }
+      ]
+    },
+    {
+      "attribute": {},
+      "end_time": 47841,
+      "start_time": 44698,
+      "text": "on grass and flowers all around",
+      "words": [
+        {
+          "attribute": {},
+          "end_time": 45061,
+          "start_time": 44698,
+          "text": "on"
+        },
+        {
+          "attribute": {},
+          "end_time": 45061,
+          "start_time": 45061,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 45539,
+          "start_time": 45061,
+          "text": "grass"
+        },
+        {
+          "attribute": {},
+          "end_time": 45539,
+          "start_time": 45539,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 45821,
+          "start_time": 45539,
+          "text": "and"
+        },
+        {
+          "attribute": {},
+          "end_time": 45821,
+          "start_time": 45821,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 46501,
+          "start_time": 45821,
+          "text": "flowers"
+        },
+        {
+          "attribute": {},
+          "end_time": 46501,
+          "start_time": 46501,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 46941,
+          "start_time": 46578,
+          "text": "all"
+        },
+        {
+          "attribute": {},
+          "end_time": 46941,
+          "start_time": 46941,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 47841,
+          "start_time": 47178,
+          "text": "around"
+        }
+      ]
+    },
+    {
+      "attribute": {},
+      "end_time": 52721,
+      "start_time": 51058,
+      "text": "Rhyming words ",
+      "words": [
+        {
+          "attribute": {},
+          "end_time": 51741,
+          "start_time": 51058,
+          "text": "Rhyming"
+        },
+        {
+          "attribute": {},
+          "end_time": 51741,
+          "start_time": 51741,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 52421,
+          "start_time": 51741,
+          "text": "words"
+        },
+        {
+          "attribute": {},
+          "end_time": 52421,
+          "start_time": 52421,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 52721,
+          "start_time": 52421,
+          "text": ""
+        }
+      ]
+    },
+    {
+      "attribute": {},
+      "end_time": 56001,
+      "start_time": 53698,
+      "text": "green-seen",
+      "words": [
+        {
+          "attribute": {},
+          "end_time": 54221,
+          "start_time": 53698,
+          "text": "green"
+        },
+        {
+          "attribute": {},
+          "end_time": 54221,
+          "start_time": 54221,
+          "text": "-"
+        },
+        {
+          "attribute": {},
+          "end_time": 55701,
+          "start_time": 55258,
+          "text": "seen"
+        },
+        {
+          "attribute": {},
+          "end_time": 56001,
+          "start_time": 55701,
+          "text": ""
+        }
+      ]
+    },
+    {
+      "attribute": {},
+      "end_time": 61241,
+      "start_time": 57218,
+      "text": "rose-nose",
+      "words": [
+        {
+          "attribute": {},
+          "end_time": 58141,
+          "start_time": 57218,
+          "text": "rose"
+        },
+        {
+          "attribute": {},
+          "end_time": 58141,
+          "start_time": 58141,
+          "text": "-"
+        },
+        {
+          "attribute": {},
+          "end_time": 60941,
+          "start_time": 59898,
+          "text": "nose"
+        },
+        {
+          "attribute": {},
+          "end_time": 61241,
+          "start_time": 60941,
+          "text": ""
+        }
+      ]
+    },
+    {
+      "attribute": {},
+      "end_time": 64601,
+      "start_time": 61818,
+      "text": "sky-high",
+      "words": [
+        {
+          "attribute": {},
+          "end_time": 62381,
+          "start_time": 61818,
+          "text": "sky"
+        },
+        {
+          "attribute": {},
+          "end_time": 62381,
+          "start_time": 62381,
+          "text": "-"
+        },
+        {
+          "attribute": {},
+          "end_time": 64301,
+          "start_time": 63738,
+          "text": "high"
+        },
+        {
+          "attribute": {},
+          "end_time": 64601,
+          "start_time": 64301,
+          "text": ""
+        }
+      ]
+    },
+    {
+      "attribute": {},
+      "end_time": 74001,
+      "start_time": 66098,
+      "text": "found-around",
+      "words": [
+        {
+          "attribute": {},
+          "end_time": 66541,
+          "start_time": 66098,
+          "text": "found"
+        },
+        {
+          "attribute": {},
+          "end_time": 66541,
+          "start_time": 66541,
+          "text": "-"
+        },
+        {
+          "attribute": {},
+          "end_time": 74001,
+          "start_time": 72778,
+          "text": "around"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1193 @@
+{
+  "attribute": {
+    "extra": {
+      "asr_service": "asr",
+      "caption_type": "speech",
+      "is_speech": "False",
+      "language": "zh-CN",
+      "sta_use_batch_request": "False"
+    }
+  },
+  "code": 0,
+  "duration": 71.361125,
+  "id": "328189cc-0c05-444f-b47d-db1e1d50d992",
+  "message": "Success",
+  "utterances": [
+    {
+      "attribute": {},
+      "end_time": 1586,
+      "start_time": 869,
+      "text": "The Car Trip",
+      "words": [
+        {
+          "attribute": {},
+          "end_time": 1260,
+          "start_time": 869,
+          "text": "The"
+        },
+        {
+          "attribute": {},
+          "end_time": 1260,
+          "start_time": 1260,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 1493,
+          "start_time": 1260,
+          "text": "Car"
+        },
+        {
+          "attribute": {},
+          "end_time": 1493,
+          "start_time": 1493,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 1586,
+          "start_time": 1493,
+          "text": "Trip"
+        },
+        {
+          "attribute": {},
+          "end_time": 1586,
+          "start_time": 1586,
+          "text": ""
+        }
+      ]
+    },
+    {
+      "attribute": {},
+      "end_time": 2547,
+      "start_time": 1586,
+      "text": "by Ruth Donnelly",
+      "words": [
+        {
+          "attribute": {},
+          "end_time": 1847,
+          "start_time": 1586,
+          "text": "by"
+        },
+        {
+          "attribute": {},
+          "end_time": 1847,
+          "start_time": 1847,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 1940,
+          "start_time": 1847,
+          "text": "Ruth"
+        },
+        {
+          "attribute": {},
+          "end_time": 1940,
+          "start_time": 1940,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 2247,
+          "start_time": 1940,
+          "text": "Donnelly"
+        },
+        {
+          "attribute": {},
+          "end_time": 2247,
+          "start_time": 2247,
+          "text": ""
+        },
+        {
+          "attribute": {},
+          "end_time": 2547,
+          "start_time": 2247,
+          "text": ""
+        }
+      ]
+    },
+    {
+      "attribute": {},
+      "end_time": 7187,
+      "start_time": 4832,
+      "text": "we are going  on a trip",
+      "words": [
+        {
+          "attribute": {},
+          "end_time": 5120,
+          "start_time": 4832,
+          "text": "we"
+        },
+        {
+          "attribute": {},
+          "end_time": 5120,
+          "start_time": 5120,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 5400,
+          "start_time": 5120,
+          "text": "are"
+        },
+        {
+          "attribute": {},
+          "end_time": 5400,
+          "start_time": 5400,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 5727,
+          "start_time": 5400,
+          "text": "going"
+        },
+        {
+          "attribute": {},
+          "end_time": 5727,
+          "start_time": 5727,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 5727,
+          "start_time": 5727,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 6140,
+          "start_time": 5872,
+          "text": "on"
+        },
+        {
+          "attribute": {},
+          "end_time": 6140,
+          "start_time": 6140,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 6407,
+          "start_time": 6140,
+          "text": "a"
+        },
+        {
+          "attribute": {},
+          "end_time": 6407,
+          "start_time": 6407,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 7187,
+          "start_time": 6407,
+          "text": "trip"
+        }
+      ]
+    },
+    {
+      "attribute": {},
+      "end_time": 10307,
+      "start_time": 8712,
+      "text": "Not on a plane!",
+      "words": [
+        {
+          "attribute": {},
+          "end_time": 9040,
+          "start_time": 8712,
+          "text": "Not"
+        },
+        {
+          "attribute": {},
+          "end_time": 9040,
+          "start_time": 9040,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 9280,
+          "start_time": 9040,
+          "text": "on"
+        },
+        {
+          "attribute": {},
+          "end_time": 9280,
+          "start_time": 9280,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 9527,
+          "start_time": 9280,
+          "text": "a"
+        },
+        {
+          "attribute": {},
+          "end_time": 9527,
+          "start_time": 9527,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 10007,
+          "start_time": 9527,
+          "text": "plane"
+        },
+        {
+          "attribute": {},
+          "end_time": 10307,
+          "start_time": 10007,
+          "text": "!"
+        }
+      ]
+    },
+    {
+      "attribute": {},
+      "end_time": 13307,
+      "start_time": 11632,
+      "text": "Not in a ship!",
+      "words": [
+        {
+          "attribute": {},
+          "end_time": 11967,
+          "start_time": 11632,
+          "text": "Not"
+        },
+        {
+          "attribute": {},
+          "end_time": 11967,
+          "start_time": 11967,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 12260,
+          "start_time": 11992,
+          "text": "in"
+        },
+        {
+          "attribute": {},
+          "end_time": 12260,
+          "start_time": 12260,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 12527,
+          "start_time": 12260,
+          "text": "a"
+        },
+        {
+          "attribute": {},
+          "end_time": 12527,
+          "start_time": 12527,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 13007,
+          "start_time": 12527,
+          "text": "ship"
+        },
+        {
+          "attribute": {},
+          "end_time": 13307,
+          "start_time": 13007,
+          "text": "!"
+        }
+      ]
+    },
+    {
+      "attribute": {},
+      "end_time": 17187,
+      "start_time": 14392,
+      "text": "We will ride in our new car",
+      "words": [
+        {
+          "attribute": {},
+          "end_time": 14660,
+          "start_time": 14392,
+          "text": "We"
+        },
+        {
+          "attribute": {},
+          "end_time": 14660,
+          "start_time": 14660,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 14927,
+          "start_time": 14660,
+          "text": "will"
+        },
+        {
+          "attribute": {},
+          "end_time": 14927,
+          "start_time": 14927,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 15447,
+          "start_time": 14952,
+          "text": "ride"
+        },
+        {
+          "attribute": {},
+          "end_time": 15447,
+          "start_time": 15447,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 15840,
+          "start_time": 15552,
+          "text": "in"
+        },
+        {
+          "attribute": {},
+          "end_time": 15840,
+          "start_time": 15840,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 16127,
+          "start_time": 15840,
+          "text": "our"
+        },
+        {
+          "attribute": {},
+          "end_time": 16127,
+          "start_time": 16127,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 16527,
+          "start_time": 16192,
+          "text": "new"
+        },
+        {
+          "attribute": {},
+          "end_time": 16527,
+          "start_time": 16527,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 17187,
+          "start_time": 16552,
+          "text": "car"
+        }
+      ]
+    },
+    {
+      "attribute": {},
+      "end_time": 22867,
+      "start_time": 18872,
+      "text": "Buckle up -- we will go far",
+      "words": [
+        {
+          "attribute": {},
+          "end_time": 19460,
+          "start_time": 18872,
+          "text": "Buckle"
+        },
+        {
+          "attribute": {},
+          "end_time": 19460,
+          "start_time": 19460,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 19767,
+          "start_time": 19460,
+          "text": "up"
+        },
+        {
+          "attribute": {},
+          "end_time": 19767,
+          "start_time": 19767,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 19767,
+          "start_time": 19767,
+          "text": "--"
+        },
+        {
+          "attribute": {},
+          "end_time": 19767,
+          "start_time": 19767,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 21460,
+          "start_time": 21152,
+          "text": "we"
+        },
+        {
+          "attribute": {},
+          "end_time": 21460,
+          "start_time": 21460,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 21767,
+          "start_time": 21460,
+          "text": "will"
+        },
+        {
+          "attribute": {},
+          "end_time": 21767,
+          "start_time": 21767,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 22167,
+          "start_time": 21832,
+          "text": "go"
+        },
+        {
+          "attribute": {},
+          "end_time": 22167,
+          "start_time": 22167,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 22867,
+          "start_time": 22192,
+          "text": "far"
+        }
+      ]
+    },
+    {
+      "attribute": {},
+      "end_time": 25987,
+      "start_time": 24992,
+      "text": "Red light",
+      "words": [
+        {
+          "attribute": {},
+          "end_time": 25400,
+          "start_time": 24992,
+          "text": "Red"
+        },
+        {
+          "attribute": {},
+          "end_time": 25400,
+          "start_time": 25400,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 25987,
+          "start_time": 25400,
+          "text": "light"
+        }
+      ]
+    },
+    {
+      "attribute": {},
+      "end_time": 27189,
+      "start_time": 26389,
+      "text": "stop",
+      "words": [
+        {
+          "attribute": {},
+          "end_time": 27189,
+          "start_time": 26389,
+          "text": "stop"
+        }
+      ]
+    },
+    {
+      "attribute": {},
+      "end_time": 29947,
+      "start_time": 27992,
+      "text": "Green light, go",
+      "words": [
+        {
+          "attribute": {},
+          "end_time": 28480,
+          "start_time": 27992,
+          "text": "Green"
+        },
+        {
+          "attribute": {},
+          "end_time": 28480,
+          "start_time": 28480,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 28807,
+          "start_time": 28480,
+          "text": "light"
+        },
+        {
+          "attribute": {},
+          "end_time": 28807,
+          "start_time": 28807,
+          "text": ","
+        },
+        {
+          "attribute": {},
+          "end_time": 28807,
+          "start_time": 28807,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 29947,
+          "start_time": 29312,
+          "text": "go"
+        }
+      ]
+    },
+    {
+      "attribute": {},
+      "end_time": 34151,
+      "start_time": 31192,
+      "text": "Yellow light means slow, slow",
+      "words": [
+        {
+          "attribute": {},
+          "end_time": 31640,
+          "start_time": 31192,
+          "text": "Yellow"
+        },
+        {
+          "attribute": {},
+          "end_time": 31640,
+          "start_time": 31640,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 31927,
+          "start_time": 31640,
+          "text": "light"
+        },
+        {
+          "attribute": {},
+          "end_time": 31927,
+          "start_time": 31927,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 32807,
+          "start_time": 32152,
+          "text": "means"
+        },
+        {
+          "attribute": {},
+          "end_time": 32807,
+          "start_time": 32807,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 33607,
+          "start_time": 33112,
+          "text": "slow"
+        },
+        {
+          "attribute": {},
+          "end_time": 33607,
+          "start_time": 33607,
+          "text": ","
+        },
+        {
+          "attribute": {},
+          "end_time": 33607,
+          "start_time": 33607,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 34151,
+          "start_time": 33632,
+          "text": "slow"
+        }
+      ]
+    },
+    {
+      "attribute": {},
+      "end_time": 34987,
+      "start_time": 34152,
+      "text": "slow",
+      "words": [
+        {
+          "attribute": {},
+          "end_time": 34987,
+          "start_time": 34152,
+          "text": "slow"
+        }
+      ]
+    },
+    {
+      "attribute": {},
+      "end_time": 39547,
+      "start_time": 36832,
+      "text": "Baby brother starts to fret",
+      "words": [
+        {
+          "attribute": {},
+          "end_time": 37447,
+          "start_time": 36832,
+          "text": "Baby"
+        },
+        {
+          "attribute": {},
+          "end_time": 37447,
+          "start_time": 37447,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 37967,
+          "start_time": 37447,
+          "text": "brother"
+        },
+        {
+          "attribute": {},
+          "end_time": 37967,
+          "start_time": 37967,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 38546,
+          "start_time": 38152,
+          "text": "starts"
+        },
+        {
+          "attribute": {},
+          "end_time": 38546,
+          "start_time": 38546,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 38807,
+          "start_time": 38546,
+          "text": "to"
+        },
+        {
+          "attribute": {},
+          "end_time": 38807,
+          "start_time": 38807,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 39547,
+          "start_time": 38807,
+          "text": "fret"
+        }
+      ]
+    },
+    {
+      "attribute": {},
+      "end_time": 45087,
+      "start_time": 40872,
+      "text": "Sister says,\"Are we there yet?",
+      "words": [
+        {
+          "attribute": {},
+          "end_time": 41487,
+          "start_time": 40872,
+          "text": "Sister"
+        },
+        {
+          "attribute": {},
+          "end_time": 41487,
+          "start_time": 41487,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 41847,
+          "start_time": 41487,
+          "text": "says"
+        },
+        {
+          "attribute": {},
+          "end_time": 41847,
+          "start_time": 41847,
+          "text": ","
+        },
+        {
+          "attribute": {},
+          "end_time": 41847,
+          "start_time": 41847,
+          "text": "\""
+        },
+        {
+          "attribute": {},
+          "end_time": 43840,
+          "start_time": 43512,
+          "text": "Are"
+        },
+        {
+          "attribute": {},
+          "end_time": 43840,
+          "start_time": 43840,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 44100,
+          "start_time": 43840,
+          "text": "we"
+        },
+        {
+          "attribute": {},
+          "end_time": 44100,
+          "start_time": 44100,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 44407,
+          "start_time": 44100,
+          "text": "there"
+        },
+        {
+          "attribute": {},
+          "end_time": 44407,
+          "start_time": 44407,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 45087,
+          "start_time": 44632,
+          "text": "yet"
+        },
+        {
+          "attribute": {},
+          "end_time": 45087,
+          "start_time": 45087,
+          "text": "?"
+        }
+      ]
+    },
+    {
+      "attribute": {},
+      "end_time": 45637,
+      "start_time": 45087,
+      "text": "\"",
+      "words": [
+        {
+          "attribute": {},
+          "end_time": 45087,
+          "start_time": 45087,
+          "text": "\""
+        },
+        {
+          "attribute": {},
+          "end_time": 45637,
+          "start_time": 45087,
+          "text": ""
+        }
+      ]
+    },
+    {
+      "attribute": {},
+      "end_time": 48707,
+      "start_time": 47832,
+      "text": "Quite",
+      "words": [
+        {
+          "attribute": {},
+          "end_time": 48707,
+          "start_time": 47832,
+          "text": "Quite"
+        }
+      ]
+    },
+    {
+      "attribute": {},
+      "end_time": 49529,
+      "start_time": 48729,
+      "text": "now",
+      "words": [
+        {
+          "attribute": {},
+          "end_time": 49529,
+          "start_time": 48729,
+          "text": "now"
+        }
+      ]
+    },
+    {
+      "attribute": {},
+      "end_time": 52107,
+      "start_time": 50072,
+      "text": "Don't make a peep",
+      "words": [
+        {
+          "attribute": {},
+          "end_time": 50300,
+          "start_time": 50072,
+          "text": "Don"
+        },
+        {
+          "attribute": {},
+          "end_time": 50300,
+          "start_time": 50300,
+          "text": "'"
+        },
+        {
+          "attribute": {},
+          "end_time": 50527,
+          "start_time": 50300,
+          "text": "t"
+        },
+        {
+          "attribute": {},
+          "end_time": 50527,
+          "start_time": 50527,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 50967,
+          "start_time": 50632,
+          "text": "make"
+        },
+        {
+          "attribute": {},
+          "end_time": 50967,
+          "start_time": 50967,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 51327,
+          "start_time": 50992,
+          "text": "a"
+        },
+        {
+          "attribute": {},
+          "end_time": 51327,
+          "start_time": 51327,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 52107,
+          "start_time": 51327,
+          "text": "peep"
+        }
+      ]
+    },
+    {
+      "attribute": {},
+      "end_time": 57187,
+      "start_time": 53752,
+      "text": "Baby brother's  fast asleep",
+      "words": [
+        {
+          "attribute": {},
+          "end_time": 54287,
+          "start_time": 53752,
+          "text": "Baby"
+        },
+        {
+          "attribute": {},
+          "end_time": 54287,
+          "start_time": 54287,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 54760,
+          "start_time": 54287,
+          "text": "brother"
+        },
+        {
+          "attribute": {},
+          "end_time": 54760,
+          "start_time": 54760,
+          "text": "'"
+        },
+        {
+          "attribute": {},
+          "end_time": 55087,
+          "start_time": 54760,
+          "text": "s"
+        },
+        {
+          "attribute": {},
+          "end_time": 55087,
+          "start_time": 55087,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 55087,
+          "start_time": 55087,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 56007,
+          "start_time": 55312,
+          "text": "fast"
+        },
+        {
+          "attribute": {},
+          "end_time": 56007,
+          "start_time": 56007,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 57187,
+          "start_time": 56007,
+          "text": "asleep"
+        }
+      ]
+    },
+    {
+      "attribute": {},
+      "end_time": 62507,
+      "start_time": 58792,
+      "text": "I'm as quite as a mouse ...",
+      "words": [
+        {
+          "attribute": {},
+          "end_time": 59060,
+          "start_time": 58792,
+          "text": "I"
+        },
+        {
+          "attribute": {},
+          "end_time": 59060,
+          "start_time": 59060,
+          "text": "'"
+        },
+        {
+          "attribute": {},
+          "end_time": 59280,
+          "start_time": 59060,
+          "text": "m"
+        },
+        {
+          "attribute": {},
+          "end_time": 59280,
+          "start_time": 59280,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 59567,
+          "start_time": 59280,
+          "text": "as"
+        },
+        {
+          "attribute": {},
+          "end_time": 59567,
+          "start_time": 59567,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 60247,
+          "start_time": 59592,
+          "text": "quite"
+        },
+        {
+          "attribute": {},
+          "end_time": 60247,
+          "start_time": 60247,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 60967,
+          "start_time": 60632,
+          "text": "as"
+        },
+        {
+          "attribute": {},
+          "end_time": 60967,
+          "start_time": 60967,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 61447,
+          "start_time": 61112,
+          "text": "a"
+        },
+        {
+          "attribute": {},
+          "end_time": 61447,
+          "start_time": 61447,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 62207,
+          "start_time": 61447,
+          "text": "mouse"
+        },
+        {
+          "attribute": {},
+          "end_time": 62207,
+          "start_time": 62207,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 62207,
+          "start_time": 62207,
+          "text": "."
+        },
+        {
+          "attribute": {},
+          "end_time": 62207,
+          "start_time": 62207,
+          "text": "."
+        },
+        {
+          "attribute": {},
+          "end_time": 62207,
+          "start_time": 62207,
+          "text": "."
+        },
+        {
+          "attribute": {},
+          "end_time": 62507,
+          "start_time": 62207,
+          "text": ""
+        }
+      ]
+    },
+    {
+      "attribute": {},
+      "end_time": 70307,
+      "start_time": 64552,
+      "text": "And here we are --at Grandma's house！",
+      "words": [
+        {
+          "attribute": {},
+          "end_time": 64880,
+          "start_time": 64552,
+          "text": "And"
+        },
+        {
+          "attribute": {},
+          "end_time": 64880,
+          "start_time": 64880,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 65200,
+          "start_time": 64880,
+          "text": "here"
+        },
+        {
+          "attribute": {},
+          "end_time": 65200,
+          "start_time": 65200,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 65460,
+          "start_time": 65200,
+          "text": "we"
+        },
+        {
+          "attribute": {},
+          "end_time": 65460,
+          "start_time": 65460,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 65727,
+          "start_time": 65460,
+          "text": "are"
+        },
+        {
+          "attribute": {},
+          "end_time": 65727,
+          "start_time": 65727,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 65727,
+          "start_time": 65727,
+          "text": "--"
+        },
+        {
+          "attribute": {},
+          "end_time": 67407,
+          "start_time": 67072,
+          "text": "at"
+        },
+        {
+          "attribute": {},
+          "end_time": 67407,
+          "start_time": 67407,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 68367,
+          "start_time": 67632,
+          "text": "Grandma"
+        },
+        {
+          "attribute": {},
+          "end_time": 68367,
+          "start_time": 68367,
+          "text": "'"
+        },
+        {
+          "attribute": {},
+          "end_time": 68767,
+          "start_time": 68432,
+          "text": "s"
+        },
+        {
+          "attribute": {},
+          "end_time": 68767,
+          "start_time": 68767,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 70007,
+          "start_time": 68872,
+          "text": "house"
+        },
+        {
+          "attribute": {},
+          "end_time": 70307,
+          "start_time": 70007,
+          "text": "！"
+        }
+      ]
+    }
+  ]
+}

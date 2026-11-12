@@ -2,6 +2,7 @@
 """Parse KET / PET / PEP vocab and emit a self-contained index.html."""
 from __future__ import annotations
 
+import difflib
 import json
 import re
 from pathlib import Path
@@ -13,7 +14,12 @@ OUT = ROOT / "index.html"
 RAW = ROOT / "data" / "raw"
 BOOKS = ROOT / "data" / "books"
 PASSAGES = ROOT / "data" / "passages"
+PASSAGE_TIMING = PASSAGES / "timing"
+PASSAGE_AUDIO_DIR = ROOT / "assets" / "passages" / "audio"
 PASSAGE_WORDS_JSON = ROOT / "data" / "passage_words.json"
+
+SRT_TS_RE = re.compile(r"(\d{1,2}):(\d{2}):(\d{2})[,.](\d{1,3})")
+SRT_NORM_RE = re.compile(r"[^a-z0-9]+")
 
 # Stopwords filtered from passage word lists (function words, common verbs, pronouns)
 PASSAGE_STOPWORDS = {
@@ -960,12 +966,149 @@ def attach_illustrations(pep_books):
     return n
 
 
+def _srt_ms(parts):
+    h, m, s, frac = parts
+    return int(h) * 3600000 + int(m) * 60000 + int(s) * 1000 + int(frac.ljust(3, "0")[:3])
+
+
+def parse_srt(text):
+    """Return [(start_ms, end_ms, text), ...] from SRT content."""
+    cues = []
+    for block in re.split(r"\r?\n\r?\n+", text.strip()):
+        rows = [r.strip() for r in block.splitlines() if r.strip()]
+        if len(rows) < 2:
+            continue
+        ti = 0 if "-->" in rows[0] else (1 if len(rows) > 1 and "-->" in rows[1] else -1)
+        if ti < 0:
+            continue
+        stamps = SRT_TS_RE.findall(rows[ti])
+        if len(stamps) < 2:
+            continue
+        cues.append((_srt_ms(stamps[0]), _srt_ms(stamps[1]), " ".join(rows[ti + 1:])))
+    return cues
+
+
+def _srt_norm(s):
+    return SRT_NORM_RE.sub("", s.lower().replace("\u2019", "'").replace("\u2018", "'"))
+
+
+def align_passage_times(lines, cues):
+    """Map each passage line to a [start_ms, end_ms] range using the SRT cue stream.
+
+    SRT cues may merge or split lines; concatenating normalized cue text and
+    locating each normalized line in order keeps the mapping stable.
+    """
+    stream_parts = []
+    owners = []
+    for ci, (_, _, body) in enumerate(cues):
+        norm = _srt_norm(body)
+        stream_parts.append(norm)
+        owners.extend([ci] * len(norm))
+    stream = "".join(stream_parts)
+
+    times = []
+    cursor = 0
+    prev = (0, 0)
+    for line in lines:
+        norm = _srt_norm(line)
+        if not norm:
+            times.append(prev)
+            continue
+        idx = stream.find(norm, cursor)
+        if idx < 0:
+            idx = stream.find(norm)
+        if idx < 0:
+            times.append(prev)
+            continue
+        start = cues[owners[idx]][0]
+        end = cues[owners[idx + len(norm) - 1]][1]
+        if end <= start:
+            times.append(prev)
+            continue
+        times.append([start, end])
+        prev = [start, end]
+        cursor = idx + len(norm)
+    return times
+
+
+def load_asr_words(path):
+    """Return [(normalized_word, start_ms, end_ms), ...] from a Panda ASR JSON."""
+    data = json.loads(path.read_text(encoding="utf-8", errors="ignore"))
+    words = []
+    for utt in data.get("utterances") or []:
+        for w in utt.get("words") or []:
+            norm = _srt_norm(w.get("text") or "")
+            if not norm:
+                continue
+            words.append((norm, int(w.get("start_time") or 0), int(w.get("end_time") or 0)))
+    return words
+
+
+def align_asr_times(lines, words):
+    """Align passage lines to ASR word timestamps (exact match first, then fuzzy)."""
+    stream_parts = []
+    owners = []
+    for wi, (norm, _, _) in enumerate(words):
+        stream_parts.append(norm)
+        owners.extend([wi] * len(norm))
+    stream = "".join(stream_parts)
+
+    times = []
+    cursor = 0
+    prev = [0, 0]
+    for line in lines:
+        norm = _srt_norm(line)
+        if not norm:
+            times.append(prev)
+            continue
+        idx = stream.find(norm, cursor)
+        length = len(norm)
+        if idx < 0:
+            window = stream[cursor:cursor + 800]
+            if not window:
+                times.append(prev)
+                continue
+            blocks = [
+                b for b in difflib.SequenceMatcher(
+                    None, norm, window, autojunk=False
+                ).get_matching_blocks()
+                if b.size >= 2
+            ]
+            covered = sum(b.size for b in blocks)
+            if not blocks or covered < max(4, int(len(norm) * 0.55)):
+                times.append(prev)
+                continue
+            start_off = blocks[0].b
+            span = blocks[-1].b + blocks[-1].size - start_off
+            if span > max(len(norm) * 3, 160):
+                # 匹配块跨度过大（多为整篇错位），只取最长块，避免吞掉后续语句
+                block = max(blocks, key=lambda b: b.size)
+                if block.size < max(4, int(len(norm) * 0.55)):
+                    times.append(prev)
+                    continue
+                start_off = block.b
+                span = block.size
+            idx = cursor + start_off
+            length = span
+        start = words[owners[idx]][1]
+        end = max(words[owners[k]][2] for k in range(idx, idx + length))
+        if end <= start:
+            times.append(prev)
+            continue
+        prev = [start, end]
+        times.append(prev)
+        cursor = idx + length
+    return times
+
+
 def load_passages():
     """Load short passages from data/passages/*.txt (project-owned copies).
 
     File name format: "{NN}.{Title}.txt".
     Returns a list of {id, title, lines:[...], words:[lowercase token,...]} sorted by numeric prefix.
     The txt files are copied once from the external Audios directory; rebuild only reads local files.
+    When data/passages/timing/NN.srt and assets/passages/audio/NN.mp3 both exist,
+    the item also carries the audio path and per-line [start_ms, end_ms] timings.
     """
     if not PASSAGES.is_dir():
         print(f"[passages] WARNING: passages dir not found: {PASSAGES}")
@@ -990,7 +1133,25 @@ def load_passages():
                     continue
                 seen.add(low)
                 tokens.append(low)
-        items.append({"id": pid, "title": title, "lines": lines, "words": tokens})
+        item = {"id": pid, "title": title, "lines": lines, "words": tokens}
+        asr = PASSAGE_TIMING / f"{pid:02d}.json"
+        srt = PASSAGE_TIMING / f"{pid:02d}.srt"
+        mp3 = PASSAGE_AUDIO_DIR / f"{pid:02d}.mp3"
+        m4a = PASSAGE_AUDIO_DIR / f"{pid:02d}.m4a"
+        audio = mp3 if mp3.is_file() else m4a
+        times = None
+        if audio.is_file() and asr.is_file():
+            times = align_asr_times(lines, load_asr_words(asr))
+        elif audio.is_file() and srt.is_file() and srt.stat().st_size:
+            cues = parse_srt(srt.read_text(encoding="utf-8", errors="ignore"))
+            times = align_passage_times(lines, cues)
+        if times:
+            item["audio"] = audio.relative_to(ROOT).as_posix()
+            item["times"] = times
+            zero = sum(1 for s, e in times if e <= s)
+            if zero:
+                print(f"[passages] No.{pid} timing gaps={zero}")
+        items.append(item)
     items.sort(key=lambda x: x["id"])
     return items
 

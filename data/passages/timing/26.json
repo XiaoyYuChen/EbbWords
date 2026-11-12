@@ -1,0 +1,1446 @@
+{
+  "attribute": {
+    "extra": {
+      "asr_service": "asr",
+      "caption_type": "speech",
+      "is_speech": "False",
+      "language": "zh-CN",
+      "sta_use_batch_request": "False"
+    }
+  },
+  "code": 0,
+  "duration": 60.82375,
+  "id": "de99b4e3-de5f-4ff5-82e5-43836805f773",
+  "message": "Success",
+  "status": null,
+  "utterances": [
+    {
+      "end_time": 7036,
+      "start_time": 783,
+      "text": "Lily and her brother Charlie enjoy having picnics in the countryside",
+      "words": [
+        {
+          "attribute": {},
+          "end_time": 1216,
+          "start_time": 783,
+          "text": "Lily"
+        },
+        {
+          "attribute": {},
+          "end_time": 1216,
+          "start_time": 1216,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 1536,
+          "start_time": 1263,
+          "text": "and"
+        },
+        {
+          "attribute": {},
+          "end_time": 1536,
+          "start_time": 1536,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 1816,
+          "start_time": 1543,
+          "text": "her"
+        },
+        {
+          "attribute": {},
+          "end_time": 1816,
+          "start_time": 1816,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 2456,
+          "start_time": 1823,
+          "text": "brother"
+        },
+        {
+          "attribute": {},
+          "end_time": 2456,
+          "start_time": 2456,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 3376,
+          "start_time": 2663,
+          "text": "Charlie"
+        },
+        {
+          "attribute": {},
+          "end_time": 3376,
+          "start_time": 3376,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 3896,
+          "start_time": 3623,
+          "text": "enjoy"
+        },
+        {
+          "attribute": {},
+          "end_time": 3896,
+          "start_time": 3896,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 4296,
+          "start_time": 4023,
+          "text": "having"
+        },
+        {
+          "attribute": {},
+          "end_time": 4296,
+          "start_time": 4296,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 5336,
+          "start_time": 4503,
+          "text": "picnics"
+        },
+        {
+          "attribute": {},
+          "end_time": 5336,
+          "start_time": 5336,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 5840,
+          "start_time": 5623,
+          "text": "in"
+        },
+        {
+          "attribute": {},
+          "end_time": 5840,
+          "start_time": 5840,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 6056,
+          "start_time": 5840,
+          "text": "the"
+        },
+        {
+          "attribute": {},
+          "end_time": 6056,
+          "start_time": 6056,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 6736,
+          "start_time": 6056,
+          "text": "countryside"
+        },
+        {
+          "attribute": {},
+          "end_time": 7036,
+          "start_time": 6736,
+          "text": ""
+        }
+      ]
+    },
+    {
+      "end_time": 13836,
+      "start_time": 8103,
+      "text": "Today they're having a picnic in the forest with their grandmother",
+      "words": [
+        {
+          "attribute": {},
+          "end_time": 8376,
+          "start_time": 8103,
+          "text": "Today"
+        },
+        {
+          "attribute": {},
+          "end_time": 8376,
+          "start_time": 8376,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 9020,
+          "start_time": 8823,
+          "text": "they"
+        },
+        {
+          "attribute": {},
+          "end_time": 9020,
+          "start_time": 9020,
+          "text": "'"
+        },
+        {
+          "attribute": {},
+          "end_time": 9140,
+          "start_time": 9020,
+          "text": "re"
+        },
+        {
+          "attribute": {},
+          "end_time": 9140,
+          "start_time": 9140,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 9336,
+          "start_time": 9140,
+          "text": "having"
+        },
+        {
+          "attribute": {},
+          "end_time": 9336,
+          "start_time": 9336,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 9696,
+          "start_time": 9423,
+          "text": "a"
+        },
+        {
+          "attribute": {},
+          "end_time": 9696,
+          "start_time": 9696,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 10176,
+          "start_time": 9696,
+          "text": "picnic"
+        },
+        {
+          "attribute": {},
+          "end_time": 10176,
+          "start_time": 10176,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 10760,
+          "start_time": 10543,
+          "text": "in"
+        },
+        {
+          "attribute": {},
+          "end_time": 10760,
+          "start_time": 10760,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 10976,
+          "start_time": 10760,
+          "text": "the"
+        },
+        {
+          "attribute": {},
+          "end_time": 10976,
+          "start_time": 10976,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 11456,
+          "start_time": 10976,
+          "text": "forest"
+        },
+        {
+          "attribute": {},
+          "end_time": 11456,
+          "start_time": 11456,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 12176,
+          "start_time": 11903,
+          "text": "with"
+        },
+        {
+          "attribute": {},
+          "end_time": 12176,
+          "start_time": 12176,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 12456,
+          "start_time": 12183,
+          "text": "their"
+        },
+        {
+          "attribute": {},
+          "end_time": 12456,
+          "start_time": 12456,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 13536,
+          "start_time": 12583,
+          "text": "grandmother"
+        },
+        {
+          "attribute": {},
+          "end_time": 13836,
+          "start_time": 13536,
+          "text": ""
+        }
+      ]
+    },
+    {
+      "end_time": 18436,
+      "start_time": 14343,
+      "text": "Lily and her grandmother are sitting on the blanket",
+      "words": [
+        {
+          "attribute": {},
+          "end_time": 14740,
+          "start_time": 14343,
+          "text": "Lily"
+        },
+        {
+          "attribute": {},
+          "end_time": 14740,
+          "start_time": 14740,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 14960,
+          "start_time": 14740,
+          "text": "and"
+        },
+        {
+          "attribute": {},
+          "end_time": 14960,
+          "start_time": 14960,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 15216,
+          "start_time": 14960,
+          "text": "her"
+        },
+        {
+          "attribute": {},
+          "end_time": 15216,
+          "start_time": 15216,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 15856,
+          "start_time": 15216,
+          "text": "grandmother"
+        },
+        {
+          "attribute": {},
+          "end_time": 15856,
+          "start_time": 15856,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 16536,
+          "start_time": 16263,
+          "text": "are"
+        },
+        {
+          "attribute": {},
+          "end_time": 16536,
+          "start_time": 16536,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 16976,
+          "start_time": 16536,
+          "text": "sitting"
+        },
+        {
+          "attribute": {},
+          "end_time": 16976,
+          "start_time": 16976,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 17240,
+          "start_time": 16983,
+          "text": "on"
+        },
+        {
+          "attribute": {},
+          "end_time": 17240,
+          "start_time": 17240,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 17496,
+          "start_time": 17240,
+          "text": "the"
+        },
+        {
+          "attribute": {},
+          "end_time": 17496,
+          "start_time": 17496,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 18136,
+          "start_time": 17496,
+          "text": "blanket"
+        },
+        {
+          "attribute": {},
+          "end_time": 18436,
+          "start_time": 18136,
+          "text": ""
+        }
+      ]
+    },
+    {
+      "end_time": 22196,
+      "start_time": 19343,
+      "text": "They're putting the picnic on it",
+      "words": [
+        {
+          "attribute": {},
+          "end_time": 19560,
+          "start_time": 19343,
+          "text": "They"
+        },
+        {
+          "attribute": {},
+          "end_time": 19560,
+          "start_time": 19560,
+          "text": "'"
+        },
+        {
+          "attribute": {},
+          "end_time": 19776,
+          "start_time": 19560,
+          "text": "re"
+        },
+        {
+          "attribute": {},
+          "end_time": 19776,
+          "start_time": 19776,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 20140,
+          "start_time": 19776,
+          "text": "putting"
+        },
+        {
+          "attribute": {},
+          "end_time": 20140,
+          "start_time": 20140,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 20376,
+          "start_time": 20140,
+          "text": "the"
+        },
+        {
+          "attribute": {},
+          "end_time": 20376,
+          "start_time": 20376,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 20936,
+          "start_time": 20376,
+          "text": "picnic"
+        },
+        {
+          "attribute": {},
+          "end_time": 20936,
+          "start_time": 20936,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 21616,
+          "start_time": 21343,
+          "text": "on"
+        },
+        {
+          "attribute": {},
+          "end_time": 21616,
+          "start_time": 21616,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 21896,
+          "start_time": 21623,
+          "text": "it"
+        },
+        {
+          "attribute": {},
+          "end_time": 22196,
+          "start_time": 21896,
+          "text": ""
+        }
+      ]
+    },
+    {
+      "end_time": 27436,
+      "start_time": 23503,
+      "text": "After lunch Lily wants to do herhomework",
+      "words": [
+        {
+          "attribute": {},
+          "end_time": 23776,
+          "start_time": 23503,
+          "text": "After"
+        },
+        {
+          "attribute": {},
+          "end_time": 23776,
+          "start_time": 23776,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 24656,
+          "start_time": 24023,
+          "text": "lunch"
+        },
+        {
+          "attribute": {},
+          "end_time": 24656,
+          "start_time": 24656,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 25416,
+          "start_time": 25023,
+          "text": "Lily"
+        },
+        {
+          "attribute": {},
+          "end_time": 25416,
+          "start_time": 25416,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 25680,
+          "start_time": 25416,
+          "text": "wants"
+        },
+        {
+          "attribute": {},
+          "end_time": 25680,
+          "start_time": 25680,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 25896,
+          "start_time": 25680,
+          "text": "to"
+        },
+        {
+          "attribute": {},
+          "end_time": 25896,
+          "start_time": 25896,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 26376,
+          "start_time": 26103,
+          "text": "do"
+        },
+        {
+          "attribute": {},
+          "end_time": 26376,
+          "start_time": 26376,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 27136,
+          "start_time": 26376,
+          "text": "herhomework"
+        },
+        {
+          "attribute": {},
+          "end_time": 27436,
+          "start_time": 27136,
+          "text": ""
+        }
+      ]
+    },
+    {
+      "end_time": 32876,
+      "start_time": 28343,
+      "text": "She must look at the plants and draw their leaves",
+      "words": [
+        {
+          "attribute": {},
+          "end_time": 28616,
+          "start_time": 28343,
+          "text": "She"
+        },
+        {
+          "attribute": {},
+          "end_time": 28616,
+          "start_time": 28616,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 28976,
+          "start_time": 28616,
+          "text": "must"
+        },
+        {
+          "attribute": {},
+          "end_time": 28976,
+          "start_time": 28976,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 29240,
+          "start_time": 28983,
+          "text": "look"
+        },
+        {
+          "attribute": {},
+          "end_time": 29240,
+          "start_time": 29240,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 29496,
+          "start_time": 29240,
+          "text": "at"
+        },
+        {
+          "attribute": {},
+          "end_time": 29496,
+          "start_time": 29496,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 29816,
+          "start_time": 29543,
+          "text": "the"
+        },
+        {
+          "attribute": {},
+          "end_time": 29816,
+          "start_time": 29816,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 30576,
+          "start_time": 29816,
+          "text": "plants"
+        },
+        {
+          "attribute": {},
+          "end_time": 30576,
+          "start_time": 30576,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 31016,
+          "start_time": 30743,
+          "text": "and"
+        },
+        {
+          "attribute": {},
+          "end_time": 31016,
+          "start_time": 31016,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 31440,
+          "start_time": 31063,
+          "text": "draw"
+        },
+        {
+          "attribute": {},
+          "end_time": 31440,
+          "start_time": 31440,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 31696,
+          "start_time": 31440,
+          "text": "their"
+        },
+        {
+          "attribute": {},
+          "end_time": 31696,
+          "start_time": 31696,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 32576,
+          "start_time": 31823,
+          "text": "leaves"
+        },
+        {
+          "attribute": {},
+          "end_time": 32876,
+          "start_time": 32576,
+          "text": ""
+        }
+      ]
+    },
+    {
+      "end_time": 41836,
+      "start_time": 33943,
+      "text": "Lily's looking at the bread because it's very old and they can't eat it for lunch",
+      "words": [
+        {
+          "attribute": {},
+          "end_time": 34241,
+          "start_time": 33943,
+          "text": "Lily"
+        },
+        {
+          "attribute": {},
+          "end_time": 34241,
+          "start_time": 34241,
+          "text": "'"
+        },
+        {
+          "attribute": {},
+          "end_time": 34456,
+          "start_time": 34241,
+          "text": "s"
+        },
+        {
+          "attribute": {},
+          "end_time": 34456,
+          "start_time": 34456,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 34760,
+          "start_time": 34456,
+          "text": "looking"
+        },
+        {
+          "attribute": {},
+          "end_time": 34760,
+          "start_time": 34760,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 34976,
+          "start_time": 34760,
+          "text": "at"
+        },
+        {
+          "attribute": {},
+          "end_time": 34976,
+          "start_time": 34976,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 35616,
+          "start_time": 35343,
+          "text": "the"
+        },
+        {
+          "attribute": {},
+          "end_time": 35616,
+          "start_time": 35616,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 35976,
+          "start_time": 35616,
+          "text": "bread"
+        },
+        {
+          "attribute": {},
+          "end_time": 35976,
+          "start_time": 35976,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 36616,
+          "start_time": 36343,
+          "text": "because"
+        },
+        {
+          "attribute": {},
+          "end_time": 36616,
+          "start_time": 36616,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 37000,
+          "start_time": 36823,
+          "text": "it"
+        },
+        {
+          "attribute": {},
+          "end_time": 37000,
+          "start_time": 37000,
+          "text": "'"
+        },
+        {
+          "attribute": {},
+          "end_time": 37140,
+          "start_time": 37000,
+          "text": "s"
+        },
+        {
+          "attribute": {},
+          "end_time": 37140,
+          "start_time": 37140,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 37376,
+          "start_time": 37140,
+          "text": "very"
+        },
+        {
+          "attribute": {},
+          "end_time": 37376,
+          "start_time": 37376,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 37976,
+          "start_time": 37583,
+          "text": "old"
+        },
+        {
+          "attribute": {},
+          "end_time": 37976,
+          "start_time": 37976,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 39016,
+          "start_time": 38743,
+          "text": "and"
+        },
+        {
+          "attribute": {},
+          "end_time": 39016,
+          "start_time": 39016,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 39296,
+          "start_time": 39023,
+          "text": "they"
+        },
+        {
+          "attribute": {},
+          "end_time": 39296,
+          "start_time": 39296,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 39560,
+          "start_time": 39303,
+          "text": "can"
+        },
+        {
+          "attribute": {},
+          "end_time": 39560,
+          "start_time": 39560,
+          "text": "'"
+        },
+        {
+          "attribute": {},
+          "end_time": 39816,
+          "start_time": 39560,
+          "text": "t"
+        },
+        {
+          "attribute": {},
+          "end_time": 39816,
+          "start_time": 39816,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 40120,
+          "start_time": 39863,
+          "text": "eat"
+        },
+        {
+          "attribute": {},
+          "end_time": 40120,
+          "start_time": 40120,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 40336,
+          "start_time": 40120,
+          "text": "it"
+        },
+        {
+          "attribute": {},
+          "end_time": 40336,
+          "start_time": 40336,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 40976,
+          "start_time": 40703,
+          "text": "for"
+        },
+        {
+          "attribute": {},
+          "end_time": 40976,
+          "start_time": 40976,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 41536,
+          "start_time": 40976,
+          "text": "lunch"
+        },
+        {
+          "attribute": {},
+          "end_time": 41836,
+          "start_time": 41536,
+          "text": ""
+        }
+      ]
+    },
+    {
+      "end_time": 44916,
+      "start_time": 42263,
+      "text": "Charlie's standing next to the lake",
+      "words": [
+        {
+          "attribute": {},
+          "end_time": 42761,
+          "start_time": 42263,
+          "text": "Charlie"
+        },
+        {
+          "attribute": {},
+          "end_time": 42761,
+          "start_time": 42761,
+          "text": "'"
+        },
+        {
+          "attribute": {},
+          "end_time": 42976,
+          "start_time": 42761,
+          "text": "s"
+        },
+        {
+          "attribute": {},
+          "end_time": 42976,
+          "start_time": 42976,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 43456,
+          "start_time": 42983,
+          "text": "standing"
+        },
+        {
+          "attribute": {},
+          "end_time": 43456,
+          "start_time": 43456,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 43880,
+          "start_time": 43503,
+          "text": "next"
+        },
+        {
+          "attribute": {},
+          "end_time": 43880,
+          "start_time": 43880,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 44080,
+          "start_time": 43880,
+          "text": "to"
+        },
+        {
+          "attribute": {},
+          "end_time": 44080,
+          "start_time": 44080,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 44336,
+          "start_time": 44080,
+          "text": "the"
+        },
+        {
+          "attribute": {},
+          "end_time": 44336,
+          "start_time": 44336,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 44616,
+          "start_time": 44336,
+          "text": "lake"
+        },
+        {
+          "attribute": {},
+          "end_time": 44916,
+          "start_time": 44616,
+          "text": ""
+        }
+      ]
+    },
+    {
+      "end_time": 46940,
+      "start_time": 44943,
+      "text": "He's throwing bread to the ducks",
+      "words": [
+        {
+          "attribute": {},
+          "end_time": 45120,
+          "start_time": 44943,
+          "text": "He"
+        },
+        {
+          "attribute": {},
+          "end_time": 45120,
+          "start_time": 45120,
+          "text": "'"
+        },
+        {
+          "attribute": {},
+          "end_time": 45258,
+          "start_time": 45120,
+          "text": "s"
+        },
+        {
+          "attribute": {},
+          "end_time": 45258,
+          "start_time": 45258,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 46016,
+          "start_time": 45258,
+          "text": "throwing"
+        },
+        {
+          "attribute": {},
+          "end_time": 46016,
+          "start_time": 46016,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 46296,
+          "start_time": 46016,
+          "text": "bread"
+        },
+        {
+          "attribute": {},
+          "end_time": 46296,
+          "start_time": 46296,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 46460,
+          "start_time": 46303,
+          "text": "to"
+        },
+        {
+          "attribute": {},
+          "end_time": 46460,
+          "start_time": 46460,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 46558,
+          "start_time": 46460,
+          "text": "the"
+        },
+        {
+          "attribute": {},
+          "end_time": 46558,
+          "start_time": 46558,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 46940,
+          "start_time": 46558,
+          "text": "ducks"
+        },
+        {
+          "attribute": {},
+          "end_time": 46940,
+          "start_time": 46940,
+          "text": ""
+        }
+      ]
+    },
+    {
+      "end_time": 48020,
+      "start_time": 46940,
+      "text": "It isn't the bread for theducks",
+      "words": [
+        {
+          "attribute": {},
+          "end_time": 47118,
+          "start_time": 46940,
+          "text": "It"
+        },
+        {
+          "attribute": {},
+          "end_time": 47118,
+          "start_time": 47118,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 47360,
+          "start_time": 47118,
+          "text": "isn"
+        },
+        {
+          "attribute": {},
+          "end_time": 47360,
+          "start_time": 47360,
+          "text": "'"
+        },
+        {
+          "attribute": {},
+          "end_time": 47460,
+          "start_time": 47360,
+          "text": "t"
+        },
+        {
+          "attribute": {},
+          "end_time": 47460,
+          "start_time": 47460,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 47558,
+          "start_time": 47460,
+          "text": "the"
+        },
+        {
+          "attribute": {},
+          "end_time": 47558,
+          "start_time": 47558,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 47598,
+          "start_time": 47558,
+          "text": "bread"
+        },
+        {
+          "attribute": {},
+          "end_time": 47598,
+          "start_time": 47598,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 47718,
+          "start_time": 47598,
+          "text": "for"
+        },
+        {
+          "attribute": {},
+          "end_time": 47718,
+          "start_time": 47718,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 48020,
+          "start_time": 47718,
+          "text": "theducks"
+        },
+        {
+          "attribute": {},
+          "end_time": 48020,
+          "start_time": 48020,
+          "text": ""
+        }
+      ]
+    },
+    {
+      "end_time": 56721,
+      "start_time": 48020,
+      "text": "it's the new bread for their picnic",
+      "words": [
+        {
+          "attribute": {},
+          "end_time": 48256,
+          "start_time": 48020,
+          "text": "it"
+        },
+        {
+          "attribute": {},
+          "end_time": 48256,
+          "start_time": 48256,
+          "text": "'"
+        },
+        {
+          "attribute": {},
+          "end_time": 49496,
+          "start_time": 49223,
+          "text": "s"
+        },
+        {
+          "attribute": {},
+          "end_time": 49496,
+          "start_time": 49496,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 52016,
+          "start_time": 51743,
+          "text": "the"
+        },
+        {
+          "attribute": {},
+          "end_time": 52016,
+          "start_time": 52016,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 52336,
+          "start_time": 52063,
+          "text": "new"
+        },
+        {
+          "attribute": {},
+          "end_time": 52336,
+          "start_time": 52336,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 54576,
+          "start_time": 52343,
+          "text": "bread"
+        },
+        {
+          "attribute": {},
+          "end_time": 54576,
+          "start_time": 54576,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 56460,
+          "start_time": 56303,
+          "text": "for"
+        },
+        {
+          "attribute": {},
+          "end_time": 56460,
+          "start_time": 56460,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 56558,
+          "start_time": 56460,
+          "text": "their"
+        },
+        {
+          "attribute": {},
+          "end_time": 56558,
+          "start_time": 56558,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 56721,
+          "start_time": 56558,
+          "text": "picnic"
+        },
+        {
+          "attribute": {},
+          "end_time": 56721,
+          "start_time": 56721,
+          "text": ""
+        }
+      ]
+    },
+    {
+      "end_time": 60156,
+      "start_time": 56721,
+      "text": "The ducks are eating his family's lunch!",
+      "words": [
+        {
+          "attribute": {},
+          "end_time": 56918,
+          "start_time": 56721,
+          "text": "The"
+        },
+        {
+          "attribute": {},
+          "end_time": 56918,
+          "start_time": 56918,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 56961,
+          "start_time": 56918,
+          "text": "ducks"
+        },
+        {
+          "attribute": {},
+          "end_time": 56961,
+          "start_time": 56961,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 57118,
+          "start_time": 56961,
+          "text": "are"
+        },
+        {
+          "attribute": {},
+          "end_time": 57118,
+          "start_time": 57118,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 57321,
+          "start_time": 57118,
+          "text": "eating"
+        },
+        {
+          "attribute": {},
+          "end_time": 57321,
+          "start_time": 57321,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 57478,
+          "start_time": 57321,
+          "text": "his"
+        },
+        {
+          "attribute": {},
+          "end_time": 57478,
+          "start_time": 57478,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 57856,
+          "start_time": 57478,
+          "text": "family"
+        },
+        {
+          "attribute": {},
+          "end_time": 57856,
+          "start_time": 57856,
+          "text": "'"
+        },
+        {
+          "attribute": {},
+          "end_time": 58176,
+          "start_time": 57903,
+          "text": "s"
+        },
+        {
+          "attribute": {},
+          "end_time": 58176,
+          "start_time": 58176,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 59856,
+          "start_time": 58176,
+          "text": "lunch"
+        },
+        {
+          "attribute": {},
+          "end_time": 60156,
+          "start_time": 59856,
+          "text": "!"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1997 @@
+{
+  "attribute": {
+    "extra": {
+      "asr_service": "asr",
+      "caption_type": "speech",
+      "is_speech": "False",
+      "language": "zh-CN",
+      "sta_use_batch_request": "False"
+    }
+  },
+  "code": 0,
+  "duration": 155.9264375,
+  "id": "f98d0075-2a84-44ce-99b6-c4a6cf7012ec",
+  "message": "Success",
+  "utterances": [
+    {
+      "attribute": {},
+      "end_time": 4682,
+      "start_time": 977,
+      "text": "doing homework every day after school",
+      "words": [
+        {
+          "attribute": {},
+          "end_time": 1500,
+          "start_time": 977,
+          "text": "doing"
+        },
+        {
+          "attribute": {},
+          "end_time": 1500,
+          "start_time": 1500,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 2062,
+          "start_time": 1500,
+          "text": "homework"
+        },
+        {
+          "attribute": {},
+          "end_time": 2062,
+          "start_time": 2062,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 3140,
+          "start_time": 2777,
+          "text": "every"
+        },
+        {
+          "attribute": {},
+          "end_time": 3140,
+          "start_time": 3140,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 3460,
+          "start_time": 3140,
+          "text": "day"
+        },
+        {
+          "attribute": {},
+          "end_time": 3460,
+          "start_time": 3460,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 3782,
+          "start_time": 3460,
+          "text": "after"
+        },
+        {
+          "attribute": {},
+          "end_time": 3782,
+          "start_time": 3782,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 4682,
+          "start_time": 3782,
+          "text": "school"
+        }
+      ]
+    },
+    {
+      "attribute": {},
+      "end_time": 6882,
+      "start_time": 4897,
+      "text": "I do homework first",
+      "words": [
+        {
+          "attribute": {},
+          "end_time": 5220,
+          "start_time": 4897,
+          "text": "I"
+        },
+        {
+          "attribute": {},
+          "end_time": 5220,
+          "start_time": 5220,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 5541,
+          "start_time": 5220,
+          "text": "do"
+        },
+        {
+          "attribute": {},
+          "end_time": 5541,
+          "start_time": 5541,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 6182,
+          "start_time": 5541,
+          "text": "homework"
+        },
+        {
+          "attribute": {},
+          "end_time": 6182,
+          "start_time": 6182,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 6882,
+          "start_time": 6217,
+          "text": "first"
+        }
+      ]
+    },
+    {
+      "attribute": {},
+      "end_time": 16562,
+      "start_time": 8137,
+      "text": "homework is important because it helps me learn and get better grades",
+      "words": [
+        {
+          "attribute": {},
+          "end_time": 8982,
+          "start_time": 8137,
+          "text": "homework"
+        },
+        {
+          "attribute": {},
+          "end_time": 8982,
+          "start_time": 8982,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 9382,
+          "start_time": 9017,
+          "text": "is"
+        },
+        {
+          "attribute": {},
+          "end_time": 9382,
+          "start_time": 9382,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 10222,
+          "start_time": 9857,
+          "text": "important"
+        },
+        {
+          "attribute": {},
+          "end_time": 10222,
+          "start_time": 10222,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 11302,
+          "start_time": 10937,
+          "text": "because"
+        },
+        {
+          "attribute": {},
+          "end_time": 11302,
+          "start_time": 11302,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 11902,
+          "start_time": 11537,
+          "text": "it"
+        },
+        {
+          "attribute": {},
+          "end_time": 11902,
+          "start_time": 11902,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 12520,
+          "start_time": 11902,
+          "text": "helps"
+        },
+        {
+          "attribute": {},
+          "end_time": 12520,
+          "start_time": 12520,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 12822,
+          "start_time": 12520,
+          "text": "me"
+        },
+        {
+          "attribute": {},
+          "end_time": 12822,
+          "start_time": 12822,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 13382,
+          "start_time": 13017,
+          "text": "learn"
+        },
+        {
+          "attribute": {},
+          "end_time": 13382,
+          "start_time": 13382,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 14460,
+          "start_time": 14097,
+          "text": "and"
+        },
+        {
+          "attribute": {},
+          "end_time": 14460,
+          "start_time": 14460,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 14820,
+          "start_time": 14460,
+          "text": "get"
+        },
+        {
+          "attribute": {},
+          "end_time": 14820,
+          "start_time": 14820,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 15182,
+          "start_time": 14820,
+          "text": "better"
+        },
+        {
+          "attribute": {},
+          "end_time": 15182,
+          "start_time": 15182,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 16562,
+          "start_time": 15417,
+          "text": "grades"
+        }
+      ]
+    },
+    {
+      "attribute": {},
+      "end_time": 20442,
+      "start_time": 17217,
+      "text": "I try hard on each question",
+      "words": [
+        {
+          "attribute": {},
+          "end_time": 17560,
+          "start_time": 17217,
+          "text": "I"
+        },
+        {
+          "attribute": {},
+          "end_time": 17560,
+          "start_time": 17560,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 17880,
+          "start_time": 17560,
+          "text": "try"
+        },
+        {
+          "attribute": {},
+          "end_time": 17880,
+          "start_time": 17880,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 18222,
+          "start_time": 17880,
+          "text": "hard"
+        },
+        {
+          "attribute": {},
+          "end_time": 18222,
+          "start_time": 18222,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 19200,
+          "start_time": 18897,
+          "text": "on"
+        },
+        {
+          "attribute": {},
+          "end_time": 19200,
+          "start_time": 19200,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 19502,
+          "start_time": 19200,
+          "text": "each"
+        },
+        {
+          "attribute": {},
+          "end_time": 19502,
+          "start_time": 19502,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 20442,
+          "start_time": 19502,
+          "text": "question"
+        }
+      ]
+    },
+    {
+      "attribute": {},
+      "end_time": 22922,
+      "start_time": 21337,
+      "text": "Even when it's tough",
+      "words": [
+        {
+          "attribute": {},
+          "end_time": 21640,
+          "start_time": 21337,
+          "text": "Even"
+        },
+        {
+          "attribute": {},
+          "end_time": 21640,
+          "start_time": 21640,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 21920,
+          "start_time": 21640,
+          "text": "when"
+        },
+        {
+          "attribute": {},
+          "end_time": 21920,
+          "start_time": 21920,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 22140,
+          "start_time": 21920,
+          "text": "it"
+        },
+        {
+          "attribute": {},
+          "end_time": 22140,
+          "start_time": 22140,
+          "text": "'"
+        },
+        {
+          "attribute": {},
+          "end_time": 22381,
+          "start_time": 22140,
+          "text": "s"
+        },
+        {
+          "attribute": {},
+          "end_time": 22381,
+          "start_time": 22381,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 22922,
+          "start_time": 22381,
+          "text": "tough"
+        }
+      ]
+    },
+    {
+      "attribute": {},
+      "end_time": 25682,
+      "start_time": 24057,
+      "text": "But I don't give up",
+      "words": [
+        {
+          "attribute": {},
+          "end_time": 24300,
+          "start_time": 24057,
+          "text": "But"
+        },
+        {
+          "attribute": {},
+          "end_time": 24300,
+          "start_time": 24300,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 24460,
+          "start_time": 24300,
+          "text": "I"
+        },
+        {
+          "attribute": {},
+          "end_time": 24460,
+          "start_time": 24460,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 24620,
+          "start_time": 24460,
+          "text": "don"
+        },
+        {
+          "attribute": {},
+          "end_time": 24620,
+          "start_time": 24620,
+          "text": "'"
+        },
+        {
+          "attribute": {},
+          "end_time": 24820,
+          "start_time": 24620,
+          "text": "t"
+        },
+        {
+          "attribute": {},
+          "end_time": 24820,
+          "start_time": 24820,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 25080,
+          "start_time": 24820,
+          "text": "give"
+        },
+        {
+          "attribute": {},
+          "end_time": 25080,
+          "start_time": 25080,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 25682,
+          "start_time": 25080,
+          "text": "up"
+        }
+      ]
+    },
+    {
+      "attribute": {},
+      "end_time": 31802,
+      "start_time": 26617,
+      "text": "Because I know perseverance leads to success",
+      "words": [
+        {
+          "attribute": {},
+          "end_time": 26982,
+          "start_time": 26617,
+          "text": "Because"
+        },
+        {
+          "attribute": {},
+          "end_time": 26982,
+          "start_time": 26982,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 27340,
+          "start_time": 27017,
+          "text": "I"
+        },
+        {
+          "attribute": {},
+          "end_time": 27340,
+          "start_time": 27340,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 27662,
+          "start_time": 27340,
+          "text": "know"
+        },
+        {
+          "attribute": {},
+          "end_time": 27662,
+          "start_time": 27662,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 29982,
+          "start_time": 28897,
+          "text": "perseverance"
+        },
+        {
+          "attribute": {},
+          "end_time": 29982,
+          "start_time": 29982,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 30618,
+          "start_time": 30297,
+          "text": "leads"
+        },
+        {
+          "attribute": {},
+          "end_time": 30618,
+          "start_time": 30618,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 30902,
+          "start_time": 30618,
+          "text": "to"
+        },
+        {
+          "attribute": {},
+          "end_time": 30902,
+          "start_time": 30902,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 31802,
+          "start_time": 30902,
+          "text": "success"
+        }
+      ]
+    },
+    {
+      "attribute": {},
+      "end_time": 38882,
+      "start_time": 32777,
+      "text": "Doing homework teaches me a lot and makes me feel satisfied",
+      "words": [
+        {
+          "attribute": {},
+          "end_time": 33220,
+          "start_time": 32777,
+          "text": "Doing"
+        },
+        {
+          "attribute": {},
+          "end_time": 33220,
+          "start_time": 33220,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 33862,
+          "start_time": 33220,
+          "text": "homework"
+        },
+        {
+          "attribute": {},
+          "end_time": 33862,
+          "start_time": 33862,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 34640,
+          "start_time": 34097,
+          "text": "teaches"
+        },
+        {
+          "attribute": {},
+          "end_time": 34640,
+          "start_time": 34640,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 34860,
+          "start_time": 34640,
+          "text": "me"
+        },
+        {
+          "attribute": {},
+          "end_time": 34860,
+          "start_time": 34860,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 35060,
+          "start_time": 34860,
+          "text": "a"
+        },
+        {
+          "attribute": {},
+          "end_time": 35060,
+          "start_time": 35060,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 35342,
+          "start_time": 35060,
+          "text": "lot"
+        },
+        {
+          "attribute": {},
+          "end_time": 35342,
+          "start_time": 35342,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 36622,
+          "start_time": 36257,
+          "text": "and"
+        },
+        {
+          "attribute": {},
+          "end_time": 36622,
+          "start_time": 36622,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 36818,
+          "start_time": 36622,
+          "text": "makes"
+        },
+        {
+          "attribute": {},
+          "end_time": 36818,
+          "start_time": 36818,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 37080,
+          "start_time": 36818,
+          "text": "me"
+        },
+        {
+          "attribute": {},
+          "end_time": 37080,
+          "start_time": 37080,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 37422,
+          "start_time": 37080,
+          "text": "feel"
+        },
+        {
+          "attribute": {},
+          "end_time": 37422,
+          "start_time": 37422,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 38882,
+          "start_time": 37657,
+          "text": "satisfied"
+        }
+      ]
+    },
+    {
+      "attribute": {},
+      "end_time": 42842,
+      "start_time": 39857,
+      "text": "Because I'm improving constantly",
+      "words": [
+        {
+          "attribute": {},
+          "end_time": 40222,
+          "start_time": 39857,
+          "text": "Because"
+        },
+        {
+          "attribute": {},
+          "end_time": 40222,
+          "start_time": 40222,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 40480,
+          "start_time": 40257,
+          "text": "I"
+        },
+        {
+          "attribute": {},
+          "end_time": 40480,
+          "start_time": 40480,
+          "text": "'"
+        },
+        {
+          "attribute": {},
+          "end_time": 40641,
+          "start_time": 40480,
+          "text": "m"
+        },
+        {
+          "attribute": {},
+          "end_time": 40641,
+          "start_time": 40641,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 41302,
+          "start_time": 40641,
+          "text": "improving"
+        },
+        {
+          "attribute": {},
+          "end_time": 41302,
+          "start_time": 41302,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 42842,
+          "start_time": 41497,
+          "text": "constantly"
+        }
+      ]
+    },
+    {
+      "attribute": {},
+      "end_time": 49202,
+      "start_time": 45297,
+      "text": "important important重要的",
+      "words": [
+        {
+          "attribute": {},
+          "end_time": 45662,
+          "start_time": 45297,
+          "text": "important"
+        },
+        {
+          "attribute": {},
+          "end_time": 45662,
+          "start_time": 45662,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 47422,
+          "start_time": 47057,
+          "text": "important"
+        },
+        {
+          "attribute": {},
+          "end_time": 48340,
+          "start_time": 48057,
+          "text": "重"
+        },
+        {
+          "attribute": {},
+          "end_time": 48580,
+          "start_time": 48340,
+          "text": "要"
+        },
+        {
+          "attribute": {},
+          "end_time": 49202,
+          "start_time": 48580,
+          "text": "的"
+        }
+      ]
+    },
+    {
+      "attribute": {},
+      "end_time": 58282,
+      "start_time": 49417,
+      "text": "because because因为learn learn学习",
+      "words": [
+        {
+          "attribute": {},
+          "end_time": 50582,
+          "start_time": 49417,
+          "text": "because"
+        },
+        {
+          "attribute": {},
+          "end_time": 50582,
+          "start_time": 50582,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 51022,
+          "start_time": 50657,
+          "text": "because"
+        },
+        {
+          "attribute": {},
+          "end_time": 52560,
+          "start_time": 52257,
+          "text": "因"
+        },
+        {
+          "attribute": {},
+          "end_time": 52862,
+          "start_time": 52560,
+          "text": "为"
+        },
+        {
+          "attribute": {},
+          "end_time": 55102,
+          "start_time": 54537,
+          "text": "learn"
+        },
+        {
+          "attribute": {},
+          "end_time": 55102,
+          "start_time": 55102,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 56422,
+          "start_time": 56057,
+          "text": "learn"
+        },
+        {
+          "attribute": {},
+          "end_time": 57620,
+          "start_time": 57257,
+          "text": "学"
+        },
+        {
+          "attribute": {},
+          "end_time": 58282,
+          "start_time": 57620,
+          "text": "习"
+        }
+      ]
+    },
+    {
+      "attribute": {},
+      "end_time": 73162,
+      "start_time": 59897,
+      "text": "better better更好的grades grades成绩better grades更好的成绩try hard try hard",
+      "words": [
+        {
+          "attribute": {},
+          "end_time": 60422,
+          "start_time": 59897,
+          "text": "better"
+        },
+        {
+          "attribute": {},
+          "end_time": 60422,
+          "start_time": 60422,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 61222,
+          "start_time": 60857,
+          "text": "better"
+        },
+        {
+          "attribute": {},
+          "end_time": 61780,
+          "start_time": 61457,
+          "text": "更"
+        },
+        {
+          "attribute": {},
+          "end_time": 62060,
+          "start_time": 61780,
+          "text": "好"
+        },
+        {
+          "attribute": {},
+          "end_time": 62382,
+          "start_time": 62060,
+          "text": "的"
+        },
+        {
+          "attribute": {},
+          "end_time": 63902,
+          "start_time": 63097,
+          "text": "grades"
+        },
+        {
+          "attribute": {},
+          "end_time": 63902,
+          "start_time": 63902,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 65102,
+          "start_time": 64137,
+          "text": "grades"
+        },
+        {
+          "attribute": {},
+          "end_time": 65800,
+          "start_time": 65457,
+          "text": "成"
+        },
+        {
+          "attribute": {},
+          "end_time": 66142,
+          "start_time": 65800,
+          "text": "绩"
+        },
+        {
+          "attribute": {},
+          "end_time": 67420,
+          "start_time": 66897,
+          "text": "better"
+        },
+        {
+          "attribute": {},
+          "end_time": 67420,
+          "start_time": 67420,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 67982,
+          "start_time": 67420,
+          "text": "grades"
+        },
+        {
+          "attribute": {},
+          "end_time": 68820,
+          "start_time": 68537,
+          "text": "更"
+        },
+        {
+          "attribute": {},
+          "end_time": 68980,
+          "start_time": 68820,
+          "text": "好"
+        },
+        {
+          "attribute": {},
+          "end_time": 69100,
+          "start_time": 68980,
+          "text": "的"
+        },
+        {
+          "attribute": {},
+          "end_time": 69280,
+          "start_time": 69100,
+          "text": "成"
+        },
+        {
+          "attribute": {},
+          "end_time": 69582,
+          "start_time": 69280,
+          "text": "绩"
+        },
+        {
+          "attribute": {},
+          "end_time": 70760,
+          "start_time": 70337,
+          "text": "try"
+        },
+        {
+          "attribute": {},
+          "end_time": 70760,
+          "start_time": 70760,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 71062,
+          "start_time": 70760,
+          "text": "hard"
+        },
+        {
+          "attribute": {},
+          "end_time": 71062,
+          "start_time": 71062,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 72422,
+          "start_time": 72057,
+          "text": "try"
+        },
+        {
+          "attribute": {},
+          "end_time": 72422,
+          "start_time": 72422,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 73162,
+          "start_time": 72497,
+          "text": "hard"
+        }
+      ]
+    },
+    {
+      "attribute": {},
+      "end_time": 75522,
+      "start_time": 74657,
+      "text": "努力",
+      "words": [
+        {
+          "attribute": {},
+          "end_time": 74940,
+          "start_time": 74657,
+          "text": "努"
+        },
+        {
+          "attribute": {},
+          "end_time": 75522,
+          "start_time": 74940,
+          "text": "力"
+        }
+      ]
+    },
+    {
+      "attribute": {},
+      "end_time": 82202,
+      "start_time": 79177,
+      "text": "even even甚至",
+      "words": [
+        {
+          "attribute": {},
+          "end_time": 80538,
+          "start_time": 79177,
+          "text": "even"
+        },
+        {
+          "attribute": {},
+          "end_time": 80538,
+          "start_time": 80538,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 80822,
+          "start_time": 80538,
+          "text": "even"
+        },
+        {
+          "attribute": {},
+          "end_time": 81580,
+          "start_time": 81257,
+          "text": "甚"
+        },
+        {
+          "attribute": {},
+          "end_time": 82202,
+          "start_time": 81580,
+          "text": "至"
+        }
+      ]
+    },
+    {
+      "attribute": {},
+      "end_time": 84802,
+      "start_time": 82977,
+      "text": "tough tough",
+      "words": [
+        {
+          "attribute": {},
+          "end_time": 83462,
+          "start_time": 82977,
+          "text": "tough"
+        },
+        {
+          "attribute": {},
+          "end_time": 83462,
+          "start_time": 83462,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 84802,
+          "start_time": 84097,
+          "text": "tough"
+        }
+      ]
+    },
+    {
+      "attribute": {},
+      "end_time": 87042,
+      "start_time": 85977,
+      "text": "困难的",
+      "words": [
+        {
+          "attribute": {},
+          "end_time": 86240,
+          "start_time": 85977,
+          "text": "困"
+        },
+        {
+          "attribute": {},
+          "end_time": 86440,
+          "start_time": 86240,
+          "text": "难"
+        },
+        {
+          "attribute": {},
+          "end_time": 87042,
+          "start_time": 86440,
+          "text": "的"
+        }
+      ]
+    },
+    {
+      "attribute": {},
+      "end_time": 91722,
+      "start_time": 89017,
+      "text": "but but但是",
+      "words": [
+        {
+          "attribute": {},
+          "end_time": 89462,
+          "start_time": 89017,
+          "text": "but"
+        },
+        {
+          "attribute": {},
+          "end_time": 89462,
+          "start_time": 89462,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 90342,
+          "start_time": 89977,
+          "text": "but"
+        },
+        {
+          "attribute": {},
+          "end_time": 91080,
+          "start_time": 90737,
+          "text": "但"
+        },
+        {
+          "attribute": {},
+          "end_time": 91722,
+          "start_time": 91080,
+          "text": "是"
+        }
+      ]
+    },
+    {
+      "attribute": {},
+      "end_time": 95922,
+      "start_time": 93617,
+      "text": "give up give up",
+      "words": [
+        {
+          "attribute": {},
+          "end_time": 94018,
+          "start_time": 93617,
+          "text": "give"
+        },
+        {
+          "attribute": {},
+          "end_time": 94018,
+          "start_time": 94018,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 94302,
+          "start_time": 94018,
+          "text": "up"
+        },
+        {
+          "attribute": {},
+          "end_time": 94302,
+          "start_time": 94302,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 95340,
+          "start_time": 95057,
+          "text": "give"
+        },
+        {
+          "attribute": {},
+          "end_time": 95340,
+          "start_time": 95340,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 95922,
+          "start_time": 95340,
+          "text": "up"
+        }
+      ]
+    },
+    {
+      "attribute": {},
+      "end_time": 97682,
+      "start_time": 96737,
+      "text": "放弃",
+      "words": [
+        {
+          "attribute": {},
+          "end_time": 97060,
+          "start_time": 96737,
+          "text": "放"
+        },
+        {
+          "attribute": {},
+          "end_time": 97682,
+          "start_time": 97060,
+          "text": "弃"
+        }
+      ]
+    },
+    {
+      "attribute": {},
+      "end_time": 102602,
+      "start_time": 98937,
+      "text": "But i don't give up 但是我不会放弃",
+      "words": [
+        {
+          "attribute": {},
+          "end_time": 99138,
+          "start_time": 98937,
+          "text": "But"
+        },
+        {
+          "attribute": {},
+          "end_time": 99138,
+          "start_time": 99138,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 99320,
+          "start_time": 99138,
+          "text": "i"
+        },
+        {
+          "attribute": {},
+          "end_time": 99320,
+          "start_time": 99320,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 99440,
+          "start_time": 99320,
+          "text": "don"
+        },
+        {
+          "attribute": {},
+          "end_time": 99440,
+          "start_time": 99440,
+          "text": "'"
+        },
+        {
+          "attribute": {},
+          "end_time": 99540,
+          "start_time": 99440,
+          "text": "t"
+        },
+        {
+          "attribute": {},
+          "end_time": 99540,
+          "start_time": 99540,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 99680,
+          "start_time": 99540,
+          "text": "give"
+        },
+        {
+          "attribute": {},
+          "end_time": 99680,
+          "start_time": 99680,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 99942,
+          "start_time": 99680,
+          "text": "up"
+        },
+        {
+          "attribute": {},
+          "end_time": 99942,
+          "start_time": 99942,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 101180,
+          "start_time": 100897,
+          "text": "但"
+        },
+        {
+          "attribute": {},
+          "end_time": 101360,
+          "start_time": 101180,
+          "text": "是"
+        },
+        {
+          "attribute": {},
+          "end_time": 101520,
+          "start_time": 101360,
+          "text": "我"
+        },
+        {
+          "attribute": {},
+          "end_time": 101660,
+          "start_time": 101520,
+          "text": "不"
+        },
+        {
+          "attribute": {},
+          "end_time": 101800,
+          "start_time": 101660,
+          "text": "会"
+        },
+        {
+          "attribute": {},
+          "end_time": 102000,
+          "start_time": 101800,
+          "text": "放"
+        },
+        {
+          "attribute": {},
+          "end_time": 102602,
+          "start_time": 102000,
+          "text": "弃"
+        }
+      ]
+    },
+    {
+      "attribute": {},
+      "end_time": 109122,
+      "start_time": 105937,
+      "text": "perseverance perseverance",
+      "words": [
+        {
+          "attribute": {},
+          "end_time": 107102,
+          "start_time": 105937,
+          "text": "perseverance"
+        },
+        {
+          "attribute": {},
+          "end_time": 107102,
+          "start_time": 107102,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 109122,
+          "start_time": 107617,
+          "text": "perseverance"
+        }
+      ]
+    },
+    {
+      "attribute": {},
+      "end_time": 110842,
+      "start_time": 109937,
+      "text": "毅力",
+      "words": [
+        {
+          "attribute": {},
+          "end_time": 110240,
+          "start_time": 109937,
+          "text": "毅"
+        },
+        {
+          "attribute": {},
+          "end_time": 110842,
+          "start_time": 110240,
+          "text": "力"
+        }
+      ]
+    },
+    {
+      "attribute": {},
+      "end_time": 120042,
+      "start_time": 112097,
+      "text": "List to list to造就success success成功",
+      "words": [
+        {
+          "attribute": {},
+          "end_time": 112458,
+          "start_time": 112097,
+          "text": "List"
+        },
+        {
+          "attribute": {},
+          "end_time": 112458,
+          "start_time": 112458,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 112742,
+          "start_time": 112458,
+          "text": "to"
+        },
+        {
+          "attribute": {},
+          "end_time": 112742,
+          "start_time": 112742,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 113540,
+          "start_time": 113137,
+          "text": "list"
+        },
+        {
+          "attribute": {},
+          "end_time": 113540,
+          "start_time": 113540,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 113862,
+          "start_time": 113540,
+          "text": "to"
+        },
+        {
+          "attribute": {},
+          "end_time": 115580,
+          "start_time": 115257,
+          "text": "造"
+        },
+        {
+          "attribute": {},
+          "end_time": 115902,
+          "start_time": 115580,
+          "text": "就"
+        },
+        {
+          "attribute": {},
+          "end_time": 117222,
+          "start_time": 116497,
+          "text": "success"
+        },
+        {
+          "attribute": {},
+          "end_time": 117222,
+          "start_time": 117222,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 118382,
+          "start_time": 117657,
+          "text": "success"
+        },
+        {
+          "attribute": {},
+          "end_time": 119380,
+          "start_time": 119017,
+          "text": "成"
+        },
+        {
+          "attribute": {},
+          "end_time": 120042,
+          "start_time": 119380,
+          "text": "功"
+        }
+      ]
+    },
+    {
+      "attribute": {},
+      "end_time": 123762,
+      "start_time": 121457,
+      "text": "perseverance leads to success",
+      "words": [
+        {
+          "attribute": {},
+          "end_time": 122422,
+          "start_time": 121457,
+          "text": "perseverance"
+        },
+        {
+          "attribute": {},
+          "end_time": 122422,
+          "start_time": 122422,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 122738,
+          "start_time": 122422,
+          "text": "leads"
+        },
+        {
+          "attribute": {},
+          "end_time": 122738,
+          "start_time": 122738,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 123001,
+          "start_time": 122738,
+          "text": "to"
+        },
+        {
+          "attribute": {},
+          "end_time": 123001,
+          "start_time": 123001,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 123762,
+          "start_time": 123001,
+          "text": "success"
+        }
+      ]
+    },
+    {
+      "attribute": {},
+      "end_time": 126042,
+      "start_time": 123937,
+      "text": "毅力造就成功",
+      "words": [
+        {
+          "attribute": {},
+          "end_time": 124220,
+          "start_time": 123937,
+          "text": "毅"
+        },
+        {
+          "attribute": {},
+          "end_time": 124502,
+          "start_time": 124220,
+          "text": "力"
+        },
+        {
+          "attribute": {},
+          "end_time": 125000,
+          "start_time": 124697,
+          "text": "造"
+        },
+        {
+          "attribute": {},
+          "end_time": 125220,
+          "start_time": 125000,
+          "text": "就"
+        },
+        {
+          "attribute": {},
+          "end_time": 125440,
+          "start_time": 125220,
+          "text": "成"
+        },
+        {
+          "attribute": {},
+          "end_time": 126042,
+          "start_time": 125440,
+          "text": "功"
+        }
+      ]
+    },
+    {
+      "attribute": {},
+      "end_time": 134202,
+      "start_time": 128497,
+      "text": "teaches me a lot teaches me a lot教会我很多",
+      "words": [
+        {
+          "attribute": {},
+          "end_time": 129040,
+          "start_time": 128497,
+          "text": "teaches"
+        },
+        {
+          "attribute": {},
+          "end_time": 129040,
+          "start_time": 129040,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 129300,
+          "start_time": 129040,
+          "text": "me"
+        },
+        {
+          "attribute": {},
+          "end_time": 129300,
+          "start_time": 129300,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 129540,
+          "start_time": 129300,
+          "text": "a"
+        },
+        {
+          "attribute": {},
+          "end_time": 129540,
+          "start_time": 129540,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 129822,
+          "start_time": 129540,
+          "text": "lot"
+        },
+        {
+          "attribute": {},
+          "end_time": 129822,
+          "start_time": 129822,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 131300,
+          "start_time": 130697,
+          "text": "teaches"
+        },
+        {
+          "attribute": {},
+          "end_time": 131300,
+          "start_time": 131300,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 131540,
+          "start_time": 131300,
+          "text": "me"
+        },
+        {
+          "attribute": {},
+          "end_time": 131540,
+          "start_time": 131540,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 131740,
+          "start_time": 131540,
+          "text": "a"
+        },
+        {
+          "attribute": {},
+          "end_time": 131740,
+          "start_time": 131740,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 132022,
+          "start_time": 131740,
+          "text": "lot"
+        },
+        {
+          "attribute": {},
+          "end_time": 133000,
+          "start_time": 132697,
+          "text": "教"
+        },
+        {
+          "attribute": {},
+          "end_time": 133200,
+          "start_time": 133000,
+          "text": "会"
+        },
+        {
+          "attribute": {},
+          "end_time": 133360,
+          "start_time": 133200,
+          "text": "我"
+        },
+        {
+          "attribute": {},
+          "end_time": 133580,
+          "start_time": 133360,
+          "text": "很"
+        },
+        {
+          "attribute": {},
+          "end_time": 134202,
+          "start_time": 133580,
+          "text": "多"
+        }
+      ]
+    },
+    {
+      "attribute": {},
+      "end_time": 150162,
+      "start_time": 137097,
+      "text": "Satisfied satisfied 满意 improving constantly improving constantly 不断的进步",
+      "words": [
+        {
+          "attribute": {},
+          "end_time": 138022,
+          "start_time": 137097,
+          "text": "Satisfied"
+        },
+        {
+          "attribute": {},
+          "end_time": 138022,
+          "start_time": 138022,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 139462,
+          "start_time": 138457,
+          "text": "satisfied"
+        },
+        {
+          "attribute": {},
+          "end_time": 139462,
+          "start_time": 139462,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 140080,
+          "start_time": 139737,
+          "text": "满"
+        },
+        {
+          "attribute": {},
+          "end_time": 140422,
+          "start_time": 140080,
+          "text": "意"
+        },
+        {
+          "attribute": {},
+          "end_time": 140422,
+          "start_time": 140422,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 142742,
+          "start_time": 141737,
+          "text": "improving"
+        },
+        {
+          "attribute": {},
+          "end_time": 142742,
+          "start_time": 142742,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 144502,
+          "start_time": 143417,
+          "text": "constantly"
+        },
+        {
+          "attribute": {},
+          "end_time": 144502,
+          "start_time": 144502,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 146182,
+          "start_time": 145217,
+          "text": "improving"
+        },
+        {
+          "attribute": {},
+          "end_time": 146182,
+          "start_time": 146182,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 147662,
+          "start_time": 146697,
+          "text": "constantly"
+        },
+        {
+          "attribute": {},
+          "end_time": 147662,
+          "start_time": 147662,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 148460,
+          "start_time": 148137,
+          "text": "不"
+        },
+        {
+          "attribute": {},
+          "end_time": 148740,
+          "start_time": 148460,
+          "text": "断"
+        },
+        {
+          "attribute": {},
+          "end_time": 149062,
+          "start_time": 148740,
+          "text": "的"
+        },
+        {
+          "attribute": {},
+          "end_time": 149520,
+          "start_time": 149177,
+          "text": "进"
+        },
+        {
+          "attribute": {},
+          "end_time": 150162,
+          "start_time": 149520,
+          "text": "步"
+        }
+      ]
+    },
+    {
+      "attribute": {},
+      "end_time": 152722,
+      "start_time": 151577,
+      "text": "Have a nice day",
+      "words": [
+        {
+          "attribute": {},
+          "end_time": 151818,
+          "start_time": 151577,
+          "text": "Have"
+        },
+        {
+          "attribute": {},
+          "end_time": 151818,
+          "start_time": 151818,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 151960,
+          "start_time": 151818,
+          "text": "a"
+        },
+        {
+          "attribute": {},
+          "end_time": 151960,
+          "start_time": 151960,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 152120,
+          "start_time": 151960,
+          "text": "nice"
+        },
+        {
+          "attribute": {},
+          "end_time": 152120,
+          "start_time": 152120,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 152722,
+          "start_time": 152120,
+          "text": "day"
+        }
+      ]
+    },
+    {
+      "attribute": {},
+      "end_time": 154242,
+      "start_time": 152897,
+      "text": "This is panda",
+      "words": [
+        {
+          "attribute": {},
+          "end_time": 153180,
+          "start_time": 152897,
+          "text": "This"
+        },
+        {
+          "attribute": {},
+          "end_time": 153180,
+          "start_time": 153180,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 153462,
+          "start_time": 153180,
+          "text": "is"
+        },
+        {
+          "attribute": {},
+          "end_time": 153462,
+          "start_time": 153462,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 154242,
+          "start_time": 153462,
+          "text": "panda"
+        }
+      ]
+    },
+    {
+      "attribute": {},
+      "end_time": 155362,
+      "start_time": 154537,
+      "text": "Thank you",
+      "words": [
+        {
+          "attribute": {},
+          "end_time": 154800,
+          "start_time": 154537,
+          "text": "Thank"
+        },
+        {
+          "attribute": {},
+          "end_time": 154800,
+          "start_time": 154800,
+          "text": " "
+        },
+        {
+          "attribute": {},
+          "end_time": 155362,
+          "start_time": 154800,
+          "text": "you"
+        }
+      ]
+    }
+  ]
+}
