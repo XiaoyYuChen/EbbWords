@@ -16,3 +16,10 @@ data/raw/extract_g3.py
 data/raw/fill_g3_ipa.py
 data/raw/_pep_miss_pos.json
 data/raw/_pep_still.json
+
+# PDF OCR 与例句提取的中间产物（例句已固化到 data/books，构建不读取）
+/ocr_pages/
+/data/pdf_examples.json
+/data/pdf_examples.txt
+/data/pdf_words.json
+/data/pep_examples.json
