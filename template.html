@@ -237,6 +237,7 @@
     .btn.primary { background: var(--accent-2); color: #fff; }
     .btn.primary:disabled { background: #a0aec0; color: #fff; opacity: 1; }
     .btn.ghost { background: #efe7da; color: var(--ink); }
+    .btn.on { background: var(--accent-2); color: #fff; }
     .btn:disabled { opacity: .45; cursor: not-allowed; }
     .modal {
       position: fixed; inset: 0; background: rgba(17,24,39,.55); z-index: 80;
@@ -369,6 +370,56 @@
     .passage-word-chip:hover { border-color: var(--accent-2); color: var(--accent-2); }
     .passage-word-chip.unknown { border-style: dashed; color: #c05621; }
     .passage-list-head { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin: 8px 0 12px; }
+    .pg-series { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 14px; }
+    .pg-series-card { display: flex; gap: 14px; align-items: center; padding: 14px; border: 1px solid #e2e8f0; border-radius: 12px; background: #fff; cursor: pointer; transition: box-shadow .15s, border-color .15s, transform .15s; }
+    .pg-series-card:hover { border-color: var(--accent-2); box-shadow: 0 4px 14px rgba(30, 78, 140, .12); transform: translateY(-1px); }
+    .pg-cover { width: 64px; height: 64px; border-radius: 10px; object-fit: cover; flex: 0 0 auto; background: #edf2f7; }
+    .pg-cover-fallback { display: flex; align-items: center; justify-content: center; font-size: 26px; font-weight: 700; color: #fff; background: linear-gradient(135deg, #4c7fb8, #1e4e8c); }
+    .pg-series-info { min-width: 0; }
+    .pg-series-name { font-weight: 700; font-size: 16px; }
+    .pg-series-desc { color: #718096; font-size: 13px; margin-top: 4px; line-height: 1.5; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+    .pg-series-meta { color: #a0aec0; font-size: 12px; margin-top: 6px; }
+    .pg-crumb { display: flex; align-items: center; gap: 8px; font-size: 13px; color: #718096; margin: 4px 0 14px; flex-wrap: wrap; }
+    .pg-crumb span { color: #cbd5e0; }
+    .pg-link { border: 0; background: none; color: var(--accent-2); cursor: pointer; padding: 0; font: inherit; }
+    .pg-link:hover { text-decoration: underline; }
+    .pg-detail-left { display: flex; align-items: center; gap: 12px; min-width: 0; flex: 1 1 auto; }
+    .pg-detail-tools { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+    .pg-select { width: auto; min-width: 92px; height: 34px; padding: 0 8px; }
+    .pg-follow-row { display: flex; align-items: center; gap: 12px; font-size: 13px; color: #4a5568; margin: 0 0 12px; }
+    .pg-follow-row input[type=range] { flex: 1 1 180px; accent-color: var(--accent-2); }
+    .pg-player { border: 1px solid #e2e8f0; border-radius: 12px; background: #fff; padding: 12px; }
+    .pg-subs { max-height: 46vh; overflow-y: auto; padding: 4px 6px; }
+    .pg-cue { padding: 8px 12px; border-radius: 8px; cursor: pointer; border-left: 3px solid transparent; transition: background .15s, border-color .15s; }
+    .pg-cue:hover { background: #f7fafc; }
+    .pg-cue.on { background: #e8f1fb; border-left-color: var(--accent-2); }
+    .pg-en { font-size: 17px; line-height: 1.75; color: var(--ink); }
+    .pg-cn { font-size: 14px; line-height: 1.6; color: #718096; margin-top: 2px; }
+    .pg-subs.hide-cn .pg-cn { display: none; }
+    .pg-en .pw { cursor: pointer; border-bottom: 1px dashed transparent; }
+    .pg-en .pw:hover { color: var(--accent-2); border-bottom-color: var(--accent-2); }
+    .pg-cue.on .pw { border-bottom-color: #b9d3ee; }
+    .pg-controls { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; margin-top: 12px; border-top: 1px solid #edf2f7; padding-top: 12px; }
+    .pg-play { min-width: 48px; height: 38px; font-size: 16px; }
+    .pg-time { font-variant-numeric: tabular-nums; font-size: 12px; color: #718096; white-space: nowrap; }
+    .pg-seek { flex: 1 1 160px; min-width: 120px; accent-color: var(--accent-2); }
+    .pg-follow-row[hidden], .pg-select[hidden] { display: none; }
+    .pg-playlist-box { margin-top: 12px; border-top: 1px solid #edf2f7; padding-top: 10px; }
+    .pg-playlist-head { display: flex; justify-content: space-between; align-items: center; font-size: 13px; font-weight: 600; color: #4a5568; margin-bottom: 6px; }
+    .pg-playlist-head span:last-child { font-weight: 400; color: #a0aec0; }
+    .pg-playlist { max-height: 200px; overflow-y: auto; display: flex; flex-direction: column; gap: 2px; }
+    .pg-playlist-row { display: flex; gap: 8px; align-items: baseline; padding: 7px 10px; border-radius: 7px; cursor: pointer; font-size: 14px; color: #4a5568; }
+    .pg-playlist-row:hover { background: #f7fafc; }
+    .pg-playlist-row.on { background: #e8f1fb; color: var(--accent-2); font-weight: 600; }
+    .pg-playlist-no { flex: 0 0 30px; color: #a0aec0; font-variant-numeric: tabular-nums; font-size: 12px; }
+    .pg-playlist-row.on .pg-playlist-no { color: var(--accent-2); }
+    .pg-playlist-title { min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    @media (max-width: 640px) {
+      .passage-detail-head { align-items: flex-start; }
+      .pg-detail-left { flex-wrap: wrap; }
+      .pg-subs { max-height: 40vh; }
+      .pg-en { font-size: 16px; }
+    }
     .dict-form { display: grid; grid-template-columns: 1fr auto; gap: 10px 12px; align-items: center; margin: 12px 0; }
     .dict-lab { font-size: 14px; color: var(--ink); }
     .dict-input { width: 92px; height: 38px; border: 1px solid var(--line); border-radius: 10px; padding: 0 10px; font-size: 14px; background: var(--paper); }
@@ -438,18 +489,45 @@
     <div class="passage-view" id="passageView" hidden>
       <div class="passage-list-wrap" id="passageListWrap">
         <div class="passage-list-head">
-          <h2 style="margin:0">短文列表</h2>
+          <h2 style="margin:0">短文 · 听读</h2>
           <button class="btn primary sm" id="passageAdd">＋ 新增短文</button>
         </div>
-        <div class="passage-list" id="passageList"></div>
+        <div class="pg-crumb" id="pgCrumb" hidden></div>
+        <div class="pg-series" id="pgSeries"></div>
+        <div class="passage-list" id="pgBooks" hidden></div>
+        <div class="passage-list" id="pgItems" hidden></div>
       </div>
       <div class="passage-detail-wrap" id="passageDetailWrap" hidden>
-        <button class="btn ghost sm" id="btnPassageBack">← 返回列表</button>
         <div class="passage-detail-head">
-          <h2 id="passageTitle"></h2>
-          <button class="btn ghost sm" id="btnPassagePlay">▶ 播放短文</button>
+          <div class="pg-detail-left">
+            <button class="btn ghost sm" id="btnPassageBack">← 返回</button>
+            <h2 id="passageTitle"></h2>
+          </div>
+          <div class="pg-detail-tools">
+            <select class="form-input pg-select" id="pgVoice" hidden></select>
+            <button class="btn ghost sm" id="pgSubMode">双语</button>
+            <button class="btn ghost sm" id="pgFollow">跟读</button>
+          </div>
         </div>
-        <div class="passage-body" id="passageBody"></div>
+        <div class="pg-follow-row" id="pgFollowRow" hidden>
+          <span>停顿 <b id="pgMultVal">1.25</b> 倍</span>
+          <input type="range" id="pgMult" min="1" max="3" step="0.05" value="1.25" />
+        </div>
+        <div class="pg-player">
+          <div class="pg-subs" id="pgSubs"></div>
+          <div class="pg-controls">
+            <button class="btn ghost sm" id="pgPrev" title="上一篇">⏮</button>
+            <button class="btn primary pg-play" id="pgPlay">▶</button>
+            <button class="btn ghost sm" id="pgNext" title="下一篇">⏭</button>
+            <span class="pg-time" id="pgTime">0:00 / 0:00</span>
+            <input class="pg-seek" id="pgSeek" type="range" min="0" max="1000" value="0" />
+            <button class="btn ghost sm" id="pgMode">单曲</button>
+          </div>
+          <div class="pg-playlist-box">
+            <div class="pg-playlist-head"><span>播放列表</span><span id="pgPlaylistMeta"></span></div>
+            <div class="pg-playlist" id="pgPlaylist"></div>
+          </div>
+        </div>
         <div class="wsec" style="margin-top:24px">单词列表</div>
         <div class="passage-words" id="passageWords"></div>
       </div>
@@ -3209,9 +3287,6 @@
 
     // ===== Passage module =====
     let view = "words"; // "words" | "passages"
-    let passageListClickBound = false;
-    let passageBodyClickBound = false;
-    let passageWordsClickBound = false;
 
     const PASSAGE_STOPWORDS = new Set(["a", "an", "the", "is", "are", "was", "were", "and", "or", "but", "to", "of",
       "in", "on", "at", "for", "with", "by", "from", "it", "he", "she", "they",
@@ -3223,15 +3298,72 @@
       "whom", "while", "again", "here", "there", "up", "down", "out", "over",
       "under", "after", "before", "now"]);
 
+    const PG_SERIES = (EBB.passages && EBB.passages.series) || [];
     let CUSTOM_PASSAGES = [];
     let RUNTIME_WORDS = {};
     const runtimeFetching = new Map();
-    let currentPassage = null;
-    let passagePlayId = 0;
-    let passagePlaying = false;
-    let passageAudio = null;
-    let passageLineResolve = null;
-    let passageAudioResolve = null;
+
+    // 浏览层级：series -> books -> items -> player
+    let pgLevel = "series";
+    let pgSeries = null;
+    let pgBook = null;
+    let pgItem = null;
+    let pgTrackIndex = 0;
+    let pgCues = [];
+    let pgAudio = null;
+    let pgTtsAudio = null;
+    let pgTtsToken = 0;
+    let pgPlaying = false;
+    let pgRAF = 0;
+    let pgFollow = false;
+    let pgFollowPending = false;
+    let pgFollowTimer = 0;
+    let pgMultiplier = 1.25;
+    let pgSubMode = "bi"; // bi | en
+    let pgMode = "single"; // single | repeat | sequential | shuffle
+    let pgQueue = [];
+    let pgLastCue = -1;
+    let pgSeeking = false;
+
+    function allSeries() {
+      const list = PG_SERIES.slice();
+      if (CUSTOM_PASSAGES.length) {
+        list.push({
+          id: "custom",
+          name: "我的短文",
+          author: "",
+          description: "保存在本机的自定义短文",
+          cover: "",
+          books: [{
+            id: "custom",
+            name: "我的短文",
+            type: "text",
+            author: "",
+            description: "",
+            cover: "",
+            items: CUSTOM_PASSAGES.map((p) => ({
+              id: p.id,
+              title: p.title,
+              words: p.words,
+              lines: p.lines,
+              custom: true,
+              tracks: []
+            }))
+          }]
+        });
+      }
+      return list;
+    }
+
+    function findSeries(sid) {
+      return allSeries().find((s) => String(s.id) === String(sid)) || null;
+    }
+
+    function findBook(sid, bid) {
+      const s = findSeries(sid);
+      if (!s) return null;
+      return (s.books || []).find((b) => String(b.id) === String(bid)) || null;
+    }
 
     function loadCustomPassages() {
       try {
@@ -3265,11 +3397,6 @@
       } catch (e) {
         toast("本地存储写入失败");
       }
-    }
-
-    function allPassageItems() {
-      const base = (EBB.passages && EBB.passages.items) || [];
-      return base.concat(CUSTOM_PASSAGES);
     }
 
     function extractPassageWords(lines) {
@@ -3400,166 +3527,252 @@
       return !!wmodalWord && String(wmodalWord.w || "").toLowerCase().trim() === key;
     }
 
-    function setPassagePlayBtn(playing) {
-      const btn = $("btnPassagePlay");
-      if (!btn) return;
-      passagePlaying = playing;
-      btn.textContent = playing ? "■ 停止" : "▶ 播放短文";
+    // ---------- playback core ----------
+    function setPlayButton() {
+      const btn = $("pgPlay");
+      if (btn) btn.textContent = pgPlaying ? "❚❚" : "▶";
     }
 
-    function clearPassageHighlight() {
-      $("passageBody").querySelectorAll("p.playing").forEach((p) => p.classList.remove("playing"));
+    function fmtTime(ms) {
+      const s = Math.max(0, Math.floor((ms || 0) / 1000));
+      return Math.floor(s / 60) + ":" + String(s % 60).padStart(2, "0");
     }
 
-    function highlightPassageLine(index) {
-      const ps = $("passageBody").querySelectorAll("p");
-      ps.forEach((p, j) => p.classList.toggle("playing", j === index));
+    function stopTts() {
+      pgTtsToken += 1;
+      if (pgTtsAudio) {
+        try { pgTtsAudio.pause(); } catch (e) {}
+        pgTtsAudio = null;
+      }
+      try { speechSynthesis.cancel(); } catch (e) {}
+    }
+
+    function clearFollowTimer() {
+      if (pgFollowTimer) {
+        clearTimeout(pgFollowTimer);
+        pgFollowTimer = 0;
+      }
+      pgFollowPending = false;
     }
 
     function stopPassagePlayback() {
-      passagePlayId += 1;
-      if (passageLineResolve) {
-        const r = passageLineResolve;
-        passageLineResolve = null;
-        r(false);
+      clearFollowTimer();
+      stopTts();
+      if (pgRAF) {
+        cancelAnimationFrame(pgRAF);
+        pgRAF = 0;
       }
-      if (passageAudioResolve) {
-        const r = passageAudioResolve;
-        passageAudioResolve = null;
-        r(false);
+      if (pgAudio) {
+        try { pgAudio.pause(); } catch (e) {}
       }
-      if (passageAudio) {
-        try { passageAudio.pause(); } catch (e) {}
-        passageAudio = null;
-      }
-      try { speechSynthesis.cancel(); } catch (e) {}
-      clearPassageHighlight();
-      setPassagePlayBtn(false);
+      pgPlaying = false;
+      setPlayButton();
     }
 
-    // 原始音频整段播放：按 SRT 时间轴逐行高亮当前句
-    function playPassageAudio(passage, id) {
-      return new Promise((resolve) => {
-        let done = false;
-        let frame = 0;
-        const finish = (ok) => {
-          if (done) return;
-          done = true;
-          if (frame) cancelAnimationFrame(frame);
-          if (passageAudioResolve === finish) passageAudioResolve = null;
-          const a = passageAudio;
-          passageAudio = null;
-          if (a) {
-            a.onended = null;
-            a.onerror = null;
-            try { a.pause(); } catch (e) {}
-          }
-          resolve(ok && id === passagePlayId);
-        };
-        passageAudioResolve = finish;
-
-        const times = Array.isArray(passage.times) ? passage.times : [];
-        const lastEnd = times.length ? times[times.length - 1][1] : 0;
-        const a = new Audio(passage.audio);
-        a.preload = "auto";
-        passageAudio = a;
-        const tick = () => {
-          if (id !== passagePlayId) return;
-          const ms = a.currentTime * 1000;
-          if (lastEnd && ms > lastEnd + 600) {
-            finish(true);
-            return;
-          }
-          let cur = -1;
-          for (let i = 0; i < times.length; i += 1) {
-            const t = times[i];
-            if (t && ms >= t[0]) cur = i;
-            else break;
-          }
-          highlightPassageLine(cur);
-          frame = requestAnimationFrame(tick);
-        };
-        a.onended = () => finish(true);
-        a.onerror = () => finish(false);
-        a.play().then(() => {
-          if (id !== passagePlayId) { finish(false); return; }
-          tick();
-        }).catch(() => finish(false));
-      });
-    }
-
-    function speakPassageLine(text, id) {
-      return new Promise((resolve) => {
-        let done = false;
-        let timer = 0;
-        const finish = (ok) => {
-          if (done) return;
-          done = true;
-          clearTimeout(timer);
-          if (passageLineResolve === finish) passageLineResolve = null;
-          resolve(ok !== false && id === passagePlayId);
-        };
-        passageLineResolve = finish;
-        const s = String(text || "").trim();
-        if (!s) { finish(true); return; }
-        if (audioEl) { audioEl.pause(); audioEl = null; }
-        if (passageAudio) { passageAudio.pause(); passageAudio = null; }
-        const fallback = () => {
-          try {
-            speechSynthesis.cancel();
-            const u = new SpeechSynthesisUtterance(s);
-            u.lang = "en-GB";
-            u.onend = () => finish(true);
-            u.onerror = () => finish(false);
-            speechSynthesis.speak(u);
-          } catch (e) { finish(false); }
-        };
-        const url = "https://dict.youdao.com/dictvoice?type=2&audio=" + encodeURIComponent(s);
-        const a = new Audio(url);
-        passageAudio = a;
-        a.onended = () => finish(true);
-        a.onerror = fallback;
-        a.play().catch(fallback);
-        timer = setTimeout(() => {
-          try { a.pause(); } catch (e) {}
-          finish(false);
-        }, 20000);
-      });
-    }
-
-    async function startPassagePlayback() {
-      if (!currentPassage) return;
+    function teardownAudio() {
       stopPassagePlayback();
-      passagePlayId += 1;
-      const id = passagePlayId;
-      setPassagePlayBtn(true);
-      const lines = currentPassage.lines || [];
-      let played = 0;
-      try {
-        // 优先播放项目内的原始音频，并按其字幕时间轴逐行高亮
-        if (currentPassage.audio && Array.isArray(currentPassage.times) && currentPassage.times.length) {
-          const ok = await playPassageAudio(currentPassage, id);
-          if (id !== passagePlayId) return;
-          if (ok) return;
-          clearPassageHighlight();
+      if (pgAudio) {
+        try { pgAudio.pause(); pgAudio.src = ""; } catch (e) {}
+        pgAudio = null;
+      }
+    }
+
+    function cueIndexAt(ms) {
+      let cur = -1;
+      for (let i = 0; i < pgCues.length; i += 1) {
+        if (pgCues[i] && ms >= pgCues[i][0]) cur = i;
+        else break;
+      }
+      return cur;
+    }
+
+    function setActiveCue(idx, scroll) {
+      if (idx === pgLastCue) return;
+      pgLastCue = idx;
+      const wrap = $("pgSubs");
+      if (!wrap) return;
+      wrap.querySelectorAll(".pg-cue.on").forEach((el) => el.classList.remove("on"));
+      if (idx < 0) return;
+      const el = wrap.querySelector('.pg-cue[data-ci="' + idx + '"]');
+      if (!el) return;
+      el.classList.add("on");
+      if (scroll !== false) {
+        try { el.scrollIntoView({ block: "center", behavior: "smooth" }); } catch (e) {}
+      }
+    }
+
+    function updateTimeUI(ms, dur) {
+      $("pgTime").textContent = fmtTime(ms) + " / " + fmtTime(dur);
+      if (!pgSeeking && dur > 0) {
+        $("pgSeek").value = String(Math.round(ms / dur * 1000));
+      }
+    }
+
+    function startTick() {
+      if (pgRAF) cancelAnimationFrame(pgRAF);
+      const loop = () => {
+        if (!pgAudio || !pgPlaying) {
+          pgRAF = 0;
+          return;
         }
-        // 没有音频（自定义短文/文件缺失）时，逐行调用有道接口朗读
-        for (let i = 0; i < lines.length; i += 1) {
-          if (id !== passagePlayId) return;
-          highlightPassageLine(i);
-          const ok = await speakPassageLine(lines[i], id);
-          if (id !== passagePlayId) return;
+        const ms = pgAudio.currentTime * 1000;
+        const dur = (pgAudio.duration || 0) * 1000;
+        updateTimeUI(ms, dur);
+        const idx = cueIndexAt(ms);
+        setActiveCue(idx);
+        if (pgFollow && !pgFollowPending && idx >= 0) {
+          const c = pgCues[idx];
+          // 在句尾前触发停顿：相邻字幕间隔可能小于一帧，等到 c[1] 之后会漏掉跟读
+          if (c && c[1] > c[0] && ms >= c[1] - 40) followPause(idx);
+        }
+        pgRAF = requestAnimationFrame(loop);
+      };
+      pgRAF = requestAnimationFrame(loop);
+    }
+
+    // 跟读：每句播放结束后停顿（句长 × 倍数），再从下一句开头继续
+    function followPause(idx) {
+      if (!pgAudio || !pgFollow) return;
+      pgFollowPending = true;
+      try { pgAudio.pause(); } catch (e) {}
+      const c = pgCues[idx];
+      const wait = Math.max(400, (c[1] - c[0]) * pgMultiplier);
+      pgFollowTimer = setTimeout(() => {
+        pgFollowTimer = 0;
+        pgFollowPending = false;
+        if (!pgAudio || !pgFollow) return;
+        const next = pgCues[idx + 1];
+        if (!next) {
+          onAudioEnded();
+          return;
+        }
+        pgAudio.currentTime = next[0] / 1000 + 0.01;
+        pgAudio.play().catch(() => {});
+      }, wait);
+    }
+
+    function onAudioEnded() {
+      if (pgMode === "repeat" && pgAudio) {
+        pgAudio.currentTime = 0;
+        pgAudio.play().catch(() => {});
+        return;
+      }
+      if (pgMode === "sequential" || pgMode === "shuffle") {
+        goRelative(1, true);
+        return;
+      }
+      stopPassagePlayback();
+      if (pgAudio) {
+        try { pgAudio.currentTime = 0; } catch (e) {}
+      }
+      updateTimeUI(0, 0);
+      setActiveCue(pgCues.length - 1, false);
+    }
+
+    function setupAudio(src) {
+      teardownAudio();
+      if (!src) return;
+      const a = new Audio();
+      a.preload = "auto";
+      a.src = src;
+      a.addEventListener("ended", onAudioEnded);
+      a.addEventListener("error", () => toast("音频加载失败"));
+      a.addEventListener("loadedmetadata", () => updateTimeUI(0, (a.duration || 0) * 1000));
+      pgAudio = a;
+    }
+
+    function play() {
+      if (!pgItem) return;
+      if (!pgAudio) {
+        playTts();
+        return;
+      }
+      pgAudio.play().then(() => {
+        pgPlaying = true;
+        setPlayButton();
+        startTick();
+      }).catch(() => toast("播放失败"));
+    }
+
+    function pause() {
+      clearFollowTimer();
+      if (pgAudio) {
+        try { pgAudio.pause(); } catch (e) {}
+      }
+      stopTts();
+      pgPlaying = false;
+      setPlayButton();
+    }
+
+    function togglePlay() {
+      if (pgPlaying) pause();
+      else play();
+    }
+
+    // 无音频（自定义短文）时逐句在线朗读
+    function playTts() {
+      stopTts();
+      const token = pgTtsToken;
+      const start = Math.max(0, pgLastCue);
+      pgPlaying = true;
+      setPlayButton();
+      const run = async () => {
+        let played = 0;
+        for (let i = start; i < pgCues.length; i += 1) {
+          if (token !== pgTtsToken) return;
+          setActiveCue(i);
+          const ok = await speakLine(pgCues[i][2]);
+          if (token !== pgTtsToken) return;
           if (ok) played += 1;
           await new Promise((r) => setTimeout(r, 180));
         }
-        if (id === passagePlayId && lines.length && !played) {
-          toast("短文播放失败，请检查网络后重试");
+        if (token === pgTtsToken) {
+          pgPlaying = false;
+          pgLastCue = -1;
+          setPlayButton();
+          if (pgCues.length && !played) toast("朗读失败，请检查网络后重试");
         }
-      } finally {
-        if (id === passagePlayId) {
-          clearPassageHighlight();
-          setPassagePlayBtn(false);
-        }
+      };
+      run();
+    }
+
+    function speakLine(text) {
+      return new Promise((resolve) => {
+        const s = String(text || "").trim();
+        if (!s) { resolve(true); return; }
+        const token = pgTtsToken;
+        const fallback = () => {
+          try {
+            const u = new SpeechSynthesisUtterance(s);
+            u.lang = "en-GB";
+            u.onend = () => resolve(token === pgTtsToken);
+            u.onerror = () => resolve(false);
+            speechSynthesis.speak(u);
+          } catch (e) { resolve(false); }
+        };
+        const url = "https://dict.youdao.com/dictvoice?type=2&audio=" + encodeURIComponent(s);
+        const a = new Audio(url);
+        pgTtsAudio = a;
+        a.onended = () => {
+          if (pgTtsAudio === a) pgTtsAudio = null;
+          resolve(token === pgTtsToken);
+        };
+        a.onerror = fallback;
+        a.play().catch(fallback);
+      });
+    }
+
+    function seekTo(ms) {
+      clearFollowTimer();
+      if (pgAudio) {
+        try { pgAudio.currentTime = Math.max(0, ms) / 1000; } catch (e) {}
+        setActiveCue(cueIndexAt(ms));
+        updateTimeUI(ms, (pgAudio.duration || 0) * 1000);
+      } else {
+        const idx = cueIndexAt(ms);
+        pgLastCue = Math.max(0, idx);
+        setActiveCue(pgLastCue);
+        if (pgPlaying) playTts();
       }
     }
 
@@ -3590,22 +3803,95 @@
       return _anyLibIndex[key] || null;
     }
 
-    function renderPassageList() {
-      const items = allPassageItems();
-      if (!items.length) {
-        $("passageList").innerHTML = "<p style='color:#718096'>暂无短文</p>";
-        return;
+    const PG_MODES = [
+      ["single", "单曲"],
+      ["repeat", "单曲循环"],
+      ["sequential", "顺序播放"],
+      ["shuffle", "随机播放"]
+    ];
+    function pgModeLabel(id) {
+      const hit = PG_MODES.find((m) => m[0] === id);
+      return hit ? hit[1] : "单曲";
+    }
+
+    function seriesStats(s) {
+      const books = s.books || [];
+      let count = 0;
+      books.forEach((b) => { count += (b.items || []).length; });
+      return { books: books.length, count };
+    }
+
+    function seriesCover(s, cls) {
+      if (s.cover) {
+        return `<img class="${cls}" src="${escapeHtml(s.cover)}" alt="" loading="lazy" onerror="this.style.display='none'">`;
       }
-      $("passageList").innerHTML = items.map((p) => {
-        const total = p.words.length;
-        const known = p.words.filter((w) => findWordAnyLib(w)).length;
-        const label = p.custom ? "自定义" : `No.${String(p.id).padStart(2, "0")}`;
-        return `<div class="passage-card" data-pid="${escapeHtml(String(p.id))}">
-          <div class="pnum">${label}</div>
-          <div class="ptitle">${escapeHtml(p.title)}</div>
+      return `<div class="${cls} pg-cover-fallback">${escapeHtml(String(s.name || "?").slice(0, 1))}</div>`;
+    }
+
+    function showListLevel(level) {
+      pgLevel = level;
+      $("pgSeries").hidden = level !== "series";
+      $("pgBooks").hidden = level !== "books";
+      $("pgItems").hidden = level !== "items";
+      $("passageListWrap").hidden = false;
+      $("passageDetailWrap").hidden = true;
+      $("pgCrumb").hidden = level === "series";
+      if (level === "series") {
+        $("pgCrumb").innerHTML = "";
+      } else if (level === "books") {
+        $("pgCrumb").innerHTML = `<button class="pg-link" data-back="series">全部系列</button>`
+          + ` <span>›</span> <b>${escapeHtml(pgSeries ? pgSeries.name : "")}</b>`;
+      } else {
+        $("pgCrumb").innerHTML = `<button class="pg-link" data-back="series">全部系列</button>`
+          + ` <span>›</span> <button class="pg-link" data-back="books">${escapeHtml(pgSeries ? pgSeries.name : "")}</button>`
+          + ` <span>›</span> <b>${escapeHtml(pgBook ? pgBook.name : "")}</b>`;
+      }
+    }
+
+    function renderSeries() {
+      showListLevel("series");
+      const list = allSeries();
+      $("pgSeries").innerHTML = list.map((s) => {
+        const st = seriesStats(s);
+        return `<div class="pg-series-card" data-sid="${escapeHtml(s.id)}">
+          ${seriesCover(s, "pg-cover")}
+          <div class="pg-series-info">
+            <div class="pg-series-name">${escapeHtml(s.name)}</div>
+            <div class="pg-series-desc">${escapeHtml(s.description || "")}</div>
+            <div class="pg-series-meta">${st.books} 本 · ${st.count} 篇</div>
+          </div>
+        </div>`;
+      }).join("") || "<p style='color:#718096'>暂无内容</p>";
+    }
+
+    function renderBooks() {
+      if (!pgSeries) { renderSeries(); return; }
+      showListLevel("books");
+      $("pgBooks").innerHTML = (pgSeries.books || []).map((b) => {
+        const n = (b.items || []).length;
+        return `<div class="passage-card" data-bid="${escapeHtml(b.id)}">
+          <div class="pnum">${b.type === "doc" ? "多音色 · 双语字幕" : "双语字幕"}</div>
+          <div class="ptitle">${escapeHtml(b.name)}</div>
+          <div class="pwords">${n} 篇</div>
+        </div>`;
+      }).join("") || "<p style='color:#718096'>暂无篇目</p>";
+    }
+
+    function renderItems() {
+      if (!pgSeries || !pgBook) { renderBooks(); return; }
+      showListLevel("items");
+      const items = pgBook.items || [];
+      $("pgItems").innerHTML = items.map((it) => {
+        const voices = (it.tracks || []).length;
+        const total = (it.words || []).length;
+        const known = (it.words || []).filter((w) => findWordAnyLib(w)).length;
+        const label = it.custom ? "自定义" : (voices > 1 ? `${voices} 音色` : `No.${String(it.id).padStart(2, "0")}`);
+        return `<div class="passage-card" data-iid="${escapeHtml(String(it.id))}">
+          <div class="pnum">${escapeHtml(label)}</div>
+          <div class="ptitle">${escapeHtml(it.title)}</div>
           <div class="pwords">${total} 词 · ${total - known} 生词</div>
         </div>`;
-      }).join("");
+      }).join("") || "<p style='color:#718096'>暂无篇目</p>";
     }
 
     // 先分词再逐段转义，避免转义产物（&quot; 里的 quot）被再次识别成单词
@@ -3623,30 +3909,147 @@
       return out;
     }
 
-    function openPassage(pid) {
-      const items = allPassageItems();
-      const p = items.find((x) => String(x.id) === String(pid));
-      if (!p) return;
-      stopPassagePlayback();
-      currentPassage = p;
-      $("passageTitle").textContent = p.custom
-        ? p.title
-        : `No.${String(p.id).padStart(2, "0")} ${p.title}`;
-      $("passageBody").innerHTML = p.lines.map(
-        (line) => `<p>${renderPassageLine(line)}</p>`
-      ).join("");
-      $("passageWords").innerHTML = p.words.map((w) => {
+    function buildQueue() {
+      const items = (pgBook && pgBook.items) || [];
+      const cur = items.findIndex((x) => String(x.id) === String(pgItem.id));
+      const rest = items.filter((_, i) => i !== cur).sort(() => Math.random() - 0.5);
+      pgQueue = [String(pgItem.id)].concat(rest.map((x) => String(x.id)));
+    }
+
+    // 播放列表：顺序/随机切换下一首；单曲模式在播放结束后停止
+    function goRelative(delta, autoplay) {
+      if (!pgSeries || !pgBook || !pgItem) return;
+      const items = pgBook.items || [];
+      if (!items.length) return;
+      const cur = items.findIndex((x) => String(x.id) === String(pgItem.id));
+      let nextIdx = -1;
+      if (pgMode === "shuffle" && delta > 0) {
+        if (!pgQueue.length) buildQueue();
+        const qi = pgQueue.indexOf(String(pgItem.id));
+        const nid = pgQueue[qi + 1];
+        if (nid === undefined) {
+          if (autoplay) { stopPassagePlayback(); return; }
+          nextIdx = (cur + 1) % items.length;
+        } else {
+          nextIdx = items.findIndex((x) => String(x.id) === nid);
+        }
+      } else {
+        nextIdx = (cur + delta + items.length) % items.length;
+      }
+      if (nextIdx < 0) return;
+      openItemBy(pgSeries.id, pgBook.id, items[nextIdx].id, autoplay);
+    }
+
+    function openItemBy(sid, bid, iid, autoplay) {
+      const s = findSeries(sid);
+      const b = s && (s.books || []).find((x) => String(x.id) === String(bid));
+      const it = b && (b.items || []).find((x) => String(x.id) === String(iid));
+      if (!s || !b || !it) return;
+      pgSeries = s;
+      pgBook = b;
+      pgItem = it;
+      pgTrackIndex = 0;
+      pgLastCue = -1;
+      pgQueue = [];
+      renderPlayer(autoplay);
+    }
+
+    function renderPlayer(autoplay) {
+      pgLevel = "player";
+      $("passageListWrap").hidden = true;
+      $("passageDetailWrap").hidden = false;
+      $("passageTitle").textContent = pgItem.custom
+        ? pgItem.title
+        : `No.${String(pgItem.id).padStart(2, "0")} ${pgItem.title}`;
+      const tracks = pgItem.tracks || [];
+      const sel = $("pgVoice");
+      const showVoice = tracks.length > 1
+        || (tracks.length === 1 && tracks[0].name && tracks[0].name !== "默认");
+      if (showVoice) {
+        sel.hidden = false;
+        sel.innerHTML = tracks.map((t, i) =>
+          `<option value="${i}">${escapeHtml(t.name || ("音色 " + (i + 1)))}</option>`
+        ).join("");
+        sel.value = String(pgTrackIndex);
+      } else {
+        sel.hidden = true;
+        sel.innerHTML = "";
+      }
+      $("pgFollow").disabled = !tracks.length;
+      if (!tracks.length) {
+        pgFollow = false;
+        $("pgFollow").classList.remove("on");
+      }
+      $("pgFollowRow").hidden = !pgFollow || !tracks.length;
+      $("pgMode").textContent = pgModeLabel(pgMode);
+      $("passageWords").innerHTML = (pgItem.words || []).map((w) => {
         const known = !!findWordAnyLib(w);
         return `<span class="passage-word-chip${known ? "" : " unknown"}" data-w="${escapeHtml(w)}">${escapeHtml(w)}</span>`;
       }).join("");
-      $("passageListWrap").hidden = true;
-      $("passageDetailWrap").hidden = false;
+      loadTrack(autoplay);
+      renderPlaylist();
+    }
+
+    function renderPlaylist() {
+      const items = (pgBook && pgBook.items) || [];
+      const meta = $("pgPlaylistMeta");
+      if (meta) meta.textContent = items.length ? items.length + " 篇 · " + pgModeLabel(pgMode) : "";
+      const wrap = $("pgPlaylist");
+      if (!wrap) return;
+      wrap.innerHTML = items.map((it, i) => {
+        const on = pgItem && String(it.id) === String(pgItem.id);
+        return `<div class="pg-playlist-row${on ? " on" : ""}" data-iid="${escapeHtml(String(it.id))}">`
+          + `<span class="pg-playlist-no">${String(i + 1).padStart(2, "0")}</span>`
+          + `<span class="pg-playlist-title">${escapeHtml(it.title)}</span></div>`;
+      }).join("");
+      const active = wrap.querySelector(".on");
+      if (active) wrap.scrollTop = Math.max(0, active.offsetTop - wrap.clientHeight / 2);
+    }
+
+    function loadTrack(autoplay) {
+      teardownAudio();
+      pgLastCue = -1;
+      pgCues = [];
+      const tracks = pgItem.tracks || [];
+      if (tracks.length) {
+        const t = tracks[Math.min(pgTrackIndex, tracks.length - 1)];
+        pgCues = t.cues || [];
+        setupAudio(t.audio);
+      } else {
+        pgCues = (pgItem.lines || []).map((line) => [0, 0, line, ""]);
+      }
+      renderSubs();
+      updateTimeUI(0, 0);
+      $("pgSeek").value = 0;
+      setPlayButton();
+      const hasCues = pgCues.length > 0;
+      $("pgFollow").disabled = !hasCues;
+      $("pgSubMode").disabled = !hasCues;
+      if (!hasCues && pgFollow) {
+        pgFollow = false;
+        $("pgFollow").classList.remove("on");
+        $("pgFollowRow").hidden = true;
+      }
+      if (autoplay) play();
+    }
+
+    function renderSubs() {
+      const keep = pgLastCue;
+      pgLastCue = -1;
+      $("pgSubs").innerHTML = pgCues.map((c, i) => {
+        const cn = c[3] ? `<div class="pg-cn">${escapeHtml(c[3])}</div>` : "";
+        return `<div class="pg-cue" data-ci="${i}"><div class="pg-en">${renderPassageLine(c[2])}</div>${cn}</div>`;
+      }).join("") || "<p style='color:#a0aec0'>暂无字幕</p>";
+      $("pgSubs").classList.toggle("hide-cn", pgSubMode === "en");
+      $("pgSubMode").textContent = pgSubMode === "en" ? "英文" : "双语";
+      $("pgSubMode").classList.toggle("on", pgSubMode === "bi");
+      if (keep >= 0) setActiveCue(keep, false);
     }
 
     async function openPassageWord(word) {
       const key = String(word || "").toLowerCase().trim();
       if (!key) return;
-      stopPassagePlayback();
+      if (pgPlaying) pause();
       const lib = findWordAnyLib(key);
       if (lib) { openWordModal(lib); return; }
       const map = (EBB.passages && EBB.passages.wordMap) || {};
@@ -3693,48 +4096,126 @@
       $("btnWords").classList.toggle("on", !isPassage);
       $("btnPassages").classList.toggle("on", isPassage);
       if (isPassage) {
-        $("passageListWrap").hidden = false;
-        $("passageDetailWrap").hidden = true;
-        renderPassageList();
+        renderSeries();
       }
       updateSelBar();
     }
 
     $("btnPassages").addEventListener("click", () => switchView("passages"));
     $("btnWords").addEventListener("click", () => switchView("words"));
+
     $("btnPassageBack").addEventListener("click", () => {
       stopPassagePlayback();
-      $("passageListWrap").hidden = false;
-      $("passageDetailWrap").hidden = true;
+      if (pgBook) renderItems();
+      else renderSeries();
     });
-    $("btnPassagePlay").addEventListener("click", () => {
-      if (passagePlaying) stopPassagePlayback();
-      else startPassagePlayback();
+
+    $("pgPlay").addEventListener("click", togglePlay);
+    $("pgPrev").addEventListener("click", () => goRelative(-1, true));
+    $("pgNext").addEventListener("click", () => goRelative(1, true));
+    $("pgMode").addEventListener("click", () => {
+      const i = PG_MODES.findIndex((m) => m[0] === pgMode);
+      pgMode = PG_MODES[(i + 1) % PG_MODES.length][0];
+      $("pgMode").textContent = pgModeLabel(pgMode);
+      pgQueue = [];
+      renderPlaylist();
     });
-    if (!passageListClickBound) {
-      $("passageList").addEventListener("click", (e) => {
-        const card = e.target.closest("[data-pid]");
-        if (!card) return;
-        openPassage(card.dataset.pid);
-      });
-      passageListClickBound = true;
-    }
-    if (!passageBodyClickBound) {
-      $("passageBody").addEventListener("click", (e) => {
-        const sp = e.target.closest(".pw");
-        if (!sp) return;
-        openPassageWord(sp.dataset.w);
-      });
-      passageBodyClickBound = true;
-    }
-    if (!passageWordsClickBound) {
-      $("passageWords").addEventListener("click", (e) => {
-        const chip = e.target.closest("[data-w]");
-        if (!chip) return;
-        openPassageWord(chip.dataset.w);
-      });
-      passageWordsClickBound = true;
-    }
+    $("pgSubMode").addEventListener("click", () => {
+      pgSubMode = pgSubMode === "bi" ? "en" : "bi";
+      renderSubs();
+    });
+    $("pgFollow").addEventListener("click", () => {
+      pgFollow = !pgFollow;
+      $("pgFollow").classList.toggle("on", pgFollow);
+      $("pgFollowRow").hidden = !pgFollow;
+      clearFollowTimer();
+      if (!pgFollow && pgAudio && pgPlaying) pgAudio.play().catch(() => {});
+    });
+    $("pgMult").addEventListener("input", (e) => {
+      pgMultiplier = Number(e.target.value) || 1.25;
+      $("pgMultVal").textContent = pgMultiplier.toFixed(2).replace(/0$/, "");
+    });
+    $("pgSeek").addEventListener("pointerdown", () => { pgSeeking = true; });
+    $("pgSeek").addEventListener("input", (e) => {
+      if (!pgAudio) return;
+      const dur = (pgAudio.duration || 0) * 1000;
+      const ms = dur * (Number(e.target.value) / 1000);
+      $("pgTime").textContent = fmtTime(ms) + " / " + fmtTime(dur);
+    });
+    $("pgSeek").addEventListener("change", (e) => {
+      pgSeeking = false;
+      if (!pgAudio) return;
+      const dur = (pgAudio.duration || 0) * 1000;
+      seekTo(dur * (Number(e.target.value) / 1000));
+    });
+    $("pgVoice").addEventListener("change", (e) => {
+      const was = pgPlaying;
+      pgTrackIndex = Number(e.target.value) || 0;
+      loadTrack(was);
+    });
+
+    // 系列 / 书籍 / 篇目 三级浏览
+    $("pgSeries").addEventListener("click", (e) => {
+      const card = e.target.closest("[data-sid]");
+      if (!card) return;
+      pgSeries = findSeries(card.dataset.sid);
+      pgBook = null;
+      if (pgSeries) renderBooks();
+    });
+    $("pgBooks").addEventListener("click", (e) => {
+      const card = e.target.closest("[data-bid]");
+      if (!card || !pgSeries) return;
+      pgBook = (pgSeries.books || []).find((b) => String(b.id) === String(card.dataset.bid)) || null;
+      if (pgBook) renderItems();
+    });
+    $("pgItems").addEventListener("click", (e) => {
+      const card = e.target.closest("[data-iid]");
+      if (!card || !pgSeries || !pgBook) return;
+      openItemBy(pgSeries.id, pgBook.id, card.dataset.iid, false);
+    });
+    $("pgPlaylist").addEventListener("click", (e) => {
+      const row = e.target.closest("[data-iid]");
+      if (!row || !pgSeries || !pgBook || !pgItem) return;
+      if (String(row.dataset.iid) === String(pgItem.id)) return;
+      openItemBy(pgSeries.id, pgBook.id, row.dataset.iid, true);
+    });
+    $("pgCrumb").addEventListener("click", (e) => {
+      const b = e.target.closest("[data-back]");
+      if (!b) return;
+      if (b.dataset.back === "series") {
+        pgBook = null;
+        renderSeries();
+      } else {
+        renderBooks();
+      }
+    });
+
+    // 字幕区：点单词查词，点句子跳转
+    $("pgSubs").addEventListener("click", (e) => {
+      const w = e.target.closest(".pw");
+      if (w) {
+        openPassageWord(w.dataset.w);
+        return;
+      }
+      const cue = e.target.closest(".pg-cue");
+      if (!cue) return;
+      const ci = Number(cue.dataset.ci);
+      if (!pgCues[ci]) return;
+      if (pgAudio) {
+        seekTo(pgCues[ci][0] + 1);
+      } else {
+        pgLastCue = ci;
+        setActiveCue(ci);
+        if (pgPlaying) playTts();
+      }
+    });
+
+    $("passageWords").addEventListener("click", (e) => {
+      const chip = e.target.closest("[data-w]");
+      if (!chip) return;
+      openPassageWord(chip.dataset.w);
+    });
+
     $("passageAdd").addEventListener("click", () => {
       $("passageTitleInput").value = "";
       $("passageTextInput").value = "";
@@ -3765,8 +4246,7 @@
       });
       saveCustomPassages();
       $("passageModal").classList.remove("show");
-      renderPassageList();
-      openPassage(id);
+      openItemBy("custom", "custom", id, false);
       toast("已新增短文");
     });
     $("wAddMyLib").addEventListener("click", () => {

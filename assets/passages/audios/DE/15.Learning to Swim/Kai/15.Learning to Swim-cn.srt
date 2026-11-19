@@ -1,0 +1,35 @@
+1
+00:00:00,030 --> 00:00:00,830
+Today
+今天
+
+2
+00:00:00,957 --> 00:00:03,782
+my mom and I went to the swimming pool
+我和妈妈去了游泳池
+
+3
+00:00:04,157 --> 00:00:06,423
+The coach taught us how to swim
+教练教我们游泳
+
+4
+00:00:06,597 --> 00:00:08,622
+I Learned to kick and stroke
+我学会了踢腿和划水
+
+5
+00:00:08,996 --> 00:00:11,102
+At first, I was a bit scared
+一开始我有点害怕
+
+6
+00:00:11,356 --> 00:00:13,423
+But soon, I loved swimming
+但很快，我爱上了游泳
+
+7
+00:00:13,477 --> 00:00:16,161
+I can swim in the water and feel very happy
+我能在水里游泳感到很快乐
+

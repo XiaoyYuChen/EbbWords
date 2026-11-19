@@ -1,0 +1,50 @@
+1
+00:00:00,000 --> 00:00:01,080
+Every day after school
+每天放学后
+
+2
+00:00:01,080 --> 00:00:02,255
+I do homework first
+我先做作业
+
+3
+00:00:02,257 --> 00:00:03,722
+Homework is important
+家庭作业很重要
+
+4
+00:00:04,097 --> 00:00:06,815
+because it helps me learn and get better grades
+因为这有助于我学习并获得更好的成绩
+
+5
+00:00:06,817 --> 00:00:08,656
+I try hard on each question
+我努力回答每一个问题
+
+6
+00:00:08,657 --> 00:00:09,721
+even when it's tough
+即使这很艰难
+
+7
+00:00:09,856 --> 00:00:10,922
+But I don't give up
+但我不会放弃
+
+8
+00:00:11,096 --> 00:00:13,442
+because I know perseverance leads to success
+因为我知道坚持不懈会带来成功
+
+9
+00:00:13,696 --> 00:00:17,376
+Doing homework teaches me a lot and makes me feel satisfied
+做作业教会了我很多让我感到满足
+
+10
+00:00:17,376 --> 00:00:19,602
+because I'm improving constantly
+因为我在不断进步
+

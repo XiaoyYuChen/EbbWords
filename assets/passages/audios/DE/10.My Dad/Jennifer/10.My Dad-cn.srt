@@ -1,0 +1,50 @@
+1
+00:00:00,000 --> 00:00:02,005
+This is my dad, he's great
+这是我爸爸，他很棒
+
+2
+00:00:02,412 --> 00:00:04,445
+He teaches me how to do crafts
+他教我做手工
+
+3
+00:00:04,453 --> 00:00:06,525
+We use paper, scissors, and glue
+我们用纸剪刀和胶水
+
+4
+00:00:06,692 --> 00:00:08,332
+We make animals, flowers
+我们制造动物，花朵
+
+5
+00:00:08,333 --> 00:00:09,566
+and other fun things
+和其他有趣的东西
+
+6
+00:00:10,132 --> 00:00:11,359
+My dad is very patient
+我爸爸很有耐心
+
+7
+00:00:11,359 --> 00:00:13,205
+He shows me each step slowly
+他慢慢地向我展示每一步
+
+8
+00:00:13,573 --> 00:00:15,205
+I love spending time with him
+我喜欢和他在一起
+
+9
+00:00:15,452 --> 00:00:17,885
+Making crafts with my dad is so much fun
+和我爸爸一起做工艺品太有趣了
+
+10
+00:00:18,132 --> 00:00:19,762
+I feel happy and proud
+我感到高兴和自豪
+

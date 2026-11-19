@@ -1,0 +1,40 @@
+1
+00:00:00,000 --> 00:00:00,824
+This is my grandma
+这是我奶奶
+
+2
+00:00:00,825 --> 00:00:02,263
+my grandma is very beautiful
+我奶奶很漂亮
+
+3
+00:00:02,265 --> 00:00:04,113
+She makes delicious food for me
+她给我做好吃的
+
+4
+00:00:04,264 --> 00:00:05,753
+We like to bake cookies together
+我们喜欢一起烤饼干
+
+5
+00:00:06,025 --> 00:00:08,833
+Grandma tells me stories and teaches me how to garden
+奶奶给我讲故事教我园艺
+
+6
+00:00:09,064 --> 00:00:11,784
+We plant flowers and vegetables in the yard
+我们在院子里种花种菜
+
+7
+00:00:11,785 --> 00:00:14,474
+She is very patient and combs my hair
+她很有耐心给我梳头
+
+8
+00:00:14,664 --> 00:00:16,434
+I Love my grandma very much
+我很爱我的奶奶
+

@@ -1,0 +1,55 @@
+1
+00:00:00,000 --> 00:00:02,596
+I get up at seven o'clock every morning
+我每天早上七点起床
+
+2
+00:00:02,662 --> 00:00:04,796
+I brush my teeth and wash my face
+我刷牙洗脸
+
+3
+00:00:05,142 --> 00:00:07,195
+After I eat breakfast with my family
+等我和家人吃完早餐
+
+4
+00:00:07,343 --> 00:00:09,396
+I go to school and learn many things
+我上学学了很多东西
+
+5
+00:00:09,983 --> 00:00:10,901
+During recess
+在休庭期间
+
+6
+00:00:10,903 --> 00:00:12,396
+I play with my friends
+我和我的朋友一起玩
+
+7
+00:00:12,471 --> 00:00:13,199
+After school
+放学后
+
+8
+00:00:13,199 --> 00:00:15,076
+I go home and do my homework
+我回家做作业
+
+9
+00:00:15,143 --> 00:00:16,062
+In the evening
+傍晚时分
+
+10
+00:00:16,062 --> 00:00:17,399
+I eat dinner with my family
+我和家人一起吃晚饭
+
+11
+00:00:17,399 --> 00:00:21,042
+I start to sleep at nine o'clock to be ready for a new day
+我九点开始睡觉为新的一天做好准备
+

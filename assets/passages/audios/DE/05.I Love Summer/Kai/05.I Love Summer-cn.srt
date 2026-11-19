@@ -1,0 +1,45 @@
+1
+00:00:00,000 --> 00:00:01,125
+I Love summer
+我爱夏天
+
+2
+00:00:01,133 --> 00:00:03,044
+The weather is warm and sunny
+天气温暖晴朗
+
+3
+00:00:03,093 --> 00:00:05,092
+I can play outside with my friends
+我可以和我的朋友在外面玩
+
+4
+00:00:05,094 --> 00:00:07,004
+We go to the beach and swim
+我们去海滩游泳
+
+5
+00:00:07,373 --> 00:00:10,125
+I build sandcastles and collect seashells
+我建造沙堡收集贝壳
+
+6
+00:00:10,294 --> 00:00:12,205
+I eat ice cream to stay cool
+我吃冰淇淋是为了保持凉爽
+
+7
+00:00:12,233 --> 00:00:13,013
+In the evening
+傍晚时分
+
+8
+00:00:13,013 --> 00:00:15,525
+we have barbecues and watch the stars
+我们一起烧烤一起看星星
+
+9
+00:00:15,694 --> 00:00:17,202
+Summer is my favorite season!
+夏天是我最喜欢的季节！
+

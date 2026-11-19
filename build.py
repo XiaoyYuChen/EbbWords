@@ -13,10 +13,7 @@ TPL = ROOT / "template.html"
 OUT = ROOT / "index.html"
 RAW = ROOT / "data" / "raw"
 BOOKS = ROOT / "data" / "books"
-PASSAGES = ROOT / "data" / "passages"
-PASSAGE_TIMING = PASSAGES / "timing"
-PASSAGE_AUDIO_DIR = ROOT / "assets" / "passages" / "audio"
-PASSAGE_WORDS_JSON = ROOT / "data" / "passage_words.json"
+CATALOG = ROOT / "data" / "passages" / "catalog.json"
 
 SRT_TS_RE = re.compile(r"(\d{1,2}):(\d{2}):(\d{2})[,.](\d{1,3})")
 SRT_NORM_RE = re.compile(r"[^a-z0-9]+")
@@ -1101,59 +1098,140 @@ def align_asr_times(lines, words):
     return times
 
 
-def load_passages():
-    """Load short passages from data/passages/*.txt (project-owned copies).
+def parse_bilingual_srt(text):
+    """Return [[start_ms, end_ms, english, chinese], ...] from a ``-cn.srt`` file.
 
-    File name format: "{NN}.{Title}.txt".
-    Returns a list of {id, title, lines:[...], words:[lowercase token,...]} sorted by numeric prefix.
-    The txt files are copied once from the external Audios directory; rebuild only reads local files.
-    When data/passages/timing/NN.srt and assets/passages/audio/NN.mp3 both exist,
-    the item also carries the audio path and per-line [start_ms, end_ms] timings.
+    Bilingual cue layout: first text row is English, remaining rows are Chinese.
     """
-    if not PASSAGES.is_dir():
-        print(f"[passages] WARNING: passages dir not found: {PASSAGES}")
-        return []
-    items = []
-    for txt in sorted(PASSAGES.glob("*.txt")):
-        stem = txt.stem  # "NN.Title"
-        m = PASSAGE_NUM_RE.match(stem)
-        pid = int(m.group(1)) if m else len(items) + 1
-        title = stem.split(".", 1)[1] if "." in stem else stem
-        text = txt.read_text(encoding="utf-8", errors="ignore")
-        if not text.strip():
-            print(f"[passages] No.{pid} txt empty, skipped: {txt.name}")
+    cues = []
+    for block in re.split(r"\r?\n\r?\n+", text.strip()):
+        rows = [r.strip() for r in block.splitlines() if r.strip()]
+        if len(rows) < 2:
             continue
-        lines = [ln.strip() for ln in text.splitlines() if ln.strip()]
-        tokens = []
-        seen = set()
-        for ln in lines:
-            for tok in PASSAGE_WORD_RE.findall(ln):
-                low = tok.lower()
-                if low in PASSAGE_STOPWORDS or low in seen:
+        ti = 0 if "-->" in rows[0] else (1 if len(rows) > 1 and "-->" in rows[1] else -1)
+        if ti < 0:
+            continue
+        stamps = SRT_TS_RE.findall(rows[ti])
+        if len(stamps) < 2:
+            continue
+        body = rows[ti + 1 :]
+        en = body[0] if body else ""
+        cn = " ".join(body[1:]) if len(body) > 1 else ""
+        cues.append([_srt_ms(stamps[0]), _srt_ms(stamps[1]), en, cn])
+    return cues
+
+
+def legacy_cues(item):
+    """Build cues for an item that only has a plain txt transcript + timing sidecar."""
+    text_path = ROOT / item.get("text", "")
+    timing_path = ROOT / item.get("timing", "")
+    if not text_path.is_file() or not timing_path.is_file():
+        return [], []
+    lines = [ln.strip() for ln in text_path.read_text(encoding="utf-8", errors="ignore").splitlines() if ln.strip()]
+    times = []
+    if timing_path.suffix.lower() == ".json":
+        times = align_asr_times(lines, load_asr_words(timing_path))
+    elif timing_path.suffix.lower() == ".srt":
+        cues = parse_srt(timing_path.read_text(encoding="utf-8", errors="ignore"))
+        times = align_passage_times(lines, cues)
+    cues = []
+    for line, (start, end) in zip(lines, times):
+        cues.append([int(start), int(end), line, ""])
+    return lines, cues
+
+
+def cues_word_list(cues):
+    tokens, seen = [], set()
+    for cue in cues:
+        for tok in PASSAGE_WORD_RE.findall(cue[2]):
+            low = tok.lower()
+            if low in PASSAGE_STOPWORDS or low in seen:
+                continue
+            seen.add(low)
+            tokens.append(low)
+    return tokens
+
+
+def load_passages():
+    """Load series / books / items defined by ``data/passages/catalog.json``.
+
+    Each item carries one or more ``tracks`` (voice variants). A track holds the
+    audio path plus bilingual cue timing ``[start_ms, end_ms, en, cn]`` so the
+    page can render and sync subtitles without extra requests.
+    """
+    if not CATALOG.is_file():
+        print(f"[passages] WARNING: catalog not found: {CATALOG}")
+        return []
+    data = json.loads(CATALOG.read_text(encoding="utf-8"))
+    series_out = []
+    for series in data.get("series") or []:
+        books_out = []
+        for book in series.get("books") or []:
+            items_out = []
+            for item in book.get("items") or []:
+                tracks = []
+                if item.get("voices"):
+                    for voice in item["voices"]:
+                        srt = ROOT / str(voice.get("srt") or "")
+                        audio = ROOT / str(voice.get("audio") or "")
+                        if not srt.is_file() or not audio.is_file():
+                            continue
+                        cues = parse_bilingual_srt(srt.read_text(encoding="utf-8", errors="ignore"))
+                        if not cues:
+                            continue
+                        tracks.append({
+                            "id": voice.get("id") or "",
+                            "name": voice.get("name") or "",
+                            "audio": voice.get("audio"),
+                            "cues": cues,
+                        })
+                elif item.get("audio"):
+                    audio = ROOT / item["audio"]
+                    if not audio.is_file():
+                        continue
+                    cues = []
+                    if item.get("srt"):
+                        srt = ROOT / item["srt"]
+                        if not srt.is_file():
+                            continue
+                        cues = parse_bilingual_srt(srt.read_text(encoding="utf-8", errors="ignore"))
+                    elif item.get("text") or item.get("timing"):
+                        _lines, cues = legacy_cues(item)
+                    tracks.append({
+                        "id": "default",
+                        "name": "默认",
+                        "audio": item["audio"],
+                        "cues": cues,
+                    })
+                if not tracks:
                     continue
-                seen.add(low)
-                tokens.append(low)
-        item = {"id": pid, "title": title, "lines": lines, "words": tokens}
-        asr = PASSAGE_TIMING / f"{pid:02d}.json"
-        srt = PASSAGE_TIMING / f"{pid:02d}.srt"
-        mp3 = PASSAGE_AUDIO_DIR / f"{pid:02d}.mp3"
-        m4a = PASSAGE_AUDIO_DIR / f"{pid:02d}.m4a"
-        audio = mp3 if mp3.is_file() else m4a
-        times = None
-        if audio.is_file() and asr.is_file():
-            times = align_asr_times(lines, load_asr_words(asr))
-        elif audio.is_file() and srt.is_file() and srt.stat().st_size:
-            cues = parse_srt(srt.read_text(encoding="utf-8", errors="ignore"))
-            times = align_passage_times(lines, cues)
-        if times:
-            item["audio"] = audio.relative_to(ROOT).as_posix()
-            item["times"] = times
-            zero = sum(1 for s, e in times if e <= s)
-            if zero:
-                print(f"[passages] No.{pid} timing gaps={zero}")
-        items.append(item)
-    items.sort(key=lambda x: x["id"])
-    return items
+                items_out.append({
+                    "id": str(item.get("id") or ""),
+                    "title": item.get("title") or "",
+                    "tracks": tracks,
+                    "words": cues_word_list(tracks[0]["cues"]),
+                })
+            if not items_out:
+                continue
+            books_out.append({
+                "id": book.get("id") or "",
+                "name": book.get("name") or "",
+                "type": book.get("type") or "srt",
+                "author": book.get("author") or "",
+                "description": book.get("description") or "",
+                "cover": book.get("cover") or "",
+                "items": items_out,
+            })
+        if books_out:
+            series_out.append({
+                "id": series.get("id") or "",
+                "name": series.get("name") or "",
+                "author": series.get("author") or "",
+                "description": series.get("description") or "",
+                "cover": series.get("cover") or "",
+                "books": books_out,
+            })
+    return series_out
 
 
 def _fetch_youdao(word):
@@ -1270,9 +1348,10 @@ def fetch_unknown_passage_words(passage_word_set, known_word_set):
     Returns full map {lowercase_word: {w, i, c, p}} including both cached and freshly fetched.
     """
     cache = {}
-    if PASSAGE_WORDS_JSON.is_file():
+    words_json = ROOT / "data" / "passage_words.json"
+    if words_json.is_file():
         try:
-            cache = json.loads(PASSAGE_WORDS_JSON.read_text(encoding="utf-8"))
+            cache = json.loads(words_json.read_text(encoding="utf-8"))
         except Exception:
             cache = {}
     unknown = sorted(w for w in passage_word_set if w not in known_word_set)
@@ -1310,8 +1389,8 @@ def fetch_unknown_passage_words(passage_word_set, known_word_set):
         fetched += 1
     if to_fetch:
         try:
-            PASSAGE_WORDS_JSON.parent.mkdir(parents=True, exist_ok=True)
-            PASSAGE_WORDS_JSON.write_text(
+            words_json.parent.mkdir(parents=True, exist_ok=True)
+            words_json.write_text(
                 json.dumps(cache, ensure_ascii=False, indent=2) + "\n",
                 encoding="utf-8",
             )
@@ -1329,11 +1408,14 @@ def write_html(ket_book, pet_book, pep_books):
     n_img = attach_illustrations(pep_books)
     pep_map = {f"{b['grade']}-{b['term']}": b for b in pep_books}
 
-    # Passages: load short texts, fetch phonetic+translation for unknown words
-    passage_items = load_passages()
+    # Passages: load series/books/items, fetch phonetic+translation for unknown words
+    passage_series = load_passages()
+    passage_item_count = sum(len(b["items"]) for s in passage_series for b in s["books"])
     passage_word_set = set()
-    for p in passage_items:
-        passage_word_set.update(p["words"])
+    for s in passage_series:
+        for b in s["books"]:
+            for p in b["items"]:
+                passage_word_set.update(p["words"])
     known_word_set = set()
     for b in [ket_book, pet_book]:
         for w in b["words"]:
@@ -1341,8 +1423,9 @@ def write_html(ket_book, pet_book, pep_books):
     for b in pep_books:
         for w in b["words"]:
             known_word_set.add(str(w["w"]).lower())
-    passage_word_map = fetch_unknown_passage_words(passage_word_set, known_word_set) if passage_items else {}
-    print(f"[passages] total={len(passage_items)} words={len(passage_word_set)} wordmap={len(passage_word_map)}")
+    passage_word_map = fetch_unknown_passage_words(passage_word_set, known_word_set) if passage_series else {}
+    print(f"[passages] series={len(passage_series)} items={passage_item_count} "
+          f"words={len(passage_word_set)} wordmap={len(passage_word_map)}")
 
     payload = {
         "libs": {
@@ -1351,7 +1434,7 @@ def write_html(ket_book, pet_book, pep_books):
         },
         "pep": pep_map,
         "passages": {
-            "items": passage_items,
+            "series": passage_series,
             "wordMap": passage_word_map,
         },
     }

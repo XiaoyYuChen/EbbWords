@@ -1,0 +1,40 @@
+1
+00:00:00,005 --> 00:00:01,044
+I have a red bicycle
+我有一辆红色的自行车
+
+2
+00:00:01,044 --> 00:00:02,283
+It was a birthday gift
+这是生日礼物
+
+3
+00:00:02,285 --> 00:00:04,333
+I ride my bicycle to the park every day
+我每天骑自行车去公园
+
+4
+00:00:04,924 --> 00:00:07,333
+Kiding my bicycle makes me teel tree and happy
+骑自行车让我快乐
+
+5
+00:00:07,424 --> 00:00:08,085
+sometimes
+有时
+
+6
+00:00:08,085 --> 00:00:10,814
+I race with my friends to see who is the fastest
+我和朋友赛跑看谁跑得最快
+
+7
+00:00:11,164 --> 00:00:13,853
+My bicycle is not only beautiful but also comfortable
+我的自行车不仅漂亮而且舒适
+
+8
+00:00:14,205 --> 00:00:16,402
+Riding my bicycle is one of my favorite activities
+骑自行车是我最喜欢的活动之一
+

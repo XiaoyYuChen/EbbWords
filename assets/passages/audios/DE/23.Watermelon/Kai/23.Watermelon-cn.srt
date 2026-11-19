@@ -1,0 +1,55 @@
+1
+00:00:00,000 --> 00:00:01,552
+My favorite fruit is watermelon
+我最喜欢的水果是西瓜
+
+2
+00:00:01,552 --> 00:00:02,153
+In the summer
+在夏天
+
+3
+00:00:02,153 --> 00:00:03,986
+my mom buys a big watermelon
+我妈妈买了一个大西瓜
+
+4
+00:00:04,192 --> 00:00:06,426
+We cut the watermelon into small pieces
+我们把西瓜切成小块
+
+5
+00:00:06,593 --> 00:00:08,586
+The color of the watermelon is red
+西瓜的颜色是红色的
+
+6
+00:00:08,753 --> 00:00:10,865
+and it has many black seeds inside
+而且里面有很多黑色的种子
+
+7
+00:00:11,153 --> 00:00:12,471
+I Like to eat watermelon
+我喜欢吃西瓜
+
+8
+00:00:12,473 --> 00:00:15,305
+because it is very sweet and juicy
+因为它非常甜和多汁
+
+9
+00:00:15,429 --> 00:00:16,106
+Sometimes
+有时
+
+10
+00:00:16,106 --> 00:00:20,265
+I eat watermelon with my friends and we see who can eat the fastest
+我和我的朋友一起吃西瓜看谁吃得最快
+
+11
+00:00:20,593 --> 00:00:22,801
+Eating watermelon is a happy thing!
+吃西瓜是一件快乐的事！
+

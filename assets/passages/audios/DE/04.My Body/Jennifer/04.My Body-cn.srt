@@ -1,0 +1,45 @@
+1
+00:00:00,112 --> 00:00:01,506
+My body is healthy
+我的身体很健康
+
+2
+00:00:01,712 --> 00:00:03,666
+have two eyes to see the beautiful world
+用两只眼睛看美丽的世界
+
+3
+00:00:04,072 --> 00:00:06,379
+I have two ears to hear different sounds
+我有两只耳朵听不同的声音
+
+4
+00:00:06,379 --> 00:00:08,067
+I have a mouth to talk and eat
+我有张嘴说话吃饭
+
+5
+00:00:08,471 --> 00:00:10,666
+have two legs to run and jump
+有两条腿跑和跳
+
+6
+00:00:10,730 --> 00:00:11,391
+Every day
+每一天
+
+7
+00:00:11,391 --> 00:00:13,426
+I exercise to keep my body strong
+我锻炼是为了保持身体强壮
+
+8
+00:00:13,672 --> 00:00:17,907
+I also eat a lot of fruits and vegetables to get the nutrients my body needs
+我也吃很多水果和蔬菜来获得身体所需的营养
+
+9
+00:00:18,032 --> 00:00:22,321
+Taking care of my body is important because being healthy makes me happy
+照顾我的身体很重要因为健康让我快乐
+

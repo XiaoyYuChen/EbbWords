@@ -1,0 +1,2226 @@
+{
+  "series": [
+    {
+      "id": "daily-english",
+      "name": "Daily English",
+      "author": "课程编辑组",
+      "description": "面向日常交际与词汇拓展的精听精读内容，支持多音色朗读与中英字幕同步。",
+      "cover": "assets/passages/covers/daily-english.png",
+      "books": [
+        {
+          "id": "daily-english",
+          "name": "Daily English",
+          "type": "doc",
+          "author": "课程编辑组",
+          "description": "精选情景对话与实用表达，逐句精听与词汇收藏，适合每日巩固。",
+          "cover": "assets/passages/covers/daily-english.png",
+          "items": [
+            {
+              "id": "01",
+              "title": "My Children's Day",
+              "voices": [
+                {
+                  "id": "jennifer",
+                  "name": "Jennifer",
+                  "audio": "assets/passages/audios/DE/01.My Children's Day/Jennifer/01.My Children's Day.mp3",
+                  "srt": "assets/passages/audios/DE/01.My Children's Day/Jennifer/01.My Children's Day-cn.srt"
+                },
+                {
+                  "id": "kai",
+                  "name": "Kai",
+                  "audio": "assets/passages/audios/DE/01.My Children's Day/Kai/01.My Children's Day.mp3",
+                  "srt": "assets/passages/audios/DE/01.My Children's Day/Kai/01.My Children's Day-cn.srt"
+                },
+                {
+                  "id": "panda",
+                  "name": "Panda",
+                  "audio": "assets/passages/audios/DE/01.My Children's Day/Panda/01.My Children's Day.m4a",
+                  "srt": "assets/passages/audios/DE/01.My Children's Day/Panda/01.My Children's Day-cn.srt"
+                }
+              ]
+            },
+            {
+              "id": "02",
+              "title": "I Love Ice Cream",
+              "voices": [
+                {
+                  "id": "jennifer",
+                  "name": "Jennifer",
+                  "audio": "assets/passages/audios/DE/02.I Love Ice Cream/Jennifer/02.I Love Ice Cream.mp3",
+                  "srt": "assets/passages/audios/DE/02.I Love Ice Cream/Jennifer/02.I Love Ice Cream-cn.srt"
+                },
+                {
+                  "id": "kai",
+                  "name": "Kai",
+                  "audio": "assets/passages/audios/DE/02.I Love Ice Cream/Kai/02.I Love Ice Cream.mp3",
+                  "srt": "assets/passages/audios/DE/02.I Love Ice Cream/Kai/02.I Love Ice Cream-cn.srt"
+                }
+              ]
+            },
+            {
+              "id": "03",
+              "title": "Self-Introduction",
+              "voices": [
+                {
+                  "id": "jennifer",
+                  "name": "Jennifer",
+                  "audio": "assets/passages/audios/DE/03.Self-Introduction/Jennifer/03.Self-Introduction.mp3",
+                  "srt": "assets/passages/audios/DE/03.Self-Introduction/Jennifer/03.Self-Introduction-cn.srt"
+                },
+                {
+                  "id": "kai",
+                  "name": "Kai",
+                  "audio": "assets/passages/audios/DE/03.Self-Introduction/Kai/03.Self-Introduction.mp3",
+                  "srt": "assets/passages/audios/DE/03.Self-Introduction/Kai/03.Self-Introduction-cn.srt"
+                },
+                {
+                  "id": "panda",
+                  "name": "Panda",
+                  "audio": "assets/passages/audios/DE/03.Self-Introduction/Panda/03.Self-Introduction.m4a",
+                  "srt": "assets/passages/audios/DE/03.Self-Introduction/Panda/03.Self-Introduction-cn.srt"
+                }
+              ]
+            },
+            {
+              "id": "04",
+              "title": "My Body",
+              "voices": [
+                {
+                  "id": "jennifer",
+                  "name": "Jennifer",
+                  "audio": "assets/passages/audios/DE/04.My Body/Jennifer/04.My Body.mp3",
+                  "srt": "assets/passages/audios/DE/04.My Body/Jennifer/04.My Body-cn.srt"
+                },
+                {
+                  "id": "kai",
+                  "name": "Kai",
+                  "audio": "assets/passages/audios/DE/04.My Body/Kai/04.My Body.mp3",
+                  "srt": "assets/passages/audios/DE/04.My Body/Kai/04.My Body-cn.srt"
+                },
+                {
+                  "id": "panda",
+                  "name": "Panda",
+                  "audio": "assets/passages/audios/DE/04.My Body/Panda/04.My Body.m4a",
+                  "srt": "assets/passages/audios/DE/04.My Body/Panda/04.My Body-cn.srt"
+                }
+              ]
+            },
+            {
+              "id": "05",
+              "title": "I Love Summer",
+              "voices": [
+                {
+                  "id": "kai",
+                  "name": "Kai",
+                  "audio": "assets/passages/audios/DE/05.I Love Summer/Kai/05.I Love Summer.mp3",
+                  "srt": "assets/passages/audios/DE/05.I Love Summer/Kai/05.I Love Summer-cn.srt"
+                }
+              ]
+            },
+            {
+              "id": "06",
+              "title": "My School",
+              "voices": [
+                {
+                  "id": "jennifer",
+                  "name": "Jennifer",
+                  "audio": "assets/passages/audios/DE/06.My School/Jennifer/06.My School.mp3",
+                  "srt": "assets/passages/audios/DE/06.My School/Jennifer/06.My School-cn.srt"
+                },
+                {
+                  "id": "kai",
+                  "name": "Kai",
+                  "audio": "assets/passages/audios/DE/06.My School/Kai/06.My School.mp3",
+                  "srt": "assets/passages/audios/DE/06.My School/Kai/06.My School-cn.srt"
+                },
+                {
+                  "id": "panda",
+                  "name": "Panda",
+                  "audio": "assets/passages/audios/DE/06.My School/Panda/06.My School.m4a",
+                  "srt": "assets/passages/audios/DE/06.My School/Panda/06.My School-cn.srt"
+                }
+              ]
+            },
+            {
+              "id": "07",
+              "title": "Happy Family",
+              "voices": [
+                {
+                  "id": "jennifer",
+                  "name": "Jennifer",
+                  "audio": "assets/passages/audios/DE/07.Happy Family/Jennifer/07.Happy Family.mp3",
+                  "srt": "assets/passages/audios/DE/07.Happy Family/Jennifer/07.Happy Family-cn.srt"
+                },
+                {
+                  "id": "kai",
+                  "name": "Kai",
+                  "audio": "assets/passages/audios/DE/07.Happy Family/Kai/07.Happy Family.mp3",
+                  "srt": "assets/passages/audios/DE/07.Happy Family/Kai/07.Happy Family-cn.srt"
+                },
+                {
+                  "id": "panda",
+                  "name": "Panda",
+                  "audio": "assets/passages/audios/DE/07.Happy Family/Panda/07.Happy Family.m4a",
+                  "srt": "assets/passages/audios/DE/07.Happy Family/Panda/07.Happy Family-cn.srt"
+                }
+              ]
+            },
+            {
+              "id": "08",
+              "title": "My Grandma",
+              "voices": [
+                {
+                  "id": "jennifer",
+                  "name": "Jennifer",
+                  "audio": "assets/passages/audios/DE/08.My Grandma/Jennifer/08.My Grandma.mp3",
+                  "srt": "assets/passages/audios/DE/08.My Grandma/Jennifer/08.My Grandma-cn.srt"
+                },
+                {
+                  "id": "kai",
+                  "name": "Kai",
+                  "audio": "assets/passages/audios/DE/08.My Grandma/Kai/08.My Grandma.mp3",
+                  "srt": "assets/passages/audios/DE/08.My Grandma/Kai/08.My Grandma-cn.srt"
+                }
+              ]
+            },
+            {
+              "id": "09",
+              "title": "My Grandpa",
+              "voices": [
+                {
+                  "id": "jennifer",
+                  "name": "Jennifer",
+                  "audio": "assets/passages/audios/DE/09.My Grandpa/Jennifer/09.My Grandpa.mp3",
+                  "srt": "assets/passages/audios/DE/09.My Grandpa/Jennifer/09.My Grandpa-cn.srt"
+                },
+                {
+                  "id": "kai",
+                  "name": "Kai",
+                  "audio": "assets/passages/audios/DE/09.My Grandpa/Kai/09.My Grandpa.mp3",
+                  "srt": "assets/passages/audios/DE/09.My Grandpa/Kai/09.My Grandpa-cn.srt"
+                },
+                {
+                  "id": "panda",
+                  "name": "Panda",
+                  "audio": "assets/passages/audios/DE/09.My Grandpa/Panda/09.My Grandpa.m4a",
+                  "srt": "assets/passages/audios/DE/09.My Grandpa/Panda/09.My Grandpa-cn.srt"
+                }
+              ]
+            },
+            {
+              "id": "10",
+              "title": "My Dad",
+              "voices": [
+                {
+                  "id": "jennifer",
+                  "name": "Jennifer",
+                  "audio": "assets/passages/audios/DE/10.My Dad/Jennifer/10.My Dad.mp3",
+                  "srt": "assets/passages/audios/DE/10.My Dad/Jennifer/10.My Dad-cn.srt"
+                },
+                {
+                  "id": "kai",
+                  "name": "Kai",
+                  "audio": "assets/passages/audios/DE/10.My Dad/Kai/10.My Dad.mp3",
+                  "srt": "assets/passages/audios/DE/10.My Dad/Kai/10.My Dad-cn.srt"
+                }
+              ]
+            },
+            {
+              "id": "11",
+              "title": "Dragon Boat Festival",
+              "voices": [
+                {
+                  "id": "jennifer",
+                  "name": "Jennifer",
+                  "audio": "assets/passages/audios/DE/11.Dragon Boat Festival/Jennifer/11.Dragon Boat Festival.mp3",
+                  "srt": "assets/passages/audios/DE/11.Dragon Boat Festival/Jennifer/11.Dragon Boat Festival-cn.srt"
+                },
+                {
+                  "id": "kai",
+                  "name": "Kai",
+                  "audio": "assets/passages/audios/DE/11.Dragon Boat Festival/Kai/11.Dragon Boat Festival.mp3",
+                  "srt": "assets/passages/audios/DE/11.Dragon Boat Festival/Kai/11.Dragon Boat Festival-cn.srt"
+                }
+              ]
+            },
+            {
+              "id": "12",
+              "title": "Dragon Boat Racing",
+              "voices": [
+                {
+                  "id": "jennifer",
+                  "name": "Jennifer",
+                  "audio": "assets/passages/audios/DE/12.Dragon Boat Racing/Jennifer/12.Dragon Boat Racing.mp3",
+                  "srt": "assets/passages/audios/DE/12.Dragon Boat Racing/Jennifer/12.Dragon Boat Racing-cn.srt"
+                },
+                {
+                  "id": "kai",
+                  "name": "Kai",
+                  "audio": "assets/passages/audios/DE/12.Dragon Boat Racing/Kai/12.Dragon Boat Racing.mp3",
+                  "srt": "assets/passages/audios/DE/12.Dragon Boat Racing/Kai/12.Dragon Boat Racing-cn.srt"
+                }
+              ]
+            },
+            {
+              "id": "13",
+              "title": "Qu Yuan",
+              "voices": [
+                {
+                  "id": "jennifer",
+                  "name": "Jennifer",
+                  "audio": "assets/passages/audios/DE/13.Qu Yuan/Jennifer/13.Qu Yuan.mp3",
+                  "srt": "assets/passages/audios/DE/13.Qu Yuan/Jennifer/13.Qu Yuan-cn.srt"
+                },
+                {
+                  "id": "kai",
+                  "name": "Kai",
+                  "audio": "assets/passages/audios/DE/13.Qu Yuan/Kai/13.Qu Yuan.mp3",
+                  "srt": "assets/passages/audios/DE/13.Qu Yuan/Kai/13.Qu Yuan-cn.srt"
+                }
+              ]
+            },
+            {
+              "id": "14",
+              "title": "Making zongzi",
+              "voices": [
+                {
+                  "id": "jennifer",
+                  "name": "Jennifer",
+                  "audio": "assets/passages/audios/DE/14.Making zongzi/Jennifer/14.Making zongzi.mp3",
+                  "srt": "assets/passages/audios/DE/14.Making zongzi/Jennifer/14.Making zongzi-cn.srt"
+                },
+                {
+                  "id": "kai",
+                  "name": "Kai",
+                  "audio": "assets/passages/audios/DE/14.Making zongzi/Kai/14.Making zongzi.mp3",
+                  "srt": "assets/passages/audios/DE/14.Making zongzi/Kai/14.Making zongzi-cn.srt"
+                }
+              ]
+            },
+            {
+              "id": "15",
+              "title": "Learning to Swim",
+              "voices": [
+                {
+                  "id": "jennifer",
+                  "name": "Jennifer",
+                  "audio": "assets/passages/audios/DE/15.Learning to Swim/Jennifer/15.Learning to Swim.mp3",
+                  "srt": "assets/passages/audios/DE/15.Learning to Swim/Jennifer/15.Learning to Swim-cn.srt"
+                },
+                {
+                  "id": "kai",
+                  "name": "Kai",
+                  "audio": "assets/passages/audios/DE/15.Learning to Swim/Kai/15.Learning to Swim.mp3",
+                  "srt": "assets/passages/audios/DE/15.Learning to Swim/Kai/15.Learning to Swim-cn.srt"
+                }
+              ]
+            },
+            {
+              "id": "16",
+              "title": "Doing Homework",
+              "voices": [
+                {
+                  "id": "jennifer",
+                  "name": "Jennifer",
+                  "audio": "assets/passages/audios/DE/16.Doing Homework/Jennifer/16.Doing Homework.mp3",
+                  "srt": "assets/passages/audios/DE/16.Doing Homework/Jennifer/16.Doing Homework-cn.srt"
+                },
+                {
+                  "id": "kai",
+                  "name": "Kai",
+                  "audio": "assets/passages/audios/DE/16.Doing Homework/Kai/16.Doing Homework.mp3",
+                  "srt": "assets/passages/audios/DE/16.Doing Homework/Kai/16.Doing Homework-cn.srt"
+                },
+                {
+                  "id": "panda",
+                  "name": "Panda",
+                  "audio": "assets/passages/audios/DE/16.Doing Homework/Panda/16.Doing Homework.m4a",
+                  "srt": "assets/passages/audios/DE/16.Doing Homework/Panda/16.Doing Homework-cn.srt"
+                }
+              ]
+            },
+            {
+              "id": "17",
+              "title": "My Bicycle",
+              "voices": [
+                {
+                  "id": "jennifer",
+                  "name": "Jennifer",
+                  "audio": "assets/passages/audios/DE/17.My Bicycle/Jennifer/17.My Bicycle.mp3",
+                  "srt": "assets/passages/audios/DE/17.My Bicycle/Jennifer/17.My Bicycle-cn.srt"
+                },
+                {
+                  "id": "kai",
+                  "name": "Kai",
+                  "audio": "assets/passages/audios/DE/17.My Bicycle/Kai/17.My Bicycle.mp3",
+                  "srt": "assets/passages/audios/DE/17.My Bicycle/Kai/17.My Bicycle-cn.srt"
+                }
+              ]
+            },
+            {
+              "id": "18",
+              "title": "My Room",
+              "voices": [
+                {
+                  "id": "jennifer",
+                  "name": "Jennifer",
+                  "audio": "assets/passages/audios/DE/18.My Room/Jennifer/18.My Room.mp3",
+                  "srt": "assets/passages/audios/DE/18.My Room/Jennifer/18.My Room-cn.srt"
+                },
+                {
+                  "id": "kai",
+                  "name": "Kai",
+                  "audio": "assets/passages/audios/DE/18.My Room/Kai/18.My Room.mp3",
+                  "srt": "assets/passages/audios/DE/18.My Room/Kai/18.My Room-cn.srt"
+                }
+              ]
+            },
+            {
+              "id": "19",
+              "title": "My Weekend",
+              "voices": [
+                {
+                  "id": "jennifer",
+                  "name": "Jennifer",
+                  "audio": "assets/passages/audios/DE/19.My Weekend/Jennifer/19.My Weekend.mp3",
+                  "srt": "assets/passages/audios/DE/19.My Weekend/Jennifer/19.My Weekend-cn.srt"
+                },
+                {
+                  "id": "kai",
+                  "name": "Kai",
+                  "audio": "assets/passages/audios/DE/19.My Weekend/Kai/19.My Weekend.mp3",
+                  "srt": "assets/passages/audios/DE/19.My Weekend/Kai/19.My Weekend-cn.srt"
+                }
+              ]
+            },
+            {
+              "id": "20",
+              "title": "Father's Day",
+              "voices": [
+                {
+                  "id": "jennifer",
+                  "name": "Jennifer",
+                  "audio": "assets/passages/audios/DE/20.Father's Day/Jennifer/20.Father's Day.mp3",
+                  "srt": "assets/passages/audios/DE/20.Father's Day/Jennifer/20.Father's Day-cn.srt"
+                },
+                {
+                  "id": "kai",
+                  "name": "Kai",
+                  "audio": "assets/passages/audios/DE/20.Father's Day/Kai/20.Father's Day.mp3",
+                  "srt": "assets/passages/audios/DE/20.Father's Day/Kai/20.Father's Day-cn.srt"
+                }
+              ]
+            },
+            {
+              "id": "21",
+              "title": "My Day",
+              "voices": [
+                {
+                  "id": "jennifer",
+                  "name": "Jennifer",
+                  "audio": "assets/passages/audios/DE/21.My Day/Jennifer/21.My Day.mp3",
+                  "srt": "assets/passages/audios/DE/21.My Day/Jennifer/21.My Day-cn.srt"
+                },
+                {
+                  "id": "kai",
+                  "name": "Kai",
+                  "audio": "assets/passages/audios/DE/21.My Day/Kai/21.My Day.mp3",
+                  "srt": "assets/passages/audios/DE/21.My Day/Kai/21.My Day-cn.srt"
+                },
+                {
+                  "id": "panda",
+                  "name": "Panda",
+                  "audio": "assets/passages/audios/DE/21.My Day/Panda/21.My Day.m4a",
+                  "srt": "assets/passages/audios/DE/21.My Day/Panda/21.My Day-cn.srt"
+                }
+              ]
+            },
+            {
+              "id": "22",
+              "title": "The Beach",
+              "voices": [
+                {
+                  "id": "jennifer",
+                  "name": "Jennifer",
+                  "audio": "assets/passages/audios/DE/22.The Beach/Jennifer/22.The Beach.mp3",
+                  "srt": "assets/passages/audios/DE/22.The Beach/Jennifer/22.The Beach-cn.srt"
+                },
+                {
+                  "id": "kai",
+                  "name": "Kai",
+                  "audio": "assets/passages/audios/DE/22.The Beach/Kai/22.The Beach.mp3",
+                  "srt": "assets/passages/audios/DE/22.The Beach/Kai/22.The Beach-cn.srt"
+                }
+              ]
+            },
+            {
+              "id": "23",
+              "title": "Watermelon",
+              "voices": [
+                {
+                  "id": "jennifer",
+                  "name": "Jennifer",
+                  "audio": "assets/passages/audios/DE/23.Watermelon/Jennifer/23.Watermelon.mp3",
+                  "srt": "assets/passages/audios/DE/23.Watermelon/Jennifer/23.Watermelon-cn.srt"
+                },
+                {
+                  "id": "kai",
+                  "name": "Kai",
+                  "audio": "assets/passages/audios/DE/23.Watermelon/Kai/23.Watermelon.mp3",
+                  "srt": "assets/passages/audios/DE/23.Watermelon/Kai/23.Watermelon-cn.srt"
+                }
+              ]
+            },
+            {
+              "id": "24",
+              "title": "Bananas",
+              "voices": [
+                {
+                  "id": "jennifer",
+                  "name": "Jennifer",
+                  "audio": "assets/passages/audios/DE/24.Bananas/Jennifer/24.Bananas.mp3",
+                  "srt": "assets/passages/audios/DE/24.Bananas/Jennifer/24.Bananas-cn.srt"
+                },
+                {
+                  "id": "kai",
+                  "name": "Kai",
+                  "audio": "assets/passages/audios/DE/24.Bananas/Kai/24.Bananas.mp3",
+                  "srt": "assets/passages/audios/DE/24.Bananas/Kai/24.Bananas-cn.srt"
+                }
+              ]
+            },
+            {
+              "id": "25",
+              "title": "Strawberries",
+              "voices": [
+                {
+                  "id": "jennifer",
+                  "name": "Jennifer",
+                  "audio": "assets/passages/audios/DE/25.Strawberries/Jennifer/25.Strawberries.mp3",
+                  "srt": "assets/passages/audios/DE/25.Strawberries/Jennifer/25.Strawberries-cn.srt"
+                },
+                {
+                  "id": "kai",
+                  "name": "Kai",
+                  "audio": "assets/passages/audios/DE/25.Strawberries/Kai/25.Strawberries.mp3",
+                  "srt": "assets/passages/audios/DE/25.Strawberries/Kai/25.Strawberries-cn.srt"
+                },
+                {
+                  "id": "panda",
+                  "name": "Panda",
+                  "audio": "assets/passages/audios/DE/25.Strawberries/Panda/25.Strawberries.m4a",
+                  "srt": "assets/passages/audios/DE/25.Strawberries/Panda/25.Strawberries-cn.srt"
+                }
+              ]
+            },
+            {
+              "id": "26",
+              "title": "Picnics",
+              "voices": [
+                {
+                  "id": "jennifer",
+                  "name": "Jennifer",
+                  "audio": "assets/passages/audios/DE/26.Picnics/Jennifer/26.Picnics.mp3",
+                  "srt": "assets/passages/audios/DE/26.Picnics/Jennifer/26.Picnics-cn.srt"
+                },
+                {
+                  "id": "kai",
+                  "name": "Kai",
+                  "audio": "assets/passages/audios/DE/26.Picnics/Kai/26.Picnics.mp3",
+                  "srt": "assets/passages/audios/DE/26.Picnics/Kai/26.Picnics-cn.srt"
+                },
+                {
+                  "id": "panda",
+                  "name": "Panda",
+                  "audio": "assets/passages/audios/DE/26.Picnics/Panda/26.Picnics.m4a",
+                  "srt": "assets/passages/audios/DE/26.Picnics/Panda/26.Picnics-cn.srt"
+                }
+              ]
+            },
+            {
+              "id": "27",
+              "title": "Animals",
+              "voices": [
+                {
+                  "id": "jennifer",
+                  "name": "Jennifer",
+                  "audio": "assets/passages/audios/DE/27.Animals/Jennifer/27.Animals.mp3",
+                  "srt": "assets/passages/audios/DE/27.Animals/Jennifer/27.Animals-cn.srt"
+                },
+                {
+                  "id": "kai",
+                  "name": "Kai",
+                  "audio": "assets/passages/audios/DE/27.Animals/Kai/27.Animals.mp3",
+                  "srt": "assets/passages/audios/DE/27.Animals/Kai/27.Animals-cn.srt"
+                },
+                {
+                  "id": "panda",
+                  "name": "Panda",
+                  "audio": "assets/passages/audios/DE/27.Animals/Panda/27.Animals.m4a",
+                  "srt": "assets/passages/audios/DE/27.Animals/Panda/27.Animals-cn.srt"
+                }
+              ]
+            },
+            {
+              "id": "28",
+              "title": "Apples Apples",
+              "voices": [
+                {
+                  "id": "jennifer",
+                  "name": "Jennifer",
+                  "audio": "assets/passages/audios/DE/28.Apples Apples/Jennifer/28.Apples Apples.mp3",
+                  "srt": "assets/passages/audios/DE/28.Apples Apples/Jennifer/28.Apples Apples-cn.srt"
+                },
+                {
+                  "id": "kai",
+                  "name": "Kai",
+                  "audio": "assets/passages/audios/DE/28.Apples Apples/Kai/28.Apples Apples.mp3",
+                  "srt": "assets/passages/audios/DE/28.Apples Apples/Kai/28.Apples Apples-cn.srt"
+                },
+                {
+                  "id": "panda",
+                  "name": "Panda",
+                  "audio": "assets/passages/audios/DE/28.Apples Apples/Panda/28.Apples Apples.m4a",
+                  "srt": "assets/passages/audios/DE/28.Apples Apples/Panda/28.Apples Apples-cn.srt"
+                }
+              ]
+            },
+            {
+              "id": "29",
+              "title": "Big Mouth Baby",
+              "voices": [
+                {
+                  "id": "jennifer",
+                  "name": "Jennifer",
+                  "audio": "assets/passages/audios/DE/29.Big Mouth Baby/Jennifer/29.Big Mouth Baby.mp3",
+                  "srt": "assets/passages/audios/DE/29.Big Mouth Baby/Jennifer/29.Big Mouth Baby-cn.srt"
+                },
+                {
+                  "id": "panda",
+                  "name": "Panda",
+                  "audio": "assets/passages/audios/DE/29.Big Mouth Baby/Panda/29.Big Mouth Baby.m4a",
+                  "srt": "assets/passages/audios/DE/29.Big Mouth Baby/Panda/29.Big Mouth Baby-cn.srt"
+                }
+              ]
+            },
+            {
+              "id": "30",
+              "title": "Colors",
+              "voices": [
+                {
+                  "id": "jennifer",
+                  "name": "Jennifer",
+                  "audio": "assets/passages/audios/DE/30.Colors/Jennifer/30.Colors.mp3",
+                  "srt": "assets/passages/audios/DE/30.Colors/Jennifer/30.Colors-cn.srt"
+                },
+                {
+                  "id": "kai",
+                  "name": "Kai",
+                  "audio": "assets/passages/audios/DE/30.Colors/Kai/30.Colors.mp3",
+                  "srt": "assets/passages/audios/DE/30.Colors/Kai/30.Colors-cn.srt"
+                },
+                {
+                  "id": "panda",
+                  "name": "Panda",
+                  "audio": "assets/passages/audios/DE/30.Colors/Panda/30.Colors.m4a",
+                  "srt": "assets/passages/audios/DE/30.Colors/Panda/30.Colors-cn.srt"
+                }
+              ]
+            },
+            {
+              "id": "31",
+              "title": "Dan Does Tricks",
+              "voices": [
+                {
+                  "id": "jennifer",
+                  "name": "Jennifer",
+                  "audio": "assets/passages/audios/DE/31.Dan Does Tricks/Jennifer/31.Dan Does Tricks.mp3",
+                  "srt": "assets/passages/audios/DE/31.Dan Does Tricks/Jennifer/31.Dan Does Tricks-cn.srt"
+                },
+                {
+                  "id": "kai",
+                  "name": "Kai",
+                  "audio": "assets/passages/audios/DE/31.Dan Does Tricks/Kai/31.Dan Does Tricks.mp3",
+                  "srt": "assets/passages/audios/DE/31.Dan Does Tricks/Kai/31.Dan Does Tricks-cn.srt"
+                },
+                {
+                  "id": "panda",
+                  "name": "Panda",
+                  "audio": "assets/passages/audios/DE/31.Dan Does Tricks/Panda/31.Dan Does Tricks.m4a",
+                  "srt": "assets/passages/audios/DE/31.Dan Does Tricks/Panda/31.Dan Does Tricks-cn.srt"
+                }
+              ]
+            },
+            {
+              "id": "32",
+              "title": "Ben Goes Fishing",
+              "voices": [
+                {
+                  "id": "jennifer",
+                  "name": "Jennifer",
+                  "audio": "assets/passages/audios/DE/32.Ben Goes Fishing/Jennifer/32.Ben Goes Fishing.mp3",
+                  "srt": "assets/passages/audios/DE/32.Ben Goes Fishing/Jennifer/32.Ben Goes Fishing-cn.srt"
+                },
+                {
+                  "id": "kai",
+                  "name": "Kai",
+                  "audio": "assets/passages/audios/DE/32.Ben Goes Fishing/Kai/32.Ben Goes Fishing.mp3",
+                  "srt": "assets/passages/audios/DE/32.Ben Goes Fishing/Kai/32.Ben Goes Fishing-cn.srt"
+                },
+                {
+                  "id": "panda",
+                  "name": "Panda",
+                  "audio": "assets/passages/audios/DE/32.Ben Goes Fishing/Panda/32.Ben Goes Fishing.m4a",
+                  "srt": "assets/passages/audios/DE/32.Ben Goes Fishing/Panda/32.Ben Goes Fishing-cn.srt"
+                }
+              ]
+            },
+            {
+              "id": "33",
+              "title": "Play",
+              "voices": [
+                {
+                  "id": "jennifer",
+                  "name": "Jennifer",
+                  "audio": "assets/passages/audios/DE/33.Play/Jennifer/33.Play.mp3",
+                  "srt": "assets/passages/audios/DE/33.Play/Jennifer/33.Play-cn.srt"
+                },
+                {
+                  "id": "kai",
+                  "name": "Kai",
+                  "audio": "assets/passages/audios/DE/33.Play/Kai/33.Play.mp3",
+                  "srt": "assets/passages/audios/DE/33.Play/Kai/33.Play-cn.srt"
+                },
+                {
+                  "id": "panda",
+                  "name": "Panda",
+                  "audio": "assets/passages/audios/DE/33.Play/Panda/33.Play.m4a",
+                  "srt": "assets/passages/audios/DE/33.Play/Panda/33.Play-cn.srt"
+                }
+              ]
+            },
+            {
+              "id": "34",
+              "title": "The Early Bird Catches the Worm(Maybe)",
+              "voices": [
+                {
+                  "id": "jennifer",
+                  "name": "Jennifer",
+                  "audio": "assets/passages/audios/DE/34.The Early Bird Catches the Worm(Maybe)/Jennifer/34.The Early Bird Catches the Worm(Maybe).mp3",
+                  "srt": "assets/passages/audios/DE/34.The Early Bird Catches the Worm(Maybe)/Jennifer/34.The Early Bird Catches the Worm(Maybe)-cn.srt"
+                },
+                {
+                  "id": "panda",
+                  "name": "Panda",
+                  "audio": "assets/passages/audios/DE/34.The Early Bird Catches the Worm(Maybe)/Panda/34.The Early Bird Catches the Worm(Maybe).m4a",
+                  "srt": "assets/passages/audios/DE/34.The Early Bird Catches the Worm(Maybe)/Panda/34.The Early Bird Catches the Worm(Maybe)-cn.srt"
+                }
+              ]
+            },
+            {
+              "id": "35",
+              "title": "Black Cat Tan Cat",
+              "voices": [
+                {
+                  "id": "jennifer",
+                  "name": "Jennifer",
+                  "audio": "assets/passages/audios/DE/35.Black Cat Tan Cat/Jennifer/35.Black Cat Tan Cat.mp3",
+                  "srt": "assets/passages/audios/DE/35.Black Cat Tan Cat/Jennifer/35.Black Cat Tan Cat-cn.srt"
+                },
+                {
+                  "id": "kai",
+                  "name": "Kai",
+                  "audio": "assets/passages/audios/DE/35.Black Cat Tan Cat/Kai/35.Black Cat Tan Cat.mp3",
+                  "srt": "assets/passages/audios/DE/35.Black Cat Tan Cat/Kai/35.Black Cat Tan Cat-cn.srt"
+                },
+                {
+                  "id": "panda",
+                  "name": "Panda",
+                  "audio": "assets/passages/audios/DE/35.Black Cat Tan Cat/Panda/35.Black Cat Tan Cat.m4a",
+                  "srt": "assets/passages/audios/DE/35.Black Cat Tan Cat/Panda/35.Black Cat Tan Cat-cn.srt"
+                }
+              ]
+            },
+            {
+              "id": "36",
+              "title": "The Car Trip",
+              "voices": [
+                {
+                  "id": "jennifer",
+                  "name": "Jennifer",
+                  "audio": "assets/passages/audios/DE/36.The Car Trip/Jennifer/36.The Car Trip.mp3",
+                  "srt": "assets/passages/audios/DE/36.The Car Trip/Jennifer/36.The Car Trip-cn.srt"
+                },
+                {
+                  "id": "kai",
+                  "name": "Kai",
+                  "audio": "assets/passages/audios/DE/36.The Car Trip/Kai/36.The Car Trip.mp3",
+                  "srt": "assets/passages/audios/DE/36.The Car Trip/Kai/36.The Car Trip-cn.srt"
+                },
+                {
+                  "id": "panda",
+                  "name": "Panda",
+                  "audio": "assets/passages/audios/DE/36.The Car Trip/Panda/36.The Car Trip.m4a",
+                  "srt": "assets/passages/audios/DE/36.The Car Trip/Panda/36.The Car Trip-cn.srt"
+                }
+              ]
+            },
+            {
+              "id": "37",
+              "title": "The Early Bird Catches the Worm",
+              "voices": [
+                {
+                  "id": "jennifer",
+                  "name": "Jennifer",
+                  "audio": "assets/passages/audios/DE/The Early Bird Catches the Worm/Jennifer/The Early Bird Catches the Worm.mp3",
+                  "srt": "assets/passages/audios/DE/The Early Bird Catches the Worm/Jennifer/The Early Bird Catches the Worm-cn.srt"
+                },
+                {
+                  "id": "panda",
+                  "name": "Panda",
+                  "audio": "assets/passages/audios/DE/The Early Bird Catches the Worm/Panda/The Early Bird Catches the Worm.m4a",
+                  "srt": "assets/passages/audios/DE/The Early Bird Catches the Worm/Panda/The Early Bird Catches the Worm-cn.srt"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ghmily",
+      "name": "Guess How Much I Love You",
+      "author": "Sam McBratney（原著）；Anita Jeram（插图）",
+      "description": "经典绘本《猜猜我有多爱你》有声系列，温暖亲子共读。",
+      "cover": "assets/passages/covers/ghmily.png",
+      "books": [
+        {
+          "id": "ghmily-1-30",
+          "name": "Guess How Much I Love You (1-30)",
+          "type": "srt",
+          "author": "Sam McBratney",
+          "description": "根据同名绘本改编的有声读物，共 30 段音频，适合跟读与听力输入。",
+          "cover": "assets/passages/covers/ghmily.png",
+          "items": [
+            {
+              "id": "1",
+              "title": "Little Green Worm",
+              "audio": "assets/passages/audios/GHMILY/1.Little Green Worm.mp3",
+              "srt": "assets/passages/audios/GHMILY/1.Little Green Worm-cn.srt"
+            },
+            {
+              "id": "2",
+              "title": "Make A Rainbow",
+              "audio": "assets/passages/audios/GHMILY/2.Make A Rainbow.mp3",
+              "srt": "assets/passages/audios/GHMILY/2.Make A Rainbow-cn.srt"
+            },
+            {
+              "id": "3",
+              "title": "The Favorite Tree",
+              "audio": "assets/passages/audios/GHMILY/3.The Favorite Tree.mp3",
+              "srt": "assets/passages/audios/GHMILY/3.The Favorite Tree-cn.srt"
+            },
+            {
+              "id": "4",
+              "title": "Spider 's Web",
+              "audio": "assets/passages/audios/GHMILY/4.Spider 's Web.mp3",
+              "srt": "assets/passages/audios/GHMILY/4.Spider 's Web-cn.srt"
+            },
+            {
+              "id": "5",
+              "title": "Big Foot",
+              "audio": "assets/passages/audios/GHMILY/5.Big Foot.mp3",
+              "srt": "assets/passages/audios/GHMILY/5.Big Foot-cn.srt"
+            },
+            {
+              "id": "6",
+              "title": "Too Big，Too Small",
+              "audio": "assets/passages/audios/GHMILY/6.Too Big，Too Small.mp3",
+              "srt": "assets/passages/audios/GHMILY/6.Too Big，Too Small-cn.srt"
+            },
+            {
+              "id": "7",
+              "title": "Winter Moon",
+              "audio": "assets/passages/audios/GHMILY/7.Winter Moon.mp3",
+              "srt": "assets/passages/audios/GHMILY/7.Winter Moon-cn.srt"
+            },
+            {
+              "id": "8",
+              "title": "Up All Night",
+              "audio": "assets/passages/audios/GHMILY/8.Up All Night.mp3",
+              "srt": "assets/passages/audios/GHMILY/8.Up All Night-cn.srt"
+            },
+            {
+              "id": "9",
+              "title": "The Collection",
+              "audio": "assets/passages/audios/GHMILY/9.The Collection.mp3",
+              "srt": "assets/passages/audios/GHMILY/9.The Collection-cn.srt"
+            },
+            {
+              "id": "10",
+              "title": "The Lucky Egg",
+              "audio": "assets/passages/audios/GHMILY/10.The Lucky Egg.mp3",
+              "srt": "assets/passages/audios/GHMILY/10.The Lucky Egg-cn.srt"
+            },
+            {
+              "id": "11",
+              "title": "The Autumn Journey",
+              "audio": "assets/passages/audios/GHMILY/11.The Autumn Journey.mp3",
+              "srt": "assets/passages/audios/GHMILY/11.The Autumn Journey-cn.srt"
+            },
+            {
+              "id": "12",
+              "title": "The Song Of Spring",
+              "audio": "assets/passages/audios/GHMILY/12.The Song Of Spring.mp3",
+              "srt": "assets/passages/audios/GHMILY/12.The Song Of Spring-cn.srt"
+            },
+            {
+              "id": "13",
+              "title": "Summer Strawberries",
+              "audio": "assets/passages/audios/GHMILY/13.Summer Strawberries.mp3",
+              "srt": "assets/passages/audios/GHMILY/13.Summer Strawberries-cn.srt"
+            },
+            {
+              "id": "14",
+              "title": "The Sliperry Slide",
+              "audio": "assets/passages/audios/GHMILY/14.The Sliperry Slide.mp3",
+              "srt": "assets/passages/audios/GHMILY/14.The Sliperry Slide-cn.srt"
+            },
+            {
+              "id": "15",
+              "title": "Echo Game",
+              "audio": "assets/passages/audios/GHMILY/15.Echo Game.mp3",
+              "srt": "assets/passages/audios/GHMILY/15.Echo Game-cn.srt"
+            },
+            {
+              "id": "16",
+              "title": "Cloudy Meadow",
+              "audio": "assets/passages/audios/GHMILY/16.Cloudy Meadow.mp3",
+              "srt": "assets/passages/audios/GHMILY/16.Cloudy Meadow-cn.srt"
+            },
+            {
+              "id": "17",
+              "title": "Autumn Play",
+              "audio": "assets/passages/audios/GHMILY/17.Autumn Play.mp3",
+              "srt": "assets/passages/audios/GHMILY/17.Autumn Play-cn.srt"
+            },
+            {
+              "id": "18",
+              "title": "Now You See Me",
+              "audio": "assets/passages/audios/GHMILY/18.Now You See Me.mp3",
+              "srt": "assets/passages/audios/GHMILY/18.Now You See Me-cn.srt"
+            },
+            {
+              "id": "19",
+              "title": "Busy As A Bee",
+              "audio": "assets/passages/audios/GHMILY/19.Busy As A Bee.mp3",
+              "srt": "assets/passages/audios/GHMILY/19.Busy As A Bee-cn.srt"
+            },
+            {
+              "id": "20",
+              "title": "Birthday Suprise",
+              "audio": "assets/passages/audios/GHMILY/20.Birthday Suprise.mp3",
+              "srt": "assets/passages/audios/GHMILY/20.Birthday Suprise-cn.srt"
+            },
+            {
+              "id": "21",
+              "title": "Win Or Lose",
+              "audio": "assets/passages/audios/GHMILY/21.Win Or Lose.mp3",
+              "srt": "assets/passages/audios/GHMILY/21.Win Or Lose-cn.srt"
+            },
+            {
+              "id": "22",
+              "title": "Summer Days",
+              "audio": "assets/passages/audios/GHMILY/22.Summer Days.mp3",
+              "srt": "assets/passages/audios/GHMILY/22.Summer Days-cn.srt"
+            },
+            {
+              "id": "23",
+              "title": "The Holy Branch",
+              "audio": "assets/passages/audios/GHMILY/23.The Holy Branch.mp3",
+              "srt": "assets/passages/audios/GHMILY/23.The Holy Branch-cn.srt"
+            },
+            {
+              "id": "24",
+              "title": "Topsy-Flopsy Day",
+              "audio": "assets/passages/audios/GHMILY/24.Topsy-Flopsy Day.mp3",
+              "srt": "assets/passages/audios/GHMILY/24.Topsy-Flopsy Day-cn.srt"
+            },
+            {
+              "id": "25",
+              "title": "Feast Day",
+              "audio": "assets/passages/audios/GHMILY/25.Feast Day.mp3",
+              "srt": "assets/passages/audios/GHMILY/25.Feast Day-cn.srt"
+            },
+            {
+              "id": "26",
+              "title": "Where Are My Acorns",
+              "audio": "assets/passages/audios/GHMILY/26.Where Are My Acorns.mp3",
+              "srt": "assets/passages/audios/GHMILY/26.Where Are My Acorns-cn.srt"
+            },
+            {
+              "id": "27",
+              "title": "Opening Song",
+              "audio": "assets/passages/audios/GHMILY/27.Opening Song.mp3",
+              "srt": "assets/passages/audios/GHMILY/27.Opening Song-cn.srt"
+            },
+            {
+              "id": "28",
+              "title": "SC Fields of Flowers",
+              "audio": "assets/passages/audios/GHMILY/28.SC Fields of Flowers.mp3",
+              "srt": "assets/passages/audios/GHMILY/28.SC Fields of Flowers-cn.srt"
+            },
+            {
+              "id": "29",
+              "title": "Field of Flowers",
+              "audio": "assets/passages/audios/GHMILY/29.Field of Flowers.mp3",
+              "srt": "assets/passages/audios/GHMILY/29.Field of Flowers-cn.srt"
+            },
+            {
+              "id": "30",
+              "title": "The Nest",
+              "audio": "assets/passages/audios/GHMILY/30.The Nest.mp3",
+              "srt": "assets/passages/audios/GHMILY/30.The Nest-cn.srt"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kids-box",
+      "name": "Kid's Box",
+      "author": "Caroline Nixon & Michael Tomlinson",
+      "description": "剑桥大学出版社经典少儿英语教材体系，寓教于乐衔接剑桥少儿英语考试。",
+      "cover": "assets/passages/covers/kids-box.png",
+      "books": [
+        {
+          "id": "kids-box-3",
+          "name": "Kid's Box 3",
+          "type": "srt",
+          "author": "Caroline Nixon & Michael Tomlinson",
+          "description": "第三册：故事、歌曲与活动并重，巩固语法与词汇，配套音频跟读。",
+          "cover": "assets/passages/covers/kids-box3.png",
+          "items": [
+            {
+              "id": "1",
+              "title": "Hello! lesson1",
+              "audio": "assets/passages/audios/KB3/1.Hello! lesson1.mp3",
+              "srt": "assets/passages/audios/KB3/1.Hello! lesson1-cn.srt"
+            },
+            {
+              "id": "2",
+              "title": "Hello! lesson2",
+              "audio": "assets/passages/audios/KB3/2.Hello! lesson2.mp3",
+              "srt": "assets/passages/audios/KB3/2.Hello! lesson2-cn.srt"
+            },
+            {
+              "id": "3",
+              "title": "Hello! song",
+              "audio": "assets/passages/audios/KB3/3.Hello! song.mp3",
+              "srt": "assets/passages/audios/KB3/3.Hello! song-cn.srt"
+            },
+            {
+              "id": "4",
+              "title": "Hello! story",
+              "audio": "assets/passages/audios/KB3/5.Hello! story.mp3",
+              "srt": "assets/passages/audios/KB3/5.Hello! story-cn.srt"
+            },
+            {
+              "id": "5",
+              "title": "unit1 family matters - lesson1",
+              "audio": "assets/passages/audios/KB3/6.unit1 family matters - lesson1.mp3",
+              "srt": "assets/passages/audios/KB3/6.unit1 family matters - lesson1-cn.srt"
+            },
+            {
+              "id": "6",
+              "title": "unit1 family matters - lesson2",
+              "audio": "assets/passages/audios/KB3/7.unit1 family matters - lesson2.mp3",
+              "srt": "assets/passages/audios/KB3/7.unit1 family matters - lesson2-cn.srt"
+            },
+            {
+              "id": "7",
+              "title": "unit1 family matters - song",
+              "audio": "assets/passages/audios/KB3/8.unit1 family matters - song.mp3",
+              "srt": "assets/passages/audios/KB3/8.unit1 family matters - song-cn.srt"
+            },
+            {
+              "id": "8",
+              "title": "unit1 lock and key",
+              "audio": "assets/passages/audios/KB3/10.unit1 lock and key.mp3",
+              "srt": "assets/passages/audios/KB3/10.unit1 lock and key-cn.srt"
+            },
+            {
+              "id": "9",
+              "title": "unit2 home sweet home - lesson1",
+              "audio": "assets/passages/audios/KB3/12.unit2 home sweet home - lesson1.mp3",
+              "srt": "assets/passages/audios/KB3/12.unit2 home sweet home - lesson1-cn.srt"
+            },
+            {
+              "id": "10",
+              "title": "unit2 home sweet home - song",
+              "audio": "assets/passages/audios/KB3/13.unit2 home sweet home - song.mp3",
+              "srt": "assets/passages/audios/KB3/13.unit2 home sweet home - song-cn.srt"
+            },
+            {
+              "id": "11",
+              "title": "unit2 lock and key",
+              "audio": "assets/passages/audios/KB3/15.unit2 lock and key.mp3",
+              "srt": "assets/passages/audios/KB3/15.unit2 lock and key-cn.srt"
+            },
+            {
+              "id": "12",
+              "title": "geography - homes",
+              "audio": "assets/passages/audios/KB3/17.geography - homes.mp3",
+              "srt": "assets/passages/audios/KB3/17.geography - homes-cn.srt"
+            },
+            {
+              "id": "13",
+              "title": "unit3 a day in the life - lesson1",
+              "audio": "assets/passages/audios/KB3/18.unit3 a day in the life - lesson1.mp3",
+              "srt": "assets/passages/audios/KB3/18.unit3 a day in the life - lesson1-cn.srt"
+            },
+            {
+              "id": "14",
+              "title": "unit3 a day in the life - song",
+              "audio": "assets/passages/audios/KB3/19.unit3 a day in the life - song.mp3",
+              "srt": "assets/passages/audios/KB3/19.unit3 a day in the life - song-cn.srt"
+            },
+            {
+              "id": "15",
+              "title": "unit3 a day in the life - lesson2",
+              "audio": "assets/passages/audios/KB3/21.unit3 a day in the life - lesson2.mp3",
+              "srt": "assets/passages/audios/KB3/21.unit3 a day in the life - lesson2-cn.srt"
+            },
+            {
+              "id": "16",
+              "title": "unit3 lock and key",
+              "audio": "assets/passages/audios/KB3/22.unit3 lock and key.mp3",
+              "srt": "assets/passages/audios/KB3/22.unit3 lock and key-cn.srt"
+            },
+            {
+              "id": "17",
+              "title": "unit4 song",
+              "audio": "assets/passages/audios/KB3/24.unit4 song.mp3",
+              "srt": "assets/passages/audios/KB3/24.unit4 song-cn.srt"
+            },
+            {
+              "id": "18",
+              "title": "unit4 lock and key",
+              "audio": "assets/passages/audios/KB3/26.unit4 lock and key.mp3",
+              "srt": "assets/passages/audios/KB3/26.unit4 lock and key-cn.srt"
+            },
+            {
+              "id": "19",
+              "title": "unit5 song",
+              "audio": "assets/passages/audios/KB3/28.unit5 song.mp3",
+              "srt": "assets/passages/audios/KB3/28.unit5 song-cn.srt"
+            },
+            {
+              "id": "20",
+              "title": "unit5 lock and key",
+              "audio": "assets/passages/audios/KB3/30.unit5 lock and key.mp3",
+              "srt": "assets/passages/audios/KB3/30.unit5 lock and key-cn.srt"
+            },
+            {
+              "id": "21",
+              "title": "unit6 song",
+              "audio": "assets/passages/audios/KB3/32.unit6 song.mp3",
+              "srt": "assets/passages/audios/KB3/32.unit6 song-cn.srt"
+            },
+            {
+              "id": "22",
+              "title": "unit6 lock and key",
+              "audio": "assets/passages/audios/KB3/34.unit6 lock and key.mp3",
+              "srt": "assets/passages/audios/KB3/34.unit6 lock and key-cn.srt"
+            },
+            {
+              "id": "23",
+              "title": "unit7 song",
+              "audio": "assets/passages/audios/KB3/36.unit7 song.mp3",
+              "srt": "assets/passages/audios/KB3/36.unit7 song-cn.srt"
+            },
+            {
+              "id": "24",
+              "title": "unit7 lock and key",
+              "audio": "assets/passages/audios/KB3/38.unit7 lock and key.mp3",
+              "srt": "assets/passages/audios/KB3/38.unit7 lock and key-cn.srt"
+            },
+            {
+              "id": "25",
+              "title": "unit8 song",
+              "audio": "assets/passages/audios/KB3/40.unit8 song.mp3",
+              "srt": "assets/passages/audios/KB3/40.unit8 song-cn.srt"
+            },
+            {
+              "id": "26",
+              "title": "unit8 lock and key",
+              "audio": "assets/passages/audios/KB3/42.unit8 lock and key.mp3",
+              "srt": "assets/passages/audios/KB3/42.unit8 lock and key-cn.srt"
+            },
+            {
+              "id": "27",
+              "title": "u1_kids_box_art_show",
+              "audio": "assets/passages/audios/KB3/44.u1_kids_box_art_show.mp3",
+              "srt": "assets/passages/audios/KB3/44.u1_kids_box_art_show-cn.srt"
+            },
+            {
+              "id": "28",
+              "title": "u3_at_the_fire_station",
+              "audio": "assets/passages/audios/KB3/45.u3_at_the_fire_station.mp3",
+              "srt": "assets/passages/audios/KB3/45.u3_at_the_fire_station-cn.srt"
+            },
+            {
+              "id": "29",
+              "title": "u5_lets_do_sport",
+              "audio": "assets/passages/audios/KB3/46.u5_lets_do_sport.mp3",
+              "srt": "assets/passages/audios/KB3/46.u5_lets_do_sport-cn.srt"
+            },
+            {
+              "id": "30",
+              "title": "u7_at_the_aquarium",
+              "audio": "assets/passages/audios/KB3/47.u7_at_the_aquarium.mp3",
+              "srt": "assets/passages/audios/KB3/47.u7_at_the_aquarium-cn.srt"
+            }
+          ]
+        },
+        {
+          "id": "kids-box-4",
+          "name": "Kid's Box 4",
+          "type": "srt",
+          "author": "Caroline Nixon & Michael Tomlinson",
+          "description": "第四册视频：故事、歌曲与活动并重，巩固语法与词汇，配套音频跟读。",
+          "cover": "assets/passages/covers/kids-box4.png",
+          "items": [
+            {
+              "id": "1",
+              "title": "U0_song",
+              "audio": "assets/passages/audios/KB4/1.U0_song.mp3",
+              "srt": "assets/passages/audios/KB4/1.U0_song-cn.srt"
+            },
+            {
+              "id": "2",
+              "title": "U0_漫画",
+              "audio": "assets/passages/audios/KB4/3.U0_漫画.mp3",
+              "srt": "assets/passages/audios/KB4/3.U0_漫画-cn.srt"
+            },
+            {
+              "id": "3",
+              "title": "U1-单词故事",
+              "audio": "assets/passages/audios/KB4/4.U1-单词故事.mp3",
+              "srt": "assets/passages/audios/KB4/4.U1-单词故事-cn.srt"
+            },
+            {
+              "id": "4",
+              "title": "U1-语法故事",
+              "audio": "assets/passages/audios/KB4/5.U1-语法故事.mp3",
+              "srt": "assets/passages/audios/KB4/5.U1-语法故事-cn.srt"
+            },
+            {
+              "id": "5",
+              "title": "U1-歌曲带字幕",
+              "audio": "assets/passages/audios/KB4/6.U1-歌曲带字幕.mp3",
+              "srt": "assets/passages/audios/KB4/6.U1-歌曲带字幕-cn.srt"
+            },
+            {
+              "id": "6",
+              "title": "U1-漫画",
+              "audio": "assets/passages/audios/KB4/7.U1-漫画.mp3",
+              "srt": "assets/passages/audios/KB4/7.U1-漫画-cn.srt"
+            },
+            {
+              "id": "7",
+              "title": "U2-单词故事",
+              "audio": "assets/passages/audios/KB4/8.U2-单词故事.mp3",
+              "srt": "assets/passages/audios/KB4/8.U2-单词故事-cn.srt"
+            },
+            {
+              "id": "8",
+              "title": "U2-语法故事",
+              "audio": "assets/passages/audios/KB4/9.U2-语法故事.mp3",
+              "srt": "assets/passages/audios/KB4/9.U2-语法故事-cn.srt"
+            },
+            {
+              "id": "9",
+              "title": "U2-歌曲带字幕",
+              "audio": "assets/passages/audios/KB4/10.U2-歌曲带字幕.mp3",
+              "srt": "assets/passages/audios/KB4/10.U2-歌曲带字幕-cn.srt"
+            },
+            {
+              "id": "10",
+              "title": "U2-漫画",
+              "audio": "assets/passages/audios/KB4/11.U2-漫画.mp3",
+              "srt": "assets/passages/audios/KB4/11.U2-漫画-cn.srt"
+            },
+            {
+              "id": "11",
+              "title": "U3-单词故事",
+              "audio": "assets/passages/audios/KB4/12.U3-单词故事.mp3",
+              "srt": "assets/passages/audios/KB4/12.U3-单词故事-cn.srt"
+            },
+            {
+              "id": "12",
+              "title": "U3-语法故事",
+              "audio": "assets/passages/audios/KB4/13.U3-语法故事.mp3",
+              "srt": "assets/passages/audios/KB4/13.U3-语法故事-cn.srt"
+            },
+            {
+              "id": "13",
+              "title": "U3-歌曲带字幕",
+              "audio": "assets/passages/audios/KB4/14.U3-歌曲带字幕.mp3",
+              "srt": "assets/passages/audios/KB4/14.U3-歌曲带字幕-cn.srt"
+            },
+            {
+              "id": "14",
+              "title": "U3-漫画",
+              "audio": "assets/passages/audios/KB4/16.U3-漫画.mp3",
+              "srt": "assets/passages/audios/KB4/16.U3-漫画-cn.srt"
+            },
+            {
+              "id": "15",
+              "title": "U4-单词故事",
+              "audio": "assets/passages/audios/KB4/17.U4-单词故事.mp3",
+              "srt": "assets/passages/audios/KB4/17.U4-单词故事-cn.srt"
+            },
+            {
+              "id": "16",
+              "title": "U4-语法故事",
+              "audio": "assets/passages/audios/KB4/18.U4-语法故事.mp3",
+              "srt": "assets/passages/audios/KB4/18.U4-语法故事-cn.srt"
+            },
+            {
+              "id": "17",
+              "title": "U4-漫画",
+              "audio": "assets/passages/audios/KB4/20.U4-漫画.mp3",
+              "srt": "assets/passages/audios/KB4/20.U4-漫画-cn.srt"
+            },
+            {
+              "id": "18",
+              "title": "U5-语法故事",
+              "audio": "assets/passages/audios/KB4/21.U5-语法故事.mp3",
+              "srt": "assets/passages/audios/KB4/21.U5-语法故事-cn.srt"
+            },
+            {
+              "id": "19",
+              "title": "U5-歌曲带字幕",
+              "audio": "assets/passages/audios/KB4/22.U5-歌曲带字幕.mp3",
+              "srt": "assets/passages/audios/KB4/22.U5-歌曲带字幕-cn.srt"
+            },
+            {
+              "id": "20",
+              "title": "U5-漫画",
+              "audio": "assets/passages/audios/KB4/24.U5-漫画.mp3",
+              "srt": "assets/passages/audios/KB4/24.U5-漫画-cn.srt"
+            },
+            {
+              "id": "21",
+              "title": "U6-单词故事",
+              "audio": "assets/passages/audios/KB4/25.U6-单词故事.mp3",
+              "srt": "assets/passages/audios/KB4/25.U6-单词故事-cn.srt"
+            },
+            {
+              "id": "22",
+              "title": "U6-语法故事",
+              "audio": "assets/passages/audios/KB4/26.U6-语法故事.mp3",
+              "srt": "assets/passages/audios/KB4/26.U6-语法故事-cn.srt"
+            },
+            {
+              "id": "23",
+              "title": "U6-歌曲带字幕",
+              "audio": "assets/passages/audios/KB4/27.U6-歌曲带字幕.mp3",
+              "srt": "assets/passages/audios/KB4/27.U6-歌曲带字幕-cn.srt"
+            },
+            {
+              "id": "24",
+              "title": "U6-漫画",
+              "audio": "assets/passages/audios/KB4/29.U6-漫画.mp3",
+              "srt": "assets/passages/audios/KB4/29.U6-漫画-cn.srt"
+            },
+            {
+              "id": "25",
+              "title": "U7-单词故事",
+              "audio": "assets/passages/audios/KB4/30.U7-单词故事.mp3",
+              "srt": "assets/passages/audios/KB4/30.U7-单词故事-cn.srt"
+            },
+            {
+              "id": "26",
+              "title": "U7-语法故事",
+              "audio": "assets/passages/audios/KB4/31.U7-语法故事.mp3",
+              "srt": "assets/passages/audios/KB4/31.U7-语法故事-cn.srt"
+            },
+            {
+              "id": "27",
+              "title": "U7-漫画",
+              "audio": "assets/passages/audios/KB4/34.U7-漫画.mp3",
+              "srt": "assets/passages/audios/KB4/34.U7-漫画-cn.srt"
+            },
+            {
+              "id": "28",
+              "title": "U8-单词故事",
+              "audio": "assets/passages/audios/KB4/35.U8-单词故事.mp3",
+              "srt": "assets/passages/audios/KB4/35.U8-单词故事-cn.srt"
+            },
+            {
+              "id": "29",
+              "title": "U8-语法故事",
+              "audio": "assets/passages/audios/KB4/36.U8-语法故事.mp3",
+              "srt": "assets/passages/audios/KB4/36.U8-语法故事-cn.srt"
+            },
+            {
+              "id": "30",
+              "title": "U8-歌曲带字幕",
+              "audio": "assets/passages/audios/KB4/37.U8-歌曲带字幕.mp3",
+              "srt": "assets/passages/audios/KB4/37.U8-歌曲带字幕-cn.srt"
+            },
+            {
+              "id": "31",
+              "title": "U8-漫画",
+              "audio": "assets/passages/audios/KB4/39.U8-漫画.mp3",
+              "srt": "assets/passages/audios/KB4/39.U8-漫画-cn.srt"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "good-english",
+      "name": "Good English",
+      "author": "外语教学与研究出版社（引进）",
+      "description": "外研社引进的分级阅读体系，贴近课内拓展课外听读。",
+      "cover": "assets/passages/covers/good-english2.png",
+      "books": [
+        {
+          "id": "good-english-1a",
+          "name": "Good English 1A",
+          "type": "doc",
+          "author": "外语教学与研究出版社",
+          "description": "1A 分册：短篇故事与基础句型并重，培养拼读与阅读流利度。",
+          "cover": "assets/passages/covers/good-english1a.png",
+          "items": [
+            {
+              "id": "1",
+              "title": "Who Is It",
+              "audio": "assets/passages/audios/GoodEnglish1a/01.Who Is It.mp3",
+              "srt": "assets/passages/audios/GoodEnglish1a/01.Who Is It-cn.srt"
+            },
+            {
+              "id": "2",
+              "title": "Six in a Bed",
+              "audio": "assets/passages/audios/GoodEnglish1a/02.Six in a Bed.mp3",
+              "srt": "assets/passages/audios/GoodEnglish1a/02.Six in a Bed-cn.srt"
+            },
+            {
+              "id": "3",
+              "title": "Fun at the Beach",
+              "audio": "assets/passages/audios/GoodEnglish1a/03.Fun at the Beach.mp3",
+              "srt": "assets/passages/audios/GoodEnglish1a/03.Fun at the Beach-cn.srt"
+            },
+            {
+              "id": "4",
+              "title": "Floppy Floppy",
+              "audio": "assets/passages/audios/GoodEnglish1a/04.Floppy Floppy.mp3",
+              "srt": "assets/passages/audios/GoodEnglish1a/04.Floppy Floppy-cn.srt"
+            },
+            {
+              "id": "5",
+              "title": "A Good Trick",
+              "audio": "assets/passages/audios/GoodEnglish1a/05.A Good Trick.mp3",
+              "srt": "assets/passages/audios/GoodEnglish1a/05.A Good Trick-cn.srt"
+            },
+            {
+              "id": "6",
+              "title": "The Pancake",
+              "audio": "assets/passages/audios/GoodEnglish1a/06.The Pancake.mp3",
+              "srt": "assets/passages/audios/GoodEnglish1a/06.The Pancake-cn.srt"
+            },
+            {
+              "id": "7",
+              "title": "Is It？",
+              "audio": "assets/passages/audios/GoodEnglish1a/07.Is It？.mp3",
+              "srt": "assets/passages/audios/GoodEnglish1a/07.Is It？-cn.srt"
+            },
+            {
+              "id": "8",
+              "title": "Get on",
+              "audio": "assets/passages/audios/GoodEnglish1a/08.Get on.mp3",
+              "srt": "assets/passages/audios/GoodEnglish1a/08.Get on-cn.srt"
+            },
+            {
+              "id": "9",
+              "title": "Floppy Did This",
+              "audio": "assets/passages/audios/GoodEnglish1a/09.Floppy Did This.mp3",
+              "srt": "assets/passages/audios/GoodEnglish1a/09.Floppy Did This-cn.srt"
+            },
+            {
+              "id": "10",
+              "title": "Get Dad",
+              "audio": "assets/passages/audios/GoodEnglish1a/10.Get Dad.mp3",
+              "srt": "assets/passages/audios/GoodEnglish1a/10.Get Dad-cn.srt"
+            },
+            {
+              "id": "11",
+              "title": "Up You Go",
+              "audio": "assets/passages/audios/GoodEnglish1a/11.Up You Go.mp3",
+              "srt": "assets/passages/audios/GoodEnglish1a/11.Up You Go-cn.srt"
+            },
+            {
+              "id": "12",
+              "title": "I See",
+              "audio": "assets/passages/audios/GoodEnglish1a/12.I See.mp3",
+              "srt": "assets/passages/audios/GoodEnglish1a/12.I See-cn.srt"
+            },
+            {
+              "id": "13",
+              "title": "At the Park",
+              "audio": "assets/passages/audios/GoodEnglish1a/13.At the Park.mp3",
+              "srt": "assets/passages/audios/GoodEnglish1a/13.At the Park-cn.srt"
+            },
+            {
+              "id": "14",
+              "title": "Fancy Dress",
+              "audio": "assets/passages/audios/GoodEnglish1a/14.Fancy Dress.mp3",
+              "srt": "assets/passages/audios/GoodEnglish1a/14.Fancy Dress-cn.srt"
+            },
+            {
+              "id": "15",
+              "title": "Good Old Mum",
+              "audio": "assets/passages/audios/GoodEnglish1a/15.Good Old Mum.mp3",
+              "srt": "assets/passages/audios/GoodEnglish1a/15.Good Old Mum-cn.srt"
+            },
+            {
+              "id": "16",
+              "title": "The Headache",
+              "audio": "assets/passages/audios/GoodEnglish1a/16.The Headache.mp3",
+              "srt": "assets/passages/audios/GoodEnglish1a/16.The Headache-cn.srt"
+            },
+            {
+              "id": "17",
+              "title": "The Pet Shop",
+              "audio": "assets/passages/audios/GoodEnglish1a/17.The Pet Shop.mp3",
+              "srt": "assets/passages/audios/GoodEnglish1a/17.The Pet Shop-cn.srt"
+            },
+            {
+              "id": "18",
+              "title": "Push!",
+              "audio": "assets/passages/audios/GoodEnglish1a/18.Push!.mp3",
+              "srt": "assets/passages/audios/GoodEnglish1a/18.Push!-cn.srt"
+            },
+            {
+              "id": "19",
+              "title": "Making Faces",
+              "audio": "assets/passages/audios/GoodEnglish1a/19.Making Faces.mp3",
+              "srt": "assets/passages/audios/GoodEnglish1a/19.Making Faces-cn.srt"
+            },
+            {
+              "id": "20",
+              "title": "Goal!",
+              "audio": "assets/passages/audios/GoodEnglish1a/20.Goal!.mp3",
+              "srt": "assets/passages/audios/GoodEnglish1a/20.Goal!-cn.srt"
+            },
+            {
+              "id": "21",
+              "title": "The Journey",
+              "audio": "assets/passages/audios/GoodEnglish1a/21.The Journey.mp3",
+              "srt": "assets/passages/audios/GoodEnglish1a/21.The Journey-cn.srt"
+            },
+            {
+              "id": "22",
+              "title": "Shopping",
+              "audio": "assets/passages/audios/GoodEnglish1a/22.Shopping.mp3",
+              "srt": "assets/passages/audios/GoodEnglish1a/22.Shopping-cn.srt"
+            },
+            {
+              "id": "23",
+              "title": "Who Did That？",
+              "audio": "assets/passages/audios/GoodEnglish1a/23.Who Did That？.mp3",
+              "srt": "assets/passages/audios/GoodEnglish1a/23.Who Did That？-cn.srt"
+            },
+            {
+              "id": "24",
+              "title": "What a Mess!",
+              "audio": "assets/passages/audios/GoodEnglish1a/24.What a Mess!.mp3",
+              "srt": "assets/passages/audios/GoodEnglish1a/24.What a Mess!-cn.srt"
+            },
+            {
+              "id": "25",
+              "title": "Hide and Seek",
+              "audio": "assets/passages/audios/GoodEnglish1a/25.Hide and Seek.mp3",
+              "srt": "assets/passages/audios/GoodEnglish1a/25.Hide and Seek-cn.srt"
+            },
+            {
+              "id": "26",
+              "title": "Reds and Blues",
+              "audio": "assets/passages/audios/GoodEnglish1a/26.Reds and Blues.mp3",
+              "srt": "assets/passages/audios/GoodEnglish1a/26.Reds and Blues-cn.srt"
+            },
+            {
+              "id": "27",
+              "title": "Big Feet",
+              "audio": "assets/passages/audios/GoodEnglish1a/27.Big Feet.mp3",
+              "srt": "assets/passages/audios/GoodEnglish1a/27.Big Feet-cn.srt"
+            },
+            {
+              "id": "28",
+              "title": "Look at Me",
+              "audio": "assets/passages/audios/GoodEnglish1a/28.Look at Me.mp3",
+              "srt": "assets/passages/audios/GoodEnglish1a/28.Look at Me-cn.srt"
+            },
+            {
+              "id": "29",
+              "title": "Go Away Floppy",
+              "audio": "assets/passages/audios/GoodEnglish1a/29.Go Away Floppy.mp3",
+              "srt": "assets/passages/audios/GoodEnglish1a/29.Go Away Floppy-cn.srt"
+            },
+            {
+              "id": "30",
+              "title": "Kipper's Diary",
+              "audio": "assets/passages/audios/GoodEnglish1a/30.Kipper's Diary.mp3",
+              "srt": "assets/passages/audios/GoodEnglish1a/30.Kipper's Diary-cn.srt"
+            },
+            {
+              "id": "31",
+              "title": "What Dogs Like",
+              "audio": "assets/passages/audios/GoodEnglish1a/31.What Dogs Like.mp3",
+              "srt": "assets/passages/audios/GoodEnglish1a/31.What Dogs Like-cn.srt"
+            },
+            {
+              "id": "32",
+              "title": "Go Away Cat",
+              "audio": "assets/passages/audios/GoodEnglish1a/32.Go Away Cat.mp3",
+              "srt": "assets/passages/audios/GoodEnglish1a/32.Go Away Cat-cn.srt"
+            },
+            {
+              "id": "33",
+              "title": "Go on Mum!",
+              "audio": "assets/passages/audios/GoodEnglish1a/33.Go on Mum!.mp3",
+              "srt": "assets/passages/audios/GoodEnglish1a/33.Go on Mum!-cn.srt"
+            },
+            {
+              "id": "34",
+              "title": "Look After Me",
+              "audio": "assets/passages/audios/GoodEnglish1a/34.Look After Me.mp3",
+              "srt": "assets/passages/audios/GoodEnglish1a/34.Look After Me-cn.srt"
+            },
+            {
+              "id": "35",
+              "title": "Presents for Dad",
+              "audio": "assets/passages/audios/GoodEnglish1a/35.Presents for Dad.mp3",
+              "srt": "assets/passages/audios/GoodEnglish1a/35.Presents for Dad-cn.srt"
+            },
+            {
+              "id": "36",
+              "title": "Top Dog",
+              "audio": "assets/passages/audios/GoodEnglish1a/36.Top Dog.mp3",
+              "srt": "assets/passages/audios/GoodEnglish1a/36.Top Dog-cn.srt"
+            },
+            {
+              "id": "37",
+              "title": "The Ice Cream",
+              "audio": "assets/passages/audios/GoodEnglish1a/37.The Ice Cream.mp3",
+              "srt": "assets/passages/audios/GoodEnglish1a/37.The Ice Cream-cn.srt"
+            },
+            {
+              "id": "38",
+              "title": "Can You See Me？",
+              "audio": "assets/passages/audios/GoodEnglish1a/38.Can You See Me？.mp3",
+              "srt": "assets/passages/audios/GoodEnglish1a/38.Can You See Me？-cn.srt"
+            },
+            {
+              "id": "39",
+              "title": "Good Dog",
+              "audio": "assets/passages/audios/GoodEnglish1a/39.Good Dog.mp3",
+              "srt": "assets/passages/audios/GoodEnglish1a/39.Good Dog-cn.srt"
+            },
+            {
+              "id": "40",
+              "title": "What a DIN!",
+              "audio": "assets/passages/audios/GoodEnglish1a/40.What a DIN!.mp3",
+              "srt": "assets/passages/audios/GoodEnglish1a/40.What a DIN!-cn.srt"
+            },
+            {
+              "id": "41",
+              "title": "See Me Skip",
+              "audio": "assets/passages/audios/GoodEnglish1a/41.See Me Skip.mp3",
+              "srt": "assets/passages/audios/GoodEnglish1a/41.See Me Skip-cn.srt"
+            },
+            {
+              "id": "42",
+              "title": "The Mud Pie",
+              "audio": "assets/passages/audios/GoodEnglish1a/42.The Mud Pie.mp3",
+              "srt": "assets/passages/audios/GoodEnglish1a/42.The Mud Pie-cn.srt"
+            }
+          ]
+        },
+        {
+          "id": "good-english-1b",
+          "name": "Good English 1B",
+          "type": "doc",
+          "author": "外语教学与研究出版社",
+          "description": "1B 分册：延续 1A 难度梯度，巩固词汇与篇章理解。",
+          "cover": "assets/passages/covers/good-english1b.png",
+          "items": [
+            {
+              "id": "1",
+              "title": "Floppy's Bone",
+              "audio": "assets/passages/audios/GoodEnglish1b/01.Floppy's Bone.mp3",
+              "srt": "assets/passages/audios/GoodEnglish1b/01.Floppy's Bone-cn.srt"
+            },
+            {
+              "id": "2",
+              "title": "Hook a Duck",
+              "audio": "assets/passages/audios/GoodEnglish1b/02.Hook a Duck.mp3",
+              "srt": "assets/passages/audios/GoodEnglish1b/02.Hook a Duck-cn.srt"
+            },
+            {
+              "id": "3",
+              "title": "Chip's Robot",
+              "audio": "assets/passages/audios/GoodEnglish1b/03.Chip's Robot.mp3",
+              "srt": "assets/passages/audios/GoodEnglish1b/03.Chip's Robot-cn.srt"
+            },
+            {
+              "id": "4",
+              "title": "The Sandcastle",
+              "audio": "assets/passages/audios/GoodEnglish1b/04.The Sandcastle.mp3",
+              "srt": "assets/passages/audios/GoodEnglish1b/04.The Sandcastle-cn.srt"
+            },
+            {
+              "id": "5",
+              "title": "The Box of Treasure",
+              "audio": "assets/passages/audios/GoodEnglish1b/05.The Box of Treasure.mp3",
+              "srt": "assets/passages/audios/GoodEnglish1b/05.The Box of Treasure-cn.srt"
+            },
+            {
+              "id": "6",
+              "title": "One Wheel",
+              "audio": "assets/passages/audios/GoodEnglish1b/06.One Wheel.mp3",
+              "srt": "assets/passages/audios/GoodEnglish1b/06.One Wheel-cn.srt"
+            },
+            {
+              "id": "7",
+              "title": "Funny Fish",
+              "audio": "assets/passages/audios/GoodEnglish1b/07.Funny Fish.mp3",
+              "srt": "assets/passages/audios/GoodEnglish1b/07.Funny Fish-cn.srt"
+            },
+            {
+              "id": "8",
+              "title": "The Snowman",
+              "audio": "assets/passages/audios/GoodEnglish1b/08.The Snowman.mp3",
+              "srt": "assets/passages/audios/GoodEnglish1b/08.The Snowman-cn.srt"
+            },
+            {
+              "id": "9",
+              "title": "Silly Races",
+              "audio": "assets/passages/audios/GoodEnglish1b/09.Silly Races.mp3",
+              "srt": "assets/passages/audios/GoodEnglish1b/09.Silly Races-cn.srt"
+            },
+            {
+              "id": "10",
+              "title": "Picnic Time",
+              "audio": "assets/passages/audios/GoodEnglish1b/10.Picnic Time.mp3",
+              "srt": "assets/passages/audios/GoodEnglish1b/10.Picnic Time-cn.srt"
+            },
+            {
+              "id": "11",
+              "title": "Dad's Birthday",
+              "audio": "assets/passages/audios/GoodEnglish1b/11.Dad's Birthday.mp3",
+              "srt": "assets/passages/audios/GoodEnglish1b/11.Dad's Birthday-cn.srt"
+            },
+            {
+              "id": "12",
+              "title": "Mum's New Hat",
+              "audio": "assets/passages/audios/GoodEnglish1b/12.Mum's New Hat.mp3",
+              "srt": "assets/passages/audios/GoodEnglish1b/12.Mum's New Hat-cn.srt"
+            },
+            {
+              "id": "13",
+              "title": "Hop! Hop! Pop!",
+              "audio": "assets/passages/audios/GoodEnglish1b/13.Hop! Hop! Pop!.mp3",
+              "srt": "assets/passages/audios/GoodEnglish1b/13.Hop! Hop! Pop!-cn.srt"
+            },
+            {
+              "id": "14",
+              "title": "Catkin the Kitten",
+              "audio": "assets/passages/audios/GoodEnglish1b/14.Catkin the Kitten.mp3",
+              "srt": "assets/passages/audios/GoodEnglish1b/14.Catkin the Kitten-cn.srt"
+            },
+            {
+              "id": "15",
+              "title": "In the Trolley",
+              "audio": "assets/passages/audios/GoodEnglish1b/15.In the Trolley.mp3",
+              "srt": "assets/passages/audios/GoodEnglish1b/15.In the Trolley-cn.srt"
+            },
+            {
+              "id": "16",
+              "title": "The Trampoline",
+              "audio": "assets/passages/audios/GoodEnglish1b/16.The Trampoline.mp3",
+              "srt": "assets/passages/audios/GoodEnglish1b/16.The Trampoline-cn.srt"
+            },
+            {
+              "id": "17",
+              "title": "The Enormous Crab",
+              "audio": "assets/passages/audios/GoodEnglish1b/17.The Enormous Crab.mp3",
+              "srt": "assets/passages/audios/GoodEnglish1b/17.The Enormous Crab-cn.srt"
+            },
+            {
+              "id": "18",
+              "title": "The Caterpillar",
+              "audio": "assets/passages/audios/GoodEnglish1b/18.The Caterpillar.mp3",
+              "srt": "assets/passages/audios/GoodEnglish1b/18.The Caterpillar-cn.srt"
+            },
+            {
+              "id": "19",
+              "title": "The Picture Book Man",
+              "audio": "assets/passages/audios/GoodEnglish1b/19.The Picture Book Man.mp3",
+              "srt": "assets/passages/audios/GoodEnglish1b/19.The Picture Book Man-cn.srt"
+            },
+            {
+              "id": "20",
+              "title": "In the Tent",
+              "audio": "assets/passages/audios/GoodEnglish1b/20.In the Tent.mp3",
+              "srt": "assets/passages/audios/GoodEnglish1b/20.In the Tent-cn.srt"
+            },
+            {
+              "id": "21",
+              "title": "The Bag in the Bin",
+              "audio": "assets/passages/audios/GoodEnglish1b/21.The Bag in the Bin.mp3",
+              "srt": "assets/passages/audios/GoodEnglish1b/21.The Bag in the Bin-cn.srt"
+            },
+            {
+              "id": "22",
+              "title": "Stuck!",
+              "audio": "assets/passages/audios/GoodEnglish1b/22.Stuck!.mp3",
+              "srt": "assets/passages/audios/GoodEnglish1b/22.Stuck!-cn.srt"
+            },
+            {
+              "id": "23",
+              "title": "The Big Red Bus",
+              "audio": "assets/passages/audios/GoodEnglish1b/23.The Big Red Bus.mp3",
+              "srt": "assets/passages/audios/GoodEnglish1b/23.The Big Red Bus-cn.srt"
+            },
+            {
+              "id": "24",
+              "title": "The Sock",
+              "audio": "assets/passages/audios/GoodEnglish1b/24.The Sock.mp3",
+              "srt": "assets/passages/audios/GoodEnglish1b/24.The Sock-cn.srt"
+            },
+            {
+              "id": "25",
+              "title": "What a Bad Dog!",
+              "audio": "assets/passages/audios/GoodEnglish1b/25.What a Bad Dog!.mp3",
+              "srt": "assets/passages/audios/GoodEnglish1b/25.What a Bad Dog!-cn.srt"
+            },
+            {
+              "id": "26",
+              "title": "The Dream",
+              "audio": "assets/passages/audios/GoodEnglish1b/26.The Dream.mp3",
+              "srt": "assets/passages/audios/GoodEnglish1b/26.The Dream-cn.srt"
+            },
+            {
+              "id": "27",
+              "title": "The Go-kart",
+              "audio": "assets/passages/audios/GoodEnglish1b/27.The Go-kart.mp3",
+              "srt": "assets/passages/audios/GoodEnglish1b/27.The Go-kart-cn.srt"
+            },
+            {
+              "id": "28",
+              "title": "A New Dog",
+              "audio": "assets/passages/audios/GoodEnglish1b/28.A New Dog.mp3",
+              "srt": "assets/passages/audios/GoodEnglish1b/28.A New Dog-cn.srt"
+            },
+            {
+              "id": "29",
+              "title": "The Toys' Party",
+              "audio": "assets/passages/audios/GoodEnglish1b/29.The Toys' Party.mp3",
+              "srt": "assets/passages/audios/GoodEnglish1b/29.The Toys' Party-cn.srt"
+            },
+            {
+              "id": "30",
+              "title": "New Trainers",
+              "audio": "assets/passages/audios/GoodEnglish1b/30.New Trainers.mp3",
+              "srt": "assets/passages/audios/GoodEnglish1b/30.New Trainers-cn.srt"
+            }
+          ]
+        },
+        {
+          "id": "good-english-2a",
+          "name": "Good English 2A",
+          "type": "doc",
+          "author": "外语教学与研究出版社",
+          "description": "2A 分册：短篇故事与基础句型并重，培养拼读与阅读流利度。",
+          "cover": "assets/passages/covers/good-english2a.png",
+          "items": [
+            {
+              "id": "1",
+              "title": "Monkey_Tricks",
+              "audio": "assets/passages/audios/GoodEnglish2a/01.Monkey_Tricks.mp3",
+              "srt": "assets/passages/audios/GoodEnglish2a/01.Monkey_Tricks-cn.srt"
+            },
+            {
+              "id": "2",
+              "title": "A_Sinking_Feeling",
+              "audio": "assets/passages/audios/GoodEnglish2a/02.A_Sinking_Feeling.mp3",
+              "srt": "assets/passages/audios/GoodEnglish2a/02.A_Sinking_Feeling-cn.srt"
+            },
+            {
+              "id": "3",
+              "title": "Naughty_Children",
+              "audio": "assets/passages/audios/GoodEnglish2a/03.Naughty_Children.mp3",
+              "srt": "assets/passages/audios/GoodEnglish2a/03.Naughty_Children-cn.srt"
+            },
+            {
+              "id": "4",
+              "title": "It's_the_Weather",
+              "audio": "assets/passages/audios/GoodEnglish2a/04.It's_the_Weather.mp3",
+              "srt": "assets/passages/audios/GoodEnglish2a/04.It's_the_Weather-cn.srt"
+            },
+            {
+              "id": "5",
+              "title": "Hey_Presto!",
+              "audio": "assets/passages/audios/GoodEnglish2a/05.Hey_Presto!.mp3",
+              "srt": "assets/passages/audios/GoodEnglish2a/05.Hey_Presto!-cn.srt"
+            },
+            {
+              "id": "6",
+              "title": "Creepy-crawly!",
+              "audio": "assets/passages/audios/GoodEnglish2a/06.Creepy-crawly!.mp3",
+              "srt": "assets/passages/audios/GoodEnglish2a/06.Creepy-crawly!-cn.srt"
+            },
+            {
+              "id": "7",
+              "title": "The_Little_Dragon",
+              "audio": "assets/passages/audios/GoodEnglish2a/07.The_Little_Dragon.mp3",
+              "srt": "assets/passages/audios/GoodEnglish2a/07.The_Little_Dragon-cn.srt"
+            },
+            {
+              "id": "8",
+              "title": "The_Lost_Puppy",
+              "audio": "assets/passages/audios/GoodEnglish2a/08.The_Lost_Puppy.mp3",
+              "srt": "assets/passages/audios/GoodEnglish2a/08.The_Lost_Puppy-cn.srt"
+            },
+            {
+              "id": "9",
+              "title": "New_Trees",
+              "audio": "assets/passages/audios/GoodEnglish2a/09.New_Trees.mp3",
+              "srt": "assets/passages/audios/GoodEnglish2a/09.New_Trees-cn.srt"
+            },
+            {
+              "id": "10",
+              "title": "The_Band",
+              "audio": "assets/passages/audios/GoodEnglish2a/10.The_Band.mp3",
+              "srt": "assets/passages/audios/GoodEnglish2a/10.The_Band-cn.srt"
+            },
+            {
+              "id": "11",
+              "title": "Up_and_Down",
+              "audio": "assets/passages/audios/GoodEnglish2a/11.Up_and_Down.mp3",
+              "srt": "assets/passages/audios/GoodEnglish2a/11.Up_and_Down-cn.srt"
+            },
+            {
+              "id": "12",
+              "title": "What_Is_It？",
+              "audio": "assets/passages/audios/GoodEnglish2a/12.What_Is_It？.mp3",
+              "srt": "assets/passages/audios/GoodEnglish2a/12.What_Is_It？-cn.srt"
+            },
+            {
+              "id": "13",
+              "title": "The_Big_Egg",
+              "audio": "assets/passages/audios/GoodEnglish2a/13.The_Big_Egg.mp3",
+              "srt": "assets/passages/audios/GoodEnglish2a/13.The_Big_Egg-cn.srt"
+            },
+            {
+              "id": "14",
+              "title": "A_Present_for_Mum",
+              "audio": "assets/passages/audios/GoodEnglish2a/14.A_Present_for_Mum.mp3",
+              "srt": "assets/passages/audios/GoodEnglish2a/14.A_Present_for_Mum-cn.srt"
+            },
+            {
+              "id": "15",
+              "title": "The_Hole_in_the_Sand",
+              "audio": "assets/passages/audios/GoodEnglish2a/15.The_Hole_in_the_Sand.mp3",
+              "srt": "assets/passages/audios/GoodEnglish2a/15.The_Hole_in_the_Sand-cn.srt"
+            },
+            {
+              "id": "16",
+              "title": "In_a_Bit",
+              "audio": "assets/passages/audios/GoodEnglish2a/16.In_a_Bit.mp3",
+              "srt": "assets/passages/audios/GoodEnglish2a/16.In_a_Bit-cn.srt"
+            },
+            {
+              "id": "17",
+              "title": "Poor_Floppy",
+              "audio": "assets/passages/audios/GoodEnglish2a/17.Poor_Floppy.mp3",
+              "srt": "assets/passages/audios/GoodEnglish2a/17.Poor_Floppy-cn.srt"
+            },
+            {
+              "id": "18",
+              "title": "Put_It_Back",
+              "audio": "assets/passages/audios/GoodEnglish2a/18.Put_It_Back.mp3",
+              "srt": "assets/passages/audios/GoodEnglish2a/18.Put_It_Back-cn.srt"
+            },
+            {
+              "id": "19",
+              "title": "The_Baby-sitter",
+              "audio": "assets/passages/audios/GoodEnglish2a/19.The_Baby-sitter.mp3",
+              "srt": "assets/passages/audios/GoodEnglish2a/19.The_Baby-sitter-cn.srt"
+            },
+            {
+              "id": "20",
+              "title": "Floppy's_Bath",
+              "audio": "assets/passages/audios/GoodEnglish2a/20.Floppy's_Bath.mp3",
+              "srt": "assets/passages/audios/GoodEnglish2a/20.Floppy's_Bath-cn.srt"
+            },
+            {
+              "id": "21",
+              "title": "Kipper's_Balloon",
+              "audio": "assets/passages/audios/GoodEnglish2a/21.Kipper's_Balloon.mp3",
+              "srt": "assets/passages/audios/GoodEnglish2a/21.Kipper's_Balloon-cn.srt"
+            },
+            {
+              "id": "22",
+              "title": "Kipper's_Birthday",
+              "audio": "assets/passages/audios/GoodEnglish2a/22.Kipper's_Birthday.mp3",
+              "srt": "assets/passages/audios/GoodEnglish2a/22.Kipper's_Birthday-cn.srt"
+            },
+            {
+              "id": "23",
+              "title": "Spots!",
+              "audio": "assets/passages/audios/GoodEnglish2a/23.Spots!.mp3",
+              "srt": "assets/passages/audios/GoodEnglish2a/23.Spots!-cn.srt"
+            },
+            {
+              "id": "24",
+              "title": "The_Water_Fight",
+              "audio": "assets/passages/audios/GoodEnglish2a/24.The_Water_Fight.mp3",
+              "srt": "assets/passages/audios/GoodEnglish2a/24.The_Water_Fight-cn.srt"
+            },
+            {
+              "id": "25",
+              "title": "Biff's_Aeroplane",
+              "audio": "assets/passages/audios/GoodEnglish2a/25.Biff's_Aeroplane.mp3",
+              "srt": "assets/passages/audios/GoodEnglish2a/25.Biff's_Aeroplane-cn.srt"
+            },
+            {
+              "id": "26",
+              "title": "The_Chase",
+              "audio": "assets/passages/audios/GoodEnglish2a/26.The_Chase.mp3",
+              "srt": "assets/passages/audios/GoodEnglish2a/26.The_Chase-cn.srt"
+            },
+            {
+              "id": "27",
+              "title": "Floppy_the_Hero",
+              "audio": "assets/passages/audios/GoodEnglish2a/27.Floppy_the_Hero.mp3",
+              "srt": "assets/passages/audios/GoodEnglish2a/27.Floppy_the_Hero-cn.srt"
+            },
+            {
+              "id": "28",
+              "title": "Kipper's_Laces",
+              "audio": "assets/passages/audios/GoodEnglish2a/28.Kipper's_Laces.mp3",
+              "srt": "assets/passages/audios/GoodEnglish2a/28.Kipper's_Laces-cn.srt"
+            },
+            {
+              "id": "29",
+              "title": "The_Wobbly_Tooth",
+              "audio": "assets/passages/audios/GoodEnglish2a/29.The_Wobbly_Tooth.mp3",
+              "srt": "assets/passages/audios/GoodEnglish2a/29.The_Wobbly_Tooth-cn.srt"
+            },
+            {
+              "id": "30",
+              "title": "The_Foggy_Day",
+              "audio": "assets/passages/audios/GoodEnglish2a/30.The_Foggy_Day.mp3",
+              "srt": "assets/passages/audios/GoodEnglish2a/30.The_Foggy_Day-cn.srt"
+            }
+          ]
+        },
+        {
+          "id": "good-english-2b",
+          "name": "Good English 2B",
+          "type": "doc",
+          "author": "外语教学与研究出版社",
+          "description": "2B 分册：延续 2A 难度梯度，巩固词汇与篇章理解。",
+          "cover": "assets/passages/covers/good-english2b.png",
+          "items": [
+            {
+              "id": "1",
+              "title": "Poor_Old_Rabbit!",
+              "audio": "assets/passages/audios/GoodEnglish2b/01.Poor_Old_Rabbit!.mp3",
+              "srt": "assets/passages/audios/GoodEnglish2b/01.Poor_Old_Rabbit!-cn.srt"
+            },
+            {
+              "id": "2",
+              "title": "Super_Dad!",
+              "audio": "assets/passages/audios/GoodEnglish2b/02.Super_Dad!.mp3",
+              "srt": "assets/passages/audios/GoodEnglish2b/02.Super_Dad!-cn.srt"
+            },
+            {
+              "id": "3",
+              "title": "I_Can_Trick_a_Tiger",
+              "audio": "assets/passages/audios/GoodEnglish2b/03.I_Can_Trick_a_Tiger.mp3",
+              "srt": "assets/passages/audios/GoodEnglish2b/03.I_Can_Trick_a_Tiger-cn.srt"
+            },
+            {
+              "id": "4",
+              "title": "The_Monster_Hunt",
+              "audio": "assets/passages/audios/GoodEnglish2b/04.The_Monster_Hunt.mp3",
+              "srt": "assets/passages/audios/GoodEnglish2b/04.The_Monster_Hunt-cn.srt"
+            },
+            {
+              "id": "5",
+              "title": "Floppy_and_the_Bone",
+              "audio": "assets/passages/audios/GoodEnglish2b/05.Floppy_and_the_Bone.mp3",
+              "srt": "assets/passages/audios/GoodEnglish2b/05.Floppy_and_the_Bone-cn.srt"
+            },
+            {
+              "id": "6",
+              "title": "Ouch!",
+              "audio": "assets/passages/audios/GoodEnglish2b/06.Ouch!.mp3",
+              "srt": "assets/passages/audios/GoodEnglish2b/06.Ouch!-cn.srt"
+            },
+            {
+              "id": "7",
+              "title": "A_Cat_in_the_Tree",
+              "audio": "assets/passages/audios/GoodEnglish2b/07.A_Cat_in_the_Tree.mp3",
+              "srt": "assets/passages/audios/GoodEnglish2b/07.A_Cat_in_the_Tree-cn.srt"
+            },
+            {
+              "id": "8",
+              "title": "The_Egg_Hunt",
+              "audio": "assets/passages/audios/GoodEnglish2b/08.The_Egg_Hunt.mp3",
+              "srt": "assets/passages/audios/GoodEnglish2b/08.The_Egg_Hunt-cn.srt"
+            },
+            {
+              "id": "9",
+              "title": "Nobody_Wanted_to_Play",
+              "audio": "assets/passages/audios/GoodEnglish2b/09.Nobody_Wanted_to_Play.mp3",
+              "srt": "assets/passages/audios/GoodEnglish2b/09.Nobody_Wanted_to_Play-cn.srt"
+            },
+            {
+              "id": "10",
+              "title": "The_Rope_Swing",
+              "audio": "assets/passages/audios/GoodEnglish2b/10.The_Rope_Swing.mp3",
+              "srt": "assets/passages/audios/GoodEnglish2b/10.The_Rope_Swing-cn.srt"
+            },
+            {
+              "id": "11",
+              "title": "On_the_Sand",
+              "audio": "assets/passages/audios/GoodEnglish2b/11.On_the_Sand.mp3",
+              "srt": "assets/passages/audios/GoodEnglish2b/11.On_the_Sand-cn.srt"
+            },
+            {
+              "id": "12",
+              "title": "By_the_Stream",
+              "audio": "assets/passages/audios/GoodEnglish2b/12.By_the_Stream.mp3",
+              "srt": "assets/passages/audios/GoodEnglish2b/12.By_the_Stream-cn.srt"
+            },
+            {
+              "id": "13",
+              "title": "The_Duck_Race",
+              "audio": "assets/passages/audios/GoodEnglish2b/13.The_Duck_Race.mp3",
+              "srt": "assets/passages/audios/GoodEnglish2b/13.The_Duck_Race-cn.srt"
+            },
+            {
+              "id": "14",
+              "title": "The_Ice_Rink",
+              "audio": "assets/passages/audios/GoodEnglish2b/14.The_Ice_Rink.mp3",
+              "srt": "assets/passages/audios/GoodEnglish2b/14.The_Ice_Rink-cn.srt"
+            },
+            {
+              "id": "15",
+              "title": "The_Mud_Bath",
+              "audio": "assets/passages/audios/GoodEnglish2b/15.The_Mud_Bath.mp3",
+              "srt": "assets/passages/audios/GoodEnglish2b/15.The_Mud_Bath-cn.srt"
+            },
+            {
+              "id": "16",
+              "title": "Pond_Dipping",
+              "audio": "assets/passages/audios/GoodEnglish2b/16.Pond_Dipping.mp3",
+              "srt": "assets/passages/audios/GoodEnglish2b/16.Pond_Dipping-cn.srt"
+            },
+            {
+              "id": "17",
+              "title": "Sniff",
+              "audio": "assets/passages/audios/GoodEnglish2b/17.Sniff.mp3",
+              "srt": "assets/passages/audios/GoodEnglish2b/17.Sniff-cn.srt"
+            },
+            {
+              "id": "18",
+              "title": "The_Steel_Band",
+              "audio": "assets/passages/audios/GoodEnglish2b/18.The_Steel_Band.mp3",
+              "srt": "assets/passages/audios/GoodEnglish2b/18.The_Steel_Band-cn.srt"
+            },
+            {
+              "id": "19",
+              "title": "Adam_Goes_Shopping",
+              "audio": "assets/passages/audios/GoodEnglish2b/19.Adam_Goes_Shopping.mp3",
+              "srt": "assets/passages/audios/GoodEnglish2b/19.Adam_Goes_Shopping-cn.srt"
+            },
+            {
+              "id": "20",
+              "title": "Adam's_Car",
+              "audio": "assets/passages/audios/GoodEnglish2b/20.Adam's_Car.mp3",
+              "srt": "assets/passages/audios/GoodEnglish2b/20.Adam's_Car-cn.srt"
+            },
+            {
+              "id": "21",
+              "title": "Mosque_School",
+              "audio": "assets/passages/audios/GoodEnglish2b/21.Mosque_School.mp3",
+              "srt": "assets/passages/audios/GoodEnglish2b/21.Mosque_School-cn.srt"
+            },
+            {
+              "id": "22",
+              "title": "Lucky_the_Goat",
+              "audio": "assets/passages/audios/GoodEnglish2b/22.Lucky_the_Goat.mp3",
+              "srt": "assets/passages/audios/GoodEnglish2b/22.Lucky_the_Goat-cn.srt"
+            },
+            {
+              "id": "23",
+              "title": "Yasmin_and_the_Flood",
+              "audio": "assets/passages/audios/GoodEnglish2b/23.Yasmin_and_the_Flood.mp3",
+              "srt": "assets/passages/audios/GoodEnglish2b/23.Yasmin_and_the_Flood-cn.srt"
+            },
+            {
+              "id": "24",
+              "title": "Yasmin's_Dress",
+              "audio": "assets/passages/audios/GoodEnglish2b/24.Yasmin's_Dress.mp3",
+              "srt": "assets/passages/audios/GoodEnglish2b/24.Yasmin's_Dress-cn.srt"
+            },
+            {
+              "id": "25",
+              "title": "Midge_in_Hospital",
+              "audio": "assets/passages/audios/GoodEnglish2b/25.Midge_in_Hospital.mp3",
+              "srt": "assets/passages/audios/GoodEnglish2b/25.Midge_in_Hospital-cn.srt"
+            },
+            {
+              "id": "26",
+              "title": "Roy_and_the_Budgie",
+              "audio": "assets/passages/audios/GoodEnglish2b/26.Roy_and_the_Budgie.mp3",
+              "srt": "assets/passages/audios/GoodEnglish2b/26.Roy_and_the_Budgie-cn.srt"
+            },
+            {
+              "id": "27",
+              "title": "Pip_at_the_Zoo",
+              "audio": "assets/passages/audios/GoodEnglish2b/27.Pip_at_the_Zoo.mp3",
+              "srt": "assets/passages/audios/GoodEnglish2b/27.Pip_at_the_Zoo-cn.srt"
+            },
+            {
+              "id": "28",
+              "title": "Joe_and_the_Bike",
+              "audio": "assets/passages/audios/GoodEnglish2b/28.Joe_and_the_Bike.mp3",
+              "srt": "assets/passages/audios/GoodEnglish2b/28.Joe_and_the_Bike-cn.srt"
+            },
+            {
+              "id": "29",
+              "title": "Midge_and_the_Eggs",
+              "audio": "assets/passages/audios/GoodEnglish2b/29.Midge_and_the_Eggs.mp3",
+              "srt": "assets/passages/audios/GoodEnglish2b/29.Midge_and_the_Eggs-cn.srt"
+            },
+            {
+              "id": "30",
+              "title": "Pip_and_the_Little_Monkey",
+              "audio": "assets/passages/audios/GoodEnglish2b/30.Pip_and_the_Little_Monkey.mp3",
+              "srt": "assets/passages/audios/GoodEnglish2b/30.Pip_and_the_Little_Monkey-cn.srt"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

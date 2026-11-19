@@ -1,0 +1,125 @@
+1
+00:00:08,509 --> 00:00:09,308
+Shark
+鲨鱼
+
+2
+00:00:10,557 --> 00:00:14,060
+This big grey animal lives in the sea
+这种灰色的大动物生活在海里
+
+3
+00:00:15,157 --> 00:00:19,821
+It's got a very big mouth and a lot of teeth
+它有一张很大的嘴和很多牙齿
+
+4
+00:00:20,638 --> 00:00:23,300
+It can sometimes eat people
+它有时会吃人
+
+5
+00:00:26,917 --> 00:00:27,861
+Dolphin
+海豚
+
+6
+00:00:29,158 --> 00:00:31,580
+This grey animal lives in the sea
+这种灰色的动物生活在海里
+
+7
+00:00:32,317 --> 00:00:35,381
+It's got a long e and small teeth
+它有一个长e和小牙齿
+
+8
+00:00:35,798 --> 00:00:39,460
+It's very clever and it likes playing
+它很聪明，喜欢玩耍
+
+9
+00:00:43,838 --> 00:00:45,021
+Kangaroo
+袋鼠
+
+10
+00:00:47,718 --> 00:00:52,180
+This big brown animal lives in Australia
+这种棕色的大动物生活在澳大利亚
+
+11
+00:00:53,158 --> 00:01:00,460
+It's got two long strong legs and two short thin arms
+它有两条又长又壮的腿和两条又短又细的胳膊
+
+12
+00:01:01,037 --> 00:01:02,301
+It can jump
+它能跳
+
+13
+00:01:06,197 --> 00:01:07,100
+Parrot
+鹦鹉
+
+14
+00:01:08,718 --> 00:01:10,421
+This animal can fly
+这种动物会飞
+
+15
+00:01:11,078 --> 00:01:12,501
+It eats fruit
+它吃水果
+
+16
+00:01:13,998 --> 00:01:23,301
+It can be red green and blue an it's very loud
+它可以是红色、绿色和蓝色，而且声音很大。
+
+17
+00:01:27,409 --> 00:01:28,209
+Bat
+蝙蝠
+
+18
+00:01:30,237 --> 00:01:36,581
+This small black or brown animal can fly but it isn't a bird
+这种黑色或棕色的小动物会飞，但它不是鸟。
+
+19
+00:01:38,278 --> 00:01:41,820
+It eats fruit and insects
+它吃水果和昆虫
+
+20
+00:01:42,197 --> 00:01:46,581
+It sleeps in the day and wakes up at night
+它白天睡觉晚上醒来
+
+21
+00:01:48,929 --> 00:01:49,728
+Bear
+熊
+
+22
+00:01:50,597 --> 00:01:54,781
+This big animal is grey brown or white
+这个大动物是灰棕色或白色
+
+23
+00:01:55,957 --> 00:02:02,460
+It's big and it can stand on two legs
+它很大，可以用两条腿站立
+
+24
+00:02:03,158 --> 00:02:07,661
+It eats fish meat fruit and plants
+它吃鱼肉水果和植物
+
+25
+00:02:07,837 --> 00:02:10,020
+It sleeps when it's cold
+天冷的时候它就睡着了
+

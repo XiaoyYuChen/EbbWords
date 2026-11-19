@@ -1,0 +1,45 @@
+1
+00:00:01,157 --> 00:00:09,102
+my school i love my school it is big and it has many classrooms
+我的学校我爱我的学校它很大有很多教室
+
+2
+00:00:09,637 --> 00:00:12,461
+My favorite class is art
+我最喜欢的课是美术课
+
+3
+00:00:12,916 --> 00:00:17,341
+I like to draw and paint during recess
+我喜欢在课间休息时画画
+
+4
+00:00:17,797 --> 00:00:21,621
+I play with my friends in the playground
+我和朋友们在操场上玩
+
+5
+00:00:22,516 --> 00:00:26,382
+We have a nice library with many books
+我们有一个很漂亮的图书馆里面有很多书
+
+6
+00:00:26,917 --> 00:00:32,182
+Our teachers are kind and help us learn new things
+我们的老师很善良帮助我们学习新事物
+
+7
+00:00:32,796 --> 00:00:35,781
+I enjoy going to school every day
+我喜欢每天上学
+
+8
+00:00:37,917 --> 00:00:39,515
+hello, this is panda
+你好，我是熊猫
+
+9
+00:00:39,517 --> 00:00:40,701
+have a nice day
+祝你有愉快的一天
+

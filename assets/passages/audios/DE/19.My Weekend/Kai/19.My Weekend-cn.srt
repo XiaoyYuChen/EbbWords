@@ -1,0 +1,65 @@
+1
+00:00:00,007 --> 00:00:01,411
+My weekend is fun
+我的周末很有趣
+
+2
+00:00:01,727 --> 00:00:03,331
+On Saturday morning
+周六早上
+
+3
+00:00:03,407 --> 00:00:06,451
+I went to the park with my mom and dad for a picnic
+我和爸爸妈妈去公园野餐
+
+4
+00:00:06,607 --> 00:00:08,400
+We brought sandwiches, fruits
+我们带了三明治水果
+
+5
+00:00:08,400 --> 00:00:09,211
+and juice
+和果汁
+
+6
+00:00:09,846 --> 00:00:12,811
+We sat on the grass and enjoyed the delicious food
+我们坐在草地上享受着美味的食物
+
+7
+00:00:13,089 --> 00:00:13,813
+After eating
+吃完之后
+
+8
+00:00:13,813 --> 00:00:17,532
+I played soccer with my dad while my mom read a book nearby
+我和爸爸踢足球妈妈在旁边看书
+
+9
+00:00:17,606 --> 00:00:18,725
+We had a great time
+我们玩得很开心
+
+10
+00:00:18,725 --> 00:00:19,480
+On Sunday
+在星期天
+
+11
+00:00:19,480 --> 00:00:22,532
+I did my homework and read books at
+我做了作业，读了书
+
+12
+00:00:22,868 --> 00:00:23,669
+home
+家
+
+13
+00:00:23,766 --> 00:00:26,402
+Weekends make me feel happy and relaxed
+周末让我感到快乐和放松
+
