@@ -1,0 +1,94 @@
+1
+00:00:10,199 --> 00:00:11,339
+good English
+典范英语
+
+2
+00:00:12,400 --> 00:00:13,900
+lesson 7
+第七课
+
+3
+00:00:15,199 --> 00:00:16,940
+the little dragon
+小龙
+
+4
+00:00:19,679 --> 00:00:21,899
+the children put on a play
+孩子们上演了一出戏
+
+5
+00:00:26,679 --> 00:00:29,579
+I am the king said Chip
+我是国王Chip说
+
+6
+00:00:30,719 --> 00:00:32,420
+fight the dragon
+斗恶龙
+
+7
+00:00:37,200 --> 00:00:39,939
+I am the knight said Wilma
+我是骑士Wilma说
+
+8
+00:00:40,880 --> 00:00:43,219
+I will fight the dragon
+我要和恶龙战斗
+
+9
+00:00:47,679 --> 00:00:51,179
+I am the dragon said Kipper
+我是龙Kipper说
+
+10
+00:00:52,439 --> 00:00:52,920
+but
+但是
+
+11
+00:00:52,920 --> 00:00:55,259
+I am a little dragon
+我是小龙
+
+12
+00:00:59,640 --> 00:01:03,500
+I am the Princess said Biff
+我是公主Biff说
+
+13
+00:01:04,599 --> 00:01:06,620
+I like dragons
+我喜欢龙
+
+14
+00:01:11,040 --> 00:01:13,739
+the princess played with the dragon
+公主与龙玩耍
+
+15
+00:01:15,280 --> 00:01:17,900
+they played under the tree
+他们在树下玩耍
+
+16
+00:01:22,280 --> 00:01:25,620
+I am the knight said Wilmer
+我是骑士Wilma说
+
+17
+00:01:27,439 --> 00:01:30,939
+I am frightened said the dragon
+我很害怕龙说
+
+18
+00:01:35,400 --> 00:01:43,060
+I am cross said the princess she pushed the night in the pond
+我生气了，公主说，她在池塘里推了一夜
+
+19
+00:01:47,719 --> 00:01:51,260
+what a good play said everyone
+大家说多好的一出戏

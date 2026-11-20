@@ -1,0 +1,34 @@
+1
+00:00:10,000 --> 00:00:12,960
+Good English lesson
+典范英语 教训
+
+2
+00:00:14,400 --> 00:00:16,179
+floppy floppy
+FloppyFloppy
+
+3
+00:00:18,839 --> 00:00:21,140
+oh floppy
+哦Floppy
+
+4
+00:00:25,839 --> 00:00:27,699
+no floppy
+没有Floppy
+
+5
+00:00:32,399 --> 00:00:34,259
+no floppy
+没有Floppy
+
+6
+00:00:39,079 --> 00:00:41,060
+no floppy
+没有Floppy
+
+7
+00:00:45,679 --> 00:00:47,539
+floppy floppy
+FloppyFloppy

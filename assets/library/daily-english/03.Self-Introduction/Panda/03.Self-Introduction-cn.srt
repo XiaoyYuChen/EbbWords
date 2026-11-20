@@ -1,0 +1,90 @@
+1
+00:00:01,854 --> 00:00:03,605
+self introduction
+自我介绍
+
+2
+00:00:05,094 --> 00:00:06,325
+self introduction
+自我介绍
+
+3
+00:00:07,453 --> 00:00:11,005
+hello everyone, my name is panda
+大家好，我叫熊猫
+
+4
+00:00:11,454 --> 00:00:13,845
+i am ten years old
+我十岁了
+
+5
+00:00:14,653 --> 00:00:18,253
+i have a happy family with my dad
+我和我爸爸有一个幸福的家庭
+
+6
+00:00:18,254 --> 00:00:19,085
+mom
+妈妈
+
+7
+00:00:19,094 --> 00:00:22,484
+grandpa, grandma and me
+爷爷，奶奶和我
+
+8
+00:00:23,934 --> 00:00:26,652
+i like to dance, sing
+我喜欢跳舞，唱歌
+
+9
+00:00:26,653 --> 00:00:28,364
+draw and play
+画画和玩耍
+
+10
+00:00:30,893 --> 00:00:34,645
+my favorite color is white
+我最喜欢的颜色是白色
+
+11
+00:00:35,933 --> 00:00:39,804
+i love to eat bananas and ice cream
+我喜欢吃香蕉和冰淇淋
+
+12
+00:00:41,654 --> 00:00:45,045
+i like to go to primary school
+我喜欢上小学
+
+13
+00:00:46,293 --> 00:00:50,445
+there are many friends to play with at school
+学校里有很多朋友可以一起玩
+
+14
+00:00:52,694 --> 00:00:54,804
+they are henry, tim
+他们是亨利，蒂姆
+
+15
+00:00:55,054 --> 00:00:59,045
+sigma, ethan and christina
+西格玛，伊森和克里斯蒂娜
+
+16
+00:01:00,054 --> 00:01:04,685
+i am very happy and very glad to meet you all
+我很高兴也很高兴见到你们大家
+
+17
+00:01:07,334 --> 00:01:08,453
+this is a panda
+这是一只熊猫
+
+18
+00:01:08,453 --> 00:01:09,644
+have a nice day
+祝你有愉快的一天
+

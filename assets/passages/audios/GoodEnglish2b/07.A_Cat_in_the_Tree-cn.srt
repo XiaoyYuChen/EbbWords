@@ -1,0 +1,99 @@
+1
+00:00:10,199 --> 00:00:11,339
+Good English
+典范英语
+
+2
+00:00:12,480 --> 00:00:14,019
+lesson 7
+第七课
+
+3
+00:00:15,199 --> 00:00:17,019
+a cat in the tree
+树上的一只猫
+
+4
+00:00:19,679 --> 00:00:21,859
+floppy barked at a cat
+软绵绵对着一只猫吠叫
+
+5
+00:00:25,559 --> 00:00:27,339
+the cat ran up a tree
+猫爬上了一棵树
+
+6
+00:00:33,000 --> 00:00:35,060
+biff was cross with Floppy
+Biff对Floppy很生气
+
+7
+00:00:39,079 --> 00:00:41,179
+wilmer climbed on the wall
+Wilma爬上了墙
+
+8
+00:00:46,679 --> 00:00:48,899
+wilmer climbed up the tree
+Wilma爬上了树
+
+9
+00:00:53,719 --> 00:00:55,820
+she couldn't get the cat
+她抓不到猫
+
+10
+00:01:02,920 --> 00:01:04,980
+wilmer couldn't get down
+Wilma不能下来
+
+11
+00:01:09,920 --> 00:01:12,019
+wilma's dad was cross
+Wilma的爸爸很生气
+
+12
+00:01:19,799 --> 00:01:21,519
+he put the ladder up
+他把梯子架了起来
+
+13
+00:01:26,640 --> 00:01:28,459
+wilma climbed down
+Wilma爬了下来
+
+14
+00:01:35,280 --> 00:01:37,480
+wilma's dad climbed the tree
+Wilma的爸爸爬上了树
+
+15
+00:01:43,000 --> 00:01:44,939
+he couldn't get the cat
+他抓不到猫
+
+16
+00:01:52,280 --> 00:01:54,340
+selma's dad was stuck
+Selma的爸爸被卡住了
+
+17
+00:01:58,799 --> 00:02:01,019
+the cat jumped down
+猫跳了下来
+
+18
+00:02:07,560 --> 00:02:09,819
+the fireman put a ladder up
+消防员架起了梯子
+
+19
+00:02:15,360 --> 00:02:17,659
+wilma's dad climbed down
+Wilma的爸爸爬下来
+
+20
+00:02:22,919 --> 00:02:25,800
+oh no said everyone
+哦，不，每个人都说

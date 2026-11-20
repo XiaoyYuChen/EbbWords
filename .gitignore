@@ -1,13 +1,6 @@
 __pycache__/
 *.pyc
 
-# 音频资源仅纳入 Daily English，其余教材音频不入库（本地/PAD 保留）
-/assets/passages/audios/*
-!/assets/passages/audios/DE/
-
-# 未被页面引用的旧音频副本，不入库
-/assets/library/
-/assets/passages/audio/
 .DS_Store
 Thumbs.db
 data/raw/word_index.txt

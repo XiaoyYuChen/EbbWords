@@ -1,0 +1,60 @@
+1
+00:00:10,080 --> 00:00:11,220
+Good English
+典范英语
+
+2
+00:00:12,480 --> 00:00:13,279
+lesson
+教训
+
+3
+00:00:15,560 --> 00:00:17,219
+chips robot
+芯片机器人
+
+4
+00:00:20,320 --> 00:00:22,500
+chip had a box
+奇普有一个盒子
+
+5
+00:00:27,120 --> 00:00:32,659
+this is my robot he said can you see it
+这是我的机器人，他说你能看到吗？
+
+6
+00:00:37,200 --> 00:00:41,100
+this is a leg said Chip
+这是一条腿，奇普说
+
+7
+00:00:42,159 --> 00:00:44,140
+can you see the robot
+你能看到机器人吗？
+
+8
+00:00:48,799 --> 00:00:55,500
+this is an arm said Chip can you see my robot
+这是一只手臂，说奇普，你能看到我的机器人吗？
+
+9
+00:01:00,159 --> 00:01:06,980
+can you see it yet said Chip no said Biff
+你能看到吗？奇普没有说比夫。
+
+10
+00:01:11,480 --> 00:01:14,780
+this is the head said Chip
+这是头说芯片
+
+11
+00:01:16,000 --> 00:01:18,260
+now can you see my robot
+现在你能看到我的机器人了吗？
+
+12
+00:01:22,719 --> 00:01:26,260
+we can see it now said Biff
+我们现在可以看到它说Biff
+

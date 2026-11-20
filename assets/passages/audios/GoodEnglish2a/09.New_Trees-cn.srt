@@ -1,0 +1,69 @@
+1
+00:00:10,199 --> 00:00:11,339
+good English
+典范英语
+
+2
+00:00:12,359 --> 00:00:13,660
+lesson 9
+第九课
+
+3
+00:00:14,960 --> 00:00:16,539
+new trees
+新树
+
+4
+00:00:19,199 --> 00:00:21,460
+the children went to the park
+孩子们去了公园
+
+5
+00:00:25,719 --> 00:00:28,320
+it was give a tree week
+这是一个星期的树。
+
+6
+00:00:29,719 --> 00:00:32,100
+everyone wanted to give trees
+每个人都想给树
+
+7
+00:00:36,399 --> 00:00:37,939
+dad gave a tree
+爸爸给了一棵树
+
+8
+00:00:38,960 --> 00:00:40,659
+he put it by the shed
+他把它放在棚子旁边
+
+9
+00:00:45,079 --> 00:00:49,219
+chip gave a tree he put it by the stream
+Chip给了一棵树，他把它放在溪边。
+
+10
+00:00:53,439 --> 00:00:57,700
+biff gave a tree she put it by the pond
+Biff给了一棵树，她把它放在池塘边
+
+11
+00:01:02,039 --> 00:01:05,980
+wolf gave a tree he put it by the bridge
+Wilf给了一棵树，他把它放在桥边
+
+12
+00:01:10,400 --> 00:01:14,659
+wilma gave a tree she put it by the swing
+Wilma给了一棵树，她把它放在秋千旁边。
+
+13
+00:01:19,120 --> 00:01:23,700
+floppy gave a bone he put it in a hole
+Floppy给了一根骨头，他把它放在一个洞里
+
+14
+00:01:28,000 --> 00:01:33,819
+a funny tree said Chip a funny bone said Dad
+一棵有趣的树说Chip，一根有趣的骨头说爸爸

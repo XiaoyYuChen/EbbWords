@@ -1,0 +1,40 @@
+1
+00:00:02,319 --> 00:00:04,160
+how often do you play in the park
+你多久去公园玩一次？
+
+2
+00:00:04,160 --> 00:00:10,099
+Simon do you play every day well no
+西蒙，你每天都玩得好吗？不
+
+3
+00:00:10,400 --> 00:00:18,100
+I never play in the park on Mondays yes we always have lots of homework on Mondays
+我星期一从不在公园里玩，是的，我们星期一总是有很多作业。
+
+4
+00:00:18,879 --> 00:00:28,399
+I sometimes play in the park after school on Wednesdays but I sometimes go swimming with Dad and what about
+我有时在星期三放学后去公园玩，但是我有时和爸爸去游泳
+
+5
+00:00:28,399 --> 00:00:29,859
+at the weekend
+在周末
+
+6
+00:00:30,600 --> 00:00:37,380
+I always play in the park on Sundays it's my favorite day
+星期天我总是在公园里玩这是我最喜欢的一天
+
+7
+00:00:37,960 --> 00:00:42,380
+Simon what day is it today
+西蒙今天几号
+
+8
+00:00:43,920 --> 00:00:48,899
+it's Sunday let's go to the park
+今天是星期天，我们去公园吧。
+

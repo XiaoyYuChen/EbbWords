@@ -1,0 +1,44 @@
+1
+00:00:10,080 --> 00:00:11,220
+Good English
+典范英语
+
+2
+00:00:12,480 --> 00:00:13,820
+lesson 13
+第十三课
+
+3
+00:00:15,240 --> 00:00:16,699
+at the park
+在公园
+
+4
+00:00:19,719 --> 00:00:21,379
+everyone went to the park
+大家都去公园了
+
+5
+00:00:25,920 --> 00:00:28,059
+chip went on the slide
+Chip上了滑梯
+
+6
+00:00:32,439 --> 00:00:34,460
+biff went on the horse
+Biff上马了
+
+7
+00:00:38,920 --> 00:00:41,140
+kipper went on the swing
+Kipper去荡秋千了
+
+8
+00:00:43,079 --> 00:00:45,100
+mum went on the seesaw
+妈妈去玩跷跷板了
+
+9
+00:00:49,719 --> 00:00:52,500
+floppy went to sleep
+Floppy睡着了

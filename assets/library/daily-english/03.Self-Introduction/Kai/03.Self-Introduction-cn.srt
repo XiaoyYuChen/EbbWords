@@ -1,0 +1,70 @@
+1
+00:00:00,000 --> 00:00:00,815
+Hello everyone!
+大家好！
+
+2
+00:00:00,816 --> 00:00:02,202
+My name is Bella
+我叫贝拉
+
+3
+00:00:02,295 --> 00:00:03,378
+I am four years old
+我四岁。
+
+4
+00:00:03,378 --> 00:00:04,934
+l have a happy family
+我有一个幸福的家庭
+
+5
+00:00:04,934 --> 00:00:05,735
+with my dad
+和我爸爸一起
+
+6
+00:00:05,735 --> 00:00:06,176
+mom
+妈妈
+
+7
+00:00:06,176 --> 00:00:08,122
+grandpa, grandma, and me
+爷爷奶奶还有我
+
+8
+00:00:08,375 --> 00:00:10,574
+I Like to dance, sing
+我喜欢跳舞，唱歌
+
+9
+00:00:10,576 --> 00:00:11,682
+draw, and play
+画画，玩一玩
+
+10
+00:00:11,976 --> 00:00:13,643
+My favorite color is pink
+我最喜欢的颜色是粉红色
+
+11
+00:00:13,855 --> 00:00:16,054
+I Love to eat bananas and ice cream
+我喜欢吃香蕉和冰淇淋
+
+12
+00:00:16,056 --> 00:00:17,843
+I Like to go to kindergarten
+我喜欢去幼儿园
+
+13
+00:00:17,936 --> 00:00:20,202
+There are many friends to play with at school
+学校里有很多朋友可以一起玩
+
+14
+00:00:20,256 --> 00:00:22,562
+I am very happy and very glad to meet you all!
+我很高兴，很高兴见到大家！
+

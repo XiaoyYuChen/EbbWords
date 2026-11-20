@@ -1,0 +1,74 @@
+1
+00:00:10,199 --> 00:00:11,339
+good English
+典范英语
+
+2
+00:00:12,560 --> 00:00:14,099
+lesson 10
+第十课
+
+3
+00:00:15,679 --> 00:00:16,940
+the band
+乐队
+
+4
+00:00:19,800 --> 00:00:22,059
+dad played his trumpet
+爸爸吹小号
+
+5
+00:00:26,399 --> 00:00:28,339
+he played in the house
+他在房子里玩
+
+6
+00:00:29,839 --> 00:00:32,140
+floppy barked at Dad
+Floppy对着爸爸吠叫
+
+7
+00:00:36,640 --> 00:00:38,780
+dad played in the garage
+爸爸在车库里玩
+
+8
+00:00:39,880 --> 00:00:42,420
+floppy barked at Dad
+Floppy对着爸爸吠叫
+
+9
+00:00:47,079 --> 00:00:51,979
+played in the shed floppy barked at Dad
+在棚子里玩Floppy对爸爸吠叫
+
+10
+00:00:56,399 --> 00:00:58,700
+dad played in a band
+爸爸在乐队演奏
+
+11
+00:01:03,560 --> 00:01:06,260
+the band played in the park
+乐队在公园里演奏
+
+12
+00:01:07,719 --> 00:01:10,099
+floppy went to the park
+Floppy去公园了
+
+13
+00:01:14,519 --> 00:01:19,140
+the band played floppy barked
+乐队演奏松软的吠叫
+
+14
+00:01:23,799 --> 00:01:30,219
+floppy barked and barked the band couldn't play
+软绵绵叫了又叫乐队不能演奏了
+
+15
+00:01:34,920 --> 00:01:38,260
+what a bad dog said Dad
+爸爸，一只坏狗说的话
